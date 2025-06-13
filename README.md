@@ -18,11 +18,12 @@ This tool transforms the official Cambridge B2 First handbook into an interactiv
 ### 🤖 Content Generation
 - **Static Tasks**: 10 pre-generated Reading Part 5 tasks with authentic exam-style questions
 - **Dynamic AI Generation**: Real-time task creation using local Ollama LLM
+- **📝 Text Type Selection**: Choose from 10 B2-appropriate text types for varied content
 - **Contextual Multiple Choice Questions** - Specific, not generic placeholders
 - **Multiple Topic Categories** - Travel/Adventure, Technology/Modern, Personal Growth, Environment, Health, Culture
-- **Official Task Specifications** - Following Cambridge guidelines
+- **Official Task Specifications** - Following Cambridge guidelines (400-800 words, 5-6 questions)
 - **Task Improvement** - AI-powered enhancement of existing tasks
-- **Batch Generation** - Create multiple tasks efficiently
+- **Batch Generation** - Create multiple tasks efficiently with text type combinations
 
 ### 📊 Interactive Practice
 - **Immediate Feedback** - Answer checking with explanations
@@ -83,8 +84,8 @@ streamlit run app/reading_part5.py --server.port 8504
 # Generated Tasks Browser (Port 8505/8506)
 streamlit run app/generated_tasks_browser.py --server.port 8505
 
-# 🤖 Ollama Task Generator (Port 8507)
-streamlit run app/ollama_generator.py --server.port 8507
+# 🤖 Ollama Task Generator (Port 8508)
+streamlit run app/ollama_generator.py --server.port 8508
 ```
 
 ## 📁 Project Structure
@@ -136,14 +137,27 @@ pandi-content-gen-b2-first/
 ### AI Generation Features
 - **Local LLM Integration** - Uses Ollama for privacy and control
 - **Multiple Model Support** - Compatible with llama3.1, mistral, and other models
+- **📝 Text Type Selection** - 10 B2-appropriate text types with specific styling
 - **Real-time Generation** - Create tasks on-demand with custom topics
-- **Quality Validation** - Automatic checking of generated content
-- **Batch Processing** - Generate multiple tasks efficiently
+- **Quality Validation** - Automatic checking of generated content (400-800 words, 5-6 questions)
+- **Batch Processing** - Generate multiple tasks efficiently with text type combinations
 - **Task Improvement** - AI-powered enhancement of existing content
+- **Robust JSON Parsing** - Handles complex LLM output with formatting characters
 
 ### Generated Content Quality
-- **550-750 word texts** per task
-- **6 specific questions** per task with contextual options
+- **400-800 word texts** per task (B2 First standard)
+- **5-6 specific questions** per task with contextual options (questions 31-36)
+- **10 Text Types Available:**
+  - 📰 Magazine Article - Informative lifestyle and science content
+  - 📄 Newspaper Article - News features and opinion pieces
+  - 📖 Novel Extract - Contemporary fiction excerpts
+  - ✍️ Personal Blog Post - First-person experiences
+  - 🔬 Popular Science Article - Accessible scientific explanations
+  - 🎭 Cultural Review - Commentary on books, films, art
+  - 💼 Professional Feature - Career and workplace content
+  - 🏠 Lifestyle Feature - Home, family, and personal interests
+  - 🌍 Travel Writing - Destination guides and cultural observations
+  - 📚 Educational Feature - Learning and skill development
 - **Question types include:**
   - Inference and implication
   - Word/phrase meaning in context
@@ -173,19 +187,39 @@ Instead of generic placeholders like "Option A for question 1", the system gener
 4. Review task types and requirements
 
 ### 🤖 AI-Powered Task Generation
-1. Launch the Ollama Task Generator (port 8507)
+1. Launch the Ollama Task Generator (port 8508)
 2. Ensure Ollama is running with a model loaded
-3. Enter a custom topic or select from suggestions
-4. Generate tasks in real-time with immediate preview
-5. Use batch generation for multiple tasks
-6. Improve existing tasks with AI enhancement
+3. **Select Text Type** - Choose from 10 B2-appropriate text types
+4. Enter a custom topic or select from suggestions
+5. Generate tasks in real-time with immediate preview
+6. **Batch Generation** - Select multiple text types for varied content
+7. Improve existing tasks with AI enhancement
+
+#### Text Type Selection Features
+- **Individual Tasks**: Dropdown selection with text type descriptions and examples
+- **Batch Generation**: Checkbox selection for multiple text types
+- **Style-Specific Prompts**: Each text type uses tailored generation instructions
+- **Authentic Content**: Text types follow B2 First exam standards
 
 ## 🛠️ Development
+
+### Recent Improvements (v2.0)
+- **📝 Text Type Selection System** - 10 B2-appropriate text types with specific styling
+- **Enhanced Validation** - Proper B2 First criteria (400-800 words, 5-6 questions)
+- **Robust JSON Parser** - Handles complex LLM output with formatting characters
+- **Improved Error Handling** - Better debugging and fallback mechanisms
+- **Streamlit UI Enhancements** - Text type dropdowns, checkboxes, and information panels
+- **Import Path Fixes** - Robust fallback import methods for better reliability
 
 ### Adding New Tasks
 1. Use `src/content/improved_part5_generator.py`
 2. Modify topics or question types as needed
 3. Generate new tasks with contextual questions
+
+### Adding New Text Types
+1. Update `B2_TEXT_TYPES` dictionary in `app/ollama_generator.py`
+2. Add corresponding prompts in `src/llm/ollama_client.py`
+3. Test generation with the new text type
 
 ### Extending Knowledge Base
 1. Add new PDF content to `source-docs/`
@@ -268,79 +302,3 @@ For questions or issues:
 ---
 
 **Built with ❤️ for Cambridge B2 First exam preparation** 
-
-# 🚀 **Ollama Integration Complete!**
-
-### **🤖 What's New:**
-
-#### **1. Ollama Client (`src/llm/ollama_client.py`)**
-- Direct communication with local Ollama LLM
-- Configurable models, temperature, and token limits
-- Connection testing and model listing
-- Specialized B2 First task generation methods
-
-#### **2. Enhanced Task Generator (`src/content/ollama_part5_generator.py`)**
-- Generates authentic Reading Part 5 tasks using Ollama
-- Batch generation capabilities
-- Task validation and quality checks
-- Automatic categorization by topic
-- Command-line interface
-
-#### **3. Streamlit Interface (`app/ollama_generator.py`)**
-- **4 tabs**: Generate Tasks, Improve Tasks, Batch Generation, Task Library
-- Real-time Ollama status checking
-- Model selection and parameter tuning
-- Interactive task generation and improvement
-- Progress tracking for batch operations
-
-#### **4. Test Suite (`test_ollama.py`)**
-- Verify Ollama connection
-- Test task generation
-- Comprehensive diagnostics
-
-### **🎯 How to Use:**
-
-#### **Setup Ollama:**
-```bash
-# 1. Install Ollama
-# Visit: https://ollama.ai/
-
-# 2. Start Ollama
-ollama serve
-
-# 3. Pull a model
-ollama pull llama3.1:8b
-```
-
-#### **Test Integration:**
-```bash
-python test_ollama.py
-```
-
-#### **Run Streamlit Interface:**
-```bash
-streamlit run app/ollama_generator.py --server.port 8507
-```
-
-#### **Command Line Generation:**
-```bash
-python src/content/ollama_part5_generator.py
-```
-
-### **🔧 Features:**
-
-- **Local LLM Power**: No API keys needed, runs entirely on your machine
-- **Multiple Models**: Support for any Ollama model (llama3.1, mistral, etc.)
-- **Quality Control**: Automatic validation of generated tasks
-- **Batch Processing**: Generate multiple tasks efficiently
-- **Task Improvement**: Enhance existing tasks with better questions
-- **Interactive UI**: User-friendly Streamlit interface
-
-### **📊 Generated Content Quality:**
-- **550-750 word texts** per task
-- **6 contextual questions** (not generic placeholders)
-- **Authentic B2 level** language and topics
-- **Proper Cambridge format** (questions 31-36)
-- **Multiple question types**: inference, vocabulary, attitude, details, references, main ideas
-
-Your project now has both the original static generation AND powerful local LLM capabilities! 🚀 
