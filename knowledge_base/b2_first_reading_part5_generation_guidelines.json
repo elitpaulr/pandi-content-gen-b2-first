@@ -1,0 +1,65 @@
+{
+  "title": "B2 First Reading Part 5 Generation Guidelines",
+  "description": {
+    "main_description": "Part 5 consists of a text, followed by six 4-option multiple-choice questions which test the understanding of content and text organisation. The text may be taken from, for example, a modern novel or an article. Questions may focus on the main ideas or details in the text, and on the attitudes or opinions expressed. Candidates may also be asked to deduce the meaning of a word or phrase and to demonstrate understanding of references, such as pronouns, within the text. Additionally, questions may focus on the tone of the text or the writer's purpose, as well as the use of exemplification or comparison. These questions may require candidates to infer the meaning from clues in the text, a skill which is an essential part of reading ability.",
+    "question_order": "The 4-option multiple-choice questions are presented in the same order as the information in the text so that candidates can follow the development of the writer's ideas as they work through the questions. The final question may require candidates to interpret an aspect of the text as a whole."
+  },
+  "text_requirements": {
+    "length": "One text of approximately 550-750 words",
+    "source_types": [
+      "Modern novel",
+      "Article"
+    ]
+  },
+  "question_types": [
+    {
+      "type": "Main ideas",
+      "focus": "Understanding key concepts and main points in the text"
+    },
+    {
+      "type": "Details",
+      "focus": "Comprehension of specific information"
+    },
+    {
+      "type": "Attitudes/Opinions",
+      "focus": "Understanding expressed viewpoints and perspectives"
+    },
+    {
+      "type": "Word/Phrase meaning",
+      "focus": "Deducing meaning from context"
+    },
+    {
+      "type": "References",
+      "focus": "Understanding pronouns and other referential devices"
+    },
+    {
+      "type": "Tone/Purpose",
+      "focus": "Identifying author's tone and intended purpose"
+    },
+    {
+      "type": "Exemplification/Comparison",
+      "focus": "Understanding examples and comparisons used in the text"
+    }
+  ],
+  "question_characteristics": {
+    "format": "4-option multiple choice",
+    "count": 6,
+    "order": "Sequential, following text information order",
+    "final_question": "Typically requires whole-text interpretation"
+  },
+  "skills_tested": [
+    "Understanding of content",
+    "Text organisation comprehension",
+    "Inference from context",
+    "Reference comprehension",
+    "Tone and purpose recognition",
+    "Detail and main idea identification"
+  ],
+  "key_requirements": [
+    "Questions must follow text order",
+    "All questions must have exactly 4 options",
+    "Final question should address text as whole",
+    "Questions should test both explicit and implicit understanding",
+    "Options must be clearly distinct from each other"
+  ]
+} 

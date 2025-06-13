@@ -1,0 +1,93 @@
+{
+  "task_id": "part5_task_02",
+  "title": "Reading Part 5 - Task 2",
+  "topic": "technology_modern",
+  "text": "The notification sound had become as familiar to Marcus as his own heartbeat, yet today it filled him with an unusual sense of dread. His smartphone lay face-down on the desk, its screen dark, but he knew that dozens of messages, emails, and updates were accumulating behind that black surface like water behind a dam.\n\nFor the past five years, Marcus had prided himself on being constantly connected, always available, perpetually in the loop. His colleagues admired his quick response times, his clients appreciated his immediate availability, and his friends had come to expect instant replies to their messages. But somewhere along the way, this digital efficiency had transformed from a useful tool into an overwhelming burden.\n\nThe breaking point had come the previous evening during his daughter's school play. As she performed her solo piece on stage, Marcus found himself automatically reaching for his phone to check a work email. The look of disappointment in her eyes when she spotted him in the audience, head down, fingers tapping, had hit him like a physical blow.\n\nNow, sitting in his home office on a Saturday morning, Marcus was conducting an experiment. He had turned off all notifications, closed his laptop, and placed his phone out of reach. The silence felt strange, almost oppressive. Without the constant stream of digital input, his mind seemed to wander aimlessly, unsure of how to occupy itself.\n\nBut gradually, something interesting began to happen. The anxiety that had been his constant companion for months started to ease. He became aware of sounds he hadn't noticed in years – birds singing outside his window, the gentle hum of the refrigerator, his own breathing. It was as if he had been living underwater and had finally surfaced.\n\nThe irony wasn't lost on him that technology, which had promised to make life easier and more connected, had actually created a barrier between him and the world around him. As he sat there in the unfamiliar quiet, Marcus began to wonder if there might be a different way to live – one that used technology as a tool rather than allowing it to become a master.",
+  "questions": [
+    {
+      "id": 31,
+      "question": "What does the comparison 'like water behind a dam' suggest about Marcus's messages?",
+      "options": [
+        "They are flowing smoothly and naturally",
+        "They are building up pressure and could overflow",
+        "They are being filtered and organized automatically",
+        "They are clean and refreshing to receive"
+      ],
+      "correct_answer": 1,
+      "question_type": "word_phrase_meaning"
+    },
+    {
+      "id": 32,
+      "question": "According to the text, how had Marcus's relationship with technology changed?",
+      "options": [
+        "From being useful to becoming burdensome",
+        "From being expensive to becoming affordable",
+        "From being simple to becoming complicated",
+        "From being optional to becoming necessary"
+      ],
+      "correct_answer": 0,
+      "question_type": "details"
+    },
+    {
+      "id": 33,
+      "question": "What was significant about Marcus's daughter's school play?",
+      "options": [
+        "It was the first time she had performed solo",
+        "It made Marcus realize his phone addiction was affecting his family",
+        "It was when Marcus received an important work email",
+        "It showed Marcus how talented his daughter was"
+      ],
+      "correct_answer": 1,
+      "question_type": "main_ideas"
+    },
+    {
+      "id": 34,
+      "question": "How does Marcus feel when he first turns off his devices?",
+      "options": [
+        "Relieved and immediately peaceful",
+        "Excited about the new experience",
+        "Uncomfortable and unsure",
+        "Angry about missing messages"
+      ],
+      "correct_answer": 2,
+      "question_type": "attitudes_opinions"
+    },
+    {
+      "id": 35,
+      "question": "What does 'it' refer to in the phrase 'as if he had been living underwater and had finally surfaced'?",
+      "options": [
+        "His constant anxiety",
+        "His digital disconnection",
+        "His awareness of natural sounds",
+        "His breathing pattern"
+      ],
+      "correct_answer": 2,
+      "question_type": "references"
+    },
+    {
+      "id": 36,
+      "question": "What is the writer's overall message about technology?",
+      "options": [
+        "Technology should be completely avoided in modern life",
+        "Technology is always harmful to family relationships",
+        "Technology should serve us rather than control us",
+        "Technology is too complicated for most people to use properly"
+      ],
+      "correct_answer": 2,
+      "question_type": "tone_purpose"
+    }
+  ],
+  "metadata": {
+    "word_count": 357,
+    "question_types_used": [
+      "word_phrase_meaning",
+      "details",
+      "main_ideas",
+      "attitudes_opinions",
+      "references",
+      "tone_purpose"
+    ],
+    "difficulty_level": "B2",
+    "estimated_time": "15 minutes"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "task_id": "part5_task_03",
+  "title": "Reading Part 5 - Task 3",
+  "topic": "personal_growth",
+  "text": "The letter arrived on a Tuesday, unremarkable in every way except for the return address that made Elena's hands tremble as she held it. Twenty-five years had passed since she had last seen that handwriting, yet she recognized it immediately. Her sister Maria, from whom she had been estranged since their mother's funeral, was reaching out across the chasm of silence that had divided their family.\n\nElena set the letter on her kitchen table and stared at it for nearly an hour before finding the courage to open it. The contents were brief but profound – Maria was getting married and wanted Elena to be there. More importantly, she wanted to heal the wounds that had kept them apart for so long. The letter contained no accusations, no demands for apologies, just a simple invitation to reconnect.\n\nThe sisters had once been inseparable, sharing secrets, dreams, and an unbreakable bond that everyone assumed would last forever. But their mother's death had revealed fundamental differences in how they processed grief and handled responsibility. What should have brought them closer together had instead driven them apart, each convinced that the other had failed in their duty as a daughter.\n\nElena had spent years justifying her position, building walls of righteousness around her wounded heart. She had convinced herself that she was the victim, that Maria had been selfish and uncaring during their mother's final months. But holding the letter now, she began to question the narrative she had constructed so carefully.\n\nThe truth, she realized, was probably more complex than either of them had been willing to acknowledge at the time. Grief had made them both act in ways that were unlike their true selves, and pride had prevented them from reaching out when the initial hurt was still fresh and potentially healable.\n\nAs Elena read the letter for the third time, she felt something shift inside her chest – a loosening of the tight knot of anger and resentment she had carried for so long. Perhaps it was time to choose love over pride, connection over being right. Perhaps some bridges, no matter how badly damaged, were worth rebuilding.",
+  "questions": [
+    {
+      "id": 31,
+      "question": "What made the letter remarkable to Elena?",
+      "options": [
+        "It arrived on an unusual day of the week",
+        "It was from her estranged sister Maria",
+        "It contained unexpected news about money",
+        "It was written in a foreign language"
+      ],
+      "correct_answer": 1,
+      "question_type": "details"
+    },
+    {
+      "id": 32,
+      "question": "What does 'the chasm of silence' refer to?",
+      "options": [
+        "The physical distance between the sisters",
+        "The period of no communication between them",
+        "The quiet atmosphere in Elena's house",
+        "The difference in their personalities"
+      ],
+      "correct_answer": 1,
+      "question_type": "word_phrase_meaning"
+    },
+    {
+      "id": 33,
+      "question": "According to the text, what caused the sisters' estrangement?",
+      "options": [
+        "A disagreement about Maria's wedding plans",
+        "Different ways of dealing with their mother's death",
+        "A fight over their mother's inheritance",
+        "Elena's move to a different city"
+      ],
+      "correct_answer": 1,
+      "question_type": "main_ideas"
+    },
+    {
+      "id": 34,
+      "question": "How has Elena's perspective changed while reading the letter?",
+      "options": [
+        "She becomes more angry with Maria",
+        "She starts to question her own version of events",
+        "She decides Maria was definitely wrong",
+        "She feels more justified in her position"
+      ],
+      "correct_answer": 1,
+      "question_type": "attitudes_opinions"
+    },
+    {
+      "id": 35,
+      "question": "What does 'them' refer to in 'either of them had been willing to acknowledge'?",
+      "options": [
+        "Elena and her mother",
+        "Maria and her mother",
+        "Elena and Maria",
+        "The wedding guests"
+      ],
+      "correct_answer": 2,
+      "question_type": "references"
+    },
+    {
+      "id": 36,
+      "question": "What is the main theme of the passage?",
+      "options": [
+        "The importance of family traditions",
+        "The difficulty of planning weddings",
+        "The power of forgiveness and reconciliation",
+        "The challenges of long-distance relationships"
+      ],
+      "correct_answer": 2,
+      "question_type": "tone_purpose"
+    }
+  ],
+  "metadata": {
+    "word_count": 358,
+    "question_types_used": [
+      "details",
+      "word_phrase_meaning",
+      "main_ideas",
+      "attitudes_opinions",
+      "references",
+      "tone_purpose"
+    ],
+    "difficulty_level": "B2",
+    "estimated_time": "15 minutes"
+  }
+}

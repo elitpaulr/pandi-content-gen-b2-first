@@ -1,0 +1,93 @@
+{
+  "task_id": "part5_task_04",
+  "title": "Reading Part 5 - Task 4",
+  "topic": "travel_adventure",
+  "text": "The morning mist clung to the mountain peaks as Sarah adjusted her backpack straps for the third time. She had been planning this solo hiking trip for months, but now that she was actually here, doubt crept into her mind like the cold mountain air through her jacket. The trail ahead disappeared into a dense forest of pine trees, their branches heavy with yesterday's rain.\n\nHer guidebook had warned about the challenging terrain, but nothing could have prepared her for the reality of the steep, rocky path that lay before her. Each step required careful consideration, and she found herself moving much slower than anticipated. The silence was both peaceful and unnerving – broken only by the occasional bird call or the distant sound of water rushing over rocks.\n\nAs she climbed higher, the trees began to thin out, revealing breathtaking views of the valley below. The small village where she had started her journey now looked like a collection of toy houses scattered across a green carpet. For the first time since beginning her trek, Sarah felt a surge of confidence. Perhaps she was stronger than she had given herself credit for.\n\nThe path leveled out temporarily, giving her a chance to catch her breath and consult her map. According to her calculations, she was making good progress, though the most difficult section still lay ahead. She pulled out her water bottle and took a long drink, savoring the cool liquid and the moment of rest.\n\nSuddenly, she heard voices approaching from behind. Two experienced hikers, their gear suggesting they were seasoned mountaineers, caught up with her at a steady pace. They greeted her warmly and, after a brief conversation, offered to share their knowledge of the trail ahead. Sarah hesitated – part of her wanted to prove she could complete this challenge alone, but their friendly demeanor and obvious expertise made the offer tempting.\n\nAs they continued together, Sarah realized that accepting help didn't diminish her achievement. The mountain was teaching her lessons she hadn't expected to learn, and sometimes the greatest strength came from knowing when to rely on others.",
+  "questions": [
+    {
+      "id": 31,
+      "question": "In the first paragraph, what does Sarah's repeated adjustment of her backpack straps suggest?",
+      "options": [
+        "She is inexperienced with hiking equipment",
+        "She is feeling nervous about the journey ahead",
+        "The backpack is too heavy for the trip",
+        "She wants to make sure everything is secure"
+      ],
+      "correct_answer": 1,
+      "question_type": "inference"
+    },
+    {
+      "id": 32,
+      "question": "What does the writer mean by 'nothing could have prepared her for the reality'?",
+      "options": [
+        "The guidebook information was completely wrong",
+        "Reading about something is different from experiencing it",
+        "She had not read the guidebook carefully enough",
+        "The weather conditions were unexpectedly bad"
+      ],
+      "correct_answer": 1,
+      "question_type": "word_phrase_meaning"
+    },
+    {
+      "id": 33,
+      "question": "How does Sarah's attitude change as she climbs higher?",
+      "options": [
+        "She becomes more worried about the difficult terrain",
+        "She starts to regret beginning the hike alone",
+        "She gains confidence in her abilities",
+        "She decides to turn back to the village"
+      ],
+      "correct_answer": 2,
+      "question_type": "attitudes_opinions"
+    },
+    {
+      "id": 34,
+      "question": "Why does Sarah hesitate when the other hikers offer help?",
+      "options": [
+        "She doesn't trust their expertise",
+        "She wants to prove her independence",
+        "She prefers to hike in silence",
+        "She thinks they might slow her down"
+      ],
+      "correct_answer": 1,
+      "question_type": "details"
+    },
+    {
+      "id": 35,
+      "question": "What does 'their friendly demeanor and obvious expertise' refer to?",
+      "options": [
+        "The mountain guides she had hired",
+        "The people from the village",
+        "The two experienced hikers",
+        "Her hiking companions from the start"
+      ],
+      "correct_answer": 2,
+      "question_type": "references"
+    },
+    {
+      "id": 36,
+      "question": "What is the main message of the text?",
+      "options": [
+        "Solo hiking can be dangerous without proper preparation",
+        "Mountain hiking requires expensive professional equipment",
+        "Personal growth can come from accepting help from others",
+        "Guidebooks are essential for successful hiking trips"
+      ],
+      "correct_answer": 2,
+      "question_type": "main_ideas"
+    }
+  ],
+  "metadata": {
+    "word_count": 353,
+    "question_types_used": [
+      "inference",
+      "word_phrase_meaning",
+      "attitudes_opinions",
+      "details",
+      "references",
+      "main_ideas"
+    ],
+    "difficulty_level": "B2",
+    "estimated_time": "15 minutes"
+  }
+}
