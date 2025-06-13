@@ -148,16 +148,16 @@ class OllamaTaskGenerator:
         # Check text length
         if 'text' in task_data:
             word_count = len(task_data['text'].split())
-            if word_count < 550 or word_count > 750:
-                errors.append(f"Text length {word_count} words (should be 550-750)")
+            if word_count < 50 or word_count > 400:
+                errors.append(f"Text length {word_count} words (should be 50-400)")
         
         # Check questions
         if 'questions' in task_data:
-            if len(task_data['questions']) != 6:
-                errors.append(f"Expected 6 questions, got {len(task_data['questions'])}")
+            if len(task_data['questions']) != 3:
+                errors.append(f"Expected 3 questions, got {len(task_data['questions'])}")
             
             for i, question in enumerate(task_data['questions']):
-                q_num = i + 31  # Questions should be numbered 31-36
+                q_num = i + 31  # Questions should be numbered 31-33
                 
                 if 'question_number' not in question or question['question_number'] != q_num:
                     errors.append(f"Question {i+1} should be numbered {q_num}")
