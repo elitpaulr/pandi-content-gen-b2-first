@@ -834,7 +834,7 @@ def main():
                 with col3:
                     view_mode = st.selectbox(
                         "View Mode",
-                        ["📖 Reader View", "📋 Summary View", "🔧 JSON View"],
+                        ["🎓 Learner View", "📋 Summary View", "🔧 JSON View"],
                         index=0
                     )
                 
@@ -906,7 +906,7 @@ def main():
                 st.info(f"Showing {len(tasks_data)} tasks")
                 
                 # Create tabs for each task
-                if view_mode == "📖 Reader View":
+                if view_mode == "🎓 Learner View":
                     # Create tabs for individual task viewing
                     task_names = [f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')[:30]}..." 
                                  if len(task.get('title', '')) > 30 
@@ -923,7 +923,7 @@ def main():
                         
                         for i, (task, tab) in enumerate(zip(tasks_data, selected_tabs)):
                             with tab:
-                                display_task_reader_view(task)
+                                display_task_learner_view(task)
                 
                 elif view_mode == "📋 Summary View":
                     # Display tasks in summary cards
@@ -940,8 +940,8 @@ def main():
         else:
             st.info("Generated tasks directory not found.")
 
-def display_task_reader_view(task):
-    """Display a task in a nicely formatted reader view"""
+def display_task_learner_view(task):
+    """Display a task in a nicely formatted learner view"""
     # Task header
     st.markdown(f"# 📖 {task.get('title', 'Untitled Task')}")
     
@@ -987,62 +987,164 @@ def display_task_reader_view(task):
     
     st.divider()
     
-    # Reading text
-    st.markdown("## 📄 Reading Text")
+    # Calculate dynamic height based on text length
     text_content = task.get('text', 'No text available')
+    word_count = len(text_content.split())
+    # Estimate height: ~25 words per line, ~25px per line, plus padding
+    estimated_text_height = max(400, min(1200, (word_count // 25) * 25 + 100))
     
-    # Format the text nicely
-    formatted_text = text_content.strip()
-    # Add proper paragraph breaks
-    paragraphs = formatted_text.split('\n\n')
-    for paragraph in paragraphs:
-        if paragraph.strip():
-            st.markdown(paragraph.strip())
-            st.markdown("")  # Add space between paragraphs
+    # Add CSS for side-by-side layout with dynamic height
+    st.markdown(f"""
+    <style>
+    .reading-text-container {{
+        min-height: {estimated_text_height}px;
+        max-height: none;
+        overflow-y: visible;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        border: 1px solid #e9ecef;
+        line-height: 1.6;
+        font-size: 16px;
+    }}
+    .reading-text-container p {{
+        margin-bottom: 1.2em;
+        text-align: justify;
+    }}
+    .questions-container {{
+        min-height: {estimated_text_height}px;
+        max-height: none;
+        overflow-y: visible;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: 1px solid #e9ecef;
+    }}
+    .question-item {{
+        margin-bottom: 25px;
+        padding: 15px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        border-left: 4px solid #007bff;
+    }}
+    .question-header {{
+        font-size: 18px;
+        font-weight: bold;
+        color: #007bff;
+        margin-bottom: 10px;
+    }}
+    .question-text {{
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: #333;
+    }}
+    .option-item {{
+        margin: 8px 0;
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-size: 15px;
+    }}
+    .option-correct {{
+        background-color: #d4edda;
+        border: 1px solid #c3e6cb;
+        color: #155724;
+        font-weight: 600;
+    }}
+    .option-incorrect {{
+        background-color: #ffffff;
+        border: 1px solid #dee2e6;
+        color: #495057;
+    }}
+    .question-meta {{
+        margin-top: 15px;
+        padding-top: 10px;
+        border-top: 1px solid #dee2e6;
+        font-size: 14px;
+        color: #6c757d;
+    }}
+    </style>
+    """, unsafe_allow_html=True)
     
-    st.divider()
+    # Create two columns for text and questions
+    col1, col2 = st.columns([1, 1])
     
-    # Questions section
-    st.markdown("## ❓ Questions")
-    questions = task.get('questions', [])
+    with col1:
+        st.markdown("## 📄 Reading Text")
+        
+        # Format the text nicely (text_content already retrieved above)
+        formatted_text = text_content.strip()
+        paragraphs = formatted_text.split('\n\n')
+        
+        # Create expandable text container that shows full content
+        text_html = '<div class="reading-text-container">'
+        for paragraph in paragraphs:
+            if paragraph.strip():
+                text_html += f'<p>{paragraph.strip()}</p>'
+        text_html += '</div>'
+        
+        st.markdown(text_html, unsafe_allow_html=True)
     
-    if questions:
-        for i, question in enumerate(questions, 1):
-            st.markdown(f"### Question {i}")
+    with col2:
+        st.markdown("## ❓ Questions")
+        questions = task.get('questions', [])
+        
+        if questions:
+            # Create scrollable questions container
+            questions_html = '<div class="questions-container">'
             
-            # Question text
-            question_text = question.get('question_text', 'No question text')
-            st.markdown(f"**{question_text}**")
+            for i, question in enumerate(questions, 1):
+                try:
+                    questions_html += f'<div class="question-item">'
+                    questions_html += f'<div class="question-header">Question {i}</div>'
+                    
+                    # Question text
+                    question_text = question.get('question_text', 'No question text')
+                    questions_html += f'<div class="question-text">{question_text}</div>'
+                    
+                    # Options
+                    options = question.get('options', {})
+                    correct_answer = question.get('correct_answer', '')
+                    
+                    if options:
+                        # Handle both dict and list formats for options
+                        if isinstance(options, dict):
+                            for option_key, option_text in options.items():
+                                if option_key == correct_answer:
+                                    questions_html += f'<div class="option-item option-correct">✅ <strong>{option_key}.</strong> {option_text}</div>'
+                                else:
+                                    questions_html += f'<div class="option-item option-incorrect"><strong>{option_key}.</strong> {option_text}</div>'
+                        elif isinstance(options, list):
+                            # Handle list format (fallback)
+                            option_keys = ['A', 'B', 'C', 'D']
+                            for j, option_text in enumerate(options):
+                                if j < len(option_keys):
+                                    option_key = option_keys[j]
+                                    if option_key == correct_answer:
+                                        questions_html += f'<div class="option-item option-correct">✅ <strong>{option_key}.</strong> {option_text}</div>'
+                                    else:
+                                        questions_html += f'<div class="option-item option-incorrect"><strong>{option_key}.</strong> {option_text}</div>'
+                    
+                    # Question metadata
+                    q_type = question.get('question_type', 'unknown')
+                    questions_html += f'<div class="question-meta">'
+                    questions_html += f'<strong>Type:</strong> {q_type.replace("_", " ").title()} | '
+                    questions_html += f'<strong>Correct Answer:</strong> {correct_answer}'
+                    
+                    # Explanation if available
+                    if question.get('explanation'):
+                        questions_html += f'<br><strong>💡 Explanation:</strong> {question.get("explanation")}'
+                    
+                    questions_html += f'</div>'
+                    questions_html += f'</div>'
+                    
+                except Exception as e:
+                    questions_html += f'<div class="question-item"><div style="color: red;">Error displaying question {i}: {str(e)}</div></div>'
             
-            # Options
-            options = question.get('options', {})
-            correct_answer = question.get('correct_answer', '')
-            
-            if options:
-                st.markdown("**Options:**")
-                for option_key, option_text in options.items():
-                    if option_key == correct_answer:
-                        st.markdown(f"✅ **{option_key}.** {option_text}")
-                    else:
-                        st.markdown(f"   **{option_key}.** {option_text}")
-            
-            # Question metadata
-            col1, col2 = st.columns(2)
-            with col1:
-                q_type = question.get('question_type', 'unknown')
-                st.markdown(f"**Type:** {q_type.replace('_', ' ').title()}")
-            with col2:
-                st.markdown(f"**Correct Answer:** {correct_answer}")
-            
-            # Explanation if available
-            if question.get('explanation'):
-                with st.expander("💡 Explanation"):
-                    st.markdown(question.get('explanation'))
-            
-            if i < len(questions):  # Don't add divider after last question
-                st.markdown("---")
-    else:
-        st.warning("No questions found for this task.")
+            questions_html += '</div>'
+            st.markdown(questions_html, unsafe_allow_html=True)
+        else:
+            st.warning("No questions found for this task.")
     
     # Action buttons
     st.divider()
@@ -1054,7 +1156,7 @@ def display_task_reader_view(task):
             data=json.dumps(task, indent=2),
             file_name=f"{task.get('task_id', 'task')}.json",
             mime="application/json",
-            key=f"download_reader_{task.get('task_id', 'unknown')}"
+            key=f"download_learner_{task.get('task_id', 'unknown')}"
         )
     
     with col2:
