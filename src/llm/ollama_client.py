@@ -3,6 +3,7 @@ import json
 import logging
 from typing import Dict, List, Optional, Any
 from dataclasses import dataclass
+from .json_parser import RobustJSONParser
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -123,39 +124,45 @@ class OllamaClient:
         Generate authentic Reading Part 5 tasks that match the official exam format exactly.
         
         CRITICAL: You must respond with ONLY valid JSON. No explanations, no markdown, no extra text.
-        IMPORTANT: Use only standard text characters. No special formatting, no line breaks within strings.
         
         Reading Part 5 Requirements:
-        - Text length: 550-750 words
+        - Text length: 550-750 words (engaging, authentic content)
         - 6 multiple choice questions (31-36)
         - Each question has 4 options (A, B, C, D)
         - Question types: inference, vocabulary in context, attitude/opinion, detail, reference, main idea
         - Text should be engaging and at B2 level
         - Questions must be specific and contextual, not generic
         
-        RESPOND WITH ONLY THIS JSON FORMAT (no other text, keep all text simple):
+        You can use natural formatting in your text including:
+        - Paragraphs with line breaks
+        - Quotation marks for dialogue or emphasis
+        - Natural punctuation and formatting
+        
+        The JSON parser will handle the formatting correctly.
+        
+        RESPOND WITH ONLY THIS JSON FORMAT:
         {
             "task_id": "reading_part5_task_01",
-            "title": "Task Title",
+            "title": "Engaging Task Title",
             "topic": "topic_category",
             "difficulty": "B2",
-            "text": "Short paragraph about the topic. Keep under 300 words. No line breaks or special characters.",
+            "text": "Your engaging text here. You can use natural formatting including line breaks for paragraphs, \"quotes\" for dialogue, and normal punctuation. Make it authentic and interesting - around 550-750 words that tell a compelling story or present interesting information about the topic.",
             "questions": [
                 {
                     "question_number": 31,
-                    "question_text": "Simple question about the text",
+                    "question_text": "What does the author suggest about...?",
                     "options": {
-                        "A": "Option A",
-                        "B": "Option B", 
-                        "C": "Option C",
-                        "D": "Option D"
+                        "A": "First realistic option",
+                        "B": "Second realistic option", 
+                        "C": "Third realistic option",
+                        "D": "Fourth realistic option"
                     },
                     "correct_answer": "A",
                     "question_type": "inference"
                 },
                 {
                     "question_number": 32,
-                    "question_text": "Another question",
+                    "question_text": "The word 'X' in paragraph 2 is closest in meaning to:",
                     "options": {
                         "A": "Option A",
                         "B": "Option B", 
@@ -163,11 +170,11 @@ class OllamaClient:
                         "D": "Option D"
                     },
                     "correct_answer": "B",
-                    "question_type": "detail"
+                    "question_type": "vocabulary"
                 },
                 {
                     "question_number": 33,
-                    "question_text": "Third question",
+                    "question_text": "According to the text, what happened when...?",
                     "options": {
                         "A": "Option A",
                         "B": "Option B", 
@@ -175,7 +182,43 @@ class OllamaClient:
                         "D": "Option D"
                     },
                     "correct_answer": "C",
-                    "question_type": "vocabulary"
+                    "question_type": "detail"
+                },
+                {
+                    "question_number": 34,
+                    "question_text": "The author's attitude towards... can be described as:",
+                    "options": {
+                        "A": "Option A",
+                        "B": "Option B", 
+                        "C": "Option C",
+                        "D": "Option D"
+                    },
+                    "correct_answer": "D",
+                    "question_type": "attitude"
+                },
+                {
+                    "question_number": 35,
+                    "question_text": "What does 'this' refer to in the final paragraph?",
+                    "options": {
+                        "A": "Option A",
+                        "B": "Option B", 
+                        "C": "Option C",
+                        "D": "Option D"
+                    },
+                    "correct_answer": "A",
+                    "question_type": "reference"
+                },
+                {
+                    "question_number": 36,
+                    "question_text": "What is the main idea of the text?",
+                    "options": {
+                        "A": "Option A",
+                        "B": "Option B", 
+                        "C": "Option C",
+                        "D": "Option D"
+                    },
+                    "correct_answer": "B",
+                    "question_type": "main_idea"
                 }
             ]
         }"""
@@ -183,13 +226,14 @@ class OllamaClient:
         user_prompt = f"""Create a Reading Part 5 task about: {topic}
         
         Make sure:
-        1. Keep the text under 300 words for reliability
-        2. The topic is engaging and suitable for B2 level students
-        3. Create 3 questions (31-33) that are specific to the text content
-        4. Questions test different skills: inference, vocabulary, attitude, details
-        5. Each question has exactly 4 realistic options
-        6. Only one option is clearly correct
-        7. Keep all text simple and avoid special characters
+        1. The text is 550-750 words and tells an engaging story or presents interesting information
+        2. Use natural formatting including paragraphs, quotes, and proper punctuation
+        3. The topic is engaging and suitable for B2 level students
+        4. Create 6 questions (31-36) that are specific to the text content
+        5. Questions test different skills: inference, vocabulary, attitude, details, reference, main idea
+        6. Each question has exactly 4 realistic options
+        7. Only one option is clearly correct for each question
+        8. Make the content authentic and interesting
         
         Topic: {topic}
         Difficulty: {difficulty}"""
@@ -201,77 +245,8 @@ class OllamaClient:
             logger.info(f"Raw LLM response length: {len(response)} characters")
             logger.debug(f"Raw response preview: {response[:200]}...")
             
-            # Clean up the response
-            response = response.strip()
-            
-            # Remove markdown code blocks if present
-            if response.startswith('```json'):
-                response = response[7:]
-            elif response.startswith('```'):
-                response = response[3:]
-            
-            if response.endswith('```'):
-                response = response[:-3]
-            
-            # Remove any leading/trailing whitespace again
-            response = response.strip()
-            
-            # Check if response is empty
-            if not response:
-                raise ValueError("Empty response from LLM")
-            
-            # Try to find JSON in the response if it's mixed with other text
-            json_start = response.find('{')
-            json_end = response.rfind('}') + 1
-            
-            if json_start != -1 and json_end > json_start:
-                json_content = response[json_start:json_end]
-                logger.debug(f"Extracted JSON content: {json_content[:200]}...")
-            else:
-                json_content = response
-                logger.warning("Could not find JSON boundaries, using full response")
-            
-            # Clean up control characters that break JSON parsing
-            import re
-            
-            # More aggressive cleaning - replace all control characters and fix JSON structure
-            # First, let's try to parse it with a more robust approach
-            try:
-                # Try parsing as-is first
-                task_data = json.loads(json_content)
-            except json.JSONDecodeError:
-                # If that fails, do aggressive cleaning
-                logger.info("Initial JSON parse failed, attempting cleanup...")
-                
-                # Remove all control characters except necessary whitespace
-                cleaned = re.sub(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]', ' ', json_content)
-                
-                # Fix multiple spaces
-                cleaned = re.sub(r'\s+', ' ', cleaned)
-                
-                # Try to fix common JSON issues
-                # Replace unescaped quotes in strings (this is tricky, but we'll try)
-                # This is a simplified approach - in practice, proper JSON escaping is complex
-                
-                # For now, let's try a different approach: use ast.literal_eval or custom parsing
-                # But first, let's try the simple cleanup
-                try:
-                    task_data = json.loads(cleaned)
-                except json.JSONDecodeError as e2:
-                    logger.error(f"Even after cleanup, JSON parsing failed: {e2}")
-                    logger.error(f"Cleaned content preview: {cleaned[:500]}")
-                    
-                    # Last resort: try to manually fix the JSON structure
-                    # This is a hack, but might work for our specific case
-                    try:
-                        # Try to use eval (dangerous but might work for our controlled case)
-                        # NO - too dangerous
-                        
-                        # Instead, let's try a different approach: 
-                        # Generate a simpler task structure
-                        raise ValueError(f"Could not parse JSON even after cleanup: {e2}")
-                    except:
-                                                 raise ValueError(f"JSON parsing completely failed: {e2}")
+            # Use the robust JSON parser to handle formatting characters
+            task_data = RobustJSONParser.parse_llm_json(response)
             
             # Validate the structure
             required_fields = ['task_id', 'title', 'topic', 'text', 'questions']
@@ -279,18 +254,13 @@ class OllamaClient:
                 if field not in task_data:
                     raise ValueError(f"Missing required field: {field}")
             
-            if 'questions' in task_data and len(task_data['questions']) != 3:
-                logger.warning(f"Expected 3 questions, got {len(task_data['questions'])}")
+            if 'questions' in task_data and len(task_data['questions']) != 6:
+                logger.warning(f"Expected 6 questions, got {len(task_data['questions'])}")
                 # Don't fail, just warn - some models might generate different amounts
             
             logger.info(f"Successfully generated task: {task_data.get('title', 'Unknown')}")
             return task_data
             
-        except json.JSONDecodeError as e:
-            logger.error(f"Failed to parse JSON response: {e}")
-            logger.error(f"Raw response (first 500 chars): {response[:500]}")
-            logger.error(f"Attempted JSON content: {json_content[:500] if 'json_content' in locals() else 'N/A'}")
-            raise ValueError(f"Invalid JSON response from LLM: {str(e)}")
         except Exception as e:
             logger.error(f"Failed to generate task: {e}")
             raise
@@ -326,35 +296,29 @@ class OllamaClient:
         3. Ensuring questions test different skills
         4. Making sure only one answer is clearly correct
         
+        You can use natural formatting in your improvements including quotes, line breaks, etc.
+        The JSON parser will handle the formatting correctly.
+        
         Return the improved task in the same JSON format."""
         
-        user_prompt = f"""Improve this Reading Part 5 task by making the questions more specific and contextual:
+        user_prompt = f"""Please improve this Reading Part 5 task:
 
-        {json.dumps(task_data, indent=2)}
+        Current task: {json.dumps(task_data, indent=2)}
         
-        Make sure each question:
-        - References specific parts of the text
-        - Has realistic distractors that could seem correct
-        - Tests a different skill (inference, vocabulary, attitude, etc.)
-        - Has only one clearly correct answer"""
+        Make the questions more specific to the text content and ensure the distractors are realistic but clearly incorrect."""
         
         try:
             response = self.generate_text(user_prompt, system_prompt)
             
-            # Clean up response
-            response = response.strip()
-            if response.startswith('```json'):
-                response = response[7:]
-            if response.endswith('```'):
-                response = response[:-3]
+            # Use the robust JSON parser
+            improved_task = RobustJSONParser.parse_llm_json(response)
             
-            improved_task = json.loads(response)
             logger.info(f"Successfully improved task: {improved_task.get('title', 'Unknown')}")
             return improved_task
             
         except Exception as e:
             logger.error(f"Failed to improve task: {e}")
-            return task_data  # Return original if improvement fails
+            raise
 
 # Example usage and testing
 if __name__ == "__main__":
