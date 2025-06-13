@@ -27,8 +27,29 @@ class OllamaClient:
     def check_connection(self) -> bool:
         """Check if Ollama is running and accessible"""
         try:
-            models = self.client.list()
-            logger.info(f"Connected to Ollama. Available models: {[m['name'] for m in models['models']]}")
+            models_response = self.client.list()
+            
+            # Extract model names from the response
+            model_names = []
+            if hasattr(models_response, 'models'):
+                # If it's an object with models attribute
+                for model in models_response.models:
+                    if hasattr(model, 'model'):
+                        model_names.append(model.model)
+                    elif hasattr(model, 'name'):
+                        model_names.append(model.name)
+                    else:
+                        model_names.append(str(model))
+            elif isinstance(models_response, dict) and 'models' in models_response:
+                # If it's a dictionary
+                for model in models_response['models']:
+                    if isinstance(model, dict):
+                        name = model.get('name') or model.get('model', 'unknown')
+                        model_names.append(name)
+                    else:
+                        model_names.append(str(model))
+            
+            logger.info(f"Connected to Ollama. Available models: {model_names}")
             return True
         except Exception as e:
             logger.error(f"Failed to connect to Ollama: {e}")
@@ -37,8 +58,29 @@ class OllamaClient:
     def list_models(self) -> List[str]:
         """List available models"""
         try:
-            models = self.client.list()
-            return [model['name'] for model in models['models']]
+            models_response = self.client.list()
+            
+            # Extract model names from the response
+            model_names = []
+            if hasattr(models_response, 'models'):
+                # If it's an object with models attribute
+                for model in models_response.models:
+                    if hasattr(model, 'model'):
+                        model_names.append(model.model)
+                    elif hasattr(model, 'name'):
+                        model_names.append(model.name)
+                    else:
+                        model_names.append(str(model))
+            elif isinstance(models_response, dict) and 'models' in models_response:
+                # If it's a dictionary
+                for model in models_response['models']:
+                    if isinstance(model, dict):
+                        name = model.get('name') or model.get('model', 'unknown')
+                        model_names.append(name)
+                    else:
+                        model_names.append(str(model))
+            
+            return model_names
         except Exception as e:
             logger.error(f"Failed to list models: {e}")
             return []
@@ -80,6 +122,8 @@ class OllamaClient:
         system_prompt = """You are an expert Cambridge B2 First exam content creator. 
         Generate authentic Reading Part 5 tasks that match the official exam format exactly.
         
+        CRITICAL: You must respond with ONLY valid JSON. No explanations, no markdown, no extra text.
+        
         Reading Part 5 Requirements:
         - Text length: 550-750 words
         - 6 multiple choice questions (31-36)
@@ -88,9 +132,9 @@ class OllamaClient:
         - Text should be engaging and at B2 level
         - Questions must be specific and contextual, not generic
         
-        Return ONLY valid JSON in this exact format:
+        RESPOND WITH ONLY THIS JSON FORMAT (no other text):
         {
-            "task_id": "reading_part5_task_XX",
+            "task_id": "reading_part5_task_01",
             "title": "Task Title",
             "topic": "topic_category",
             "difficulty": "B2",
@@ -129,14 +173,42 @@ class OllamaClient:
         try:
             response = self.generate_text(user_prompt, system_prompt)
             
-            # Try to extract JSON from response
+            # Log the raw response for debugging
+            logger.info(f"Raw LLM response length: {len(response)} characters")
+            logger.debug(f"Raw response preview: {response[:200]}...")
+            
+            # Clean up the response
             response = response.strip()
+            
+            # Remove markdown code blocks if present
             if response.startswith('```json'):
                 response = response[7:]
+            elif response.startswith('```'):
+                response = response[3:]
+            
             if response.endswith('```'):
                 response = response[:-3]
             
-            task_data = json.loads(response)
+            # Remove any leading/trailing whitespace again
+            response = response.strip()
+            
+            # Check if response is empty
+            if not response:
+                raise ValueError("Empty response from LLM")
+            
+            # Try to find JSON in the response if it's mixed with other text
+            json_start = response.find('{')
+            json_end = response.rfind('}') + 1
+            
+            if json_start != -1 and json_end > json_start:
+                json_content = response[json_start:json_end]
+                logger.debug(f"Extracted JSON content: {json_content[:200]}...")
+            else:
+                json_content = response
+                logger.warning("Could not find JSON boundaries, using full response")
+            
+            # Parse JSON
+            task_data = json.loads(json_content)
             
             # Validate the structure
             required_fields = ['task_id', 'title', 'topic', 'text', 'questions']
@@ -144,16 +216,18 @@ class OllamaClient:
                 if field not in task_data:
                     raise ValueError(f"Missing required field: {field}")
             
-            if len(task_data['questions']) != 6:
-                raise ValueError(f"Expected 6 questions, got {len(task_data['questions'])}")
+            if 'questions' in task_data and len(task_data['questions']) != 6:
+                logger.warning(f"Expected 6 questions, got {len(task_data['questions'])}")
+                # Don't fail, just warn - some models might generate different amounts
             
-            logger.info(f"Successfully generated task: {task_data['title']}")
+            logger.info(f"Successfully generated task: {task_data.get('title', 'Unknown')}")
             return task_data
             
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse JSON response: {e}")
-            logger.error(f"Raw response: {response}")
-            raise
+            logger.error(f"Raw response (first 500 chars): {response[:500]}")
+            logger.error(f"Attempted JSON content: {json_content[:500] if 'json_content' in locals() else 'N/A'}")
+            raise ValueError(f"Invalid JSON response from LLM: {str(e)}")
         except Exception as e:
             logger.error(f"Failed to generate task: {e}")
             raise

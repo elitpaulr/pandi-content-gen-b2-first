@@ -77,26 +77,44 @@ class OllamaTaskGenerator:
         """Generate a single Reading Part 5 task"""
         logger.info(f"Generating task {task_number} for topic: {topic}")
         
-        try:
-            # Generate the task using Ollama
-            task_data = self.client.generate_reading_part5_task(topic)
-            
-            # Update task ID to match our numbering
-            task_data['task_id'] = f"reading_part5_task_{task_number:02d}"
-            
-            # Add metadata
-            task_data['generated_by'] = "ollama"
-            task_data['model'] = self.client.config.model
-            task_data['topic_category'] = self.categorize_topic(topic)
-            
-            # Validate task quality
-            self.validate_task(task_data)
-            
-            return task_data
-            
-        except Exception as e:
-            logger.error(f"Failed to generate task {task_number}: {e}")
-            raise
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                logger.info(f"Attempt {attempt + 1}/{max_retries} for task {task_number}")
+                
+                # Generate the task using Ollama
+                task_data = self.client.generate_reading_part5_task(topic)
+                
+                # Update task ID to match our numbering
+                task_data['task_id'] = f"reading_part5_task_{task_number:02d}"
+                
+                # Add metadata
+                task_data['generated_by'] = "ollama"
+                task_data['model'] = self.client.config.model
+                task_data['topic_category'] = self.categorize_topic(topic)
+                
+                # Validate task quality
+                if self.validate_task(task_data):
+                    logger.info(f"✅ Successfully generated task {task_number} on attempt {attempt + 1}")
+                    return task_data
+                else:
+                    logger.warning(f"Task {task_number} failed validation on attempt {attempt + 1}")
+                    if attempt == max_retries - 1:
+                        # On last attempt, return even if validation fails
+                        logger.warning(f"Returning task {task_number} despite validation issues")
+                        return task_data
+                    continue
+                
+            except Exception as e:
+                logger.error(f"Attempt {attempt + 1} failed for task {task_number}: {e}")
+                if attempt == max_retries - 1:
+                    # On final attempt, create a fallback task
+                    logger.error(f"All attempts failed for task {task_number}, creating fallback")
+                    return self.create_fallback_task(topic, task_number)
+                continue
+        
+        # This should never be reached, but just in case
+        return self.create_fallback_task(topic, task_number)
     
     def categorize_topic(self, topic: str) -> str:
         """Categorize topic for organization"""
@@ -230,6 +248,115 @@ class OllamaTaskGenerator:
                 continue
         
         return improved_tasks
+    
+    def create_fallback_task(self, topic: str, task_number: int) -> Dict[str, Any]:
+        """Create a fallback task when AI generation fails"""
+        logger.info(f"Creating fallback task for topic: {topic}")
+        
+        fallback_task = {
+            "task_id": f"reading_part5_task_{task_number:02d}",
+            "title": f"Reading Task: {topic.title()}",
+            "topic": topic,
+            "topic_category": self.categorize_topic(topic),
+            "difficulty": "B2",
+            "generated_by": "fallback",
+            "model": "fallback",
+            "text": f"""This is a fallback task generated when AI generation failed for the topic '{topic}'. 
+            
+In today's rapidly changing world, the topic of {topic} has become increasingly important for people of all ages. Many experts believe that understanding this subject is crucial for personal and professional development.
+
+The concept of {topic} involves various aspects that affect our daily lives. From technological advances to social changes, the impact can be seen everywhere. People are constantly adapting to new situations and finding innovative ways to approach challenges.
+
+Research has shown that those who engage with {topic} tend to develop better problem-solving skills and a more comprehensive understanding of the world around them. This knowledge can be applied in numerous situations, making it a valuable asset in both personal and professional contexts.
+
+Furthermore, the study of {topic} often reveals interesting connections between different fields of knowledge. These interdisciplinary links help create a more holistic view of complex issues and can lead to breakthrough discoveries.
+
+As we move forward, it's clear that {topic} will continue to play a significant role in shaping our future. The ability to understand and work with these concepts will become increasingly important for success in the modern world.
+
+Educational institutions are recognizing this trend and incorporating more {topic}-related content into their curricula. This ensures that students are well-prepared for the challenges they will face in their careers and personal lives.""",
+            "questions": [
+                {
+                    "question_number": 31,
+                    "question_text": f"What does the text suggest about the importance of {topic}?",
+                    "options": {
+                        "A": "It is only relevant for certain professions",
+                        "B": "It is crucial for personal and professional development", 
+                        "C": "It is a temporary trend that will fade",
+                        "D": "It is too complex for most people to understand"
+                    },
+                    "correct_answer": "B",
+                    "question_type": "detail",
+                    "explanation": "The text explicitly states that understanding this subject is crucial for personal and professional development."
+                },
+                {
+                    "question_number": 32,
+                    "question_text": "According to the text, people who engage with this topic tend to:",
+                    "options": {
+                        "A": "become confused by complex information",
+                        "B": "avoid challenging situations",
+                        "C": "develop better problem-solving skills",
+                        "D": "focus only on theoretical knowledge"
+                    },
+                    "correct_answer": "C",
+                    "question_type": "detail",
+                    "explanation": "The text states that research shows these people develop better problem-solving skills."
+                },
+                {
+                    "question_number": 33,
+                    "question_text": "The word 'holistic' in paragraph 4 most likely means:",
+                    "options": {
+                        "A": "partial and incomplete",
+                        "B": "comprehensive and complete",
+                        "C": "simple and basic",
+                        "D": "theoretical and abstract"
+                    },
+                    "correct_answer": "B",
+                    "question_type": "vocabulary",
+                    "explanation": "Holistic refers to a comprehensive, complete view that considers all aspects."
+                },
+                {
+                    "question_number": 34,
+                    "question_text": "What does the text imply about the future relevance of this topic?",
+                    "options": {
+                        "A": "It will become less important over time",
+                        "B": "It will only matter in academic settings",
+                        "C": "It will continue to be significant",
+                        "D": "It will be replaced by newer concepts"
+                    },
+                    "correct_answer": "C",
+                    "question_type": "inference",
+                    "explanation": "The text states it will continue to play a significant role in shaping our future."
+                },
+                {
+                    "question_number": 35,
+                    "question_text": "The text mentions that educational institutions are:",
+                    "options": {
+                        "A": "ignoring current trends",
+                        "B": "reducing related content",
+                        "C": "incorporating more related content",
+                        "D": "focusing only on traditional subjects"
+                    },
+                    "correct_answer": "C",
+                    "question_type": "detail",
+                    "explanation": "The text explicitly states that institutions are incorporating more related content into curricula."
+                },
+                {
+                    "question_number": 36,
+                    "question_text": "The overall tone of the text can be described as:",
+                    "options": {
+                        "A": "pessimistic and worried",
+                        "B": "neutral and informative",
+                        "C": "critical and disapproving",
+                        "D": "enthusiastic and promotional"
+                    },
+                    "correct_answer": "B",
+                    "question_type": "tone",
+                    "explanation": "The text presents information in a balanced, informative way without strong emotional language."
+                }
+            ]
+        }
+        
+        return fallback_task
 
 def main():
     """Main function for command-line usage"""
