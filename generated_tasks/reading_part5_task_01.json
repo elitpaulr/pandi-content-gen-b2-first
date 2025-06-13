@@ -86,5 +86,6 @@
       "question_type": "tone",
       "explanation": "The text presents information in a balanced, informative way without strong emotional language."
     }
-  ]
+  ],
+  "text_type": "magazine_article"
 }

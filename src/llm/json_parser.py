@@ -93,13 +93,27 @@ class RobustJSONParser:
         i = 0
         in_string = False
         string_start_pos = -1
+        brace_count = 0
         
         while i < len(json_text):
             char = json_text[i]
             
             if not in_string:
                 # Outside of string
-                if char == '"':
+                if char == '{':
+                    brace_count += 1
+                    result.append(char)
+                elif char == '}':
+                    brace_count -= 1
+                    result.append(char)
+                    # If we've closed all braces, we might have a complete JSON object
+                    if brace_count == 0:
+                        # Check if there's more content after this that looks like JSON
+                        remaining = json_text[i+1:].strip()
+                        if not remaining or not remaining.startswith('{'):
+                            # This seems to be the end of the JSON object
+                            break
+                elif char == '"':
                     # Start of a string
                     in_string = True
                     string_start_pos = len(result)
@@ -158,10 +172,19 @@ class RobustJSONParser:
             
             i += 1
         
+        # If we're still in a string at the end, close it
+        if in_string:
+            result.append('"')
+        
+        # If we have unmatched braces, try to close them
+        while brace_count > 0:
+            result.append('}')
+            brace_count -= 1
+        
         return ''.join(result)
     
     @staticmethod
-    def parse_llm_json(json_text: str, max_attempts: int = 3) -> Dict[str, Any]:
+    def parse_llm_json(json_text: str, max_attempts: int = 4) -> Dict[str, Any]:
         """
         Parse JSON from LLM output with multiple fallback strategies.
         
@@ -188,9 +211,13 @@ class RobustJSONParser:
                     # Second attempt: basic cleanup
                     json_text = RobustJSONParser._basic_cleanup(original_text)
                     return json.loads(json_text)
-                else:
-                    # Final attempt: full string fixing
+                elif attempt == 2:
+                    # Third attempt: full string fixing
                     json_text = RobustJSONParser.fix_json_strings(original_text)
+                    return json.loads(json_text)
+                else:
+                    # Final attempt: try to extract and fix partial JSON
+                    json_text = RobustJSONParser._extract_partial_json(original_text)
                     return json.loads(json_text)
                     
             except json.JSONDecodeError as e:
@@ -226,4 +253,42 @@ class RobustJSONParser:
         if json_start != -1 and json_end > json_start:
             json_text = json_text[json_start:json_end]
         
-        return json_text 
+        return json_text
+    
+    @staticmethod
+    def _extract_partial_json(json_text: str) -> str:
+        """
+        Extract and fix partial JSON that might be incomplete.
+        This is a last-resort method for handling truncated responses.
+        """
+        # Basic cleanup first
+        json_text = RobustJSONParser._basic_cleanup(json_text)
+        
+        # Try to find the main JSON structure
+        start = json_text.find('{')
+        if start == -1:
+            raise ValueError("No JSON object found")
+        
+        # Count braces to find where the JSON might end
+        brace_count = 0
+        end = start
+        
+        for i in range(start, len(json_text)):
+            if json_text[i] == '{':
+                brace_count += 1
+            elif json_text[i] == '}':
+                brace_count -= 1
+                if brace_count == 0:
+                    end = i + 1
+                    break
+        
+        # Extract the JSON portion
+        json_portion = json_text[start:end]
+        
+        # If it's incomplete, try to complete it
+        if brace_count > 0:
+            # We have unclosed braces, try to close them
+            json_portion += '}' * brace_count
+        
+        # Apply string fixing
+        return RobustJSONParser._parse_and_fix_json(json_portion) 

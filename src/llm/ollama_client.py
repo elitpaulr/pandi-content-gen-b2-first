@@ -1,9 +1,9 @@
-import ollama
 import json
 import logging
-from typing import Dict, List, Optional, Any
 from dataclasses import dataclass
-from .json_parser import RobustJSONParser
+from typing import Dict, List, Any, Optional
+import ollama
+from src.llm.json_parser import RobustJSONParser
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -117,10 +117,26 @@ class OllamaClient:
             logger.error(f"Failed to generate text: {e}")
             raise
     
-    def generate_reading_part5_task(self, topic: str, difficulty: str = "B2") -> Dict[str, Any]:
-        """Generate a complete Reading Part 5 task using Ollama"""
+    def generate_reading_part5_task(self, topic: str, difficulty: str = "B2", text_type: str = "magazine_article", custom_instructions: Optional[str] = None) -> Dict[str, Any]:
+        """Generate a complete Reading Part 5 task using Ollama with specified text type"""
         
-        system_prompt = """You are an expert Cambridge B2 First exam content creator. 
+        # Text type specific instructions
+        text_type_instructions = {
+            "magazine_article": "Write as an engaging magazine article with a clear structure, subheadings if appropriate, and an informative yet accessible tone. Include expert quotes or statistics where relevant.",
+            "newspaper_article": "Write as a newspaper feature article with journalistic style, factual reporting, and balanced perspective. Include relevant context and background information.",
+            "novel_extract": "Write as an excerpt from a contemporary novel with character development, dialogue, and narrative description. Focus on showing rather than telling.",
+            "blog_post": "Write as a personal blog post with first-person perspective, conversational tone, and personal reflections or experiences.",
+            "science_article": "Write as a popular science article that explains complex concepts in accessible language, with examples and analogies to help understanding.",
+            "cultural_review": "Write as a cultural review or commentary with analytical perspective, critical evaluation, and informed opinion.",
+            "professional_feature": "Write as a professional feature article about workplace trends, career advice, or industry insights with practical information.",
+            "lifestyle_feature": "Write as a lifestyle feature about personal interests, home, family, or hobbies with practical tips and relatable content.",
+            "travel_writing": "Write as travel writing with vivid descriptions of places, cultural observations, and personal travel experiences.",
+            "educational_feature": "Write as an educational feature about learning, study techniques, or educational trends with informative and helpful content."
+        }
+        
+        text_style_instruction = text_type_instructions.get(text_type, text_type_instructions["magazine_article"])
+        
+        system_prompt = f"""You are an expert Cambridge B2 First exam content creator. 
         Generate authentic Reading Part 5 tasks that match the official exam format exactly.
         
         CRITICAL: You must respond with ONLY valid JSON. No explanations, no markdown, no extra text.
@@ -133,6 +149,8 @@ class OllamaClient:
         - Text should be engaging and at B2 level
         - Questions must be specific and contextual, not generic
         
+        TEXT TYPE INSTRUCTION: {text_style_instruction}
+        
         You can use natural formatting in your text including:
         - Paragraphs with line breaks
         - Quotation marks for dialogue or emphasis
@@ -141,92 +159,96 @@ class OllamaClient:
         The JSON parser will handle the formatting correctly.
         
         RESPOND WITH ONLY THIS JSON FORMAT:
-        {
+        {{
             "task_id": "reading_part5_task_01",
             "title": "Engaging Task Title",
             "topic": "topic_category",
+            "text_type": "{text_type}",
             "difficulty": "B2",
-            "text": "Your engaging text here. You can use natural formatting including line breaks for paragraphs, \"quotes\" for dialogue, and normal punctuation. Make it authentic and interesting - around 550-750 words that tell a compelling story or present interesting information about the topic.",
+            "text": "Your engaging text here following the {text_type} style. You can use natural formatting including line breaks for paragraphs, \\"quotes\\" for dialogue, and normal punctuation. Make it authentic and interesting - around 550-750 words that tell a compelling story or present interesting information about the topic.",
             "questions": [
-                {
+                {{
                     "question_number": 31,
                     "question_text": "What does the author suggest about...?",
-                    "options": {
+                    "options": {{
                         "A": "First realistic option",
                         "B": "Second realistic option", 
                         "C": "Third realistic option",
                         "D": "Fourth realistic option"
-                    },
+                    }},
                     "correct_answer": "A",
                     "question_type": "inference"
-                },
-                {
+                }},
+                {{
                     "question_number": 32,
                     "question_text": "The word 'X' in paragraph 2 is closest in meaning to:",
-                    "options": {
+                    "options": {{
                         "A": "Option A",
                         "B": "Option B", 
                         "C": "Option C",
                         "D": "Option D"
-                    },
+                    }},
                     "correct_answer": "B",
                     "question_type": "vocabulary"
-                },
-                {
+                }},
+                {{
                     "question_number": 33,
                     "question_text": "According to the text, what happened when...?",
-                    "options": {
+                    "options": {{
                         "A": "Option A",
                         "B": "Option B", 
                         "C": "Option C",
                         "D": "Option D"
-                    },
+                    }},
                     "correct_answer": "C",
                     "question_type": "detail"
-                },
-                {
+                }},
+                {{
                     "question_number": 34,
                     "question_text": "The author's attitude towards... can be described as:",
-                    "options": {
+                    "options": {{
                         "A": "Option A",
                         "B": "Option B", 
                         "C": "Option C",
                         "D": "Option D"
-                    },
+                    }},
                     "correct_answer": "D",
                     "question_type": "attitude"
-                },
-                {
+                }},
+                {{
                     "question_number": 35,
                     "question_text": "What does 'this' refer to in the final paragraph?",
-                    "options": {
+                    "options": {{
                         "A": "Option A",
                         "B": "Option B", 
                         "C": "Option C",
                         "D": "Option D"
-                    },
+                    }},
                     "correct_answer": "A",
                     "question_type": "reference"
-                },
-                {
+                }},
+                {{
                     "question_number": 36,
                     "question_text": "What is the main idea of the text?",
-                    "options": {
+                    "options": {{
                         "A": "Option A",
                         "B": "Option B", 
                         "C": "Option C",
                         "D": "Option D"
-                    },
+                    }},
                     "correct_answer": "B",
                     "question_type": "main_idea"
-                }
+                }}
             ]
-        }"""
+        }}"""
         
         user_prompt = f"""Create a Reading Part 5 task about: {topic}
         
+        Text Type: {text_type}
+        Style Instructions: {text_style_instruction}
+        
         Make sure:
-        1. The text is 550-750 words and tells an engaging story or presents interesting information
+        1. The text is 550-750 words and follows the {text_type} style
         2. Use natural formatting including paragraphs, quotes, and proper punctuation
         3. The topic is engaging and suitable for B2 level students
         4. Create 6 questions (31-36) that are specific to the text content
@@ -236,7 +258,11 @@ class OllamaClient:
         8. Make the content authentic and interesting
         
         Topic: {topic}
+        Text Type: {text_type}
         Difficulty: {difficulty}"""
+        
+        if custom_instructions:
+            user_prompt += f"\n\nAdditional Instructions: {custom_instructions}"
         
         try:
             response = self.generate_text(user_prompt, system_prompt)
@@ -253,6 +279,9 @@ class OllamaClient:
             for field in required_fields:
                 if field not in task_data:
                     raise ValueError(f"Missing required field: {field}")
+            
+            # Ensure text_type is set
+            task_data['text_type'] = text_type
             
             if 'questions' in task_data and len(task_data['questions']) != 6:
                 logger.warning(f"Expected 6 questions, got {len(task_data['questions'])}")

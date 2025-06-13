@@ -8,7 +8,7 @@ import json
 import os
 import sys
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 import logging
 
 # Add src to path for imports
@@ -73,17 +73,21 @@ class OllamaTaskGenerator:
             return False
         return True
     
-    def generate_single_task(self, topic: str, task_number: int) -> Dict[str, Any]:
-        """Generate a single Reading Part 5 task"""
-        logger.info(f"Generating task {task_number} for topic: {topic}")
+    def generate_single_task(self, topic: str, task_number: int, text_type: str = "magazine_article", custom_instructions: Optional[str] = None) -> Dict[str, Any]:
+        """Generate a single Reading Part 5 task with specified text type"""
+        logger.info(f"Generating task {task_number} for topic: {topic} (text type: {text_type})")
         
         max_retries = 3
         for attempt in range(max_retries):
             try:
                 logger.info(f"Attempt {attempt + 1}/{max_retries} for task {task_number}")
                 
-                # Generate the task using Ollama
-                task_data = self.client.generate_reading_part5_task(topic)
+                # Generate the task using Ollama with text type
+                task_data = self.client.generate_reading_part5_task(
+                    topic, 
+                    text_type=text_type,
+                    custom_instructions=custom_instructions
+                )
                 
                 # Update task ID to match our numbering
                 task_data['task_id'] = f"reading_part5_task_{task_number:02d}"
@@ -92,6 +96,7 @@ class OllamaTaskGenerator:
                 task_data['generated_by'] = "ollama"
                 task_data['model'] = self.client.config.model
                 task_data['topic_category'] = self.categorize_topic(topic)
+                task_data['text_type'] = text_type
                 
                 # Validate task quality
                 if self.validate_task(task_data):
@@ -110,11 +115,11 @@ class OllamaTaskGenerator:
                 if attempt == max_retries - 1:
                     # On final attempt, create a fallback task
                     logger.error(f"All attempts failed for task {task_number}, creating fallback")
-                    return self.create_fallback_task(topic, task_number)
+                    return self.create_fallback_task(topic, task_number, text_type)
                 continue
         
         # This should never be reached, but just in case
-        return self.create_fallback_task(topic, task_number)
+        return self.create_fallback_task(topic, task_number, text_type)
     
     def categorize_topic(self, topic: str) -> str:
         """Categorize topic for organization"""
@@ -136,7 +141,7 @@ class OllamaTaskGenerator:
             return 'general'
     
     def validate_task(self, task_data: Dict[str, Any]) -> bool:
-        """Validate generated task meets requirements"""
+        """Validate generated task meets B2 First Reading Part 5 requirements"""
         errors = []
         
         # Check required fields
@@ -145,28 +150,45 @@ class OllamaTaskGenerator:
             if field not in task_data:
                 errors.append(f"Missing field: {field}")
         
-        # Check text length
+        # Check text length - B2 First Reading Part 5 should be 550-750 words
+        # Allow some flexibility: 400-800 words
         if 'text' in task_data:
             word_count = len(task_data['text'].split())
-            if word_count < 50 or word_count > 400:
-                errors.append(f"Text length {word_count} words (should be 50-400)")
+            if word_count < 400 or word_count > 800:
+                errors.append(f"Text length {word_count} words (should be 400-800 for B2 First)")
         
-        # Check questions
+        # Check questions - B2 First Reading Part 5 has 6 questions (31-36)
+        # Allow 5-6 questions for flexibility
         if 'questions' in task_data:
-            if len(task_data['questions']) != 3:
-                errors.append(f"Expected 3 questions, got {len(task_data['questions'])}")
+            question_count = len(task_data['questions'])
+            if question_count < 5 or question_count > 6:
+                errors.append(f"Expected 5-6 questions for B2 First, got {question_count}")
             
             for i, question in enumerate(task_data['questions']):
-                q_num = i + 31  # Questions should be numbered 31-33
+                expected_q_num = i + 31  # Questions should be numbered 31-36
                 
-                if 'question_number' not in question or question['question_number'] != q_num:
-                    errors.append(f"Question {i+1} should be numbered {q_num}")
+                if 'question_number' not in question:
+                    errors.append(f"Question {i+1} missing question_number")
+                elif question['question_number'] != expected_q_num:
+                    # This is a warning, not an error - we can fix numbering
+                    logger.warning(f"Question {i+1} numbered {question['question_number']}, expected {expected_q_num}")
                 
-                if 'options' not in question or len(question['options']) != 4:
-                    errors.append(f"Question {i+1} should have exactly 4 options")
+                if 'options' not in question:
+                    errors.append(f"Question {i+1} missing options")
+                elif not isinstance(question['options'], dict):
+                    errors.append(f"Question {i+1} options should be a dictionary")
+                elif len(question['options']) != 4:
+                    # Check if it has A, B, C, D keys or if it's a different format
+                    option_keys = list(question['options'].keys())
+                    if not all(key in ['A', 'B', 'C', 'D'] for key in option_keys):
+                        errors.append(f"Question {i+1} should have options A, B, C, D")
+                    elif len(option_keys) != 4:
+                        errors.append(f"Question {i+1} should have exactly 4 options, got {len(option_keys)}")
                 
                 if 'correct_answer' not in question:
                     errors.append(f"Question {i+1} missing correct answer")
+                elif question['correct_answer'] not in ['A', 'B', 'C', 'D']:
+                    errors.append(f"Question {i+1} correct answer should be A, B, C, or D")
         
         if errors:
             logger.warning(f"Task validation issues: {'; '.join(errors)}")
@@ -186,32 +208,36 @@ class OllamaTaskGenerator:
         logger.info(f"💾 Saved task to: {filepath}")
         return filepath
     
-    def generate_batch_tasks(self, topics: List[str], tasks_per_topic: int = 2) -> List[Dict[str, Any]]:
-        """Generate multiple tasks for given topics"""
+    def generate_batch_tasks(self, topics: List[str], text_types: List[str] = None, tasks_per_topic: int = 1) -> List[Dict[str, Any]]:
+        """Generate multiple tasks for given topics and text types"""
         if not self.check_ollama_status():
             raise RuntimeError("Ollama is not available")
+        
+        if text_types is None:
+            text_types = ["magazine_article"]
         
         all_tasks = []
         task_counter = 1
         
-        logger.info(f"🚀 Starting batch generation: {len(topics)} topics, {tasks_per_topic} tasks each")
+        logger.info(f"🚀 Starting batch generation: {len(topics)} topics, {len(text_types)} text types, {tasks_per_topic} tasks each")
         
         for topic in topics:
-            logger.info(f"📝 Working on topic: {topic}")
-            
-            for i in range(tasks_per_topic):
-                try:
-                    task = self.generate_single_task(topic, task_counter)
-                    filepath = self.save_task(task)
-                    all_tasks.append(task)
+            for text_type in text_types:
+                for i in range(tasks_per_topic):
+                    logger.info(f"📝 Working on task {task_counter}: {text_type} about '{topic}'")
                     
-                    logger.info(f"✅ Task {task_counter} completed: {task['title']}")
-                    task_counter += 1
-                    
-                except Exception as e:
-                    logger.error(f"❌ Failed to generate task {task_counter} for '{topic}': {e}")
-                    task_counter += 1  # Still increment to maintain numbering
-                    continue
+                    try:
+                        task = self.generate_single_task(topic, task_counter, text_type)
+                        filepath = self.save_task(task)
+                        all_tasks.append(task)
+                        
+                        logger.info(f"✅ Task {task_counter} completed: {task['title']}")
+                        task_counter += 1
+                        
+                    except Exception as e:
+                        logger.error(f"❌ Failed to generate task {task_counter} for '{topic}' ({text_type}): {e}")
+                        task_counter += 1  # Still increment to maintain numbering
+                        continue
         
         logger.info(f"🎉 Batch generation complete! Generated {len(all_tasks)} tasks")
         return all_tasks
@@ -249,9 +275,9 @@ class OllamaTaskGenerator:
         
         return improved_tasks
     
-    def create_fallback_task(self, topic: str, task_number: int) -> Dict[str, Any]:
+    def create_fallback_task(self, topic: str, task_number: int, text_type: str) -> Dict[str, Any]:
         """Create a fallback task when AI generation fails"""
-        logger.info(f"Creating fallback task for topic: {topic}")
+        logger.info(f"Creating fallback task for topic: {topic} (text type: {text_type})")
         
         fallback_task = {
             "task_id": f"reading_part5_task_{task_number:02d}",
@@ -353,7 +379,8 @@ Educational institutions are recognizing this trend and incorporating more {topi
                     "question_type": "tone",
                     "explanation": "The text presents information in a balanced, informative way without strong emotional language."
                 }
-            ]
+            ],
+            "text_type": text_type
         }
         
         return fallback_task
