@@ -1,73 +1,85 @@
 {
   "task_id": "reading_part5_task_02",
-  "title": "My Digital Detox Experience: A Journey to Better Wellness",
-  "topic": "digital_wellness",
-  "text_type": "blog_post",
+  "title": "Eco-Tourism: A New Era of Sustainable Travel",
+  "topic": "environment_and_science",
+  "text_type": "newspaper_article",
   "difficulty": "B2",
-  "text": "\nAs I sat in my darkened room, surrounded by the glow of screens, I couldn't help but feel a sense of unease. It had been three days since I'd last checked my phone, and the cravings were starting to get intense.\n\n'I'm addicted,' I thought to myself, echoing the words of many a digital wellness expert. 'I need to take control back.'\n\nThe truth is, I'd let technology consume me. I'd wake up in the morning, scroll through social media for hours, only to feel more anxious and stressed by the time I got out of bed.\n\nBut what's the alternative? Going cold turkey on my phone was daunting. I knew it wouldn't be easy, but I also knew that something had to change.\n\nI began by setting boundaries – no screens after 9 pm, for example, or during meals. It wasn't always easy, especially when notifications from work started pinging in the evening.\n\n'You can't ignore them forever,' my friends would say. But I knew what they meant. Ignoring those notifications was a temporary solution; it didn't address the root problem.\n\nSo, I took a different approach. I started small – cutting back on social media usage by an hour each day, for instance. And then, gradually increased that time as the days went by.\n\nIt wasn't always easy. Some days felt like forever without my phone. But slowly, I began to notice changes within myself. My anxiety levels decreased; I slept better at night; and I even started enjoying the little things in life – taking a walk during lunch, for example, or reading a book before bed.\n\n'You're not alone,' wrote a fellow digital detox enthusiast online. 'There are many of us out there who have made this choice.'\n\nI felt a sense of solidarity with these strangers. We were all on this journey together, each in our own way. And that realization gave me the motivation I needed to keep going.\n\nFast-forward six months later – my phone habits have changed significantly. I've cut back on social media usage by over 75%, and I'm starting to enjoy quiet time without feeling like I'm missing out.\n\nIt's not a perfect system, of course. Some days still feel tough. But the truth is, this journey has taught me something fundamental about myself: that I am capable of change – even in small increments.\n\nI've come to realize that digital wellness isn't just about cutting back on phone usage; it's also about cultivating healthier habits and a more mindful relationship with technology.\n\nSo, if you're feeling overwhelmed by the constant ping of notifications or anxious at the thought of going cold turkey on your phone, know this: you're not alone. And most importantly – there is hope for change, no matter how small it may seem.\n",
+  "text": "\n\nThe tourism industry is one of the largest contributors to greenhouse gas emissions, with millions of travelers taking to the skies every year. However, a new wave of eco-tourism is emerging, aiming to reduce the environmental impact of travel while still providing an unforgettable experience for visitors.\n\nAccording to the World Tourism Organization (UNWTO), sustainable tourism can account for up to 10% of global GDP by 2030. This shift towards sustainability is being driven by a growing awareness among travelers about the impact of their actions on the environment.\n\n\"It's not just about reducing our carbon footprint, it's about preserving the natural beauty and cultural heritage of the places we visit,\" says Emma Taylor, founder of eco-tourism company, Terra Verde. \"We want to show travelers that they can have a meaningful experience without harming the environment.\"\n\nTerra Verde offers guided tours in some of the most remote and fragile ecosystems on Earth, from the Amazon rainforest to the Great Barrier Reef. Their guides are trained in sustainable practices, from reducing water waste to minimizing litter.\n\n\"We're not just talking about using public transportation or carrying reusable bags,\" says Taylor. \"We're talking about adopting a completely different mindset towards travel.\"\n\nOne of the key challenges facing eco-tourism is finding a balance between preserving the environment and providing an enjoyable experience for visitors. For example, in some national parks, guided tours are necessary to protect sensitive habitats from over-visitation.\n\nHowever, this can also have unintended consequences. \"In some cases, we've seen that even with regulated tourism, the sheer number of visitors is still causing damage to the environment,\" says Dr. Maria Rodriguez, a specialist in environmental science at the University of Cambridge.\n\nTo address this issue, Terra Verde has developed innovative solutions such as virtual reality experiences, allowing travelers to explore destinations without physically being there. \"It's not just about reducing numbers, it's about changing the way we experience travel,\" says Taylor.\n\nAs the demand for sustainable travel continues to grow, eco-tourism companies like Terra Verde are pioneering new ways of exploring our planet while preserving its beauty for future generations.\n\nThe trend towards eco-tourism is also having a positive impact on local communities. In many destinations, tourism revenue is being used to fund conservation projects and support community development initiatives.\n\nHowever, there is still much work to be done. \"We need to make sustainable travel accessible to everyone,\" says Taylor. \"It's not just about offering luxury eco-tourism packages; we need to create affordable options for people from all walks of life.\"\n\nAs the tourism industry continues to evolve, it's clear that sustainable travel is no longer a niche market, but a mainstream movement. With its potential to drive positive change and preserve our planet's precious resources, eco-tourism is set to revolutionize the way we travel.\n\n",
   "questions": [
     {
-      "question_number": 31,
-      "question_text": "What does the author suggest about their previous relationship with technology?",
+      "question_number": 1,
+      "question_text": "According to the text, what percentage of global GDP could sustainable tourism account for by 2030?",
       "options": {
-        "A": "They were never addicted to their phone.",
-        "B": "They had a healthy balance between technology and real-life activities.",
-        "C": "They felt anxious and stressed by constant notifications.",
-        "D": "They used their phone for work only."
+        "A": "5%",
+        "B": "10%",
+        "C": "15%",
+        "D": "20%"
       },
-      "correct_answer": "C",
-      "question_type": "inference"
+      "correct_answer": "B",
+      "question_type": "detail"
     },
     {
-      "question_number": 32,
-      "question_text": "The word 'anxiety' in paragraph 4 is closest in meaning to:",
+      "question_number": 2,
+      "question_text": "The word 'fragile' in paragraph 2 is closest in meaning to:",
       "options": {
-        "A": "stress",
-        "B": "happiness",
-        "C": "calmness",
-        "D": "excitement"
+        "A": "delicate",
+        "B": "expensive",
+        "C": "rare",
+        "D": "beautiful"
       },
       "correct_answer": "A",
       "question_type": "vocabulary"
     },
     {
-      "question_number": 33,
-      "question_text": "According to the text, what was one of the author's first steps in changing their relationship with technology?",
+      "question_number": 3,
+      "question_text": "The author suggests that tourists can have a meaningful experience without harming the environment, because:",
       "options": {
-        "A": "They deleted all social media apps from their phone.",
-        "B": "They set boundaries around screen time – no screens after 9 pm or during meals.",
-        "C": "They went cold turkey on their phone for a week.",
-        "D": "They increased their social media usage by an hour each day."
-      },
-      "correct_answer": "B",
-      "question_type": "inference"
-    },
-    {
-      "question_number": 34,
-      "question_text": "What is one of the positive outcomes the author experienced after changing their relationship with technology?",
-      "options": {
-        "A": "They started sleeping less each night.",
-        "B": "They felt more anxious and stressed than before.",
-        "C": "They noticed a decrease in anxiety levels and improved sleep quality.",
-        "D": "They increased their social media usage by 50%."
+        "A": "they use public transportation",
+        "B": "they carry reusable bags",
+        "C": "they adopt a completely different mindset towards travel",
+        "D": "they follow strict rules"
       },
       "correct_answer": "C",
       "question_type": "inference"
     },
     {
-      "question_number": 35,
-      "question_text": "What is the author's message to readers who are struggling with digital wellness?",
+      "question_number": 4,
+      "question_text": "The attitude of the author towards eco-tourism is:",
       "options": {
-        "A": "They should go cold turkey on their phone immediately.",
-        "B": "They're not alone in this struggle – there are others out there who have made changes too.",
-        "C": "They should ignore notifications forever.",
-        "D": "They should increase their social media usage by an hour each day."
+        "A": "neutral",
+        "B": "positive",
+        "C": "negative",
+        "D": "ambivalent"
       },
       "correct_answer": "B",
-      "question_type": "inference"
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Terra Verde offers virtual reality experiences to allow travelers to explore destinations without physically being there. This is an example of:",
+      "options": {
+        "A": "sustainable tourism",
+        "B": "eco-friendly transportation",
+        "C": "innovative solution to reduce over-visitation",
+        "D": "new way of experiencing travel"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "The main idea of the text is:",
+      "options": {
+        "A": "the tourism industry is one of the largest contributors to greenhouse gas emissions",
+        "B": "sustainable travel is a new era of tourism",
+        "C": "eco-tourism companies are pioneering new ways of exploring our planet while preserving its beauty for future generations",
+        "D": "the demand for sustainable travel continues to grow"
+      },
+      "correct_answer": "B",
+      "question_type": "main idea"
     }
   ],
   "generated_by": "ollama",
   "model": "llama3.1:8b",
-  "topic_category": "technology_modern"
+  "topic_category": "travel_adventure"
 }

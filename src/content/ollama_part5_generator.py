@@ -73,8 +73,37 @@ class OllamaTaskGenerator:
             return False
         return True
     
-    def generate_single_task(self, topic: str, task_number: int, text_type: str = "magazine_article", custom_instructions: Optional[str] = None) -> Dict[str, Any]:
+    def get_next_task_number(self) -> int:
+        """Get the next available task number to avoid overwriting existing files"""
+        if not self.output_dir.exists():
+            return 1
+        
+        existing_files = list(self.output_dir.glob("reading_part5_task_*.json"))
+        if not existing_files:
+            return 1
+        
+        # Extract numbers from existing files
+        existing_numbers = []
+        for file in existing_files:
+            try:
+                # Extract number from filename like "reading_part5_task_05.json"
+                number_part = file.stem.split('_')[-1]  # Get the last part after splitting by '_'
+                existing_numbers.append(int(number_part))
+            except (ValueError, IndexError):
+                continue
+        
+        if existing_numbers:
+            return max(existing_numbers) + 1
+        else:
+            return 1
+
+    def generate_single_task(self, topic: str, task_number: int = None, text_type: str = "magazine_article", custom_instructions: Optional[str] = None) -> Dict[str, Any]:
         """Generate a single Reading Part 5 task with specified text type"""
+        
+        # Auto-assign task number if not provided - do this FIRST to avoid None issues
+        if task_number is None:
+            task_number = self.get_next_task_number()
+        
         logger.info(f"Generating task {task_number} for topic: {topic} (text type: {text_type})")
         
         max_retries = 3
@@ -92,14 +121,20 @@ class OllamaTaskGenerator:
                 # Update task ID to match our numbering
                 task_data['task_id'] = f"reading_part5_task_{task_number:02d}"
                 
-                # Add metadata
+                # Add comprehensive metadata including generation parameters
                 task_data['generated_by'] = "ollama"
                 task_data['model'] = self.client.config.model
+                task_data['generation_params'] = {
+                    'temperature': self.client.config.temperature,
+                    'max_tokens': self.client.config.max_tokens,
+                    'model_full_name': self.client.config.model
+                }
                 task_data['topic_category'] = self.categorize_topic(topic)
                 task_data['text_type'] = text_type
                 
                 # Validate task quality
                 if self.validate_task(task_data):
+                    logger.info(f"✅ Task validation passed")
                     logger.info(f"✅ Successfully generated task {task_number} on attempt {attempt + 1}")
                     return task_data
                 else:
@@ -157,15 +192,15 @@ class OllamaTaskGenerator:
             if word_count < 400 or word_count > 800:
                 errors.append(f"Text length {word_count} words (should be 400-800 for B2 First)")
         
-        # Check questions - B2 First Reading Part 5 has 6 questions (31-36)
+        # Check questions - should have 6 questions numbered 1-6
         # Allow 5-6 questions for flexibility
         if 'questions' in task_data:
             question_count = len(task_data['questions'])
             if question_count < 5 or question_count > 6:
-                errors.append(f"Expected 5-6 questions for B2 First, got {question_count}")
+                errors.append(f"Expected 5-6 questions, got {question_count}")
             
             for i, question in enumerate(task_data['questions']):
-                expected_q_num = i + 31  # Questions should be numbered 31-36
+                expected_q_num = i + 1  # Questions should be numbered 1-6
                 
                 if 'question_number' not in question:
                     errors.append(f"Question {i+1} missing question_number")
@@ -217,7 +252,7 @@ class OllamaTaskGenerator:
             text_types = ["magazine_article"]
         
         all_tasks = []
-        task_counter = 1
+        task_counter = 1  # For display purposes only
         
         logger.info(f"🚀 Starting batch generation: {len(topics)} topics, {len(text_types)} text types, {tasks_per_topic} tasks each")
         
@@ -227,16 +262,18 @@ class OllamaTaskGenerator:
                     logger.info(f"📝 Working on task {task_counter}: {text_type} about '{topic}'")
                     
                     try:
-                        task = self.generate_single_task(topic, task_counter, text_type)
+                        # Get next available task number for unique file naming
+                        task_number = self.get_next_task_number()
+                        task = self.generate_single_task(topic, task_number, text_type)
                         filepath = self.save_task(task)
                         all_tasks.append(task)
                         
-                        logger.info(f"✅ Task {task_counter} completed: {task['title']}")
+                        logger.info(f"✅ Task {task_counter} completed: {task['title']} (saved as {task['task_id']})")
                         task_counter += 1
                         
                     except Exception as e:
                         logger.error(f"❌ Failed to generate task {task_counter} for '{topic}' ({text_type}): {e}")
-                        task_counter += 1  # Still increment to maintain numbering
+                        task_counter += 1  # Still increment for display purposes
                         continue
         
         logger.info(f"🎉 Batch generation complete! Generated {len(all_tasks)} tasks")
@@ -277,6 +314,12 @@ class OllamaTaskGenerator:
     
     def create_fallback_task(self, topic: str, task_number: int, text_type: str) -> Dict[str, Any]:
         """Create a fallback task when AI generation fails"""
+        
+        # Safety check: if task_number is still None, assign one
+        if task_number is None:
+            task_number = self.get_next_task_number()
+            logger.warning(f"Task number was None in fallback creation, assigned {task_number}")
+        
         logger.info(f"Creating fallback task for topic: {topic} (text type: {text_type})")
         
         fallback_task = {
@@ -287,6 +330,11 @@ class OllamaTaskGenerator:
             "difficulty": "B2",
             "generated_by": "fallback",
             "model": "fallback",
+            "generation_params": {
+                "temperature": "N/A (fallback)",
+                "max_tokens": "N/A (fallback)",
+                "model_full_name": "fallback"
+            },
             "text": f"""This is a fallback task generated when AI generation failed for the topic '{topic}'. 
             
 In today's rapidly changing world, the topic of {topic} has become increasingly important for people of all ages. Many experts believe that understanding this subject is crucial for personal and professional development.
@@ -302,7 +350,7 @@ As we move forward, it's clear that {topic} will continue to play a significant 
 Educational institutions are recognizing this trend and incorporating more {topic}-related content into their curricula. This ensures that students are well-prepared for the challenges they will face in their careers and personal lives.""",
             "questions": [
                 {
-                    "question_number": 31,
+                    "question_number": 1,
                     "question_text": f"What does the text suggest about the importance of {topic}?",
                     "options": {
                         "A": "It is only relevant for certain professions",
@@ -315,7 +363,7 @@ Educational institutions are recognizing this trend and incorporating more {topi
                     "explanation": "The text explicitly states that understanding this subject is crucial for personal and professional development."
                 },
                 {
-                    "question_number": 32,
+                    "question_number": 2,
                     "question_text": "According to the text, people who engage with this topic tend to:",
                     "options": {
                         "A": "become confused by complex information",
@@ -328,7 +376,7 @@ Educational institutions are recognizing this trend and incorporating more {topi
                     "explanation": "The text states that research shows these people develop better problem-solving skills."
                 },
                 {
-                    "question_number": 33,
+                    "question_number": 3,
                     "question_text": "The word 'holistic' in paragraph 4 most likely means:",
                     "options": {
                         "A": "partial and incomplete",
@@ -341,7 +389,7 @@ Educational institutions are recognizing this trend and incorporating more {topi
                     "explanation": "Holistic refers to a comprehensive, complete view that considers all aspects."
                 },
                 {
-                    "question_number": 34,
+                    "question_number": 4,
                     "question_text": "What does the text imply about the future relevance of this topic?",
                     "options": {
                         "A": "It will become less important over time",
@@ -354,7 +402,7 @@ Educational institutions are recognizing this trend and incorporating more {topi
                     "explanation": "The text states it will continue to play a significant role in shaping our future."
                 },
                 {
-                    "question_number": 35,
+                    "question_number": 5,
                     "question_text": "The text mentions that educational institutions are:",
                     "options": {
                         "A": "ignoring current trends",
@@ -367,7 +415,7 @@ Educational institutions are recognizing this trend and incorporating more {topi
                     "explanation": "The text explicitly states that institutions are incorporating more related content into curricula."
                 },
                 {
-                    "question_number": 36,
+                    "question_number": 6,
                     "question_text": "The overall tone of the text can be described as:",
                     "options": {
                         "A": "pessimistic and worried",

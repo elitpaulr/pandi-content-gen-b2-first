@@ -1,93 +1,85 @@
 {
-  "task_id": "part5_task_05",
-  "title": "Reading Part 5 - Task 5",
-  "topic": "technology_modern",
-  "text": "The notification sound had become as familiar to Marcus as his own heartbeat, yet today it filled him with an unusual sense of dread. His smartphone lay face-down on the desk, its screen dark, but he knew that dozens of messages, emails, and updates were accumulating behind that black surface like water behind a dam.\n\nFor the past five years, Marcus had prided himself on being constantly connected, always available, perpetually in the loop. His colleagues admired his quick response times, his clients appreciated his immediate availability, and his friends had come to expect instant replies to their messages. But somewhere along the way, this digital efficiency had transformed from a useful tool into an overwhelming burden.\n\nThe breaking point had come the previous evening during his daughter's school play. As she performed her solo piece on stage, Marcus found himself automatically reaching for his phone to check a work email. The look of disappointment in her eyes when she spotted him in the audience, head down, fingers tapping, had hit him like a physical blow.\n\nNow, sitting in his home office on a Saturday morning, Marcus was conducting an experiment. He had turned off all notifications, closed his laptop, and placed his phone out of reach. The silence felt strange, almost oppressive. Without the constant stream of digital input, his mind seemed to wander aimlessly, unsure of how to occupy itself.\n\nBut gradually, something interesting began to happen. The anxiety that had been his constant companion for months started to ease. He became aware of sounds he hadn't noticed in years – birds singing outside his window, the gentle hum of the refrigerator, his own breathing. It was as if he had been living underwater and had finally surfaced.\n\nThe irony wasn't lost on him that technology, which had promised to make life easier and more connected, had actually created a barrier between him and the world around him. As he sat there in the unfamiliar quiet, Marcus began to wonder if there might be a different way to live – one that used technology as a tool rather than allowing it to become a master.",
+  "task_id": "reading_part5_task_05",
+  "title": "The Power of Cultural Exchange Through Travel",
+  "topic": "culture_exchange_travel",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "\nCultural exchange through travel is a two-way street. It allows us to learn about other cultures and share our own, creating a richer understanding of the world.\n\nIn today's globalized world, it's easier than ever to travel and experience different cultures firsthand. But with great power comes great responsibility. As we immerse ourselves in foreign lands, we must also be mindful of our impact on the local community.\n\nTake, for example, the concept of 'slow tourism.' This approach encourages travelers to engage more deeply with their surroundings, rather than rushing from one tourist attraction to another. By doing so, they can build stronger connections with the people and places they visit.\n\n'When we travel slowly, we begin to see the world in a different light,' says Sarah Jones, a travel writer and advocate for slow tourism. 'We start to appreciate the small things – a beautiful sunset, a delicious local meal, or a friendly conversation with a stranger.'\n\nAccording to a recent study by the World Tourism Organization (UNWTO), cultural exchange through travel has numerous benefits for both individuals and communities. It can foster greater understanding and empathy between cultures, promote economic growth, and even help preserve traditional practices.\n\nHowever, cultural exchange is not without its challenges. As we share our own culture with others, we must also be aware of the potential risks of cultural appropriation – when elements of one culture are adopted by another without proper understanding or credit.\n\n'The key to successful cultural exchange is respect,' says Dr. Maria Rodriguez, a cultural anthropologist. 'We must approach each new culture with an open mind and a willingness to learn, rather than trying to impose our own values and customs.'\n\nBy embracing the principles of slow tourism and respecting local cultures, we can create meaningful connections that go beyond mere sightseeing.\n\nAs we continue to explore the world through travel, let's remember the importance of cultural exchange. By sharing our experiences and traditions with others, we can build a more harmonious and interconnected global community.\n\nIn fact, studies have shown that students who participate in international exchanges are more likely to develop important life skills such as adaptability, resilience, and self-awareness. These skills, in turn, can benefit their personal and professional lives for years to come.\n\nThe benefits of cultural exchange through travel extend far beyond the individual, however. By engaging with local cultures and economies, we can also contribute to sustainable development and poverty reduction.\n\nIn conclusion, cultural exchange through travel is a powerful tool for building bridges between cultures. As we continue to explore the world, let's do so with respect, curiosity, and an open mind.\n\nAs Sarah Jones puts it: 'The world is full of beauty and wonder – but only if we take the time to see it.'\n\n",
   "questions": [
     {
-      "id": 31,
-      "question": "What does the comparison 'like water behind a dam' suggest about Marcus's messages?",
-      "options": [
-        "They are flowing smoothly and naturally",
-        "They are building up pressure and could overflow",
-        "They are being filtered and organized automatically",
-        "They are clean and refreshing to receive"
-      ],
-      "correct_answer": 1,
-      "question_type": "word_phrase_meaning"
+      "question_number": 1,
+      "question_text": "What does the author suggest happens when we travel slowly?",
+      "options": {
+        "A": "We start to appreciate the small things.",
+        "B": "We rush from one tourist attraction to another.",
+        "C": "We ignore local customs and traditions.",
+        "D": "We focus on shopping and eating at expensive restaurants."
+      },
+      "correct_answer": "A",
+      "question_type": "inference"
     },
     {
-      "id": 32,
-      "question": "According to the text, how had Marcus's relationship with technology changed?",
-      "options": [
-        "From being useful to becoming burdensome",
-        "From being expensive to becoming affordable",
-        "From being simple to becoming complicated",
-        "From being optional to becoming necessary"
-      ],
-      "correct_answer": 0,
-      "question_type": "details"
+      "question_number": 2,
+      "question_text": "What does the word 'appreciate' mean in paragraph 6?",
+      "options": {
+        "A": "to ignore something",
+        "B": "to start to see the world in a different light",
+        "C": "to focus on shopping and eating at expensive restaurants",
+        "D": "to rush from one tourist attraction to another"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
     },
     {
-      "id": 33,
-      "question": "What was significant about Marcus's daughter's school play?",
-      "options": [
-        "It was the first time she had performed solo",
-        "It made Marcus realize his phone addiction was affecting his family",
-        "It was when Marcus received an important work email",
-        "It showed Marcus how talented his daughter was"
-      ],
-      "correct_answer": 1,
-      "question_type": "main_ideas"
+      "question_number": 3,
+      "question_text": "According to the text, what is a potential risk of cultural exchange?",
+      "options": {
+        "A": "cultural appropriation",
+        "B": "economic growth",
+        "C": "sustainable development",
+        "D": "poverty reduction"
+      },
+      "correct_answer": "A",
+      "question_type": "detail"
     },
     {
-      "id": 34,
-      "question": "How does Marcus feel when he first turns off his devices?",
-      "options": [
-        "Relieved and immediately peaceful",
-        "Excited about the new experience",
-        "Uncomfortable and unsure",
-        "Angry about missing messages"
-      ],
-      "correct_answer": 2,
-      "question_type": "attitudes_opinions"
+      "question_number": 4,
+      "question_text": "What does Dr. Maria Rodriguez say is the key to successful cultural exchange?",
+      "options": {
+        "A": "respect",
+        "B": "cultural appropriation",
+        "C": "economic growth",
+        "D": "sustainable development"
+      },
+      "correct_answer": "A",
+      "question_type": "attitude"
     },
     {
-      "id": 35,
-      "question": "What does 'it' refer to in the phrase 'as if he had been living underwater and had finally surfaced'?",
-      "options": [
-        "His constant anxiety",
-        "His digital disconnection",
-        "His awareness of natural sounds",
-        "His breathing pattern"
-      ],
-      "correct_answer": 2,
-      "question_type": "references"
+      "question_number": 5,
+      "question_text": "What does the author say is one of the benefits of cultural exchange for individuals?",
+      "options": {
+        "A": "greater understanding and empathy between cultures",
+        "B": "fostered economic growth",
+        "C": "help preserve traditional practices",
+        "D": "more likely to develop important life skills"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
     },
     {
-      "id": 36,
-      "question": "What is the writer's overall message about technology?",
-      "options": [
-        "Technology should be completely avoided in modern life",
-        "Technology is always harmful to family relationships",
-        "Technology should serve us rather than control us",
-        "Technology is too complicated for most people to use properly"
-      ],
-      "correct_answer": 2,
-      "question_type": "tone_purpose"
+      "question_number": 6,
+      "question_text": "What is the main idea of the text?",
+      "options": {
+        "A": "The benefits of cultural exchange through travel extend far beyond the individual.",
+        "B": "Cultural exchange through travel is a powerful tool for building bridges between cultures.",
+        "C": "The world is full of beauty and wonder, but only if we take the time to see it.",
+        "D": "Slow tourism is the best way to experience different cultures."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
     }
   ],
-  "metadata": {
-    "word_count": 357,
-    "question_types_used": [
-      "word_phrase_meaning",
-      "details",
-      "main_ideas",
-      "attitudes_opinions",
-      "references",
-      "tone_purpose"
-    ],
-    "difficulty_level": "B2",
-    "estimated_time": "15 minutes"
-  }
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "topic_category": "travel_adventure"
 }

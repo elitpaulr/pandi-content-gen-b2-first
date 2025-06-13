@@ -1,93 +1,73 @@
 {
-  "task_id": "part5_task_03",
-  "title": "Reading Part 5 - Task 3",
-  "topic": "personal_growth",
-  "text": "The letter arrived on a Tuesday, unremarkable in every way except for the return address that made Elena's hands tremble as she held it. Twenty-five years had passed since she had last seen that handwriting, yet she recognized it immediately. Her sister Maria, from whom she had been estranged since their mother's funeral, was reaching out across the chasm of silence that had divided their family.\n\nElena set the letter on her kitchen table and stared at it for nearly an hour before finding the courage to open it. The contents were brief but profound – Maria was getting married and wanted Elena to be there. More importantly, she wanted to heal the wounds that had kept them apart for so long. The letter contained no accusations, no demands for apologies, just a simple invitation to reconnect.\n\nThe sisters had once been inseparable, sharing secrets, dreams, and an unbreakable bond that everyone assumed would last forever. But their mother's death had revealed fundamental differences in how they processed grief and handled responsibility. What should have brought them closer together had instead driven them apart, each convinced that the other had failed in their duty as a daughter.\n\nElena had spent years justifying her position, building walls of righteousness around her wounded heart. She had convinced herself that she was the victim, that Maria had been selfish and uncaring during their mother's final months. But holding the letter now, she began to question the narrative she had constructed so carefully.\n\nThe truth, she realized, was probably more complex than either of them had been willing to acknowledge at the time. Grief had made them both act in ways that were unlike their true selves, and pride had prevented them from reaching out when the initial hurt was still fresh and potentially healable.\n\nAs Elena read the letter for the third time, she felt something shift inside her chest – a loosening of the tight knot of anger and resentment she had carried for so long. Perhaps it was time to choose love over pride, connection over being right. Perhaps some bridges, no matter how badly damaged, were worth rebuilding.",
+  "task_id": "reading_part5_task_03",
+  "title": "Conquering the Unconquerable: The Rise of Adventure Sports",
+  "topic": "adventure_sports",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "\n        **The Thrill of Defying Limits**\n\nAdventure sports have become increasingly popular in recent years, with millions of people worldwide taking part in activities such as rock climbing, bungee jumping, and white-water rafting. But what drives individuals to push their limits and take on these challenging pursuits?\n\nFor many, the answer lies in the sense of personal satisfaction that comes from overcoming seemingly insurmountable obstacles. \"It's not just about reaching the summit or completing a difficult climb,\" says experienced rock climber, Emily Chen. \"It's about developing mental toughness and learning to trust yourself.\"\n\nBut adventure sports are not just about individual achievements; they also offer opportunities for social bonding and community building. \"Climbing gyms and outdoor centers have become hubs for like-minded people to meet, share experiences, and support one another,\" notes Chen.\n\nHowever, with the rise of adventure sports comes a growing concern over safety and risk management. While many operators prioritize caution and take necessary precautions, accidents can still happen. In 2019, a study found that nearly 20% of participants in extreme sports suffered injuries or illnesses.\n\nAs the demand for adventure experiences continues to grow, industry experts are calling for greater emphasis on safety protocols and regulations. \"We need to strike a balance between pushing limits and protecting our athletes,\" says Mark Taylor, director of the Adventure Sports Association.\n\nBut for those who have experienced the thrill of adventure sports firsthand, the benefits far outweigh the risks. \"It's not just about the physical challenge – it's about the mental and emotional growth that comes with taking on something new and unknown,\" says Chen.\n\n        **The Rise of Virtual Reality in Adventure Sports**\n\nIn recent years, virtual reality (VR) technology has begun to revolutionize the world of adventure sports. By simulating real-world environments and experiences, VR offers a safe and controlled way for individuals to test their skills and push their limits without the risks associated with traditional adventure activities.\n\nFor example, companies like VR First offer immersive climbing simulations that allow users to scale virtual walls and navigate treacherous terrain from the comfort of their own homes. \"VR has opened up new possibilities for people who may not have been able to participate in adventure sports due to physical limitations or other constraints,\" notes Taylor.\n\nAs the field continues to evolve, experts predict a future where VR becomes an integral part of the adventure sports landscape. But what does this mean for traditional activities? Will we see a decline in participation as more people opt for virtual experiences?\n\nOnly time will tell, but one thing is certain: the world of adventure sports is about to get a whole lot more interesting.\n\n        **The Future of Adventure Sports**\n\nAs we look to the future, it's clear that adventure sports will continue to play a significant role in our lives. Whether through traditional activities or virtual experiences, these pursuits offer a unique combination of challenge, personal growth, and social connection.\n\nSo what's next for this rapidly evolving industry? With VR on the rise and safety concerns growing, one thing is certain: we can expect even more innovative and exciting developments in the world of adventure sports.\n\n        ",
   "questions": [
     {
-      "id": 31,
-      "question": "What made the letter remarkable to Elena?",
-      "options": [
-        "It arrived on an unusual day of the week",
-        "It was from her estranged sister Maria",
-        "It contained unexpected news about money",
-        "It was written in a foreign language"
-      ],
-      "correct_answer": 1,
+      "question_number": 1,
+      "question_text": "According to Emily Chen, what is the main benefit of participating in adventure sports?",
+      "options": {
+        "A": "To improve physical fitness",
+        "B": "To develop mental toughness and learn to trust oneself",
+        "C": "To socialize with others",
+        "D": "To relax and reduce stress"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "The word 'seemingly' in the first paragraph is closest in meaning to:",
+      "options": {
+        "A": "obviously",
+        "B": "apparently",
+        "C": "clearly",
+        "D": "certainly"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of participants in extreme sports suffered injuries or illnesses, according to a 2019 study?",
+      "options": {
+        "A": "10%",
+        "B": "15%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "correct_answer": "C",
       "question_type": "details"
     },
     {
-      "id": 32,
-      "question": "What does 'the chasm of silence' refer to?",
-      "options": [
-        "The physical distance between the sisters",
-        "The period of no communication between them",
-        "The quiet atmosphere in Elena's house",
-        "The difference in their personalities"
-      ],
-      "correct_answer": 1,
-      "question_type": "word_phrase_meaning"
+      "question_number": 4,
+      "question_text": "According to Mark Taylor, what is the need for in the adventure sports industry?",
+      "options": {
+        "A": "More emphasis on safety protocols and regulations",
+        "B": "Less focus on risk management and more on thrill-seeking",
+        "C": "Greater investment in VR technology",
+        "D": "Fewer safety guidelines and more freedom to push limits"
+      },
+      "correct_answer": "A",
+      "question_type": "inference"
     },
     {
-      "id": 33,
-      "question": "According to the text, what caused the sisters' estrangement?",
-      "options": [
-        "A disagreement about Maria's wedding plans",
-        "Different ways of dealing with their mother's death",
-        "A fight over their mother's inheritance",
-        "Elena's move to a different city"
-      ],
-      "correct_answer": 1,
-      "question_type": "main_ideas"
-    },
-    {
-      "id": 34,
-      "question": "How has Elena's perspective changed while reading the letter?",
-      "options": [
-        "She becomes more angry with Maria",
-        "She starts to question her own version of events",
-        "She decides Maria was definitely wrong",
-        "She feels more justified in her position"
-      ],
-      "correct_answer": 1,
-      "question_type": "attitudes_opinions"
-    },
-    {
-      "id": 35,
-      "question": "What does 'them' refer to in 'either of them had been willing to acknowledge'?",
-      "options": [
-        "Elena and her mother",
-        "Maria and her mother",
-        "Elena and Maria",
-        "The wedding guests"
-      ],
-      "correct_answer": 2,
-      "question_type": "references"
-    },
-    {
-      "id": 36,
-      "question": "What is the main theme of the passage?",
-      "options": [
-        "The importance of family traditions",
-        "The difficulty of planning weddings",
-        "The power of forgiveness and reconciliation",
-        "The challenges of long-distance relationships"
-      ],
-      "correct_answer": 2,
-      "question_type": "tone_purpose"
+      "question_number": 5,
+      "question_text": "What does the author predict for the future of adventure sports?",
+      "options": {
+        "A": "A decline in participation as people opt for virtual experiences",
+        "B": "A rise in VR technology and a decrease in traditional activities",
+        "C": "An increase in safety concerns and a reduction in innovation",
+        "D": "A continued growth in popularity with more innovative developments"
+      },
+      "correct_answer": "D",
+      "question_type": "main idea"
     }
   ],
-  "metadata": {
-    "word_count": 358,
-    "question_types_used": [
-      "details",
-      "word_phrase_meaning",
-      "main_ideas",
-      "attitudes_opinions",
-      "references",
-      "tone_purpose"
-    ],
-    "difficulty_level": "B2",
-    "estimated_time": "15 minutes"
-  }
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "topic_category": "travel_adventure"
 }

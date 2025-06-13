@@ -40,6 +40,242 @@ class RobustJSONParser:
         return text
     
     @staticmethod
+    def _preprocess_llm_json(json_text: str) -> str:
+        """
+        Preprocess LLM-generated JSON to fix common formatting issues.
+        This handles patterns that commonly appear in LLM output.
+        """
+        # Remove markdown code blocks
+        json_text = json_text.strip()
+        if json_text.startswith('```json'):
+            json_text = json_text[7:]
+        elif json_text.startswith('```'):
+            json_text = json_text[3:]
+        if json_text.endswith('```'):
+            json_text = json_text[:-3]
+        json_text = json_text.strip()
+        
+        # Find JSON boundaries
+        json_start = json_text.find('{')
+        json_end = json_text.rfind('}') + 1
+        
+        if json_start == -1 or json_end <= json_start:
+            raise ValueError("Could not find JSON boundaries")
+        
+        json_content = json_text[json_start:json_end]
+        
+        # FIRST: Handle the specific control character issue - unescaped newlines
+        # This is the most common cause of "Invalid control character" errors
+        
+        # The core issue: LLM generates literal newlines in JSON strings like:
+        # "text": "Line 1
+        # Line 2"
+        # But JSON requires: "text": "Line 1\nLine 2"
+        
+        # Quick fix for the most common case: escape literal newlines in string values
+        import re
+        
+        # Step 1: Find and fix unescaped newlines within string values
+        # We need to be careful not to break the JSON structure
+        
+        def escape_newlines_in_strings(text):
+            """Escape literal newlines within JSON string values"""
+            result = []
+            i = 0
+            in_string = False
+            
+            while i < len(text):
+                char = text[i]
+                
+                if char == '"' and (i == 0 or text[i-1] != '\\'):
+                    # Toggle string state
+                    in_string = not in_string
+                    result.append(char)
+                elif in_string and char == '\n':
+                    # We're inside a string and found a literal newline - escape it
+                    result.append('\\n')
+                elif in_string and char == '\r':
+                    # Also handle carriage returns
+                    result.append('\\r')
+                elif in_string and char == '\t':
+                    # And tabs
+                    result.append('\\t')
+                elif in_string and ord(char) < 32 or ord(char) == 127:
+                    # Other control characters
+                    result.append(f'\\u{ord(char):04x}')
+                else:
+                    result.append(char)
+                
+                i += 1
+            
+            return ''.join(result)
+        
+        try:
+            # Apply the newline escaping
+            fixed_content = escape_newlines_in_strings(json_content)
+            
+            # Test if this creates valid JSON
+            json.loads(fixed_content)
+            logger.debug("Successfully fixed JSON by escaping control characters")
+            return fixed_content
+            
+        except Exception as e:
+            logger.debug(f"Control character escaping failed: {e}, trying regex approach")
+        
+        # FALLBACK: Try the regex approach for more complex cases
+        def fix_text_field(match):
+            """Fix a complete text field including quotes"""
+            field_name = match.group(1)  # "text" or other field name
+            field_value = match.group(2)  # The content between quotes
+            
+            # Fix control characters and escaping in the field value
+            fixed_value = RobustJSONParser.escape_json_string(field_value)
+            
+            return f'"{field_name}": "{fixed_value}"'
+        
+        # Pattern to match any string field (not just "text")
+        # This catches: "fieldname": "content with potential issues"
+        string_field_pattern = r'"([^"]+)"\s*:\s*"([^"]*(?:\\.[^"]*)*)"'
+        
+        try:
+            # Apply the fix to all string fields
+            fixed_content = re.sub(string_field_pattern, fix_text_field, json_content, flags=re.DOTALL)
+            
+            # Test if this creates valid JSON
+            json.loads(fixed_content)
+            logger.debug("Successfully fixed JSON using regex approach")
+            return fixed_content
+            
+        except Exception as e:
+            logger.debug(f"Regex-based fixing failed: {e}, trying manual approach")
+        
+        # FALLBACK: Use more sophisticated state machine approach for complex cases
+        # This handles cases where the regex approach fails due to complex nesting
+        
+        result = []
+        i = 0
+        in_string = False
+        in_field_name = False
+        current_field = ""
+        
+        while i < len(json_content):
+            char = json_content[i]
+            
+            if char == '"' and (i == 0 or json_content[i-1] != '\\'):
+                if not in_string:
+                    # Starting a string
+                    in_string = True
+                    # Check if this is a field name by looking ahead
+                    next_colon = json_content.find(':', i)
+                    next_quote = json_content.find('"', i + 1)
+                    if next_colon != -1 and next_quote != -1 and next_colon < next_quote:
+                        in_field_name = True
+                        current_field = ""
+                    else:
+                        in_field_name = False
+                    result.append(char)
+                else:
+                    # Ending a string
+                    in_string = False
+                    if in_field_name:
+                        in_field_name = False
+                    result.append(char)
+            elif in_string:
+                if in_field_name:
+                    # Collecting field name
+                    current_field += char
+                    result.append(char)
+                else:
+                    # We're in a field value - apply escaping
+                    if char == '\n':
+                        result.append('\\n')
+                    elif char == '\r':
+                        result.append('\\r')
+                    elif char == '\t':
+                        result.append('\\t')
+                    elif char == '\b':
+                        result.append('\\b')
+                    elif char == '\f':
+                        result.append('\\f')
+                    elif char == '\\':
+                        # Check if it's already a valid escape
+                        if i + 1 < len(json_content) and json_content[i + 1] in ['"', '\\', '/', 'b', 'f', 'n', 'r', 't', 'u']:
+                            result.append(char)
+                        else:
+                            result.append('\\\\')
+                    elif ord(char) < 32 or ord(char) == 127:
+                        # Control characters
+                        result.append(f'\\u{ord(char):04x}')
+                    else:
+                        result.append(char)
+            else:
+                # Outside of strings
+                result.append(char)
+            
+            i += 1
+        
+        return ''.join(result)
+    
+    @staticmethod
+    def _extract_and_fix_text_content(json_content: str, start_pos: int) -> tuple:
+        """
+        Extract and fix text content from a text field, handling complex cases.
+        Returns (fixed_content, end_position) or (None, start_pos) if failed.
+        """
+        # State machine to track JSON structure
+        pos = start_pos
+        content_chars = []
+        
+        while pos < len(json_content):
+            char = json_content[pos]
+            
+            if char == '"':
+                # Check if this quote is escaped
+                escaped = False
+                backslash_count = 0
+                check_pos = pos - 1
+                
+                # Count consecutive backslashes before this quote
+                while check_pos >= 0 and json_content[check_pos] == '\\':
+                    backslash_count += 1
+                    check_pos -= 1
+                
+                escaped = (backslash_count % 2 == 1)
+                
+                if not escaped:
+                    # This might be the end of the text field
+                    # Look ahead to confirm
+                    next_pos = pos + 1
+                    while next_pos < len(json_content) and json_content[next_pos].isspace():
+                        next_pos += 1
+                    
+                    if next_pos < len(json_content) and json_content[next_pos] in [',', '}', ']']:
+                        # This is the end of the text field
+                        full_content = ''.join(content_chars)
+                        escaped_content = RobustJSONParser.escape_json_string(full_content)
+                        return escaped_content + '"', pos + 1  # Add closing quote
+                    else:
+                        # This is a quote within the text, add it to content
+                        content_chars.append(char)
+                else:
+                    # This is an escaped quote, add it to content
+                    content_chars.append(char)
+            else:
+                # Regular character in text content
+                content_chars.append(char)
+            
+            pos += 1
+        
+        # If we reach here, we didn't find a proper end
+        # Return the content we have so far, properly escaped and closed
+        if content_chars:
+            full_content = ''.join(content_chars)
+            escaped_content = RobustJSONParser.escape_json_string(full_content)
+            return escaped_content + '"', pos  # Add closing quote
+        
+        return None, start_pos
+    
+    @staticmethod
     def fix_json_strings(json_text: str) -> str:
         """
         Fix JSON strings by properly escaping content within string values.
@@ -61,27 +297,14 @@ class RobustJSONParser:
         # If parsing failed, we need to fix the strings
         logger.info("JSON parsing failed, attempting to fix string escaping...")
         
-        # Remove any markdown code blocks
-        json_text = json_text.strip()
-        if json_text.startswith('```json'):
-            json_text = json_text[7:]
-        elif json_text.startswith('```'):
-            json_text = json_text[3:]
-        if json_text.endswith('```'):
-            json_text = json_text[:-3]
-        json_text = json_text.strip()
-        
-        # Find JSON boundaries
-        json_start = json_text.find('{')
-        json_end = json_text.rfind('}') + 1
-        
-        if json_start == -1 or json_end <= json_start:
-            raise ValueError("Could not find JSON boundaries")
-        
-        json_content = json_text[json_start:json_end]
+        # Apply preprocessing first
+        try:
+            json_text = RobustJSONParser._preprocess_llm_json(json_text)
+        except Exception as e:
+            logger.warning(f"Preprocessing failed: {e}, continuing with original text")
         
         # Use the improved character-by-character parser
-        return RobustJSONParser._parse_and_fix_json(json_content)
+        return RobustJSONParser._parse_and_fix_json(json_text)
     
     @staticmethod
     def _parse_and_fix_json(json_text: str) -> str:
@@ -94,6 +317,8 @@ class RobustJSONParser:
         in_string = False
         string_start_pos = -1
         brace_count = 0
+        bracket_count = 0
+        current_key = None
         
         while i < len(json_text):
             char = json_text[i]
@@ -113,6 +338,12 @@ class RobustJSONParser:
                         if not remaining or not remaining.startswith('{'):
                             # This seems to be the end of the JSON object
                             break
+                elif char == '[':
+                    bracket_count += 1
+                    result.append(char)
+                elif char == ']':
+                    bracket_count -= 1
+                    result.append(char)
                 elif char == '"':
                     # Start of a string
                     in_string = True
@@ -135,15 +366,42 @@ class RobustJSONParser:
                     if j < len(json_text):
                         next_meaningful_char = json_text[j]
                     
-                    # If the next meaningful character suggests this is the end of a string value
-                    # (comma, closing brace, closing bracket, colon), then treat it as string end
-                    if next_meaningful_char in [',', '}', ']', ':']:
-                        # This is likely the end of the string
-                        result.append(char)
-                        in_string = False
+                    # Special handling for text fields which often contain dialogue
+                    # Look back to see if we're in a "text" field
+                    recent_content = ''.join(result[-50:]).lower() if len(result) >= 50 else ''.join(result).lower()
+                    in_text_field = '"text"' in recent_content and recent_content.rfind('"text"') > recent_content.rfind('}')
+                    
+                    # If we're in a text field and this quote is followed by dialogue patterns,
+                    # it's likely an unescaped quote
+                    if in_text_field and next_meaningful_char and next_meaningful_char not in [',', '}', ']', ':']:
+                        # Look for dialogue patterns
+                        remaining_text = json_text[i+1:i+20]  # Look ahead 20 chars
+                        dialogue_indicators = [' said', ' asked', ' replied', ' thought', ' whispered', ' shouted']
+                        is_dialogue = any(indicator in remaining_text.lower() for indicator in dialogue_indicators)
+                        
+                        # Also check if this looks like the start of dialogue
+                        prev_chars = json_text[max(0, i-10):i]
+                        starts_dialogue = any(pattern in prev_chars for pattern in ['. ', '.\n', '? ', '!\n', '! '])
+                        
+                        if is_dialogue or starts_dialogue:
+                            # This is likely dialogue, escape the quote
+                            result.append('\\"')
+                        else:
+                            # Check normal end-of-string patterns
+                            if next_meaningful_char in [',', '}', ']', ':']:
+                                result.append(char)
+                                in_string = False
+                            else:
+                                result.append('\\"')
                     else:
-                        # This is likely an unescaped quote within the string
-                        result.append('\\"')  # Escape it
+                        # Normal end-of-string detection
+                        if next_meaningful_char in [',', '}', ']', ':']:
+                            # This is likely the end of the string
+                            result.append(char)
+                            in_string = False
+                        else:
+                            # This is likely an unescaped quote within the string
+                            result.append('\\"')  # Escape it
                 else:
                     # Regular character inside string - escape special characters
                     if char == '\\':
@@ -180,6 +438,11 @@ class RobustJSONParser:
         while brace_count > 0:
             result.append('}')
             brace_count -= 1
+            
+        # If we have unmatched brackets, try to close them
+        while bracket_count > 0:
+            result.append(']')
+            bracket_count -= 1
         
         return ''.join(result)
     
@@ -208,15 +471,18 @@ class RobustJSONParser:
                     # First attempt: try as-is
                     return json.loads(json_text)
                 elif attempt == 1:
-                    # Second attempt: basic cleanup
-                    json_text = RobustJSONParser._basic_cleanup(original_text)
+                    # Second attempt: use preprocessing to fix common LLM issues (control characters, etc.)
+                    logger.debug("Applying preprocessing to fix control characters and escaping")
+                    json_text = RobustJSONParser._preprocess_llm_json(original_text)
                     return json.loads(json_text)
                 elif attempt == 2:
-                    # Third attempt: full string fixing
+                    # Third attempt: more aggressive string fixing with dialogue detection
+                    logger.info("JSON parsing failed, attempting to fix string escaping...")
                     json_text = RobustJSONParser.fix_json_strings(original_text)
                     return json.loads(json_text)
                 else:
                     # Final attempt: try to extract and fix partial JSON
+                    logger.debug("Attempting to extract and fix partial JSON")
                     json_text = RobustJSONParser._extract_partial_json(original_text)
                     return json.loads(json_text)
                     
@@ -236,24 +502,28 @@ class RobustJSONParser:
     @staticmethod
     def _basic_cleanup(json_text: str) -> str:
         """Basic cleanup of JSON text."""
-        # Remove markdown code blocks
-        json_text = json_text.strip()
-        if json_text.startswith('```json'):
-            json_text = json_text[7:]
-        elif json_text.startswith('```'):
-            json_text = json_text[3:]
-        if json_text.endswith('```'):
-            json_text = json_text[:-3]
-        json_text = json_text.strip()
-        
-        # Find JSON boundaries
-        json_start = json_text.find('{')
-        json_end = json_text.rfind('}') + 1
-        
-        if json_start != -1 and json_end > json_start:
-            json_text = json_text[json_start:json_end]
-        
-        return json_text
+        try:
+            return RobustJSONParser._preprocess_llm_json(json_text)
+        except Exception as e:
+            logger.warning(f"Preprocessing failed in basic cleanup: {e}")
+            # Fallback to original simple cleanup
+            json_text = json_text.strip()
+            if json_text.startswith('```json'):
+                json_text = json_text[7:]
+            elif json_text.startswith('```'):
+                json_text = json_text[3:]
+            if json_text.endswith('```'):
+                json_text = json_text[:-3]
+            json_text = json_text.strip()
+            
+            # Find JSON boundaries
+            json_start = json_text.find('{')
+            json_end = json_text.rfind('}') + 1
+            
+            if json_start != -1 and json_end > json_start:
+                json_text = json_text[json_start:json_end]
+            
+            return json_text
     
     @staticmethod
     def _extract_partial_json(json_text: str) -> str:

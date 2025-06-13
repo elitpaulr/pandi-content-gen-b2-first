@@ -117,6 +117,14 @@ class OllamaClient:
             logger.error(f"Failed to generate text: {e}")
             raise
     
+    def normalize_question_numbers(self, task_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Normalize question numbers to start from 1"""
+        if 'questions' in task_data and isinstance(task_data['questions'], list):
+            for i, question in enumerate(task_data['questions']):
+                if isinstance(question, dict) and 'question_number' in question:
+                    question['question_number'] = i + 1
+        return task_data
+    
     def generate_reading_part5_task(self, topic: str, difficulty: str = "B2", text_type: str = "magazine_article", custom_instructions: Optional[str] = None) -> Dict[str, Any]:
         """Generate a complete Reading Part 5 task using Ollama with specified text type"""
         
@@ -143,7 +151,7 @@ class OllamaClient:
         
         Reading Part 5 Requirements:
         - Text length: 550-750 words (engaging, authentic content)
-        - 6 multiple choice questions (31-36)
+        - 6 multiple choice questions (numbered 1-6)
         - Each question has 4 options (A, B, C, D)
         - Question types: inference, vocabulary in context, attitude/opinion, detail, reference, main idea
         - Text should be engaging and at B2 level
@@ -168,7 +176,7 @@ class OllamaClient:
             "text": "Your engaging text here following the {text_type} style. You can use natural formatting including line breaks for paragraphs, \\"quotes\\" for dialogue, and normal punctuation. Make it authentic and interesting - around 550-750 words that tell a compelling story or present interesting information about the topic.",
             "questions": [
                 {{
-                    "question_number": 31,
+                    "question_number": 1,
                     "question_text": "What does the author suggest about...?",
                     "options": {{
                         "A": "First realistic option",
@@ -180,7 +188,7 @@ class OllamaClient:
                     "question_type": "inference"
                 }},
                 {{
-                    "question_number": 32,
+                    "question_number": 2,
                     "question_text": "The word 'X' in paragraph 2 is closest in meaning to:",
                     "options": {{
                         "A": "Option A",
@@ -192,7 +200,7 @@ class OllamaClient:
                     "question_type": "vocabulary"
                 }},
                 {{
-                    "question_number": 33,
+                    "question_number": 3,
                     "question_text": "According to the text, what happened when...?",
                     "options": {{
                         "A": "Option A",
@@ -204,7 +212,7 @@ class OllamaClient:
                     "question_type": "detail"
                 }},
                 {{
-                    "question_number": 34,
+                    "question_number": 4,
                     "question_text": "The author's attitude towards... can be described as:",
                     "options": {{
                         "A": "Option A",
@@ -216,7 +224,7 @@ class OllamaClient:
                     "question_type": "attitude"
                 }},
                 {{
-                    "question_number": 35,
+                    "question_number": 5,
                     "question_text": "What does 'this' refer to in the final paragraph?",
                     "options": {{
                         "A": "Option A",
@@ -228,7 +236,7 @@ class OllamaClient:
                     "question_type": "reference"
                 }},
                 {{
-                    "question_number": 36,
+                    "question_number": 6,
                     "question_text": "What is the main idea of the text?",
                     "options": {{
                         "A": "Option A",
@@ -251,7 +259,7 @@ class OllamaClient:
         1. The text is 550-750 words and follows the {text_type} style
         2. Use natural formatting including paragraphs, quotes, and proper punctuation
         3. The topic is engaging and suitable for B2 level students
-        4. Create 6 questions (31-36) that are specific to the text content
+        4. Create 6 questions (numbered 1-6) that are specific to the text content
         5. Questions test different skills: inference, vocabulary, attitude, details, reference, main idea
         6. Each question has exactly 4 realistic options
         7. Only one option is clearly correct for each question
@@ -288,7 +296,7 @@ class OllamaClient:
                 # Don't fail, just warn - some models might generate different amounts
             
             logger.info(f"Successfully generated task: {task_data.get('title', 'Unknown')}")
-            return task_data
+            return self.normalize_question_numbers(task_data)
             
         except Exception as e:
             logger.error(f"Failed to generate task: {e}")
@@ -343,7 +351,7 @@ class OllamaClient:
             improved_task = RobustJSONParser.parse_llm_json(response)
             
             logger.info(f"Successfully improved task: {improved_task.get('title', 'Unknown')}")
-            return improved_task
+            return self.normalize_question_numbers(improved_task)
             
         except Exception as e:
             logger.error(f"Failed to improve task: {e}")

@@ -1,93 +1,73 @@
 {
-  "task_id": "part5_task_08",
-  "title": "Reading Part 5 - Task 8",
-  "topic": "technology_modern",
-  "text": "The notification sound had become as familiar to Marcus as his own heartbeat, yet today it filled him with an unusual sense of dread. His smartphone lay face-down on the desk, its screen dark, but he knew that dozens of messages, emails, and updates were accumulating behind that black surface like water behind a dam.\n\nFor the past five years, Marcus had prided himself on being constantly connected, always available, perpetually in the loop. His colleagues admired his quick response times, his clients appreciated his immediate availability, and his friends had come to expect instant replies to their messages. But somewhere along the way, this digital efficiency had transformed from a useful tool into an overwhelming burden.\n\nThe breaking point had come the previous evening during his daughter's school play. As she performed her solo piece on stage, Marcus found himself automatically reaching for his phone to check a work email. The look of disappointment in her eyes when she spotted him in the audience, head down, fingers tapping, had hit him like a physical blow.\n\nNow, sitting in his home office on a Saturday morning, Marcus was conducting an experiment. He had turned off all notifications, closed his laptop, and placed his phone out of reach. The silence felt strange, almost oppressive. Without the constant stream of digital input, his mind seemed to wander aimlessly, unsure of how to occupy itself.\n\nBut gradually, something interesting began to happen. The anxiety that had been his constant companion for months started to ease. He became aware of sounds he hadn't noticed in years – birds singing outside his window, the gentle hum of the refrigerator, his own breathing. It was as if he had been living underwater and had finally surfaced.\n\nThe irony wasn't lost on him that technology, which had promised to make life easier and more connected, had actually created a barrier between him and the world around him. As he sat there in the unfamiliar quiet, Marcus began to wonder if there might be a different way to live – one that used technology as a tool rather than allowing it to become a master.",
+  "task_id": "reading_part5_task_08",
+  "title": "The Rise of Digital Nomads: A New Era for Remote Work?",
+  "topic": "lifestyle_and_culture",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "\n\nThe Rise of Digital Nomads: A New Era for Remote Work?\n\nIn recent years, the concept of remote work has gained significant traction. With the advancement of technology and the rise of digital communication tools, it's become increasingly possible for people to work from anywhere in the world. This shift has given birth to a new generation of workers known as 'digital nomads'. But what does this lifestyle really entail? And is it sustainable?\n\nAccording to a recent survey by Global Workplace Analytics, over 4.8 million Americans now work remotely at least half of the time. This number is expected to grow exponentially in the coming years. The reasons for this shift are varied, but one common thread is the desire for greater flexibility and work-life balance.\n\nDigital nomads, as they're known, often choose to live and work in foreign countries with a lower cost of living and a more relaxed pace of life. Popular destinations include Chiang Mai in Thailand, Medellin in Colombia, and Bali in Indonesia. These locations offer not only affordable housing but also access to high-speed internet, coworking spaces, and a thriving expat community.\n\nBut what's behind this trend? For some, it's about escaping the monotony of office life and finding new inspiration in foreign lands. 'I was stuck in a cubicle for years,' says Sarah, a 35-year-old marketing specialist who now lives in Chiang Mai. 'I wanted to break free from the corporate grind and explore the world at the same time.'\n\nFor others, it's about accessing new talent pools and fostering innovation through global collaboration. 'We're seeing a new era of entrepreneurship emerge,' notes James, founder of a startup accelerator based in Medellin. 'Digital nomads bring fresh perspectives and skills to the table, enabling us to solve complex problems and create cutting-edge solutions.'\n\nHowever, this lifestyle is not without its challenges. Digital nomads often face difficulties adjusting to new cultures, learning local languages, and dealing with visa requirements. Some also struggle with isolation and disconnection from their loved ones back home.\n\nDespite these obstacles, the appeal of digital nomadism remains strong. With the rise of online tools and platforms, it's becoming increasingly possible for people to connect with others across the globe and build a community around shared interests.\n\nBut as this trend continues to grow, we need to ask: what are the implications for our society? Will remote work lead to increased productivity and job satisfaction, or will it create new social and economic challenges?\n\nAs one digital nomad noted, 'The future of work is no longer tied to a specific location. It's about creating a life that's meaningful, flexible, and authentic.'\n\nThe world is watching as this experiment unfolds. Will the rise of digital nomads signal a new era for remote work, or will it raise more questions than answers?\n\n",
   "questions": [
     {
-      "id": 31,
-      "question": "What does the comparison 'like water behind a dam' suggest about Marcus's messages?",
-      "options": [
-        "They are flowing smoothly and naturally",
-        "They are building up pressure and could overflow",
-        "They are being filtered and organized automatically",
-        "They are clean and refreshing to receive"
-      ],
-      "correct_answer": 1,
-      "question_type": "word_phrase_meaning"
+      "question_number": 1,
+      "question_text": "According to the text, what percentage of Americans now work remotely at least half of the time?",
+      "options": {
+        "A": "Over 2 million",
+        "B": "Over 4.8 million",
+        "C": "Over 6 million",
+        "D": "Over 8 million"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
     },
     {
-      "id": 32,
-      "question": "According to the text, how had Marcus's relationship with technology changed?",
-      "options": [
-        "From being useful to becoming burdensome",
-        "From being expensive to becoming affordable",
-        "From being simple to becoming complicated",
-        "From being optional to becoming necessary"
-      ],
-      "correct_answer": 0,
-      "question_type": "details"
+      "question_number": 2,
+      "question_text": "The word 'monotony' in the text is closest in meaning to:",
+      "options": {
+        "A": "Unpleasantness",
+        "B": "Dullness",
+        "C": "Tediousness",
+        "D": "Difficulty"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
     },
     {
-      "id": 33,
-      "question": "What was significant about Marcus's daughter's school play?",
-      "options": [
-        "It was the first time she had performed solo",
-        "It made Marcus realize his phone addiction was affecting his family",
-        "It was when Marcus received an important work email",
-        "It showed Marcus how talented his daughter was"
-      ],
-      "correct_answer": 1,
-      "question_type": "main_ideas"
+      "question_number": 3,
+      "question_text": "The author suggests that digital nomads bring what to the table?",
+      "options": {
+        "A": "Only their own skills and perspectives",
+        "B": "Fresh perspectives and skills",
+        "C": "New ideas for office life",
+        "D": "More work ethic"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
     },
     {
-      "id": 34,
-      "question": "How does Marcus feel when he first turns off his devices?",
-      "options": [
-        "Relieved and immediately peaceful",
-        "Excited about the new experience",
-        "Uncomfortable and unsure",
-        "Angry about missing messages"
-      ],
-      "correct_answer": 2,
-      "question_type": "attitudes_opinions"
+      "question_number": 4,
+      "question_text": "The text mentions that digital nomads often face difficulties with:",
+      "options": {
+        "A": "Adjusting to new cultures and learning local languages",
+        "B": "Only adjusting to new cultures",
+        "C": "Only learning local languages",
+        "D": "Neither of the above"
+      },
+      "correct_answer": "A",
+      "question_type": "detail"
     },
     {
-      "id": 35,
-      "question": "What does 'it' refer to in the phrase 'as if he had been living underwater and had finally surfaced'?",
-      "options": [
-        "His constant anxiety",
-        "His digital disconnection",
-        "His awareness of natural sounds",
-        "His breathing pattern"
-      ],
-      "correct_answer": 2,
-      "question_type": "references"
-    },
-    {
-      "id": 36,
-      "question": "What is the writer's overall message about technology?",
-      "options": [
-        "Technology should be completely avoided in modern life",
-        "Technology is always harmful to family relationships",
-        "Technology should serve us rather than control us",
-        "Technology is too complicated for most people to use properly"
-      ],
-      "correct_answer": 2,
-      "question_type": "tone_purpose"
+      "question_number": 5,
+      "question_text": "The author asks what are the implications for society as digital nomadism continues to grow.",
+      "options": {
+        "A": "Increased productivity and job satisfaction",
+        "B": "Decreased productivity and job satisfaction",
+        "C": "New social and economic challenges",
+        "D": "Neither of the above"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
     }
   ],
-  "metadata": {
-    "word_count": 357,
-    "question_types_used": [
-      "word_phrase_meaning",
-      "details",
-      "main_ideas",
-      "attitudes_opinions",
-      "references",
-      "tone_purpose"
-    ],
-    "difficulty_level": "B2",
-    "estimated_time": "15 minutes"
-  }
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "topic_category": "technology_modern"
 }

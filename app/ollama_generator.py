@@ -9,6 +9,7 @@ import sys
 from pathlib import Path
 from typing import List, Dict, Any
 import time
+from datetime import datetime
 
 # Add src to path for imports - Multiple methods for robustness
 project_root = Path(__file__).parent.parent
@@ -156,7 +157,7 @@ def main():
     max_tokens = st.sidebar.slider("Max Tokens", 1000, 4000, 2000, 100)
     
     # Main interface tabs
-    tab1, tab2, tab3, tab4 = st.tabs(["🎯 Generate Tasks", "🔧 Improve Tasks", "📊 Batch Generation", "📋 Task Library"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["🎯 Generate Tasks", "🔧 Improve Tasks", "📊 Batch Generation", "📋 Task Library", "⚙️ Admin Panel"])
     
     with tab1:
         st.header("Generate Single Task")
@@ -218,79 +219,220 @@ def main():
         
         if st.button("🚀 Generate Task", type="primary", disabled=not topic):
             if topic:
-                with st.spinner(f"Generating {selected_text_type.lower()} about '{topic}'... This may take 30-60 seconds"):
-                    try:
-                        # Initialize generator
-                        config = OllamaConfig(
-                            model=selected_model,
-                            temperature=temperature,
-                            max_tokens=max_tokens
-                        )
-                        generator = OllamaTaskGenerator(selected_model)
+                # Create progress containers
+                progress_container = st.container()
+                status_container = st.container()
+                
+                with progress_container:
+                    progress_bar = st.progress(0)
+                    status_text = st.empty()
+                    details_expander = st.expander("🔍 Generation Details", expanded=True)
+                
+                with details_expander:
+                    step_status = st.empty()
+                    attempt_status = st.empty()
+                    parsing_status = st.empty()
+                    validation_status = st.empty()
+                
+                try:
+                    # Step 1: Initialize
+                    status_text.text("🔧 Initializing generator...")
+                    step_status.info("**Step 1/5:** Initializing Ollama generator and checking connection")
+                    progress_bar.progress(0.1)
+                    
+                    config = OllamaConfig(
+                        model=selected_model,
+                        temperature=temperature,
+                        max_tokens=max_tokens
+                    )
+                    generator = OllamaTaskGenerator(selected_model)
+                    
+                    # Step 2: Start generation
+                    status_text.text(f"🎯 Generating {selected_text_type.lower()} about '{topic}'...")
+                    step_status.info(f"**Step 2/5:** Generating task with {selected_model} model")
+                    progress_bar.progress(0.2)
+                    
+                    # Custom generation with progress tracking
+                    import time
+                    start_time = time.time()
+                    
+                    # Show generation attempts in real-time
+                    attempt_status.info("**Generation Attempts:** Starting...")
+                    
+                    # Generate task with detailed tracking
+                    task_data = None
+                    generation_details = {
+                        'attempts': 0,
+                        'parsing_attempts': 0,
+                        'validation_issues': [],
+                        'success': False
+                    }
+                    
+                    # Hook into the generator to track progress
+                    original_generate = generator.generate_single_task
+                    
+                    def tracked_generate(*args, **kwargs):
+                        nonlocal task_data, generation_details
                         
-                        # Generate task with text type
-                        task_data = generator.generate_single_task(
-                            topic, 
-                            1, 
-                            text_type=text_type_key,
-                            custom_instructions=custom_instructions
-                        )
+                        # Step 3: LLM Generation
+                        status_text.text("🤖 LLM generating content...")
+                        step_status.info("**Step 3/5:** Large Language Model generating task content")
+                        progress_bar.progress(0.4)
                         
-                        # Display results
-                        st.success("✅ Task generated successfully!")
+                        try:
+                            result = original_generate(*args, **kwargs)
+                            generation_details['success'] = True
+                            return result
+                        except Exception as e:
+                            generation_details['error'] = str(e)
+                            raise
+                    
+                    generator.generate_single_task = tracked_generate
+                    
+                    # Generate the task (use auto-numbering)
+                    task_data = generator.generate_single_task(
+                        topic, 
+                        None,  # Auto-assign task number to avoid overwriting
+                        text_type=text_type_key,
+                        custom_instructions=custom_instructions
+                    )
+                    
+                    # Step 4: Validation
+                    status_text.text("✅ Validating task structure...")
+                    step_status.info("**Step 4/5:** Validating task format and B2 First requirements")
+                    progress_bar.progress(0.7)
+                    
+                    # Show validation results
+                    validation_results = []
+                    if task_data:
+                        # Check word count
+                        word_count = len(task_data['text'].split())
+                        if 400 <= word_count <= 800:
+                            validation_results.append("✅ Word count: " + str(word_count))
+                        else:
+                            validation_results.append(f"⚠️ Word count: {word_count} (should be 400-800)")
                         
-                        # Task overview
-                        col1, col2, col3, col4 = st.columns(4)
-                        with col1:
-                            st.metric("Word Count", len(task_data['text'].split()))
-                        with col2:
-                            st.metric("Questions", len(task_data['questions']))
-                        with col3:
-                            st.metric("Text Type", selected_text_type.split()[1])
-                        with col4:
-                            st.metric("Topic Category", task_data.get('topic_category', 'general'))
+                        # Check questions
+                        question_count = len(task_data['questions'])
+                        if 5 <= question_count <= 6:
+                            validation_results.append("✅ Questions: " + str(question_count))
+                        else:
+                            validation_results.append(f"⚠️ Questions: {question_count} (should be 5-6)")
                         
-                        # Display task
-                        st.subheader(f"📖 {task_data['title']}")
+                        # Check text type
+                        if task_data.get('text_type') == text_type_key:
+                            validation_results.append("✅ Text type: " + selected_text_type)
+                        else:
+                            validation_results.append("⚠️ Text type mismatch")
                         
-                        # Text and questions side by side
-                        col1, col2 = st.columns([3, 2])
+                        # Check generation source
+                        if task_data.get('generated_by') == 'ollama':
+                            validation_results.append("✅ Generated by: Ollama LLM")
+                        else:
+                            validation_results.append("⚠️ Generated by: Fallback system")
+                    
+                    validation_status.markdown("**Validation Results:**\n" + "\n".join(validation_results))
+                    
+                    # Step 5: Complete
+                    generation_time = time.time() - start_time
+                    status_text.text(f"🎉 Task generated successfully in {generation_time:.1f}s!")
+                    step_status.success(f"**Step 5/5:** Task generation complete! Generated by: {task_data.get('generated_by', 'unknown')}")
+                    progress_bar.progress(1.0)
+                    
+                    # Show final generation summary
+                    attempt_status.success(f"**Generation Summary:** Completed in {generation_time:.1f} seconds")
+                    parsing_status.success(f"**JSON Parsing:** Successful (Text type: {selected_text_type})")
+                    
+                    # Display results
+                    st.success("✅ Task generated successfully!")
+                    
+                    # Task overview with enhanced metrics
+                    col1, col2, col3, col4, col5 = st.columns(5)
+                    with col1:
+                        st.metric("Word Count", len(task_data['text'].split()))
+                    with col2:
+                        st.metric("Questions", len(task_data['questions']))
+                    with col3:
+                        st.metric("Text Type", selected_text_type.split()[1])
+                    with col4:
+                        st.metric("Generated By", task_data.get('generated_by', 'unknown').title())
+                    with col5:
+                        st.metric("Generation Time", f"{generation_time:.1f}s")
+                    
+                    # Display task
+                    st.subheader(f"📖 {task_data['title']}")
+                    
+                    # Text and questions side by side
+                    col1, col2 = st.columns([3, 2])
+                    
+                    with col1:
+                        st.markdown("**Reading Text:**")
+                        st.markdown(task_data['text'])
+                    
+                    with col2:
+                        st.markdown("**Questions:**")
+                        for i, question in enumerate(task_data['questions']):
+                            with st.expander(f"Question {question['question_number']}", expanded=True):
+                                st.markdown(f"**{question['question_text']}**")
+                                
+                                for option, text in question['options'].items():
+                                    if option == question['correct_answer']:
+                                        st.markdown(f"✅ **{option}**: {text}")
+                                    else:
+                                        st.markdown(f"   **{option}**: {text}")
+                                
+                                st.caption(f"Type: {question.get('question_type', 'unknown')}")
+                                if 'explanation' in question:
+                                    st.info(f"💡 {question['explanation']}")
+                    
+                    # Save option
+                    if st.button("💾 Save Task"):
+                        filepath = generator.save_task(task_data)
+                        st.success(f"Task saved to: {filepath}")
+                    
+                    # Download JSON
+                    st.download_button(
+                        label="📥 Download JSON",
+                        data=json.dumps(task_data, indent=2),
+                        file_name=f"{task_data['task_id']}.json",
+                        mime="application/json"
+                    )
+                    
+                except Exception as e:
+                    # Enhanced error reporting
+                    status_text.text("❌ Generation failed")
+                    step_status.error(f"**Error:** {str(e)}")
+                    
+                    # Show detailed error information
+                    if "Server disconnected" in str(e):
+                        attempt_status.error("**Connection Issue:** Ollama server disconnected during generation")
+                        parsing_status.warning("**Suggestion:** Check if Ollama is running and restart if needed")
+                    elif "JSON" in str(e) or "parse" in str(e).lower():
+                        attempt_status.error("**Parsing Issue:** Failed to parse LLM response as valid JSON")
+                        parsing_status.error(f"**Details:** {str(e)}")
+                    elif "validation" in str(e).lower():
+                        attempt_status.error("**Validation Issue:** Generated task doesn't meet B2 First requirements")
+                        validation_status.error(f"**Details:** {str(e)}")
+                    else:
+                        attempt_status.error(f"**Unknown Error:** {str(e)}")
+                    
+                    st.error(f"❌ Generation failed: {str(e)}")
+                    
+                    # Provide troubleshooting suggestions
+                    with st.expander("🔧 Troubleshooting"):
+                        st.markdown("""
+                        **Common issues and solutions:**
                         
-                        with col1:
-                            st.markdown("**Reading Text:**")
-                            st.markdown(task_data['text'])
+                        1. **Server disconnected:** Restart Ollama service
+                        2. **JSON parsing errors:** Try a different topic or text type
+                        3. **Validation failures:** The LLM output doesn't meet B2 requirements
+                        4. **Connection timeouts:** Check your internet connection
                         
-                        with col2:
-                            st.markdown("**Questions:**")
-                            for i, question in enumerate(task_data['questions']):
-                                with st.expander(f"Question {question['question_number']}", expanded=True):
-                                    st.markdown(f"**{question['question_text']}**")
-                                    
-                                    for option, text in question['options'].items():
-                                        if option == question['correct_answer']:
-                                            st.markdown(f"✅ **{option}**: {text}")
-                                        else:
-                                            st.markdown(f"   **{option}**: {text}")
-                                    
-                                    st.caption(f"Type: {question.get('question_type', 'unknown')}")
-                                    if 'explanation' in question:
-                                        st.info(f"💡 {question['explanation']}")
+                        **If problems persist:** Try using a different model or simplifying the topic.
+                        """)
                         
-                        # Save option
-                        if st.button("💾 Save Task"):
-                            filepath = generator.save_task(task_data)
-                            st.success(f"Task saved to: {filepath}")
-                        
-                        # Download JSON
-                        st.download_button(
-                            label="📥 Download JSON",
-                            data=json.dumps(task_data, indent=2),
-                            file_name=f"{task_data['task_id']}.json",
-                            mime="application/json"
-                        )
-                        
-                    except Exception as e:
-                        st.error(f"❌ Generation failed: {str(e)}")
+                        if st.button("🔄 Retry Generation"):
+                            st.rerun()
     
     with tab2:
         st.header("Improve Existing Tasks")
@@ -426,13 +568,50 @@ def main():
         st.info(f"Will generate {len(topics_to_use)} topics × {len(selected_text_types)} text types × {tasks_per_topic} tasks = **{total_tasks} total tasks**")
         
         if st.button("🚀 Start Batch Generation", type="primary"):
-            progress_bar = st.progress(0)
-            status_text = st.empty()
+            # Create enhanced progress tracking
+            progress_container = st.container()
+            stats_container = st.container()
+            details_container = st.container()
+            
+            with progress_container:
+                overall_progress = st.progress(0)
+                current_task_progress = st.progress(0)
+                status_text = st.empty()
+                current_task_text = st.empty()
+            
+            with stats_container:
+                col1, col2, col3, col4 = st.columns(4)
+                with col1:
+                    success_metric = st.metric("✅ Successful", 0)
+                with col2:
+                    failed_metric = st.metric("❌ Failed", 0)
+                with col3:
+                    ollama_metric = st.metric("🤖 Ollama Generated", 0)
+                with col4:
+                    fallback_metric = st.metric("🔄 Fallback Used", 0)
+            
+            with details_container:
+                details_expander = st.expander("📊 Generation Details", expanded=True)
+                with details_expander:
+                    task_log = st.empty()
+                    current_attempts = st.empty()
+                    parsing_info = st.empty()
             
             try:
                 generator = OllamaTaskGenerator(selected_model)
                 completed_tasks = []
+                failed_tasks = []
                 task_counter = 0
+                success_count = 0
+                failed_count = 0
+                ollama_count = 0
+                fallback_count = 0
+                
+                # Create log entries list
+                log_entries = []
+                
+                import time
+                batch_start_time = time.time()
                 
                 for topic in topics_to_use:
                     for text_type_key in selected_text_types:
@@ -440,52 +619,185 @@ def main():
                         
                         for j in range(tasks_per_topic):
                             task_counter += 1
+                            task_start_time = time.time()
                             
-                            status_text.text(f"Generating task {task_counter}/{total_tasks}: {text_type_name} about '{topic}'")
+                            # Update main progress
+                            overall_progress.progress(task_counter / total_tasks)
+                            status_text.text(f"📝 Processing task {task_counter}/{total_tasks}")
+                            current_task_text.text(f"🎯 Generating: {text_type_name} about '{topic}' (attempt {j+1})")
+                            
+                            # Reset current task progress
+                            current_task_progress.progress(0.1)
+                            current_attempts.info(f"**Current Task:** {text_type_name} - '{topic[:50]}{'...' if len(topic) > 50 else ''}'")
                             
                             try:
+                                # Step-by-step progress for current task
+                                current_task_progress.progress(0.2)
+                                parsing_info.info("**Status:** Initializing generation...")
+                                
+                                current_task_progress.progress(0.4)
+                                parsing_info.info("**Status:** LLM generating content...")
+                                
+                                # Generate the task (use auto-numbering)
                                 task = generator.generate_single_task(
                                     topic, 
-                                    task_counter,
+                                    None,  # Auto-assign task number to avoid overwriting
                                     text_type=text_type_key
                                 )
+                                
+                                current_task_progress.progress(0.7)
+                                parsing_info.info("**Status:** Validating and saving...")
+                                
+                                # Save the task
                                 generator.save_task(task)
                                 completed_tasks.append(task)
                                 
-                                progress_bar.progress(task_counter / total_tasks)
+                                # Update counters
+                                success_count += 1
+                                if task.get('generated_by') == 'ollama':
+                                    ollama_count += 1
+                                else:
+                                    fallback_count += 1
+                                
+                                # Complete current task
+                                current_task_progress.progress(1.0)
+                                task_time = time.time() - task_start_time
+                                
+                                # Add to log
+                                generation_source = "🤖 Ollama" if task.get('generated_by') == 'ollama' else "🔄 Fallback"
+                                log_entries.append(f"✅ Task {task_counter}: {text_type_name} - '{topic[:30]}...' ({generation_source}, {task_time:.1f}s)")
+                                parsing_info.success(f"**Status:** ✅ Completed in {task_time:.1f}s ({generation_source})")
+                                
+                                # Update metrics
+                                col1.metric("✅ Successful", success_count)
+                                col3.metric("🤖 Ollama Generated", ollama_count)
+                                col4.metric("🔄 Fallback Used", fallback_count)
                                 
                             except Exception as e:
-                                st.warning(f"Failed to generate {text_type_name} for '{topic}': {str(e)}")
+                                failed_count += 1
+                                failed_tasks.append({
+                                    'topic': topic,
+                                    'text_type': text_type_name,
+                                    'error': str(e)
+                                })
+                                
+                                task_time = time.time() - task_start_time
+                                
+                                # Add to log
+                                error_type = "Connection" if "disconnected" in str(e) else "Parsing" if "JSON" in str(e) else "Unknown"
+                                log_entries.append(f"❌ Task {task_counter}: {text_type_name} - '{topic[:30]}...' ({error_type} error, {task_time:.1f}s)")
+                                parsing_info.error(f"**Status:** ❌ Failed - {error_type} error ({task_time:.1f}s)")
+                                
+                                # Update metrics
+                                col2.metric("❌ Failed", failed_count)
+                                
+                                # Brief pause before continuing
+                                time.sleep(0.5)
+                            
+                            # Update the log display
+                            if log_entries:
+                                # Show last 10 entries
+                                recent_logs = log_entries[-10:]
+                                task_log.markdown("**Recent Tasks:**\n" + "\n".join(recent_logs))
+                            
+                            # Small delay to make progress visible
+                            time.sleep(0.2)
                 
-                st.success(f"✅ Batch generation complete! Generated {len(completed_tasks)} tasks")
+                # Final completion
+                batch_time = time.time() - batch_start_time
+                overall_progress.progress(1.0)
+                current_task_progress.progress(1.0)
+                status_text.text(f"🎉 Batch generation complete! ({batch_time:.1f}s total)")
+                current_task_text.text(f"✅ Generated {success_count} tasks, {failed_count} failed")
                 
-                # Summary
-                text_type_counts = {}
-                topic_counts = {}
-                for task in completed_tasks:
-                    # Count by text type
-                    text_type = task.get('text_type', 'unknown')
-                    text_type_counts[text_type] = text_type_counts.get(text_type, 0) + 1
+                # Final status
+                if success_count > 0:
+                    success_rate = (success_count / (success_count + failed_count)) * 100
+                    parsing_info.success(f"**Final Status:** {success_rate:.1f}% success rate ({ollama_count} Ollama, {fallback_count} fallback)")
+                else:
+                    parsing_info.error("**Final Status:** No tasks generated successfully")
+                
+                # Show complete log
+                if log_entries:
+                    task_log.markdown("**Complete Generation Log:**\n" + "\n".join(log_entries))
+                
+                st.success(f"✅ Batch generation complete! Generated {len(completed_tasks)} tasks in {batch_time:.1f} seconds")
+                
+                # Enhanced summary with detailed statistics
+                if completed_tasks:
+                    st.subheader("📊 Generation Summary")
                     
-                    # Count by topic
-                    topic = task.get('topic', 'unknown')
-                    topic_counts[topic] = topic_counts.get(topic, 0) + 1
+                    # Success metrics
+                    col1, col2, col3, col4 = st.columns(4)
+                    with col1:
+                        st.metric("Total Tasks", len(completed_tasks))
+                    with col2:
+                        success_rate = (len(completed_tasks) / total_tasks) * 100
+                        st.metric("Success Rate", f"{success_rate:.1f}%")
+                    with col3:
+                        avg_time = batch_time / total_tasks
+                        st.metric("Avg Time/Task", f"{avg_time:.1f}s")
+                    with col4:
+                        ollama_rate = (ollama_count / len(completed_tasks)) * 100 if completed_tasks else 0
+                        st.metric("Ollama Success", f"{ollama_rate:.1f}%")
+                    
+                    # Detailed breakdowns
+                    col1, col2 = st.columns(2)
+                    
+                    with col1:
+                        st.markdown("**📝 By Text Type:**")
+                        text_type_counts = {}
+                        for task in completed_tasks:
+                            text_type = task.get('text_type', 'unknown')
+                            text_type_counts[text_type] = text_type_counts.get(text_type, 0) + 1
+                        
+                        for text_type, count in text_type_counts.items():
+                            display_name = text_type.replace('_', ' ').title()
+                            st.metric(display_name, count)
+                    
+                    with col2:
+                        st.markdown("**🎯 By Topic:**")
+                        topic_counts = {}
+                        for task in completed_tasks:
+                            topic = task.get('topic', 'unknown')
+                            topic_counts[topic] = topic_counts.get(topic, 0) + 1
+                        
+                        for topic, count in list(topic_counts.items())[:5]:  # Show top 5
+                            display_topic = topic[:25] + "..." if len(topic) > 25 else topic
+                            st.metric(display_topic, count)
                 
-                st.subheader("Generation Summary")
-                
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.markdown("**By Text Type:**")
-                    for text_type, count in text_type_counts.items():
-                        st.metric(text_type.replace('_', ' ').title(), count)
-                
-                with col2:
-                    st.markdown("**By Topic:**")
-                    for topic, count in list(topic_counts.items())[:5]:  # Show top 5
-                        st.metric(topic[:30] + "..." if len(topic) > 30 else topic, count)
+                # Show failed tasks if any
+                if failed_tasks:
+                    st.subheader("⚠️ Failed Tasks")
+                    with st.expander(f"View {len(failed_tasks)} failed tasks"):
+                        for i, failed_task in enumerate(failed_tasks, 1):
+                            st.markdown(f"**{i}.** {failed_task['text_type']} - '{failed_task['topic']}'")
+                            st.caption(f"Error: {failed_task['error']}")
                 
             except Exception as e:
+                status_text.text("❌ Batch generation failed")
+                current_task_text.text(f"Error: {str(e)}")
+                parsing_info.error(f"**Critical Error:** {str(e)}")
                 st.error(f"❌ Batch generation failed: {str(e)}")
+                
+                # Troubleshooting for batch generation
+                with st.expander("🔧 Batch Generation Troubleshooting"):
+                    st.markdown("""
+                    **Common batch generation issues:**
+                    
+                    1. **Ollama connection lost:** Restart Ollama service
+                    2. **Memory issues:** Reduce batch size or use smaller model
+                    3. **Timeout errors:** Check network stability
+                    4. **High failure rate:** Try simpler topics or different text types
+                    
+                    **Recommendations:**
+                    - Start with smaller batches (3-5 tasks) to test
+                    - Use stable topics that work well individually
+                    - Monitor system resources during generation
+                    """)
+                    
+                    if st.button("🔄 Retry Batch Generation"):
+                        st.rerun()
     
     with tab4:
         st.header("Task Library")
@@ -497,6 +809,37 @@ def main():
             
             if task_files:
                 st.info(f"Found {len(task_files)} generated tasks")
+                
+                # Action buttons
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    if st.button("📥 Download All Tasks"):
+                        # Create a zip file with all tasks
+                        import zipfile
+                        import io
+                        
+                        zip_buffer = io.BytesIO()
+                        with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zip_file:
+                            for task_file in task_files:
+                                zip_file.write(task_file, task_file.name)
+                        
+                        st.download_button(
+                            label="💾 Download ZIP",
+                            data=zip_buffer.getvalue(),
+                            file_name="b2_first_tasks.zip",
+                            mime="application/zip"
+                        )
+                
+                with col2:
+                    if st.button("🗑️ Clear All Tasks"):
+                        if st.checkbox("⚠️ Confirm deletion"):
+                            for task_file in task_files:
+                                task_file.unlink()
+                            st.success("All tasks deleted!")
+                            st.rerun()
+                
+                with col3:
+                    st.metric("Total Tasks", len(task_files))
                 
                 # Filter options
                 col1, col2, col3 = st.columns(3)
@@ -543,7 +886,14 @@ def main():
                 for task in tasks_data:
                     text_type_display = task.get('text_type', 'unknown').replace('_', ' ').title()
                     
+                    # Get generation parameters if available
+                    gen_params = task.get('generation_params', {})
+                    model_name = gen_params.get('model_full_name', task.get('model', 'unknown'))
+                    temperature = gen_params.get('temperature', 'N/A')
+                    max_tokens = gen_params.get('max_tokens', 'N/A')
+                    
                     with st.expander(f"📖 {task.get('title', 'Untitled')} ({text_type_display})"):
+                        # Basic metrics row
                         col1, col2, col3, col4 = st.columns(4)
                         
                         with col1:
@@ -555,12 +905,554 @@ def main():
                         with col4:
                             st.metric("Generator", task.get('generated_by', 'unknown'))
                         
-                        if st.button(f"View Full Task", key=f"view_{task.get('task_id', 'unknown')}"):
-                            st.json(task)
+                        # Generation parameters row (new)
+                        st.markdown("**🤖 Generation Parameters:**")
+                        col1, col2, col3 = st.columns(3)
+                        
+                        with col1:
+                            st.metric("Model", model_name)
+                        with col2:
+                            if isinstance(temperature, (int, float)):
+                                st.metric("Temperature", f"{temperature:.2f}")
+                            else:
+                                st.metric("Temperature", str(temperature))
+                        with col3:
+                            st.metric("Max Tokens", str(max_tokens))
+                        
+                        # Additional metadata
+                        if task.get('topic_category'):
+                            st.markdown(f"**📂 Category:** {task.get('topic_category', 'unknown').replace('_', ' ').title()}")
+                        
+                        if task.get('topic'):
+                            st.markdown(f"**🎯 Topic:** {task.get('topic', 'N/A')}")
+                        
+                        # Individual task actions
+                        col1, col2 = st.columns(2)
+                        with col1:
+                            if st.button(f"📖 View Full Task", key=f"view_{task.get('task_id', 'unknown')}"):
+                                st.json(task)
+                        with col2:
+                            st.download_button(
+                                label="📥 Download JSON",
+                                data=json.dumps(task, indent=2),
+                                file_name=f"{task.get('task_id', 'task')}.json",
+                                mime="application/json",
+                                key=f"download_{task.get('task_id', 'unknown')}"
+                            )
             else:
                 st.info("No tasks found. Generate some tasks first!")
         else:
             st.info("Generated tasks directory not found.")
+
+    with tab5:
+        st.header("⚙️ Admin Panel")
+        st.markdown("**Configure AI prompts and system parameters**")
+        
+        # Password protection for admin panel
+        if 'admin_authenticated' not in st.session_state:
+            st.session_state.admin_authenticated = False
+        
+        if not st.session_state.admin_authenticated:
+            st.warning("🔒 Admin access required")
+            admin_password = st.text_input("Enter admin password:", type="password")
+            if st.button("Authenticate"):
+                # Simple password check (in production, use proper authentication)
+                if admin_password == "admin123":  # Change this to a secure password
+                    st.session_state.admin_authenticated = True
+                    st.success("✅ Authenticated successfully!")
+                    st.rerun()
+                else:
+                    st.error("❌ Invalid password")
+            st.info("💡 Default password: admin123")
+            return
+        
+        # Admin panel content
+        st.success("🔓 Admin access granted")
+        
+        # Logout button
+        if st.button("🚪 Logout"):
+            st.session_state.admin_authenticated = False
+            st.rerun()
+        
+        # Create tabs for different admin sections
+        admin_tab1, admin_tab2, admin_tab3, admin_tab4 = st.tabs([
+            "🤖 AI Prompts", 
+            "📝 Text Type Instructions", 
+            "⚙️ Model Parameters", 
+            "📚 Knowledge Base"
+        ])
+        
+        with admin_tab1:
+            st.subheader("🤖 AI System Prompts")
+            
+            # Main generation system prompt
+            st.markdown("### Main Task Generation Prompt")
+            
+            # Get current system prompt from the code
+            current_system_prompt = """You are an expert Cambridge B2 First exam content creator. 
+Generate authentic Reading Part 5 tasks that match the official exam format exactly.
+
+CRITICAL: You must respond with ONLY valid JSON. No explanations, no markdown, no extra text.
+
+Reading Part 5 Requirements:
+- Text length: 550-750 words (engaging, authentic content)
+- 6 multiple choice questions (31-36)
+- Each question has 4 options (A, B, C, D)
+- Question types: inference, vocabulary in context, attitude/opinion, detail, reference, main idea
+- Text should be engaging and at B2 level
+- Questions must be specific and contextual, not generic
+
+TEXT TYPE INSTRUCTION: {text_style_instruction}
+
+You can use natural formatting in your text including:
+- Paragraphs with line breaks
+- Quotation marks for dialogue or emphasis
+- Natural punctuation and formatting
+
+The JSON parser will handle the formatting correctly.
+
+RESPOND WITH ONLY THIS JSON FORMAT:
+{
+    "task_id": "reading_part5_task_01",
+    "title": "Engaging Task Title",
+    "topic": "topic_category",
+    "text_type": "{text_type}",
+    "difficulty": "B2",
+    "text": "Your engaging text here following the {text_type} style...",
+    "questions": [
+        {
+            "question_number": 1,
+            "question_text": "What does the author suggest about...?",
+            "options": {
+                "A": "First realistic option",
+                "B": "Second realistic option", 
+                "C": "Third realistic option",
+                "D": "Fourth realistic option"
+            },
+            "correct_answer": "A",
+            "question_type": "inference"
+        }
+    ]
+}"""
+            
+            # Load saved prompt if exists
+            prompt_file = Path(__file__).parent.parent / "config" / "system_prompts.json"
+            prompt_file.parent.mkdir(exist_ok=True)
+            
+            if prompt_file.exists():
+                try:
+                    with open(prompt_file, 'r') as f:
+                        saved_prompts = json.load(f)
+                    current_system_prompt = saved_prompts.get('main_generation_prompt', current_system_prompt)
+                except:
+                    pass
+            
+            edited_system_prompt = st.text_area(
+                "System Prompt for Task Generation:",
+                value=current_system_prompt,
+                height=400,
+                help="This prompt controls how the AI generates reading tasks"
+            )
+            
+            # Task improvement prompt
+            st.markdown("### Task Improvement Prompt")
+            
+            current_improvement_prompt = """You are an expert Cambridge B2 First exam content creator.
+Improve the given Reading Part 5 task by making the questions more specific and contextual.
+
+Focus on:
+1. Making questions refer to specific parts of the text
+2. Creating realistic, plausible distractors
+3. Ensuring questions test different skills
+4. Making sure only one answer is clearly correct
+
+You can use natural formatting in your improvements including quotes, line breaks, etc.
+The JSON parser will handle the formatting correctly.
+
+Return the improved task in the same JSON format."""
+            
+            # Load saved improvement prompt if exists
+            if prompt_file.exists():
+                try:
+                    with open(prompt_file, 'r') as f:
+                        saved_prompts = json.load(f)
+                    current_improvement_prompt = saved_prompts.get('improvement_prompt', current_improvement_prompt)
+                except:
+                    pass
+            
+            edited_improvement_prompt = st.text_area(
+                "System Prompt for Task Improvement:",
+                value=current_improvement_prompt,
+                height=200,
+                help="This prompt controls how the AI improves existing tasks"
+            )
+            
+            # User prompt template
+            st.markdown("### User Prompt Template")
+            
+            current_user_prompt = """Create a Reading Part 5 task about: {topic}
+
+Text Type: {text_type}
+Style Instructions: {text_style_instruction}
+
+Make sure:
+1. The text is 550-750 words and follows the {text_type} style
+2. Use natural formatting including paragraphs, quotes, and proper punctuation
+3. The topic is engaging and suitable for B2 level students
+4. Create 6 questions (numbered 1-6) that are specific to the text content
+5. Questions test different skills: inference, vocabulary, attitude, details, reference, main idea
+6. Each question has exactly 4 realistic options
+7. Only one option is clearly correct for each question
+8. Make the content authentic and interesting
+
+Topic: {topic}
+Text Type: {text_type}
+Difficulty: {difficulty}"""
+            
+            # Load saved user prompt if exists
+            if prompt_file.exists():
+                try:
+                    with open(prompt_file, 'r') as f:
+                        saved_prompts = json.load(f)
+                    current_user_prompt = saved_prompts.get('user_prompt_template', current_user_prompt)
+                except:
+                    pass
+            
+            edited_user_prompt = st.text_area(
+                "User Prompt Template:",
+                value=current_user_prompt,
+                height=300,
+                help="Template for the user prompt sent to the AI. Use {topic}, {text_type}, etc. as placeholders"
+            )
+            
+            # Save prompts button
+            if st.button("💾 Save AI Prompts", type="primary"):
+                prompts_to_save = {
+                    'main_generation_prompt': edited_system_prompt,
+                    'improvement_prompt': edited_improvement_prompt,
+                    'user_prompt_template': edited_user_prompt,
+                    'last_updated': str(datetime.now())
+                }
+                
+                try:
+                    with open(prompt_file, 'w') as f:
+                        json.dump(prompts_to_save, f, indent=2)
+                    st.success("✅ AI prompts saved successfully!")
+                    st.info("🔄 Restart the application to apply changes")
+                except Exception as e:
+                    st.error(f"❌ Failed to save prompts: {e}")
+        
+        with admin_tab2:
+            st.subheader("📝 Text Type Instructions")
+            
+            # Load current text type instructions
+            text_type_instructions = {
+                "magazine_article": "Write as an engaging magazine article with a clear structure, subheadings if appropriate, and an informative yet accessible tone. Include expert quotes or statistics where relevant.",
+                "newspaper_article": "Write as a newspaper feature article with journalistic style, factual reporting, and balanced perspective. Include relevant context and background information.",
+                "novel_extract": "Write as an excerpt from a contemporary novel with character development, dialogue, and narrative description. Focus on showing rather than telling.",
+                "blog_post": "Write as a personal blog post with first-person perspective, conversational tone, and personal reflections or experiences.",
+                "science_article": "Write as a popular science article that explains complex concepts in accessible language, with examples and analogies to help understanding.",
+                "cultural_review": "Write as a cultural review or commentary with analytical perspective, critical evaluation, and informed opinion.",
+                "professional_feature": "Write as a professional feature article about workplace trends, career advice, or industry insights with practical information.",
+                "lifestyle_feature": "Write as a lifestyle feature about personal interests, home, family, or hobbies with practical tips and relatable content.",
+                "travel_writing": "Write as travel writing with vivid descriptions of places, cultural observations, and personal travel experiences.",
+                "educational_feature": "Write as an educational feature about learning, study techniques, or educational trends with informative and helpful content."
+            }
+            
+            # Load saved instructions if exists
+            instructions_file = Path(__file__).parent.parent / "config" / "text_type_instructions.json"
+            if instructions_file.exists():
+                try:
+                    with open(instructions_file, 'r') as f:
+                        saved_instructions = json.load(f)
+                    text_type_instructions.update(saved_instructions)
+                except:
+                    pass
+            
+            st.markdown("Edit the style instructions for each text type:")
+            
+            edited_instructions = {}
+            for text_type, instruction in text_type_instructions.items():
+                display_name = text_type.replace('_', ' ').title()
+                edited_instructions[text_type] = st.text_area(
+                    f"**{display_name}**",
+                    value=instruction,
+                    height=100,
+                    key=f"instruction_{text_type}"
+                )
+            
+            if st.button("💾 Save Text Type Instructions", type="primary"):
+                try:
+                    instructions_file.parent.mkdir(exist_ok=True)
+                    with open(instructions_file, 'w') as f:
+                        json.dump(edited_instructions, f, indent=2)
+                    st.success("✅ Text type instructions saved successfully!")
+                    st.info("🔄 Restart the application to apply changes")
+                except Exception as e:
+                    st.error(f"❌ Failed to save instructions: {e}")
+        
+        with admin_tab3:
+            st.subheader("⚙️ Model Parameters")
+            
+            # Load current model config
+            config_file = Path(__file__).parent.parent / "config" / "model_config.json"
+            
+            default_config = {
+                "default_model": "llama3.1:8b",
+                "temperature": 0.7,
+                "max_tokens": 2000,
+                "timeout": 120,
+                "max_retries": 3
+            }
+            
+            current_config = default_config.copy()
+            if config_file.exists():
+                try:
+                    with open(config_file, 'r') as f:
+                        saved_config = json.load(f)
+                    current_config.update(saved_config)
+                except:
+                    pass
+            
+            st.markdown("### Default Model Settings")
+            
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                new_model = st.text_input(
+                    "Default Model:",
+                    value=current_config['default_model'],
+                    help="Default Ollama model to use"
+                )
+                
+                new_temperature = st.slider(
+                    "Temperature:",
+                    min_value=0.0,
+                    max_value=2.0,
+                    value=float(current_config['temperature']),
+                    step=0.1,
+                    help="Controls randomness in generation (0.0 = deterministic, 2.0 = very random)"
+                )
+                
+                new_max_tokens = st.number_input(
+                    "Max Tokens:",
+                    min_value=500,
+                    max_value=8000,
+                    value=int(current_config['max_tokens']),
+                    step=100,
+                    help="Maximum number of tokens to generate"
+                )
+            
+            with col2:
+                new_timeout = st.number_input(
+                    "Timeout (seconds):",
+                    min_value=30,
+                    max_value=300,
+                    value=int(current_config['timeout']),
+                    step=10,
+                    help="Request timeout in seconds"
+                )
+                
+                new_max_retries = st.number_input(
+                    "Max Retries:",
+                    min_value=1,
+                    max_value=10,
+                    value=int(current_config['max_retries']),
+                    step=1,
+                    help="Maximum number of retry attempts"
+                )
+            
+            # Validation settings
+            st.markdown("### Task Validation Settings")
+            
+            validation_config = current_config.get('validation', {
+                'min_word_count': 400,
+                'max_word_count': 800,
+                'min_questions': 5,
+                'max_questions': 6,
+                'required_question_types': ['inference', 'vocabulary', 'detail']
+            })
+            
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                min_words = st.number_input(
+                    "Min Word Count:",
+                    min_value=200,
+                    max_value=1000,
+                    value=validation_config['min_word_count'],
+                    help="Minimum words in generated text"
+                )
+                
+                max_words = st.number_input(
+                    "Max Word Count:",
+                    min_value=500,
+                    max_value=1500,
+                    value=validation_config['max_word_count'],
+                    help="Maximum words in generated text"
+                )
+            
+            with col2:
+                min_questions = st.number_input(
+                    "Min Questions:",
+                    min_value=3,
+                    max_value=8,
+                    value=validation_config['min_questions'],
+                    help="Minimum number of questions"
+                )
+                
+                max_questions = st.number_input(
+                    "Max Questions:",
+                    min_value=5,
+                    max_value=10,
+                    value=validation_config['max_questions'],
+                    help="Maximum number of questions"
+                )
+            
+            if st.button("💾 Save Model Configuration", type="primary"):
+                new_config = {
+                    "default_model": new_model,
+                    "temperature": new_temperature,
+                    "max_tokens": new_max_tokens,
+                    "timeout": new_timeout,
+                    "max_retries": new_max_retries,
+                    "validation": {
+                        "min_word_count": min_words,
+                        "max_word_count": max_words,
+                        "min_questions": min_questions,
+                        "max_questions": max_questions,
+                        "required_question_types": validation_config['required_question_types']
+                    },
+                    "last_updated": str(datetime.now())
+                }
+                
+                try:
+                    config_file.parent.mkdir(exist_ok=True)
+                    with open(config_file, 'w') as f:
+                        json.dump(new_config, f, indent=2)
+                    st.success("✅ Model configuration saved successfully!")
+                    st.info("🔄 Restart the application to apply changes")
+                except Exception as e:
+                    st.error(f"❌ Failed to save configuration: {e}")
+        
+        with admin_tab4:
+            st.subheader("📚 Knowledge Base Management")
+            
+            # Display current knowledge base files
+            knowledge_base_dir = Path(__file__).parent.parent / "knowledge_base"
+            
+            if knowledge_base_dir.exists():
+                kb_files = list(knowledge_base_dir.glob("*.json"))
+                
+                st.markdown("### Current Knowledge Base Files")
+                for kb_file in kb_files:
+                    with st.expander(f"📄 {kb_file.name}"):
+                        try:
+                            with open(kb_file, 'r') as f:
+                                kb_content = json.load(f)
+                            
+                            st.json(kb_content, expanded=False)
+                            
+                            # Edit button for each file
+                            if st.button(f"✏️ Edit {kb_file.name}", key=f"edit_{kb_file.name}"):
+                                st.session_state[f"editing_{kb_file.name}"] = True
+                            
+                            # Edit mode
+                            if st.session_state.get(f"editing_{kb_file.name}", False):
+                                edited_content = st.text_area(
+                                    f"Edit {kb_file.name}:",
+                                    value=json.dumps(kb_content, indent=2),
+                                    height=300,
+                                    key=f"content_{kb_file.name}"
+                                )
+                                
+                                col1, col2 = st.columns(2)
+                                with col1:
+                                    if st.button(f"💾 Save {kb_file.name}", key=f"save_{kb_file.name}"):
+                                        try:
+                                            new_content = json.loads(edited_content)
+                                            with open(kb_file, 'w') as f:
+                                                json.dump(new_content, f, indent=2)
+                                            st.success(f"✅ {kb_file.name} saved successfully!")
+                                            st.session_state[f"editing_{kb_file.name}"] = False
+                                            st.rerun()
+                                        except json.JSONDecodeError as e:
+                                            st.error(f"❌ Invalid JSON: {e}")
+                                        except Exception as e:
+                                            st.error(f"❌ Failed to save: {e}")
+                                
+                                with col2:
+                                    if st.button(f"❌ Cancel", key=f"cancel_{kb_file.name}"):
+                                        st.session_state[f"editing_{kb_file.name}"] = False
+                                        st.rerun()
+                        
+                        except Exception as e:
+                            st.error(f"Error loading {kb_file.name}: {e}")
+            
+            # Topic sets management
+            st.markdown("### Topic Sets Management")
+            
+            # Load current topic sets
+            topic_sets_file = Path(__file__).parent.parent / "config" / "topic_sets.json"
+            
+            default_topic_sets = {
+                "Travel & Adventure": [
+                    "sustainable travel and eco-tourism",
+                    "adventure sports and personal challenges",
+                    "cultural exchange through travel",
+                    "digital nomad lifestyle"
+                ],
+                "Technology & Modern Life": [
+                    "artificial intelligence in everyday life",
+                    "social media influence on relationships",
+                    "remote work and productivity",
+                    "digital wellness and screen time"
+                ],
+                "Environment & Sustainability": [
+                    "urban gardening and community spaces",
+                    "renewable energy solutions for homes",
+                    "climate change adaptation strategies",
+                    "sustainable fashion and consumption"
+                ],
+                "Personal Development": [
+                    "mindfulness and mental health awareness",
+                    "lifelong learning and skill development",
+                    "creative hobbies and self-expression",
+                    "work-life balance strategies"
+                ]
+            }
+            
+            current_topic_sets = default_topic_sets.copy()
+            if topic_sets_file.exists():
+                try:
+                    with open(topic_sets_file, 'r') as f:
+                        saved_topic_sets = json.load(f)
+                    current_topic_sets.update(saved_topic_sets)
+                except:
+                    pass
+            
+            # Edit topic sets
+            edited_topic_sets = {}
+            for category, topics in current_topic_sets.items():
+                st.markdown(f"**{category}**")
+                topics_text = '\n'.join(topics)
+                edited_topics_text = st.text_area(
+                    f"Topics for {category} (one per line):",
+                    value=topics_text,
+                    height=100,
+                    key=f"topics_{category}"
+                )
+                edited_topic_sets[category] = [topic.strip() for topic in edited_topics_text.split('\n') if topic.strip()]
+            
+            if st.button("💾 Save Topic Sets", type="primary"):
+                try:
+                    topic_sets_file.parent.mkdir(exist_ok=True)
+                    with open(topic_sets_file, 'w') as f:
+                        json.dump(edited_topic_sets, f, indent=2)
+                    st.success("✅ Topic sets saved successfully!")
+                    st.info("🔄 Restart the application to apply changes")
+                except Exception as e:
+                    st.error(f"❌ Failed to save topic sets: {e}")
 
 if __name__ == "__main__":
     main() 
