@@ -800,7 +800,7 @@ def main():
                         st.rerun()
     
     with tab4:
-        st.header("Task Library")
+        st.header("📚 Task Library")
         
         # Load and display all generated tasks
         generated_tasks_dir = Path(__file__).parent.parent / "generated_tasks"
@@ -808,11 +808,12 @@ def main():
             task_files = list(generated_tasks_dir.glob("*.json"))
             
             if task_files:
-                st.info(f"Found {len(task_files)} generated tasks")
-                
-                # Action buttons
-                col1, col2, col3 = st.columns(3)
+                # Action buttons row
+                col1, col2, col3, col4 = st.columns(4)
                 with col1:
+                    st.metric("📊 Total Tasks", len(task_files))
+                
+                with col2:
                     if st.button("📥 Download All Tasks"):
                         # Create a zip file with all tasks
                         import zipfile
@@ -830,7 +831,14 @@ def main():
                             mime="application/zip"
                         )
                 
-                with col2:
+                with col3:
+                    view_mode = st.selectbox(
+                        "View Mode",
+                        ["📖 Reader View", "📋 Summary View", "🔧 JSON View"],
+                        index=0
+                    )
+                
+                with col4:
                     if st.button("🗑️ Clear All Tasks"):
                         if st.checkbox("⚠️ Confirm deletion"):
                             for task_file in task_files:
@@ -838,15 +846,14 @@ def main():
                             st.success("All tasks deleted!")
                             st.rerun()
                 
-                with col3:
-                    st.metric("Total Tasks", len(task_files))
+                st.divider()
                 
                 # Filter options
                 col1, col2, col3 = st.columns(3)
                 with col1:
                     filter_by_generator = st.selectbox(
                         "Filter by Generator",
-                        ["All", "ollama", "improved", "manual"],
+                        ["All", "ollama", "improved", "fallback"],
                         index=0
                     )
                 
@@ -860,7 +867,7 @@ def main():
                 with col3:
                     sort_by = st.selectbox(
                         "Sort by",
-                        ["Task ID", "Title", "Topic Category"],
+                        ["Task ID", "Title", "Topic Category", "Word Count"],
                         index=0
                     )
                 
@@ -882,67 +889,258 @@ def main():
                 if filter_by_text_type != "All":
                     tasks_data = [t for t in tasks_data if t.get('text_type') == filter_by_text_type]
                 
-                # Display tasks
-                for task in tasks_data:
-                    text_type_display = task.get('text_type', 'unknown').replace('_', ' ').title()
+                # Sort tasks
+                if sort_by == "Task ID":
+                    tasks_data.sort(key=lambda x: x.get('task_id', ''))
+                elif sort_by == "Title":
+                    tasks_data.sort(key=lambda x: x.get('title', ''))
+                elif sort_by == "Topic Category":
+                    tasks_data.sort(key=lambda x: x.get('topic_category', ''))
+                elif sort_by == "Word Count":
+                    tasks_data.sort(key=lambda x: len(x.get('text', '').split()), reverse=True)
+                
+                if not tasks_data:
+                    st.info("No tasks match the current filters.")
+                    return
+                
+                st.info(f"Showing {len(tasks_data)} tasks")
+                
+                # Create tabs for each task
+                if view_mode == "📖 Reader View":
+                    # Create tabs for individual task viewing
+                    task_names = [f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')[:30]}..." 
+                                 if len(task.get('title', '')) > 30 
+                                 else f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')}" 
+                                 for task in tasks_data]
                     
-                    # Get generation parameters if available
-                    gen_params = task.get('generation_params', {})
-                    model_name = gen_params.get('model_full_name', task.get('model', 'unknown'))
-                    temperature = gen_params.get('temperature', 'N/A')
-                    max_tokens = gen_params.get('max_tokens', 'N/A')
+                    if len(tasks_data) > 10:
+                        st.warning("⚠️ Too many tasks for tab view. Showing first 10 tasks. Use filters to narrow down.")
+                        tasks_data = tasks_data[:10]
+                        task_names = task_names[:10]
                     
-                    with st.expander(f"📖 {task.get('title', 'Untitled')} ({text_type_display})"):
-                        # Basic metrics row
-                        col1, col2, col3, col4 = st.columns(4)
+                    if tasks_data:
+                        selected_tabs = st.tabs(task_names)
                         
-                        with col1:
-                            st.metric("Word Count", len(task.get('text', '').split()))
-                        with col2:
-                            st.metric("Questions", len(task.get('questions', [])))
-                        with col3:
-                            st.metric("Text Type", text_type_display)
-                        with col4:
-                            st.metric("Generator", task.get('generated_by', 'unknown'))
+                        for i, (task, tab) in enumerate(zip(tasks_data, selected_tabs)):
+                            with tab:
+                                display_task_reader_view(task)
+                
+                elif view_mode == "📋 Summary View":
+                    # Display tasks in summary cards
+                    for task in tasks_data:
+                        display_task_summary_view(task)
+                
+                elif view_mode == "🔧 JSON View":
+                    # Display tasks in JSON format
+                    for task in tasks_data:
+                        display_task_json_view(task)
                         
-                        # Generation parameters row (new)
-                        st.markdown("**🤖 Generation Parameters:**")
-                        col1, col2, col3 = st.columns(3)
-                        
-                        with col1:
-                            st.metric("Model", model_name)
-                        with col2:
-                            if isinstance(temperature, (int, float)):
-                                st.metric("Temperature", f"{temperature:.2f}")
-                            else:
-                                st.metric("Temperature", str(temperature))
-                        with col3:
-                            st.metric("Max Tokens", str(max_tokens))
-                        
-                        # Additional metadata
-                        if task.get('topic_category'):
-                            st.markdown(f"**📂 Category:** {task.get('topic_category', 'unknown').replace('_', ' ').title()}")
-                        
-                        if task.get('topic'):
-                            st.markdown(f"**🎯 Topic:** {task.get('topic', 'N/A')}")
-                        
-                        # Individual task actions
-                        col1, col2 = st.columns(2)
-                        with col1:
-                            if st.button(f"📖 View Full Task", key=f"view_{task.get('task_id', 'unknown')}"):
-                                st.json(task)
-                        with col2:
-                            st.download_button(
-                                label="📥 Download JSON",
-                                data=json.dumps(task, indent=2),
-                                file_name=f"{task.get('task_id', 'task')}.json",
-                                mime="application/json",
-                                key=f"download_{task.get('task_id', 'unknown')}"
-                            )
             else:
                 st.info("No tasks found. Generate some tasks first!")
         else:
             st.info("Generated tasks directory not found.")
+
+def display_task_reader_view(task):
+    """Display a task in a nicely formatted reader view"""
+    # Task header
+    st.markdown(f"# 📖 {task.get('title', 'Untitled Task')}")
+    
+    # Task metadata
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.metric("📝 Word Count", len(task.get('text', '').split()))
+    with col2:
+        st.metric("❓ Questions", len(task.get('questions', [])))
+    with col3:
+        text_type = task.get('text_type', 'unknown').replace('_', ' ').title()
+        st.metric("📄 Text Type", text_type)
+    with col4:
+        st.metric("🤖 Generator", task.get('generated_by', 'unknown').title())
+    
+    # Additional metadata
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        if task.get('topic'):
+            st.markdown(f"**🎯 Topic:** {task.get('topic')}")
+    with col2:
+        if task.get('topic_category'):
+            category = task.get('topic_category', '').replace('_', ' ').title()
+            st.markdown(f"**📂 Category:** {category}")
+    with col3:
+        st.markdown(f"**🆔 Task ID:** {task.get('task_id', 'N/A')}")
+    
+    # Generation parameters
+    gen_params = task.get('generation_params', {})
+    if gen_params:
+        with st.expander("🤖 Generation Parameters"):
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                st.metric("Model", gen_params.get('model_full_name', 'N/A'))
+            with col2:
+                temp = gen_params.get('temperature', 'N/A')
+                if isinstance(temp, (int, float)):
+                    st.metric("Temperature", f"{temp:.2f}")
+                else:
+                    st.metric("Temperature", str(temp))
+            with col3:
+                st.metric("Max Tokens", str(gen_params.get('max_tokens', 'N/A')))
+    
+    st.divider()
+    
+    # Reading text
+    st.markdown("## 📄 Reading Text")
+    text_content = task.get('text', 'No text available')
+    
+    # Format the text nicely
+    formatted_text = text_content.strip()
+    # Add proper paragraph breaks
+    paragraphs = formatted_text.split('\n\n')
+    for paragraph in paragraphs:
+        if paragraph.strip():
+            st.markdown(paragraph.strip())
+            st.markdown("")  # Add space between paragraphs
+    
+    st.divider()
+    
+    # Questions section
+    st.markdown("## ❓ Questions")
+    questions = task.get('questions', [])
+    
+    if questions:
+        for i, question in enumerate(questions, 1):
+            st.markdown(f"### Question {i}")
+            
+            # Question text
+            question_text = question.get('question_text', 'No question text')
+            st.markdown(f"**{question_text}**")
+            
+            # Options
+            options = question.get('options', {})
+            correct_answer = question.get('correct_answer', '')
+            
+            if options:
+                st.markdown("**Options:**")
+                for option_key, option_text in options.items():
+                    if option_key == correct_answer:
+                        st.markdown(f"✅ **{option_key}.** {option_text}")
+                    else:
+                        st.markdown(f"   **{option_key}.** {option_text}")
+            
+            # Question metadata
+            col1, col2 = st.columns(2)
+            with col1:
+                q_type = question.get('question_type', 'unknown')
+                st.markdown(f"**Type:** {q_type.replace('_', ' ').title()}")
+            with col2:
+                st.markdown(f"**Correct Answer:** {correct_answer}")
+            
+            # Explanation if available
+            if question.get('explanation'):
+                with st.expander("💡 Explanation"):
+                    st.markdown(question.get('explanation'))
+            
+            if i < len(questions):  # Don't add divider after last question
+                st.markdown("---")
+    else:
+        st.warning("No questions found for this task.")
+    
+    # Action buttons
+    st.divider()
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.download_button(
+            label="📥 Download JSON",
+            data=json.dumps(task, indent=2),
+            file_name=f"{task.get('task_id', 'task')}.json",
+            mime="application/json",
+            key=f"download_reader_{task.get('task_id', 'unknown')}"
+        )
+    
+    with col2:
+        if st.button("📋 Copy Text Only", key=f"copy_text_{task.get('task_id', 'unknown')}"):
+            st.code(task.get('text', ''), language=None)
+    
+    with col3:
+        if st.button("📊 View JSON", key=f"json_view_{task.get('task_id', 'unknown')}"):
+            st.json(task)
+
+def display_task_summary_view(task):
+    """Display a task in summary card format"""
+    text_type_display = task.get('text_type', 'unknown').replace('_', ' ').title()
+    
+    # Get generation parameters if available
+    gen_params = task.get('generation_params', {})
+    model_name = gen_params.get('model_full_name', task.get('model', 'unknown'))
+    
+    with st.expander(f"📖 {task.get('title', 'Untitled')} ({text_type_display})"):
+        # Basic metrics row
+        col1, col2, col3, col4 = st.columns(4)
+        
+        with col1:
+            st.metric("Word Count", len(task.get('text', '').split()))
+        with col2:
+            st.metric("Questions", len(task.get('questions', [])))
+        with col3:
+            st.metric("Text Type", text_type_display)
+        with col4:
+            st.metric("Generator", task.get('generated_by', 'unknown'))
+        
+        # Generation parameters row
+        if gen_params:
+            st.markdown("**🤖 Generation Parameters:**")
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                st.metric("Model", model_name)
+            with col2:
+                temperature = gen_params.get('temperature', 'N/A')
+                if isinstance(temperature, (int, float)):
+                    st.metric("Temperature", f"{temperature:.2f}")
+                else:
+                    st.metric("Temperature", str(temperature))
+            with col3:
+                st.metric("Max Tokens", str(gen_params.get('max_tokens', 'N/A')))
+        
+        # Additional metadata
+        if task.get('topic_category'):
+            st.markdown(f"**📂 Category:** {task.get('topic_category', 'unknown').replace('_', ' ').title()}")
+        
+        if task.get('topic'):
+            st.markdown(f"**🎯 Topic:** {task.get('topic', 'N/A')}")
+        
+        # Text preview
+        text_preview = task.get('text', '')[:200] + "..." if len(task.get('text', '')) > 200 else task.get('text', '')
+        st.markdown(f"**📄 Text Preview:** {text_preview}")
+        
+        # Individual task actions
+        col1, col2 = st.columns(2)
+        with col1:
+            st.download_button(
+                label="📥 Download JSON",
+                data=json.dumps(task, indent=2),
+                file_name=f"{task.get('task_id', 'task')}.json",
+                mime="application/json",
+                key=f"download_summary_{task.get('task_id', 'unknown')}"
+            )
+        with col2:
+            if st.button(f"📖 View Full Task", key=f"view_summary_{task.get('task_id', 'unknown')}"):
+                st.json(task)
+
+def display_task_json_view(task):
+    """Display a task in JSON format"""
+    text_type_display = task.get('text_type', 'unknown').replace('_', ' ').title()
+    
+    with st.expander(f"🔧 {task.get('title', 'Untitled')} - JSON Data"):
+        st.json(task)
+        
+        st.download_button(
+            label="📥 Download JSON",
+            data=json.dumps(task, indent=2),
+            file_name=f"{task.get('task_id', 'task')}.json",
+            mime="application/json",
+            key=f"download_json_{task.get('task_id', 'unknown')}"
+        )
 
     with tab5:
         st.header("⚙️ Admin Panel")
