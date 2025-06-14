@@ -76,6 +76,7 @@ class OllamaTaskGenerator:
     def get_next_task_number(self) -> int:
         """Get the next available task number to avoid overwriting existing files"""
         if not self.output_dir.exists():
+            self.output_dir.mkdir(parents=True, exist_ok=True)
             return 1
         
         existing_files = list(self.output_dir.glob("reading_part5_task_*.json"))
@@ -87,14 +88,26 @@ class OllamaTaskGenerator:
         for file in existing_files:
             try:
                 # Extract number from filename like "reading_part5_task_05.json"
-                number_part = file.stem.split('_')[-1]  # Get the last part after splitting by '_'
-                existing_numbers.append(int(number_part))
-            except (ValueError, IndexError):
+                filename_parts = file.stem.split('_')
+                if len(filename_parts) >= 4 and filename_parts[-2] == 'task':
+                    # Handle format: reading_part5_task_05
+                    number_part = filename_parts[-1]
+                    existing_numbers.append(int(number_part))
+                elif len(filename_parts) >= 3:
+                    # Handle other formats, get last part
+                    number_part = filename_parts[-1]
+                    if number_part.isdigit():
+                        existing_numbers.append(int(number_part))
+            except (ValueError, IndexError) as e:
+                logger.warning(f"Could not parse task number from file {file.name}: {e}")
                 continue
         
         if existing_numbers:
-            return max(existing_numbers) + 1
+            next_number = max(existing_numbers) + 1
+            logger.info(f"📋 Next available task number: {next_number} (found {len(existing_numbers)} existing tasks)")
+            return next_number
         else:
+            logger.info("📋 No existing tasks found, starting with task number 1")
             return 1
 
     def generate_single_task(self, topic: str, task_number: int = None, text_type: str = "magazine_article", custom_instructions: Optional[str] = None) -> Dict[str, Any]:
@@ -254,17 +267,26 @@ class OllamaTaskGenerator:
         all_tasks = []
         task_counter = 1  # For display purposes only
         
+        # Pre-calculate all task numbers to avoid conflicts
+        total_tasks_needed = len(topics) * len(text_types) * tasks_per_topic
+        starting_task_number = self.get_next_task_number()
+        task_numbers = list(range(starting_task_number, starting_task_number + total_tasks_needed))
+        task_number_index = 0
+        
         logger.info(f"🚀 Starting batch generation: {len(topics)} topics, {len(text_types)} text types, {tasks_per_topic} tasks each")
+        logger.info(f"📋 Pre-assigned task numbers: {starting_task_number} to {starting_task_number + total_tasks_needed - 1}")
         
         for topic in topics:
             for text_type in text_types:
                 for i in range(tasks_per_topic):
-                    logger.info(f"📝 Working on task {task_counter}: {text_type} about '{topic}'")
+                    # Use pre-assigned task number
+                    assigned_task_number = task_numbers[task_number_index]
+                    task_number_index += 1
+                    
+                    logger.info(f"📝 Working on task {task_counter}: {text_type} about '{topic}' (task #{assigned_task_number:02d})")
                     
                     try:
-                        # Get next available task number for unique file naming
-                        task_number = self.get_next_task_number()
-                        task = self.generate_single_task(topic, task_number, text_type)
+                        task = self.generate_single_task(topic, assigned_task_number, text_type)
                         filepath = self.save_task(task)
                         all_tasks.append(task)
                         
@@ -315,12 +337,12 @@ class OllamaTaskGenerator:
     def create_fallback_task(self, topic: str, task_number: int, text_type: str) -> Dict[str, Any]:
         """Create a fallback task when AI generation fails"""
         
-        # Safety check: if task_number is still None, assign one
-        if task_number is None:
+        # Safety check: if task_number is still None or invalid, assign one
+        if task_number is None or not isinstance(task_number, int) or task_number < 1:
             task_number = self.get_next_task_number()
-            logger.warning(f"Task number was None in fallback creation, assigned {task_number}")
+            logger.warning(f"Task number was invalid ({task_number}), assigned new number: {task_number}")
         
-        logger.info(f"Creating fallback task for topic: {topic} (text type: {text_type})")
+        logger.info(f"Creating fallback task #{task_number:02d} for topic: {topic} (text type: {text_type})")
         
         fallback_task = {
             "task_id": f"reading_part5_task_{task_number:02d}",
