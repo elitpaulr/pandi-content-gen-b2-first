@@ -128,6 +128,11 @@ class OllamaClient:
     def generate_reading_part5_task(self, topic: str, difficulty: str = "B2", text_type: str = "magazine_article", custom_instructions: Optional[str] = None) -> Dict[str, Any]:
         """Generate a complete Reading Part 5 task using Ollama with specified text type"""
         
+        # Ensure parameters are not None to prevent f-string errors
+        topic = topic or "general topic"
+        difficulty = difficulty or "B2"
+        text_type = text_type or "magazine_article"
+        
         # Text type specific instructions
         text_type_instructions = {
             "magazine_article": "Write as an engaging magazine article with a clear structure, subheadings if appropriate, and an informative yet accessible tone. Include expert quotes or statistics where relevant.",
@@ -250,13 +255,13 @@ class OllamaClient:
             ]
         }}"""
         
-        user_prompt = f"""Create a Reading Part 5 task about: {topic}
+        user_prompt = f"""Create a Reading Part 5 task about: {topic or 'general topic'}
         
-        Text Type: {text_type}
+        Text Type: {text_type or 'magazine_article'}
         Style Instructions: {text_style_instruction}
         
         Make sure:
-        1. The text is 550-750 words and follows the {text_type} style
+        1. The text is 550-750 words and follows the {text_type or 'magazine_article'} style
         2. Use natural formatting including paragraphs, quotes, and proper punctuation
         3. The topic is engaging and suitable for B2 level students
         4. Create 6 questions (numbered 1-6) that are specific to the text content
@@ -265,11 +270,11 @@ class OllamaClient:
         7. Only one option is clearly correct for each question
         8. Make the content authentic and interesting
         
-        Topic: {topic}
-        Text Type: {text_type}
-        Difficulty: {difficulty}"""
+        Topic: {topic or 'general topic'}
+        Text Type: {text_type or 'magazine_article'}
+        Difficulty: {difficulty or 'B2'}"""
         
-        if custom_instructions:
+        if custom_instructions and custom_instructions.strip():
             user_prompt += f"\n\nAdditional Instructions: {custom_instructions}"
         
         try:
