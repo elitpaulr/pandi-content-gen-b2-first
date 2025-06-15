@@ -290,11 +290,16 @@ def main():
                     generator.generate_single_task = tracked_generate
                     
                     # Generate the task (use auto-numbering)
+                    # Handle empty custom instructions
+                    processed_custom_instructions = custom_instructions.strip() if custom_instructions else None
+                    if not processed_custom_instructions:
+                        processed_custom_instructions = None
+                    
                     task_data = generator.generate_single_task(
                         topic, 
                         None,  # Auto-assign task number to avoid overwriting
                         text_type=text_type_key,
-                        custom_instructions=custom_instructions
+                        custom_instructions=processed_custom_instructions
                     )
                     
                     # Step 4: Validation
