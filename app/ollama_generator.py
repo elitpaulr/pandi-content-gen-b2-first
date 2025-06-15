@@ -2085,7 +2085,8 @@ Return the improved task in the same JSON format."""
         st.header("📖 Documentation")
         
         # Create tabs for different documentation sections
-        doc_tab1, doc_tab2, doc_tab3, doc_tab4 = st.tabs([
+        doc_tab1, doc_tab2, doc_tab3, doc_tab4, doc_tab5 = st.tabs([
+            "🏠 Executive Summary",
             "🔍 QA Reviewer Manual", 
             "📋 Topic Selection Guide", 
             "🎯 B2 Standards", 
@@ -2093,6 +2094,25 @@ Return the improved task in the same JSON format."""
         ])
         
         with doc_tab1:
+            st.subheader("🏠 Executive Summary")
+            st.markdown("*Complete overview of the B2 First Content Generation Tool capabilities*")
+            
+            try:
+                exec_summary_path = Path("docs/executive_summary.md")
+                if exec_summary_path.exists():
+                    with open(exec_summary_path, 'r', encoding='utf-8') as f:
+                        exec_summary_content = f.read()
+                    st.markdown(exec_summary_content)
+                    st.success(f"✅ Executive Summary loaded successfully")
+                else:
+                    st.error("📄 Executive Summary not found")
+                    st.info(f"🔍 Looking for: {exec_summary_path.resolve()}")
+                    
+            except Exception as e:
+                st.error(f"❌ Error loading executive summary: {str(e)}")
+                st.info("Please check that the docs/executive_summary.md file exists and is readable.")
+        
+        with doc_tab2:
             st.subheader("🔍 QA Reviewer Manual")
             st.markdown("*Complete guide for quality assurance reviewers*")
             
@@ -2111,7 +2131,7 @@ Return the improved task in the same JSON format."""
                 st.error(f"❌ Error loading QA manual: {str(e)}")
                 st.info("Please check that the docs/qa_reviewer_manual.md file exists and is readable.")
         
-        with doc_tab2:
+        with doc_tab3:
             st.subheader("📋 B2 First Topic Selection Guide")
             
             try:
@@ -2130,7 +2150,7 @@ Return the improved task in the same JSON format."""
                 st.error(f"❌ Error loading documentation: {str(e)}")
                 st.info("Please check that the docs/topic_selection_guide.md file exists and is readable.")
         
-        with doc_tab3:
+        with doc_tab4:
             st.subheader("🎯 B2 First Standards")
             st.markdown("""
             ### Cambridge B2 First Reading Part 5 Requirements
@@ -2165,7 +2185,7 @@ Return the improved task in the same JSON format."""
             - Poor grammar or spelling errors
             """)
         
-        with doc_tab4:
+        with doc_tab5:
             st.subheader("🔧 Technical Specifications")
             st.markdown("""
             ### System Architecture
