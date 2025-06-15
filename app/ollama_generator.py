@@ -2539,218 +2539,76 @@ def display_task_learner_view_simple(task, context="batch"):
     with tab6:
         st.header("📖 Documentation")
         
-        # Create documentation navigation
-        doc_tabs = st.tabs([
-            "📋 Topic Selection Guide",
-            "🎯 B2 First Standards", 
-            "🔧 Technical Specifications",
-            "💡 Best Practices"
-        ])
+        # Simple approach - load and display the topic selection guide directly
+        st.subheader("📋 B2 First Topic Selection Guide")
         
-        with doc_tabs[0]:
-            st.subheader("📋 B2 First Topic Selection Guide")
-            
-            # Load and display the topic selection guide
-            try:
-                # Try multiple possible paths
-                possible_paths = [
-                    Path("docs/topic_selection_guide.md"),
-                    Path("../docs/topic_selection_guide.md"),
-                    Path(__file__).parent.parent / "docs" / "topic_selection_guide.md"
-                ]
+        try:
+            docs_path = Path("docs/topic_selection_guide.md")
+            if docs_path.exists():
+                with open(docs_path, 'r', encoding='utf-8') as f:
+                    guide_content = f.read()
+                st.markdown(guide_content)
+                st.success(f"✅ Documentation loaded successfully")
+            else:
+                st.error("📄 Topic Selection Guide not found")
+                st.info(f"🔍 Looking for: {docs_path.resolve()}")
+                st.info(f"📍 Current directory: {Path.cwd()}")
                 
-                guide_content = None
-                docs_path = None
-                
-                for path in possible_paths:
-                    if path.exists():
-                        docs_path = path
-                        with open(path, 'r', encoding='utf-8') as f:
-                            guide_content = f.read()
-                        break
-                
-                if guide_content:
-                    st.markdown(guide_content)
-                    st.info(f"📍 Loaded from: {docs_path}")
-                else:
-                    st.error("📄 Topic Selection Guide not found. Please ensure the documentation file exists.")
-                    st.info("🔍 Searched paths:")
-                    for path in possible_paths:
-                        st.write(f"- {path} (exists: {path.exists()})")
-                        
-            except Exception as e:
-                st.error(f"❌ Error loading documentation: {str(e)}")
-                st.info(f"🔍 Current working directory: {Path.cwd()}")
-                st.info(f"🔍 App file location: {Path(__file__).parent}")
+        except Exception as e:
+            st.error(f"❌ Error loading documentation: {str(e)}")
+            st.info("Please check that the docs/topic_selection_guide.md file exists and is readable.")
         
-        with doc_tabs[1]:
-            st.subheader("🎯 B2 First Standards")
-            
-            st.markdown("""
-            ## Cambridge B2 First Reading Part 5 Standards
-            
-            ### Text Requirements
-            - **Length**: 400-800 words (flexible range for quality content)
-            - **Level**: Intermediate to Upper-Intermediate (B2)
-            - **Topics**: Age-appropriate for 16-25 year olds
-            - **Style**: Authentic, engaging, contemporary
-            
-            ### Question Requirements
-            - **Number**: 5-6 questions per task
-            - **Format**: Multiple choice (A, B, C, D)
-            - **Types**: 
-              - **Inference**: Understanding implied meaning
-              - **Vocabulary**: Words/phrases in context
-              - **Detail**: Specific information from text
-              - **Attitude**: Author's opinion or tone
-              - **Reference**: What pronouns/phrases refer to
-              - **Main Idea**: Overall purpose or theme
-            
-            ### Quality Standards
-            - **Authenticity**: Real-world text types and topics
-            - **Engagement**: Interesting and relevant content
-            - **Accessibility**: Culturally neutral and globally relevant
-            - **Educational Value**: Learning beyond language skills
-            
-            ### Assessment Criteria
-            - **Comprehension**: Tests understanding at B2 level
-            - **Vocabulary**: Appropriate lexical challenge
-            - **Critical Thinking**: Requires analysis and inference
-            - **Real-world Relevance**: Practical application of skills
-            """)
+        # Add additional documentation sections directly
+        st.markdown("---")
+        st.subheader("🎯 B2 First Standards")
+        st.markdown("""
+        ### Cambridge B2 First Reading Part 5 Requirements
         
-        with doc_tabs[2]:
-            st.subheader("🔧 Technical Specifications")
-            
-            st.markdown("""
-            ## System Technical Specifications
-            
-            ### Generation Parameters
-            - **Model**: Ollama-based LLM (llama3.1:8b recommended)
-            - **Temperature**: 0.7 (balanced creativity/consistency)
-            - **Max Tokens**: 4000+ for complete task generation
-            - **Validation**: Multi-stage quality checking
-            
-            ### File Structure
-            ```json
-            {
-                "task_id": "reading_part5_task_XX",
-                "title": "Engaging Task Title",
-                "topic": "topic_category",
-                "text_type": "magazine_article",
-                "difficulty": "B2",
-                "text": "400-800 word reading passage...",
-                "questions": [
-                    {
-                        "question_number": 1,
-                        "question_text": "Question text here?",
-                        "options": {
-                            "A": "Option A text",
-                            "B": "Option B text", 
-                            "C": "Option C text",
-                            "D": "Option D text"
-                        },
-                        "correct_answer": "A",
-                        "question_type": "inference"
-                    }
-                ]
-            }
-            ```
-            
-            ### Text Types Available
-            - **Magazine Article**: Lifestyle, trends, general interest
-            - **Blog Post**: Personal, conversational, opinion-based
-            - **News Report**: Current events, factual, objective
-            - **Professional Feature**: Business, career, industry focus
-            - **Educational Feature**: Learning, academic, instructional
-            - **Cultural Review**: Arts, entertainment, cultural topics
-            - **Travel Writing**: Destinations, experiences, adventure
-            - **Lifestyle Feature**: Health, relationships, personal development
-            - **Opinion Piece**: Argumentative, persuasive, viewpoint-based
-            - **Novel Extract**: Narrative, character-driven, literary
-            
-            ### Batch Generation Features
-            - **Auto-numbering**: Sequential task numbering
-            - **Subfolder Organization**: Batch-specific folders
-            - **Progress Tracking**: Real-time generation status
-            - **Error Handling**: Comprehensive failure logging
-            - **Auto-save**: Immediate file saving upon completion
-            """)
+        **Text Specifications:**
+        - **Length**: 400-800 words (flexible range for quality content)
+        - **Level**: Intermediate to Upper-Intermediate (B2)
+        - **Topics**: Age-appropriate, culturally neutral, contemporary relevance
         
-        with doc_tabs[3]:
-            st.subheader("💡 Best Practices")
-            
-            st.markdown("""
-            ## Content Creation Best Practices
-            
-            ### Topic Selection
-            ✅ **Do:**
-            - Choose contemporary, relevant topics
-            - Ensure global accessibility and cultural neutrality
-            - Focus on themes interesting to 16-25 year olds
-            - Balance educational value with engagement
-            - Consider multiple perspectives on issues
-            
-            ❌ **Avoid:**
-            - Highly culture-specific references
-            - Overly technical or specialized content
-            - Controversial political or religious topics
-            - Outdated trends or temporary fads
-            - Topics requiring specialized background knowledge
-            
-            ### Text Quality
-            ✅ **Do:**
-            - Write in authentic, natural style
-            - Use varied sentence structures
-            - Include B2-appropriate vocabulary
-            - Maintain consistent tone throughout
-            - Ensure logical flow and coherence
-            
-            ❌ **Avoid:**
-            - Overly simple or patronizing language
-            - Inconsistent writing style
-            - Grammatical errors or typos
-            - Abrupt topic changes
-            - Repetitive vocabulary or structures
-            
-            ### Question Design
-            ✅ **Do:**
-            - Test genuine comprehension skills
-            - Create plausible distractors
-            - Vary question types appropriately
-            - Ensure one clearly correct answer
-            - Test different parts of the text
-            
-            ❌ **Avoid:**
-            - Questions answerable without reading
-            - Ambiguous or unclear questions
-            - Multiple correct answers
-            - Questions testing general knowledge
-            - Overly obvious or trivial questions
-            
-            ### Quality Assurance
-            ✅ **Do:**
-            - Review all content for accuracy
-            - Check cultural sensitivity
-            - Verify B2 level appropriateness
-            - Test questions with target audience
-            - Proofread for language errors
-            
-            ❌ **Avoid:**
-            - Publishing without thorough review
-            - Ignoring validation warnings
-            - Skipping cultural sensitivity checks
-            - Assuming content works without testing
-            - Rushing the quality control process
-            
-            ### System Usage Tips
-            - **Individual Generation**: Use for specific, targeted content
-            - **Batch Generation**: Efficient for multiple similar tasks
-            - **Custom Instructions**: Provide specific guidance when needed
-            - **Text Type Selection**: Match type to topic appropriately
-            - **Auto-save**: Enable for seamless workflow
-            - **Regular Backups**: Maintain copies of generated content
-            """)
+        **Question Requirements:**
+        - **Number**: 5-6 questions per task
+        - **Types**: Inference, vocabulary, detail, attitude, reference, main idea
+        - **Format**: Multiple choice with 4 options (A, B, C, D)
+        - **Answer Key**: One correct answer per question
+        """)
+        
+        st.markdown("---")
+        st.subheader("🔧 Technical Specifications")
+        st.markdown("""
+        ### System Architecture
+        
+        **Core Components:**
+        - **LLM Integration**: Ollama with local models (Llama 3.1, Mistral)
+        - **Content Generation**: Step-by-step task creation with validation
+        - **JSON Processing**: Robust parsing with error recovery
+        - **File Management**: Auto-save, batch processing, organized storage
+        
+        **Text Types Available:**
+        - Magazine Article, Blog Post, News Report, Professional Feature
+        - Educational Feature, Cultural Review, Travel Writing, Lifestyle Feature
+        - Opinion Piece, Novel Extract
+        """)
+        
+        st.markdown("---")
+        st.subheader("💡 Best Practices")
+        st.markdown("""
+        ### Content Creation Guidelines
+        
+        **Topic Selection:**
+        - Choose contemporary, relevant subjects
+        - Ensure cultural neutrality and age appropriateness
+        - Balance familiar and challenging concepts
+        
+        **Quality Control:**
+        - Review generated content for accuracy
+        - Check cultural sensitivity
+        - Verify language level appropriateness
+        - Test questions with target learners
+        """)
 
 if __name__ == "__main__":
     main() 
