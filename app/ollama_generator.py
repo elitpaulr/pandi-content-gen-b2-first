@@ -2552,15 +2552,36 @@ def display_task_learner_view_simple(task, context="batch"):
             
             # Load and display the topic selection guide
             try:
-                docs_path = Path("docs/topic_selection_guide.md")
-                if docs_path.exists():
-                    with open(docs_path, 'r', encoding='utf-8') as f:
-                        guide_content = f.read()
+                # Try multiple possible paths
+                possible_paths = [
+                    Path("docs/topic_selection_guide.md"),
+                    Path("../docs/topic_selection_guide.md"),
+                    Path(__file__).parent.parent / "docs" / "topic_selection_guide.md"
+                ]
+                
+                guide_content = None
+                docs_path = None
+                
+                for path in possible_paths:
+                    if path.exists():
+                        docs_path = path
+                        with open(path, 'r', encoding='utf-8') as f:
+                            guide_content = f.read()
+                        break
+                
+                if guide_content:
                     st.markdown(guide_content)
+                    st.info(f"📍 Loaded from: {docs_path}")
                 else:
                     st.error("📄 Topic Selection Guide not found. Please ensure the documentation file exists.")
+                    st.info("🔍 Searched paths:")
+                    for path in possible_paths:
+                        st.write(f"- {path} (exists: {path.exists()})")
+                        
             except Exception as e:
                 st.error(f"❌ Error loading documentation: {str(e)}")
+                st.info(f"🔍 Current working directory: {Path.cwd()}")
+                st.info(f"🔍 App file location: {Path(__file__).parent}")
         
         with doc_tabs[1]:
             st.subheader("🎯 B2 First Standards")
