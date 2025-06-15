@@ -1016,7 +1016,7 @@ def main():
                         with col3:
                             batch_view_mode = st.selectbox(
                                 "Batch View Mode",
-                                ["📋 Batch Summary", "📄 Individual Tasks", "🔧 JSON View"],
+                                ["📋 Batch Summary", "🎓 Learner View", "📋 Summary View", "🔧 JSON View"],
                                 index=0,
                                 key="batch_view_mode"
                             )
@@ -1076,10 +1076,10 @@ def main():
                                         with col3:
                                             st.metric("Text Types", len(text_types))
                                 
-                                elif batch_view_mode == "📄 Individual Tasks":
-                                    # Display individual tasks in the batch
+                                else:
+                                    # Display individual tasks in the batch for all other view modes
                                     if batch_task_files:
-                                        st.markdown("### 📄 Tasks in this Batch")
+                                        st.markdown(f"### 📄 Tasks in {batch_name}")
                                         
                                         batch_tasks_data = []
                                         for task_file in batch_task_files:
@@ -1094,29 +1094,38 @@ def main():
                                         # Sort by task ID
                                         batch_tasks_data.sort(key=lambda x: x.get('task_id', ''))
                                         
-                                        # Display tasks in summary cards
-                                        for task in batch_tasks_data:
-                                            display_task_summary_view(task)
+                                        # Display tasks based on selected view mode
+                                        if batch_view_mode == "🎓 Learner View":
+                                            # Create tabs for individual task viewing within the batch
+                                            task_names = [f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')[:30]}..." 
+                                                         if len(task.get('title', '')) > 30 
+                                                         else f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')}" 
+                                                         for task in batch_tasks_data]
+                                            
+                                            if len(batch_tasks_data) > 8:
+                                                st.warning("⚠️ Too many tasks for tab view in batch. Showing first 8 tasks.")
+                                                batch_tasks_data = batch_tasks_data[:8]
+                                                task_names = task_names[:8]
+                                            
+                                            if batch_tasks_data:
+                                                # Use unique keys for batch tabs
+                                                batch_tabs = st.tabs(task_names)
+                                                
+                                                for i, (task, tab) in enumerate(zip(batch_tasks_data, batch_tabs)):
+                                                    with tab:
+                                                        display_task_learner_view(task)
+                                        
+                                        elif batch_view_mode == "📋 Summary View":
+                                            # Display tasks in summary cards
+                                            for task in batch_tasks_data:
+                                                display_task_summary_view(task)
+                                        
+                                        elif batch_view_mode == "🔧 JSON View":
+                                            # Display tasks in JSON format
+                                            for task in batch_tasks_data:
+                                                display_task_json_view(task)
                                     else:
                                         st.info("No task files found in this batch")
-                                
-                                elif batch_view_mode == "🔧 JSON View":
-                                    # Display batch files in JSON format
-                                    if batch_summary:
-                                        st.markdown("### 📊 Batch Summary")
-                                        st.text(batch_summary)
-                                        st.divider()
-                                    
-                                    if batch_task_files:
-                                        st.markdown("### 📄 Task Files")
-                                        for task_file in batch_task_files:
-                                            try:
-                                                with open(task_file, 'r') as f:
-                                                    task = json.load(f)
-                                                    task['filename'] = task_file.name
-                                                    display_task_json_view(task)
-                                            except Exception as e:
-                                                st.error(f"Could not load {task_file.name}: {e}")
                                 
                                 # Batch actions
                                 st.markdown("### 🔧 Batch Actions")
