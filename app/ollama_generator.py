@@ -117,6 +117,49 @@ def check_ollama_connection():
     except Exception as e:
         return False, []
 
+def clean_task_for_json(task):
+    """Clean task data for JSON serialization by removing non-serializable fields and converting paths to strings"""
+    def clean_value(value):
+        """Recursively clean a value for JSON serialization"""
+        if hasattr(value, '__fspath__'):  # Check if it's a path-like object
+            return str(value)
+        elif isinstance(value, dict):
+            return {k: clean_value(v) for k, v in value.items()}
+        elif isinstance(value, list):
+            return [clean_value(item) for item in value]
+        else:
+            return value
+    
+    task_data_clean = {}
+    for k, v in task.items():
+        if k not in ['file_path', 'filename']:
+            task_data_clean[k] = clean_value(v)
+    return task_data_clean
+
+def get_task_qa_status(task):
+    """Get the overall QA status of a task based on the overall_task annotation."""
+    qa_annotations = task.get('qa_annotations', {})
+    overall_task_annotation = qa_annotations.get('overall_task', {})
+    return overall_task_annotation.get('status', 'pending')
+
+def get_qa_status_emoji(status):
+    """Get emoji for QA status."""
+    status_emojis = {
+        'approved': '✅',
+        'rejected': '❌', 
+        'pending': '⏳'
+    }
+    return status_emojis.get(status, '⏳')
+
+def get_qa_status_color(status):
+    """Get color for QA status display."""
+    status_colors = {
+        'approved': 'green',
+        'rejected': 'red',
+        'pending': 'orange'
+    }
+    return status_colors.get(status, 'gray')
+
 def main():
     st.title("🤖 Ollama-Powered B2 First Task Generator")
     st.markdown("Generate authentic Cambridge B2 First Reading Part 5 tasks using local Ollama LLM")
@@ -1191,7 +1234,7 @@ def main():
             with col2:
                 view_mode = st.selectbox(
                     "View Mode",
-                    ["🎓 Learner View", "📋 Summary", "🔧 Full Details"],
+                    ["🎓 Learner View", "📋 Summary", "🔧 Full Details", "🔍 QA Review"],
                     index=0,
                     key="main_view_mode"
                 )
@@ -1211,7 +1254,7 @@ def main():
                         with open(task_file, 'r') as f:
                             task = json.load(f)
                             task['filename'] = task_file.name
-                            task['file_path'] = task_file
+                            task['file_path'] = str(task_file)  # Convert Path to string
                             task['word_count'] = len(task.get('text', '').split())
                             tasks_data.append(task)
                     except Exception as e:
@@ -1222,7 +1265,7 @@ def main():
                     return
                 
                 # Filter and sort controls
-                col1, col2, col3, col4 = st.columns(4)
+                col1, col2, col3, col4, col5 = st.columns(5)
                 
                 with col1:
                     # Topic filter
@@ -1245,15 +1288,24 @@ def main():
                     )
                 
                 with col3:
+                    # QA Status filter
+                    qa_status_filter = st.selectbox(
+                        "Filter by QA Status",
+                        ["All Status", "⏳ Pending", "✅ Approved", "❌ Rejected"],
+                        index=0,
+                        key="individual_qa_status_filter"
+                    )
+                
+                with col4:
                     # Sort options
                     sort_option = st.selectbox(
                         "Sort by",
-                        ["Task ID ↑", "Task ID ↓", "Title A-Z", "Title Z-A", "Word Count ↑", "Word Count ↓", "Recent First"],
+                        ["Task ID ↑", "Task ID ↓", "Title A-Z", "Title Z-A", "Word Count ↑", "Word Count ↓", "Recent First", "QA Status"],
                         index=0,
                         key="individual_sort_option"
                     )
                 
-                with col4:
+                with col5:
                     # Search
                     search_term = st.text_input(
                         "Search",
@@ -1269,6 +1321,12 @@ def main():
                 
                 if text_type_filter != "All Types":
                     filtered_tasks = [t for t in filtered_tasks if t.get('text_type') == text_type_filter]
+                
+                if qa_status_filter != "All Status":
+                    # Extract status from filter option (remove emoji)
+                    status_map = {"⏳ Pending": "pending", "✅ Approved": "approved", "❌ Rejected": "rejected"}
+                    target_status = status_map.get(qa_status_filter, "pending")
+                    filtered_tasks = [t for t in filtered_tasks if get_task_qa_status(t) == target_status]
                 
                 if search_term:
                     search_lower = search_term.lower()
@@ -1291,15 +1349,29 @@ def main():
                 elif sort_option == "Word Count ↓":
                     filtered_tasks.sort(key=lambda x: x.get('word_count', 0), reverse=True)
                 elif sort_option == "Recent First":
-                    filtered_tasks.sort(key=lambda x: x.get('file_path').stat().st_mtime, reverse=True)
+                    filtered_tasks.sort(key=lambda x: Path(x.get('file_path')).stat().st_mtime, reverse=True)
+                elif sort_option == "QA Status":
+                    # Sort by QA status: approved, pending, rejected
+                    status_order = {"approved": 0, "pending": 1, "rejected": 2}
+                    filtered_tasks.sort(key=lambda x: status_order.get(get_task_qa_status(x), 1))
                 
-                # Display results summary
-                col1, col2, col3 = st.columns(3)
+                # Display results summary with QA status
+                col1, col2, col3, col4, col5, col6 = st.columns(6)
                 with col1:
                     st.metric("📊 Total Tasks", len(tasks_data))
                 with col2:
                     st.metric("🔍 Filtered Results", len(filtered_tasks))
                 with col3:
+                    # QA Status counts for filtered tasks
+                    approved_count = sum(1 for task in filtered_tasks if get_task_qa_status(task) == 'approved')
+                    st.metric("✅ Approved", approved_count)
+                with col4:
+                    pending_count = sum(1 for task in filtered_tasks if get_task_qa_status(task) == 'pending')
+                    st.metric("⏳ Pending", pending_count)
+                with col5:
+                    rejected_count = sum(1 for task in filtered_tasks if get_task_qa_status(task) == 'rejected')
+                    st.metric("❌ Rejected", rejected_count)
+                with col6:
                     if st.button("📥 Download Filtered", key="download_filtered_individual"):
                         if filtered_tasks:
                             import zipfile
@@ -1328,10 +1400,14 @@ def main():
                 task_options = []
                 for i, task in enumerate(filtered_tasks):
                     title = task.get('title', 'Untitled')
-                    if len(title) > 50:
-                        title = title[:47] + "..."
+                    if len(title) > 45:  # Shortened to make room for QA status
+                        title = title[:42] + "..."
                     
-                    option = f"{task.get('task_id', f'Task {i+1}')} - {title}"
+                    # Add QA status to display
+                    qa_status = get_task_qa_status(task)
+                    qa_emoji = get_qa_status_emoji(qa_status)
+                    
+                    option = f"{qa_emoji} {task.get('task_id', f'Task {i+1}')} - {title}"
                     task_options.append(option)
                 
                 selected_task_index = st.selectbox(
@@ -1352,8 +1428,7 @@ def main():
                     
                     with col2:
                         # Download individual task (exclude non-serializable fields)
-                        task_data_for_download = {k: v for k, v in selected_task.items() 
-                                                if k not in ['file_path', 'filename']}
+                        task_data_for_download = clean_task_for_json(selected_task)
                         task_json = json.dumps(task_data_for_download, indent=2)
                         st.download_button(
                             label="💾 Download JSON",
@@ -1368,8 +1443,10 @@ def main():
                             st.session_state.confirm_delete_task = selected_task_index
                     
                     with col4:
-                        # Task info
-                        st.caption(f"📝 {selected_task.get('word_count', 0)} words | 🎯 {selected_task.get('text_type', 'Unknown')}")
+                        # Task info with QA status
+                        qa_status = get_task_qa_status(selected_task)
+                        qa_emoji = get_qa_status_emoji(qa_status)
+                        st.caption(f"📝 {selected_task.get('word_count', 0)} words | 🎯 {selected_task.get('text_type', 'Unknown')} | {qa_emoji} {qa_status.title()}")
                     
                     # Confirmation for deletion
                     if st.session_state.get('confirm_delete_task') == selected_task_index:
@@ -1400,6 +1477,8 @@ def main():
                             display_task_summary_view(selected_task)
                         elif view_mode == "🔧 Full Details":
                             display_task_json_view(selected_task)
+                        elif view_mode == "🔍 QA Review":
+                            display_task_qa_view(selected_task, selected_task.get('file_path'))
             
             # Batch Collections Section
             elif content_type == "📦 Batch Collections":
@@ -1521,8 +1600,31 @@ def main():
                         if st.button("🗑️ Delete Batch", key="delete_selected_batch"):
                             st.session_state.confirm_delete_batch = selected_batch_index
                     
-                    # Batch info display
-                    st.info(f"📊 **{selected_batch['task_count']} tasks** | 🕒 Created: {datetime.fromtimestamp(selected_batch['created']).strftime('%Y-%m-%d %H:%M:%S')}")
+                    # Batch info display with QA status summary
+                    # Load batch tasks to get QA status
+                    batch_task_files = list(selected_batch['path'].glob("*.json"))
+                    batch_qa_summary = {"approved": 0, "pending": 0, "rejected": 0}
+                    
+                    for task_file in batch_task_files:
+                        try:
+                            with open(task_file, 'r') as f:
+                                task = json.load(f)
+                                qa_status = get_task_qa_status(task)
+                                batch_qa_summary[qa_status] += 1
+                        except:
+                            batch_qa_summary["pending"] += 1  # Default to pending if can't read
+                    
+                    col1, col2, col3, col4 = st.columns(4)
+                    with col1:
+                        st.metric("📊 Total Tasks", selected_batch['task_count'])
+                    with col2:
+                        st.metric("✅ Approved", batch_qa_summary["approved"])
+                    with col3:
+                        st.metric("⏳ Pending", batch_qa_summary["pending"])
+                    with col4:
+                        st.metric("❌ Rejected", batch_qa_summary["rejected"])
+                    
+                    st.caption(f"🕒 Created: {datetime.fromtimestamp(selected_batch['created']).strftime('%Y-%m-%d %H:%M:%S')}")
                     
                     # Confirmation for batch deletion
                     if st.session_state.get('confirm_delete_batch') == selected_batch_index:
@@ -1569,6 +1671,7 @@ def main():
                                     with open(task_file, 'r') as f:
                                         task = json.load(f)
                                         task['filename'] = task_file.name
+                                        task['file_path'] = str(task_file)  # Convert Path to string
                                         batch_tasks.append(task)
                                 except Exception as e:
                                     st.warning(f"Could not load {task_file.name}: {e}")
@@ -1577,13 +1680,18 @@ def main():
                                 # Sort by task ID
                                 batch_tasks.sort(key=lambda x: x.get('task_id', ''))
                                 
-                                # Task selection within batch
+                                # Task selection within batch with QA status
                                 task_options = []
                                 for task in batch_tasks:
                                     title = task.get('title', 'Untitled')
-                                    if len(title) > 40:
-                                        title = title[:37] + "..."
-                                    task_options.append(f"{task.get('task_id', 'Unknown')} - {title}")
+                                    if len(title) > 35:  # Shortened to make room for QA status
+                                        title = title[:32] + "..."
+                                    
+                                    # Add QA status to display
+                                    qa_status = get_task_qa_status(task)
+                                    qa_emoji = get_qa_status_emoji(qa_status)
+                                    
+                                    task_options.append(f"{qa_emoji} {task.get('task_id', 'Unknown')} - {title}")
                                 
                                 selected_batch_task_index = st.selectbox(
                                     f"Select Task from Batch ({len(batch_tasks)} available)",
@@ -1604,6 +1712,8 @@ def main():
                                         display_task_summary_view(selected_batch_task)
                                     elif view_mode == "🔧 Full Details":
                                         display_task_json_view(selected_batch_task)
+                                    elif view_mode == "🔍 QA Review":
+                                        display_task_qa_view(selected_batch_task, selected_batch_task.get('file_path'))
                         else:
                             st.warning("No task files found in this batch.")
         else:
@@ -2261,8 +2371,8 @@ def display_task_learner_view(task):
     
     with col1:
         # Filter out non-serializable fields for download
-        task_data_clean = {k: v for k, v in task.items() 
-                          if k not in ['file_path', 'filename']}
+        task_data_clean = clean_task_for_json(task)
+        
         st.download_button(
             label="📥 Download JSON",
             data=json.dumps(task_data_clean, indent=2),
@@ -2278,8 +2388,7 @@ def display_task_learner_view(task):
     with col3:
         if st.button("📊 View JSON", key=f"json_view_{task.get('task_id', 'unknown')}"):
             # Filter out non-serializable fields for JSON display
-            task_data_clean = {k: v for k, v in task.items() 
-                              if k not in ['file_path', 'filename']}
+            task_data_clean = clean_task_for_json(task)
             st.json(task_data_clean)
 
 def display_task_summary_view(task):
@@ -2338,8 +2447,7 @@ def display_task_summary_view(task):
         col1, col2 = st.columns(2)
         with col1:
             # Filter out non-serializable fields for download
-            task_data_clean = {k: v for k, v in task.items() 
-                              if k not in ['file_path', 'filename']}
+            task_data_clean = clean_task_for_json(task)
             st.download_button(
                 label="📥 Download JSON",
                 data=json.dumps(task_data_clean, indent=2),
@@ -2350,8 +2458,7 @@ def display_task_summary_view(task):
         with col2:
             if st.button(f"📖 View Full Task", key=f"view_summary_{task.get('task_id', 'unknown')}"):
                 # Filter out non-serializable fields for JSON display
-                task_data_clean = {k: v for k, v in task.items() 
-                                  if k not in ['file_path', 'filename']}
+                task_data_clean = clean_task_for_json(task)
                 st.json(task_data_clean)
 
 def display_task_json_view(task):
@@ -2359,8 +2466,7 @@ def display_task_json_view(task):
     text_type_display = task.get('text_type', 'unknown').replace('_', ' ').title()
     
     # Filter out non-serializable fields for display and download
-    task_data_clean = {k: v for k, v in task.items() 
-                      if k not in ['file_path', 'filename']}
+    task_data_clean = clean_task_for_json(task)
     
     with st.expander(f"🔧 {task.get('title', 'Untitled')} - JSON Data"):
         st.json(task_data_clean)
@@ -2589,8 +2695,7 @@ def display_task_learner_view_simple(task, context="batch"):
     
     with col1:
         # Filter out non-serializable fields for download
-        task_data_clean = {k: v for k, v in task.items() 
-                          if k not in ['file_path', 'filename']}
+        task_data_clean = clean_task_for_json(task)
         st.download_button(
             label="📥 Download JSON",
             data=json.dumps(task_data_clean, indent=2),
@@ -2606,9 +2711,358 @@ def display_task_learner_view_simple(task, context="batch"):
     with col3:
         if st.button("📊 View JSON", key=f"json_view_{context}_{task.get('task_id', 'unknown')}"):
             # Filter out non-serializable fields for JSON display
-            task_data_clean = {k: v for k, v in task.items() 
-                              if k not in ['file_path', 'filename']}
+            task_data_clean = clean_task_for_json(task)
             st.json(task_data_clean)
+
+# Add this new function after the existing display functions, around line 2600
+
+def display_task_qa_view(task, task_file_path=None):
+    """Display a task with QA annotation interface for human reviewers"""
+    st.header("🔍 Quality Assurance Review")
+    
+    # Initialize QA annotations if they don't exist
+    if 'qa_annotations' not in task:
+        task['qa_annotations'] = {
+            'overall_task': {'status': 'pending', 'reviewer': '', 'notes': '', 'timestamp': ''},
+            'title': {'status': 'pending', 'reviewer': '', 'notes': '', 'timestamp': ''},
+            'text': {'status': 'pending', 'reviewer': '', 'notes': '', 'timestamp': ''},
+            'questions': {}
+        }
+        # Initialize QA for each question
+        for i, question in enumerate(task.get('questions', []), 1):
+            task['qa_annotations']['questions'][f'question_{i}'] = {
+                'status': 'pending', 
+                'reviewer': '', 
+                'notes': '', 
+                'timestamp': ''
+            }
+    
+    # Get current QA annotations
+    qa_annotations = task.get('qa_annotations', {})
+    
+    # Reviewer information
+    st.subheader("👤 Reviewer Information")
+    reviewer_name = st.text_input("Reviewer Name:", value="", key="qa_reviewer_name")
+    
+    if not reviewer_name.strip():
+        st.warning("⚠️ Please enter your name to proceed with QA annotations.")
+        return
+    
+    st.divider()
+    
+    # Task Overview
+    st.subheader("📋 Task Overview")
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.metric("📝 Word Count", len(task.get('text', '').split()))
+    with col2:
+        st.metric("❓ Questions", len(task.get('questions', [])))
+    with col3:
+        text_type = task.get('text_type', 'unknown').replace('_', ' ').title()
+        st.metric("📄 Text Type", text_type)
+    with col4:
+        st.metric("🎯 Topic", task.get('topic', 'N/A'))
+    
+    st.divider()
+    
+    # QA Annotations Section
+    st.subheader("✅ Quality Assurance Annotations")
+    
+    # Overall Task QA
+    st.markdown("### 🎯 Overall Task")
+    col1, col2 = st.columns([1, 2])
+    
+    with col1:
+        overall_status = st.selectbox(
+            "Overall Task Status:",
+            options=["pending", "approved", "rejected"],
+            index=["pending", "approved", "rejected"].index(qa_annotations.get('overall_task', {}).get('status', 'pending')),
+            key="qa_overall_status"
+        )
+    
+    with col2:
+        overall_notes = st.text_area(
+            "Overall Notes:",
+            value=qa_annotations.get('overall_task', {}).get('notes', ''),
+            height=100,
+            key="qa_overall_notes",
+            placeholder="Add any general comments about the task quality, appropriateness, etc."
+        )
+    
+    st.divider()
+    
+    # Title QA
+    st.markdown("### 📝 Title")
+    st.markdown(f"**Title:** {task.get('title', 'Untitled')}")
+    
+    col1, col2 = st.columns([1, 2])
+    
+    with col1:
+        title_status = st.selectbox(
+            "Title Status:",
+            options=["pending", "approved", "rejected"],
+            index=["pending", "approved", "rejected"].index(qa_annotations.get('title', {}).get('status', 'pending')),
+            key="qa_title_status"
+        )
+    
+    with col2:
+        title_notes = st.text_area(
+            "Title Notes:",
+            value=qa_annotations.get('title', {}).get('notes', ''),
+            height=80,
+            key="qa_title_notes",
+            placeholder="Comments on title appropriateness, clarity, engagement, etc."
+        )
+    
+    st.divider()
+    
+    # Text QA
+    st.markdown("### 📄 Reading Text")
+    
+    # Show text in expandable section
+    with st.expander("📖 View Full Text", expanded=False):
+        st.markdown(task.get('text', 'No text available'))
+    
+    col1, col2 = st.columns([1, 2])
+    
+    with col1:
+        text_status = st.selectbox(
+            "Text Status:",
+            options=["pending", "approved", "rejected"],
+            index=["pending", "approved", "rejected"].index(qa_annotations.get('text', {}).get('status', 'pending')),
+            key="qa_text_status"
+        )
+    
+    with col2:
+        text_notes = st.text_area(
+            "Text Notes:",
+            value=qa_annotations.get('text', {}).get('notes', ''),
+            height=100,
+            key="qa_text_notes",
+            placeholder="Comments on text quality, length, language level, cultural appropriateness, etc."
+        )
+    
+    st.divider()
+    
+    # Questions QA
+    st.markdown("### ❓ Questions")
+    
+    questions = task.get('questions', [])
+    question_statuses = {}
+    question_notes = {}
+    
+    for i, question in enumerate(questions, 1):
+        st.markdown(f"#### Question {i}")
+        
+        # Display question details
+        with st.expander(f"📋 View Question {i} Details", expanded=False):
+            st.markdown(f"**Question:** {question.get('question_text', 'No question text')}")
+            st.markdown(f"**Type:** {question.get('question_type', 'unknown').replace('_', ' ').title()}")
+            st.markdown(f"**Correct Answer:** {question.get('correct_answer', 'N/A')}")
+            
+            options = question.get('options', {})
+            if options:
+                st.markdown("**Options:**")
+                # Handle both dict and list formats for options
+                if isinstance(options, dict):
+                    for option_key, option_text in options.items():
+                        if option_key == question.get('correct_answer'):
+                            st.markdown(f"✅ **{option_key}.** {option_text}")
+                        else:
+                            st.markdown(f"   **{option_key}.** {option_text}")
+                elif isinstance(options, list):
+                    # Convert list to dict format for display
+                    option_keys = ['A', 'B', 'C', 'D']
+                    for i, option_text in enumerate(options):
+                        if i < len(option_keys):
+                            option_key = option_keys[i]
+                            if option_key == question.get('correct_answer'):
+                                st.markdown(f"✅ **{option_key}.** {option_text}")
+                            else:
+                                st.markdown(f"   **{option_key}.** {option_text}")
+        
+        # QA for this question
+        col1, col2 = st.columns([1, 2])
+        
+        with col1:
+            question_key = f'question_{i}'
+            current_status = qa_annotations.get('questions', {}).get(question_key, {}).get('status', 'pending')
+            question_status = st.selectbox(
+                f"Question {i} Status:",
+                options=["pending", "approved", "rejected"],
+                index=["pending", "approved", "rejected"].index(current_status),
+                key=f"qa_question_{i}_status"
+            )
+            question_statuses[question_key] = question_status
+        
+        with col2:
+            current_notes = qa_annotations.get('questions', {}).get(question_key, {}).get('notes', '')
+            question_note = st.text_area(
+                f"Question {i} Notes:",
+                value=current_notes,
+                height=80,
+                key=f"qa_question_{i}_notes",
+                placeholder="Comments on question clarity, difficulty, answer correctness, etc."
+            )
+            question_notes[question_key] = question_note
+        
+        if i < len(questions):  # Don't add divider after last question
+            st.markdown("---")
+    
+    st.divider()
+    
+    # Save QA Annotations
+    st.subheader("💾 Save QA Annotations")
+    
+    if st.button("💾 Save QA Annotations", type="primary", key="save_qa_annotations"):
+        if not reviewer_name.strip():
+            st.error("❌ Please enter reviewer name before saving.")
+            return
+        
+        # Update QA annotations with current timestamp
+        from datetime import datetime
+        current_timestamp = datetime.now().isoformat()
+        
+        # Update overall task annotation
+        task['qa_annotations']['overall_task'] = {
+            'status': overall_status,
+            'reviewer': reviewer_name.strip(),
+            'notes': overall_notes.strip(),
+            'timestamp': current_timestamp
+        }
+        
+        # Update title annotation
+        task['qa_annotations']['title'] = {
+            'status': title_status,
+            'reviewer': reviewer_name.strip(),
+            'notes': title_notes.strip(),
+            'timestamp': current_timestamp
+        }
+        
+        # Update text annotation
+        task['qa_annotations']['text'] = {
+            'status': text_status,
+            'reviewer': reviewer_name.strip(),
+            'notes': text_notes.strip(),
+            'timestamp': current_timestamp
+        }
+        
+        # Update question annotations
+        if 'questions' not in task['qa_annotations']:
+            task['qa_annotations']['questions'] = {}
+        
+        for question_key, status in question_statuses.items():
+            task['qa_annotations']['questions'][question_key] = {
+                'status': status,
+                'reviewer': reviewer_name.strip(),
+                'notes': question_notes.get(question_key, '').strip(),
+                'timestamp': current_timestamp
+            }
+        
+        # Save to file if path provided
+        if task_file_path:
+            try:
+                import json
+                from pathlib import Path
+                
+                # Ensure we're working with a Path object
+                if isinstance(task_file_path, str):
+                    task_file_path = Path(task_file_path)
+                
+                # Remove non-serializable fields before saving
+                task_to_save = clean_task_for_json(task)
+                
+                with open(task_file_path, 'w', encoding='utf-8') as f:
+                    json.dump(task_to_save, f, indent=2, ensure_ascii=False)
+                
+                st.success(f"✅ QA annotations saved successfully to {task_file_path.name}")
+                
+                # Show summary of annotations
+                st.info("📊 **QA Summary:**")
+                col1, col2, col3 = st.columns(3)
+                
+                with col1:
+                    approved_count = sum(1 for annotation in [
+                        task['qa_annotations']['overall_task'],
+                        task['qa_annotations']['title'],
+                        task['qa_annotations']['text']
+                    ] + list(task['qa_annotations']['questions'].values())
+                    if annotation.get('status') == 'approved')
+                    st.metric("✅ Approved", approved_count)
+                
+                with col2:
+                    rejected_count = sum(1 for annotation in [
+                        task['qa_annotations']['overall_task'],
+                        task['qa_annotations']['title'],
+                        task['qa_annotations']['text']
+                    ] + list(task['qa_annotations']['questions'].values())
+                    if annotation.get('status') == 'rejected')
+                    st.metric("❌ Rejected", rejected_count)
+                
+                with col3:
+                    pending_count = sum(1 for annotation in [
+                        task['qa_annotations']['overall_task'],
+                        task['qa_annotations']['title'],
+                        task['qa_annotations']['text']
+                    ] + list(task['qa_annotations']['questions'].values())
+                    if annotation.get('status') == 'pending')
+                    st.metric("⏳ Pending", pending_count)
+                
+            except Exception as e:
+                st.error(f"❌ Failed to save QA annotations: {str(e)}")
+        else:
+            st.warning("⚠️ No file path provided - annotations saved in memory only.")
+    
+    # QA Summary Section
+    if qa_annotations:
+        st.divider()
+        st.subheader("📊 QA Summary")
+        
+        # Count statuses
+        all_annotations = [
+            qa_annotations.get('overall_task', {}),
+            qa_annotations.get('title', {}),
+            qa_annotations.get('text', {})
+        ] + list(qa_annotations.get('questions', {}).values())
+        
+        approved_count = sum(1 for ann in all_annotations if ann.get('status') == 'approved')
+        rejected_count = sum(1 for ann in all_annotations if ann.get('status') == 'rejected')
+        pending_count = sum(1 for ann in all_annotations if ann.get('status') == 'pending')
+        total_count = len(all_annotations)
+        
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.metric("✅ Approved", f"{approved_count}/{total_count}")
+        with col2:
+            st.metric("❌ Rejected", f"{rejected_count}/{total_count}")
+        with col3:
+            st.metric("⏳ Pending", f"{pending_count}/{total_count}")
+        with col4:
+            completion_rate = ((approved_count + rejected_count) / total_count * 100) if total_count > 0 else 0
+            st.metric("📈 Completion", f"{completion_rate:.1f}%")
+        
+        # Show detailed QA history if available
+        if any(ann.get('timestamp') for ann in all_annotations):
+            with st.expander("📋 QA History Details"):
+                for section, annotation in [
+                    ("Overall Task", qa_annotations.get('overall_task', {})),
+                    ("Title", qa_annotations.get('title', {})),
+                    ("Text", qa_annotations.get('text', {}))
+                ]:
+                    if annotation.get('timestamp'):
+                        status_emoji = {"approved": "✅", "rejected": "❌", "pending": "⏳"}.get(annotation.get('status', 'pending'), "⏳")
+                        st.markdown(f"**{section}:** {status_emoji} {annotation.get('status', 'pending').title()} by {annotation.get('reviewer', 'Unknown')} on {annotation.get('timestamp', 'Unknown')}")
+                        if annotation.get('notes'):
+                            st.markdown(f"   *Notes: {annotation.get('notes')}*")
+                
+                # Question annotations
+                for question_key, annotation in qa_annotations.get('questions', {}).items():
+                    if annotation.get('timestamp'):
+                        question_num = question_key.replace('question_', '')
+                        status_emoji = {"approved": "✅", "rejected": "❌", "pending": "⏳"}.get(annotation.get('status', 'pending'), "⏳")
+                        st.markdown(f"**Question {question_num}:** {status_emoji} {annotation.get('status', 'pending').title()} by {annotation.get('reviewer', 'Unknown')} on {annotation.get('timestamp', 'Unknown')}")
+                        if annotation.get('notes'):
+                            st.markdown(f"   *Notes: {annotation.get('notes')}*")
 
 if __name__ == "__main__":
     main() 
