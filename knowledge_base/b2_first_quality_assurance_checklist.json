@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "B2 First Reading Part 5 Quality Assurance Checklist",
+    "version": "1.0",
+    "created": "2025-06-15",
+    "description": "Comprehensive quality assurance checklist and validation criteria for B2 First Reading Part 5 task generation",
+    "target_level": "B2 (Intermediate-Upper Intermediate)",
+    "target_age": "16-25 years",
+    "usage": "Task validation, content quality control, automated checking"
+  },
+  
+  "content_quality_checklist": {
+    "description": "Core content quality requirements for B2 First tasks",
+    "criteria": [
+      {
+        "id": "age_appropriateness",
+        "requirement": "Topic is age-appropriate for 16-25 year olds",
+        "validation_points": [
+          "Content relates to young adult experiences and interests",
+          "Topics are relevant to university-age learners",
+          "Themes connect to future career and life goals",
+          "Avoids childish or overly mature content"
+        ],
+        "weight": "high",
+        "automated_check": true
+      },
+      {
+        "id": "cultural_neutrality",
+        "requirement": "Content is culturally neutral and globally accessible",
+        "validation_points": [
+          "No assumptions about specific cultural knowledge",
+          "Examples work across different countries",
+          "Avoids culture-specific references",
+          "Uses universal themes and concepts"
+        ],
+        "weight": "high",
+        "automated_check": false
+      },
+      {
+        "id": "complexity_level",
+        "requirement": "Complexity level matches B2 requirements",
+        "validation_points": [
+          "Vocabulary is challenging but accessible",
+          "Sentence structures are appropriately complex",
+          "Concepts require analysis but aren't overly specialized",
+          "Reading level matches intermediate-upper intermediate"
+        ],
+        "weight": "critical",
+        "automated_check": true
+      },
+      {
+        "id": "educational_value",
+        "requirement": "Topic has clear educational value",
+        "validation_points": [
+          "Content provides learning opportunities beyond language",
+          "Information is accurate and reliable",
+          "Topic contributes to general knowledge",
+          "Material has lasting educational benefit"
+        ],
+        "weight": "medium",
+        "automated_check": false
+      }
+    ]
+  },
+  
+  "engagement_factors_checklist": {
+    "description": "Criteria for ensuring content engages target learners",
+    "criteria": [
+      {
+        "id": "inherent_interest",
+        "requirement": "Topic is inherently interesting to target demographic",
+        "validation_points": [
+          "Subject matter appeals to 16-25 age group",
+          "Topic addresses current interests and concerns",
+          "Content has natural appeal without forced engagement",
+          "Subject connects to popular trends or issues"
+        ],
+        "weight": "high",
+        "automated_check": false
+      },
+      {
+        "id": "personal_connection",
+        "requirement": "Content connects to learners' experiences or aspirations",
+        "validation_points": [
+          "Topics relate to student life and experiences",
+          "Content addresses future career considerations",
+          "Material connects to personal development goals",
+          "Themes resonate with young adult challenges"
+        ],
+        "weight": "high",
+        "automated_check": false
+      },
+      {
+        "id": "discussion_potential",
+        "requirement": "Material could generate meaningful discussion",
+        "validation_points": [
+          "Topic has multiple perspectives to explore",
+          "Content raises thought-provoking questions",
+          "Material encourages critical thinking",
+          "Subject matter supports classroom debate"
+        ],
+        "weight": "medium",
+        "automated_check": false
+      },
+      {
+        "id": "contemporary_relevance",
+        "requirement": "Topic has contemporary relevance",
+        "validation_points": [
+          "Content addresses current issues and trends",
+          "Information is up-to-date and timely",
+          "Topic reflects modern concerns and interests",
+          "Material won't quickly become obsolete"
+        ],
+        "weight": "high",
+        "automated_check": true
+      }
+    ]
+  },
+  
+  "technical_requirements_checklist": {
+    "description": "Technical specifications for B2 First Reading Part 5 tasks",
+    "criteria": [
+      {
+        "id": "text_length",
+        "requirement": "Text length: 400-800 words",
+        "validation_points": [
+          "Minimum 400 words for adequate complexity",
+          "Maximum 800 words to maintain focus",
+          "Optimal range 500-650 words",
+          "Length supports 5-6 comprehension questions"
+        ],
+        "weight": "critical",
+        "automated_check": true,
+        "min_value": 400,
+        "max_value": 800,
+        "optimal_range": [500, 650]
+      },
+      {
+        "id": "vocabulary_level",
+        "requirement": "Vocabulary level: B2 appropriate",
+        "validation_points": [
+          "Uses intermediate-upper intermediate vocabulary",
+          "Includes some challenging but learnable words",
+          "Avoids overly technical or specialized terms",
+          "Vocabulary supports learning objectives"
+        ],
+        "weight": "critical",
+        "automated_check": true
+      },
+      {
+        "id": "sentence_structure",
+        "requirement": "Sentence structure: Varied and complex enough for B2",
+        "validation_points": [
+          "Mix of simple, compound, and complex sentences",
+          "Appropriate use of subordinate clauses",
+          "Varied sentence beginnings and structures",
+          "Complexity matches B2 reading level"
+        ],
+        "weight": "high",
+        "automated_check": true
+      },
+      {
+        "id": "question_support",
+        "requirement": "Content supports 5-6 comprehension questions",
+        "validation_points": [
+          "Text provides material for inference questions",
+          "Vocabulary can be tested in context",
+          "Detail questions can be formulated",
+          "Author's attitude/opinion is discernible"
+        ],
+        "weight": "critical",
+        "automated_check": true,
+        "min_questions": 5,
+        "max_questions": 6
+      }
+    ]
+  },
+  
+  "assessment_potential_checklist": {
+    "description": "Criteria for ensuring text supports effective assessment",
+    "criteria": [
+      {
+        "id": "inference_questions",
+        "requirement": "Text supports inference questions",
+        "validation_points": [
+          "Content has implied meanings to discover",
+          "Text requires reading between the lines",
+          "Multiple inference opportunities exist",
+          "Conclusions can be drawn from evidence"
+        ],
+        "weight": "critical",
+        "automated_check": false
+      },
+      {
+        "id": "vocabulary_testing",
+        "requirement": "Vocabulary can be tested in context",
+        "validation_points": [
+          "Key words have clear contextual meaning",
+          "Vocabulary items can be tested through options",
+          "Word meanings are determinable from context",
+          "Multiple vocabulary testing opportunities exist"
+        ],
+        "weight": "high",
+        "automated_check": true
+      },
+      {
+        "id": "detail_questions",
+        "requirement": "Detail questions can be formulated",
+        "validation_points": [
+          "Specific information is clearly stated",
+          "Facts and details are testable",
+          "Information can be located in text",
+          "Details support comprehension assessment"
+        ],
+        "weight": "high",
+        "automated_check": true
+      },
+      {
+        "id": "attitude_opinion",
+        "requirement": "Author's attitude/opinion is discernible",
+        "validation_points": [
+          "Writer's viewpoint is identifiable",
+          "Tone and attitude are clear",
+          "Opinion can be distinguished from fact",
+          "Attitude questions can be formulated"
+        ],
+        "weight": "medium",
+        "automated_check": false
+      },
+      {
+        "id": "reference_questions",
+        "requirement": "Reference questions are possible",
+        "validation_points": [
+          "Pronouns and references are clear",
+          "Cohesive devices can be tested",
+          "Text connections are identifiable",
+          "Reference relationships exist"
+        ],
+        "weight": "medium",
+        "automated_check": true
+      }
+    ]
+  },
+  
+  "common_pitfalls": {
+    "description": "Common issues to avoid in B2 First task creation",
+    "categories": [
+      {
+        "category": "cultural_bias",
+        "title": "Cultural Bias",
+        "pitfalls": [
+          "Topics that assume specific cultural knowledge",
+          "Examples that only work in certain countries",
+          "Cultural insensitivities or assumptions",
+          "Region-specific references or contexts"
+        ],
+        "prevention_strategies": [
+          "Use universal themes and concepts",
+          "Test content with international perspective",
+          "Avoid culture-specific examples",
+          "Consider global accessibility"
+        ]
+      },
+      {
+        "category": "inappropriate_complexity",
+        "title": "Inappropriate Complexity",
+        "pitfalls": [
+          "Overly technical or specialized topics",
+          "Content too simple for B2 level",
+          "Vocabulary beyond target level",
+          "Concepts requiring expert knowledge"
+        ],
+        "prevention_strategies": [
+          "Match complexity to B2 specifications",
+          "Balance challenge with accessibility",
+          "Use appropriate vocabulary level",
+          "Ensure concepts are learnable"
+        ]
+      },
+      {
+        "category": "outdated_references",
+        "title": "Outdated References",
+        "pitfalls": [
+          "Topics that quickly become obsolete",
+          "Temporary trends or fads",
+          "Time-sensitive information",
+          "Technology that becomes outdated"
+        ],
+        "prevention_strategies": [
+          "Focus on enduring themes",
+          "Use timeless examples",
+          "Avoid rapidly changing technology",
+          "Ensure long-term relevance"
+        ]
+      },
+      {
+        "category": "controversial_content",
+        "title": "Controversial Content",
+        "pitfalls": [
+          "Highly divisive political topics",
+          "Sensitive religious content",
+          "Provocative rather than educational focus",
+          "Content that could offend learners"
+        ],
+        "prevention_strategies": [
+          "Focus on educational value",
+          "Present balanced perspectives",
+          "Avoid inflammatory content",
+          "Consider diverse learner backgrounds"
+        ]
+      }
+    ]
+  },
+  
+  "validation_workflow": {
+    "description": "Recommended workflow for quality assurance validation",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Automated Technical Check",
+        "description": "System-based validation of technical requirements",
+        "checks": [
+          "Text length validation (400-800 words)",
+          "Question count verification (5-6 questions)",
+          "Vocabulary level assessment",
+          "Sentence structure analysis"
+        ],
+        "automated": true
+      },
+      {
+        "stage": 2,
+        "name": "Content Quality Review",
+        "description": "Human review of content quality and appropriateness",
+        "checks": [
+          "Age appropriateness assessment",
+          "Cultural neutrality verification",
+          "Educational value evaluation",
+          "Engagement factor analysis"
+        ],
+        "automated": false
+      },
+      {
+        "stage": 3,
+        "name": "Assessment Potential Validation",
+        "description": "Review of question quality and assessment effectiveness",
+        "checks": [
+          "Question type distribution",
+          "Inference opportunity assessment",
+          "Vocabulary testing potential",
+          "Overall assessment quality"
+        ],
+        "automated": "partial"
+      },
+      {
+        "stage": 4,
+        "name": "Final Quality Assurance",
+        "description": "Comprehensive final review before approval",
+        "checks": [
+          "Complete checklist verification",
+          "Pitfall avoidance confirmation",
+          "Overall quality assessment",
+          "Approval for use"
+        ],
+        "automated": false
+      }
+    ]
+  },
+  
+  "scoring_system": {
+    "description": "Quality scoring system for B2 First tasks",
+    "total_possible_score": 100,
+    "categories": [
+      {
+        "category": "content_quality",
+        "weight": 30,
+        "max_score": 30,
+        "criteria": ["age_appropriateness", "cultural_neutrality", "complexity_level", "educational_value"]
+      },
+      {
+        "category": "engagement_factors",
+        "weight": 25,
+        "max_score": 25,
+        "criteria": ["inherent_interest", "personal_connection", "discussion_potential", "contemporary_relevance"]
+      },
+      {
+        "category": "technical_requirements",
+        "weight": 25,
+        "max_score": 25,
+        "criteria": ["text_length", "vocabulary_level", "sentence_structure", "question_support"]
+      },
+      {
+        "category": "assessment_potential",
+        "weight": 20,
+        "max_score": 20,
+        "criteria": ["inference_questions", "vocabulary_testing", "detail_questions", "attitude_opinion", "reference_questions"]
+      }
+    ],
+    "quality_thresholds": {
+      "excellent": 90,
+      "good": 80,
+      "acceptable": 70,
+      "needs_improvement": 60,
+      "unacceptable": 59
+    }
+  },
+  
+  "usage_guidelines": {
+    "description": "How to use this quality assurance checklist effectively",
+    "recommendations": [
+      "Use automated checks first to filter out obvious issues",
+      "Conduct human review for subjective criteria",
+      "Apply scoring system consistently across all tasks",
+      "Document any deviations or special considerations",
+      "Regular review and update of checklist criteria",
+      "Training for reviewers on checklist application"
+    ],
+    "integration_points": [
+      "Task generation validation",
+      "Content review workflow",
+      "Quality control processes",
+      "Automated testing systems",
+      "Human reviewer training",
+      "Performance monitoring"
+    ]
+  }
+} 
