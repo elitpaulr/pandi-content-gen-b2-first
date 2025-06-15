@@ -239,15 +239,47 @@ class OllamaTaskGenerator:
         return True
     
     def save_task(self, task_data: Dict[str, Any]) -> Path:
-        """Save generated task to JSON file"""
-        filename = f"{task_data['task_id']}.json"
-        filepath = self.output_dir / filename
-        
-        with open(filepath, 'w', encoding='utf-8') as f:
-            json.dump(task_data, f, indent=2, ensure_ascii=False)
-        
-        logger.info(f"💾 Saved task to: {filepath}")
-        return filepath
+        """Save generated task to JSON file with enhanced error handling"""
+        try:
+            # Ensure output directory exists
+            if not self.output_dir.exists():
+                logger.info(f"Creating output directory: {self.output_dir}")
+                self.output_dir.mkdir(parents=True, exist_ok=True)
+            
+            # Validate task_id exists
+            if 'task_id' not in task_data:
+                raise ValueError("Task data missing 'task_id' field")
+            
+            # Create filename and filepath
+            filename = f"{task_data['task_id']}.json"
+            filepath = self.output_dir / filename
+            
+            # Check if file already exists and warn
+            if filepath.exists():
+                logger.warning(f"File {filepath} already exists, will be overwritten")
+            
+            # Save the task
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(task_data, f, indent=2, ensure_ascii=False)
+            
+            # Verify the file was created and has content
+            if not filepath.exists():
+                raise RuntimeError(f"File was not created: {filepath}")
+            
+            file_size = filepath.stat().st_size
+            if file_size == 0:
+                raise RuntimeError(f"File was created but is empty: {filepath}")
+            
+            logger.info(f"💾 Saved task to: {filepath} (Size: {file_size} bytes)")
+            return filepath
+            
+        except Exception as e:
+            logger.error(f"Failed to save task: {e}")
+            logger.error(f"Output directory: {self.output_dir}")
+            logger.error(f"Directory exists: {self.output_dir.exists()}")
+            if self.output_dir.exists():
+                logger.error(f"Directory writable: {os.access(self.output_dir, os.W_OK)}")
+            raise
     
     def generate_batch_tasks(self, topics: List[str], text_types: List[str] = None, tasks_per_topic: int = 1) -> List[Dict[str, Any]]:
         """Generate multiple tasks for given topics and text types"""

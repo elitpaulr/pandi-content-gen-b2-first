@@ -157,7 +157,7 @@ def main():
     max_tokens = st.sidebar.slider("Max Tokens", 1000, 4000, 2000, 100)
     
     # Main interface tabs
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["🎯 Generate Tasks", "🔧 Improve Tasks", "📊 Batch Generation", "📋 Task Library", "⚙️ Admin Panel"])
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["🎯 Generate Tasks", "🔧 Improve Tasks", "📊 Batch Generation", "📋 Task Library", "⚙️ Admin Panel", "🧪 Test Save"])
     
     with tab1:
         st.header("Generate Single Task")
@@ -365,10 +365,27 @@ def main():
                                 if 'explanation' in question:
                                     st.info(f"💡 {question['explanation']}")
                     
-                    # Save option
+                    # Save option with enhanced feedback
                     if st.button("💾 Save Task"):
-                        filepath = generator.save_task(task_data)
-                        st.success(f"Task saved to: {filepath}")
+                        try:
+                            with st.spinner("Saving task..."):
+                                filepath = generator.save_task(task_data)
+                                st.success(f"✅ Task saved successfully to: {filepath}")
+                                st.info(f"📁 File location: `{filepath}`")
+                        except Exception as e:
+                            st.error(f"❌ Failed to save task: {str(e)}")
+                            with st.expander("🔧 Save Troubleshooting"):
+                                st.markdown(f"""
+                                **Error Details:** {str(e)}
+                                
+                                **Common save issues:**
+                                - Directory permissions (check if you can write to the generated_tasks folder)
+                                - Disk space (ensure you have enough storage)
+                                - File already exists and is locked
+                                - Invalid characters in filename
+                                
+                                **Workaround:** Use the Download JSON button below as an alternative.
+                                """)
                     
                     # Download JSON
                     st.download_button(
@@ -1733,6 +1750,242 @@ Difficulty: {difficulty}"""
                     st.info("🔄 Restart the application to apply changes")
                 except Exception as e:
                     st.error(f"❌ Failed to save topic sets: {e}")
+
+    with tab6:
+        st.header("🧪 Test Save Functionality")
+        st.markdown("Test the task saving system without generating new tasks")
+        
+        # Create a sample task for testing
+        st.subheader("📝 Sample Task for Testing")
+        
+        sample_task = {
+            "task_id": "test_save_task_01",
+            "title": "Test Task: Sustainable Living in Urban Areas",
+            "topic": "sustainable living",
+            "topic_category": "environment_sustainability",
+            "difficulty": "B2",
+            "generated_by": "test_system",
+            "model": "test_model",
+            "generation_params": {
+                "temperature": 0.7,
+                "max_tokens": 2000,
+                "model_full_name": "test_model"
+            },
+            "text_type": "magazine_article",
+            "text": """Living sustainably in a city might seem challenging, but it's becoming increasingly achievable thanks to innovative solutions and changing attitudes. Urban dwellers are discovering that small changes in their daily routines can make a significant environmental impact.
+
+One of the most effective approaches is reducing energy consumption at home. Simple modifications like switching to LED lighting, using programmable thermostats, and choosing energy-efficient appliances can cut electricity bills by up to 30%. Many city residents are also embracing renewable energy options, with rooftop solar panels becoming more affordable and accessible.
+
+Transportation represents another area where urban sustainability shines. Cities worldwide are expanding public transport networks and creating bike-sharing programs. Electric scooters and bicycles offer convenient alternatives for short trips, while car-sharing services reduce the need for private vehicle ownership.
+
+The concept of urban farming is revolutionizing how city dwellers think about food production. Vertical gardens, rooftop farms, and community gardens are transforming unused spaces into productive areas. These initiatives not only provide fresh, local produce but also strengthen community bonds and improve air quality.
+
+Waste reduction has become a priority for environmentally conscious urbanites. Zero-waste stores are appearing in neighborhoods, offering package-free shopping experiences. Composting programs, both individual and community-based, are diverting organic waste from landfills and creating valuable soil amendments.
+
+Technology plays a crucial role in supporting sustainable urban living. Smart home systems optimize energy usage, while apps help residents find recycling centers, track their carbon footprint, and connect with local sustainability initiatives. These digital tools make eco-friendly choices more convenient and measurable.
+
+The future of sustainable urban living looks promising as cities implement green building standards, expand renewable energy infrastructure, and prioritize environmental considerations in urban planning. Individual actions, when multiplied across millions of city residents, create substantial positive environmental change.""",
+            "questions": [
+                {
+                    "question_number": 1,
+                    "question_text": "According to the text, what is one of the most effective approaches to sustainable urban living?",
+                    "options": {
+                        "A": "Moving to the countryside",
+                        "B": "Reducing energy consumption at home",
+                        "C": "Buying more efficient cars",
+                        "D": "Installing expensive technology"
+                    },
+                    "correct_answer": "B",
+                    "question_type": "detail"
+                },
+                {
+                    "question_number": 2,
+                    "question_text": "The word 'embracing' in paragraph 2 is closest in meaning to:",
+                    "options": {
+                        "A": "rejecting",
+                        "B": "questioning",
+                        "C": "accepting enthusiastically",
+                        "D": "considering carefully"
+                    },
+                    "correct_answer": "C",
+                    "question_type": "vocabulary"
+                },
+                {
+                    "question_number": 3,
+                    "question_text": "What does the text suggest about urban farming?",
+                    "options": {
+                        "A": "It only provides food for individual families",
+                        "B": "It requires expensive equipment to be successful",
+                        "C": "It transforms unused spaces and strengthens communities",
+                        "D": "It is only possible in certain types of buildings"
+                    },
+                    "correct_answer": "C",
+                    "question_type": "inference"
+                },
+                {
+                    "question_number": 4,
+                    "question_text": "According to the text, zero-waste stores:",
+                    "options": {
+                        "A": "are only found in wealthy neighborhoods",
+                        "B": "offer package-free shopping experiences",
+                        "C": "are more expensive than regular stores",
+                        "D": "only sell organic products"
+                    },
+                    "correct_answer": "B",
+                    "question_type": "detail"
+                },
+                {
+                    "question_number": 5,
+                    "question_text": "What role does technology play in sustainable urban living?",
+                    "options": {
+                        "A": "It replaces the need for individual action",
+                        "B": "It makes eco-friendly choices more convenient and measurable",
+                        "C": "It is too expensive for most city residents",
+                        "D": "It only works in new buildings"
+                    },
+                    "correct_answer": "B",
+                    "question_type": "detail"
+                },
+                {
+                    "question_number": 6,
+                    "question_text": "The overall tone of the text towards sustainable urban living is:",
+                    "options": {
+                        "A": "pessimistic and doubtful",
+                        "B": "neutral and factual",
+                        "C": "optimistic and encouraging",
+                        "D": "critical and disapproving"
+                    },
+                    "correct_answer": "C",
+                    "question_type": "attitude"
+                }
+            ]
+        }
+        
+        # Display the sample task
+        with st.expander("👀 Preview Sample Task", expanded=False):
+            st.json(sample_task, expanded=False)
+        
+        # Test save functionality
+        st.subheader("💾 Test Save Operations")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown("**Test 1: Basic Save**")
+            if st.button("🧪 Test Basic Save", type="primary"):
+                try:
+                    # Initialize generator for testing
+                    generator = OllamaTaskGenerator()
+                    
+                    with st.spinner("Testing save functionality..."):
+                        filepath = generator.save_task(sample_task)
+                        st.success(f"✅ Save test successful!")
+                        st.info(f"📁 File saved to: `{filepath}`")
+                        
+                        # Verify the file was actually created
+                        if filepath.exists():
+                            file_size = filepath.stat().st_size
+                            st.success(f"✅ File verification passed (Size: {file_size} bytes)")
+                        else:
+                            st.error("❌ File verification failed - file not found")
+                            
+                except Exception as e:
+                    st.error(f"❌ Save test failed: {str(e)}")
+                    with st.expander("🔧 Error Details"):
+                        st.code(str(e))
+                        st.markdown("""
+                        **Possible causes:**
+                        - Directory permissions issue
+                        - Disk space full
+                        - Invalid file path
+                        - File system error
+                        """)
+        
+        with col2:
+            st.markdown("**Test 2: Custom Task ID**")
+            custom_task_id = st.text_input("Custom Task ID:", value="test_custom_save_01")
+            
+            if st.button("🧪 Test Custom ID Save"):
+                try:
+                    # Modify sample task with custom ID
+                    test_task = sample_task.copy()
+                    test_task['task_id'] = custom_task_id
+                    
+                    generator = OllamaTaskGenerator()
+                    
+                    with st.spinner("Testing custom ID save..."):
+                        filepath = generator.save_task(test_task)
+                        st.success(f"✅ Custom ID save successful!")
+                        st.info(f"📁 File saved to: `{filepath}`")
+                        
+                except Exception as e:
+                    st.error(f"❌ Custom ID save failed: {str(e)}")
+        
+        # Directory and permissions test
+        st.subheader("📁 Directory & Permissions Test")
+        
+        if st.button("🔍 Check Save Directory"):
+            try:
+                generator = OllamaTaskGenerator()
+                output_dir = generator.output_dir
+                
+                st.info(f"📂 Output directory: `{output_dir}`")
+                
+                # Check if directory exists
+                if output_dir.exists():
+                    st.success("✅ Directory exists")
+                    
+                    # Check if writable
+                    test_file = output_dir / "write_test.tmp"
+                    try:
+                        test_file.write_text("test")
+                        test_file.unlink()  # Delete test file
+                        st.success("✅ Directory is writable")
+                    except Exception as e:
+                        st.error(f"❌ Directory not writable: {e}")
+                    
+                    # List existing files
+                    existing_files = list(output_dir.glob("*.json"))
+                    st.info(f"📄 Existing task files: {len(existing_files)}")
+                    
+                    if existing_files:
+                        with st.expander("📋 Existing Files"):
+                            for file in existing_files[-10:]:  # Show last 10 files
+                                st.text(f"• {file.name}")
+                else:
+                    st.warning("⚠️ Directory does not exist")
+                    
+                    # Try to create it
+                    if st.button("🔨 Create Directory"):
+                        try:
+                            output_dir.mkdir(parents=True, exist_ok=True)
+                            st.success("✅ Directory created successfully")
+                        except Exception as e:
+                            st.error(f"❌ Failed to create directory: {e}")
+                            
+            except Exception as e:
+                st.error(f"❌ Directory check failed: {e}")
+        
+        # Cleanup test files
+        st.subheader("🧹 Cleanup Test Files")
+        
+        if st.button("🗑️ Remove Test Files"):
+            try:
+                generator = OllamaTaskGenerator()
+                output_dir = generator.output_dir
+                
+                # Find test files
+                test_files = list(output_dir.glob("test_*.json"))
+                
+                if test_files:
+                    for test_file in test_files:
+                        test_file.unlink()
+                    st.success(f"✅ Removed {len(test_files)} test files")
+                else:
+                    st.info("ℹ️ No test files found to remove")
+                    
+            except Exception as e:
+                st.error(f"❌ Cleanup failed: {e}")
 
 if __name__ == "__main__":
     main() 
