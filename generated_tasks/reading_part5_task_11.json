@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_11",
+  "title": "Reach New Heights on the Mountain and in Your Metabolism",
+  "topic": "health_and_fitness",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**Keto Power: How Climbers Can Fuel Their Ascents**\n\nAs climbers, we know that our bodies are put to the test every time we lace up our harnesses and tackle a new route. Whether we're tackling a technical ascent or pushing ourselves to new heights in a competition, we need all the fuel we can get to power through the demands of climbing.\n\nBut what if I told you there's a way to take your climbing performance to the next level without sacrificing your diet? Enter the keto diet – a high-fat, low-carb eating plan that's been gaining popularity among athletes in recent years. And for good reason: studies have shown that the keto diet can improve endurance, increase fat loss, and even enhance mental clarity.\n\nSo how does it work? The basic premise of the keto diet is to drastically reduce your intake of carbohydrates – think bread, pasta, sugary snacks – and replace them with healthy fats like avocado, nuts, and olive oil. This forces your body into a state of ketosis, where it begins burning fat for fuel instead of carbs.\n\n**The Science Behind Keto**\n\nWhen we eat carbs, our bodies break them down into glucose, which is then used as energy. But when we don't have enough carbs to burn, the liver starts producing something called ketones – alternative energy sources that are produced by breaking down fat. \"Ketosis is a natural state for humans,\" explains Dr. Eric Westman, an endocrinologist at Duke University who has studied the effects of the keto diet on athletes. \"When you're eating a high-fat diet, your body adapts to using ketones as its primary source of energy.\"\n\nFor climbers, this can be a game-changer. By fueling their bodies with healthy fats and protein, they can maintain sustained energy levels throughout even the most grueling ascents – without feeling weighed down by heavy carbs.\n\n**Climber-Approved Keto Recipes**\n\nSo what does a typical keto meal look like for climbers? Here are some recipes to get you started:\n\n*   **Keto Energy Balls**: Mix together almond butter, coconut oil, and protein powder to create bite-sized energy balls that are perfect for snacking on the go.\n*   **Bacon-Wrapped Scallops**: Wrap scallops in bacon and bake until crispy – a high-protein, low-carb meal that's easy to prepare.\n*   **Cauliflower Fried Rice**: Use a food processor to break down cauliflower into \"rice\" – then sauté with coconut oil, protein powder, and spices.\n\n**Benefits for Climbers**\n\nSo why should climbers give the keto diet a try? Here are just a few benefits you can expect:\n\n*   **Increased Endurance**: By fueling your body with healthy fats and protein, you'll be able to maintain sustained energy levels throughout even the most grueling ascents.\n*   **Improved Fat Loss**: The keto diet has been shown to increase fat loss – which means you'll be lighter and more agile on the wall.\n*   **Enhanced Mental Clarity**: Many climbers report improved mental clarity and focus when following a keto diet.\n\n**Getting Started**\n\nReady to give the keto diet a try? Here are some tips for getting started:\n\n*   **Start with the Basics**: Cut out high-carb foods like bread, pasta, and sugary snacks – and replace them with healthy fats like avocado, nuts, and olive oil.\n*   **Track Your Macros**: Use an app or spreadsheet to track your daily macronutrient intake – making sure you're getting enough fat and protein while keeping carbs low.\n*   **Listen to Your Body**: Pay attention to how your body is responding to the keto diet – and make adjustments as needed.\n\nWith its potential for improved endurance, increased fat loss, and enhanced mental clarity, it's no wonder the keto diet has become a favorite among climbers. So why not give it a try? Your next ascent may just be the one that pushes you to new heights.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to Dr. Eric Westman, what is ketosis for humans?",
+      "options": {
+        "A": "A state of extreme hunger",
+        "B": "A natural state where bodies burn fat for fuel instead of carbs",
+        "C": "A temporary condition that only athletes experience",
+        "D": "A disease that affects the liver"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"ketosis\" refer to in the context of the keto diet?",
+      "options": {
+        "A": "A state of being overly hungry",
+        "B": "A natural state where the body begins burning fat for fuel instead of carbs",
+        "C": "A type of exercise routine that combines cardio and strength training",
+        "D": "A food group consisting mainly of fruits and vegetables"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the primary source of energy for the human body when it is in a state of ketosis?",
+      "options": {
+        "A": "Glucose from carbohydrates",
+        "B": "Ketones produced by breaking down fat",
+        "C": "Protein from animal products",
+        "D": "Water and electrolytes"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the idea of using the keto diet for climbing performance?",
+      "options": {
+        "A": "The author believes the keto diet is too restrictive and will limit climbers' ability to perform at their best.",
+        "B": "The author thinks the keto diet is a game-changer for climbers, offering improved endurance, increased fat loss, and enhanced mental clarity.",
+        "C": "The author is skeptical about the effectiveness of the keto diet but acknowledges its potential benefits.",
+        "D": "The author suggests that climbers should only consider the keto diet if they are experienced competitors."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Dr. Eric Westman mean by \"Ketosis is a natural state for humans\"?",
+      "options": {
+        "A": "That people are born with a tendency to eat high-fat diets.",
+        "B": "That the body adapts to using ketones as its primary source of energy when eating a high-fat diet.",
+        "C": "That people can only achieve ketosis through rigorous exercise.",
+        "D": "That ketosis is a disease that requires medical treatment."
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of the article \"Keto Power: How Climbers Can Fuel Their Ascents\"?",
+      "options": {
+        "A": "To introduce the reader to various climbing techniques and strategies",
+        "B": "To explain how the keto diet can improve endurance, increase fat loss, and enhance mental clarity for climbers",
+        "C": "To provide a comprehensive guide to preparing for a climbing competition",
+        "D": "To discuss the environmental impact of climbing on local ecosystems"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,348 @@
+# Cursor Rules for B2 First Content Generation Project
+
+## Project Overview
+This is a Python-based B2 First exam content generation tool using Ollama (local LLM) with Streamlit frontend. The system generates Reading Part 5 tasks in JSON format with proper validation and error handling.
+
+## Code Style & Standards
+
+### Python Code Style
+- Use Python 3.10+ features and type hints
+- Follow PEP 8 with 4-space indentation
+- Use descriptive variable names (e.g., `task_data`, `custom_instructions`, `text_type_key`)
+- Prefer f-strings over .format() or % formatting
+- Use pathlib.Path for file operations instead of os.path
+
+### Import Organization
+```python
+# Standard library imports first
+import json
+import logging
+from pathlib import Path
+from typing import Dict, List, Any, Optional
+
+# Third-party imports
+import streamlit as st
+from pydantic import BaseModel
+
+# Local imports last
+from src.llm.ollama_client import OllamaClient
+from src.content.ollama_part5_generator import OllamaTaskGenerator
+```
+
+### Error Handling Patterns
+- Always use try-except blocks for external API calls (Ollama)
+- Log errors with appropriate levels (ERROR, WARNING, INFO)
+- Provide user-friendly error messages in Streamlit
+- Handle None values explicitly before using in f-strings
+- Use defensive programming for parameter validation
+
+## Critical Anti-Patterns to Avoid
+
+### 1. NoneType.format Errors
+❌ **NEVER do this:**
+```python
+custom_instructions = None
+prompt = f"Instructions: {custom_instructions}"  # Can cause issues in complex scenarios
+```
+
+✅ **Always do this:**
+```python
+custom_instructions = custom_instructions or None
+if custom_instructions and custom_instructions.strip():
+    prompt += f"\nInstructions: {custom_instructions}"
+```
+
+### 2. Dynamic Method Replacement
+❌ **AVOID complex function hooking:**
+```python
+original_method = obj.method
+def wrapper(*args, **kwargs):
+    return original_method(*args, **kwargs)
+obj.method = wrapper  # This can cause parameter corruption
+```
+
+✅ **Use direct calls or proper decorators:**
+```python
+result = obj.method(param1, param2, param3)  # Direct and reliable
+```
+
+### 3. Streamlit State Management
+❌ **Don't rely on complex state:**
+```python
+st.session_state.complex_object = some_generator  # Can cause issues
+```
+
+✅ **Keep state simple:**
+```python
+if 'simple_flag' not in st.session_state:
+    st.session_state.simple_flag = False
+```
+
+## File Structure & Organization
+
+### Directory Structure
+```
+project/
+├── app/                    # Streamlit frontend
+│   └── ollama_generator.py # Main Streamlit app
+├── src/                    # Core logic
+│   ├── llm/               # LLM clients and utilities
+│   │   ├── ollama_client.py
+│   │   └── json_parser.py
+│   └── content/           # Content generation
+│       └── ollama_part5_generator.py
+├── knowledge_base/        # Reference materials
+├── generated_tasks/       # Output directory
+└── .cursorrules          # This file
+```
+
+### File Naming Conventions
+- Use snake_case for Python files
+- Use descriptive names: `ollama_part5_generator.py` not `generator.py`
+- JSON files: `reading_part5_task_01.json` format
+- Configuration files: `b2_first_reading_part5_generation_guidelines.json`
+
+## Streamlit Best Practices
+
+### UI Components
+- Use semantic icons: 🚀 for generate, ✅ for success, ❌ for errors
+- Provide clear progress indicators with st.progress()
+- Use st.columns() for layout, not complex CSS
+- Always disable buttons when inputs are invalid
+
+### Error Display
+```python
+try:
+    result = some_operation()
+    st.success("✅ Operation successful!")
+except Exception as e:
+    st.error(f"❌ Operation failed: {str(e)}")
+    with st.expander("🔧 Troubleshooting"):
+        st.markdown("Helpful debugging information...")
+```
+
+### Form Handling
+```python
+# Always validate form inputs
+topic = st.text_input("Topic").strip()
+custom_instructions = st.text_area("Custom Instructions")
+
+# Process empty strings properly
+processed_instructions = custom_instructions.strip() if custom_instructions else None
+if not processed_instructions:
+    processed_instructions = None
+```
+
+## LLM Integration Patterns
+
+### Ollama Client Usage
+```python
+# Always check connection first
+if not client.check_connection():
+    st.error("❌ Ollama not connected")
+    return
+
+# Use proper error handling
+try:
+    task = client.generate_reading_part5_task(
+        topic=topic,
+        text_type=text_type,
+        custom_instructions=custom_instructions  # Already validated
+    )
+except Exception as e:
+    logger.error(f"Generation failed: {e}")
+    # Create fallback or show error
+```
+
+### JSON Parsing
+- Always use the RobustJSONParser for LLM responses
+- Handle control characters and formatting issues
+- Provide multiple parsing attempts with different strategies
+- Log parsing failures with sufficient context
+
+## Task Generation Standards
+
+### Task Structure
+```python
+{
+    "task_id": "reading_part5_task_01",
+    "title": "Descriptive Title",
+    "topic": "topic_category",
+    "text_type": "magazine_article",
+    "difficulty": "B2",
+    "text": "550-750 words of content",
+    "questions": [
+        {
+            "question_number": 1,
+            "question_text": "What does the author suggest about...?",
+            "options": {
+                "A": "Option A text",
+                "B": "Option B text",
+                "C": "Option C text",
+                "D": "Option D text"
+            },
+            "correct_answer": "A",
+            "question_type": "inference"
+        }
+    ]
+}
+```
+
+### Validation Rules
+- Text length: 400-800 words (flexible range)
+- Questions: 5-6 questions numbered 1-6
+- Each question must have exactly 4 options (A, B, C, D)
+- One correct answer per question
+- Question types: inference, vocabulary, detail, attitude, reference, main_idea
+
+## Logging Standards
+
+### Log Levels
+- `ERROR`: Failed operations, exceptions
+- `WARNING`: Validation issues, fallback usage
+- `INFO`: Successful operations, progress updates
+- `DEBUG`: Detailed debugging information
+
+### Log Format
+```python
+logger.info(f"✅ Successfully generated task {task_number} on attempt {attempt}")
+logger.warning(f"Task {task_number} failed validation: {issues}")
+logger.error(f"Generation failed for topic '{topic}': {error}")
+```
+
+## Testing Patterns
+
+### Unit Testing
+- Test parameter validation thoroughly
+- Mock external dependencies (Ollama API)
+- Test error conditions and edge cases
+- Verify JSON structure and content
+
+### Integration Testing
+- Test full generation pipeline
+- Verify file I/O operations
+- Test Streamlit components in isolation
+- Check cross-platform compatibility
+
+## Performance Guidelines
+
+### Memory Management
+- Don't store large objects in session state
+- Clean up temporary files after batch operations
+- Use generators for large datasets
+- Limit concurrent Ollama requests
+
+### Response Times
+- Show progress indicators for operations > 2 seconds
+- Use async operations where possible
+- Implement timeouts for external API calls
+- Cache static data (guidelines, examples)
+
+## Security Considerations
+
+### Input Validation
+- Sanitize all user inputs
+- Validate file paths and names
+- Limit file sizes and content length
+- Escape special characters in JSON
+
+### API Security
+- Use local Ollama instance (no external API keys)
+- Validate model names and parameters
+- Implement rate limiting for generation requests
+- Log security-relevant events
+
+## Documentation Standards
+
+### Code Comments
+```python
+def generate_single_task(self, topic: str, task_number: int = None, 
+                        text_type: str = "magazine_article", 
+                        custom_instructions: Optional[str] = None) -> Dict[str, Any]:
+    """Generate a single Reading Part 5 task with specified text type.
+    
+    Args:
+        topic: The topic for the reading text
+        task_number: Task number (auto-assigned if None)
+        text_type: Type of text to generate (magazine_article, blog_post, etc.)
+        custom_instructions: Additional instructions for generation
+        
+    Returns:
+        Dictionary containing the complete task data
+        
+    Raises:
+        ValueError: If topic is empty or invalid
+        ConnectionError: If Ollama is not accessible
+    """
+```
+
+### README Updates
+- Keep installation instructions current
+- Document all configuration options
+- Provide troubleshooting guides
+- Include example usage
+
+## Git Workflow
+
+### Commit Messages
+```
+Fix NoneType.format error in Streamlit app custom instructions
+
+- Handle empty string from text_area widget properly
+- Convert empty/whitespace-only strings to None before passing to generator
+- Prevents format string errors when custom_instructions is empty
+- Tested with all edge cases: valid text, empty string, whitespace, None
+```
+
+### Branch Naming
+- `feature/batch-generation-improvements`
+- `fix/nonetype-format-error`
+- `refactor/streamlit-ui-cleanup`
+
+## Dependencies Management
+
+### Core Dependencies
+- `streamlit>=1.28.0` for UI
+- `ollama>=0.1.0` for LLM integration
+- `pydantic>=2.0.0` for data validation
+- `pathlib` for file operations (built-in)
+
+### Development Dependencies
+- `pytest` for testing
+- `black` for code formatting
+- `mypy` for type checking
+- `flake8` for linting
+
+## Deployment Considerations
+
+### Environment Setup
+- Use virtual environments
+- Pin dependency versions
+- Document system requirements
+- Provide Docker configuration if needed
+
+### Configuration
+- Use environment variables for settings
+- Provide sensible defaults
+- Document all configuration options
+- Separate dev/prod configurations
+
+---
+
+## Quick Reference
+
+### Common Fixes
+1. **NoneType errors**: Always validate parameters before f-strings
+2. **Streamlit reruns**: Use session state carefully, avoid complex objects
+3. **JSON parsing**: Use RobustJSONParser, handle control characters
+4. **File naming**: Use consistent numbering, avoid overwrites
+5. **Error handling**: Provide user-friendly messages, log technical details
+
+### Performance Tips
+1. Cache static data (guidelines, examples)
+2. Use progress indicators for long operations
+3. Implement proper error recovery
+4. Monitor memory usage during batch operations
+5. Use appropriate logging levels
+
+Remember: Simplicity and reliability over complexity. When in doubt, choose the more straightforward approach. 

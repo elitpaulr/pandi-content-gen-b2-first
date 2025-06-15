@@ -3,7 +3,6 @@ import logging
 from dataclasses import dataclass
 from typing import Dict, List, Any, Optional
 import ollama
-from src.llm.json_parser import RobustJSONParser
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -19,7 +18,7 @@ class OllamaConfig:
     timeout: int = 120
 
 class OllamaClient:
-    """Client for interacting with local Ollama LLM"""
+    """Client for interacting with local Ollama LLM using step-by-step generation"""
     
     def __init__(self, config: Optional[OllamaConfig] = None):
         self.config = config or OllamaConfig()
@@ -126,186 +125,237 @@ class OllamaClient:
         return task_data
     
     def generate_reading_part5_task(self, topic: str, difficulty: str = "B2", text_type: str = "magazine_article", custom_instructions: Optional[str] = None) -> Dict[str, Any]:
-        """Generate a complete Reading Part 5 task using Ollama with specified text type"""
+        """Generate a complete Reading Part 5 task using step-by-step LLM calls"""
         
-        # Ensure parameters are not None to prevent f-string errors
+        # Ensure parameters are not None
         topic = topic or "general topic"
         difficulty = difficulty or "B2"
         text_type = text_type or "magazine_article"
         
-        # Text type specific instructions
-        text_type_instructions = {
-            "magazine_article": "Write as an engaging magazine article with a clear structure, subheadings if appropriate, and an informative yet accessible tone. Include expert quotes or statistics where relevant.",
-            "newspaper_article": "Write as a newspaper feature article with journalistic style, factual reporting, and balanced perspective. Include relevant context and background information.",
-            "novel_extract": "Write as an excerpt from a contemporary novel with character development, dialogue, and narrative description. Focus on showing rather than telling.",
-            "blog_post": "Write as a personal blog post with first-person perspective, conversational tone, and personal reflections or experiences.",
-            "science_article": "Write as a popular science article that explains complex concepts in accessible language, with examples and analogies to help understanding.",
-            "cultural_review": "Write as a cultural review or commentary with analytical perspective, critical evaluation, and informed opinion.",
-            "professional_feature": "Write as a professional feature article about workplace trends, career advice, or industry insights with practical information.",
-            "lifestyle_feature": "Write as a lifestyle feature about personal interests, home, family, or hobbies with practical tips and relatable content.",
-            "travel_writing": "Write as travel writing with vivid descriptions of places, cultural observations, and personal travel experiences.",
-            "educational_feature": "Write as an educational feature about learning, study techniques, or educational trends with informative and helpful content."
-        }
-        
-        text_style_instruction = text_type_instructions.get(text_type, text_type_instructions["magazine_article"])
-        
-        system_prompt = f"""You are an expert Cambridge B2 First exam content creator. 
-        Generate authentic Reading Part 5 tasks that match the official exam format exactly.
-        
-        CRITICAL: You must respond with ONLY valid JSON. No explanations, no markdown, no extra text.
-        
-        Reading Part 5 Requirements:
-        - Text length: 550-750 words (engaging, authentic content)
-        - 6 multiple choice questions (numbered 1-6)
-        - Each question has 4 options (A, B, C, D)
-        - Question types: inference, vocabulary in context, attitude/opinion, detail, reference, main idea
-        - Text should be engaging and at B2 level
-        - Questions must be specific and contextual, not generic
-        
-        TEXT TYPE INSTRUCTION: {text_style_instruction}
-        
-        You can use natural formatting in your text including:
-        - Paragraphs with line breaks
-        - Quotation marks for dialogue or emphasis
-        - Natural punctuation and formatting
-        
-        The JSON parser will handle the formatting correctly.
-        
-        RESPOND WITH ONLY THIS JSON FORMAT:
-        {{
-            "task_id": "reading_part5_task_01",
-            "title": "Engaging Task Title",
-            "topic": "topic_category",
-            "text_type": "{text_type}",
-            "difficulty": "B2",
-            "text": "Your engaging text here following the {text_type} style. You can use natural formatting including line breaks for paragraphs, \\"quotes\\" for dialogue, and normal punctuation. Make it authentic and interesting - around 550-750 words that tell a compelling story or present interesting information about the topic.",
-            "questions": [
-                {{
-                    "question_number": 1,
-                    "question_text": "What does the author suggest about...?",
-                    "options": {{
-                        "A": "First realistic option",
-                        "B": "Second realistic option", 
-                        "C": "Third realistic option",
-                        "D": "Fourth realistic option"
-                    }},
-                    "correct_answer": "A",
-                    "question_type": "inference"
-                }},
-                {{
-                    "question_number": 2,
-                    "question_text": "The word 'X' in paragraph 2 is closest in meaning to:",
-                    "options": {{
-                        "A": "Option A",
-                        "B": "Option B", 
-                        "C": "Option C",
-                        "D": "Option D"
-                    }},
-                    "correct_answer": "B",
-                    "question_type": "vocabulary"
-                }},
-                {{
-                    "question_number": 3,
-                    "question_text": "According to the text, what happened when...?",
-                    "options": {{
-                        "A": "Option A",
-                        "B": "Option B", 
-                        "C": "Option C",
-                        "D": "Option D"
-                    }},
-                    "correct_answer": "C",
-                    "question_type": "detail"
-                }},
-                {{
-                    "question_number": 4,
-                    "question_text": "The author's attitude towards... can be described as:",
-                    "options": {{
-                        "A": "Option A",
-                        "B": "Option B", 
-                        "C": "Option C",
-                        "D": "Option D"
-                    }},
-                    "correct_answer": "D",
-                    "question_type": "attitude"
-                }},
-                {{
-                    "question_number": 5,
-                    "question_text": "What does 'this' refer to in the final paragraph?",
-                    "options": {{
-                        "A": "Option A",
-                        "B": "Option B", 
-                        "C": "Option C",
-                        "D": "Option D"
-                    }},
-                    "correct_answer": "A",
-                    "question_type": "reference"
-                }},
-                {{
-                    "question_number": 6,
-                    "question_text": "What is the main idea of the text?",
-                    "options": {{
-                        "A": "Option A",
-                        "B": "Option B", 
-                        "C": "Option C",
-                        "D": "Option D"
-                    }},
-                    "correct_answer": "B",
-                    "question_type": "main_idea"
-                }}
-            ]
-        }}"""
-        
-        user_prompt = f"""Create a Reading Part 5 task about: {topic or 'general topic'}
-        
-        Text Type: {text_type or 'magazine_article'}
-        Style Instructions: {text_style_instruction}
-        
-        Make sure:
-        1. The text is 550-750 words and follows the {text_type or 'magazine_article'} style
-        2. Use natural formatting including paragraphs, quotes, and proper punctuation
-        3. The topic is engaging and suitable for B2 level students
-        4. Create 6 questions (numbered 1-6) that are specific to the text content
-        5. Questions test different skills: inference, vocabulary, attitude, details, reference, main idea
-        6. Each question has exactly 4 realistic options
-        7. Only one option is clearly correct for each question
-        8. Make the content authentic and interesting
-        
-        Topic: {topic or 'general topic'}
-        Text Type: {text_type or 'magazine_article'}
-        Difficulty: {difficulty or 'B2'}"""
-        
-        if custom_instructions and custom_instructions.strip():
-            user_prompt += f"\n\nAdditional Instructions: {custom_instructions}"
-        
         try:
-            response = self.generate_text(user_prompt, system_prompt)
+            logger.info(f"🚀 Generating task components step by step for topic: {topic}")
             
-            # Log the raw response for debugging
-            logger.info(f"Raw LLM response length: {len(response)} characters")
-            logger.debug(f"Raw response preview: {response[:200]}...")
+            # Step 1: Generate the title
+            title = self._generate_title(topic, text_type)
+            logger.info(f"✅ Generated title: {title}")
             
-            # Use the robust JSON parser to handle formatting characters
-            task_data = RobustJSONParser.parse_llm_json(response)
+            # Step 2: Generate the main text
+            text_content = self._generate_text_content(topic, text_type, custom_instructions)
+            logger.info(f"✅ Generated text content: {len(text_content.split())} words")
             
-            # Validate the structure
-            required_fields = ['task_id', 'title', 'topic', 'text', 'questions']
-            for field in required_fields:
-                if field not in task_data:
-                    raise ValueError(f"Missing required field: {field}")
+            # Step 3: Generate questions based on the text
+            questions = self._generate_questions(text_content, topic)
+            logger.info(f"✅ Generated {len(questions)} questions")
             
-            # Ensure text_type is set
-            task_data['text_type'] = text_type
+            # Step 4: Assemble the complete task
+            task_data = {
+                "task_id": "reading_part5_task_01",  # Will be updated by the generator
+                "title": title,
+                "topic": self.categorize_topic(topic),
+                "text_type": text_type,
+                "difficulty": difficulty,
+                "text": text_content,
+                "questions": questions
+            }
             
-            if 'questions' in task_data and len(task_data['questions']) != 6:
-                logger.warning(f"Expected 6 questions, got {len(task_data['questions'])}")
-                # Don't fail, just warn - some models might generate different amounts
-            
-            logger.info(f"Successfully generated task: {task_data.get('title', 'Unknown')}")
+            logger.info(f"🎉 Successfully generated complete task: {title}")
             return self.normalize_question_numbers(task_data)
             
         except Exception as e:
-            logger.error(f"Failed to generate task: {e}")
+            logger.error(f"❌ Failed to generate task: {e}")
             raise
+    
+    def _generate_title(self, topic: str, text_type: str) -> str:
+        """Generate an engaging title for the reading task"""
+        
+        system_prompt = f"""You are an expert content creator. Generate an engaging, clickable title for a {text_type} about {topic}.
+        
+        The title should be:
+        - Engaging and attention-grabbing
+        - Appropriate for B2 level English learners
+        - Suitable for the {text_type} format
+        - Between 5-12 words long
+        - Natural and authentic
+        
+        Respond with ONLY the title, no quotes, no explanations, no extra text."""
+        
+        user_prompt = f"Create an engaging title for a {text_type} about: {topic}"
+        
+        title = self.generate_text(user_prompt, system_prompt).strip()
+        # Clean up any quotes or extra formatting
+        title = title.strip('"').strip("'").strip()
+        
+        return title
+    
+    def _generate_text_content(self, topic: str, text_type: str, custom_instructions: Optional[str] = None) -> str:
+        """Generate the main reading text content"""
+        
+        # Text type specific instructions
+        text_type_instructions = {
+            "magazine_article": "Write as an engaging magazine article with a clear structure, subheadings if appropriate, and an informative yet accessible tone. Include expert quotes or statistics where relevant.",
+            "newspaper_article": "Write as a newspaper feature article with journalistic style, factual reporting, and balanced perspective.",
+            "novel_extract": "Write as an excerpt from a contemporary novel with character development, dialogue, and narrative description.",
+            "blog_post": "Write as a personal blog post with first-person perspective, conversational tone, and personal reflections.",
+            "science_article": "Write as a popular science article that explains complex concepts in accessible language.",
+            "cultural_review": "Write as a cultural review or commentary with analytical perspective and informed opinion.",
+            "professional_feature": "Write as a professional feature article about workplace trends or industry insights.",
+            "lifestyle_feature": "Write as a lifestyle feature about personal interests, home, family, or hobbies with practical tips.",
+            "travel_writing": "Write as travel writing with vivid descriptions of places and cultural observations.",
+            "educational_feature": "Write as an educational feature about learning, study techniques, or educational trends."
+        }
+        
+        style_instruction = text_type_instructions.get(text_type, text_type_instructions["magazine_article"])
+        
+        system_prompt = f"""You are an expert content writer. Write a {text_type} about {topic} that is exactly 550-750 words long.
+        
+        Style requirements: {style_instruction}
+        
+        Content requirements:
+        - Write at B2 English level (intermediate)
+        - Make it engaging and informative
+        - Use clear paragraphs
+        - Include specific details and examples
+        - Write naturally - avoid overly complex sentences
+        - Make sure it's exactly 550-750 words
+        - Use simple formatting that won't break JSON parsing
+        
+        Respond with ONLY the text content, no titles, no explanations."""
+        
+        user_prompt = f"Write a {text_type} about: {topic}\n\nMake it engaging, informative, and exactly 550-750 words."
+        
+        if custom_instructions and custom_instructions.strip():
+            user_prompt += f"\n\nAdditional requirements: {custom_instructions}"
+        
+        text_content = self.generate_text(user_prompt, system_prompt).strip()
+        
+        return text_content
+    
+    def _generate_questions(self, text_content: str, topic: str) -> List[Dict[str, Any]]:
+        """Generate 6 multiple choice questions based on the text content"""
+        
+        questions = []
+        question_types = ["inference", "vocabulary", "detail", "attitude", "reference", "main_idea"]
+        
+        for i, question_type in enumerate(question_types, 1):
+            try:
+                question = self._generate_single_question(text_content, i, question_type, topic)
+                questions.append(question)
+                logger.debug(f"✅ Generated question {i} ({question_type})")
+            except Exception as e:
+                logger.warning(f"⚠️ Failed to generate question {i} ({question_type}): {e}")
+                # Continue with other questions
+                continue
+        
+        return questions
+    
+    def _generate_single_question(self, text_content: str, question_number: int, question_type: str, topic: str) -> Dict[str, Any]:
+        """Generate a single multiple choice question"""
+        
+        type_instructions = {
+            "inference": "Create a question that requires the reader to infer or deduce information that is implied but not directly stated in the text.",
+            "vocabulary": "Create a question about the meaning of a specific word or phrase from the text in context.",
+            "detail": "Create a question about specific factual information that is directly stated in the text.",
+            "attitude": "Create a question about the author's opinion, attitude, or tone towards the topic.",
+            "reference": "Create a question about what a pronoun or phrase refers to in the text.",
+            "main_idea": "Create a question about the overall main idea or purpose of the text."
+        }
+        
+        system_prompt = f"""You are an expert Cambridge B2 First exam question writer. 
+
+Create ONE multiple choice question based on the provided text.
+
+Question type: {question_type}
+Instructions: {type_instructions[question_type]}
+
+Requirements:
+- Question must be specific to the provided text
+- Create exactly 4 options: A, B, C, D
+- Only ONE option should be clearly correct
+- Other options should be plausible but incorrect
+- Use B2 level English
+- Make the question clear and unambiguous
+
+Format your response EXACTLY like this:
+QUESTION: [Your question here]
+A: [Option A]
+B: [Option B] 
+C: [Option C]
+D: [Option D]
+CORRECT: [A, B, C, or D]
+
+Respond with ONLY this format, no explanations."""
+        
+        user_prompt = f"""Based on this text about {topic}, create a {question_type} question:
+
+{text_content}
+
+Create the question in the exact format specified."""
+        
+        response = self.generate_text(user_prompt, system_prompt).strip()
+        
+        # Parse the response
+        question_data = self._parse_question_response(response, question_number, question_type)
+        
+        return question_data
+    
+    def _parse_question_response(self, response: str, question_number: int, question_type: str) -> Dict[str, Any]:
+        """Parse the LLM response into a structured question"""
+        
+        lines = response.strip().split('\n')
+        
+        question_text = ""
+        options = {}
+        correct_answer = ""
+        
+        for line in lines:
+            line = line.strip()
+            if line.startswith("QUESTION:"):
+                question_text = line.replace("QUESTION:", "").strip()
+            elif line.startswith("A:"):
+                options["A"] = line.replace("A:", "").strip()
+            elif line.startswith("B:"):
+                options["B"] = line.replace("B:", "").strip()
+            elif line.startswith("C:"):
+                options["C"] = line.replace("C:", "").strip()
+            elif line.startswith("D:"):
+                options["D"] = line.replace("D:", "").strip()
+            elif line.startswith("CORRECT:"):
+                correct_answer = line.replace("CORRECT:", "").strip()
+        
+        # Validate we have all required components
+        if not question_text:
+            raise ValueError("No question text found")
+        if len(options) != 4:
+            raise ValueError(f"Expected 4 options, got {len(options)}: {list(options.keys())}")
+        if correct_answer not in ["A", "B", "C", "D"]:
+            raise ValueError(f"Invalid correct answer: {correct_answer}")
+        
+        return {
+            "question_number": question_number,
+            "question_text": question_text,
+            "options": options,
+            "correct_answer": correct_answer,
+            "question_type": question_type
+        }
+    
+    def categorize_topic(self, topic: str) -> str:
+        """Categorize the topic into a general category"""
+        topic_lower = topic.lower()
+        
+        if any(word in topic_lower for word in ['health', 'fitness', 'diet', 'exercise', 'medical', 'nutrition']):
+            return "health_and_fitness"
+        elif any(word in topic_lower for word in ['technology', 'digital', 'computer', 'internet', 'ai', 'tech']):
+            return "technology"
+        elif any(word in topic_lower for word in ['travel', 'tourism', 'culture', 'country', 'city', 'place']):
+            return "travel_and_culture"
+        elif any(word in topic_lower for word in ['environment', 'climate', 'nature', 'green', 'sustainable']):
+            return "environment"
+        elif any(word in topic_lower for word in ['education', 'learning', 'school', 'university', 'study']):
+            return "education"
+        elif any(word in topic_lower for word in ['business', 'work', 'career', 'job', 'professional']):
+            return "business_and_work"
+        else:
+            return "general"
     
     def generate_multiple_tasks(self, topics: List[str], count_per_topic: int = 2) -> List[Dict[str, Any]]:
         """Generate multiple Reading Part 5 tasks"""
@@ -329,31 +379,26 @@ class OllamaClient:
     def improve_existing_task(self, task_data: Dict[str, Any]) -> Dict[str, Any]:
         """Improve an existing task by making questions more specific"""
         
-        system_prompt = """You are an expert Cambridge B2 First exam content creator.
-        Improve the given Reading Part 5 task by making the questions more specific and contextual.
-        
-        Focus on:
-        1. Making questions refer to specific parts of the text
-        2. Creating realistic, plausible distractors
-        3. Ensuring questions test different skills
-        4. Making sure only one answer is clearly correct
-        
-        You can use natural formatting in your improvements including quotes, line breaks, etc.
-        The JSON parser will handle the formatting correctly.
-        
-        Return the improved task in the same JSON format."""
-        
-        user_prompt = f"""Please improve this Reading Part 5 task:
-
-        Current task: {json.dumps(task_data, indent=2)}
-        
-        Make the questions more specific to the text content and ensure the distractors are realistic but clearly incorrect."""
-        
         try:
-            response = self.generate_text(user_prompt, system_prompt)
+            # For improvement, we'll use the step-by-step approach too
+            # Generate improved questions one by one
+            improved_questions = []
+            for i, original_question in enumerate(task_data.get('questions', []), 1):
+                try:
+                    improved_question = self._improve_single_question(
+                        task_data['text'], 
+                        original_question, 
+                        i, 
+                        original_question.get('question_type', 'detail')
+                    )
+                    improved_questions.append(improved_question)
+                except Exception as e:
+                    logger.warning(f"Failed to improve question {i}, keeping original: {e}")
+                    improved_questions.append(original_question)
             
-            # Use the robust JSON parser
-            improved_task = RobustJSONParser.parse_llm_json(response)
+            # Create improved task
+            improved_task = task_data.copy()
+            improved_task['questions'] = improved_questions
             
             logger.info(f"Successfully improved task: {improved_task.get('title', 'Unknown')}")
             return self.normalize_question_numbers(improved_task)
@@ -361,6 +406,53 @@ class OllamaClient:
         except Exception as e:
             logger.error(f"Failed to improve task: {e}")
             raise
+    
+    def _improve_single_question(self, text_content: str, original_question: Dict[str, Any], question_number: int, question_type: str) -> Dict[str, Any]:
+        """Improve a single question"""
+        
+        system_prompt = f"""You are an expert Cambridge B2 First exam question writer. 
+
+Improve the given multiple choice question to make it more specific and contextual to the text.
+
+Requirements:
+- Make the question more specific to the provided text
+- Create exactly 4 options: A, B, C, D
+- Only ONE option should be clearly correct
+- Other options should be plausible but incorrect
+- Use B2 level English
+- Make the question clear and unambiguous
+
+Format your response EXACTLY like this:
+QUESTION: [Your improved question here]
+A: [Option A]
+B: [Option B] 
+C: [Option C]
+D: [Option D]
+CORRECT: [A, B, C, or D]
+
+Respond with ONLY this format, no explanations."""
+        
+        user_prompt = f"""Based on this text, improve this {question_type} question:
+
+TEXT:
+{text_content}
+
+ORIGINAL QUESTION:
+{original_question.get('question_text', '')}
+A: {original_question.get('options', {}).get('A', '')}
+B: {original_question.get('options', {}).get('B', '')}
+C: {original_question.get('options', {}).get('C', '')}
+D: {original_question.get('options', {}).get('D', '')}
+Correct: {original_question.get('correct_answer', '')}
+
+Improve this question to be more specific to the text content."""
+        
+        response = self.generate_text(user_prompt, system_prompt).strip()
+        
+        # Parse the response
+        question_data = self._parse_question_response(response, question_number, question_type)
+        
+        return question_data
 
 # Example usage and testing
 if __name__ == "__main__":

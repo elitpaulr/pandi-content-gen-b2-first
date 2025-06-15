@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_13",
+  "title": "Meet the Rebels of La Movida: Unveiling Gen Z's True Spirit",
+  "topic": "technology",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "Gen Z in Spain: The Digital Natives Taking Over\n\nAs the world's most populous generation, Generation Z (born between 1997 and 2012) is making its mark on society. In Spain, this digitally native group is growing up with a unique set of values, habits, and expectations that are shaping the country's culture and economy.\n\nOne of the defining characteristics of Gen Z in Spain is their love for technology. Growing up during an era of rapid technological advancements, they have seamlessly integrated smartphones, social media, and the internet into their daily lives. \"Gen Z is the first generation to grow up with the internet,\" explains Dr. Ana Moreno, a sociologist at the University of Barcelona. \"They're digital natives, and this has had a profound impact on their way of communicating, learning, and interacting with others.\"\n\nBut Gen Z's relationship with technology goes beyond just being proficient users – it's also deeply ingrained in their identity. For them, social media is not just a platform for sharing updates about their lives; it's an essential tool for self-expression and community-building. Instagram, TikTok, and Snapchat are the staples of their online world, where they curate their personalities, showcase their talents, and connect with others who share similar interests.\n\nDespite their tech-savviness, Gen Z in Spain is also known for its strong social conscience. They're growing up in a country still reeling from economic crisis, and as a result, they're highly attuned to issues like inequality, climate change, and social justice. According to a recent survey by the Spanish National Youth Council (CNJ), 72% of Gen Z respondents stated that fighting against climate change was one of their top priorities.\n\nTheir love for activism is also reflected in their favorite hobbies – from participating in street protests to organizing charity events and fundraising campaigns on social media. \"Gen Z is incredibly passionate about making a difference,\" says Maria José Fernández, a 20-year-old student at the Complutense University in Madrid. \"We're not just concerned with our own problems; we care deeply about what's happening around us.\"\n\nWhen it comes to leisure activities, Gen Z in Spain has a fondness for experiencing new things – from trying out different foods and drinks to exploring alternative cultural events. And when it comes to their favorite beverages, coffee is a clear winner. According to a recent report by the Spanish Coffee Association (ASECAFÉ), 62% of Gen Z respondents prefer to drink coffee at street cafes or specialty shops rather than at home.\n\nIn fact, the rise of third-wave coffee culture in Spain has created a thriving industry that caters specifically to Gen Z's tastes and preferences. From artisanal coffee roasters to hipster cafes serving exotic brews, the market is booming with innovative establishments that offer everything from pour-overs to cold brews.\n\nAs we look to the future, it's clear that Gen Z in Spain will continue to shape the country's cultural landscape. With their unique blend of tech-savviness, social awareness, and love for activism, they're poised to drive positive change and bring about innovative solutions to pressing problems.\n\nBut what does this mean for businesses and policymakers? According to Dr. Moreno, \"It's essential that we understand Gen Z's values and expectations in order to create products, services, and policies that cater to their needs.\"\n\nAs the world watches Spain's Gen Z take center stage, one thing is certain – they're a force to be reckoned with. With their digital prowess, social conscience, and love for experience-driven activities, this generation is rewriting the rules of what it means to be young in Spain today.\n\nIn conclusion, Gen Z in Spain is not just a demographic; it's a cultural movement that's redefining the country's identity. As they continue to grow and evolve, it will be fascinating to see how their unique perspective shapes the future of Spanish society – from politics to entertainment, and beyond.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to the third-wave coffee culture industry in Spain if Gen Z's love for experience-driven activities continues?",
+      "options": {
+        "A": "It will decline significantly as Gen Z chooses more affordable beverage options",
+        "B": "It will remain relatively unchanged, unaffected by Gen Z's preferences",
+        "C": "It will continue to grow and expand, catering to Gen Z's tastes and expectations",
+        "D": "It will shift its focus from coffee to other beverages, such as craft beer"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Dr Moreno mean by \"digital natives\" when referring to Gen Z in Spain?",
+      "options": {
+        "A": "People who have grown up with a strong connection to traditional culture",
+        "B": "Individuals who are highly skilled at using technology from an early age",
+        "C": "A generation that is particularly interested in reading physical books",
+        "D": "A group of people who prefer to communicate face-to-face rather than online"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What can be inferred about Gen Z's attitude towards climate change based on the text?",
+      "options": {
+        "A": "They are largely indifferent to the issue.",
+        "B": "They view it as a pressing problem that requires immediate action.",
+        "C": "They only care about it when it affects their own personal interests.",
+        "D": "They do not consider it a priority."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to Dr. Ana Moreno, what is a defining characteristic of Gen Z in Spain?",
+      "options": {
+        "A": "They are the first generation to grow up with no access to the internet.",
+        "B": "They're digital natives, and this has had a profound impact on their way of communicating, learning, and interacting with others.",
+        "C": "They prefer to drink coffee at home rather than at street cafes or specialty shops.",
+        "D": "They are not concerned with social justice or climate change."
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about Gen Z in Spain?",
+      "options": {
+        "A": "The text describes the challenges that Gen Z in Spain face due to economic crisis.",
+        "B": "The text explains how Gen Z in Spain is a culturally homogenous group with little interest in technology.",
+        "C": "The text highlights the impact of Gen Z in Spain on the country's culture, economy, and society.",
+        "D": "The text compares the values and habits of Gen Z in Spain with those of previous generations."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

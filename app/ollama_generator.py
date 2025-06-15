@@ -156,8 +156,22 @@ def main():
     temperature = st.sidebar.slider("Temperature", 0.1, 1.0, 0.7, 0.1)
     max_tokens = st.sidebar.slider("Max Tokens", 1000, 4000, 2000, 100)
     
+    # Auto-save option
+    st.sidebar.subheader("💾 Save Settings")
+    auto_save = st.sidebar.checkbox(
+        "Auto-save generated tasks",
+        value=st.session_state.get('auto_save_enabled', False),
+        help="Automatically save tasks to the generated_tasks folder after generation"
+    )
+    st.session_state['auto_save_enabled'] = auto_save
+    
+    if auto_save:
+        st.sidebar.success("✅ Auto-save enabled")
+    else:
+        st.sidebar.info("💡 Manual save required")
+    
     # Main interface tabs
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["🎯 Generate Tasks", "🔧 Improve Tasks", "📊 Batch Generation", "📋 Task Library", "⚙️ Admin Panel", "🧪 Test Save"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["🎯 Generate Tasks", "🔧 Improve Tasks", "📊 Batch Generation", "📋 Task Library", "⚙️ Admin Panel"])
     
     with tab1:
         st.header("Generate Single Task")
@@ -217,6 +231,58 @@ def main():
                 if st.button(f"📝 {topic_suggestion}", key=f"suggest_{topic_suggestion}"):
                     st.session_state.topic_input = topic_suggestion
         
+
+
+        # Persistent Save Section - appears when there's a generated task
+        if 'generated_task' in st.session_state and st.session_state.generated_task:
+            st.markdown("---")
+            st.subheader("💾 Save Generated Task")
+            
+            task_to_save = st.session_state.generated_task
+            generator_to_use = st.session_state.get('task_generator')
+            
+            col1, col2, col3 = st.columns([1, 1, 2])
+            
+            with col1:
+                if st.button("💾 Save Task", type="primary", key="persistent_save_btn"):
+                    if generator_to_use:
+                        try:
+                            with st.spinner("Saving task..."):
+                                filepath = generator_to_use.save_task(task_to_save)
+                                
+                                if filepath.exists():
+                                    file_size = filepath.stat().st_size
+                                    st.success(f"✅ Task saved: `{filepath.name}` ({file_size} bytes)")
+                                    
+                                    # Clear session state after successful save
+                                    del st.session_state.generated_task
+                                    del st.session_state.task_generator
+                                    st.rerun()
+                                else:
+                                    st.error("❌ Save failed - file not created")
+                        except Exception as e:
+                            st.error(f"❌ Save error: {str(e)}")
+                    else:
+                        st.error("❌ No generator available - please regenerate the task")
+            
+            with col2:
+                st.download_button(
+                    label="📥 Download JSON",
+                    data=json.dumps(task_to_save, indent=2),
+                    file_name=f"{task_to_save['task_id']}.json",
+                    mime="application/json",
+                    key="persistent_download_btn"
+                )
+            
+            with col3:
+                st.info(f"📋 **{task_to_save.get('title', 'Unknown Task')}**")
+                if st.button("🗑️ Clear Task", key="clear_task_btn"):
+                    del st.session_state.generated_task
+                    del st.session_state.task_generator
+                    st.rerun()
+            
+            st.markdown("---")
+
         if st.button("🚀 Generate Task", type="primary", disabled=not topic):
             if topic:
                 # Create progress containers
@@ -323,8 +389,22 @@ def main():
                     attempt_status.success(f"**Generation Summary:** Completed in {generation_time:.1f} seconds")
                     parsing_status.success(f"**JSON Parsing:** Successful (Text type: {selected_text_type})")
                     
+                    # Store task in session state for saving
+                    st.session_state.generated_task = task_data
+                    st.session_state.task_generator = generator
+                    
                     # Display results
                     st.success("✅ Task generated successfully!")
+                    
+                    # Auto-save option
+                    if st.session_state.get('auto_save_enabled', False):
+                        try:
+                            with st.spinner("Auto-saving task..."):
+                                filepath = generator.save_task(task_data)
+                                st.success(f"✅ Task auto-saved to: {filepath.name}")
+                        except Exception as e:
+                            st.warning(f"⚠️ Auto-save failed: {str(e)}")
+                            st.info("💡 You can still save manually using the Save Task button below")
                     
                     # Task overview with enhanced metrics
                     col1, col2, col3, col4, col5 = st.columns(5)
@@ -365,35 +445,20 @@ def main():
                                 if 'explanation' in question:
                                     st.info(f"💡 {question['explanation']}")
                     
-                    # Save option with enhanced feedback
-                    if st.button("💾 Save Task"):
-                        try:
-                            with st.spinner("Saving task..."):
-                                filepath = generator.save_task(task_data)
-                                st.success(f"✅ Task saved successfully to: {filepath}")
-                                st.info(f"📁 File location: `{filepath}`")
-                        except Exception as e:
-                            st.error(f"❌ Failed to save task: {str(e)}")
-                            with st.expander("🔧 Save Troubleshooting"):
-                                st.markdown(f"""
-                                **Error Details:** {str(e)}
-                                
-                                **Common save issues:**
-                                - Directory permissions (check if you can write to the generated_tasks folder)
-                                - Disk space (ensure you have enough storage)
-                                - File already exists and is locked
-                                - Invalid characters in filename
-                                
-                                **Workaround:** Use the Download JSON button below as an alternative.
-                                """)
+                    # Store task in session state for persistent save functionality
+                    st.session_state.generated_task = task_data
+                    st.session_state.task_generator = generator
                     
-                    # Download JSON
+                    # Show download option immediately
                     st.download_button(
                         label="📥 Download JSON",
                         data=json.dumps(task_data, indent=2),
                         file_name=f"{task_data['task_id']}.json",
-                        mime="application/json"
+                        mime="application/json",
+                        key="immediate_download_btn"
                     )
+                    
+                    st.markdown("---")
                     
                 except Exception as e:
                     # Enhanced error reporting
@@ -937,6 +1002,367 @@ def main():
         else:
             st.info("Generated tasks directory not found.")
 
+    with tab5:
+        st.header("⚙️ Admin Panel")
+        st.markdown("**Configure AI prompts and system parameters**")
+        
+        # Admin panel content (no authentication for simplicity)
+        st.success("🔓 Admin access granted")
+        
+        # Create tabs for different admin sections
+        admin_tab1, admin_tab2, admin_tab3, admin_tab4 = st.tabs([
+            "🤖 AI Prompts", 
+            "📝 Text Type Instructions", 
+            "⚙️ Model Parameters", 
+            "📚 Knowledge Base"
+        ])
+        
+        with admin_tab1:
+            st.subheader("🤖 AI System Prompts")
+            
+            # Main generation system prompt
+            st.markdown("### Main Task Generation Prompt")
+            
+            # Get current system prompt from the code
+            current_system_prompt = """You are an expert Cambridge B2 First exam content creator. 
+Generate authentic Reading Part 5 tasks that match the official exam format exactly.
+
+CRITICAL: You must respond with ONLY valid JSON. No explanations, no markdown, no extra text.
+
+Reading Part 5 Requirements:
+- Text length: 550-750 words (engaging, authentic content)
+- 6 multiple choice questions (31-36)
+- Each question has 4 options (A, B, C, D)
+- Question types: inference, vocabulary in context, attitude/opinion, detail, reference, main idea
+- Text should be engaging and at B2 level
+- Questions must be specific and contextual, not generic
+
+TEXT TYPE INSTRUCTION: {text_style_instruction}
+
+You can use natural formatting in your text including:
+- Paragraphs with line breaks
+- Quotation marks for dialogue or emphasis
+- Natural punctuation and formatting
+
+The JSON parser will handle the formatting correctly.
+
+RESPOND WITH ONLY THIS JSON FORMAT:
+{
+    "task_id": "reading_part5_task_01",
+    "title": "Engaging Task Title",
+    "topic": "topic_category",
+    "text_type": "{text_type}",
+    "difficulty": "B2",
+    "text": "Your engaging text here following the {text_type} style...",
+    "questions": [
+        {
+            "question_number": 1,
+            "question_text": "What does the author suggest about...?",
+            "options": {
+                "A": "First realistic option",
+                "B": "Second realistic option", 
+                "C": "Third realistic option",
+                "D": "Fourth realistic option"
+            },
+            "correct_answer": "A",
+            "question_type": "inference"
+        }
+    ]
+}"""
+            
+            # Load saved prompt if exists
+            prompt_file = Path(__file__).parent.parent / "config" / "system_prompts.json"
+            prompt_file.parent.mkdir(exist_ok=True)
+            
+            if prompt_file.exists():
+                try:
+                    with open(prompt_file, 'r') as f:
+                        saved_prompts = json.load(f)
+                    current_system_prompt = saved_prompts.get('main_generation_prompt', current_system_prompt)
+                except:
+                    pass
+            
+            edited_system_prompt = st.text_area(
+                "System Prompt for Task Generation:",
+                value=current_system_prompt,
+                height=400,
+                help="This prompt controls how the AI generates reading tasks"
+            )
+            
+            # Task improvement prompt
+            st.markdown("### Task Improvement Prompt")
+            
+            current_improvement_prompt = """You are an expert Cambridge B2 First exam content creator.
+Improve the given Reading Part 5 task by making the questions more specific and contextual.
+
+Focus on:
+1. Making questions refer to specific parts of the text
+2. Creating realistic, plausible distractors
+3. Ensuring questions test different skills
+4. Making sure only one answer is clearly correct
+
+You can use natural formatting in your improvements including quotes, line breaks, etc.
+The JSON parser will handle the formatting correctly.
+
+Return the improved task in the same JSON format."""
+            
+            # Load saved improvement prompt if exists
+            if prompt_file.exists():
+                try:
+                    with open(prompt_file, 'r') as f:
+                        saved_prompts = json.load(f)
+                    current_improvement_prompt = saved_prompts.get('improvement_prompt', current_improvement_prompt)
+                except:
+                    pass
+            
+            edited_improvement_prompt = st.text_area(
+                "System Prompt for Task Improvement:",
+                value=current_improvement_prompt,
+                height=200,
+                help="This prompt controls how the AI improves existing tasks"
+            )
+            
+            # Save prompts button
+            if st.button("💾 Save AI Prompts", type="primary"):
+                prompts_to_save = {
+                    'main_generation_prompt': edited_system_prompt,
+                    'improvement_prompt': edited_improvement_prompt,
+                    'last_updated': str(datetime.now())
+                }
+                
+                try:
+                    with open(prompt_file, 'w') as f:
+                        json.dump(prompts_to_save, f, indent=2)
+                    st.success("✅ AI prompts saved successfully!")
+                    st.info("🔄 Restart the application to apply changes")
+                except Exception as e:
+                    st.error(f"❌ Failed to save prompts: {e}")
+        
+        with admin_tab2:
+            st.subheader("📝 Text Type Instructions")
+            
+            # Load current text type instructions
+            text_type_instructions = {
+                "magazine_article": "Write as an engaging magazine article with a clear structure, subheadings if appropriate, and an informative yet accessible tone. Include expert quotes or statistics where relevant.",
+                "newspaper_article": "Write as a newspaper feature article with journalistic style, factual reporting, and balanced perspective. Include relevant context and background information.",
+                "novel_extract": "Write as an excerpt from a contemporary novel with character development, dialogue, and narrative description. Focus on showing rather than telling.",
+                "blog_post": "Write as a personal blog post with first-person perspective, conversational tone, and personal reflections or experiences.",
+                "science_article": "Write as a popular science article that explains complex concepts in accessible language, with examples and analogies to help understanding.",
+                "cultural_review": "Write as a cultural review or commentary with analytical perspective, critical evaluation, and informed opinion.",
+                "professional_feature": "Write as a professional feature article about workplace trends, career advice, or industry insights with practical information.",
+                "lifestyle_feature": "Write as a lifestyle feature about personal interests, home, family, or hobbies with practical tips and relatable content.",
+                "travel_writing": "Write as travel writing with vivid descriptions of places, cultural observations, and personal travel experiences.",
+                "educational_feature": "Write as an educational feature about learning, study techniques, or educational trends with informative and helpful content."
+            }
+            
+            # Load saved instructions if exists
+            instructions_file = Path(__file__).parent.parent / "config" / "text_type_instructions.json"
+            if instructions_file.exists():
+                try:
+                    with open(instructions_file, 'r') as f:
+                        saved_instructions = json.load(f)
+                    text_type_instructions.update(saved_instructions)
+                except:
+                    pass
+            
+            st.markdown("Edit the style instructions for each text type:")
+            
+            edited_instructions = {}
+            for text_type, instruction in text_type_instructions.items():
+                display_name = text_type.replace('_', ' ').title()
+                edited_instructions[text_type] = st.text_area(
+                    f"**{display_name}**",
+                    value=instruction,
+                    height=100,
+                    key=f"instruction_{text_type}"
+                )
+            
+            if st.button("💾 Save Text Type Instructions", type="primary"):
+                try:
+                    instructions_file.parent.mkdir(exist_ok=True)
+                    with open(instructions_file, 'w') as f:
+                        json.dump(edited_instructions, f, indent=2)
+                    st.success("✅ Text type instructions saved successfully!")
+                    st.info("🔄 Restart the application to apply changes")
+                except Exception as e:
+                    st.error(f"❌ Failed to save instructions: {e}")
+        
+        with admin_tab3:
+            st.subheader("⚙️ Model Parameters")
+            
+            # Load current model config
+            config_file = Path(__file__).parent.parent / "config" / "model_config.json"
+            
+            default_config = {
+                "default_model": "llama3.1:8b",
+                "temperature": 0.7,
+                "max_tokens": 2000,
+                "timeout": 120,
+                "max_retries": 1
+            }
+            
+            current_config = default_config.copy()
+            if config_file.exists():
+                try:
+                    with open(config_file, 'r') as f:
+                        saved_config = json.load(f)
+                    current_config.update(saved_config)
+                except:
+                    pass
+            
+            st.markdown("### Default Model Settings")
+            
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                new_model = st.text_input(
+                    "Default Model:",
+                    value=current_config['default_model'],
+                    help="Default Ollama model to use"
+                )
+                
+                new_temperature = st.slider(
+                    "Temperature:",
+                    min_value=0.0,
+                    max_value=2.0,
+                    value=float(current_config['temperature']),
+                    step=0.1,
+                    help="Controls randomness in generation (0.0 = deterministic, 2.0 = very random)"
+                )
+                
+                new_max_tokens = st.number_input(
+                    "Max Tokens:",
+                    min_value=500,
+                    max_value=8000,
+                    value=int(current_config['max_tokens']),
+                    step=100,
+                    help="Maximum number of tokens to generate"
+                )
+            
+            with col2:
+                new_timeout = st.number_input(
+                    "Timeout (seconds):",
+                    min_value=30,
+                    max_value=300,
+                    value=int(current_config['timeout']),
+                    step=10,
+                    help="Request timeout in seconds"
+                )
+                
+                new_max_retries = st.number_input(
+                    "Max Retries:",
+                    min_value=1,
+                    max_value=10,
+                    value=int(current_config['max_retries']),
+                    step=1,
+                    help="Maximum number of retry attempts"
+                )
+            
+            if st.button("💾 Save Model Configuration", type="primary"):
+                new_config = {
+                    "default_model": new_model,
+                    "temperature": new_temperature,
+                    "max_tokens": new_max_tokens,
+                    "timeout": new_timeout,
+                    "max_retries": new_max_retries,
+                    "last_updated": str(datetime.now())
+                }
+                
+                try:
+                    config_file.parent.mkdir(exist_ok=True)
+                    with open(config_file, 'w') as f:
+                        json.dump(new_config, f, indent=2)
+                    st.success("✅ Model configuration saved successfully!")
+                    st.info("🔄 Restart the application to apply changes")
+                except Exception as e:
+                    st.error(f"❌ Failed to save configuration: {e}")
+        
+        with admin_tab4:
+            st.subheader("📚 Knowledge Base Management")
+            
+            # Display current knowledge base files
+            knowledge_base_dir = Path(__file__).parent.parent / "knowledge_base"
+            
+            if knowledge_base_dir.exists():
+                kb_files = list(knowledge_base_dir.glob("*.json"))
+                
+                st.markdown("### Current Knowledge Base Files")
+                for kb_file in kb_files:
+                    with st.expander(f"📄 {kb_file.name}"):
+                        try:
+                            with open(kb_file, 'r') as f:
+                                kb_content = json.load(f)
+                            
+                            st.json(kb_content, expanded=False)
+                            
+                        except Exception as e:
+                            st.error(f"Error loading {kb_file.name}: {e}")
+            
+            # Topic sets management
+            st.markdown("### Topic Sets Management")
+            
+            # Load current topic sets
+            topic_sets_file = Path(__file__).parent.parent / "config" / "topic_sets.json"
+            
+            default_topic_sets = {
+                "Travel & Adventure": [
+                    "sustainable travel and eco-tourism",
+                    "adventure sports and personal challenges",
+                    "cultural exchange through travel",
+                    "digital nomad lifestyle"
+                ],
+                "Technology & Modern Life": [
+                    "artificial intelligence in everyday life",
+                    "social media influence on relationships",
+                    "remote work and productivity",
+                    "digital wellness and screen time"
+                ],
+                "Environment & Sustainability": [
+                    "urban gardening and community spaces",
+                    "renewable energy solutions for homes",
+                    "climate change adaptation strategies",
+                    "sustainable fashion and consumption"
+                ],
+                "Personal Development": [
+                    "mindfulness and mental health awareness",
+                    "lifelong learning and skill development",
+                    "creative hobbies and self-expression",
+                    "work-life balance strategies"
+                ]
+            }
+            
+            current_topic_sets = default_topic_sets.copy()
+            if topic_sets_file.exists():
+                try:
+                    with open(topic_sets_file, 'r') as f:
+                        saved_topic_sets = json.load(f)
+                    current_topic_sets.update(saved_topic_sets)
+                except:
+                    pass
+            
+            # Edit topic sets
+            edited_topic_sets = {}
+            for category, topics in current_topic_sets.items():
+                st.markdown(f"**{category}**")
+                topics_text = '\n'.join(topics)
+                edited_topics_text = st.text_area(
+                    f"Topics for {category} (one per line):",
+                    value=topics_text,
+                    height=100,
+                    key=f"topics_{category}"
+                )
+                edited_topic_sets[category] = [topic.strip() for topic in edited_topics_text.split('\n') if topic.strip()]
+            
+            if st.button("💾 Save Topic Sets", type="primary"):
+                try:
+                    topic_sets_file.parent.mkdir(exist_ok=True)
+                    with open(topic_sets_file, 'w') as f:
+                        json.dump(edited_topic_sets, f, indent=2)
+                    st.success("✅ Topic sets saved successfully!")
+                    st.info("🔄 Restart the application to apply changes")
+                except Exception as e:
+                    st.error(f"❌ Failed to save topic sets: {e}")
+
 def display_task_learner_view(task):
     """Display a task in a nicely formatted learner view"""
     # Task header
@@ -1240,752 +1666,6 @@ def display_task_json_view(task):
             mime="application/json",
             key=f"download_json_{task.get('task_id', 'unknown')}"
         )
-
-    with tab5:
-        st.header("⚙️ Admin Panel")
-        st.markdown("**Configure AI prompts and system parameters**")
-        
-        # Password protection for admin panel
-        if 'admin_authenticated' not in st.session_state:
-            st.session_state.admin_authenticated = False
-        
-        if not st.session_state.admin_authenticated:
-            st.warning("🔒 Admin access required")
-            admin_password = st.text_input("Enter admin password:", type="password")
-            if st.button("Authenticate"):
-                # Simple password check (in production, use proper authentication)
-                if admin_password == "admin123":  # Change this to a secure password
-                    st.session_state.admin_authenticated = True
-                    st.success("✅ Authenticated successfully!")
-                    st.rerun()
-                else:
-                    st.error("❌ Invalid password")
-            st.info("💡 Default password: admin123")
-            return
-        
-        # Admin panel content
-        st.success("🔓 Admin access granted")
-        
-        # Logout button
-        if st.button("🚪 Logout"):
-            st.session_state.admin_authenticated = False
-            st.rerun()
-        
-        # Create tabs for different admin sections
-        admin_tab1, admin_tab2, admin_tab3, admin_tab4 = st.tabs([
-            "🤖 AI Prompts", 
-            "📝 Text Type Instructions", 
-            "⚙️ Model Parameters", 
-            "📚 Knowledge Base"
-        ])
-        
-        with admin_tab1:
-            st.subheader("🤖 AI System Prompts")
-            
-            # Main generation system prompt
-            st.markdown("### Main Task Generation Prompt")
-            
-            # Get current system prompt from the code
-            current_system_prompt = """You are an expert Cambridge B2 First exam content creator. 
-Generate authentic Reading Part 5 tasks that match the official exam format exactly.
-
-CRITICAL: You must respond with ONLY valid JSON. No explanations, no markdown, no extra text.
-
-Reading Part 5 Requirements:
-- Text length: 550-750 words (engaging, authentic content)
-- 6 multiple choice questions (31-36)
-- Each question has 4 options (A, B, C, D)
-- Question types: inference, vocabulary in context, attitude/opinion, detail, reference, main idea
-- Text should be engaging and at B2 level
-- Questions must be specific and contextual, not generic
-
-TEXT TYPE INSTRUCTION: {text_style_instruction}
-
-You can use natural formatting in your text including:
-- Paragraphs with line breaks
-- Quotation marks for dialogue or emphasis
-- Natural punctuation and formatting
-
-The JSON parser will handle the formatting correctly.
-
-RESPOND WITH ONLY THIS JSON FORMAT:
-{
-    "task_id": "reading_part5_task_01",
-    "title": "Engaging Task Title",
-    "topic": "topic_category",
-    "text_type": "{text_type}",
-    "difficulty": "B2",
-    "text": "Your engaging text here following the {text_type} style...",
-    "questions": [
-        {
-            "question_number": 1,
-            "question_text": "What does the author suggest about...?",
-            "options": {
-                "A": "First realistic option",
-                "B": "Second realistic option", 
-                "C": "Third realistic option",
-                "D": "Fourth realistic option"
-            },
-            "correct_answer": "A",
-            "question_type": "inference"
-        }
-    ]
-}"""
-            
-            # Load saved prompt if exists
-            prompt_file = Path(__file__).parent.parent / "config" / "system_prompts.json"
-            prompt_file.parent.mkdir(exist_ok=True)
-            
-            if prompt_file.exists():
-                try:
-                    with open(prompt_file, 'r') as f:
-                        saved_prompts = json.load(f)
-                    current_system_prompt = saved_prompts.get('main_generation_prompt', current_system_prompt)
-                except:
-                    pass
-            
-            edited_system_prompt = st.text_area(
-                "System Prompt for Task Generation:",
-                value=current_system_prompt,
-                height=400,
-                help="This prompt controls how the AI generates reading tasks"
-            )
-            
-            # Task improvement prompt
-            st.markdown("### Task Improvement Prompt")
-            
-            current_improvement_prompt = """You are an expert Cambridge B2 First exam content creator.
-Improve the given Reading Part 5 task by making the questions more specific and contextual.
-
-Focus on:
-1. Making questions refer to specific parts of the text
-2. Creating realistic, plausible distractors
-3. Ensuring questions test different skills
-4. Making sure only one answer is clearly correct
-
-You can use natural formatting in your improvements including quotes, line breaks, etc.
-The JSON parser will handle the formatting correctly.
-
-Return the improved task in the same JSON format."""
-            
-            # Load saved improvement prompt if exists
-            if prompt_file.exists():
-                try:
-                    with open(prompt_file, 'r') as f:
-                        saved_prompts = json.load(f)
-                    current_improvement_prompt = saved_prompts.get('improvement_prompt', current_improvement_prompt)
-                except:
-                    pass
-            
-            edited_improvement_prompt = st.text_area(
-                "System Prompt for Task Improvement:",
-                value=current_improvement_prompt,
-                height=200,
-                help="This prompt controls how the AI improves existing tasks"
-            )
-            
-            # User prompt template
-            st.markdown("### User Prompt Template")
-            
-            current_user_prompt = """Create a Reading Part 5 task about: {topic}
-
-Text Type: {text_type}
-Style Instructions: {text_style_instruction}
-
-Make sure:
-1. The text is 550-750 words and follows the {text_type} style
-2. Use natural formatting including paragraphs, quotes, and proper punctuation
-3. The topic is engaging and suitable for B2 level students
-4. Create 6 questions (numbered 1-6) that are specific to the text content
-5. Questions test different skills: inference, vocabulary, attitude, details, reference, main idea
-6. Each question has exactly 4 realistic options
-7. Only one option is clearly correct for each question
-8. Make the content authentic and interesting
-
-Topic: {topic}
-Text Type: {text_type}
-Difficulty: {difficulty}"""
-            
-            # Load saved user prompt if exists
-            if prompt_file.exists():
-                try:
-                    with open(prompt_file, 'r') as f:
-                        saved_prompts = json.load(f)
-                    current_user_prompt = saved_prompts.get('user_prompt_template', current_user_prompt)
-                except:
-                    pass
-            
-            edited_user_prompt = st.text_area(
-                "User Prompt Template:",
-                value=current_user_prompt,
-                height=300,
-                help="Template for the user prompt sent to the AI. Use {topic}, {text_type}, etc. as placeholders"
-            )
-            
-            # Save prompts button
-            if st.button("💾 Save AI Prompts", type="primary"):
-                prompts_to_save = {
-                    'main_generation_prompt': edited_system_prompt,
-                    'improvement_prompt': edited_improvement_prompt,
-                    'user_prompt_template': edited_user_prompt,
-                    'last_updated': str(datetime.now())
-                }
-                
-                try:
-                    with open(prompt_file, 'w') as f:
-                        json.dump(prompts_to_save, f, indent=2)
-                    st.success("✅ AI prompts saved successfully!")
-                    st.info("🔄 Restart the application to apply changes")
-                except Exception as e:
-                    st.error(f"❌ Failed to save prompts: {e}")
-        
-        with admin_tab2:
-            st.subheader("📝 Text Type Instructions")
-            
-            # Load current text type instructions
-            text_type_instructions = {
-                "magazine_article": "Write as an engaging magazine article with a clear structure, subheadings if appropriate, and an informative yet accessible tone. Include expert quotes or statistics where relevant.",
-                "newspaper_article": "Write as a newspaper feature article with journalistic style, factual reporting, and balanced perspective. Include relevant context and background information.",
-                "novel_extract": "Write as an excerpt from a contemporary novel with character development, dialogue, and narrative description. Focus on showing rather than telling.",
-                "blog_post": "Write as a personal blog post with first-person perspective, conversational tone, and personal reflections or experiences.",
-                "science_article": "Write as a popular science article that explains complex concepts in accessible language, with examples and analogies to help understanding.",
-                "cultural_review": "Write as a cultural review or commentary with analytical perspective, critical evaluation, and informed opinion.",
-                "professional_feature": "Write as a professional feature article about workplace trends, career advice, or industry insights with practical information.",
-                "lifestyle_feature": "Write as a lifestyle feature about personal interests, home, family, or hobbies with practical tips and relatable content.",
-                "travel_writing": "Write as travel writing with vivid descriptions of places, cultural observations, and personal travel experiences.",
-                "educational_feature": "Write as an educational feature about learning, study techniques, or educational trends with informative and helpful content."
-            }
-            
-            # Load saved instructions if exists
-            instructions_file = Path(__file__).parent.parent / "config" / "text_type_instructions.json"
-            if instructions_file.exists():
-                try:
-                    with open(instructions_file, 'r') as f:
-                        saved_instructions = json.load(f)
-                    text_type_instructions.update(saved_instructions)
-                except:
-                    pass
-            
-            st.markdown("Edit the style instructions for each text type:")
-            
-            edited_instructions = {}
-            for text_type, instruction in text_type_instructions.items():
-                display_name = text_type.replace('_', ' ').title()
-                edited_instructions[text_type] = st.text_area(
-                    f"**{display_name}**",
-                    value=instruction,
-                    height=100,
-                    key=f"instruction_{text_type}"
-                )
-            
-            if st.button("💾 Save Text Type Instructions", type="primary"):
-                try:
-                    instructions_file.parent.mkdir(exist_ok=True)
-                    with open(instructions_file, 'w') as f:
-                        json.dump(edited_instructions, f, indent=2)
-                    st.success("✅ Text type instructions saved successfully!")
-                    st.info("🔄 Restart the application to apply changes")
-                except Exception as e:
-                    st.error(f"❌ Failed to save instructions: {e}")
-        
-        with admin_tab3:
-            st.subheader("⚙️ Model Parameters")
-            
-            # Load current model config
-            config_file = Path(__file__).parent.parent / "config" / "model_config.json"
-            
-            default_config = {
-                "default_model": "llama3.1:8b",
-                "temperature": 0.7,
-                "max_tokens": 2000,
-                "timeout": 120,
-                "max_retries": 3
-            }
-            
-            current_config = default_config.copy()
-            if config_file.exists():
-                try:
-                    with open(config_file, 'r') as f:
-                        saved_config = json.load(f)
-                    current_config.update(saved_config)
-                except:
-                    pass
-            
-            st.markdown("### Default Model Settings")
-            
-            col1, col2 = st.columns(2)
-            
-            with col1:
-                new_model = st.text_input(
-                    "Default Model:",
-                    value=current_config['default_model'],
-                    help="Default Ollama model to use"
-                )
-                
-                new_temperature = st.slider(
-                    "Temperature:",
-                    min_value=0.0,
-                    max_value=2.0,
-                    value=float(current_config['temperature']),
-                    step=0.1,
-                    help="Controls randomness in generation (0.0 = deterministic, 2.0 = very random)"
-                )
-                
-                new_max_tokens = st.number_input(
-                    "Max Tokens:",
-                    min_value=500,
-                    max_value=8000,
-                    value=int(current_config['max_tokens']),
-                    step=100,
-                    help="Maximum number of tokens to generate"
-                )
-            
-            with col2:
-                new_timeout = st.number_input(
-                    "Timeout (seconds):",
-                    min_value=30,
-                    max_value=300,
-                    value=int(current_config['timeout']),
-                    step=10,
-                    help="Request timeout in seconds"
-                )
-                
-                new_max_retries = st.number_input(
-                    "Max Retries:",
-                    min_value=1,
-                    max_value=10,
-                    value=int(current_config['max_retries']),
-                    step=1,
-                    help="Maximum number of retry attempts"
-                )
-            
-            # Validation settings
-            st.markdown("### Task Validation Settings")
-            
-            validation_config = current_config.get('validation', {
-                'min_word_count': 400,
-                'max_word_count': 800,
-                'min_questions': 5,
-                'max_questions': 6,
-                'required_question_types': ['inference', 'vocabulary', 'detail']
-            })
-            
-            col1, col2 = st.columns(2)
-            
-            with col1:
-                min_words = st.number_input(
-                    "Min Word Count:",
-                    min_value=200,
-                    max_value=1000,
-                    value=validation_config['min_word_count'],
-                    help="Minimum words in generated text"
-                )
-                
-                max_words = st.number_input(
-                    "Max Word Count:",
-                    min_value=500,
-                    max_value=1500,
-                    value=validation_config['max_word_count'],
-                    help="Maximum words in generated text"
-                )
-            
-            with col2:
-                min_questions = st.number_input(
-                    "Min Questions:",
-                    min_value=3,
-                    max_value=8,
-                    value=validation_config['min_questions'],
-                    help="Minimum number of questions"
-                )
-                
-                max_questions = st.number_input(
-                    "Max Questions:",
-                    min_value=5,
-                    max_value=10,
-                    value=validation_config['max_questions'],
-                    help="Maximum number of questions"
-                )
-            
-            if st.button("💾 Save Model Configuration", type="primary"):
-                new_config = {
-                    "default_model": new_model,
-                    "temperature": new_temperature,
-                    "max_tokens": new_max_tokens,
-                    "timeout": new_timeout,
-                    "max_retries": new_max_retries,
-                    "validation": {
-                        "min_word_count": min_words,
-                        "max_word_count": max_words,
-                        "min_questions": min_questions,
-                        "max_questions": max_questions,
-                        "required_question_types": validation_config['required_question_types']
-                    },
-                    "last_updated": str(datetime.now())
-                }
-                
-                try:
-                    config_file.parent.mkdir(exist_ok=True)
-                    with open(config_file, 'w') as f:
-                        json.dump(new_config, f, indent=2)
-                    st.success("✅ Model configuration saved successfully!")
-                    st.info("🔄 Restart the application to apply changes")
-                except Exception as e:
-                    st.error(f"❌ Failed to save configuration: {e}")
-        
-        with admin_tab4:
-            st.subheader("📚 Knowledge Base Management")
-            
-            # Display current knowledge base files
-            knowledge_base_dir = Path(__file__).parent.parent / "knowledge_base"
-            
-            if knowledge_base_dir.exists():
-                kb_files = list(knowledge_base_dir.glob("*.json"))
-                
-                st.markdown("### Current Knowledge Base Files")
-                for kb_file in kb_files:
-                    with st.expander(f"📄 {kb_file.name}"):
-                        try:
-                            with open(kb_file, 'r') as f:
-                                kb_content = json.load(f)
-                            
-                            st.json(kb_content, expanded=False)
-                            
-                            # Edit button for each file
-                            if st.button(f"✏️ Edit {kb_file.name}", key=f"edit_{kb_file.name}"):
-                                st.session_state[f"editing_{kb_file.name}"] = True
-                            
-                            # Edit mode
-                            if st.session_state.get(f"editing_{kb_file.name}", False):
-                                edited_content = st.text_area(
-                                    f"Edit {kb_file.name}:",
-                                    value=json.dumps(kb_content, indent=2),
-                                    height=300,
-                                    key=f"content_{kb_file.name}"
-                                )
-                                
-                                col1, col2 = st.columns(2)
-                                with col1:
-                                    if st.button(f"💾 Save {kb_file.name}", key=f"save_{kb_file.name}"):
-                                        try:
-                                            new_content = json.loads(edited_content)
-                                            with open(kb_file, 'w') as f:
-                                                json.dump(new_content, f, indent=2)
-                                            st.success(f"✅ {kb_file.name} saved successfully!")
-                                            st.session_state[f"editing_{kb_file.name}"] = False
-                                            st.rerun()
-                                        except json.JSONDecodeError as e:
-                                            st.error(f"❌ Invalid JSON: {e}")
-                                        except Exception as e:
-                                            st.error(f"❌ Failed to save: {e}")
-                                
-                                with col2:
-                                    if st.button(f"❌ Cancel", key=f"cancel_{kb_file.name}"):
-                                        st.session_state[f"editing_{kb_file.name}"] = False
-                                        st.rerun()
-                        
-                        except Exception as e:
-                            st.error(f"Error loading {kb_file.name}: {e}")
-            
-            # Topic sets management
-            st.markdown("### Topic Sets Management")
-            
-            # Load current topic sets
-            topic_sets_file = Path(__file__).parent.parent / "config" / "topic_sets.json"
-            
-            default_topic_sets = {
-                "Travel & Adventure": [
-                    "sustainable travel and eco-tourism",
-                    "adventure sports and personal challenges",
-                    "cultural exchange through travel",
-                    "digital nomad lifestyle"
-                ],
-                "Technology & Modern Life": [
-                    "artificial intelligence in everyday life",
-                    "social media influence on relationships",
-                    "remote work and productivity",
-                    "digital wellness and screen time"
-                ],
-                "Environment & Sustainability": [
-                    "urban gardening and community spaces",
-                    "renewable energy solutions for homes",
-                    "climate change adaptation strategies",
-                    "sustainable fashion and consumption"
-                ],
-                "Personal Development": [
-                    "mindfulness and mental health awareness",
-                    "lifelong learning and skill development",
-                    "creative hobbies and self-expression",
-                    "work-life balance strategies"
-                ]
-            }
-            
-            current_topic_sets = default_topic_sets.copy()
-            if topic_sets_file.exists():
-                try:
-                    with open(topic_sets_file, 'r') as f:
-                        saved_topic_sets = json.load(f)
-                    current_topic_sets.update(saved_topic_sets)
-                except:
-                    pass
-            
-            # Edit topic sets
-            edited_topic_sets = {}
-            for category, topics in current_topic_sets.items():
-                st.markdown(f"**{category}**")
-                topics_text = '\n'.join(topics)
-                edited_topics_text = st.text_area(
-                    f"Topics for {category} (one per line):",
-                    value=topics_text,
-                    height=100,
-                    key=f"topics_{category}"
-                )
-                edited_topic_sets[category] = [topic.strip() for topic in edited_topics_text.split('\n') if topic.strip()]
-            
-            if st.button("💾 Save Topic Sets", type="primary"):
-                try:
-                    topic_sets_file.parent.mkdir(exist_ok=True)
-                    with open(topic_sets_file, 'w') as f:
-                        json.dump(edited_topic_sets, f, indent=2)
-                    st.success("✅ Topic sets saved successfully!")
-                    st.info("🔄 Restart the application to apply changes")
-                except Exception as e:
-                    st.error(f"❌ Failed to save topic sets: {e}")
-
-    with tab6:
-        st.header("🧪 Test Save Functionality")
-        st.markdown("Test the task saving system without generating new tasks")
-        
-        # Create a sample task for testing
-        st.subheader("📝 Sample Task for Testing")
-        
-        sample_task = {
-            "task_id": "test_save_task_01",
-            "title": "Test Task: Sustainable Living in Urban Areas",
-            "topic": "sustainable living",
-            "topic_category": "environment_sustainability",
-            "difficulty": "B2",
-            "generated_by": "test_system",
-            "model": "test_model",
-            "generation_params": {
-                "temperature": 0.7,
-                "max_tokens": 2000,
-                "model_full_name": "test_model"
-            },
-            "text_type": "magazine_article",
-            "text": """Living sustainably in a city might seem challenging, but it's becoming increasingly achievable thanks to innovative solutions and changing attitudes. Urban dwellers are discovering that small changes in their daily routines can make a significant environmental impact.
-
-One of the most effective approaches is reducing energy consumption at home. Simple modifications like switching to LED lighting, using programmable thermostats, and choosing energy-efficient appliances can cut electricity bills by up to 30%. Many city residents are also embracing renewable energy options, with rooftop solar panels becoming more affordable and accessible.
-
-Transportation represents another area where urban sustainability shines. Cities worldwide are expanding public transport networks and creating bike-sharing programs. Electric scooters and bicycles offer convenient alternatives for short trips, while car-sharing services reduce the need for private vehicle ownership.
-
-The concept of urban farming is revolutionizing how city dwellers think about food production. Vertical gardens, rooftop farms, and community gardens are transforming unused spaces into productive areas. These initiatives not only provide fresh, local produce but also strengthen community bonds and improve air quality.
-
-Waste reduction has become a priority for environmentally conscious urbanites. Zero-waste stores are appearing in neighborhoods, offering package-free shopping experiences. Composting programs, both individual and community-based, are diverting organic waste from landfills and creating valuable soil amendments.
-
-Technology plays a crucial role in supporting sustainable urban living. Smart home systems optimize energy usage, while apps help residents find recycling centers, track their carbon footprint, and connect with local sustainability initiatives. These digital tools make eco-friendly choices more convenient and measurable.
-
-The future of sustainable urban living looks promising as cities implement green building standards, expand renewable energy infrastructure, and prioritize environmental considerations in urban planning. Individual actions, when multiplied across millions of city residents, create substantial positive environmental change.""",
-            "questions": [
-                {
-                    "question_number": 1,
-                    "question_text": "According to the text, what is one of the most effective approaches to sustainable urban living?",
-                    "options": {
-                        "A": "Moving to the countryside",
-                        "B": "Reducing energy consumption at home",
-                        "C": "Buying more efficient cars",
-                        "D": "Installing expensive technology"
-                    },
-                    "correct_answer": "B",
-                    "question_type": "detail"
-                },
-                {
-                    "question_number": 2,
-                    "question_text": "The word 'embracing' in paragraph 2 is closest in meaning to:",
-                    "options": {
-                        "A": "rejecting",
-                        "B": "questioning",
-                        "C": "accepting enthusiastically",
-                        "D": "considering carefully"
-                    },
-                    "correct_answer": "C",
-                    "question_type": "vocabulary"
-                },
-                {
-                    "question_number": 3,
-                    "question_text": "What does the text suggest about urban farming?",
-                    "options": {
-                        "A": "It only provides food for individual families",
-                        "B": "It requires expensive equipment to be successful",
-                        "C": "It transforms unused spaces and strengthens communities",
-                        "D": "It is only possible in certain types of buildings"
-                    },
-                    "correct_answer": "C",
-                    "question_type": "inference"
-                },
-                {
-                    "question_number": 4,
-                    "question_text": "According to the text, zero-waste stores:",
-                    "options": {
-                        "A": "are only found in wealthy neighborhoods",
-                        "B": "offer package-free shopping experiences",
-                        "C": "are more expensive than regular stores",
-                        "D": "only sell organic products"
-                    },
-                    "correct_answer": "B",
-                    "question_type": "detail"
-                },
-                {
-                    "question_number": 5,
-                    "question_text": "What role does technology play in sustainable urban living?",
-                    "options": {
-                        "A": "It replaces the need for individual action",
-                        "B": "It makes eco-friendly choices more convenient and measurable",
-                        "C": "It is too expensive for most city residents",
-                        "D": "It only works in new buildings"
-                    },
-                    "correct_answer": "B",
-                    "question_type": "detail"
-                },
-                {
-                    "question_number": 6,
-                    "question_text": "The overall tone of the text towards sustainable urban living is:",
-                    "options": {
-                        "A": "pessimistic and doubtful",
-                        "B": "neutral and factual",
-                        "C": "optimistic and encouraging",
-                        "D": "critical and disapproving"
-                    },
-                    "correct_answer": "C",
-                    "question_type": "attitude"
-                }
-            ]
-        }
-        
-        # Display the sample task
-        with st.expander("👀 Preview Sample Task", expanded=False):
-            st.json(sample_task, expanded=False)
-        
-        # Test save functionality
-        st.subheader("💾 Test Save Operations")
-        
-        col1, col2 = st.columns(2)
-        
-        with col1:
-            st.markdown("**Test 1: Basic Save**")
-            if st.button("🧪 Test Basic Save", type="primary"):
-                try:
-                    # Initialize generator for testing
-                    generator = OllamaTaskGenerator()
-                    
-                    with st.spinner("Testing save functionality..."):
-                        filepath = generator.save_task(sample_task)
-                        st.success(f"✅ Save test successful!")
-                        st.info(f"📁 File saved to: `{filepath}`")
-                        
-                        # Verify the file was actually created
-                        if filepath.exists():
-                            file_size = filepath.stat().st_size
-                            st.success(f"✅ File verification passed (Size: {file_size} bytes)")
-                        else:
-                            st.error("❌ File verification failed - file not found")
-                            
-                except Exception as e:
-                    st.error(f"❌ Save test failed: {str(e)}")
-                    with st.expander("🔧 Error Details"):
-                        st.code(str(e))
-                        st.markdown("""
-                        **Possible causes:**
-                        - Directory permissions issue
-                        - Disk space full
-                        - Invalid file path
-                        - File system error
-                        """)
-        
-        with col2:
-            st.markdown("**Test 2: Custom Task ID**")
-            custom_task_id = st.text_input("Custom Task ID:", value="test_custom_save_01")
-            
-            if st.button("🧪 Test Custom ID Save"):
-                try:
-                    # Modify sample task with custom ID
-                    test_task = sample_task.copy()
-                    test_task['task_id'] = custom_task_id
-                    
-                    generator = OllamaTaskGenerator()
-                    
-                    with st.spinner("Testing custom ID save..."):
-                        filepath = generator.save_task(test_task)
-                        st.success(f"✅ Custom ID save successful!")
-                        st.info(f"📁 File saved to: `{filepath}`")
-                        
-                except Exception as e:
-                    st.error(f"❌ Custom ID save failed: {str(e)}")
-        
-        # Directory and permissions test
-        st.subheader("📁 Directory & Permissions Test")
-        
-        if st.button("🔍 Check Save Directory"):
-            try:
-                generator = OllamaTaskGenerator()
-                output_dir = generator.output_dir
-                
-                st.info(f"📂 Output directory: `{output_dir}`")
-                
-                # Check if directory exists
-                if output_dir.exists():
-                    st.success("✅ Directory exists")
-                    
-                    # Check if writable
-                    test_file = output_dir / "write_test.tmp"
-                    try:
-                        test_file.write_text("test")
-                        test_file.unlink()  # Delete test file
-                        st.success("✅ Directory is writable")
-                    except Exception as e:
-                        st.error(f"❌ Directory not writable: {e}")
-                    
-                    # List existing files
-                    existing_files = list(output_dir.glob("*.json"))
-                    st.info(f"📄 Existing task files: {len(existing_files)}")
-                    
-                    if existing_files:
-                        with st.expander("📋 Existing Files"):
-                            for file in existing_files[-10:]:  # Show last 10 files
-                                st.text(f"• {file.name}")
-                else:
-                    st.warning("⚠️ Directory does not exist")
-                    
-                    # Try to create it
-                    if st.button("🔨 Create Directory"):
-                        try:
-                            output_dir.mkdir(parents=True, exist_ok=True)
-                            st.success("✅ Directory created successfully")
-                        except Exception as e:
-                            st.error(f"❌ Failed to create directory: {e}")
-                            
-            except Exception as e:
-                st.error(f"❌ Directory check failed: {e}")
-        
-        # Cleanup test files
-        st.subheader("🧹 Cleanup Test Files")
-        
-        if st.button("🗑️ Remove Test Files"):
-            try:
-                generator = OllamaTaskGenerator()
-                output_dir = generator.output_dir
-                
-                # Find test files
-                test_files = list(output_dir.glob("test_*.json"))
-                
-                if test_files:
-                    for test_file in test_files:
-                        test_file.unlink()
-                    st.success(f"✅ Removed {len(test_files)} test files")
-                else:
-                    st.info("ℹ️ No test files found to remove")
-                    
-            except Exception as e:
-                st.error(f"❌ Cleanup failed: {e}")
 
 if __name__ == "__main__":
     main() 
