@@ -172,7 +172,7 @@ def main():
         st.sidebar.info("💡 Manual save required")
     
     # Main interface tabs
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["🎯 Generate Tasks", "🔧 Improve Tasks", "📊 Batch Generation", "📚 Task Library", "⚙️ Admin Panel"])
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["🎯 Generate Tasks", "🔧 Improve Tasks", "📊 Batch Generation", "📚 Task Library", "⚙️ Admin Panel", "📖 Docs"])
     
     with tab1:
         st.header("Generate Single Task")
@@ -2534,6 +2534,202 @@ def display_task_learner_view_simple(task, context="batch"):
             task_data_clean = {k: v for k, v in task.items() 
                               if k not in ['file_path', 'filename']}
             st.json(task_data_clean)
+
+    # Documentation Tab
+    with tab6:
+        st.header("📖 Documentation")
+        
+        # Create documentation navigation
+        doc_tabs = st.tabs([
+            "📋 Topic Selection Guide",
+            "🎯 B2 First Standards", 
+            "🔧 Technical Specifications",
+            "💡 Best Practices"
+        ])
+        
+        with doc_tabs[0]:
+            st.subheader("📋 B2 First Topic Selection Guide")
+            
+            # Load and display the topic selection guide
+            try:
+                docs_path = Path("docs/topic_selection_guide.md")
+                if docs_path.exists():
+                    with open(docs_path, 'r', encoding='utf-8') as f:
+                        guide_content = f.read()
+                    st.markdown(guide_content)
+                else:
+                    st.error("📄 Topic Selection Guide not found. Please ensure the documentation file exists.")
+            except Exception as e:
+                st.error(f"❌ Error loading documentation: {str(e)}")
+        
+        with doc_tabs[1]:
+            st.subheader("🎯 B2 First Standards")
+            
+            st.markdown("""
+            ## Cambridge B2 First Reading Part 5 Standards
+            
+            ### Text Requirements
+            - **Length**: 400-800 words (flexible range for quality content)
+            - **Level**: Intermediate to Upper-Intermediate (B2)
+            - **Topics**: Age-appropriate for 16-25 year olds
+            - **Style**: Authentic, engaging, contemporary
+            
+            ### Question Requirements
+            - **Number**: 5-6 questions per task
+            - **Format**: Multiple choice (A, B, C, D)
+            - **Types**: 
+              - **Inference**: Understanding implied meaning
+              - **Vocabulary**: Words/phrases in context
+              - **Detail**: Specific information from text
+              - **Attitude**: Author's opinion or tone
+              - **Reference**: What pronouns/phrases refer to
+              - **Main Idea**: Overall purpose or theme
+            
+            ### Quality Standards
+            - **Authenticity**: Real-world text types and topics
+            - **Engagement**: Interesting and relevant content
+            - **Accessibility**: Culturally neutral and globally relevant
+            - **Educational Value**: Learning beyond language skills
+            
+            ### Assessment Criteria
+            - **Comprehension**: Tests understanding at B2 level
+            - **Vocabulary**: Appropriate lexical challenge
+            - **Critical Thinking**: Requires analysis and inference
+            - **Real-world Relevance**: Practical application of skills
+            """)
+        
+        with doc_tabs[2]:
+            st.subheader("🔧 Technical Specifications")
+            
+            st.markdown("""
+            ## System Technical Specifications
+            
+            ### Generation Parameters
+            - **Model**: Ollama-based LLM (llama3.1:8b recommended)
+            - **Temperature**: 0.7 (balanced creativity/consistency)
+            - **Max Tokens**: 4000+ for complete task generation
+            - **Validation**: Multi-stage quality checking
+            
+            ### File Structure
+            ```json
+            {
+                "task_id": "reading_part5_task_XX",
+                "title": "Engaging Task Title",
+                "topic": "topic_category",
+                "text_type": "magazine_article",
+                "difficulty": "B2",
+                "text": "400-800 word reading passage...",
+                "questions": [
+                    {
+                        "question_number": 1,
+                        "question_text": "Question text here?",
+                        "options": {
+                            "A": "Option A text",
+                            "B": "Option B text", 
+                            "C": "Option C text",
+                            "D": "Option D text"
+                        },
+                        "correct_answer": "A",
+                        "question_type": "inference"
+                    }
+                ]
+            }
+            ```
+            
+            ### Text Types Available
+            - **Magazine Article**: Lifestyle, trends, general interest
+            - **Blog Post**: Personal, conversational, opinion-based
+            - **News Report**: Current events, factual, objective
+            - **Professional Feature**: Business, career, industry focus
+            - **Educational Feature**: Learning, academic, instructional
+            - **Cultural Review**: Arts, entertainment, cultural topics
+            - **Travel Writing**: Destinations, experiences, adventure
+            - **Lifestyle Feature**: Health, relationships, personal development
+            - **Opinion Piece**: Argumentative, persuasive, viewpoint-based
+            - **Novel Extract**: Narrative, character-driven, literary
+            
+            ### Batch Generation Features
+            - **Auto-numbering**: Sequential task numbering
+            - **Subfolder Organization**: Batch-specific folders
+            - **Progress Tracking**: Real-time generation status
+            - **Error Handling**: Comprehensive failure logging
+            - **Auto-save**: Immediate file saving upon completion
+            """)
+        
+        with doc_tabs[3]:
+            st.subheader("💡 Best Practices")
+            
+            st.markdown("""
+            ## Content Creation Best Practices
+            
+            ### Topic Selection
+            ✅ **Do:**
+            - Choose contemporary, relevant topics
+            - Ensure global accessibility and cultural neutrality
+            - Focus on themes interesting to 16-25 year olds
+            - Balance educational value with engagement
+            - Consider multiple perspectives on issues
+            
+            ❌ **Avoid:**
+            - Highly culture-specific references
+            - Overly technical or specialized content
+            - Controversial political or religious topics
+            - Outdated trends or temporary fads
+            - Topics requiring specialized background knowledge
+            
+            ### Text Quality
+            ✅ **Do:**
+            - Write in authentic, natural style
+            - Use varied sentence structures
+            - Include B2-appropriate vocabulary
+            - Maintain consistent tone throughout
+            - Ensure logical flow and coherence
+            
+            ❌ **Avoid:**
+            - Overly simple or patronizing language
+            - Inconsistent writing style
+            - Grammatical errors or typos
+            - Abrupt topic changes
+            - Repetitive vocabulary or structures
+            
+            ### Question Design
+            ✅ **Do:**
+            - Test genuine comprehension skills
+            - Create plausible distractors
+            - Vary question types appropriately
+            - Ensure one clearly correct answer
+            - Test different parts of the text
+            
+            ❌ **Avoid:**
+            - Questions answerable without reading
+            - Ambiguous or unclear questions
+            - Multiple correct answers
+            - Questions testing general knowledge
+            - Overly obvious or trivial questions
+            
+            ### Quality Assurance
+            ✅ **Do:**
+            - Review all content for accuracy
+            - Check cultural sensitivity
+            - Verify B2 level appropriateness
+            - Test questions with target audience
+            - Proofread for language errors
+            
+            ❌ **Avoid:**
+            - Publishing without thorough review
+            - Ignoring validation warnings
+            - Skipping cultural sensitivity checks
+            - Assuming content works without testing
+            - Rushing the quality control process
+            
+            ### System Usage Tips
+            - **Individual Generation**: Use for specific, targeted content
+            - **Batch Generation**: Efficient for multiple similar tasks
+            - **Custom Instructions**: Provide specific guidance when needed
+            - **Text Type Selection**: Match type to topic appropriately
+            - **Auto-save**: Enable for seamless workflow
+            - **Regular Backups**: Maintain copies of generated content
+            """)
 
 if __name__ == "__main__":
     main() 
