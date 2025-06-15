@@ -143,6 +143,10 @@ class OllamaTaskGenerator:
             task_data['topic_category'] = self.categorize_topic(topic)
             task_data['text_type'] = text_type
             
+            # Add custom instructions if provided
+            if custom_instructions and custom_instructions.strip():
+                task_data['custom_instructions'] = custom_instructions.strip()
+            
             # Validate task quality
             if self.validate_task(task_data):
                 logger.info(f"✅ Task validation passed")

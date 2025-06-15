@@ -1392,6 +1392,10 @@ def display_task_learner_view(task):
     with col3:
         st.markdown(f"**🆔 Task ID:** {task.get('task_id', 'N/A')}")
     
+    # Custom instructions if available
+    if task.get('custom_instructions'):
+        st.markdown(f"**📝 Custom Instructions:** {task.get('custom_instructions')}")
+    
     # Generation parameters
     gen_params = task.get('generation_params', {})
     if gen_params:
@@ -1633,6 +1637,10 @@ def display_task_summary_view(task):
         
         if task.get('topic'):
             st.markdown(f"**🎯 Topic:** {task.get('topic', 'N/A')}")
+        
+        # Custom instructions if available
+        if task.get('custom_instructions'):
+            st.markdown(f"**📝 Custom Instructions:** {task.get('custom_instructions')}")
         
         # Text preview
         text_preview = task.get('text', '')[:200] + "..." if len(task.get('text', '')) > 200 else task.get('text', '')
