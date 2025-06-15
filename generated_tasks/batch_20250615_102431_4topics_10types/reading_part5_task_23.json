@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_23",
+  "title": "Unleash Your Inner Artist: Discover the Joy of Creative Hobbies",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sat at her easel, brush poised over canvas, Emily felt a sense of freedom wash over her. This was where she could escape the confines of reality, lose herself in the swirling colors and textures that danced across the board. It wasn't just about creating something beautiful – it was about expressing herself.\n\n\"I don't get it,\" her roommate, Rachel, said, hovering at her shoulder. \"Why do you waste so much time painting when you could be out living your life?\"\n\nEmily sighed, not looking up from her canvas. \"You wouldn't understand.\"\n\nRachel snorted. \"Try me.\"\n\nEmily dipped her brush into a vibrant shade of blue and began to block in the sky. \"It's like... have you ever felt this suffocated by everything around you? Like you're just going through the motions?\"\n\nRachel shrugged. \"Yeah, I guess so. But what does that have to do with painting?\"\n\nEmily set her brush down, turning to face Rachel. \"When I'm painting, I can let go of all that. It's like my worries and fears are trapped in this little bubble, and for a few hours a week, I get to be free from it.\"\n\nRachel raised an eyebrow. \"That sounds like a pretty big deal.\"\n\nEmily smiled wryly. \"It is. And it's not just about getting away from the world – it's about creating something new, something that's mine alone. When I'm painting, I feel alive in a way I don't when I'm stuck in an office or running errands.\"\n\nRachel nodded thoughtfully. \"I think I see what you mean. It's like... this is your own personal sanctuary, and no one can take it away from you.\"\n\nEmily felt a surge of gratitude towards her roommate. For the first time, Rachel was trying to understand her passion for art.\n\nAs they talked, Emily's mind began to wander back to the countless hours she'd spent honing her craft. There were the early mornings when she'd wake up before dawn to squeeze in a quick sketch or two; the afternoons spent hunched over a canvas, lost in the flow of creation; and the sleepless nights when an idea would strike at 3 AM and she'd leap out of bed to capture it on paper.\n\nHer friends often joked that she was a \"closet artist\" – always hiding behind her laptop or sketchbook, sneaking in bits of creativity whenever no one was looking. But Emily knew better. For her, art wasn't just something she did; it was who she was.\n\nAs the sun began to set outside, casting a warm glow over her small studio, Emily stepped back from her canvas and surveyed her latest creation. It was a chaotic mess of colors and textures – not perfect, but raw and honest. This was what self-expression looked like: messy, imperfect, and beautifully broken.\n\n\"I'm going to go grab some dinner,\" Rachel said, nodding towards the kitchen. \"Want me to bring you back something?\"\n\nEmily smiled, her eyes still fixed on the canvas. \"Yeah, thanks. Just... just don't disturb me for a bit.\"\n\nRachel chuckled, disappearing into the kitchen as Emily settled back in, lost once more in the swirling colors and textures of her art.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, why did Rachel initially not understand Emily's passion for painting?",
+      "options": {
+        "A": "Because she didn't see the practical benefits",
+        "B": "Because it was too time-consuming for her own interests",
+        "C": "Because she couldn't relate to feeling suffocated by reality",
+        "D": "Because she thought art was a waste of time"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"swirling colours and textures\" mainly mean in this context?",
+      "options": {
+        "A": "The painting is made up of many different patterns",
+        "B": "The painting is a mixture of many different colours and textures that blend together",
+        "C": "The artist is using a special technique to create a smooth, even surface",
+        "D": "The painting is a representation of the artist's emotions"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What was Emily's response to Rachel's comment that she \"wasted\" time painting?",
+      "options": {
+        "A": "She told Rachel that she only painted because it made her look good on social media.",
+        "B": "She explained that painting helped her escape reality and express herself freely.",
+        "C": "She said that painting was just something she did to relax, but didn't really matter.",
+        "D": "She told Rachel that she only started painting as a hobby when she retired."
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Emily's attitude towards her creative hobby?",
+      "options": {
+        "A": "She sees it as a waste of time.",
+        "B": "It brings her a sense of freedom and self-expression.",
+        "C": "She only does it to impress others.",
+        "D": "It's something she feels pressured into by her friends."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"my worries and fears are trapped in this little bubble\" refer to?",
+      "options": {
+        "A": "Emily's feelings about being stuck in an office",
+        "B": "The colours and textures on Emily's canvas",
+        "C": "Her passion for art and creativity",
+        "D": "The idea that Emily is escaping reality when she paints"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about Emily's experience with painting?",
+      "options": {
+        "A": "Emily discovers that she has a talent for painting and decides to pursue it as a career.",
+        "B": "Painting allows Emily to express herself freely and escape the stresses of everyday life.",
+        "C": "Emily's roommate, Rachel, tries to convince her to give up painting and focus on more \"practical\" things.",
+        "D": "Emily is unhappy with her latest painting and decides to start over."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "culture_arts"
+}

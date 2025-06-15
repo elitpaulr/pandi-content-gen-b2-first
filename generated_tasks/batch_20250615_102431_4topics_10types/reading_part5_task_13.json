@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_13",
+  "title": "Unlock Your Potential: A Guide to Lifelong Learning and Skill Mastery",
+  "topic": "education",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sat in her small apartment, surrounded by stacks of books and papers, Emma couldn't help but feel a sense of excitement wash over her. She was 35 years old, and for the first time in her life, she felt like she was really learning.\n\nGrowing up, Emma had always been a curious child. She devoured books on every subject from science to history to literature. But as she got older, something changed. School became a chore, and after graduating, she drifted into a series of unfulfilling jobs that left her feeling stagnant.\n\nIt wasn't until she turned 30 that Emma realized she had lost touch with the thing that had once brought her so much joy: learning. She started small, taking online courses in photography and cooking. But as she delved deeper, she discovered a passion for coding and web development.\n\n\"I never thought I'd be doing this at my age,\" Emma said to her friend Rachel over coffee one morning. \"But the more I learn, the more I realize how much I don't know.\"\n\nRachel smiled knowingly. \"That's what lifelong learning is all about, Em. It's not just about accumulating knowledge; it's about staying curious and adaptable in a world that's constantly changing.\"\n\nEmma nodded enthusiastically. \"Exactly! And it's not just about career development either. Learning new skills helps me stay engaged with the world around me. I feel more connected to my community, to my family... even to myself.\"\n\nAs they chatted, Emma pulled out her phone and began scrolling through a course catalog on Coursera. \"Have you heard of this one?\" she asked Rachel, holding up her screen. \"It's on artificial intelligence. I'm thinking about enrolling.\"\n\nRachel raised an eyebrow. \"You're going to be coding robots in your spare time now?\"\n\nEmma laughed. \"Hey, why not? The more I learn, the more I realize how little we understand about this world. And who knows what kind of impact we could have if we keep pushing the boundaries of human knowledge.\"\n\nTheir conversation was interrupted by a knock at the door. It was Emma's 10-year-old niece, Sophia, holding a small stack of books in her arms.\n\n\"Aunt Em! I got these from the library,\" she exclaimed, eyes shining with excitement. \"I'm doing a science project on robotics and coding!\"\n\nEmma beamed with pride as she hugged her niece tight. \"That's amazing, kiddo! You're going to change the world one line of code at a time.\"\n\nAs Sophia skipped back out into the hallway, Emma turned to Rachel with tears in her eyes.\n\n\"This is what it means to live a life of purpose,\" she said softly. \"Not just accumulating wealth or status, but pursuing our passions and staying curious about the world around us.\"\n\nRachel nodded in agreement. \"Lifelong learning isn't just about acquiring new skills; it's about cultivating a sense of wonder, of awe... of connection to something greater than ourselves.\"\n\nAs they sat there in silence for a moment, Emma felt a sense of gratitude wash over her. She knew that she had been given a rare gift – the chance to rediscover herself and pursue her dreams.\n\nAnd as she settled back into her chair, surrounded by stacks of books and papers, Emma felt a renewed sense of purpose and excitement for the journey ahead.\n\nThe world was full of mysteries waiting to be solved, challenges waiting to be overcome. And with every new skill she acquired, every new idea that sparked within her, Emma knew that she would continue to grow, to evolve – to become the best version of herself possible.\n\nShe took a deep breath, and smiled to herself as she dove back into the world of lifelong learning.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated Emma to start taking online courses again at the age of 30?",
+      "options": {
+        "A": "She wanted to impress her friends with her new skills",
+        "B": "She realized that she had lost touch with the thing that brought her joy as a child",
+        "C": "She was looking for a new career path after being made redundant",
+        "D": "She wanted to learn more about science"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for Emma to \"drift\" in her jobs?",
+      "options": {
+        "A": "To be very successful and fulfilled",
+        "B": "To lose touch with something that brings joy and to become stagnant",
+        "C": "To change careers frequently due to lack of challenge",
+        "D": "To start a new business after graduating from university"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How old was Emma when she realized she had lost touch with her passion for learning?",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "35",
+        "D": "40"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Emma's attitude towards her own lack of knowledge and skills at the beginning of the story?",
+      "options": {
+        "A": "She feels embarrassed and ashamed",
+        "B": "She feels a sense of freedom and liberation",
+        "C": "She feels excited and eager to learn more",
+        "D": "She feels frustrated and stuck in life"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"it\" refer to in the sentence \"It's not just about accumulating knowledge; it's about staying curious and adaptable in a world that's constantly changing\"?",
+      "options": {
+        "A": "The act of accumulating knowledge",
+        "B": "Lifelong learning",
+        "C": "A world that's constantly changing",
+        "D": "Staying curious and adaptable"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of Emma's story?",
+      "options": {
+        "A": "To describe the benefits of online courses for adults",
+        "B": "To highlight the importance of staying curious and adaptable in a constantly changing world",
+        "C": "To share Emma's struggles with finding her passion in life",
+        "D": "To discuss the role of lifelong learning in personal growth and development"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "personal_growth"
+}

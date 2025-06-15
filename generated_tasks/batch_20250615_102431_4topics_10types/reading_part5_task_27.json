@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_27",
+  "title": "Unlocking Your True Self Through Artistic Expression",
+  "topic": "general",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "**The Power of Self-Expression: How Creative Hobbies Can Transform Your Life**\n\nIn today's fast-paced world, where deadlines are looming and work-life balance is often an afterthought, it's easy to get caught up in the monotony of daily routine. But what if we told you that there's a way to break free from the cycle of monotony and unlock your full potential? Enter creative hobbies – those activities that allow us to express ourselves, tap into our imagination, and bring joy back into our lives.\n\nResearch has shown time and again that engaging in creative pursuits has a profound impact on both physical and mental well-being. From stress relief to improved cognitive function, the benefits of creative expression are undeniable. But what's perhaps most remarkable is the way these hobbies can transform our sense of self – allowing us to tap into our passions, discover new talents, and connect with others in meaningful ways.\n\nTake painting, for example. Not only is it a great way to unwind after a long day, but it also offers an outlet for self-expression like no other. Whether you're a seasoned artist or just starting out, the act of putting brush to canvas can be incredibly liberating – allowing you to tap into your emotions and bring your imagination to life in vivid color.\n\nMusic is another creative pursuit that has the power to transform lives. From playing an instrument to singing in a choir, making music can be a deeply fulfilling experience – one that allows us to connect with others on a profound level. And it's not just about performance – even creating playlists or experimenting with new sounds can be a fun and rewarding way to express yourself.\n\nBut creative hobbies aren't just limited to the arts. Writing, for instance, is an excellent way to tap into your imagination and tell stories that need to be told. Whether you're penning novels, blogging about your passions, or even simply keeping a journal, writing can be a powerful tool for self-expression – one that allows you to process your thoughts and emotions in a meaningful way.\n\nOf course, not everyone has the time or inclination to engage in traditional creative pursuits. But here's the thing: creativity is everywhere, waiting to be tapped into. Take cooking, for example. Not only can it be a fun and rewarding hobby, but it also allows us to experiment with new flavors and ingredients – bringing people together through the simple pleasure of sharing a meal.\n\nThe benefits of creative hobbies extend far beyond just personal fulfillment, too. In fact, research has shown that engaging in these activities can have a positive impact on productivity, job satisfaction, and even employee retention rates. That's right – by embracing your creativity, you may just find yourself becoming a more engaged, motivated, and effective worker.\n\nSo how can you get started? The good news is that there are countless resources available to help you explore your creative side. Local art classes, online tutorials, and community centers offer everything from painting to pottery, photography to poetry – whatever sparks your interest. And don't be afraid to try something new – after all, it's often the most unlikely pursuits that lead to our greatest discoveries.\n\nIn conclusion, creative hobbies have the power to transform lives in profound ways. By tapping into our imagination and expressing ourselves through art, music, writing, cooking, or any other medium, we can unlock a sense of joy, fulfillment, and purpose that extends far beyond just personal satisfaction. So why not give it a try? Your inner artist – and your future self – will thank you.\n\n**Word count: 650**",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if someone who feels stuck in their daily routine starts engaging in a creative hobby?",
+      "options": {
+        "A": "They will immediately experience stress relief",
+        "B": "They will start to develop new skills and discover hidden talents",
+        "C": "They will lose interest in other areas of their life",
+        "D": "They will stop being productive at work"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"tap into\" mean in this context?",
+      "options": {
+        "A": "To ignore or disregard something",
+        "B": "To understand and make use of a person's imagination or creative potential",
+        "C": "To learn about and become familiar with a particular skill or activity",
+        "D": "To give up on or abandon a hobby or interest"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what percentage of people have the time or inclination to engage in traditional creative pursuits?",
+      "options": {
+        "A": "Most",
+        "B": "A few",
+        "C": "Very few",
+        "D": "None"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards people who are too busy to engage in traditional creative pursuits?",
+      "options": {
+        "A": "They are lazy and need to make time for creativity",
+        "B": "They are missing out on a valuable opportunity for self-expression and growth",
+        "C": "They should focus on more practical activities that bring immediate results",
+        "D": "They have no interest in art and music, so it's not worth trying to engage them"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"these hobbies\" refer to in the sentence \"But what's perhaps most remarkable is the way these hobbies can transform our sense of self...\"?",
+      "options": {
+        "A": "The benefits of engaging in creative pursuits",
+        "B": "The activities mentioned in the previous paragraph (painting, music)",
+        "C": "Any activity that allows us to express ourselves through art, music, writing, cooking, or any other medium",
+        "D": "The research studies mentioned earlier"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about creative hobbies?",
+      "options": {
+        "A": "Creative hobbies are only suitable for people with a lot of free time.",
+        "B": "Engaging in creative pursuits can have a profound impact on both physical and mental well-being, as well as personal fulfillment and productivity.",
+        "C": "The benefits of creative hobbies are limited to traditional arts like painting and music.",
+        "D": "Creative hobbies are only useful for children and young adults."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "culture_arts"
+}

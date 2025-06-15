@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_03",
+  "title": "Find Your Inner Peace: The Simple Path to Mental Calm",
+  "topic": "health_and_fitness",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "Lena sat cross-legged on her bed, eyes closed, and breathed in deeply through her nose. She felt the air fill her lungs, and then exhale slowly, letting go of the tension that had been building up inside her for weeks. It was a habit she'd developed recently – mindfulness meditation.\n\nHer phone buzzed with an incoming text from her best friend, Rachel. \"Hey, how's it going?\" The words on the screen made Lena's mind wander to all the things she needed to do today: finish that report at work, cook dinner, and then meet up with Rachel for a movie night. She felt overwhelmed just thinking about it.\n\nLena opened her eyes and took another deep breath in through her nose and out through her mouth. Her gaze fell on the small notebook lying next to her bed, filled with scribbled notes from her mindfulness journaling sessions. \"Be present,\" she wrote, underlining the words for emphasis.\n\n\"Presence is not just about being physically here, but also mentally and emotionally,\" Lena's yoga instructor, Mrs. Patel, had said during a recent class. \"It's about being aware of your thoughts, feelings, and sensations in this moment.\"\n\nAs Lena reflected on her own life, she realized how often she'd been living in the past or worrying about the future. Her mind would wander to all the things that could go wrong – what if she didn't finish that report on time? What if Rachel canceled their plans? It was exhausting.\n\nBut mindfulness had helped Lena become more aware of her thoughts and emotions. She started noticing patterns – whenever she felt anxious, it was usually because she was overthinking something or dwelling on past mistakes. By acknowledging these patterns, Lena began to take steps towards changing them.\n\nFor instance, when faced with a difficult task at work, she'd try to focus on the present moment rather than worrying about how it would turn out. She'd remind herself that everything is temporary and that even if she made mistakes, they could be learned from. This simple shift in perspective helped Lena feel more grounded and confident.\n\nMindfulness wasn't just a tool for managing stress; it also improved her relationships with others. By being more present and attentive, Lena found herself listening more actively to her friends and family, asking better questions, and showing genuine interest in their lives. Her friendships deepened as a result, and she felt less isolated and alone.\n\nBut there were still moments when the anxiety crept back in – like yesterday, during a heated argument with Rachel over something trivial. Lena's mind had started racing, and before she knew it, she'd said things that hurt her friend's feelings. It was then that she realized how important self-compassion was in mindfulness.\n\n\"Be kind to yourself,\" Mrs. Patel always said. \"You're doing the best you can with what you have right now.\"\n\nLena scribbled another note in her journal: \"Self-compassion is not just about being nice, but also about being honest.\" It wasn't easy to admit when she was struggling or had made a mistake, but by acknowledging these moments, Lena began to let go of some of the guilt and shame that weighed her down.\n\nAs she sat on her bed, notebook in hand, Lena felt a sense of calm wash over her. She knew it wouldn't be easy to keep practicing mindfulness every day – there would still be days when anxiety and self-doubt crept back in. But with each passing moment, she felt more grounded and confident that she could handle whatever life threw her way.\n\n\"Okay, Rachel,\" Lena texted back, \"I'll see you at the movie theater tonight.\" For now, she let go of all the worries about tomorrow and focused on this present moment – just breathing in and out, one step at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was Lena's main reason for developing the habit of mindfulness meditation?",
+      "options": {
+        "A": "To improve her relationships with others",
+        "B": "To manage stress and anxiety",
+        "C": "To focus on her work and career goals",
+        "D": "To please her yoga instructor, Mrs. Patel"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Mrs. Patel mean by \"being physically here\" in the context of mindfulness?",
+      "options": {
+        "A": "It means being aware of your thoughts and emotions",
+        "B": "It refers to being present in the moment and being fully engaged with your surroundings",
+        "C": "It involves ignoring any physical discomfort or pain you may be experiencing",
+        "D": "It requires a specific posture or position, such as sitting cross-legged"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What did Mrs. Patel say was an important aspect of mindfulness?",
+      "options": {
+        "A": "It's about being physically fit",
+        "B": "Being aware of your thoughts, feelings, and sensations is key",
+        "C": "It's only for people who are already very happy",
+        "D": "You should try to ignore your emotions completely"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Lena think is most difficult for her when it comes to mindfulness?",
+      "options": {
+        "A": "It's hard to stop thinking about past mistakes",
+        "B": "She often finds herself worrying about the future rather than being present",
+        "C": "Mindfulness doesn't really help with stress and anxiety",
+        "D": "It's easy to be kind to others, but hard to be kind to herself"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who had told Lena that presence is not just about being physically here, but also mentally and emotionally?",
+      "options": {
+        "A": "Her best friend Rachel",
+        "B": "Her yoga instructor Mrs. Patel",
+        "C": "A colleague from work",
+        "D": "Lena's mother"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about Lena's experience with mindfulness?",
+      "options": {
+        "A": "Mindfulness is only useful for managing stress and anxiety.",
+        "B": "Practicing mindfulness can improve relationships and overall well-being by increasing self-awareness.",
+        "C": "The key to successful mindfulness practice is to focus on past mistakes rather than present moments.",
+        "D": "Mindfulness is a quick fix that can solve all problems with just one session."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "health_wellness"
+}

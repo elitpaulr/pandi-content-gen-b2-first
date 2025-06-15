@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_34",
+  "title": "Achieving Harmony in Your Life: Proven Work-Life Balance Tips",
+  "topic": "business_and_work",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember the day I hit rock bottom – exhausted, burnt out, and wondering how I'd let my life get so out of control. It was as if I'd forgotten that there's a world outside of work, one where relationships matter, hobbies bring joy, and self-care is essential.\n\nAs someone who's been there (and done it all again), I'm here to share some hard-won insights on achieving that elusive balance between work and life. Because let's face it – we're not just employees or business owners; we're human beings with a right to happiness, well-being, and a sense of fulfillment.\n\n**1. Set Boundaries (and Stick to Them)**\n\nIn today's always-connected world, it's easy to get sucked into the vortex of work-related emails, calls, and messages. But trust me, your employer won't miss you for a few hours – they'll probably just assume you're working from home (which, let's be real, is often code for \"overworking\").\n\nTo set boundaries, start by designating specific work hours and sticking to them. Leave your laptop at the office when you head home, or better yet, use a tool like Freedom to block distracting websites.\n\n**2. Prioritize Self-Care**\n\nSelf-care isn't just about yoga and meditation (although those are awesome too). It's about acknowledging that taking care of yourself is essential for being productive, focused, and motivated at work.\n\nFor me, self-care means waking up early to exercise, enjoying a relaxing bath after a long day, or simply taking a 10-minute walk outside during my lunch break. Find what works for you – it might be reading before bed, practicing gratitude journaling, or cooking a healthy meal.\n\n**3. Learn to Say No**\n\nOne of the most freeing things I've learned is how to say no without feeling guilty. It's okay to turn down a project that doesn't align with your goals or values. In fact, saying yes to everything will only lead to burnout and resentment.\n\nWhen faced with a request, ask yourself: \"Does this align with my priorities?\" or \"Can I delegate this task to someone else?\" Remember, you can't pour from an empty cup – prioritize your own needs first.\n\n**4. Schedule Downtime (and Actually Use It)**\n\nI used to think that downtime was a waste of time – after all, we have so much to accomplish, right? Wrong! Downtime is essential for recharging, reflecting on our experiences, and making space for creativity and inspiration.\n\nSchedule downtime into your calendar, whether it's a relaxing weekend getaway or a simple evening at home with loved ones. Trust me, your mind (and body) will thank you.\n\n**5. Seek Support**\n\nLast but not least, surround yourself with people who support and encourage you to prioritize work-life balance. This could be a partner who reminds you to take breaks, friends who join you for outdoor adventures, or a mentor who offers guidance on managing stress.\n\nFor me, it's my amazing community of fellow entrepreneurs and bloggers who remind me that I'm not alone in this journey. We share tips, advice, and encouragement – because when we work together towards a common goal (in this case, achieving balance), we can achieve so much more.\n\nIt's been a while since I hit rock bottom, but the lessons I've learned along the way have stayed with me. Work-life balance isn't about finding some mythical equilibrium; it's about making conscious choices every day to prioritize what truly matters – our well-being, relationships, and happiness.\n\nBy implementing these strategies into your daily routine, you'll be on your way to achieving a more balanced life – one where work is just one part of the equation, not the only thing that defines you.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can we infer about the author's attitude towards work from their statement \"work is just one part of the equation, not the only thing that defines you\"?",
+      "options": {
+        "A": "They believe that work should be a person's sole focus and priority.",
+        "B": "They think that people who value work above everything else are more successful and happy.",
+        "C": "They see work as an essential but not defining aspect of their life.",
+        "D": "They don't think it's possible to achieve happiness without having a successful career."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"hit rock bottom\" mean in this context?",
+      "options": {
+        "A": "To achieve great success and accomplishment",
+        "B": "To reach a point of complete exhaustion and burnout",
+        "C": "To experience a significant setback or failure",
+        "D": "To establish clear boundaries between work and life"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What tool can be used to block distracting websites and help set boundaries between work and personal time?",
+      "options": {
+        "A": "Microsoft Teams",
+        "B": "Freedom",
+        "C": "Google Calendar",
+        "D": "Slack"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the author, what happens when we don't set boundaries between work and personal time?",
+      "options": {
+        "A": "Our employer thinks we're overworking at home.",
+        "B": "We become more productive and focused at work.",
+        "C": "Our well-being and relationships suffer.",
+        "D": "We have no trouble saying no to requests from our boss."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"you can't pour from an empty cup\" refer to?",
+      "options": {
+        "A": "Your ability to work long hours without getting tired",
+        "B": "The importance of prioritizing self-care for productivity and motivation",
+        "C": "The need to delegate tasks to others when you're overwhelmed",
+        "D": "The value of seeking support from family and friends"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this text?",
+      "options": {
+        "A": "To provide tips for improving productivity at work",
+        "B": "To share the author's personal experiences with achieving a better work-life balance",
+        "C": "To discuss the importance of setting boundaries between work and life",
+        "D": "To encourage readers to prioritize their well-being and happiness in all aspects of life"
+      },
+      "correct_answer": "D",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

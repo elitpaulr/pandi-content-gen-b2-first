@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_39",
+  "title": "Finding Harmony on the Road: Work-Life Balance for Digital Nomads",
+  "topic": "business_and_work",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Bali, I felt a sense of freedom wash over me. The warm tropical air enveloped me like a hug from an old friend, and I knew that this trip would be about more than just sightseeing – it was going to be a journey of self-discovery.\n\nI had been feeling burnt out for months, struggling to keep up with the demands of work and life. My days blurred together in a haze of meetings, emails, and deadlines, leaving me little time for anything else. But as I settled into my villa overlooking the lush green rice fields, I knew that I was on the right path.\n\nMy first stop was Ubud, where I met with a local yoga instructor named Kadek. We sat on the edge of a tranquil lake, surrounded by swaying palm trees and vibrant tropical flowers. \"The key to work-life balance,\" he said, \"is finding harmony in every moment.\" He showed me how to breathe deeply, focus on the present, and let go of worries about the future.\n\nAs I practiced yoga with Kadek, I realized that this was not just a physical exercise – it was a mental one too. It was about quieting the mind, listening to my body, and trusting in the universe's plan. This newfound sense of calm carried me through the rest of my trip, from hiking through the lush rainforests of Tegalalang to exploring the bustling markets of Seminyak.\n\nOne afternoon, I met with a young entrepreneur named Rendi, who had built a successful business while still finding time for surfing and traveling. \"It's all about prioritizing,\" he said, sipping on a fresh coconut at a beachside café. \"I make a list every morning, and focus on the most important tasks first.\" He shared with me his secret to managing email – responding to only the most urgent messages in the morning, and saving the rest for later.\n\nAs I sat on the beach watching the sunset, I felt a sense of peace settle over me. It was as if the world had slowed down, and I could finally breathe again. I realized that work-life balance wasn't just about dividing time between two separate activities – it was about integrating them into one seamless whole.\n\nMy last stop was Canggu, where I met with a group of expats who had made this vibrant coastal town their home. We shared stories over dinner at a bustling restaurant filled with laughter and chatter. \"The key is to find what brings you joy,\" said Emma, a freelance writer from Australia. \"For me, it's early morning coffee dates on the beach, watching the sunrise while I write.\"\n\nAs I packed my bags to leave Bali, I felt grateful for this journey of self-discovery. I had learned that work-life balance wasn't just about achieving a perfect equilibrium – it was about embracing life in all its messy, beautiful moments. It was about finding harmony in every breath, and trusting that everything would fall into place.\n\nI returned home feeling refreshed, revitalized, and ready to tackle the demands of modern life with renewed energy and enthusiasm. My trip to Bali had taught me that work-life balance is not just a strategy – it's a way of being. And as I settled back into my routine, I knew that I would carry this sense of peace and harmony with me for a long time to come.\n\nThe sun was setting over the rice fields as I left Bali behind, but its warm glow stayed with me forever. I had discovered that true work-life balance is not just about finding time for leisure – it's about living life fully, in every moment, every breath.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was Kadek's main message to the writer about achieving a better work-life balance?",
+      "options": {
+        "A": "The writer needs to focus on material possessions and wealth.",
+        "B": "The key is finding harmony in every moment and letting go of worries about the future.",
+        "C": "The writer should prioritize tasks based solely on their urgency.",
+        "D": "A perfect balance between work and life can be achieved by dividing time equally between both."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Kadek mean by \"finding harmony in every moment\"?",
+      "options": {
+        "A": "Focusing on one task at a time to avoid distractions",
+        "B": "Integrating work and leisure activities into a seamless whole",
+        "C": "Setting aside specific times for relaxation and self-care",
+        "D": "Managing email more efficiently to save time"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What did Kadek say was the key to achieving work-life balance?",
+      "options": {
+        "A": "It's all about prioritizing",
+        "B": "Finding harmony in every moment",
+        "C": "Responding to urgent emails first thing in the morning",
+        "D": "Dividing time between work and leisure activities"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about modern life and its demands?",
+      "options": {
+        "A": "The author believes that modern life is too stressful and chaotic.",
+        "B": "The author thinks that modern life can be managed with the right strategies and balance.",
+        "C": "The author feels that modern life is too fast-paced and always demanding.",
+        "D": "The author dislikes the idea of working in a busy office environment."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who was Rendi?",
+      "options": {
+        "A": "A yoga instructor from Ubud",
+        "B": "A young entrepreneur who built a successful business while prioritizing his free time",
+        "C": "A freelance writer from Australia",
+        "D": "A local guide for tourists visiting Bali"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What was the main purpose of the writer's trip to Bali?",
+      "options": {
+        "A": "To explore the local culture and history",
+        "B": "To learn various work-life balance strategies from locals",
+        "C": "To relax and get away from the stresses of modern life",
+        "D": "To write a travel guide about Bali"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

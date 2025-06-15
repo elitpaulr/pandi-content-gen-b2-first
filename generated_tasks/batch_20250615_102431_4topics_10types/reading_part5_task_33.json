@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_33",
+  "title": "Achieving Harmony in Your Busy Life: Simple Balance Secrets",
+  "topic": "business_and_work",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "**Excerpt from \"The Art of Balance\"**\n\nLena stared out the window, her mind numb as she contemplated another late night at the office. She was a marketing manager for a small startup, and her work had been taking over every waking moment. Her partner, Alex, had been complaining about their lack of quality time together, but Lena couldn't seem to separate herself from her job.\n\n\"Hey, can you take a break?\" Alex said, noticing the look on Lena's face. \"We need to talk.\"\n\nLena sighed and closed her laptop. \"What is it?\"\n\n\"We're not just talking about work-life balance here,\" Alex said gently. \"We're talking about our relationship. We've been together for three years now, and I feel like we're losing each other.\"\n\nLena felt a pang of guilt. She knew Alex was right; they had been drifting apart. They used to have dinner dates, watch movies together, and go on hikes on the weekends. But lately, those activities were few and far between.\n\n\"I know,\" Lena said, feeling defeated. \"I just don't know how to balance everything.\"\n\nAlex took her hand. \"Let's start with small changes. We can try a 'stop doing' list instead of a to-do list. What are the things that drain your energy at work?\"\n\nLena thought for a moment before responding. \"Well, there's this one client who always emails me at 8 pm asking for last-minute revisions...\"\n\nAlex nodded. \"Okay, so what if you stopped checking email after 6 pm? And what about taking breaks throughout the day to stretch or meditate?\"\n\nLena smiled slightly. \"You're right. I do get carried away.\"\n\nTheir conversation sparked an idea in Lena's mind. She started by implementing a strict 'no work' rule on Sundays, dedicating that day entirely to relaxation and spending time with Alex.\n\nBut it wasn't just about cutting back on work hours; Lena needed to find ways to recharge her energy levels during the week. She discovered the benefits of yoga, joining a class at lunchtime three times a week to clear her mind and boost her mood.\n\nAlex, too, made some changes. He started waking up earlier to cook breakfast for Lena before she left for work, so they could have one last moment together in the morning. And on evenings when Lena was working late, Alex would bring dinner over or meet her at a nearby café to keep her company.\n\nAs they implemented these small adjustments, their relationship began to flourish again. They started having regular date nights, exploring new neighborhoods and trying out restaurants. Their weekends were filled with laughter and adventure, rather than exhaustion and resentment.\n\nOne evening, as they sat on the couch watching the sunset, Lena turned to Alex with a newfound appreciation for balance in her life.\n\n\"You know what I've learned?\" she said, smiling.\n\n\"What's that?\"\n\n\"That it's not about finding time, but making time. Time for us, time for myself...it's all about prioritizing what matters most.\"\n\nAlex wrapped his arm around her shoulders. \"You got this, Lena. We're in this together.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does Lena realize is necessary to achieve a better balance between work and personal life?",
+      "options": {
+        "A": "She needs to learn to say no to demanding clients",
+        "B": "It's about finding more time for herself and her partner, Alex",
+        "C": "She should delegate tasks at work to free up more hours for leisure activities",
+        "D": "The key is to eliminate all distractions from social media and email"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase 'drain your energy' mean in the context of work-life balance?",
+      "options": {
+        "A": "To make you more productive and focused",
+        "B": "To cause stress and fatigue at work",
+        "C": "To increase your motivation and enthusiasm for tasks",
+        "D": "To improve your relationships with colleagues and clients"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What was the first small change that Alex suggested to help Lena achieve better work-life balance?",
+      "options": {
+        "A": "Taking breaks throughout the day to stretch or meditate",
+        "B": "Stopping checking email after 6 pm and implementing a 'no work' rule on Sundays",
+        "C": "Waking up earlier to cook breakfast for Lena before she left for work",
+        "D": "Cutting back on client revisions by doing them all at once"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Lena's attitude towards her work at the beginning of the story?",
+      "options": {
+        "A": "She is enthusiastic and motivated to succeed.",
+        "B": "She is frustrated with her job and feels overwhelmed by its demands.",
+        "C": "She is content with her work-life balance and sees no need for change.",
+        "D": "She is proud of her ability to manage her workload efficiently."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who had been complaining to Lena about their lack of quality time together?",
+      "options": {
+        "A": "Her client",
+        "B": "Alex, her partner",
+        "C": "Her boss",
+        "D": "Her best friend"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the story about Lena and Alex?",
+      "options": {
+        "A": "They both struggle to find time for each other due to work commitments.",
+        "B": "Lena's partner helps her discover a simple solution to achieve a better balance between work and personal life.",
+        "C": "Their relationship problems are caused by their different interests and hobbies.",
+        "D": "The couple decides to quit their jobs to focus on their relationship."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}
