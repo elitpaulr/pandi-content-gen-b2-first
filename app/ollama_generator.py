@@ -1040,133 +1040,196 @@ def main():
                             # Get batch task files
                             batch_task_files = list(batch_dir.glob("*.json"))
                             
-                            # Create expandable section for each batch
-                            with st.expander(f"📦 {batch_name} ({len(batch_task_files)} tasks)", expanded=False):
-                                if batch_view_mode == "📋 Batch Summary":
-                                    # Display batch summary
-                                    if batch_summary:
-                                        st.markdown("### 📊 Batch Summary")
-                                        st.text(batch_summary)
-                                    else:
-                                        st.warning("No batch summary available")
+                            # For Learner View, avoid nested expanders by using a different layout
+                            if batch_view_mode == "🎓 Learner View":
+                                # Load batch tasks data first
+                                batch_tasks_data = []
+                                for task_file in batch_task_files:
+                                    try:
+                                        with open(task_file, 'r') as f:
+                                            task = json.load(f)
+                                            task['filename'] = task_file.name
+                                            batch_tasks_data.append(task)
+                                    except Exception as e:
+                                        st.warning(f"Could not load {task_file.name}: {e}")
+                                
+                                # Sort by task ID
+                                batch_tasks_data.sort(key=lambda x: x.get('task_id', ''))
+                                
+                                if batch_tasks_data:
+                                    st.markdown(f"### 📦 {batch_name} - Learner View ({len(batch_task_files)} tasks)")
                                     
-                                    # Quick stats
-                                    if batch_task_files:
-                                        st.markdown("### 📈 Quick Stats")
-                                        col1, col2, col3 = st.columns(3)
-                                        
-                                        total_words = 0
-                                        total_questions = 0
-                                        text_types = set()
-                                        
-                                        for task_file in batch_task_files:
-                                            try:
-                                                with open(task_file, 'r') as f:
-                                                    task = json.load(f)
-                                                    total_words += len(task.get('text', '').split())
-                                                    total_questions += len(task.get('questions', []))
-                                                    text_types.add(task.get('text_type', 'unknown'))
-                                            except:
-                                                pass
-                                        
-                                        with col1:
-                                            st.metric("Total Words", f"{total_words:,}")
-                                        with col2:
-                                            st.metric("Total Questions", total_questions)
-                                        with col3:
-                                            st.metric("Text Types", len(text_types))
-                                
+                                    # Create tabs for individual task viewing (no expander wrapper)
+                                    task_names = [f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')[:25]}..." 
+                                                 if len(task.get('title', '')) > 25 
+                                                 else f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')}" 
+                                                 for task in batch_tasks_data]
+                                    
+                                    if len(batch_tasks_data) > 6:
+                                        st.warning("⚠️ Too many tasks for tab view in batch. Showing first 6 tasks.")
+                                        batch_tasks_data = batch_tasks_data[:6]
+                                        task_names = task_names[:6]
+                                    
+                                    # Use unique keys for batch tabs
+                                    batch_tabs = st.tabs(task_names)
+                                    
+                                    for i, (task, tab) in enumerate(zip(batch_tasks_data, batch_tabs)):
+                                        with tab:
+                                            # Create a simplified learner view without nested expanders
+                                            display_task_learner_view_simple(task)
+                                    
+                                    # Add batch actions below tabs
+                                    st.divider()
+                                    st.markdown("### 🔧 Batch Actions")
+                                    col1, col2, col3 = st.columns(3)
+                                    
+                                    with col1:
+                                        # Download this batch
+                                        if st.button(f"📥 Download {batch_name}", key=f"download_{batch_name}"):
+                                            import zipfile
+                                            import io
+                                            
+                                            zip_buffer = io.BytesIO()
+                                            with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zip_file:
+                                                for file_path in batch_dir.rglob("*"):
+                                                    if file_path.is_file():
+                                                        arcname = str(file_path.relative_to(batch_dir))
+                                                        zip_file.write(file_path, arcname)
+                                            
+                                            st.download_button(
+                                                label=f"💾 Download {batch_name}.zip",
+                                                data=zip_buffer.getvalue(),
+                                                file_name=f"{batch_name}.zip",
+                                                mime="application/zip",
+                                                key=f"download_{batch_name}_zip"
+                                            )
+                                    
+                                    with col2:
+                                        # View batch folder info
+                                        if st.button(f"📁 Folder Info", key=f"info_{batch_name}"):
+                                            st.info(f"**Path:** {batch_dir}")
+                                            st.info(f"**Created:** {datetime.fromtimestamp(batch_dir.stat().st_mtime).strftime('%Y-%m-%d %H:%M:%S')}")
+                                            st.info(f"**Size:** {sum(f.stat().st_size for f in batch_dir.rglob('*') if f.is_file())} bytes")
+                                    
+                                    with col3:
+                                        # Delete batch
+                                        if st.button(f"🗑️ Delete {batch_name}", key=f"delete_{batch_name}"):
+                                            if st.checkbox(f"⚠️ Confirm deletion of {batch_name}", key=f"confirm_delete_{batch_name}"):
+                                                import shutil
+                                                shutil.rmtree(batch_dir)
+                                                st.success(f"Batch {batch_name} deleted!")
+                                                st.rerun()
                                 else:
-                                    # Display individual tasks in the batch for all other view modes
-                                    if batch_task_files:
-                                        st.markdown(f"### 📄 Tasks in {batch_name}")
+                                    st.info(f"No task files found in {batch_name}")
+                            
+                            else:
+                                # For other view modes, use expandable sections
+                                with st.expander(f"📦 {batch_name} ({len(batch_task_files)} tasks)", expanded=False):
+                                    if batch_view_mode == "📋 Batch Summary":
+                                        # Display batch summary
+                                        if batch_summary:
+                                            st.markdown("### 📊 Batch Summary")
+                                            st.text(batch_summary)
+                                        else:
+                                            st.warning("No batch summary available")
                                         
-                                        batch_tasks_data = []
-                                        for task_file in batch_task_files:
-                                            try:
-                                                with open(task_file, 'r') as f:
-                                                    task = json.load(f)
-                                                    task['filename'] = task_file.name
-                                                    batch_tasks_data.append(task)
-                                            except Exception as e:
-                                                st.warning(f"Could not load {task_file.name}: {e}")
-                                        
-                                        # Sort by task ID
-                                        batch_tasks_data.sort(key=lambda x: x.get('task_id', ''))
-                                        
-                                        # Display tasks based on selected view mode
-                                        if batch_view_mode == "🎓 Learner View":
-                                            # Create tabs for individual task viewing within the batch
-                                            task_names = [f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')[:30]}..." 
-                                                         if len(task.get('title', '')) > 30 
-                                                         else f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')}" 
-                                                         for task in batch_tasks_data]
+                                        # Quick stats
+                                        if batch_task_files:
+                                            st.markdown("### 📈 Quick Stats")
+                                            col1, col2, col3 = st.columns(3)
                                             
-                                            if len(batch_tasks_data) > 8:
-                                                st.warning("⚠️ Too many tasks for tab view in batch. Showing first 8 tasks.")
-                                                batch_tasks_data = batch_tasks_data[:8]
-                                                task_names = task_names[:8]
+                                            total_words = 0
+                                            total_questions = 0
+                                            text_types = set()
                                             
-                                            if batch_tasks_data:
-                                                # Use unique keys for batch tabs
-                                                batch_tabs = st.tabs(task_names)
-                                                
-                                                for i, (task, tab) in enumerate(zip(batch_tasks_data, batch_tabs)):
-                                                    with tab:
-                                                        display_task_learner_view(task)
-                                        
-                                        elif batch_view_mode == "📋 Summary View":
-                                            # Display tasks in summary cards
-                                            for task in batch_tasks_data:
-                                                display_task_summary_view(task)
-                                        
-                                        elif batch_view_mode == "🔧 JSON View":
-                                            # Display tasks in JSON format
-                                            for task in batch_tasks_data:
-                                                display_task_json_view(task)
+                                            for task_file in batch_task_files:
+                                                try:
+                                                    with open(task_file, 'r') as f:
+                                                        task = json.load(f)
+                                                        total_words += len(task.get('text', '').split())
+                                                        total_questions += len(task.get('questions', []))
+                                                        text_types.add(task.get('text_type', 'unknown'))
+                                                except:
+                                                    pass
+                                            
+                                            with col1:
+                                                st.metric("Total Words", f"{total_words:,}")
+                                            with col2:
+                                                st.metric("Total Questions", total_questions)
+                                            with col3:
+                                                st.metric("Text Types", len(text_types))
+                                    
                                     else:
-                                        st.info("No task files found in this batch")
-                                
-                                # Batch actions
-                                st.markdown("### 🔧 Batch Actions")
-                                col1, col2, col3 = st.columns(3)
-                                
-                                with col1:
-                                    # Download this batch
-                                    if st.button(f"📥 Download {batch_name}", key=f"download_{batch_name}"):
-                                        import zipfile
-                                        import io
-                                        
-                                        zip_buffer = io.BytesIO()
-                                        with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zip_file:
-                                            for file_path in batch_dir.rglob("*"):
-                                                if file_path.is_file():
-                                                    arcname = str(file_path.relative_to(batch_dir))
-                                                    zip_file.write(file_path, arcname)
-                                        
-                                        st.download_button(
-                                            label=f"💾 Download {batch_name}.zip",
-                                            data=zip_buffer.getvalue(),
-                                            file_name=f"{batch_name}.zip",
-                                            mime="application/zip",
-                                            key=f"download_{batch_name}_zip"
-                                        )
-                                
-                                with col2:
-                                    # View batch folder info
-                                    if st.button(f"📁 Folder Info", key=f"info_{batch_name}"):
-                                        st.info(f"**Path:** {batch_dir}")
-                                        st.info(f"**Created:** {datetime.fromtimestamp(batch_dir.stat().st_mtime).strftime('%Y-%m-%d %H:%M:%S')}")
-                                        st.info(f"**Size:** {sum(f.stat().st_size for f in batch_dir.rglob('*') if f.is_file())} bytes")
-                                
-                                with col3:
-                                    # Delete batch
-                                    if st.button(f"🗑️ Delete {batch_name}", key=f"delete_{batch_name}"):
-                                        if st.checkbox(f"⚠️ Confirm deletion of {batch_name}", key=f"confirm_delete_{batch_name}"):
-                                            import shutil
-                                            shutil.rmtree(batch_dir)
-                                            st.success(f"Batch {batch_name} deleted!")
-                                            st.rerun()
+                                        # Display individual tasks in the batch for Summary and JSON view modes
+                                        if batch_task_files:
+                                            st.markdown(f"### 📄 Tasks in {batch_name}")
+                                            
+                                            batch_tasks_data = []
+                                            for task_file in batch_task_files:
+                                                try:
+                                                    with open(task_file, 'r') as f:
+                                                        task = json.load(f)
+                                                        task['filename'] = task_file.name
+                                                        batch_tasks_data.append(task)
+                                                except Exception as e:
+                                                    st.warning(f"Could not load {task_file.name}: {e}")
+                                            
+                                            # Sort by task ID
+                                            batch_tasks_data.sort(key=lambda x: x.get('task_id', ''))
+                                            
+                                            # Display tasks based on selected view mode
+                                            if batch_view_mode == "📋 Summary View":
+                                                # Display tasks in summary cards
+                                                for task in batch_tasks_data:
+                                                    display_task_summary_view(task)
+                                            
+                                            elif batch_view_mode == "🔧 JSON View":
+                                                # Display tasks in JSON format
+                                                for task in batch_tasks_data:
+                                                    display_task_json_view(task)
+                                        else:
+                                            st.info("No task files found in this batch")
+                                    
+                                    # Batch actions
+                                    st.markdown("### 🔧 Batch Actions")
+                                    col1, col2, col3 = st.columns(3)
+                                    
+                                    with col1:
+                                        # Download this batch
+                                        if st.button(f"📥 Download {batch_name}", key=f"download_{batch_name}"):
+                                            import zipfile
+                                            import io
+                                            
+                                            zip_buffer = io.BytesIO()
+                                            with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zip_file:
+                                                for file_path in batch_dir.rglob("*"):
+                                                    if file_path.is_file():
+                                                        arcname = str(file_path.relative_to(batch_dir))
+                                                        zip_file.write(file_path, arcname)
+                                            
+                                            st.download_button(
+                                                label=f"💾 Download {batch_name}.zip",
+                                                data=zip_buffer.getvalue(),
+                                                file_name=f"{batch_name}.zip",
+                                                mime="application/zip",
+                                                key=f"download_{batch_name}_zip"
+                                            )
+                                    
+                                    with col2:
+                                        # View batch folder info
+                                        if st.button(f"📁 Folder Info", key=f"info_{batch_name}"):
+                                            st.info(f"**Path:** {batch_dir}")
+                                            st.info(f"**Created:** {datetime.fromtimestamp(batch_dir.stat().st_mtime).strftime('%Y-%m-%d %H:%M:%S')}")
+                                            st.info(f"**Size:** {sum(f.stat().st_size for f in batch_dir.rglob('*') if f.is_file())} bytes")
+                                    
+                                    with col3:
+                                        # Delete batch
+                                        if st.button(f"🗑️ Delete {batch_name}", key=f"delete_{batch_name}"):
+                                            if st.checkbox(f"⚠️ Confirm deletion of {batch_name}", key=f"confirm_delete_{batch_name}"):
+                                                import shutil
+                                                shutil.rmtree(batch_dir)
+                                                st.success(f"Batch {batch_name} deleted!")
+                                                st.rerun()
                     else:
                         st.info("No batch collections found. Use Batch Generation to create batch collections!")
             else:
@@ -1846,6 +1909,237 @@ def display_task_json_view(task):
             mime="application/json",
             key=f"download_json_{task.get('task_id', 'unknown')}"
         )
+
+def display_task_learner_view_simple(task):
+    """Display a task in a simplified learner view without expanders (for batch view)"""
+    # Task header
+    st.markdown(f"# 📖 {task.get('title', 'Untitled Task')}")
+    
+    # Task metadata
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.metric("📝 Word Count", len(task.get('text', '').split()))
+    with col2:
+        st.metric("❓ Questions", len(task.get('questions', [])))
+    with col3:
+        text_type = task.get('text_type', 'unknown').replace('_', ' ').title()
+        st.metric("📄 Text Type", text_type)
+    with col4:
+        st.metric("🤖 Generator", task.get('generated_by', 'unknown').title())
+    
+    # Additional metadata
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        if task.get('topic'):
+            st.markdown(f"**🎯 Topic:** {task.get('topic')}")
+    with col2:
+        if task.get('topic_category'):
+            category = task.get('topic_category', '').replace('_', ' ').title()
+            st.markdown(f"**📂 Category:** {category}")
+    with col3:
+        st.markdown(f"**🆔 Task ID:** {task.get('task_id', 'N/A')}")
+    
+    # Custom instructions if available
+    if task.get('custom_instructions'):
+        st.markdown(f"**📝 Custom Instructions:** {task.get('custom_instructions')}")
+    
+    # Generation parameters (without expander)
+    gen_params = task.get('generation_params', {})
+    if gen_params:
+        st.markdown("**🤖 Generation Parameters:**")
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric("Model", gen_params.get('model_full_name', 'N/A'))
+        with col2:
+            temp = gen_params.get('temperature', 'N/A')
+            if isinstance(temp, (int, float)):
+                st.metric("Temperature", f"{temp:.2f}")
+            else:
+                st.metric("Temperature", str(temp))
+        with col3:
+            st.metric("Max Tokens", str(gen_params.get('max_tokens', 'N/A')))
+    
+    st.divider()
+    
+    # Calculate dynamic height based on text length
+    text_content = task.get('text', 'No text available')
+    word_count = len(text_content.split())
+    # Estimate height: ~25 words per line, ~25px per line, plus padding
+    estimated_text_height = max(400, min(1200, (word_count // 25) * 25 + 100))
+    
+    # Add CSS for side-by-side layout with dynamic height
+    st.markdown(f"""
+    <style>
+    .reading-text-container {{
+        min-height: {estimated_text_height}px;
+        max-height: none;
+        overflow-y: visible;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        border: 1px solid #e9ecef;
+        line-height: 1.6;
+        font-size: 16px;
+    }}
+    .reading-text-container p {{
+        margin-bottom: 1.2em;
+        text-align: justify;
+    }}
+    .questions-container {{
+        min-height: {estimated_text_height}px;
+        max-height: none;
+        overflow-y: visible;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: 1px solid #e9ecef;
+    }}
+    .question-item {{
+        margin-bottom: 25px;
+        padding: 15px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        border-left: 4px solid #007bff;
+    }}
+    .question-header {{
+        font-size: 18px;
+        font-weight: bold;
+        color: #007bff;
+        margin-bottom: 10px;
+    }}
+    .question-text {{
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: #333;
+    }}
+    .option-item {{
+        margin: 8px 0;
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-size: 15px;
+    }}
+    .option-correct {{
+        background-color: #d4edda;
+        border: 1px solid #c3e6cb;
+        color: #155724;
+        font-weight: 600;
+    }}
+    .option-incorrect {{
+        background-color: #ffffff;
+        border: 1px solid #dee2e6;
+        color: #495057;
+    }}
+    .question-meta {{
+        margin-top: 15px;
+        padding-top: 10px;
+        border-top: 1px solid #dee2e6;
+        font-size: 14px;
+        color: #6c757d;
+    }}
+    </style>
+    """, unsafe_allow_html=True)
+    
+    # Create two columns for text and questions
+    col1, col2 = st.columns([1, 1])
+    
+    with col1:
+        st.markdown("## 📄 Reading Text")
+        
+        # Format the text nicely
+        formatted_text = text_content.strip()
+        paragraphs = formatted_text.split('\n\n')
+        
+        # Create text container that shows full content
+        text_html = '<div class="reading-text-container">'
+        for paragraph in paragraphs:
+            if paragraph.strip():
+                text_html += f'<p>{paragraph.strip()}</p>'
+        text_html += '</div>'
+        
+        st.markdown(text_html, unsafe_allow_html=True)
+    
+    with col2:
+        st.markdown("## ❓ Questions")
+        questions = task.get('questions', [])
+        
+        if questions:
+            # Create questions container
+            questions_html = '<div class="questions-container">'
+            
+            for i, question in enumerate(questions, 1):
+                try:
+                    questions_html += f'<div class="question-item">'
+                    questions_html += f'<div class="question-header">Question {i}</div>'
+                    
+                    # Question text
+                    question_text = question.get('question_text', 'No question text')
+                    questions_html += f'<div class="question-text">{question_text}</div>'
+                    
+                    # Options
+                    options = question.get('options', {})
+                    correct_answer = question.get('correct_answer', '')
+                    
+                    if options:
+                        # Handle both dict and list formats for options
+                        if isinstance(options, dict):
+                            for option_key, option_text in options.items():
+                                if option_key == correct_answer:
+                                    questions_html += f'<div class="option-item option-correct">✅ <strong>{option_key}.</strong> {option_text}</div>'
+                                else:
+                                    questions_html += f'<div class="option-item option-incorrect"><strong>{option_key}.</strong> {option_text}</div>'
+                        elif isinstance(options, list):
+                            # Handle list format (fallback)
+                            option_keys = ['A', 'B', 'C', 'D']
+                            for j, option_text in enumerate(options):
+                                if j < len(option_keys):
+                                    option_key = option_keys[j]
+                                    if option_key == correct_answer:
+                                        questions_html += f'<div class="option-item option-correct">✅ <strong>{option_key}.</strong> {option_text}</div>'
+                                    else:
+                                        questions_html += f'<div class="option-item option-incorrect"><strong>{option_key}.</strong> {option_text}</div>'
+                    
+                    # Question metadata
+                    q_type = question.get('question_type', 'unknown')
+                    questions_html += f'<div class="question-meta">'
+                    questions_html += f'<strong>Type:</strong> {q_type.replace("_", " ").title()} | '
+                    questions_html += f'<strong>Correct Answer:</strong> {correct_answer}'
+                    
+                    # Explanation if available
+                    if question.get('explanation'):
+                        questions_html += f'<br><strong>💡 Explanation:</strong> {question.get("explanation")}'
+                    
+                    questions_html += f'</div>'
+                    questions_html += f'</div>'
+                    
+                except Exception as e:
+                    questions_html += f'<div class="question-item"><div style="color: red;">Error displaying question {i}: {str(e)}</div></div>'
+            
+            questions_html += '</div>'
+            st.markdown(questions_html, unsafe_allow_html=True)
+        else:
+            st.warning("No questions found for this task.")
+    
+    # Action buttons
+    st.divider()
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.download_button(
+            label="📥 Download JSON",
+            data=json.dumps(task, indent=2),
+            file_name=f"{task.get('task_id', 'task')}.json",
+            mime="application/json",
+            key=f"download_simple_{task.get('task_id', 'unknown')}"
+        )
+    
+    with col2:
+        if st.button("📋 Copy Text Only", key=f"copy_text_simple_{task.get('task_id', 'unknown')}"):
+            st.code(task.get('text', ''), language=None)
+    
+    with col3:
+        if st.button("📊 View JSON", key=f"json_view_simple_{task.get('task_id', 'unknown')}"):
+            st.json(task)
 
 if __name__ == "__main__":
     main() 
