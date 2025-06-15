@@ -259,35 +259,10 @@ def main():
                     # Show generation attempts in real-time
                     attempt_status.info("**Generation Attempts:** Starting...")
                     
-                    # Generate task with detailed tracking
-                    task_data = None
-                    generation_details = {
-                        'attempts': 0,
-                        'parsing_attempts': 0,
-                        'validation_issues': [],
-                        'success': False
-                    }
-                    
-                    # Hook into the generator to track progress
-                    original_generate = generator.generate_single_task
-                    
-                    def tracked_generate(*args, **kwargs):
-                        nonlocal task_data, generation_details
-                        
-                        # Step 3: LLM Generation
-                        status_text.text("🤖 LLM generating content...")
-                        step_status.info("**Step 3/5:** Large Language Model generating task content")
-                        progress_bar.progress(0.4)
-                        
-                        try:
-                            result = original_generate(*args, **kwargs)
-                            generation_details['success'] = True
-                            return result
-                        except Exception as e:
-                            generation_details['error'] = str(e)
-                            raise
-                    
-                    generator.generate_single_task = tracked_generate
+                    # Step 3: LLM Generation
+                    status_text.text("🤖 LLM generating content...")
+                    step_status.info("**Step 3/5:** Large Language Model generating task content")
+                    progress_bar.progress(0.4)
                     
                     # Generate the task (use auto-numbering)
                     # Handle empty custom instructions
