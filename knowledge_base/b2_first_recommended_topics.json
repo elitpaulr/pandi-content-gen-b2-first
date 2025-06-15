@@ -1,0 +1,155 @@
+{
+  "b2_first_recommended_topics": {
+    "description": "Comprehensive collection of topics recommended for B2 First Reading Part 5 tasks, based on Cambridge English guidelines and suitable for intermediate-upper intermediate learners",
+    "last_updated": "2024-06-15",
+    "total_topics": 60,
+    "categories": {
+      "sport_and_fitness": {
+        "name": "Sport & Fitness",
+        "icon": "🏃‍♂️",
+        "description": "Physical activities, health, and sports-related topics that engage B2 students",
+        "topics": [
+          "extreme sports and risk-taking",
+          "fitness trends for busy professionals",
+          "team sports vs individual activities", 
+          "mental health benefits of exercise",
+          "sports nutrition for amateur athletes",
+          "adventure sports psychology and motivation"
+        ]
+      },
+      "environment_and_sustainability": {
+        "name": "Environment & Sustainability", 
+        "icon": "🌍",
+        "description": "Environmental issues, sustainability, and green living topics",
+        "topics": [
+          "sustainable travel and eco-tourism",
+          "urban gardening and community spaces",
+          "renewable energy solutions for homes",
+          "plastic-free lifestyle challenges",
+          "climate change adaptation strategies",
+          "sustainable fashion and consumption"
+        ]
+      },
+      "money_and_economics": {
+        "name": "Money & Economics",
+        "icon": "💰", 
+        "description": "Financial literacy, economics, and money management topics",
+        "topics": [
+          "financial literacy for young adults",
+          "sustainable shopping and ethical consumption",
+          "side hustles and passive income",
+          "cryptocurrency for beginners",
+          "budgeting for digital nomads",
+          "economic impact of remote work"
+        ]
+      },
+      "work_and_business": {
+        "name": "Work & Business",
+        "icon": "💼",
+        "description": "Career development, workplace trends, and professional life",
+        "topics": [
+          "remote work productivity strategies",
+          "career change in your thirties",
+          "entrepreneurship vs traditional employment",
+          "workplace diversity and inclusion", 
+          "artificial intelligence in the workplace",
+          "work-life balance strategies"
+        ]
+      },
+      "education_and_learning": {
+        "name": "Education & Learning",
+        "icon": "🎓",
+        "description": "Learning methods, education systems, and skill development",
+        "topics": [
+          "lifelong learning and skill development",
+          "online education vs traditional classrooms",
+          "language learning through immersion",
+          "creative thinking in problem-solving",
+          "study abroad experiences",
+          "digital literacy for modern students"
+        ]
+      },
+      "family_and_relationships": {
+        "name": "Family & Relationships",
+        "icon": "🏠",
+        "description": "Family dynamics, relationships, and social connections", 
+        "topics": [
+          "multi-generational living arrangements",
+          "long-distance relationships in digital age",
+          "parenting in the social media era",
+          "friendship maintenance as adults",
+          "cultural differences in family structures",
+          "community building in urban environments"
+        ]
+      },
+      "arts_and_culture": {
+        "name": "Arts & Culture",
+        "icon": "🎨",
+        "description": "Creative expression, cultural topics, and artistic pursuits",
+        "topics": [
+          "traditional crafts revival in modern times",
+          "street art as cultural expression", 
+          "music festivals and community building",
+          "cultural food exchange and fusion cuisine",
+          "digital art and NFT revolution",
+          "preserving cultural heritage through technology"
+        ]
+      },
+      "health_and_medicine": {
+        "name": "Health & Medicine",
+        "icon": "🏥",
+        "description": "Health topics, medical advances, and wellness practices",
+        "topics": [
+          "mindfulness and mental health awareness",
+          "alternative medicine vs conventional treatment",
+          "nutrition myths and scientific evidence",
+          "sleep optimization for better performance",
+          "preventive healthcare for young adults",
+          "mental health stigma in different cultures"
+        ]
+      },
+      "technology_and_digital_life": {
+        "name": "Technology & Digital Life",
+        "icon": "🌐",
+        "description": "Technology impact, digital lifestyle, and future innovations",
+        "topics": [
+          "AI in everyday life applications",
+          "social media influence on relationships",
+          "digital wellness and screen time management",
+          "cybersecurity for personal data protection",
+          "virtual reality in education and training",
+          "ethical implications of artificial intelligence"
+        ]
+      },
+      "travel_and_adventure": {
+        "name": "Travel & Adventure",
+        "icon": "✈️",
+        "description": "Travel experiences, adventure activities, and cultural exploration",
+        "topics": [
+          "digital nomad lifestyle challenges",
+          "cultural immersion vs tourist experiences",
+          "solo travel safety and empowerment",
+          "sustainable tourism practices",
+          "travel photography and storytelling",
+          "adventure travel for personal growth"
+        ]
+      }
+    },
+    "usage_guidelines": {
+      "topic_selection_tips": [
+        "Choose topics that are relevant to B2 students' lives and interests",
+        "Ensure topics have enough depth for 400-800 word texts",
+        "Select topics that allow for different perspectives and opinions",
+        "Consider cultural sensitivity and global relevance",
+        "Mix familiar and challenging topics for variety",
+        "Ensure topics can generate meaningful comprehension questions"
+      ],
+      "difficulty_considerations": [
+        "All topics are suitable for B2 level students",
+        "Some topics may be more challenging and suitable for upper B2",
+        "Consider student background and interests when selecting",
+        "Technology and economics topics may require more support"
+      ]
+    }
+  }
+} 

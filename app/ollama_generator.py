@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import List, Dict, Any
 import time
 from datetime import datetime
+import random
 
 # Add src to path for imports - Multiple methods for robustness
 project_root = Path(__file__).parent.parent
@@ -214,23 +215,103 @@ def main():
         
         with col2:
             st.markdown("**Suggested Topics:**")
-            suggested_topics = [
-                "sustainable travel and eco-tourism",
-                "digital nomad lifestyle",
-                "urban gardening projects",
-                "AI in everyday life",
-                "traditional crafts revival",
-                "mindfulness and wellness",
-                "renewable energy at home",
-                "cultural food exchange",
-                "adventure sports psychology",
-                "social media relationships"
-            ]
             
-            for topic_suggestion in suggested_topics[:5]:
-                if st.button(f"📝 {topic_suggestion}", key=f"suggest_{topic_suggestion}"):
+            # Comprehensive B2 First Topic Categories
+            topic_categories = {
+                "🏃‍♂️ Sport & Fitness": [
+                    "extreme sports and risk-taking",
+                    "fitness trends for busy professionals",
+                    "team sports vs individual activities",
+                    "mental health benefits of exercise",
+                    "sports nutrition for amateur athletes"
+                ],
+                "🌍 Environment & Sustainability": [
+                    "sustainable travel and eco-tourism",
+                    "urban gardening and community spaces",
+                    "renewable energy solutions for homes",
+                    "plastic-free lifestyle challenges",
+                    "climate change adaptation strategies"
+                ],
+                "💰 Money & Economics": [
+                    "financial literacy for young adults",
+                    "sustainable shopping and ethical consumption",
+                    "side hustles and passive income",
+                    "cryptocurrency for beginners",
+                    "budgeting for digital nomads"
+                ],
+                "💼 Work & Business": [
+                    "remote work productivity strategies",
+                    "career change in your thirties",
+                    "entrepreneurship vs traditional employment",
+                    "workplace diversity and inclusion",
+                    "artificial intelligence in the workplace"
+                ],
+                "🎓 Education & Learning": [
+                    "lifelong learning and skill development",
+                    "online education vs traditional classrooms",
+                    "language learning through immersion",
+                    "creative thinking in problem-solving",
+                    "study abroad experiences"
+                ],
+                "🏠 Family & Relationships": [
+                    "work-life balance strategies",
+                    "multi-generational living arrangements",
+                    "long-distance relationships in digital age",
+                    "parenting in the social media era",
+                    "friendship maintenance as adults"
+                ],
+                "🎨 Arts & Culture": [
+                    "traditional crafts revival in modern times",
+                    "street art as cultural expression",
+                    "music festivals and community building",
+                    "cultural food exchange and fusion cuisine",
+                    "digital art and NFT revolution"
+                ],
+                "🏥 Health & Medicine": [
+                    "mindfulness and mental health awareness",
+                    "alternative medicine vs conventional treatment",
+                    "nutrition myths and scientific evidence",
+                    "sleep optimization for better performance",
+                    "preventive healthcare for young adults"
+                ],
+                "🌐 Technology & Digital Life": [
+                    "AI in everyday life applications",
+                    "social media influence on relationships",
+                    "digital wellness and screen time management",
+                    "cybersecurity for personal data protection",
+                    "virtual reality in education and training"
+                ],
+                "✈️ Travel & Adventure": [
+                    "digital nomad lifestyle challenges",
+                    "adventure sports psychology and motivation",
+                    "cultural immersion vs tourist experiences",
+                    "solo travel safety and empowerment",
+                    "sustainable tourism practices"
+                ]
+            }
+            
+            # Category selector for topics
+            selected_category = st.selectbox(
+                "Choose Topic Category",
+                list(topic_categories.keys()),
+                key="topic_category_selector"
+            )
+            
+            # Display topics from selected category
+            category_topics = topic_categories[selected_category]
+            
+            st.markdown(f"**{selected_category} Topics:**")
+            for i, topic_suggestion in enumerate(category_topics):
+                if st.button(f"📝 {topic_suggestion}", key=f"suggest_{selected_category}_{i}"):
                     st.session_state.topic_input = topic_suggestion
-        
+                    st.rerun()
+            
+            # Quick random topic button
+            if st.button("🎲 Random Topic", key="random_topic_btn"):
+                all_topics = [topic for topics in topic_categories.values() for topic in topics]
+                random_topic = random.choice(all_topics)
+                st.session_state.topic_input = random_topic
+                st.rerun()
 
 
         # Persistent Save Section - appears when there's a generated task
@@ -586,37 +667,210 @@ def main():
         # Predefined topic sets
         st.subheader("📚 Topics")
         topic_sets = {
-            "Travel & Adventure": [
+            "🏃‍♂️ Sport & Fitness Focus": [
+                "extreme sports and risk-taking",
+                "fitness trends for busy professionals", 
+                "team sports vs individual activities",
+                "mental health benefits of exercise",
+                "sports nutrition for amateur athletes",
+                "adventure sports psychology and motivation"
+            ],
+            "🌍 Environment & Sustainability": [
                 "sustainable travel and eco-tourism",
-                "adventure sports and personal challenges",
-                "cultural exchange through travel",
-                "digital nomad lifestyle"
-            ],
-            "Technology & Modern Life": [
-                "artificial intelligence in everyday life",
-                "social media influence on relationships",
-                "remote work and productivity",
-                "digital wellness and screen time"
-            ],
-            "Environment & Sustainability": [
                 "urban gardening and community spaces",
                 "renewable energy solutions for homes",
+                "plastic-free lifestyle challenges",
                 "climate change adaptation strategies",
                 "sustainable fashion and consumption"
             ],
-            "Personal Development": [
-                "mindfulness and mental health awareness",
-                "lifelong learning and skill development",
-                "creative hobbies and self-expression",
+            "💰 Money & Economics": [
+                "financial literacy for young adults",
+                "sustainable shopping and ethical consumption",
+                "side hustles and passive income",
+                "cryptocurrency for beginners",
+                "budgeting for digital nomads",
+                "economic impact of remote work"
+            ],
+            "💼 Work & Business": [
+                "remote work productivity strategies",
+                "career change in your thirties",
+                "entrepreneurship vs traditional employment",
+                "workplace diversity and inclusion",
+                "artificial intelligence in the workplace",
                 "work-life balance strategies"
+            ],
+            "🎓 Education & Learning": [
+                "lifelong learning and skill development",
+                "online education vs traditional classrooms",
+                "language learning through immersion",
+                "creative thinking in problem-solving",
+                "study abroad experiences",
+                "digital literacy for modern students"
+            ],
+            "🏠 Family & Relationships": [
+                "multi-generational living arrangements",
+                "long-distance relationships in digital age",
+                "parenting in the social media era",
+                "friendship maintenance as adults",
+                "cultural differences in family structures",
+                "community building in urban environments"
+            ],
+            "🎨 Arts & Culture": [
+                "traditional crafts revival in modern times",
+                "street art as cultural expression",
+                "music festivals and community building",
+                "cultural food exchange and fusion cuisine",
+                "digital art and NFT revolution",
+                "preserving cultural heritage through technology"
+            ],
+            "🏥 Health & Medicine": [
+                "mindfulness and mental health awareness",
+                "alternative medicine vs conventional treatment",
+                "nutrition myths and scientific evidence",
+                "sleep optimization for better performance",
+                "preventive healthcare for young adults",
+                "mental health stigma in different cultures"
+            ],
+            "🌐 Technology & Digital Life": [
+                "AI in everyday life applications",
+                "social media influence on relationships",
+                "digital wellness and screen time management",
+                "cybersecurity for personal data protection",
+                "virtual reality in education and training",
+                "ethical implications of artificial intelligence"
+            ],
+            "✈️ Travel & Adventure": [
+                "digital nomad lifestyle challenges",
+                "cultural immersion vs tourist experiences",
+                "solo travel safety and empowerment",
+                "sustainable tourism practices",
+                "travel photography and storytelling",
+                "adventure travel for personal growth"
+            ],
+            "🎯 Mixed Contemporary Issues": [
+                "social media influence on relationships",
+                "climate change adaptation strategies",
+                "remote work productivity strategies",
+                "mindfulness and mental health awareness",
+                "sustainable fashion and consumption",
+                "artificial intelligence in the workplace"
+            ],
+            "🌟 Personal Development": [
+                "lifelong learning and skill development",
+                "creative thinking in problem-solving",
+                "work-life balance strategies",
+                "mindfulness and mental health awareness",
+                "friendship maintenance as adults",
+                "sleep optimization for better performance"
+            ],
+            "🏙️ Modern Urban Life": [
+                "urban gardening and community spaces",
+                "multi-generational living arrangements",
+                "sustainable shopping and ethical consumption",
+                "digital wellness and screen time management",
+                "community building in urban environments",
+                "street art as cultural expression"
+            ],
+            "🎓 Student Life & Career": [
+                "study abroad experiences",
+                "language learning through immersion",
+                "career change in your thirties",
+                "financial literacy for young adults",
+                "online education vs traditional classrooms",
+                "workplace diversity and inclusion"
+            ],
+            "🌱 Wellness & Lifestyle": [
+                "nutrition myths and scientific evidence",
+                "alternative medicine vs conventional treatment",
+                "fitness trends for busy professionals",
+                "preventive healthcare for young adults",
+                "mental health benefits of exercise",
+                "plastic-free lifestyle challenges"
+            ],
+            "🚀 Innovation & Future": [
+                "virtual reality in education and training",
+                "cryptocurrency for beginners",
+                "digital art and NFT revolution",
+                "ethical implications of artificial intelligence",
+                "cybersecurity for personal data protection",
+                "preserving cultural heritage through technology"
             ]
         }
         
         selected_set = st.selectbox("Choose Topic Set", list(topic_sets.keys()))
-        custom_topics = st.text_area(
-            "Or Enter Custom Topics (one per line)",
-            placeholder="sustainable travel\ndigital wellness\nurban gardening"
-        )
+        
+        # Custom topic set management
+        st.markdown("---")
+        st.subheader("🎨 Custom Topic Sets")
+        
+        col1, col2 = st.columns([2, 1])
+        
+        with col1:
+            custom_topics = st.text_area(
+                "Enter Custom Topics (one per line)",
+                placeholder="sustainable travel\ndigital wellness\nurban gardening\nAI in education\nremote work challenges",
+                height=120,
+                help="Enter your own topics, one per line. These will be used instead of the selected topic set above."
+            )
+        
+        with col2:
+            st.markdown("**Quick Topic Builders:**")
+            
+            # Quick topic builders based on common B2 themes
+            if st.button("🌍 Environmental Topics", key="env_topics"):
+                env_topics = [
+                    "sustainable travel and eco-tourism",
+                    "renewable energy solutions for homes", 
+                    "plastic-free lifestyle challenges",
+                    "urban gardening and community spaces",
+                    "climate change adaptation strategies"
+                ]
+                st.session_state.custom_topics_input = "\n".join(env_topics)
+                st.rerun()
+            
+            if st.button("💼 Career & Work Topics", key="work_topics"):
+                work_topics = [
+                    "remote work productivity strategies",
+                    "career change in your thirties",
+                    "workplace diversity and inclusion",
+                    "artificial intelligence in the workplace",
+                    "work-life balance strategies"
+                ]
+                st.session_state.custom_topics_input = "\n".join(work_topics)
+                st.rerun()
+            
+            if st.button("🎓 Education Topics", key="edu_topics"):
+                edu_topics = [
+                    "online education vs traditional classrooms",
+                    "language learning through immersion",
+                    "study abroad experiences",
+                    "lifelong learning and skill development",
+                    "digital literacy for modern students"
+                ]
+                st.session_state.custom_topics_input = "\n".join(edu_topics)
+                st.rerun()
+            
+            if st.button("🏥 Health & Wellness", key="health_topics"):
+                health_topics = [
+                    "mindfulness and mental health awareness",
+                    "nutrition myths and scientific evidence",
+                    "fitness trends for busy professionals",
+                    "sleep optimization for better performance",
+                    "preventive healthcare for young adults"
+                ]
+                st.session_state.custom_topics_input = "\n".join(health_topics)
+                st.rerun()
+            
+            if st.button("🎲 Random Mix", key="random_mix"):
+                all_topics = [topic for topics in topic_sets.values() for topic in topics]
+                random_topics = random.sample(all_topics, min(6, len(all_topics)))
+                st.session_state.custom_topics_input = "\n".join(random_topics)
+                st.rerun()
+        
+        # Apply session state to text area if set
+        if 'custom_topics_input' in st.session_state:
+            custom_topics = st.session_state.custom_topics_input
+            del st.session_state.custom_topics_input
         
         tasks_per_topic = st.slider("Tasks per Topic", 1, 3, 1)
         
@@ -631,11 +885,67 @@ def main():
         # Determine topics to use
         if custom_topics.strip():
             topics_to_use = [topic.strip() for topic in custom_topics.split('\n') if topic.strip()]
+            topic_source = "Custom Topics"
         else:
             topics_to_use = topic_sets[selected_set]
+            topic_source = selected_set
+        
+        # Topic Preview and Statistics
+        st.markdown("---")
+        st.subheader("📊 Batch Generation Preview")
+        
+        col1, col2, col3 = st.columns([2, 1, 1])
+        
+        with col1:
+            st.markdown(f"**Topic Source:** {topic_source}")
+            st.markdown(f"**Topics to Generate ({len(topics_to_use)}):**")
+            
+            # Show topics in a nice format
+            for i, topic in enumerate(topics_to_use, 1):
+                st.markdown(f"{i}. {topic}")
+        
+        with col2:
+            st.metric("📝 Topics", len(topics_to_use))
+            st.metric("📄 Text Types", len(selected_text_types))
+            st.metric("🔢 Tasks per Topic", tasks_per_topic)
+        
+        with col3:
+            total_tasks = len(topics_to_use) * len(selected_text_types) * tasks_per_topic
+            st.metric("🎯 Total Tasks", total_tasks)
+            
+            # Estimated time (based on ~30 seconds per task with step-by-step generation)
+            estimated_minutes = (total_tasks * 30) / 60
+            if estimated_minutes < 60:
+                time_estimate = f"{estimated_minutes:.0f} min"
+            else:
+                hours = estimated_minutes / 60
+                time_estimate = f"{hours:.1f} hrs"
+            
+            st.metric("⏱️ Est. Time", time_estimate)
+            
+            # Show generation approach
+            st.info("🚀 Using step-by-step LLM generation for high quality")
+        
+        # Show detailed breakdown if more than 6 total tasks
+        if total_tasks > 6:
+            with st.expander("📋 Detailed Generation Plan", expanded=False):
+                st.markdown("**Task Distribution:**")
+                
+                for topic in topics_to_use:
+                    st.markdown(f"**{topic}:**")
+                    for text_type in selected_text_types:
+                        text_type_display = text_type.replace('_', ' ').title()
+                        task_count = tasks_per_topic
+                        st.markdown(f"  • {text_type_display}: {task_count} task{'s' if task_count > 1 else ''}")
+                
+                st.markdown("---")
+                st.markdown("**Quality Assurance:**")
+                st.markdown("• ✅ Each task validated for B2 First standards")
+                st.markdown("• ✅ 400-800 word texts with 5-6 questions")
+                st.markdown("• ✅ Auto-save in timestamped batch folder")
+                st.markdown("• ✅ Comprehensive batch summary generated")
         
         total_tasks = len(topics_to_use) * len(selected_text_types) * tasks_per_topic
-        st.info(f"Will generate {len(topics_to_use)} topics × {len(selected_text_types)} text types × {tasks_per_topic} tasks = **{total_tasks} total tasks**")
         
         # Show batch folder info
         if total_tasks > 0:
