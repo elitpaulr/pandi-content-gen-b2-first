@@ -171,7 +171,7 @@ def main():
         st.sidebar.info("💡 Manual save required")
     
     # Main interface tabs
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["🎯 Generate Tasks", "🔧 Improve Tasks", "📊 Batch Generation", "📋 Task Library", "⚙️ Admin Panel"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["🎯 Generate Tasks", "🔧 Improve Tasks", "📊 Batch Generation", "📚 Task Library", "⚙️ Admin Panel"])
     
     with tab1:
         st.header("Generate Single Task")
@@ -833,141 +833,335 @@ def main():
     with tab4:
         st.header("📚 Task Library")
         
-        # Load and display all generated tasks
+        # Load and display all generated tasks and batches
         generated_tasks_dir = Path(__file__).parent.parent / "generated_tasks"
         if generated_tasks_dir.exists():
+            # Get individual task files and batch directories
             task_files = list(generated_tasks_dir.glob("*.json"))
+            batch_dirs = [d for d in generated_tasks_dir.iterdir() if d.is_dir() and d.name.startswith("batch_")]
             
-            if task_files:
-                # Action buttons row
-                col1, col2, col3, col4 = st.columns(4)
-                with col1:
-                    st.metric("📊 Total Tasks", len(task_files))
+            # Create main tabs for Individual Tasks and Batches
+            if task_files or batch_dirs:
+                library_tab1, library_tab2 = st.tabs(["📄 Individual Tasks", "📦 Batch Collections"])
                 
-                with col2:
-                    if st.button("📥 Download All Tasks"):
-                        # Create a zip file with all tasks
-                        import zipfile
-                        import io
+                # Individual Tasks Tab
+                with library_tab1:
+                    if task_files:
+                        # Action buttons row
+                        col1, col2, col3, col4 = st.columns(4)
+                        with col1:
+                            st.metric("📊 Total Tasks", len(task_files))
                         
-                        zip_buffer = io.BytesIO()
-                        with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zip_file:
-                            for task_file in task_files:
-                                zip_file.write(task_file, task_file.name)
+                        with col2:
+                            if st.button("📥 Download All Tasks", key="download_individual"):
+                                # Create a zip file with all tasks
+                                import zipfile
+                                import io
+                                
+                                zip_buffer = io.BytesIO()
+                                with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zip_file:
+                                    for task_file in task_files:
+                                        zip_file.write(task_file, task_file.name)
+                                
+                                st.download_button(
+                                    label="💾 Download ZIP",
+                                    data=zip_buffer.getvalue(),
+                                    file_name="b2_first_individual_tasks.zip",
+                                    mime="application/zip",
+                                    key="download_individual_zip"
+                                )
                         
-                        st.download_button(
-                            label="💾 Download ZIP",
-                            data=zip_buffer.getvalue(),
-                            file_name="b2_first_tasks.zip",
-                            mime="application/zip"
-                        )
-                
-                with col3:
-                    view_mode = st.selectbox(
-                        "View Mode",
-                        ["🎓 Learner View", "📋 Summary View", "🔧 JSON View"],
-                        index=0
-                    )
-                
-                with col4:
-                    if st.button("🗑️ Clear All Tasks"):
-                        if st.checkbox("⚠️ Confirm deletion"):
-                            for task_file in task_files:
-                                task_file.unlink()
-                            st.success("All tasks deleted!")
-                            st.rerun()
-                
-                st.divider()
-                
-                # Filter options
-                col1, col2, col3 = st.columns(3)
-                with col1:
-                    filter_by_generator = st.selectbox(
-                        "Filter by Generator",
-                        ["All", "ollama", "improved", "fallback"],
-                        index=0
-                    )
-                
-                with col2:
-                    filter_by_text_type = st.selectbox(
-                        "Filter by Text Type",
-                        ["All"] + [info['key'] for info in B2_TEXT_TYPES.values()],
-                        index=0
-                    )
-                
-                with col3:
-                    sort_by = st.selectbox(
-                        "Sort by",
-                        ["Task ID", "Title", "Topic Category", "Word Count"],
-                        index=0
-                    )
-                
-                # Load and display tasks
-                tasks_data = []
-                for task_file in task_files:
-                    try:
-                        with open(task_file, 'r') as f:
-                            task = json.load(f)
-                            task['filename'] = task_file.name
-                            tasks_data.append(task)
-                    except Exception as e:
-                        st.warning(f"Could not load {task_file.name}: {e}")
-                
-                # Apply filters
-                if filter_by_generator != "All":
-                    tasks_data = [t for t in tasks_data if t.get('generated_by') == filter_by_generator]
-                
-                if filter_by_text_type != "All":
-                    tasks_data = [t for t in tasks_data if t.get('text_type') == filter_by_text_type]
-                
-                # Sort tasks
-                if sort_by == "Task ID":
-                    tasks_data.sort(key=lambda x: x.get('task_id', ''))
-                elif sort_by == "Title":
-                    tasks_data.sort(key=lambda x: x.get('title', ''))
-                elif sort_by == "Topic Category":
-                    tasks_data.sort(key=lambda x: x.get('topic_category', ''))
-                elif sort_by == "Word Count":
-                    tasks_data.sort(key=lambda x: len(x.get('text', '').split()), reverse=True)
-                
-                if not tasks_data:
-                    st.info("No tasks match the current filters.")
-                    return
-                
-                st.info(f"Showing {len(tasks_data)} tasks")
-                
-                # Create tabs for each task
-                if view_mode == "🎓 Learner View":
-                    # Create tabs for individual task viewing
-                    task_names = [f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')[:30]}..." 
-                                 if len(task.get('title', '')) > 30 
-                                 else f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')}" 
-                                 for task in tasks_data]
-                    
-                    if len(tasks_data) > 10:
-                        st.warning("⚠️ Too many tasks for tab view. Showing first 10 tasks. Use filters to narrow down.")
-                        tasks_data = tasks_data[:10]
-                        task_names = task_names[:10]
-                    
-                    if tasks_data:
-                        selected_tabs = st.tabs(task_names)
+                        with col3:
+                            view_mode = st.selectbox(
+                                "View Mode",
+                                ["🎓 Learner View", "📋 Summary View", "🔧 JSON View"],
+                                index=0,
+                                key="individual_view_mode"
+                            )
                         
-                        for i, (task, tab) in enumerate(zip(tasks_data, selected_tabs)):
-                            with tab:
-                                display_task_learner_view(task)
-                
-                elif view_mode == "📋 Summary View":
-                    # Display tasks in summary cards
-                    for task in tasks_data:
-                        display_task_summary_view(task)
-                
-                elif view_mode == "🔧 JSON View":
-                    # Display tasks in JSON format
-                    for task in tasks_data:
-                        display_task_json_view(task)
+                        with col4:
+                            if st.button("🗑️ Clear All Individual Tasks", key="clear_individual"):
+                                if st.checkbox("⚠️ Confirm deletion of individual tasks", key="confirm_individual"):
+                                    for task_file in task_files:
+                                        task_file.unlink()
+                                    st.success("All individual tasks deleted!")
+                                    st.rerun()
                         
+                        st.divider()
+                        
+                        # Filter options
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            filter_by_generator = st.selectbox(
+                                "Filter by Generator",
+                                ["All", "ollama", "improved", "fallback"],
+                                index=0,
+                                key="individual_generator_filter"
+                            )
+                        
+                        with col2:
+                            filter_by_text_type = st.selectbox(
+                                "Filter by Text Type",
+                                ["All"] + [info['key'] for info in B2_TEXT_TYPES.values()],
+                                index=0,
+                                key="individual_text_type_filter"
+                            )
+                        
+                        with col3:
+                            sort_by = st.selectbox(
+                                "Sort by",
+                                ["Task ID", "Title", "Topic Category", "Word Count"],
+                                index=0,
+                                key="individual_sort"
+                            )
+                        
+                        # Load and display tasks
+                        tasks_data = []
+                        for task_file in task_files:
+                            try:
+                                with open(task_file, 'r') as f:
+                                    task = json.load(f)
+                                    task['filename'] = task_file.name
+                                    tasks_data.append(task)
+                            except Exception as e:
+                                st.warning(f"Could not load {task_file.name}: {e}")
+                        
+                        # Apply filters
+                        if filter_by_generator != "All":
+                            tasks_data = [t for t in tasks_data if t.get('generated_by') == filter_by_generator]
+                        
+                        if filter_by_text_type != "All":
+                            tasks_data = [t for t in tasks_data if t.get('text_type') == filter_by_text_type]
+                        
+                        # Sort tasks
+                        if sort_by == "Task ID":
+                            tasks_data.sort(key=lambda x: x.get('task_id', ''))
+                        elif sort_by == "Title":
+                            tasks_data.sort(key=lambda x: x.get('title', ''))
+                        elif sort_by == "Topic Category":
+                            tasks_data.sort(key=lambda x: x.get('topic_category', ''))
+                        elif sort_by == "Word Count":
+                            tasks_data.sort(key=lambda x: len(x.get('text', '').split()), reverse=True)
+                        
+                        if not tasks_data:
+                            st.info("No individual tasks match the current filters.")
+                        else:
+                            st.info(f"Showing {len(tasks_data)} individual tasks")
+                            
+                            # Display tasks based on view mode
+                            if view_mode == "🎓 Learner View":
+                                # Create tabs for individual task viewing
+                                task_names = [f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')[:30]}..." 
+                                             if len(task.get('title', '')) > 30 
+                                             else f"{task.get('task_id', 'Unknown')} - {task.get('title', 'Untitled')}" 
+                                             for task in tasks_data]
+                                
+                                if len(tasks_data) > 10:
+                                    st.warning("⚠️ Too many tasks for tab view. Showing first 10 tasks. Use filters to narrow down.")
+                                    tasks_data = tasks_data[:10]
+                                    task_names = task_names[:10]
+                                
+                                if tasks_data:
+                                    selected_tabs = st.tabs(task_names)
+                                    
+                                    for i, (task, tab) in enumerate(zip(tasks_data, selected_tabs)):
+                                        with tab:
+                                            display_task_learner_view(task)
+                            
+                            elif view_mode == "📋 Summary View":
+                                # Display tasks in summary cards
+                                for task in tasks_data:
+                                    display_task_summary_view(task)
+                            
+                            elif view_mode == "🔧 JSON View":
+                                # Display tasks in JSON format
+                                for task in tasks_data:
+                                    display_task_json_view(task)
+                    else:
+                        st.info("No individual tasks found. Generate some tasks first!")
+                
+                # Batch Collections Tab
+                with library_tab2:
+                    if batch_dirs:
+                        # Sort batch directories by creation time (newest first)
+                        batch_dirs.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+                        
+                        # Action buttons row
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            st.metric("📦 Total Batches", len(batch_dirs))
+                        
+                        with col2:
+                            if st.button("📥 Download All Batches", key="download_batches"):
+                                # Create a zip file with all batch folders
+                                import zipfile
+                                import io
+                                
+                                zip_buffer = io.BytesIO()
+                                with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zip_file:
+                                    for batch_dir in batch_dirs:
+                                        for file_path in batch_dir.rglob("*"):
+                                            if file_path.is_file():
+                                                arcname = str(file_path.relative_to(generated_tasks_dir))
+                                                zip_file.write(file_path, arcname)
+                                
+                                st.download_button(
+                                    label="💾 Download All Batches ZIP",
+                                    data=zip_buffer.getvalue(),
+                                    file_name="b2_first_batch_collections.zip",
+                                    mime="application/zip",
+                                    key="download_batches_zip"
+                                )
+                        
+                        with col3:
+                            batch_view_mode = st.selectbox(
+                                "Batch View Mode",
+                                ["📋 Batch Summary", "📄 Individual Tasks", "🔧 JSON View"],
+                                index=0,
+                                key="batch_view_mode"
+                            )
+                        
+                        st.divider()
+                        
+                        # Display batch collections
+                        for batch_dir in batch_dirs:
+                            batch_name = batch_dir.name
+                            
+                            # Load batch summary if available
+                            summary_file = batch_dir / "BATCH_SUMMARY.txt"
+                            batch_summary = None
+                            if summary_file.exists():
+                                try:
+                                    with open(summary_file, 'r') as f:
+                                        batch_summary = f.read()
+                                except Exception as e:
+                                    st.warning(f"Could not load summary for {batch_name}: {e}")
+                            
+                            # Get batch task files
+                            batch_task_files = list(batch_dir.glob("*.json"))
+                            
+                            # Create expandable section for each batch
+                            with st.expander(f"📦 {batch_name} ({len(batch_task_files)} tasks)", expanded=False):
+                                if batch_view_mode == "📋 Batch Summary":
+                                    # Display batch summary
+                                    if batch_summary:
+                                        st.markdown("### 📊 Batch Summary")
+                                        st.text(batch_summary)
+                                    else:
+                                        st.warning("No batch summary available")
+                                    
+                                    # Quick stats
+                                    if batch_task_files:
+                                        st.markdown("### 📈 Quick Stats")
+                                        col1, col2, col3 = st.columns(3)
+                                        
+                                        total_words = 0
+                                        total_questions = 0
+                                        text_types = set()
+                                        
+                                        for task_file in batch_task_files:
+                                            try:
+                                                with open(task_file, 'r') as f:
+                                                    task = json.load(f)
+                                                    total_words += len(task.get('text', '').split())
+                                                    total_questions += len(task.get('questions', []))
+                                                    text_types.add(task.get('text_type', 'unknown'))
+                                            except:
+                                                pass
+                                        
+                                        with col1:
+                                            st.metric("Total Words", f"{total_words:,}")
+                                        with col2:
+                                            st.metric("Total Questions", total_questions)
+                                        with col3:
+                                            st.metric("Text Types", len(text_types))
+                                
+                                elif batch_view_mode == "📄 Individual Tasks":
+                                    # Display individual tasks in the batch
+                                    if batch_task_files:
+                                        st.markdown("### 📄 Tasks in this Batch")
+                                        
+                                        batch_tasks_data = []
+                                        for task_file in batch_task_files:
+                                            try:
+                                                with open(task_file, 'r') as f:
+                                                    task = json.load(f)
+                                                    task['filename'] = task_file.name
+                                                    batch_tasks_data.append(task)
+                                            except Exception as e:
+                                                st.warning(f"Could not load {task_file.name}: {e}")
+                                        
+                                        # Sort by task ID
+                                        batch_tasks_data.sort(key=lambda x: x.get('task_id', ''))
+                                        
+                                        # Display tasks in summary cards
+                                        for task in batch_tasks_data:
+                                            display_task_summary_view(task)
+                                    else:
+                                        st.info("No task files found in this batch")
+                                
+                                elif batch_view_mode == "🔧 JSON View":
+                                    # Display batch files in JSON format
+                                    if batch_summary:
+                                        st.markdown("### 📊 Batch Summary")
+                                        st.text(batch_summary)
+                                        st.divider()
+                                    
+                                    if batch_task_files:
+                                        st.markdown("### 📄 Task Files")
+                                        for task_file in batch_task_files:
+                                            try:
+                                                with open(task_file, 'r') as f:
+                                                    task = json.load(f)
+                                                    task['filename'] = task_file.name
+                                                    display_task_json_view(task)
+                                            except Exception as e:
+                                                st.error(f"Could not load {task_file.name}: {e}")
+                                
+                                # Batch actions
+                                st.markdown("### 🔧 Batch Actions")
+                                col1, col2, col3 = st.columns(3)
+                                
+                                with col1:
+                                    # Download this batch
+                                    if st.button(f"📥 Download {batch_name}", key=f"download_{batch_name}"):
+                                        import zipfile
+                                        import io
+                                        
+                                        zip_buffer = io.BytesIO()
+                                        with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zip_file:
+                                            for file_path in batch_dir.rglob("*"):
+                                                if file_path.is_file():
+                                                    arcname = str(file_path.relative_to(batch_dir))
+                                                    zip_file.write(file_path, arcname)
+                                        
+                                        st.download_button(
+                                            label=f"💾 Download {batch_name}.zip",
+                                            data=zip_buffer.getvalue(),
+                                            file_name=f"{batch_name}.zip",
+                                            mime="application/zip",
+                                            key=f"download_{batch_name}_zip"
+                                        )
+                                
+                                with col2:
+                                    # View batch folder info
+                                    if st.button(f"📁 Folder Info", key=f"info_{batch_name}"):
+                                        st.info(f"**Path:** {batch_dir}")
+                                        st.info(f"**Created:** {datetime.fromtimestamp(batch_dir.stat().st_mtime).strftime('%Y-%m-%d %H:%M:%S')}")
+                                        st.info(f"**Size:** {sum(f.stat().st_size for f in batch_dir.rglob('*') if f.is_file())} bytes")
+                                
+                                with col3:
+                                    # Delete batch
+                                    if st.button(f"🗑️ Delete {batch_name}", key=f"delete_{batch_name}"):
+                                        if st.checkbox(f"⚠️ Confirm deletion of {batch_name}", key=f"confirm_delete_{batch_name}"):
+                                            import shutil
+                                            shutil.rmtree(batch_dir)
+                                            st.success(f"Batch {batch_name} deleted!")
+                                            st.rerun()
+                    else:
+                        st.info("No batch collections found. Use Batch Generation to create batch collections!")
             else:
-                st.info("No tasks found. Generate some tasks first!")
+                st.info("No tasks or batches found. Generate some content first!")
         else:
             st.info("Generated tasks directory not found.")
 
