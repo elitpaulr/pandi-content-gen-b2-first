@@ -119,55 +119,48 @@ class OllamaTaskGenerator:
         
         logger.info(f"Generating task {task_number} for topic: {topic} (text type: {text_type})")
         
-        max_retries = 3
-        for attempt in range(max_retries):
-            try:
-                logger.info(f"Attempt {attempt + 1}/{max_retries} for task {task_number}")
-                
-                # Generate the task using Ollama with text type
-                task_data = self.client.generate_reading_part5_task(
-                    topic, 
-                    text_type=text_type,
-                    custom_instructions=custom_instructions
-                )
-                
-                # Update task ID to match our numbering
-                task_data['task_id'] = f"reading_part5_task_{task_number:02d}"
-                
-                # Add comprehensive metadata including generation parameters
-                task_data['generated_by'] = "ollama"
-                task_data['model'] = self.client.config.model
-                task_data['generation_params'] = {
-                    'temperature': self.client.config.temperature,
-                    'max_tokens': self.client.config.max_tokens,
-                    'model_full_name': self.client.config.model
-                }
-                task_data['topic_category'] = self.categorize_topic(topic)
-                task_data['text_type'] = text_type
-                
-                # Validate task quality
-                if self.validate_task(task_data):
-                    logger.info(f"✅ Task validation passed")
-                    logger.info(f"✅ Successfully generated task {task_number} on attempt {attempt + 1}")
-                    return task_data
-                else:
-                    logger.warning(f"Task {task_number} failed validation on attempt {attempt + 1}")
-                    if attempt == max_retries - 1:
-                        # On last attempt, return even if validation fails
-                        logger.warning(f"Returning task {task_number} despite validation issues")
-                        return task_data
-                    continue
-                
-            except Exception as e:
-                logger.error(f"Attempt {attempt + 1} failed for task {task_number}: {e}")
-                if attempt == max_retries - 1:
-                    # On final attempt, raise the exception instead of creating fallback
-                    logger.error(f"All attempts failed for task {task_number}, giving up")
-                    raise RuntimeError(f"Failed to generate task after {max_retries} attempts: {str(e)}")
-                continue
-        
-        # This should never be reached, but just in case
-        raise RuntimeError(f"Unexpected error: task generation failed without proper exception handling")
+        try:
+            logger.info(f"Attempting generation for task {task_number}")
+            
+            # Generate the task using Ollama with text type
+            task_data = self.client.generate_reading_part5_task(
+                topic, 
+                text_type=text_type,
+                custom_instructions=custom_instructions
+            )
+            
+            # Update task ID to match our numbering
+            task_data['task_id'] = f"reading_part5_task_{task_number:02d}"
+            
+            # Add comprehensive metadata including generation parameters
+            task_data['generated_by'] = "ollama"
+            task_data['model'] = self.client.config.model
+            task_data['generation_params'] = {
+                'temperature': self.client.config.temperature,
+                'max_tokens': self.client.config.max_tokens,
+                'model_full_name': self.client.config.model
+            }
+            task_data['topic_category'] = self.categorize_topic(topic)
+            task_data['text_type'] = text_type
+            
+            # Validate task quality
+            if self.validate_task(task_data):
+                logger.info(f"✅ Task validation passed")
+                logger.info(f"✅ Successfully generated task {task_number}")
+                return task_data
+            else:
+                # Save validation failure details
+                validation_error = f"Task validation failed for task {task_number}"
+                self.save_failure_log(task_number, topic, text_type, custom_instructions, validation_error, "validation_failure")
+                logger.error(f"Task {task_number} failed validation, details saved to failure log")
+                raise RuntimeError(f"Generated task failed validation requirements")
+            
+        except Exception as e:
+            # Save detailed failure information
+            self.save_failure_log(task_number, topic, text_type, custom_instructions, str(e), type(e).__name__)
+            logger.error(f"Generation failed for task {task_number}: {e}")
+            logger.error(f"Failure details saved to log file")
+            raise RuntimeError(f"Failed to generate task: {str(e)}")
     
     def categorize_topic(self, topic: str) -> str:
         """Categorize topic for organization"""
@@ -334,6 +327,64 @@ class OllamaTaskGenerator:
         
         return improved_tasks
     
+    def save_failure_log(self, task_number: int, topic: str, text_type: str, custom_instructions: Optional[str], error_message: str, error_type: str):
+        """Save detailed failure information for analysis"""
+        import datetime
+        
+        # Create failure logs directory if it doesn't exist
+        failure_logs_dir = Path(__file__).parent.parent.parent / "failure_logs"
+        failure_logs_dir.mkdir(exist_ok=True)
+        
+        # Generate timestamp and filename
+        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"task_{task_number:02d}_failure_{timestamp}.txt"
+        filepath = failure_logs_dir / filename
+        
+        # Collect system information
+        failure_details = f"""TASK GENERATION FAILURE LOG
+========================================
+
+Timestamp: {datetime.datetime.now().isoformat()}
+Task Number: {task_number:02d}
+Error Type: {error_type}
+
+GENERATION PARAMETERS:
+---------------------
+Topic: {topic}
+Text Type: {text_type}
+Custom Instructions: {custom_instructions or 'None'}
+
+MODEL CONFIGURATION:
+-------------------
+Model: {self.client.config.model}
+Temperature: {self.client.config.temperature}
+Max Tokens: {self.client.config.max_tokens}
+
+ERROR DETAILS:
+-------------
+{error_message}
+
+SYSTEM INFO:
+-----------
+Ollama Status: {'Connected' if self.check_ollama_status() else 'Disconnected'}
+Available Models: {getattr(self.client, '_available_models', 'Unknown')}
+
+NEXT STEPS FOR ANALYSIS:
+-----------------------
+1. Check if this is a recurring pattern with similar topics/text types
+2. Verify Ollama connection stability
+3. Consider adjusting model parameters if validation failures
+4. Review topic complexity and custom instructions
+
+Generated by: OllamaTaskGenerator v1.0
+"""
+        
+        # Save to file
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(failure_details)
+        
+        logger.info(f"💾 Failure log saved to: {filepath}")
+        return filepath
 
 
 def main():
