@@ -1,0 +1,91 @@
+{
+  "task_id": "reading_part5_task_02",
+  "title": "Discovering Vibrant Rio: A Journey Through Carnival Colors and Amazonian Dreams",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "Brazil, a country of vibrant rhythms, stunning beaches, and infectious energy. As you step off the plane in Rio de Janeiro or São Paulo, you can't help but feel the excitement building up inside you. With its rich cultural heritage, breathtaking landscapes, and passionate people, Brazil is a destination that will leave you wanting more.\n\nOne of the first things that strike visitors to Brazil is the country's love of music and dance. The sound of samba drums and the sight of Carnival dancers in their glittering costumes are just two examples of the many ways in which music and movement are an integral part of Brazilian culture. Whether you're watching a live performance or dancing the night away yourself, you can't help but be caught up in the infectious rhythms and energy of this vibrant country.\n\nOf course, no trip to Brazil would be complete without experiencing its stunning beaches. From the famous Copacabana and Ipanema beaches in Rio de Janeiro to the pristine shores of Fernando de Noronha off the coast of Pernambuco, there's no shortage of options for sun-worshippers and water sports enthusiasts alike. As you walk along the beach, feeling the warm sand between your toes and the cool breeze in your hair, it's hard not to feel a sense of peace and tranquility wash over you.\n\nBut Brazil is more than just beautiful beaches and lively music – it's also a country with a rich cultural heritage and history. From the colonial architecture of Salvador in Bahia to the stunning modernist buildings of São Paulo, there's no shortage of fascinating sights to explore. And then, of course, there are the incredible natural wonders that Brazil has to offer – from the majestic Iguazu Falls on the border with Argentina to the stunning Amazon rainforest that covers much of the north of the country.\n\nAs you travel through Brazil, one thing becomes clear: this is a country where people live in the present moment. Whether they're dancing in the streets or simply enjoying a meal with friends and family, Brazilians seem to have a deep appreciation for life's simple pleasures. Visitors often comment on the warmth and hospitality of the Brazilian people – and it's not hard to see why when you experience the famous \"hospitality\" that comes with staying in a local guesthouse or eating at a family-run restaurant.\n\nIf you're planning a trip to Brazil, one thing is essential: learn some basic Portuguese. While many Brazilians speak English, especially in tourist areas, knowing a few key phrases can go a long way in making your experience even more enjoyable. And don't worry if you make mistakes – the worst that will happen is that someone will laugh and correct you with a smile.\n\nAs you explore this incredible country, you may find yourself drawn to certain regions or cities more than others. Rio de Janeiro, for example, has its own unique energy and style, while São Paulo offers a more cosmopolitan experience. Bahia in the north is home to some of Brazil's most beautiful beaches and colonial architecture, while the Amazon rainforest is a must-visit destination for nature lovers.\n\nOne thing that's certain, though, is that you'll leave Brazil with unforgettable memories. Whether you're dancing the night away at Carnival or simply enjoying a quiet evening in a local bar, this country will capture your heart and imagination in ways you never thought possible.\n\nIn fact, it's likely that even when you return home, you'll find yourself dreaming of the Brazilian beaches, music, and culture that you experienced. And who knows? Maybe someday you'll make the trip back to Brazil – and discover even more of its hidden treasures and wonders. After all, as Brazilians say: \"O Brasil é um país de sonhos\" (Brazil is a country of dreams) – and it's not hard to see why when you experience it for yourself.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the attitude of Brazilians towards life's simple pleasures?",
+      "options": {
+        "A": "They often complain about the quality of local food",
+        "B": "They appreciate the beauty of their natural surroundings but prioritize material wealth",
+        "C": "They have a deep appreciation for life's simple joys and live in the present moment",
+        "D": "They are generally detached from the world around them"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word 'vibrant' most likely mean in this context?",
+      "options": {
+        "A": "Extremely calm",
+        "B": "Full of life, energy, and excitement",
+        "C": "Relatively quiet and peaceful",
+        "D": "Somewhat dull and uninteresting"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What language do most visitors recommend learning before visiting Brazil?",
+      "options": {
+        "A": "French",
+        "B": "Spanish",
+        "C": "Portuguese",
+        "D": "German"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what can be said about Brazilians?",
+      "options": {
+        "A": "They are always busy with work and have no time for leisure activities.",
+        "B": "They have a deep appreciation for life's simple pleasures and live in the present moment.",
+        "C": "They are not fond of music and dance.",
+        "D": "They only enjoy spending time indoors."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"infectious rhythms and energy\" refer to in the text?",
+      "options": {
+        "A": "The beautiful beaches along Copacabana and Ipanema",
+        "B": "The vibrant music and dance that are an integral part of Brazilian culture",
+        "C": "The warm sand between visitors' toes on Brazil's beaches",
+        "D": "The colonial architecture of Salvador in Bahia"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What can be said about Brazil based on this text?",
+      "options": {
+        "A": "It is a country with a rich history but dull culture",
+        "B": "It is a destination that offers beautiful beaches, vibrant music, and cultural experiences",
+        "C": "It is a place where people live in the past and value tradition",
+        "D": "It is a country with a cold climate and limited tourist attractions"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general",
+  "custom_instructions": "use conditional sentences"
+}
