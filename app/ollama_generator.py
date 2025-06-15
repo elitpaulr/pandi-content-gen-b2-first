@@ -1041,12 +1041,14 @@ def main():
                             st.session_state.show_selected_task = True
                     
                     with col2:
-                        # Download individual task
-                        task_json = json.dumps(selected_task, indent=2)
+                        # Download individual task (exclude non-serializable fields)
+                        task_data_for_download = {k: v for k, v in selected_task.items() 
+                                                if k not in ['file_path', 'filename']}
+                        task_json = json.dumps(task_data_for_download, indent=2)
                         st.download_button(
                             label="💾 Download JSON",
                             data=task_json,
-                            file_name=selected_task['filename'],
+                            file_name=selected_task.get('filename', 'task.json'),
                             mime="application/json",
                             key="download_selected_task"
                         )
@@ -1959,12 +1961,16 @@ def display_task_json_view(task):
     """Display a task in JSON format"""
     text_type_display = task.get('text_type', 'unknown').replace('_', ' ').title()
     
+    # Filter out non-serializable fields for display and download
+    task_data_clean = {k: v for k, v in task.items() 
+                      if k not in ['file_path', 'filename']}
+    
     with st.expander(f"🔧 {task.get('title', 'Untitled')} - JSON Data"):
-        st.json(task)
+        st.json(task_data_clean)
         
         st.download_button(
             label="📥 Download JSON",
-            data=json.dumps(task, indent=2),
+            data=json.dumps(task_data_clean, indent=2),
             file_name=f"{task.get('task_id', 'task')}.json",
             mime="application/json",
             key=f"download_json_{task.get('task_id', 'unknown')}"
