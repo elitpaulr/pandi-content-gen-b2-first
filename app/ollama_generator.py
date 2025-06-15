@@ -1875,9 +1875,12 @@ def display_task_learner_view(task):
     col1, col2, col3 = st.columns(3)
     
     with col1:
+        # Filter out non-serializable fields for download
+        task_data_clean = {k: v for k, v in task.items() 
+                          if k not in ['file_path', 'filename']}
         st.download_button(
             label="📥 Download JSON",
-            data=json.dumps(task, indent=2),
+            data=json.dumps(task_data_clean, indent=2),
             file_name=f"{task.get('task_id', 'task')}.json",
             mime="application/json",
             key=f"download_learner_{task.get('task_id', 'unknown')}"
@@ -1889,7 +1892,10 @@ def display_task_learner_view(task):
     
     with col3:
         if st.button("📊 View JSON", key=f"json_view_{task.get('task_id', 'unknown')}"):
-            st.json(task)
+            # Filter out non-serializable fields for JSON display
+            task_data_clean = {k: v for k, v in task.items() 
+                              if k not in ['file_path', 'filename']}
+            st.json(task_data_clean)
 
 def display_task_summary_view(task):
     """Display a task in summary card format"""
@@ -1946,16 +1952,22 @@ def display_task_summary_view(task):
         # Individual task actions
         col1, col2 = st.columns(2)
         with col1:
+            # Filter out non-serializable fields for download
+            task_data_clean = {k: v for k, v in task.items() 
+                              if k not in ['file_path', 'filename']}
             st.download_button(
                 label="📥 Download JSON",
-                data=json.dumps(task, indent=2),
+                data=json.dumps(task_data_clean, indent=2),
                 file_name=f"{task.get('task_id', 'task')}.json",
                 mime="application/json",
                 key=f"download_summary_{task.get('task_id', 'unknown')}"
             )
         with col2:
             if st.button(f"📖 View Full Task", key=f"view_summary_{task.get('task_id', 'unknown')}"):
-                st.json(task)
+                # Filter out non-serializable fields for JSON display
+                task_data_clean = {k: v for k, v in task.items() 
+                                  if k not in ['file_path', 'filename']}
+                st.json(task_data_clean)
 
 def display_task_json_view(task):
     """Display a task in JSON format"""
@@ -2191,9 +2203,12 @@ def display_task_learner_view_simple(task, context="batch"):
     col1, col2, col3 = st.columns(3)
     
     with col1:
+        # Filter out non-serializable fields for download
+        task_data_clean = {k: v for k, v in task.items() 
+                          if k not in ['file_path', 'filename']}
         st.download_button(
             label="📥 Download JSON",
-            data=json.dumps(task, indent=2),
+            data=json.dumps(task_data_clean, indent=2),
             file_name=f"{task.get('task_id', 'task')}.json",
             mime="application/json",
             key=f"download_{context}_{task.get('task_id', 'unknown')}"
@@ -2205,7 +2220,10 @@ def display_task_learner_view_simple(task, context="batch"):
     
     with col3:
         if st.button("📊 View JSON", key=f"json_view_{context}_{task.get('task_id', 'unknown')}"):
-            st.json(task)
+            # Filter out non-serializable fields for JSON display
+            task_data_clean = {k: v for k, v in task.items() 
+                              if k not in ['file_path', 'filename']}
+            st.json(task_data_clean)
 
 if __name__ == "__main__":
     main() 
