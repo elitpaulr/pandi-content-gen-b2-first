@@ -621,62 +621,88 @@ def main():
                             st.rerun()
     
     with tab2:
-        st.header("Improve Existing Tasks")
+        st.header("🔧 Improve Existing Tasks")
         
-        # Load existing tasks
-        generated_tasks_dir = Path(__file__).parent.parent / "generated_tasks"
-        if generated_tasks_dir.exists():
-            task_files = list(generated_tasks_dir.glob("*.json"))
+        # Feature coming soon notice
+        st.warning("🚧 **Feature Coming Soon**")
+        st.markdown("""
+        **Task Improvement functionality is currently under development.**
+        
+        This feature will allow you to:
+        - 🎯 **Enhance existing tasks** with AI-powered improvements
+        - 📝 **Refine question quality** and distractor effectiveness  
+        - 🔍 **Adjust difficulty levels** to better match B2 standards
+        - ✨ **Improve text engagement** and readability
+        - 🎨 **Customize focus areas** for targeted improvements
+        
+        **Current Status:** In development - not yet available for use
+        
+        **Expected Release:** Future version update
+        """)
+        
+        # Disabled preview of the interface
+        st.subheader("🔮 Preview of Upcoming Features")
+        
+        with st.expander("👀 See what's coming..."):
+            st.markdown("**Task Selection Interface:**")
+            st.selectbox(
+                "Select Task to Improve",
+                ["Feature not yet available"],
+                disabled=True,
+                help="This will show all your generated tasks when the feature is ready"
+            )
             
-            if task_files:
-                selected_file = st.selectbox(
-                    "Select Task to Improve",
-                    task_files,
-                    format_func=lambda x: x.stem
-                )
+            st.markdown("**Improvement Focus Areas:**")
+            st.multiselect(
+                "Choose improvement areas",
+                ["Question specificity", "Distractor quality", "Text engagement", "Vocabulary level", "Question variety"],
+                disabled=True,
+                help="Select specific aspects to improve in your tasks"
+            )
+            
+            st.markdown("**AI-Powered Enhancement:**")
+            st.button("🔧 Improve Task", disabled=True, help="This will use AI to enhance your selected task")
+            
+            st.info("💡 **Tip:** Use the QA Review system in the Task Library to evaluate and annotate your current tasks while we develop this improvement feature!")
+        
+        # Alternative suggestions
+        st.markdown("---")
+        st.subheader("🎯 What You Can Do Now")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown("""
+            **📚 Use Task Library QA Review:**
+            - Review and annotate existing tasks
+            - Track quality with approval/rejection status
+            - Add detailed feedback notes
+            - Filter tasks by QA status
+            """)
+            
+        with col2:
+            st.markdown("""
+            **🎯 Generate New Tasks:**
+            - Create tasks with custom instructions
+            - Use different text types for variety
+            - Generate batch collections efficiently
+            - Apply lessons learned from QA reviews
+            """)
+        
+        # Quick navigation buttons
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            if st.button("📚 Go to Task Library", key="nav_to_library"):
+                st.info("👆 Click the 'Task Library' tab above to access QA Review features")
                 
-                if selected_file:
-                    # Load and display current task
-                    with open(selected_file, 'r') as f:
-                        current_task = json.load(f)
-                    
-                    st.subheader("Current Task")
-                    st.json(current_task, expanded=False)
-                    
-                    improvement_focus = st.multiselect(
-                        "Focus Areas for Improvement",
-                        ["Question specificity", "Distractor quality", "Text engagement", "Vocabulary level", "Question variety"],
-                        default=["Question specificity", "Distractor quality"]
-                    )
-                    
-                    if st.button("🔧 Improve Task"):
-                        with st.spinner("Improving task... This may take 30-60 seconds"):
-                            try:
-                                config = OllamaConfig(model=selected_model)
-                                client = OllamaClient(config)
-                                
-                                improved_task = client.improve_existing_task(current_task)
-                                
-                                st.success("✅ Task improved!")
-                                st.subheader("Improved Task")
-                                st.json(improved_task, expanded=False)
-                                
-                                # Save improved version
-                                if st.button("💾 Save Improved Task"):
-                                    improved_filename = f"{improved_task['task_id']}_improved.json"
-                                    improved_path = generated_tasks_dir / improved_filename
-                                    
-                                    with open(improved_path, 'w') as f:
-                                        json.dump(improved_task, f, indent=2)
-                                    
-                                    st.success(f"Improved task saved as: {improved_filename}")
-                                
-                            except Exception as e:
-                                st.error(f"❌ Improvement failed: {str(e)}")
-            else:
-                st.info("No existing tasks found. Generate some tasks first!")
-        else:
-            st.info("Generated tasks directory not found.")
+        with col2:
+            if st.button("🎯 Generate New Task", key="nav_to_generate"):
+                st.info("👆 Click the 'Generate Tasks' tab above to create new content")
+                
+        with col3:
+            if st.button("📊 Batch Generation", key="nav_to_batch"):
+                st.info("👆 Click the 'Batch Generation' tab above for bulk task creation")
     
     with tab3:
         st.header("Batch Generation")
