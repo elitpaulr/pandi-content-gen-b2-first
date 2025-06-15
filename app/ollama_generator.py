@@ -2084,76 +2084,132 @@ Return the improved task in the same JSON format."""
     with tab6:
         st.header("📖 Documentation")
         
-        # Simple approach - load and display the topic selection guide directly
-        st.subheader("📋 B2 First Topic Selection Guide")
+        # Create tabs for different documentation sections
+        doc_tab1, doc_tab2, doc_tab3, doc_tab4 = st.tabs([
+            "🔍 QA Reviewer Manual", 
+            "📋 Topic Selection Guide", 
+            "🎯 B2 Standards", 
+            "🔧 Technical Specs"
+        ])
         
-        try:
-            docs_path = Path("docs/topic_selection_guide.md")
-            if docs_path.exists():
-                with open(docs_path, 'r', encoding='utf-8') as f:
-                    guide_content = f.read()
-                st.markdown(guide_content)
-                st.success(f"✅ Documentation loaded successfully")
-            else:
-                st.error("📄 Topic Selection Guide not found")
-                st.info(f"🔍 Looking for: {docs_path.resolve()}")
-                st.info(f"📍 Current directory: {Path.cwd()}")
-                
-        except Exception as e:
-            st.error(f"❌ Error loading documentation: {str(e)}")
-            st.info("Please check that the docs/topic_selection_guide.md file exists and is readable.")
+        with doc_tab1:
+            st.subheader("🔍 QA Reviewer Manual")
+            st.markdown("*Complete guide for quality assurance reviewers*")
+            
+            try:
+                qa_manual_path = Path("docs/qa_reviewer_manual.md")
+                if qa_manual_path.exists():
+                    with open(qa_manual_path, 'r', encoding='utf-8') as f:
+                        qa_manual_content = f.read()
+                    st.markdown(qa_manual_content)
+                    st.success(f"✅ QA Reviewer Manual loaded successfully")
+                else:
+                    st.error("📄 QA Reviewer Manual not found")
+                    st.info(f"🔍 Looking for: {qa_manual_path.resolve()}")
+                    
+            except Exception as e:
+                st.error(f"❌ Error loading QA manual: {str(e)}")
+                st.info("Please check that the docs/qa_reviewer_manual.md file exists and is readable.")
         
-        # Add additional documentation sections directly
-        st.markdown("---")
-        st.subheader("🎯 B2 First Standards")
-        st.markdown("""
-        ### Cambridge B2 First Reading Part 5 Requirements
+        with doc_tab2:
+            st.subheader("📋 B2 First Topic Selection Guide")
+            
+            try:
+                docs_path = Path("docs/topic_selection_guide.md")
+                if docs_path.exists():
+                    with open(docs_path, 'r', encoding='utf-8') as f:
+                        guide_content = f.read()
+                    st.markdown(guide_content)
+                    st.success(f"✅ Topic Selection Guide loaded successfully")
+                else:
+                    st.error("📄 Topic Selection Guide not found")
+                    st.info(f"🔍 Looking for: {docs_path.resolve()}")
+                    st.info(f"📍 Current directory: {Path.cwd()}")
+                    
+            except Exception as e:
+                st.error(f"❌ Error loading documentation: {str(e)}")
+                st.info("Please check that the docs/topic_selection_guide.md file exists and is readable.")
         
-        **Text Specifications:**
-        - **Length**: 400-800 words (flexible range for quality content)
-        - **Level**: Intermediate to Upper-Intermediate (B2)
-        - **Topics**: Age-appropriate, culturally neutral, contemporary relevance
+        with doc_tab3:
+            st.subheader("🎯 B2 First Standards")
+            st.markdown("""
+            ### Cambridge B2 First Reading Part 5 Requirements
+            
+            **Text Specifications:**
+            - **Length**: 400-800 words (flexible range for quality content)
+            - **Level**: Intermediate to Upper-Intermediate (B2)
+            - **Topics**: Age-appropriate, culturally neutral, contemporary relevance
+            
+            **Question Requirements:**
+            - **Number**: 5-6 questions per task
+            - **Types**: Inference, vocabulary, detail, attitude, reference, main idea
+            - **Format**: Multiple choice with 4 options (A, B, C, D)
+            - **Answer Key**: One correct answer per question
+            
+            ### Quality Indicators
+            
+            **Good Quality Markers:**
+            - Natural, engaging writing style
+            - Appropriate vocabulary range for B2
+            - Clear paragraph structure
+            - Questions test different skills
+            - Realistic, plausible distractors
+            - Specific reference to text content
+            
+            **Quality Issues to Avoid:**
+            - Artificial or stilted language
+            - Vocabulary too simple or too complex
+            - Unclear or ambiguous questions
+            - Multiple possible correct answers
+            - Generic questions not tied to text
+            - Poor grammar or spelling errors
+            """)
         
-        **Question Requirements:**
-        - **Number**: 5-6 questions per task
-        - **Types**: Inference, vocabulary, detail, attitude, reference, main idea
-        - **Format**: Multiple choice with 4 options (A, B, C, D)
-        - **Answer Key**: One correct answer per question
-        """)
-        
-        st.markdown("---")
-        st.subheader("🔧 Technical Specifications")
-        st.markdown("""
-        ### System Architecture
-        
-        **Core Components:**
-        - **LLM Integration**: Ollama with local models (Llama 3.1, Mistral)
-        - **Content Generation**: Step-by-step task creation with validation
-        - **JSON Processing**: Robust parsing with error recovery
-        - **File Management**: Auto-save, batch processing, organized storage
-        
-        **Text Types Available:**
-        - Magazine Article, Blog Post, News Report, Professional Feature
-        - Educational Feature, Cultural Review, Travel Writing, Lifestyle Feature
-        - Opinion Piece, Novel Extract
-        """)
-        
-        st.markdown("---")
-        st.subheader("💡 Best Practices")
-        st.markdown("""
-        ### Content Creation Guidelines
-        
-        **Topic Selection:**
-        - Choose contemporary, relevant subjects
-        - Ensure cultural neutrality and age appropriateness
-        - Balance familiar and challenging concepts
-        
-        **Quality Control:**
-        - Review generated content for accuracy
-        - Check cultural sensitivity
-        - Verify language level appropriateness
-        - Test questions with target learners
-        """)
+        with doc_tab4:
+            st.subheader("🔧 Technical Specifications")
+            st.markdown("""
+            ### System Architecture
+            
+            **Core Components:**
+            - **LLM Integration**: Ollama with local models (Llama 3.1, Mistral)
+            - **Content Generation**: Step-by-step task creation with validation
+            - **JSON Processing**: Robust parsing with error recovery
+            - **File Management**: Auto-save, batch processing, organized storage
+            - **QA System**: Comprehensive review and annotation workflow
+            
+            **Text Types Available:**
+            - Magazine Article, Blog Post, News Report, Professional Feature
+            - Educational Feature, Cultural Review, Travel Writing, Lifestyle Feature
+            - Opinion Piece, Novel Extract
+            
+            ### QA System Features
+            
+            **Review Capabilities:**
+            - Multi-level annotation (Overall, Title, Text, Questions)
+            - Status tracking (Pending, Approved, Rejected)
+            - Reviewer identification and timestamping
+            - Filtering and sorting by QA status
+            - Batch review support
+            
+            **Data Management:**
+            - JSON-based annotation storage
+            - Real-time status updates
+            - Export and download functionality
+            - Cross-session persistence
+            
+            ### Best Practices
+            
+            **Content Creation Guidelines:**
+            - Choose contemporary, relevant subjects
+            - Ensure cultural neutrality and age appropriateness
+            - Balance familiar and challenging concepts
+            
+            **Quality Control:**
+            - Use QA Review mode for systematic evaluation
+            - Filter by status to prioritize pending tasks
+            - Provide specific, constructive feedback
+            - Track approval rates and common issues
+            """)
 
 def display_task_learner_view(task):
     """Display a task in a nicely formatted learner view"""

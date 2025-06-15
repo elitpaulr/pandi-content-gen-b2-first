@@ -1,10 +1,10 @@
 # B2 First Exam Content Generation Tool
 
-A Python-based language learning content generation tool for Cambridge B2 First exam preparation featuring both static content processing and dynamic AI-powered generation using local Ollama LLM with Streamlit frontend.
+A Python-based language learning content generation tool for Cambridge B2 First exam preparation featuring both static content processing and dynamic AI-powered generation using local Ollama LLM with Streamlit frontend and comprehensive Quality Assurance (QA) system.
 
 ## 🎯 Project Overview
 
-This tool transforms the official Cambridge B2 First handbook into an interactive learning system with multiple interfaces for exam preparation. It processes PDF content, extracts structured knowledge, and generates authentic practice tasks using advanced AI-powered generation with comprehensive batch processing and task management capabilities.
+This tool transforms the official Cambridge B2 First handbook into an interactive learning system with multiple interfaces for exam preparation. It processes PDF content, extracts structured knowledge, and generates authentic practice tasks using advanced AI-powered generation with comprehensive batch processing, task management capabilities, and a complete Quality Assurance workflow for human reviewers.
 
 ## ✨ Features
 
@@ -13,7 +13,7 @@ This tool transforms the official Cambridge B2 First handbook into an interactiv
 - **Reading Criteria Browser** - Focused Reading & Use of English criteria with search
 - **Part 5 Examples Viewer** - Interactive practice with official examples
 - **Generated Tasks Browser** - Browse and practice with AI-generated tasks
-- **🤖 Ollama Task Generator** - Real-time AI-powered task generation using local LLM
+- **🤖 Ollama Task Generator with QA System** - Real-time AI-powered task generation using local LLM with comprehensive quality assurance
 
 ### 🤖 Advanced Content Generation
 - **Static Tasks**: 10 pre-generated Reading Part 5 tasks with authentic exam-style questions
@@ -30,11 +30,21 @@ This tool transforms the official Cambridge B2 First handbook into an interactiv
 
 ### 📊 Enhanced Task Library & Management
 - **📦 Batch Collection Viewing**: Browse and manage batch-generated tasks with summaries
-- **🎓 Multiple View Modes**: Learner View, Summary View, and JSON View for all tasks
+- **🎓 Multiple View Modes**: Learner View, Summary View, JSON View, and **🔍 QA Review Mode**
 - **📋 Comprehensive Batch Summaries**: Detailed generation metadata, statistics, and file listings
-- **🔍 Advanced Filtering**: Filter by generator type, text type, and other criteria
+- **🔍 Advanced Filtering**: Filter by generator type, text type, and **QA status** (Pending/Approved/Rejected)
 - **📥 Bulk Download**: Download individual tasks, batches, or entire collections as ZIP files
 - **📊 Task Statistics**: Word counts, question counts, success rates, and generation metrics
+
+### 🔍 Quality Assurance (QA) System
+- **Multi-Level Review**: Annotate Overall Task, Title, Text, and individual Questions separately
+- **QA Status Tracking**: Pending ⏳, Approved ✅, Rejected ❌ with visual indicators
+- **Reviewer Management**: Track reviewer names, timestamps, and detailed notes
+- **Status-Based Filtering**: Filter tasks by QA status for efficient review workflow
+- **QA Metrics Dashboard**: Real-time counts of approved/pending/rejected tasks
+- **Batch QA Support**: Review and track QA status across entire batch collections
+- **Persistent Annotations**: QA data saved to JSON files with cross-session persistence
+- **📖 Comprehensive QA Manual**: Step-by-step reviewer guide with best practices
 
 ### 📊 Interactive Practice
 - **Immediate Feedback** - Answer checking with explanations
@@ -96,7 +106,7 @@ streamlit run app/reading_part5.py --server.port 8504
 # Generated Tasks Browser (Port 8505/8506)
 streamlit run app/generated_tasks_browser.py --server.port 8505
 
-# 🤖 Ollama Task Generator (Port 8508)
+# 🤖 Ollama Task Generator with QA System (Port 8508)
 streamlit run app/ollama_generator.py --server.port 8508
 ```
 
@@ -109,7 +119,7 @@ pandi-content-gen-b2-first/
 │   ├── reading_criteria.py       # Reading criteria browser
 │   ├── reading_part5.py          # Part 5 examples viewer
 │   ├── generated_tasks_browser.py # Generated tasks browser
-│   └── ollama_generator.py       # 🤖 AI-powered task generator
+│   └── ollama_generator.py       # 🤖 AI-powered task generator with QA system
 ├── src/
 │   ├── knowledge/                # PDF processing and extractors
 │   │   ├── pdf_processor.py      # PDF content extraction
@@ -127,13 +137,16 @@ pandi-content-gen-b2-first/
 │   ├── reading_criteria.json
 │   ├── reading_part5_examples.json
 │   └── b2_first_reading_part5_generation_guidelines.json
+├── docs/                         # Documentation and manuals
+│   ├── qa_reviewer_manual.md     # Comprehensive QA reviewer guide
+│   └── qa_functionality_guide.md # QA system documentation
 ├── generated_tasks/              # Task storage with batch organization
-│   ├── reading_part5_task_01.json # Individual tasks
+│   ├── reading_part5_task_01.json # Individual tasks (with QA annotations)
 │   ├── ...
 │   ├── reading_part5_task_15.json
 │   ├── batch_20250615_093427_2topics_2types/ # Batch folders
 │   │   ├── BATCH_SUMMARY.txt     # Comprehensive batch metadata
-│   │   ├── reading_part5_task_*.json # Auto-saved tasks
+│   │   ├── reading_part5_task_*.json # Auto-saved tasks with QA support
 │   │   └── ...
 │   └── batch_*/                  # Additional batch collections
 ├── failure_logs/                 # Generation failure analysis
@@ -145,82 +158,21 @@ pandi-content-gen-b2-first/
 └── README.md
 ```
 
-## 🔧 Technical Implementation
-
-### Knowledge Processing Pipeline
-1. **PDF Extraction** - PyPDF2 processes the official handbook
-2. **Content Structuring** - Extracts specific sections and criteria
-3. **JSON Storage** - Structured data for easy access
-4. **Static Task Generation** - Pre-generated content with improved algorithms
-5. **🤖 AI-Powered Generation** - Real-time task creation using local Ollama LLM
-
-### 🚀 Advanced AI Generation Features
-- **Local LLM Integration** - Uses Ollama for privacy and control
-- **Multiple Model Support** - Compatible with llama3.1, mistral, and other models
-- **📝 Text Type Selection** - 10 B2-appropriate text types with specific styling
-- **📝 Custom Instructions** - Add specific requirements, focus areas, and constraints
-- **🔄 Step-by-Step Generation** - Advanced LLM approach generating title, text, and questions separately
-- **Real-time Generation** - Create tasks on-demand with custom topics
-- **Quality Validation** - Automatic checking of generated content (400-800 words, 5-6 questions)
-- **🚀 Batch Processing** - Generate multiple tasks efficiently with text type combinations
-- **📁 Auto-Save with Subfolders** - Automatic organization in timestamped batch directories
-- **📋 Comprehensive Summaries** - Detailed batch metadata and generation statistics
-- **Task Improvement** - AI-powered enhancement of existing content
-- **🛡️ Robust JSON Parsing** - Handles complex LLM output with formatting characters and control sequences
-- **🔍 Failure Analysis** - Detailed logging and analysis of generation failures
-
-### 📦 Batch Generation & Organization
-- **Unique Timestamped Folders**: Format `batch_YYYYMMDD_HHMMSS_XtopicsYtypes`
-- **Auto-Save Functionality**: Each task saved immediately after generation
-- **Comprehensive Batch Summaries**: Include generation parameters, success metrics, file listings
-- **Isolated Operations**: Batch generation doesn't interfere with individual task numbering
-- **Error Handling**: Failed generations logged with detailed analysis
-- **Progress Tracking**: Real-time progress updates and status reporting
-
-### 📚 Enhanced Task Library Features
-- **Dual Interface**: Separate views for Individual Tasks and Batch Collections
-- **Multiple View Modes**:
-  - **🎓 Learner View**: Interactive task experience with tabs
-  - **📋 Summary View**: Compact cards with key information
-  - **🔧 JSON View**: Raw data for technical inspection
-- **Batch Management**:
-  - **📋 Batch Summary**: Generation metadata and quick statistics
-  - **🎓 Learner View**: Tabbed interface for batch tasks (up to 6 tasks)
-  - **📥 Download Options**: Individual files, batch ZIP, or bulk downloads
-  - **🗑️ Batch Actions**: Delete, info, and management functions
-- **Advanced Filtering**: By generator type, text type, custom instructions
-- **📊 Statistics Dashboard**: Success rates, word counts, question distributions
-
-### Generated Content Quality
-- **400-800 word texts** per task (B2 First standard)
-- **5-6 specific questions** per task with contextual options (questions 31-36)
-- **📝 Custom Instructions Integration**: Tasks reflect specific requirements and focus areas
-- **10 Text Types Available:**
-  - 📰 Magazine Article - Informative lifestyle and science content
-  - 📄 Newspaper Article - News features and opinion pieces
-  - 📖 Novel Extract - Contemporary fiction excerpts
-  - ✍️ Personal Blog Post - First-person experiences
-  - 🔬 Popular Science Article - Accessible scientific explanations
-  - 🎭 Cultural Review - Commentary on books, films, art
-  - 💼 Professional Feature - Career and workplace content
-  - 🏠 Lifestyle Feature - Home, family, and personal interests
-  - 🌍 Travel Writing - Destination guides and cultural observations
-  - 📚 Educational Feature - Learning and skill development
-- **Question types include:**
-  - Inference and implication
-  - Word/phrase meaning in context
-  - Attitudes and opinions
-  - Specific details
-  - References and pronouns
-  - Main ideas and purpose
-  - Tone and style
-
-### Example Question Quality
-Instead of generic placeholders like "Option A for question 1", the system generates specific questions like:
-- "What does the comparison 'like water behind a dam' suggest about Marcus's messages?"
-- "The phrase 'digital detox' in paragraph 3 refers to..."
-
 ## 📊 Usage Examples
+
+### 🔍 QA Review Workflow
+1. Launch the Ollama Task Generator (port 8508)
+2. Navigate to **📚 Task Library** tab
+3. Select **🔍 QA Review** from View Mode dropdown
+4. **Filter by QA Status**:
+   - Set filter to "⏳ Pending" to see unreviewed tasks
+   - Use "✅ Approved" or "❌ Rejected" to review completed annotations
+5. **Review Process**:
+   - Enter your reviewer name
+   - Evaluate Overall Task, Title, Text, and each Question
+   - Add detailed notes and select appropriate status
+   - Save annotations to persist across sessions
+6. **Track Progress**: Monitor QA metrics dashboard for completion rates
 
 ### 🤖 AI-Powered Task Generation
 1. Launch the Ollama Task Generator (port 8508)
@@ -230,6 +182,7 @@ Instead of generic placeholders like "Option A for question 1", the system gener
 5. **Add Custom Instructions** - Specify requirements like "Focus on practical tips and include specific examples"
 6. Generate tasks in real-time with immediate preview
 7. **Save or Download** - Tasks can be saved locally or downloaded as JSON
+8. **QA Review** - Switch to QA Review mode to evaluate generated content
 
 ### 🚀 Batch Generation Workflow
 1. Navigate to the **Batch Generation** tab
@@ -239,41 +192,36 @@ Instead of generic placeholders like "Option A for question 1", the system gener
 5. **Preview Batch Folder** - See the auto-generated folder name before starting
 6. **Generate** - Watch real-time progress with auto-save to batch subfolder
 7. **Review Results** - Access comprehensive batch summary and individual tasks
+8. **QA Review** - Use batch QA features to review entire collections
 
 ### 📚 Enhanced Task Library Usage
 1. Launch the Task Library tab
 2. **Individual Tasks**:
-   - Browse all standalone generated tasks
-   - Filter by generator type, text type, or custom instructions
+   - Browse all standalone generated tasks with QA status indicators
+   - Filter by generator type, text type, custom instructions, or **QA status**
    - Use Learner View for interactive practice
+   - Use QA Review mode for quality evaluation
    - Download individual tasks or bulk collections
 3. **Batch Collections**:
-   - View all batch folders with generation metadata
+   - View all batch folders with generation metadata and QA summaries
    - Access batch summaries with detailed statistics
    - Browse tasks within batches using tabbed interface
+   - Track QA progress across entire batch collections
    - Download entire batches as organized ZIP files
-
-### Browsing Generated Tasks
-1. Launch the Generated Tasks Browser
-2. Select "Overview Mode" to see all tasks
-3. Switch to "Practice Mode" for interactive testing
-4. Get immediate feedback and scoring
-
-### Studying Reading Criteria
-1. Open the Reading Criteria Browser
-2. Use the search function to find specific topics
-3. Explore assessment criteria and marking schemes
-4. Review task types and requirements
-
-#### Text Type Selection Features
-- **Individual Tasks**: Dropdown selection with text type descriptions and examples
-- **Batch Generation**: Checkbox selection for multiple text types
-- **Style-Specific Prompts**: Each text type uses tailored generation instructions
-- **Authentic Content**: Text types follow B2 First exam standards
 
 ## 🛠️ Development
 
-### Recent Major Updates (v3.0 - Ollama Integration Branch)
+### Recent Major Updates (v4.0 - QA System Integration)
+- **🔍 Comprehensive QA System** - Multi-level review with status tracking and persistent annotations
+- **📊 QA Status Filtering** - Filter tasks by Pending/Approved/Rejected status with visual indicators
+- **👥 Reviewer Management** - Track reviewer names, timestamps, and detailed feedback notes
+- **📈 QA Metrics Dashboard** - Real-time statistics and completion tracking
+- **📖 QA Documentation** - Complete reviewer manual with step-by-step instructions
+- **🔄 Cross-Session Persistence** - QA annotations saved to JSON files with data integrity
+- **📦 Batch QA Support** - Review and track QA status across entire batch collections
+- **🎯 Enhanced UI** - QA status emojis, improved filtering, and streamlined workflow
+
+### Previous Updates (v3.0 - Ollama Integration Branch)
 - **📝 Custom Instructions System** - Add specific requirements and focus areas to generated tasks
 - **🚀 Batch Generation with Auto-Save** - Create multiple tasks with automatic subfolder organization
 - **📁 Intelligent File Management** - Timestamped batch folders with comprehensive summaries
@@ -284,14 +232,6 @@ Instead of generic placeholders like "Option A for question 1", the system gener
 - **🎓 Multiple View Modes** - Learner, Summary, and JSON views for all content
 - **📥 Bulk Download System** - ZIP downloads for batches and collections
 - **🔍 Advanced Filtering** - Enhanced search and filter capabilities
-
-### Previous Improvements (v2.0)
-- **📝 Text Type Selection System** - 10 B2-appropriate text types with specific styling
-- **Enhanced Validation** - Proper B2 First criteria (400-800 words, 5-6 questions)
-- **Robust JSON Parser** - Handles complex LLM output with formatting characters
-- **Improved Error Handling** - Better debugging and fallback mechanisms
-- **Streamlit UI Enhancements** - Text type dropdowns, checkboxes, and information panels
-- **Import Path Fixes** - Robust fallback import methods for better reliability
 
 ### Adding New Tasks
 1. Use `src/content/ollama_part5_generator.py` for AI-powered generation
@@ -382,6 +322,12 @@ This project is for educational purposes. The Cambridge B2 First content is used
 
 ## 🔧 Troubleshooting
 
+### QA System Issues
+- **QA Annotations Not Saving**: Ensure reviewer name is entered and task file path is valid
+- **Status Not Updating**: Check file write permissions in generated_tasks directory
+- **Missing QA Interface**: Ensure "🔍 QA Review" is selected in View Mode dropdown
+- **Filter Not Working**: Clear search box and reset filters to "All" options
+
 ### Ollama Issues
 - **Connection Failed**: Ensure Ollama is running (`ollama serve`)
 - **No Models Found**: Pull a model first (`ollama pull llama3.1:8b`)
@@ -418,10 +364,11 @@ For questions or issues:
 
 ## 🔄 Version History
 
-- **v3.0** (Current - Ollama Integration Branch): Custom instructions, batch generation, enhanced Task Library
+- **v4.0** (Current - QA System Integration): Comprehensive quality assurance system with multi-level review, status tracking, and reviewer management
+- **v3.0** (Ollama Integration Branch): Custom instructions, batch generation, enhanced Task Library
 - **v2.0**: Text type selection, robust JSON parsing, improved validation
 - **v1.0**: Initial release with static task generation and basic Streamlit interface
 
 ---
 
-**Built with ❤️ for Cambridge B2 First exam preparation** 
+**Built with ❤️ for Cambridge B2 First exam preparation with comprehensive quality assurance** 

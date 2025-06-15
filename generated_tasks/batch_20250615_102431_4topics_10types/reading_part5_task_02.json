@@ -89,59 +89,59 @@
   "topic_category": "health_wellness",
   "qa_annotations": {
     "overall_task": {
-      "status": "rejected",
+      "status": "approved",
       "reviewer": "Paul",
       "notes": "",
-      "timestamp": "2025-06-15T13:14:51.021725"
+      "timestamp": "2025-06-15T13:22:02.922053"
     },
     "title": {
       "status": "pending",
       "reviewer": "Paul",
       "notes": "",
-      "timestamp": "2025-06-15T13:14:51.021725"
+      "timestamp": "2025-06-15T13:22:02.922053"
     },
     "text": {
       "status": "pending",
       "reviewer": "Paul",
       "notes": "",
-      "timestamp": "2025-06-15T13:14:51.021725"
+      "timestamp": "2025-06-15T13:22:02.922053"
     },
     "questions": {
       "question_1": {
         "status": "pending",
         "reviewer": "Paul",
         "notes": "",
-        "timestamp": "2025-06-15T13:14:51.021725"
+        "timestamp": "2025-06-15T13:22:02.922053"
       },
       "question_2": {
         "status": "pending",
         "reviewer": "Paul",
         "notes": "",
-        "timestamp": "2025-06-15T13:14:51.021725"
+        "timestamp": "2025-06-15T13:22:02.922053"
       },
       "question_3": {
         "status": "pending",
         "reviewer": "Paul",
         "notes": "",
-        "timestamp": "2025-06-15T13:14:51.021725"
+        "timestamp": "2025-06-15T13:22:02.922053"
       },
       "question_4": {
         "status": "pending",
         "reviewer": "Paul",
         "notes": "",
-        "timestamp": "2025-06-15T13:14:51.021725"
+        "timestamp": "2025-06-15T13:22:02.922053"
       },
       "question_5": {
         "status": "pending",
         "reviewer": "Paul",
         "notes": "",
-        "timestamp": "2025-06-15T13:14:51.021725"
+        "timestamp": "2025-06-15T13:22:02.922053"
       },
       "question_6": {
         "status": "pending",
         "reviewer": "Paul",
         "notes": "",
-        "timestamp": "2025-06-15T13:14:51.021725"
+        "timestamp": "2025-06-15T13:22:02.922053"
       }
     }
   }
