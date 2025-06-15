@@ -4,7 +4,7 @@ A Python-based language learning content generation tool for Cambridge B2 First 
 
 ## 🎯 Project Overview
 
-This tool transforms the official Cambridge B2 First handbook into an interactive learning system with multiple interfaces for exam preparation. It processes PDF content, extracts structured knowledge, and generates authentic practice tasks.
+This tool transforms the official Cambridge B2 First handbook into an interactive learning system with multiple interfaces for exam preparation. It processes PDF content, extracts structured knowledge, and generates authentic practice tasks using advanced AI-powered generation with comprehensive batch processing and task management capabilities.
 
 ## ✨ Features
 
@@ -15,21 +15,33 @@ This tool transforms the official Cambridge B2 First handbook into an interactiv
 - **Generated Tasks Browser** - Browse and practice with AI-generated tasks
 - **🤖 Ollama Task Generator** - Real-time AI-powered task generation using local LLM
 
-### 🤖 Content Generation
+### 🤖 Advanced Content Generation
 - **Static Tasks**: 10 pre-generated Reading Part 5 tasks with authentic exam-style questions
-- **Dynamic AI Generation**: Real-time task creation using local Ollama LLM
+- **Dynamic AI Generation**: Real-time task creation using local Ollama LLM with step-by-step generation
+- **📝 Custom Instructions**: Add specific requirements and focus areas to generated tasks
 - **📝 Text Type Selection**: Choose from 10 B2-appropriate text types for varied content
+- **🚀 Batch Generation with Auto-Save**: Create multiple tasks efficiently with automatic subfolder organization
+- **📁 Intelligent File Management**: Timestamped batch folders with comprehensive summaries
 - **Contextual Multiple Choice Questions** - Specific, not generic placeholders
 - **Multiple Topic Categories** - Travel/Adventure, Technology/Modern, Personal Growth, Environment, Health, Culture
 - **Official Task Specifications** - Following Cambridge guidelines (400-800 words, 5-6 questions)
 - **Task Improvement** - AI-powered enhancement of existing tasks
-- **Batch Generation** - Create multiple tasks efficiently with text type combinations
+- **🔄 Step-by-Step Generation**: Advanced LLM approach for higher success rates
+
+### 📊 Enhanced Task Library & Management
+- **📦 Batch Collection Viewing**: Browse and manage batch-generated tasks with summaries
+- **🎓 Multiple View Modes**: Learner View, Summary View, and JSON View for all tasks
+- **📋 Comprehensive Batch Summaries**: Detailed generation metadata, statistics, and file listings
+- **🔍 Advanced Filtering**: Filter by generator type, text type, and other criteria
+- **📥 Bulk Download**: Download individual tasks, batches, or entire collections as ZIP files
+- **📊 Task Statistics**: Word counts, question counts, success rates, and generation metrics
 
 ### 📊 Interactive Practice
 - **Immediate Feedback** - Answer checking with explanations
 - **Score Calculation** - Track your performance
 - **Question Type Labeling** - Understand different question categories
 - **Two-Column Layout** - Text on left, questions on right
+- **📝 Custom Instructions Display** - View generation parameters and custom requirements
 
 ## 🚀 Quick Start
 
@@ -108,16 +120,24 @@ pandi-content-gen-b2-first/
 │   │   ├── improved_part5_generator.py # Enhanced generator
 │   │   └── ollama_part5_generator.py # 🤖 AI-powered generator
 │   └── llm/                      # LLM integration
-│       └── ollama_client.py      # Ollama client and API
+│       ├── ollama_client.py      # Ollama client and API
+│       └── json_parser.py        # Robust JSON parsing
 ├── knowledge_base/               # Structured JSON files
 │   ├── b2_first_knowledge_base.json
 │   ├── reading_criteria.json
 │   ├── reading_part5_examples.json
 │   └── b2_first_reading_part5_generation_guidelines.json
-├── generated_tasks/              # 10 complete Part 5 tasks
-│   ├── reading_part5_task_01.json
+├── generated_tasks/              # Task storage with batch organization
+│   ├── reading_part5_task_01.json # Individual tasks
 │   ├── ...
-│   └── reading_part5_task_10.json
+│   ├── reading_part5_task_15.json
+│   ├── batch_20250615_093427_2topics_2types/ # Batch folders
+│   │   ├── BATCH_SUMMARY.txt     # Comprehensive batch metadata
+│   │   ├── reading_part5_task_*.json # Auto-saved tasks
+│   │   └── ...
+│   └── batch_*/                  # Additional batch collections
+├── failure_logs/                 # Generation failure analysis
+│   └── task_*_failure_*.txt      # Detailed error logs
 ├── source-docs/                  # Original PDF (not in repo)
 ├── requirements.txt
 ├── .gitignore
@@ -134,19 +154,47 @@ pandi-content-gen-b2-first/
 4. **Static Task Generation** - Pre-generated content with improved algorithms
 5. **🤖 AI-Powered Generation** - Real-time task creation using local Ollama LLM
 
-### AI Generation Features
+### 🚀 Advanced AI Generation Features
 - **Local LLM Integration** - Uses Ollama for privacy and control
 - **Multiple Model Support** - Compatible with llama3.1, mistral, and other models
 - **📝 Text Type Selection** - 10 B2-appropriate text types with specific styling
+- **📝 Custom Instructions** - Add specific requirements, focus areas, and constraints
+- **🔄 Step-by-Step Generation** - Advanced LLM approach generating title, text, and questions separately
 - **Real-time Generation** - Create tasks on-demand with custom topics
 - **Quality Validation** - Automatic checking of generated content (400-800 words, 5-6 questions)
-- **Batch Processing** - Generate multiple tasks efficiently with text type combinations
+- **🚀 Batch Processing** - Generate multiple tasks efficiently with text type combinations
+- **📁 Auto-Save with Subfolders** - Automatic organization in timestamped batch directories
+- **📋 Comprehensive Summaries** - Detailed batch metadata and generation statistics
 - **Task Improvement** - AI-powered enhancement of existing content
-- **Robust JSON Parsing** - Handles complex LLM output with formatting characters
+- **🛡️ Robust JSON Parsing** - Handles complex LLM output with formatting characters and control sequences
+- **🔍 Failure Analysis** - Detailed logging and analysis of generation failures
+
+### 📦 Batch Generation & Organization
+- **Unique Timestamped Folders**: Format `batch_YYYYMMDD_HHMMSS_XtopicsYtypes`
+- **Auto-Save Functionality**: Each task saved immediately after generation
+- **Comprehensive Batch Summaries**: Include generation parameters, success metrics, file listings
+- **Isolated Operations**: Batch generation doesn't interfere with individual task numbering
+- **Error Handling**: Failed generations logged with detailed analysis
+- **Progress Tracking**: Real-time progress updates and status reporting
+
+### 📚 Enhanced Task Library Features
+- **Dual Interface**: Separate views for Individual Tasks and Batch Collections
+- **Multiple View Modes**:
+  - **🎓 Learner View**: Interactive task experience with tabs
+  - **📋 Summary View**: Compact cards with key information
+  - **🔧 JSON View**: Raw data for technical inspection
+- **Batch Management**:
+  - **📋 Batch Summary**: Generation metadata and quick statistics
+  - **🎓 Learner View**: Tabbed interface for batch tasks (up to 6 tasks)
+  - **📥 Download Options**: Individual files, batch ZIP, or bulk downloads
+  - **🗑️ Batch Actions**: Delete, info, and management functions
+- **Advanced Filtering**: By generator type, text type, custom instructions
+- **📊 Statistics Dashboard**: Success rates, word counts, question distributions
 
 ### Generated Content Quality
 - **400-800 word texts** per task (B2 First standard)
 - **5-6 specific questions** per task with contextual options (questions 31-36)
+- **📝 Custom Instructions Integration**: Tasks reflect specific requirements and focus areas
 - **10 Text Types Available:**
   - 📰 Magazine Article - Informative lifestyle and science content
   - 📄 Newspaper Article - News features and opinion pieces
@@ -174,9 +222,40 @@ Instead of generic placeholders like "Option A for question 1", the system gener
 
 ## 📊 Usage Examples
 
+### 🤖 AI-Powered Task Generation
+1. Launch the Ollama Task Generator (port 8508)
+2. Ensure Ollama is running with a model loaded
+3. **Select Text Type** - Choose from 10 B2-appropriate text types
+4. Enter a custom topic or select from suggestions
+5. **Add Custom Instructions** - Specify requirements like "Focus on practical tips and include specific examples"
+6. Generate tasks in real-time with immediate preview
+7. **Save or Download** - Tasks can be saved locally or downloaded as JSON
+
+### 🚀 Batch Generation Workflow
+1. Navigate to the **Batch Generation** tab
+2. **Select Topics** - Choose from predefined topics or add custom ones
+3. **Choose Text Types** - Select multiple text types for variety
+4. **Set Parameters** - Configure tasks per topic and custom instructions
+5. **Preview Batch Folder** - See the auto-generated folder name before starting
+6. **Generate** - Watch real-time progress with auto-save to batch subfolder
+7. **Review Results** - Access comprehensive batch summary and individual tasks
+
+### 📚 Enhanced Task Library Usage
+1. Launch the Task Library tab
+2. **Individual Tasks**:
+   - Browse all standalone generated tasks
+   - Filter by generator type, text type, or custom instructions
+   - Use Learner View for interactive practice
+   - Download individual tasks or bulk collections
+3. **Batch Collections**:
+   - View all batch folders with generation metadata
+   - Access batch summaries with detailed statistics
+   - Browse tasks within batches using tabbed interface
+   - Download entire batches as organized ZIP files
+
 ### Browsing Generated Tasks
 1. Launch the Generated Tasks Browser
-2. Select "Overview Mode" to see all 10 tasks
+2. Select "Overview Mode" to see all tasks
 3. Switch to "Practice Mode" for interactive testing
 4. Get immediate feedback and scoring
 
@@ -186,15 +265,6 @@ Instead of generic placeholders like "Option A for question 1", the system gener
 3. Explore assessment criteria and marking schemes
 4. Review task types and requirements
 
-### 🤖 AI-Powered Task Generation
-1. Launch the Ollama Task Generator (port 8508)
-2. Ensure Ollama is running with a model loaded
-3. **Select Text Type** - Choose from 10 B2-appropriate text types
-4. Enter a custom topic or select from suggestions
-5. Generate tasks in real-time with immediate preview
-6. **Batch Generation** - Select multiple text types for varied content
-7. Improve existing tasks with AI enhancement
-
 #### Text Type Selection Features
 - **Individual Tasks**: Dropdown selection with text type descriptions and examples
 - **Batch Generation**: Checkbox selection for multiple text types
@@ -203,7 +273,19 @@ Instead of generic placeholders like "Option A for question 1", the system gener
 
 ## 🛠️ Development
 
-### Recent Improvements (v2.0)
+### Recent Major Updates (v3.0 - Ollama Integration Branch)
+- **📝 Custom Instructions System** - Add specific requirements and focus areas to generated tasks
+- **🚀 Batch Generation with Auto-Save** - Create multiple tasks with automatic subfolder organization
+- **📁 Intelligent File Management** - Timestamped batch folders with comprehensive summaries
+- **📚 Enhanced Task Library** - Dual interface for individual tasks and batch collections
+- **🔄 Step-by-Step LLM Generation** - Advanced approach for higher success rates
+- **🛡️ Robust Error Handling** - Comprehensive failure logging and analysis
+- **📊 Advanced Statistics** - Detailed metrics and success rate tracking
+- **🎓 Multiple View Modes** - Learner, Summary, and JSON views for all content
+- **📥 Bulk Download System** - ZIP downloads for batches and collections
+- **🔍 Advanced Filtering** - Enhanced search and filter capabilities
+
+### Previous Improvements (v2.0)
 - **📝 Text Type Selection System** - 10 B2-appropriate text types with specific styling
 - **Enhanced Validation** - Proper B2 First criteria (400-800 words, 5-6 questions)
 - **Robust JSON Parser** - Handles complex LLM output with formatting characters
@@ -212,9 +294,9 @@ Instead of generic placeholders like "Option A for question 1", the system gener
 - **Import Path Fixes** - Robust fallback import methods for better reliability
 
 ### Adding New Tasks
-1. Use `src/content/improved_part5_generator.py`
-2. Modify topics or question types as needed
-3. Generate new tasks with contextual questions
+1. Use `src/content/ollama_part5_generator.py` for AI-powered generation
+2. Add custom instructions for specific requirements
+3. Generate individual tasks or use batch generation for multiple tasks
 
 ### Adding New Text Types
 1. Update `B2_TEXT_TYPES` dictionary in `app/ollama_generator.py`
@@ -243,22 +325,41 @@ python src/content/ollama_part5_generator.py
 - **pandas>=2.0.0** - Data manipulation
 - **nltk>=3.8.1** - Natural language processing
 - **python-dotenv>=1.0.0** - Environment management
+- **pathlib** - File system operations (built-in)
+- **json** - JSON processing (built-in)
+- **datetime** - Timestamp generation (built-in)
 
 ## 🚀 Deployment Options
 
-### Streamlit Cloud (Recommended)
-1. Connect your GitHub repository
-2. Select `app/main.py` as the main file
-3. Deploy with automatic updates
+### ⚠️ Cloud Deployment Considerations
 
-### Local Development
+**Important**: When deploying to cloud platforms like Streamlit Cloud, generated tasks will **NOT persist** between app restarts due to ephemeral file systems.
+
+#### Recommended Cloud Solutions:
+1. **Download-Only Mode**: Users download generated tasks as JSON files
+2. **Database Integration**: Add SQLite or cloud database for persistent storage
+3. **Session Storage**: Tasks persist only during the current session
+
+#### Local Development (Full Features)
+- All features work including file saving and batch generation
+- Tasks persist in `generated_tasks/` directory
+- Batch folders and summaries are maintained
+
+### Streamlit Cloud (Limited Persistence)
+1. Connect your GitHub repository
+2. Select `app/ollama_generator.py` as the main file
+3. Note: Generated tasks available for download only
+4. Deploy with automatic updates
+
+### Local Development (Recommended for Full Features)
 - All apps can run simultaneously on different ports
 - Use the provided port configurations for testing
+- Full file persistence and batch management
 
 ### Alternative Platforms
-- **Heroku** - Add `Procfile` for web deployment
-- **Railway/Render** - Direct GitHub integration
-- **Docker** - Containerized deployment (add Dockerfile)
+- **Heroku** - Add `Procfile` for web deployment (ephemeral storage)
+- **Railway/Render** - Direct GitHub integration (ephemeral storage)
+- **Docker** - Containerized deployment (add volume mounts for persistence)
 
 ## 🤝 Contributing
 
@@ -276,6 +377,7 @@ This project is for educational purposes. The Cambridge B2 First content is used
 
 - Cambridge Assessment English for the B2 First handbook
 - Streamlit team for the excellent web framework
+- Ollama team for local LLM integration
 - OpenAI/Ollama communities for LLM integration guidance
 
 ## 🔧 Troubleshooting
@@ -285,19 +387,40 @@ This project is for educational purposes. The Cambridge B2 First content is used
 - **No Models Found**: Pull a model first (`ollama pull llama3.1:8b`)
 - **Generation Slow**: Try a smaller model or adjust parameters
 - **Import Errors**: Install requirements (`pip install -r requirements.txt`)
+- **JSON Parsing Errors**: The robust parser handles most issues automatically
+- **Generation Failures**: Check `failure_logs/` directory for detailed analysis
 
 ### Streamlit Issues
 - **Port Conflicts**: Use different ports for each app
 - **Module Not Found**: Ensure virtual environment is activated
 - **Performance**: Install watchdog (`pip install watchdog`)
+- **Nested Expander Errors**: Fixed in latest version with simplified UI components
+- **Duplicate Key Errors**: Resolved with unique key generation system
+
+### Batch Generation Issues
+- **Folder Creation Failed**: Check write permissions in `generated_tasks/` directory
+- **Auto-Save Errors**: Ensure sufficient disk space for batch operations
+- **Summary Generation Failed**: Check batch folder permissions and content
+
+### Task Library Issues
+- **Batch Not Displaying**: Ensure batch folders contain `BATCH_SUMMARY.txt`
+- **View Mode Errors**: Try refreshing the page or switching view modes
+- **Download Failures**: Check file permissions and browser download settings
 
 ## 📞 Support
 
 For questions or issues:
 1. Run the test suite: `python test_ollama.py`
 2. Check the existing GitHub issues
-3. Create a new issue with detailed description
-4. Include error messages and steps to reproduce
+3. Review `failure_logs/` for generation-specific issues
+4. Create a new issue with detailed description
+5. Include error messages and steps to reproduce
+
+## 🔄 Version History
+
+- **v3.0** (Current - Ollama Integration Branch): Custom instructions, batch generation, enhanced Task Library
+- **v2.0**: Text type selection, robust JSON parsing, improved validation
+- **v1.0**: Initial release with static task generation and basic Streamlit interface
 
 ---
 
