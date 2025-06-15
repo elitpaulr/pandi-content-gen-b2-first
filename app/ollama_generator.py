@@ -1016,7 +1016,7 @@ def main():
                         with col3:
                             batch_view_mode = st.selectbox(
                                 "Batch View Mode",
-                                ["📋 Batch Summary", "🎓 Learner View", "📋 Summary View", "🔧 JSON View"],
+                                ["📋 Batch Summary", "🎓 Learner View"],
                                 index=0,
                                 key="batch_view_mode"
                             )
@@ -1076,7 +1076,7 @@ def main():
                                     for i, (task, tab) in enumerate(zip(batch_tasks_data, batch_tabs)):
                                         with tab:
                                             # Create a simplified learner view without nested expanders
-                                            display_task_learner_view_simple(task)
+                                            display_task_learner_view_simple(task, context=f"batch_{batch_name}_{i}")
                                     
                                     # Add batch actions below tabs
                                     st.divider()
@@ -1123,72 +1123,40 @@ def main():
                                     st.info(f"No task files found in {batch_name}")
                             
                             else:
-                                # For other view modes, use expandable sections
+                                # For Batch Summary view mode, use expandable sections
                                 with st.expander(f"📦 {batch_name} ({len(batch_task_files)} tasks)", expanded=False):
-                                    if batch_view_mode == "📋 Batch Summary":
-                                        # Display batch summary
-                                        if batch_summary:
-                                            st.markdown("### 📊 Batch Summary")
-                                            st.text(batch_summary)
-                                        else:
-                                            st.warning("No batch summary available")
-                                        
-                                        # Quick stats
-                                        if batch_task_files:
-                                            st.markdown("### 📈 Quick Stats")
-                                            col1, col2, col3 = st.columns(3)
-                                            
-                                            total_words = 0
-                                            total_questions = 0
-                                            text_types = set()
-                                            
-                                            for task_file in batch_task_files:
-                                                try:
-                                                    with open(task_file, 'r') as f:
-                                                        task = json.load(f)
-                                                        total_words += len(task.get('text', '').split())
-                                                        total_questions += len(task.get('questions', []))
-                                                        text_types.add(task.get('text_type', 'unknown'))
-                                                except:
-                                                    pass
-                                            
-                                            with col1:
-                                                st.metric("Total Words", f"{total_words:,}")
-                                            with col2:
-                                                st.metric("Total Questions", total_questions)
-                                            with col3:
-                                                st.metric("Text Types", len(text_types))
-                                    
+                                    # Display batch summary
+                                    if batch_summary:
+                                        st.markdown("### 📊 Batch Summary")
+                                        st.text(batch_summary)
                                     else:
-                                        # Display individual tasks in the batch for Summary and JSON view modes
-                                        if batch_task_files:
-                                            st.markdown(f"### 📄 Tasks in {batch_name}")
-                                            
-                                            batch_tasks_data = []
-                                            for task_file in batch_task_files:
-                                                try:
-                                                    with open(task_file, 'r') as f:
-                                                        task = json.load(f)
-                                                        task['filename'] = task_file.name
-                                                        batch_tasks_data.append(task)
-                                                except Exception as e:
-                                                    st.warning(f"Could not load {task_file.name}: {e}")
-                                            
-                                            # Sort by task ID
-                                            batch_tasks_data.sort(key=lambda x: x.get('task_id', ''))
-                                            
-                                            # Display tasks based on selected view mode
-                                            if batch_view_mode == "📋 Summary View":
-                                                # Display tasks in summary cards
-                                                for task in batch_tasks_data:
-                                                    display_task_summary_view(task)
-                                            
-                                            elif batch_view_mode == "🔧 JSON View":
-                                                # Display tasks in JSON format
-                                                for task in batch_tasks_data:
-                                                    display_task_json_view(task)
-                                        else:
-                                            st.info("No task files found in this batch")
+                                        st.warning("No batch summary available")
+                                    
+                                    # Quick stats
+                                    if batch_task_files:
+                                        st.markdown("### 📈 Quick Stats")
+                                        col1, col2, col3 = st.columns(3)
+                                        
+                                        total_words = 0
+                                        total_questions = 0
+                                        text_types = set()
+                                        
+                                        for task_file in batch_task_files:
+                                            try:
+                                                with open(task_file, 'r') as f:
+                                                    task = json.load(f)
+                                                    total_words += len(task.get('text', '').split())
+                                                    total_questions += len(task.get('questions', []))
+                                                    text_types.add(task.get('text_type', 'unknown'))
+                                            except:
+                                                pass
+                                        
+                                        with col1:
+                                            st.metric("Total Words", f"{total_words:,}")
+                                        with col2:
+                                            st.metric("Total Questions", total_questions)
+                                        with col3:
+                                            st.metric("Text Types", len(text_types))
                                     
                                     # Batch actions
                                     st.markdown("### 🔧 Batch Actions")
@@ -1910,7 +1878,7 @@ def display_task_json_view(task):
             key=f"download_json_{task.get('task_id', 'unknown')}"
         )
 
-def display_task_learner_view_simple(task):
+def display_task_learner_view_simple(task, context="batch"):
     """Display a task in a simplified learner view without expanders (for batch view)"""
     # Task header
     st.markdown(f"# 📖 {task.get('title', 'Untitled Task')}")
@@ -2130,15 +2098,15 @@ def display_task_learner_view_simple(task):
             data=json.dumps(task, indent=2),
             file_name=f"{task.get('task_id', 'task')}.json",
             mime="application/json",
-            key=f"download_simple_{task.get('task_id', 'unknown')}"
+            key=f"download_{context}_{task.get('task_id', 'unknown')}"
         )
     
     with col2:
-        if st.button("📋 Copy Text Only", key=f"copy_text_simple_{task.get('task_id', 'unknown')}"):
+        if st.button("📋 Copy Text Only", key=f"copy_text_{context}_{task.get('task_id', 'unknown')}"):
             st.code(task.get('text', ''), language=None)
     
     with col3:
-        if st.button("📊 View JSON", key=f"json_view_simple_{task.get('task_id', 'unknown')}"):
+        if st.button("📊 View JSON", key=f"json_view_{context}_{task.get('task_id', 'unknown')}"):
             st.json(task)
 
 if __name__ == "__main__":
