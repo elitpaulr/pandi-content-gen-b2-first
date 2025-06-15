@@ -1,0 +1,79 @@
+{
+  "task_id": "reading_part5_task_03",
+  "title": "Take Back Control: Simple Ways to Stay Healthy Online",
+  "topic": "technology",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Digital Wellness Revolution**\n\nIn today's world, technology has become an integral part of our daily lives. We're constantly connected to our smartphones, laptops, and tablets, and it's not uncommon for people to spend hours scrolling through social media, watching videos, or playing games. While the internet and digital tools have brought numerous benefits, excessive screen time can lead to physical and mental health problems.\n\nThe World Health Organization (WHO) has classified gaming disorder as a mental health condition, and studies have shown that prolonged sitting and screen time are linked to obesity, diabetes, and cardiovascular disease. Furthermore, the constant stream of notifications and social media updates can cause stress, anxiety, and decreased attention span.\n\nSo, what can we do to strike a balance between our digital lives and overall well-being? Here are some practical digital wellness strategies that you can implement today:\n\n**Set Boundaries with Technology**\n\nOne of the simplest ways to improve your digital wellness is to establish clear boundaries with technology. This means setting aside device-free zones in your home, such as the bedroom or dining table, and designating specific times for screen use.\n\nFor example, Rachel Andrew, a digital wellness expert, recommends creating a \"device-free\" morning routine. \"I wake up 30 minutes before my family to meditate, journal, and enjoy a cup of coffee without checking my phone,\" she says.\n\n**Prioritize Offline Activities**\n\nIn addition to setting boundaries with technology, it's essential to prioritize offline activities that promote physical and mental well-being. This can include exercise, reading, spending time with loved ones, or engaging in hobbies like painting or gardening.\n\nFor instance, Sarah Jones, a marketing executive, has started taking weekly yoga classes to reduce her stress levels and improve her focus. \"I used to spend hours scrolling through social media before bed, but now I use that time to unwind and prepare for the next day,\" she says.\n\n**Use Digital Tools to Track Your Habits**\n\nTo monitor your screen time and stay on top of your digital wellness goals, consider using digital tools like apps or browser extensions. These can help you track your usage patterns, set reminders, and block distracting websites.\n\nFor example, Freedom is an app that allows users to block distracting websites or apps during specific times of the day. \"I use Freedom to block social media during work hours and focus on my tasks,\" says Emily Lee, a freelance writer.\n\n**Practice Mindfulness with Digital Tools**\n\nDigital tools can also be used to promote mindfulness and reduce screen time. For instance, apps like Headspace or Calm offer guided meditation sessions that can help you relax and stay focused.\n\nAccording to Dr. Daniel Siegel, a clinical professor of psychiatry at the UCLA School of Medicine, \"Mindfulness practices can help reduce stress and improve attention span by training the brain to focus on the present moment.\"\n\n**Create a Digital Wellness Plan**\n\nTo achieve lasting change, it's essential to create a digital wellness plan that outlines your goals and strategies. This can include setting specific screen time limits, scheduling device-free times, or prioritizing offline activities.\n\nFor example, Alex Chen, a software engineer, has created a digital wellness plan that includes regular exercise, meditation sessions, and device-free evenings. \"I set reminders to take breaks throughout the day and prioritize my goals,\" he says.\n\nIn conclusion, achieving digital wellness requires intentional effort and planning. By setting boundaries with technology, prioritizing offline activities, using digital tools to track your habits, practicing mindfulness, and creating a digital wellness plan, you can reduce your screen time, improve your physical and mental health, and live a more balanced life.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if you use an app like Freedom to block distracting websites during work hours?",
+      "options": {
+        "A": "You will be able to complete tasks more quickly",
+        "B": "You will experience increased stress levels",
+        "C": "Your productivity will improve and you will focus better",
+        "D": "You will forget your login credentials for the blocked websites"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"intentional effort\" mean in this context?",
+      "options": {
+        "A": "A deliberate attempt to achieve something",
+        "B": "A strong desire to succeed without hard work",
+        "C": "Random actions without planning or thought",
+        "D": "Automatic habits that require no conscious choice"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Rachel Andrew, how long does she wake up before her family each morning?",
+      "options": {
+        "A": "15 minutes",
+        "B": "30 minutes",
+        "C": "45 minutes",
+        "D": "60 minutes"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to Dr. Daniel Siegel, what is one benefit of mindfulness practices?",
+      "options": {
+        "A": "They can help increase productivity by allowing users to multitask",
+        "B": "They can help reduce stress and improve attention span by training the brain to focus on the present moment",
+        "C": "They can only be used during work hours to block distracting websites",
+        "D": "They require users to spend more than 8 hours a day in front of screens"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about digital wellness strategies?",
+      "options": {
+        "A": "The article discusses the benefits of excessive screen time and how it improves our lives.",
+        "B": "The World Health Organization has classified gaming disorder as a mental health condition, but offers no solutions to address the problem.",
+        "C": "By implementing simple digital wellness strategies, individuals can strike a balance between their digital lives and overall well-being.",
+        "D": "Digital tools are not necessary for achieving digital wellness; instead, people should focus on reducing screen time entirely."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern",
+  "custom_instructions": "Focus on practical tips and include specific examples"
+}

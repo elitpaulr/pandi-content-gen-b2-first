@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_25",
+  "title": "Achieve Harmony at Work and Home: 7 Essential Balance Tips",
+  "topic": "business_and_work",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sat in her small café, sipping on a latte, Emily couldn't help but feel overwhelmed by the demands of her job. She was a marketing manager at a fast-paced startup, and her days were filled with meetings, emails, and reports. But it wasn't just the work that was taking its toll – it was the lack of balance in her life.\n\n\"I don't know how you do it,\" Emily said to her friend, Rachel, who had joined her for a morning coffee break. \"You're always so relaxed, even when you're working on tight deadlines.\"\n\nRachel smiled knowingly. \"It's all about setting boundaries, Em. I make time for myself every day – whether it's a yoga class, a walk in the park, or just 15 minutes of reading before bed. And I prioritize my work too, focusing on what needs to be done and delegating tasks when possible.\"\n\nEmily nodded thoughtfully, taking mental notes. She had always prided herself on being able to juggle multiple responsibilities at once, but lately, she'd been feeling burned out. Her relationships were suffering, her creativity was dwindling, and she was starting to feel like a robot.\n\nOne of the strategies Rachel recommended was the \"time-blocking\" technique – scheduling large blocks of uninterrupted time for focused work, with regular breaks in between. Emily had tried this before, but found it difficult to stick to. However, with Rachel's encouragement, she decided to give it another shot.\n\nOver the next few weeks, Emily implemented a new routine that included dedicated time for work, self-care, and play. She started waking up an hour earlier each morning to meditate and journal, and spent her evenings cooking healthy meals and reading before bed. And when it came to work, she prioritized tasks based on importance and deadlines, avoiding the temptation to check emails or social media during non-work hours.\n\nAs Emily settled into this new rhythm, she began to notice significant changes in her life. She was sleeping better, feeling more energized, and enjoying a renewed sense of creativity and purpose. Her relationships were improving too – she had more time for friends and family, and was able to respond to messages without feeling overwhelmed.\n\nOne day, Emily's boss asked her to lead a team project with a tight deadline. Normally, this would have sent her into panic mode, but with her newfound skills, she approached the challenge with confidence. She broke down the tasks into manageable chunks, delegated responsibilities to her team members, and focused on delivering high-quality results.\n\nThe project was a success, and Emily's boss praised her for her leadership and time-management skills. But more importantly, Emily felt a sense of balance and fulfillment that she hadn't experienced in years. She realized that work-life balance wasn't about achieving some kind of mythical equilibrium – it was about making intentional choices every day to prioritize what truly mattered.\n\nAs Emily finished her coffee and prepared to head back to the office, Rachel leaned over and whispered, \"See, I told you it would work!\" Emily smiled, feeling grateful for her friend's guidance and support. She knew that maintaining this new balance wouldn't always be easy, but with the right strategies in place, she felt ready to take on whatever challenges came her way.\n\nOver the next few months, Emily continued to refine her approach, experimenting with different techniques and tools to maintain her work-life balance. She tried using apps like Trello and Todoist to stay organized, and even invested in a standing desk to reduce eye strain and boost energy levels. And when she encountered setbacks or self-doubt, Rachel was always there to offer words of encouragement and advice.\n\nIn the end, Emily's journey towards work-life balance taught her that it wasn't about achieving some kind of mythical perfection – but rather embracing the imperfections and messiness of life itself. By prioritizing what truly mattered, making intentional choices every day, and cultivating a sense of self-awareness and compassion, she was able to find a more sustainable and fulfilling way of living.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Emily's previous work habits before implementing Rachel's strategies?",
+      "options": {
+        "A": "She had always prioritized her personal time and taken regular breaks throughout the day.",
+        "B": "She worked long hours without taking any time off for self-care or relaxation.",
+        "C": "She was already skilled at delegating tasks and focusing on high-priority projects.",
+        "D": "She often checked work emails and messages during non-work hours, feeling overwhelmed."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"burned out\" mean in this context?",
+      "options": {
+        "A": "Extremely busy with work",
+        "B": "Feeling emotionally exhausted and drained from overwork or stress",
+        "C": "Enjoying an unusually high level of productivity at work",
+        "D": "Having too much free time outside of work hours"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one of the techniques that Rachel recommends for Emily to improve her work-life balance?",
+      "options": {
+        "A": "The Pomodoro Technique",
+        "B": "Time-blocking",
+        "C": "Delegating tasks to others",
+        "D": "Meditating and journaling daily"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards Emily's initial approach to work-life balance?",
+      "options": {
+        "A": "She thinks it's admirable that Emily tried to juggle multiple responsibilities at once.",
+        "B": "She criticizes Emily for her lack of self-care and prioritization skills.",
+        "C": "She believes Emily should have achieved a perfect balance from the start, without any effort.",
+        "D": "She appreciates Emily's willingness to learn and adapt to new strategies."
+      },
+      "correct_answer": "D",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who is Emily's friend who joins her for a morning coffee break?",
+      "options": {
+        "A": "Rachel's colleague",
+        "B": "The author of the story",
+        "C": "Emily's boss",
+        "D": "Rachel, Emily's marketing manager friend"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the story about Emily's journey towards work-life balance?",
+      "options": {
+        "A": "Emily's boss helps her develop new skills to manage her workload.",
+        "B": "Emily learns that achieving work-life balance requires making intentional choices every day.",
+        "C": "Rachel introduces Emily to a new app, Trello, which solves all her time-management problems.",
+        "D": "Emily becomes so successful at work that she has to hire more staff."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

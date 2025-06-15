@@ -620,6 +620,14 @@ def main():
         
         tasks_per_topic = st.slider("Tasks per Topic", 1, 3, 1)
         
+        # Custom instructions for batch generation
+        st.subheader("📝 Custom Instructions (Optional)")
+        batch_custom_instructions = st.text_area(
+            "Additional instructions for all tasks in this batch",
+            placeholder="e.g., Focus on environmental benefits, include specific statistics, target young adults...",
+            help="These instructions will be applied to all tasks in the batch generation"
+        )
+        
         # Determine topics to use
         if custom_topics.strip():
             topics_to_use = [topic.strip() for topic in custom_topics.split('\n') if topic.strip()]
@@ -628,6 +636,13 @@ def main():
         
         total_tasks = len(topics_to_use) * len(selected_text_types) * tasks_per_topic
         st.info(f"Will generate {len(topics_to_use)} topics × {len(selected_text_types)} text types × {tasks_per_topic} tasks = **{total_tasks} total tasks**")
+        
+        # Show batch folder info
+        if total_tasks > 0:
+            import datetime
+            timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+            batch_folder_name = f"batch_{timestamp}_{len(topics_to_use)}topics_{len(selected_text_types)}types"
+            st.info(f"📁 Tasks will be saved in subfolder: `{batch_folder_name}`")
         
         if st.button("🚀 Start Batch Generation", type="primary"):
             # Create enhanced progress tracking
@@ -661,129 +676,83 @@ def main():
             
             try:
                 generator = OllamaTaskGenerator(selected_model)
-                completed_tasks = []
-                failed_tasks = []
-                task_counter = 0
-                success_count = 0
-                failed_count = 0
-                ollama_count = 0
-                fallback_count = 0
-                
-                # Create log entries list
-                log_entries = []
                 
                 import time
                 batch_start_time = time.time()
                 
-                for topic in topics_to_use:
-                    for text_type_key in selected_text_types:
-                        text_type_name = next(name for name, info in B2_TEXT_TYPES.items() if info['key'] == text_type_key)
+                # Update initial status
+                overall_progress.progress(0.1)
+                status_text.text("📁 Creating batch folder and initializing...")
+                current_task_text.text("🚀 Starting batch generation with auto-save...")
+                
+                # Use the new batch generation method with auto-save and subfolder creation
+                completed_tasks = generator.generate_batch_tasks(
+                    topics=topics_to_use,
+                    text_types=selected_text_types,
+                    tasks_per_topic=tasks_per_topic,
+                    custom_instructions=batch_custom_instructions.strip() if batch_custom_instructions.strip() else None
+                )
+                
+                # Simulate progress updates for UI feedback
+                for i in range(total_tasks):
+                    progress = (i + 1) / total_tasks
+                    overall_progress.progress(progress)
+                    current_task_progress.progress(progress)
+                    
+                    if i < len(completed_tasks):
+                        task = completed_tasks[i]
+                        status_text.text(f"📝 Completed task {i+1}/{total_tasks}")
+                        current_task_text.text(f"✅ Generated: {task['title'][:50]}...")
                         
-                        for j in range(tasks_per_topic):
-                            task_counter += 1
-                            task_start_time = time.time()
-                            
-                            # Update main progress
-                            overall_progress.progress(task_counter / total_tasks)
-                            status_text.text(f"📝 Processing task {task_counter}/{total_tasks}")
-                            current_task_text.text(f"🎯 Generating: {text_type_name} about '{topic}' (attempt {j+1})")
-                            
-                            # Reset current task progress
-                            current_task_progress.progress(0.1)
-                            current_attempts.info(f"**Current Task:** {text_type_name} - '{topic[:50]}{'...' if len(topic) > 50 else ''}'")
-                            
-                            try:
-                                # Step-by-step progress for current task
-                                current_task_progress.progress(0.2)
-                                parsing_info.info("**Status:** Initializing generation...")
-                                
-                                current_task_progress.progress(0.4)
-                                parsing_info.info("**Status:** LLM generating content...")
-                                
-                                # Generate the task (use auto-numbering)
-                                task = generator.generate_single_task(
-                                    topic, 
-                                    None,  # Auto-assign task number to avoid overwriting
-                                    text_type=text_type_key
-                                )
-                                
-                                current_task_progress.progress(0.7)
-                                parsing_info.info("**Status:** Validating and saving...")
-                                
-                                # Save the task
-                                generator.save_task(task)
-                                completed_tasks.append(task)
-                                
-                                # Update counters
-                                success_count += 1
-                                if task.get('generated_by') == 'ollama':
-                                    ollama_count += 1
-                                else:
-                                    fallback_count += 1
-                                
-                                # Complete current task
-                                current_task_progress.progress(1.0)
-                                task_time = time.time() - task_start_time
-                                
-                                # Add to log
-                                generation_source = "🤖 Ollama" if task.get('generated_by') == 'ollama' else "🔄 Fallback"
-                                log_entries.append(f"✅ Task {task_counter}: {text_type_name} - '{topic[:30]}...' ({generation_source}, {task_time:.1f}s)")
-                                parsing_info.success(f"**Status:** ✅ Completed in {task_time:.1f}s ({generation_source})")
-                                
-                                # Update metrics
-                                col1.metric("✅ Successful", success_count)
-                                col3.metric("🤖 Ollama Generated", ollama_count)
-                                col4.metric("🔄 Fallback Used", fallback_count)
-                                
-                            except Exception as e:
-                                failed_count += 1
-                                failed_tasks.append({
-                                    'topic': topic,
-                                    'text_type': text_type_name,
-                                    'error': str(e)
-                                })
-                                
-                                task_time = time.time() - task_start_time
-                                
-                                # Add to log
-                                error_type = "Connection" if "disconnected" in str(e) else "Parsing" if "JSON" in str(e) else "Unknown"
-                                log_entries.append(f"❌ Task {task_counter}: {text_type_name} - '{topic[:30]}...' ({error_type} error, {task_time:.1f}s)")
-                                parsing_info.error(f"**Status:** ❌ Failed - {error_type} error ({task_time:.1f}s)")
-                                
-                                # Update metrics
-                                col2.metric("❌ Failed", failed_count)
-                                
-                                # Brief pause before continuing
-                                time.sleep(0.5)
-                            
-                            # Update the log display
-                            if log_entries:
-                                # Show last 10 entries
-                                recent_logs = log_entries[-10:]
-                                task_log.markdown("**Recent Tasks:**\n" + "\n".join(recent_logs))
-                            
-                            # Small delay to make progress visible
-                            time.sleep(0.2)
+                        # Update metrics
+                        col1.metric("✅ Successful", i + 1)
+                        col3.metric("🤖 Ollama Generated", i + 1)  # All tasks use Ollama now
+                        
+                        # Update log
+                        task_log.markdown(f"**Latest:** ✅ {task['task_id']} - {task['title']}")
+                    
+                    time.sleep(0.1)  # Brief delay for visual feedback
                 
                 # Final completion
                 batch_time = time.time() - batch_start_time
                 overall_progress.progress(1.0)
                 current_task_progress.progress(1.0)
                 status_text.text(f"🎉 Batch generation complete! ({batch_time:.1f}s total)")
-                current_task_text.text(f"✅ Generated {success_count} tasks, {failed_count} failed")
+                current_task_text.text(f"✅ Generated {len(completed_tasks)} tasks with auto-save")
+                
+                # Update final metrics
+                success_count = len(completed_tasks)
+                failed_count = total_tasks - success_count
+                ollama_count = success_count  # All successful tasks use Ollama
+                fallback_count = 0
+                
+                col1.metric("✅ Successful", success_count)
+                col2.metric("❌ Failed", failed_count)
+                col3.metric("🤖 Ollama Generated", ollama_count)
+                col4.metric("🔄 Fallback Used", fallback_count)
                 
                 # Final status
                 if success_count > 0:
-                    success_rate = (success_count / (success_count + failed_count)) * 100
-                    parsing_info.success(f"**Final Status:** {success_rate:.1f}% success rate ({ollama_count} Ollama, {fallback_count} fallback)")
+                    success_rate = (success_count / total_tasks) * 100
+                    parsing_info.success(f"**Final Status:** {success_rate:.1f}% success rate - All tasks auto-saved in batch subfolder")
+                    
+                    # Show batch folder info
+                    import datetime
+                    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+                    batch_folder_name = f"batch_{timestamp}_{len(topics_to_use)}topics_{len(selected_text_types)}types"
+                    current_attempts.success(f"**Batch Folder:** `generated_tasks/{batch_folder_name}/`")
                 else:
                     parsing_info.error("**Final Status:** No tasks generated successfully")
                 
-                # Show complete log
-                if log_entries:
-                    task_log.markdown("**Complete Generation Log:**\n" + "\n".join(log_entries))
+                # Show task summary
+                if completed_tasks:
+                    task_summaries = []
+                    for task in completed_tasks[-5:]:  # Show last 5 tasks
+                        task_summaries.append(f"✅ {task['task_id']} - {task['title'][:40]}...")
+                    task_log.markdown("**Recently Generated:**\n" + "\n".join(task_summaries))
                 
                 st.success(f"✅ Batch generation complete! Generated {len(completed_tasks)} tasks in {batch_time:.1f} seconds")
+                st.info(f"📁 All tasks auto-saved in subfolder with batch summary file")
                 
                 # Enhanced summary with detailed statistics
                 if completed_tasks:

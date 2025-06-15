@@ -285,13 +285,27 @@ class OllamaTaskGenerator:
                 logger.error(f"Directory writable: {os.access(self.output_dir, os.W_OK)}")
             raise
     
-    def generate_batch_tasks(self, topics: List[str], text_types: List[str] = None, tasks_per_topic: int = 1) -> List[Dict[str, Any]]:
-        """Generate multiple tasks for given topics and text types"""
+    def generate_batch_tasks(self, topics: List[str], text_types: List[str] = None, tasks_per_topic: int = 1, custom_instructions: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Generate multiple tasks for given topics and text types with automatic subfolder creation"""
         if not self.check_ollama_status():
             raise RuntimeError("Ollama is not available")
         
         if text_types is None:
             text_types = ["magazine_article"]
+        
+        # Create unique batch subfolder with timestamp
+        import datetime
+        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        batch_folder_name = f"batch_{timestamp}_{len(topics)}topics_{len(text_types)}types"
+        batch_folder = self.output_dir / batch_folder_name
+        batch_folder.mkdir(exist_ok=True)
+        
+        # Store original output directory and temporarily change to batch folder
+        original_output_dir = self.output_dir
+        self.output_dir = batch_folder
+        
+        logger.info(f"📁 Created batch folder: {batch_folder_name}")
+        logger.info(f"🚀 Starting batch generation: {len(topics)} topics, {len(text_types)} text types, {tasks_per_topic} tasks each")
         
         all_tasks = []
         task_counter = 1  # For display purposes only
@@ -302,33 +316,115 @@ class OllamaTaskGenerator:
         task_numbers = list(range(starting_task_number, starting_task_number + total_tasks_needed))
         task_number_index = 0
         
-        logger.info(f"🚀 Starting batch generation: {len(topics)} topics, {len(text_types)} text types, {tasks_per_topic} tasks each")
         logger.info(f"📋 Pre-assigned task numbers: {starting_task_number} to {starting_task_number + total_tasks_needed - 1}")
         
-        for topic in topics:
-            for text_type in text_types:
-                for i in range(tasks_per_topic):
-                    # Use pre-assigned task number
-                    assigned_task_number = task_numbers[task_number_index]
-                    task_number_index += 1
-                    
-                    logger.info(f"📝 Working on task {task_counter}: {text_type} about '{topic}' (task #{assigned_task_number:02d})")
-                    
-                    try:
-                        task = self.generate_single_task(topic, assigned_task_number, text_type)
-                        filepath = self.save_task(task)
-                        all_tasks.append(task)
+        try:
+            for topic in topics:
+                for text_type in text_types:
+                    for i in range(tasks_per_topic):
+                        # Use pre-assigned task number
+                        assigned_task_number = task_numbers[task_number_index]
+                        task_number_index += 1
                         
-                        logger.info(f"✅ Task {task_counter} completed: {task['title']} (saved as {task['task_id']})")
-                        task_counter += 1
+                        logger.info(f"📝 Working on task {task_counter}: {text_type} about '{topic}' (task #{assigned_task_number:02d})")
                         
-                    except Exception as e:
-                        logger.error(f"❌ Failed to generate task {task_counter} for '{topic}' ({text_type}): {e}")
-                        task_counter += 1  # Still increment for display purposes
-                        continue
+                        try:
+                            task = self.generate_single_task(topic, assigned_task_number, text_type, custom_instructions)
+                            
+                            # Auto-save immediately after generation
+                            filepath = self.save_task(task)
+                            all_tasks.append(task)
+                            
+                            logger.info(f"✅ Task {task_counter} completed and auto-saved: {task['title']} → {filepath.name}")
+                            task_counter += 1
+                            
+                        except Exception as e:
+                            logger.error(f"❌ Failed to generate task {task_counter} for '{topic}' ({text_type}): {e}")
+                            # Save failure log in batch folder
+                            try:
+                                self.save_failure_log(assigned_task_number, topic, text_type, custom_instructions, str(e), "generation_error")
+                            except Exception as log_error:
+                                logger.error(f"Failed to save failure log: {log_error}")
+                            task_counter += 1  # Still increment for display purposes
+                            continue
+            
+            # Create batch summary file
+            self._create_batch_summary(batch_folder, all_tasks, topics, text_types, tasks_per_topic, custom_instructions)
+            
+        finally:
+            # Restore original output directory
+            self.output_dir = original_output_dir
         
-        logger.info(f"🎉 Batch generation complete! Generated {len(all_tasks)} tasks")
+        logger.info(f"🎉 Batch generation complete! Generated {len(all_tasks)} tasks in folder: {batch_folder_name}")
         return all_tasks
+    
+    def _create_batch_summary(self, batch_folder: Path, tasks: List[Dict[str, Any]], topics: List[str], text_types: List[str], tasks_per_topic: int, custom_instructions: Optional[str]):
+        """Create a summary file for the batch generation"""
+        import datetime
+        
+        summary_content = f"""BATCH GENERATION SUMMARY
+========================
+
+Generated: {datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+Batch Folder: {batch_folder.name}
+Model: {self.client.config.model}
+
+GENERATION PARAMETERS:
+---------------------
+Topics: {len(topics)}
+Text Types: {len(text_types)}
+Tasks per Topic: {tasks_per_topic}
+Custom Instructions: {custom_instructions or 'None'}
+
+TOPICS PROCESSED:
+----------------
+{chr(10).join(f"• {topic}" for topic in topics)}
+
+TEXT TYPES:
+----------
+{chr(10).join(f"• {text_type}" for text_type in text_types)}
+
+RESULTS:
+--------
+Total Tasks Generated: {len(tasks)}
+Success Rate: {len(tasks)}/{len(topics) * len(text_types) * tasks_per_topic} ({len(tasks)/(len(topics) * len(text_types) * tasks_per_topic)*100:.1f}%)
+
+GENERATED TASKS:
+---------------
+"""
+        
+        for i, task in enumerate(tasks, 1):
+            summary_content += f"{i:2d}. {task['task_id']} - {task['title']}\n"
+            summary_content += f"    Topic: {task.get('topic', 'N/A')} | Type: {task.get('text_type', 'N/A')} | Words: {len(task.get('text', '').split())}\n"
+        
+        summary_content += f"""
+TASK CATEGORIES:
+---------------
+"""
+        # Count categories
+        categories = {}
+        for task in tasks:
+            cat = task.get('topic_category', 'unknown')
+            categories[cat] = categories.get(cat, 0) + 1
+        
+        for cat, count in sorted(categories.items()):
+            summary_content += f"• {cat.replace('_', ' ').title()}: {count} tasks\n"
+        
+        summary_content += f"""
+FILES IN BATCH:
+--------------
+"""
+        # List all files in the batch folder
+        for file_path in sorted(batch_folder.glob("*.json")):
+            file_size = file_path.stat().st_size
+            summary_content += f"• {file_path.name} ({file_size:,} bytes)\n"
+        
+        # Save summary file
+        summary_file = batch_folder / "BATCH_SUMMARY.txt"
+        with open(summary_file, 'w', encoding='utf-8') as f:
+            f.write(summary_content)
+        
+        logger.info(f"📋 Batch summary saved: {summary_file.name}")
     
     def improve_existing_tasks(self, task_files: List[str]) -> List[Dict[str, Any]]:
         """Improve existing tasks using Ollama"""

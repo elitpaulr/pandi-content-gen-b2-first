@@ -1,0 +1,91 @@
+{
+  "task_id": "reading_part5_task_04",
+  "title": "Disconnect to Reconnect: Simple Digital Wellness Hacks You Need Now",
+  "topic": "technology",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "As I sit here typing away on my laptop, I'm reminded of the irony of writing about digital wellness. My screen glows brightly in front of me, a constant reminder of the very thing I'm trying to escape from – the endless stream of notifications, emails, and social media updates.\n\nIt's no secret that our digital lives have become increasingly intertwined with our physical ones. We wake up to our phones, spend most of our day staring at screens, and wind down before bed scrolling through our feeds. But what happens when we overdo it? When the lines between work and play, online and offline, start to blur?\n\nFor me, the signs were there: chronic eye strain, headaches, and an unshakeable sense of burnout. It wasn't until I took a step back (literally) that I realized just how much my digital habits had taken over.\n\nSo, what can we do about it? Here are some practical digital wellness strategies that have helped me – and might just help you too:\n\n1. **Set boundaries**: This one's simple yet effective. Set specific times for checking your phone or computer, and stick to them. I've designated my evenings as 'tech-free' time, which has been a game-changer.\n\n2. **Prioritize offline activities**: It's easy to get sucked into the vortex of online entertainment, but trust me, there's a world beyond Netflix. Try reading a book, taking a walk, or practicing yoga – your mind and body will thank you.\n\n3. **Use technology wisely**: I've started using apps like Freedom and SelfControl to block distracting websites during work hours. It's amazing how much more focused I am when I'm not tempted by social media.\n\n4. **Schedule digital detoxes**: Plan ahead and give yourself regular breaks from the screen. Whether it's a weekend getaway or just a solo day at home, use this time to recharge and reset your relationship with technology.\n\n5. **Get outside**: Nature has a way of putting things into perspective. Take your laptop to a park or coffee shop, or better yet, leave it behind altogether. Fresh air is just what the doctor ordered for digital fatigue.\n\n6. **Practice self-compassion**: Let's face it – we're all guilty of mindless scrolling from time to time. When you catch yourself slipping into bad habits, gently nudge yourself back on track without beating yourself up over it. Remember, every small step counts.\n\n7. **Stay organized**: A cluttered digital life can quickly spill over into your physical one. Set reminders for tasks, use a planner or calendar, and keep your email inbox manageable – trust me, you'll feel like a weight has been lifted off your shoulders.\n\n8. **Disconnect from comparison**: Social media is the ultimate breeding ground for FOMO (fear of missing out) and the constant urge to compare ourselves to others. Take a step back and remember that everyone's highlight reel is just that – a curated selection of their life, not reality.\n\nThese digital wellness strategies might seem like small changes at first, but trust me, they add up. By taking control of our online habits and making space for the offline world, we can cultivate a healthier relationship with technology.\n\nIt's funny – when I think back to my pre-digital detox days, it feels almost surreal. Like looking through old photos of myself before I knew how to do this thing called life.\n\nNow, as I close this laptop and take a deep breath, I feel... lighter. More present. And it's not just about the tech; it's about rediscovering what truly matters – connection, creativity, and living in the moment.\n\nSo go ahead, take control of your digital life. Your well-being (and sanity) will thank you.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is a consequence for the writer if they continue their old digital habits?",
+      "options": {
+        "A": "Their physical health will improve",
+        "B": "They will become more productive and efficient with their work",
+        "C": "The lines between work and play, online and offline, will blur further",
+        "D": "They will experience a significant decrease in stress levels"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does 'FOMO' stand for in the text?",
+      "options": {
+        "A": "Fear Of Making Orders",
+        "B": "Fear Of Missing Out",
+        "C": "Fear Of Online Manipulation",
+        "D": "Fear Of Overload Management"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one of the author's designated \"tech-free\" times?",
+      "options": {
+        "A": "Monday mornings",
+        "B": "Evenings",
+        "C": "Weekends",
+        "D": "Lunch breaks"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards their own reliance on technology before implementing digital wellness strategies?",
+      "options": {
+        "A": "The author was very proud of their ability to multitask and manage multiple screens simultaneously.",
+        "B": "The author felt a strong sense of guilt and shame about their excessive use of technology.",
+        "C": "The author saw no irony in writing about digital wellness while constantly checking their phone and laptop.",
+        "D": "The author felt overwhelmed, burnt out, and trapped by the demands of their digital life."
+      },
+      "correct_answer": "D",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the very thing I'm trying to escape from\" refer to?",
+      "options": {
+        "A": "The author's laptop",
+        "B": "The endless stream of notifications, emails, and social media updates",
+        "C": "Chronic eye strain and headaches",
+        "D": "Digital detoxes"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this text about digital wellness strategies?",
+      "options": {
+        "A": "The author is warning readers about the dangers of excessive screen time and technology use.",
+        "B": "The author shares personal experiences with burnout and offers practical tips for achieving a healthier balance between online and offline life.",
+        "C": "The article discusses various apps and tools that can help manage digital habits and improve productivity.",
+        "D": "The text encourages readers to completely give up their smartphones and other devices."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern",
+  "custom_instructions": "Focus on practical tips and include specific examples"
+}

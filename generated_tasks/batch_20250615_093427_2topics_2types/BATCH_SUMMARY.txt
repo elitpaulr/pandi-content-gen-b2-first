@@ -1,0 +1,51 @@
+BATCH GENERATION SUMMARY
+========================
+
+Generated: 2025-06-15 09:40:59
+Batch Folder: batch_20250615_093427_2topics_2types
+Model: llama3.1:8b
+
+GENERATION PARAMETERS:
+---------------------
+Topics: 2
+Text Types: 2
+Tasks per Topic: 1
+Custom Instructions: Focus on practical tips and include specific examples
+
+TOPICS PROCESSED:
+----------------
+• sustainable travel tips
+• digital wellness strategies
+
+TEXT TYPES:
+----------
+• magazine_article
+• blog_post
+
+RESULTS:
+--------
+Total Tasks Generated: 4
+Success Rate: 4/4 (100.0%)
+
+GENERATED TASKS:
+---------------
+ 1. reading_part5_task_01 - Go Green on the Go: Simple Ways to Travel Responsibly
+    Topic: technology | Type: magazine_article | Words: 663
+ 2. reading_part5_task_02 - Travel Smarter Not Harder: 10 Green Ways to Explore the World
+    Topic: technology | Type: blog_post | Words: 651
+ 3. reading_part5_task_03 - Take Back Control: Simple Ways to Stay Healthy Online
+    Topic: technology | Type: magazine_article | Words: 598
+ 4. reading_part5_task_04 - Disconnect to Reconnect: Simple Digital Wellness Hacks You Need Now
+    Topic: technology | Type: blog_post | Words: 613
+
+TASK CATEGORIES:
+---------------
+• Technology Modern: 2 tasks
+• Travel Adventure: 2 tasks
+
+FILES IN BATCH:
+--------------
+• reading_part5_task_01.json (8,524 bytes)
+• reading_part5_task_02.json (7,867 bytes)
+• reading_part5_task_03.json (7,247 bytes)
+• reading_part5_task_04.json (7,297 bytes)

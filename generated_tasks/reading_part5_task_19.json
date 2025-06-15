@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_19",
+  "title": "Unlock Your Potential: The Power of Lifelong Learning for Success",
+  "topic": "education",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sat in her small apartment, surrounded by stacks of books and notes, Maya couldn't help but feel a sense of excitement and trepidation. She was about to embark on a journey that would change her life forever - the pursuit of lifelong learning.\n\nMaya had always been fascinated by the world around her. As a child, she spent hours poring over encyclopedias, devouring books on science, history, and literature. But as she grew older, life got in the way. School, work, relationships - all took priority over her passion for learning.\n\nBut now, at 35, Maya felt a sudden urge to reignite that spark within herself. She had always been someone who loved trying new things, whether it was cooking a new recipe or learning a new language. And yet, she had never made time for it.\n\n\"Maya, why are you so interested in this?\" her friend Rachel asked over coffee one morning. \"You're already successful in your career and have a great life.\"\n\n\"I know,\" Maya replied, \"but there's something missing. I feel like I'm not living up to my potential. I want to learn new things, meet new people, and experience the world in a different way.\"\n\nRachel nodded sympathetically. \"I get it. But don't you think that's just a midlife crisis?\"\n\nMaya laughed. \"Maybe it is, but it feels right to me. And besides, what's wrong with wanting to learn something new every day? That's what makes life interesting, isn't it?\"\n\nRachel smiled. \"You're right, of course. I'm happy for you.\"\n\nAnd so, Maya began her journey into the world of lifelong learning. She started small - taking online courses in photography and coding, attending book clubs and language exchange events. At first, it felt awkward to be around people who were younger and more tech-savvy than she was.\n\nBut as she continued to learn and grow, something remarkable happened. Maya began to notice changes within herself. She felt more confident, more curious, and more connected to the world around her. People began to take notice of this transformation too - colleagues complimented her on her new skills, friends asked for advice on photography techniques.\n\nAs Maya delved deeper into the world of lifelong learning, she discovered a wealth of resources available online - MOOCs (Massive Open Online Courses), podcasts, TED talks, and blogs. She joined online communities where people shared their experiences and expertise, and began to participate in discussions and debates.\n\nOne evening, as she was browsing through an online forum, Maya stumbled upon a post from a man named Alex. He had recently completed a degree in environmental science and was now working on a project to develop sustainable technologies for rural communities. Maya's eyes widened as she read his story - here was someone who embodied the very essence of lifelong learning.\n\nShe sent him a message, introducing herself and expressing her admiration for his work. To her surprise, Alex replied immediately, inviting her to join a webinar he was organizing on sustainable development.\n\nOver the next few weeks, Maya attended webinars, workshops, and conferences, meeting people like Alex who inspired her with their passion and dedication. She began to realize that lifelong learning wasn't just about accumulating knowledge - it was about building relationships, networking, and creating opportunities for growth and collaboration.\n\nAs she sat in her apartment now, surrounded by books and notes, Maya felt a sense of pride and accomplishment. She had taken the first step on this journey, but she knew there were many more to come.\n\n\"What's next?\" Rachel asked over phone that evening.\n\nMaya smiled. \"I'm not sure yet, but I know it'll be exciting.\"\n\nThe world was full of possibilities - and Maya was ready to learn them all.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Maya's relationship with her colleagues as a result of her pursuit of lifelong learning?",
+      "options": {
+        "A": "They are less supportive of her new skills and interests.",
+        "B": "They have started to rely on her for advice on various topics.",
+        "C": "They have become more distant from her due to her new hobbies.",
+        "D": "They have taken notice of the changes in her and complimented her on her new skills."
+      },
+      "correct_answer": "D",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does 'pursuit' mean in the context of this text?",
+      "options": {
+        "A": "A period of time spent learning new things",
+        "B": "The process of actively seeking out knowledge or skills",
+        "C": "A type of educational course that can be completed online",
+        "D": "An interest or hobby that someone is passionate about"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How old was Maya when she decided to pursue lifelong learning?",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "35",
+        "D": "40"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Maya think is missing from her life?",
+      "options": {
+        "A": "A sense of adventure",
+        "B": "The ability to live up to her potential",
+        "C": "More free time to relax",
+        "D": "Better relationships with colleagues"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Maya refer to when she says \"what's wrong with wanting to learn something new every day?\"",
+      "options": {
+        "A": "Her job",
+        "B": "The concept of lifelong learning",
+        "C": "Her friend Rachel's midlife crisis",
+        "D": "The idea that life becomes less interesting as people get older"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about Maya's journey into lifelong learning?",
+      "options": {
+        "A": "The importance of education for career advancement",
+        "B": "The transformative power of lifelong learning on personal growth and relationships",
+        "C": "The challenges faced by adults who want to pursue further education",
+        "D": "The benefits of online courses for busy professionals"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "personal_growth"
+}
