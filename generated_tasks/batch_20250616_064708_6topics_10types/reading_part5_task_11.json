@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_11",
+  "title": "Sweatproof Your Schedule: Fitness Trends That Work for Busy Lives",
+  "topic": "health_and_fitness",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Busy Professional's Guide to Fitness**\n\nAs we continue to lead increasingly fast-paced lives, finding time for exercise has become a challenge for many of us. We're constantly juggling work deadlines, family commitments, and social obligations, leaving precious little room in our schedules for fitness. However, neglecting physical activity can have serious consequences on both our health and productivity.\n\nAccording to a study by the American Heart Association, regular exercise can reduce stress levels, improve mood, and even boost cognitive function – all essential qualities for busy professionals to excel in their careers. So, how can we make time for fitness when it feels like every spare moment is accounted for?\n\n**High-Intensity Interval Training (HIIT)**\n\nOne popular solution is High-Intensity Interval Training (HIIT), a workout approach that involves short bursts of intense exercise followed by brief periods of rest. This style of training is perfect for busy professionals because it can be adapted to fit into even the most packed schedules.\n\n\"We're seeing more and more people using HIIT as a way to get a great workout in under 30 minutes,\" says personal trainer, Emily Chen. \"It's all about efficiency – you can get an amazing calorie burn and improve your cardiovascular health without spending hours at the gym.\"\n\nHIIT workouts typically involve short sprints on a treadmill or stationary bike, followed by brief intervals of rest to recover. This type of training also increases muscle strength and endurance, making it ideal for those with limited time.\n\n**Home Workouts**\n\nFor those who struggle to find time to get to the gym, home workouts are a convenient alternative. With the rise of social media and online fitness platforms, there's never been more content available to help busy professionals stay active at home.\n\nFitness apps like Nike Training Club and Peloton Digital offer a range of workouts that can be completed in just 10-20 minutes. These programs cater specifically to different fitness levels and goals, ensuring that everyone from beginners to advanced athletes can find something suitable.\n\n**Group Fitness Classes**\n\nAnother option for busy professionals is group fitness classes. Not only do these sessions provide accountability and motivation, but they're also a great way to socialize with like-minded individuals outside of work.\n\n\"Group fitness classes are perfect for those who enjoy working out in a group setting,\" says Sarah Lee, owner of local gym, Body by Design. \"Not only do you get the support and encouragement of fellow participants, but you'll also be pushed to try new exercises and techniques.\"\n\n**Time-Saving Tips**\n\nWhile incorporating regular exercise into your schedule can seem daunting, there are ways to make it more manageable:\n\n* Start small: Begin with short workouts (10-15 minutes) and gradually increase duration as your fitness level improves.\n* Schedule it in: Treat exercise as a non-negotiable part of your daily routine – just like brushing your teeth or taking a shower.\n* Choose activities you enjoy: Exercise shouldn't feel like a chore. Experiment with different types of workouts until you find something that brings you joy.\n\nIn conclusion, finding time for fitness doesn't have to be an impossible task. By incorporating HIIT workouts, home exercises, and group classes into your routine, you can prioritize physical activity without sacrificing precious moments from your busy schedule.\n\nSo, the next time you're tempted to skip a workout in favor of an extra hour's sleep or another evening on social media, remember: exercise is not just about physical health – it's also essential for mental well-being and productivity. As Emily Chen puts it, \"Exercise should be a non-negotiable part of your daily routine. Not only will you feel more energized and focused, but you'll also have the confidence to tackle any challenge that comes your way.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if busy professionals prioritize exercise as a non-negotiable part of their daily routine?",
+      "options": {
+        "A": "They will lose interest in fitness over time.",
+        "B": "They will experience improved mental well-being and productivity.",
+        "C": "They will have more free time for social media and leisure activities.",
+        "D": "They will become less motivated to work out."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Emily Chen mean by 'adapted to fit into even the most packed schedules' when referring to HIIT workouts?",
+      "options": {
+        "A": "It means that HIIT workouts can only be done during a person's free time, such as weekends.",
+        "B": "It means that HIIT workouts are flexible and can be adjusted to suit individual lifestyles.",
+        "C": "It means that HIIT workouts require a lot of equipment and cannot be done at home.",
+        "D": "It means that HIIT workouts are too long and difficult for busy professionals."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the author's attitude towards exercise for busy professionals?",
+      "options": {
+        "A": "They believe it's a luxury they can't afford.",
+        "B": "It's essential for both physical and mental well-being, and can be adapted to fit into even the most packed schedules.",
+        "C": "It's only beneficial for those with plenty of free time on their hands.",
+        "D": "They think it's something that should be done at the weekends only."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Emily Chen's comment refer to?",
+      "options": {
+        "A": "The benefits of High-Intensity Interval Training (HIIT) workouts",
+        "B": "The importance of regular exercise for mental well-being and productivity",
+        "C": "The effectiveness of home workouts compared to gym sessions",
+        "D": "The need to schedule exercise as a non-negotiable part of daily routine"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about fitness for busy professionals?",
+      "options": {
+        "A": "The American Heart Association study shows that regular exercise has no benefits for busy people.",
+        "B": "Finding time for exercise is challenging, but it's essential for physical and mental well-being.",
+        "C": "Group fitness classes are the only effective way to stay fit as a busy professional.",
+        "D": "Exercise should be sacrificed in favor of work deadlines and social obligations."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "health_wellness"
+}

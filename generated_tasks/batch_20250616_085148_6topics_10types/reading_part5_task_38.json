@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_38",
+  "title": "Ditch the Bottle: How to Live Plastic-Free in 30 Days",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "Embracing a Plastic-Free Lifestyle: Challenges and Triumphs\n\nIn recent years, the world has witnessed a significant shift towards adopting sustainable living practices. Among various eco-friendly habits, embracing a plastic-free lifestyle has gained immense popularity. It's not just about making a few changes to our daily routines; it's about creating a profound impact on the environment. However, transitioning to a plastic-free lifestyle comes with its set of challenges.\n\nOne of the primary difficulties people face is rethinking their relationship with everyday items. For instance, plastic straws, water bottles, and shopping bags are often considered indispensable. But, did you know that these seemingly harmless products contribute significantly to pollution? A single plastic straw can take up to 200 years to decompose, whereas a plastic water bottle can take up to 450 years.\n\nTo overcome this hurdle, it's essential to become aware of the alternatives available. Bamboo straws, stainless steel water bottles, and cloth bags are just a few examples of eco-friendly substitutes. Moreover, making small changes gradually can make the transition more manageable. For instance, replacing plastic containers with glass or metal ones in your kitchen can be a great starting point.\n\nAnother challenge is finding suitable replacements for personal care products that come packaged in plastic. Shampoo bottles, conditioner tubes, and lotion packaging are common culprits. In this regard, opting for bar soaps, solid shampoos, and refillable containers can significantly reduce plastic waste. Some companies now offer bulk shopping options or refilling services for these items.\n\nFood shopping is another area where plastic usage is rampant. Plastic wrap, ziplock bags, and single-use containers are often used to store perishables. However, alternatives like beeswax wraps, reusable containers, and mesh bags can minimize waste. For example, using a beehive-friendly alternative to plastic wrap can prevent millions of bees from being killed each year.\n\nLiving with family or roommates can also present challenges in adopting a plastic-free lifestyle. Different people may have varying opinions on the importance of eco-friendliness or may not see the urgency in changing their habits. In such cases, having open discussions and setting common goals can help create a united front towards sustainability.\n\nFor those who live alone or prefer to shop for groceries individually, finding stores that offer refill options or bulk shopping can be a game-changer. Some supermarkets now have designated sections for zero-waste products, making it easier to find alternatives to packaged goods.\n\nIncorporating plastic-free practices into daily routines also requires creativity and patience. From making your own cleaning supplies using natural ingredients to creating a \"zero-waste\" laundry day (using cloth nappies or reusable pads), there are numerous innovative ways to reduce waste.\n\nOne of the most significant benefits of adopting a plastic-free lifestyle is the realization that small changes can lead to substantial results. According to various studies, even minor reductions in plastic usage can have a profound impact on reducing pollution and preserving marine life.\n\nUltimately, embracing a plastic-free lifestyle requires dedication and perseverance. But with the numerous alternatives available today, it's easier than ever to make the transition. Whether you're an eco-warrior or someone just starting their journey towards sustainability, remember that every small step counts – and collective action can lead to monumental change.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if everyone adopts a plastic-free lifestyle?",
+      "options": {
+        "A": "The environment will immediately start to recover from pollution",
+        "B": "It's possible that some people might experience difficulties finding suitable alternatives for certain products",
+        "C": "A significant reduction in plastic usage can have a profound impact on reducing pollution and preserving marine life",
+        "D": "People who live alone won't be able to adopt a plastic-free lifestyle"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"indispensable\" mean in this context?",
+      "options": {
+        "A": "Completely unnecessary",
+        "B": "Extremely difficult to replace",
+        "C": "Often considered essential or vital",
+        "D": "Totally unrelated to the topic"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the estimated time it takes for a plastic water bottle to decompose?",
+      "options": {
+        "A": "50 years",
+        "B": "450 years",
+        "C": "200 years",
+        "D": "1000 years"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards making changes to our daily routines for a plastic-free lifestyle?",
+      "options": {
+        "A": "The author thinks it's too difficult to make any significant changes.",
+        "B": "The author believes that small actions can have a profound impact on reducing pollution and preserving marine life.",
+        "C": "The author suggests that only drastic, immediate changes will be effective in achieving a plastic-free lifestyle.",
+        "D": "The author thinks that adopting a plastic-free lifestyle is unnecessary because it's not a major contributor to pollution."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What do the bamboo straws, stainless steel water bottles, and cloth bags mentioned in the text refer to?",
+      "options": {
+        "A": "Everyday items that contribute significantly to pollution",
+        "B": "Eco-friendly substitutes for plastic products",
+        "C": "Personal care products packaged in plastic",
+        "D": "Food shopping containers made of plastic"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about plastic-free lifestyle challenges?",
+      "options": {
+        "A": "The article presents several solutions for reducing plastic waste but does not provide any guidance on how to overcome challenges.",
+        "B": "Embracing a plastic-free lifestyle requires significant changes to daily routines, which can be difficult and time-consuming.",
+        "C": "The article focuses on the benefits of adopting a plastic-free lifestyle and provides numerous examples of alternatives to plastic products.",
+        "D": "Making small changes to daily routines is key to transitioning to a plastic-free lifestyle."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

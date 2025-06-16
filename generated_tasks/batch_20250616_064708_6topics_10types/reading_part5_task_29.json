@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_29",
+  "title": "Playing With Others: Exploring Team Sports in Foreign Cities",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I wandered through the vibrant streets of Tokyo, I stumbled upon a fascinating phenomenon that left me pondering the age-old debate between team sports and individual activities. The city was alive with energy, its inhabitants enthusiastically embracing both collective endeavors and solo pursuits.\n\nMy journey began at the iconic Meiji Shrine, where I witnessed a mesmerizing display of traditional Japanese baseball. Players clad in crisp uniforms executed each play with precision and coordination, their movements choreographed like a well-rehearsed dance. The crowd cheered with unbridled enthusiasm as their team battled for victory, demonstrating the unwavering dedication that defines this beloved national pastime.\n\nAs I continued my exploration, I found myself drawn to the tranquil gardens of the Imperial Palace East Garden. Here, I observed locals engaged in serene individual activities such as meditation and yoga. These quiet contemplatives seemed worlds apart from the boisterous baseball enthusiasts, their focus solely on perfecting their own inner peace. The air was thick with an almost palpable sense of calm, a stark contrast to the electric atmosphere of the stadium.\n\nAs I navigated the city's diverse neighborhoods, I noticed a striking correlation between team sports and community engagement. In Tokyo's bustling wards, team-oriented activities like rugby, soccer, and basketball were ubiquitous, fostering camaraderie among participants and spectators alike. The excitement was infectious, drawing in passersby who couldn't resist joining the revelry.\n\nIn stark contrast, individual pursuits seemed to be more solitary affairs. While some enthusiasts did participate in group classes or workshops, many others opted for solo exploration of Tokyo's vast cultural landscape. Whether hiking through the lush forests of Mount Takao, browsing the eclectic stalls of Ameya Yokocho market, or simply strolling along the Sumida River, these individuals were content to immerse themselves in their own private worlds.\n\nHowever, as I delved deeper into Tokyo's hidden corners, I discovered pockets of convergence between team sports and individual activities. In the city's hipster districts, I spotted teams made up entirely of women or seniors participating in innovative fusion sports like ultimate frisbee or beach volleyball. These groups not only pushed boundaries but also created inclusive spaces for participants from all walks of life.\n\nFurther afield, in the mountains of Nikko National Park, I encountered trekkers and hikers who had formed lasting bonds over shared experiences on the trails. While these adventurers often started as solitary travelers, they inevitably found themselves part of larger teams or guided groups, which provided not only physical support but also emotional connections.\n\nAs my travels came to a close, I couldn't help but reflect on the symbiotic relationship between team sports and individual activities in Tokyo. Both aspects complemented each other beautifully, showcasing the city's remarkable ability to balance collective enthusiasm with personal expression. This equilibrium allowed its inhabitants to reap rewards from both worlds: the camaraderie of teamwork and the satisfaction of solo exploration.\n\nAs I left Tokyo behind, carrying memories of vibrant baseball games and serene gardens, I realized that this dichotomy is not unique to Japan. Cities worldwide grapple with striking a balance between team sports and individual pursuits, each striving for its own perfect blend of collective energy and personal freedom.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude towards Tokyo's team sports culture?",
+      "options": {
+        "A": "The author is critical of the city's emphasis on team sports.",
+        "B": "The author believes that team sports are a major contributor to Tokyo's social cohesion.",
+        "C": "The author thinks that team sports are only popular among young people in Tokyo.",
+        "D": "The author suggests that team sports have a negative impact on individuality in the city."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does 'fascinating phenomenon' most likely mean in this context?",
+      "options": {
+        "A": "A surprising or interesting event",
+        "B": "A long-standing problem or issue",
+        "C": "A sudden change or development",
+        "D": "A widespread trend or fashion"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Where did the writer witness a display of traditional Japanese baseball?",
+      "options": {
+        "A": "The Imperial Palace East Garden",
+        "B": "The Meiji Shrine",
+        "C": "Mount Takao",
+        "D": "Ameya Yokocho market"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The author seems to think that Tokyo's residents benefit from having both team sports and individual activities available.",
+      "options": {
+        "A": "They are forced to choose between the two.",
+        "B": "Team sports dominate their lives, leaving little time for solo pursuits.",
+        "C": "Both aspects complement each other beautifully, allowing for a balance of collective enthusiasm and personal expression.",
+        "D": "Individual activities are seen as more prestigious than team sports in Tokyo."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"they\" refer to in the sentence \"While these adventurers often started as solitary travelers, they inevitably found themselves part of larger teams or guided groups...\"?",
+      "options": {
+        "A": "The hikers mentioned earlier",
+        "B": "The trekkers encountered in Nikko National Park",
+        "C": "The participants from all walks of life in the hipster districts",
+        "D": "The solo explorers browsing the stalls of Ameya Yokocho market"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about Tokyo's balance between team sports and individual activities?",
+      "options": {
+        "A": "The city of Tokyo prioritizes team sports over individual activities.",
+        "B": "Tokyo successfully combines the benefits of teamwork and solo exploration, creating a unique cultural landscape.",
+        "C": "Individual activities are more popular than team sports in Tokyo's urban areas.",
+        "D": "Team sports have no place in modern cities like Tokyo."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

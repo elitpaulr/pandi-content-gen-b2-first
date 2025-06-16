@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_32",
+  "title": "Green Dollars Matter: The Power of Ethical Shopping Revealed",
+  "topic": "technology",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Sustainable Shopper's Guide**\n\nAs consumers, we have the power to shape the world around us with every purchase we make. But are our shopping habits contributing to the destruction of our planet, or can they be a force for good? The truth is, sustainable shopping and ethical consumption are no longer just buzzwords – they're a necessity.\n\nAccording to a study by GlobalData, 60% of consumers worldwide now consider sustainability when making purchasing decisions. But what does this really mean? Sustainable shopping isn't just about buying eco-friendly products; it's also about considering the social and economic impact of our purchases.\n\nSo where do we start?\n\n**Know Your Labels**\n\nWhen it comes to sustainable shopping, labels can be misleading. Look for certifications like Fair Trade, Organic, and B Corp, which guarantee that a product meets certain standards. But don't rely solely on labels – dig deeper into the brand's values and practices.\n\nTake Patagonia, for example. This outdoor apparel brand has been a pioneer in sustainable manufacturing for decades. Their \"Worn Wear\" program encourages customers to repair and repurpose their products, reducing waste and promoting longevity.\n\n**Shop Second-Hand First**\n\nThrift shopping is no longer just for bargain hunters; it's a sustainable choice. Shopping second-hand reduces the demand for new, resource-intensive products and helps divert waste from landfills. Plus, you'll find unique, one-of-a-kind items that support local communities.\n\n\"Second-hand shopping is a game-changer,\" says Emma Taylor, founder of online thrift store Vestiare Collective. \"Not only does it reduce waste, but it also promotes sustainable consumption patterns.\"\n\n**Avoid Fast Fashion**\n\nFast fashion may be cheap and trendy, but its impact on the environment and workers' rights is devastating. The fashion industry is responsible for 10% of global greenhouse gas emissions – more than the entire country of France.\n\nWhen shopping, opt for timeless, high-quality pieces that won't end up in the landfill after a season. Consider investing in clothing made from sustainable materials like organic cotton or recycled polyester.\n\n**Support Local and Small**\n\nLocal businesses and small manufacturers often have lower carbon footprints than big-box retailers. By supporting them, you're keeping money within your community and promoting local economic growth.\n\n\"Buying local is about more than just shopping; it's about building relationships with the people who make our products,\" says Rachel Pritzker, co-founder of local fashion brand, Loomstate. \"It's a way to connect with our community and promote sustainable practices.\"\n\n**Make Your Voice Heard**\n\nAs consumers, we have the power to demand change from brands. When you see a product or service that aligns with your values, voice your support on social media. Share articles, tag friends, and encourage others to make similar choices.\n\nBut don't just stop at likes and shares – take action. Write to companies, sign petitions, and participate in local activism efforts. Your collective voice can drive real change and push brands towards more sustainable practices.\n\n**The Future is Sustainable**\n\nSustainable shopping and ethical consumption may seem daunting, but it's a journey, not a destination. Every purchase counts, every choice matters. By making conscious decisions about what we buy and how we consume, we can create a better world for all.\n\nAs Emma Taylor puts it, \"Shopping sustainably is not just a moral obligation – it's a matter of self-preservation.\" By choosing to shop sustainably, we're investing in our planet's future and ensuring that the products we love will continue to thrive for generations to come.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Emma Taylor's perspective on sustainable shopping from her statement \"Shopping sustainably is not just a moral obligation – it's a matter of self-preservation\"?",
+      "options": {
+        "A": "She believes that unsustainable shopping practices are harming people's health.",
+        "B": "She thinks that making conscious purchasing decisions will ensure the products we love continue to thrive for generations to come.",
+        "C": "She sees sustainable shopping as a way to reduce costs and save money.",
+        "D": "She thinks that shopping sustainably is only important for environmental reasons."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"resource-intensive\" mean in this context?",
+      "options": {
+        "A": "Using a lot of physical energy",
+        "B": "Requiring a large amount of money to produce",
+        "C": "Consuming a lot of resources such as water, land, or raw materials",
+        "D": "Being very expensive for the consumer"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to GlobalData, what percentage of consumers worldwide now consider sustainability when making purchasing decisions?",
+      "options": {
+        "A": "40%",
+        "B": "50%",
+        "C": "60%",
+        "D": "70%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What can be inferred about the author's attitude towards the fashion industry?",
+      "options": {
+        "A": "The author thinks it's a moral obligation for consumers to boycott the fashion industry.",
+        "B": "The author views the fashion industry as a driving force behind positive change, but acknowledges its flaws.",
+        "C": "The author believes that fast fashion is a necessary evil and that consumers have no power to effect change.",
+        "D": "The author sees the fashion industry as entirely responsible for environmental degradation."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Emma Taylor mean by \"shopping sustainably is not just a moral obligation – it's a matter of self-preservation\"?",
+      "options": {
+        "A": "She believes that sustainable shopping is only important if it benefits the planet and other people.",
+        "B": "She thinks that choosing to shop sustainably is essential for our own well-being and future.",
+        "C": "She claims that shopping sustainably has no impact on individuals or society.",
+        "D": "She argues that sustainable shopping is only necessary for low-income communities."
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this article about sustainable shopping?",
+      "options": {
+        "A": "To explain how to save money on everyday purchases",
+        "B": "To encourage consumers to make conscious choices that benefit both people and the planet",
+        "C": "To describe the history of sustainable fashion trends",
+        "D": "To promote a specific brand's products as eco-friendly"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

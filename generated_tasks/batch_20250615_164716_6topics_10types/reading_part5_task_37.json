@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_37",
+  "title": "The Green Revolution Starts Here: Shopping Smarter for a Better Planet",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she wandered through the bustling streets of the city, Lena couldn't help but feel a pang of guilt with every purchase she made. She had always tried to be mindful of her spending habits, but lately, she'd been realizing just how much waste and harm was being perpetuated by the fast fashion industry.\n\n\"I don't know how you do it,\" Lena said, turning to her friend Emily as they stood in front of a trendy boutique. \"Every time I come here, I feel like I'm contributing to the problem.\"\n\nEmily smiled wryly. \"I used to be just like you. But then I started reading about the environmental and social impact of fast fashion, and it really opened my eyes. Now I try to shop more thoughtfully.\"\n\nLena's gaze roamed over the racks of brightly colored clothes. \"But how do you know what's good and what's not? It all looks so similar in here.\"\n\nEmily took a deep breath. \"For me, it comes down to research. I read labels, look for certifications like GOTS or Oeko-Tex, and try to support brands that prioritize sustainability and fair labor practices. I also aim to buy second-hand as much as possible – thrift stores, consignment shops, online marketplaces... you'd be surprised what amazing deals you can find.\"\n\nLena's eyes widened as she scanned the store's offerings. \"I never thought about it that way. But what about online shopping? That seems like a huge contributor to waste and carbon emissions.\"\n\nEmily nodded in agreement. \"It definitely has its drawbacks, but there are ways to shop more sustainably online too. Look for brands with transparent supply chains, sustainable materials, and minimal packaging. Some websites even offer carbon offsetting or plant-based shipping materials – it's all about finding the companies that share your values.\"\n\nAs they continued their conversation, Lena couldn't help but feel a sense of hope. Maybe, just maybe, she could start making changes to her shopping habits after all.\n\nOver the next few weeks, Lena found herself becoming more and more intentional with her purchases. She started scouring local thrift stores for unique finds, researching brands online, and even attempting to make some of her own clothes from scratch (with mixed results, but that's a story for another time). And as she did, she began to notice the subtle yet profound impact on her life.\n\nHer closet, once bursting with cheap, trendy items, slowly gave way to a curated selection of timeless pieces that brought her joy. She started to appreciate the art of slow fashion – taking the time to choose each item carefully, rather than just grabbing whatever was cheapest or trendiest. And as she dressed for work and social events, she felt more confident, more authentic.\n\n\"I never thought I'd say this,\" Lena said to Emily one evening, sipping coffee in a cozy café, \"but sustainable shopping has actually made me feel happier.\"\n\nEmily smiled knowingly. \"That's the best part – it's not just about doing what's good for the planet; it's about cultivating a deeper connection with yourself and your values. When you shop more thoughtfully, you start to see the world in a different light.\"\n\nAs Lena gazed out at the bustling streets beyond the café window, she felt a sense of purpose growing within her. It was time to take her newfound awareness into the wider world – to spread the word about the power of sustainable shopping and ethical consumption.\n\nTogether with Emily, Lena began to organize a series of workshops and events in their community, inviting friends, family, and strangers alike to join the conversation. They shared stories of brands doing it right (and wrong), explored creative ways to repurpose old clothes, and even hosted a \"swishing\" party – an evening where guests brought in gently used items to exchange for new finds.\n\nAs the weeks went by, Lena watched her community come together in unexpected ways. Strangers became friends over shared values; women supported each other through fashion-related struggles (like finding the perfect size); and local businesses began to thrive as customers sought out sustainable options.\n\nIt was a small revolution, perhaps, but one that filled Lena's heart with joy – proof that even the smallest changes could have a profound impact on our world.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Lena's shopping habits before she started learning about sustainable fashion?",
+      "options": {
+        "A": "She was always mindful of her spending and tried to avoid buying unnecessary items.",
+        "B": "She prioritized second-hand shopping and looked for certifications like GOTS or Oeko-Tex on labels.",
+        "C": "She had a closet full of cheap, trendy clothes that made her feel unhappy with herself.",
+        "D": "She had already implemented sustainable practices in her shopping habits for several years."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Emily mean by \"support brands that prioritize sustainability and fair labor practices\"?",
+      "options": {
+        "A": "Brands that use environmentally friendly packaging",
+        "B": "Companies that treat their employees fairly and minimize waste",
+        "C": "Businesses that donate a portion of their profits to charity",
+        "D": "Retailers that offer discounts and sales regularly"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What certification does Emily look for when checking labels to ensure that the clothes are made sustainably?",
+      "options": {
+        "A": "BSCI",
+        "B": "GOTS",
+        "C": "Oeko-Tex",
+        "D": "Fair Trade Certified"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Lena feel when she shops at trendy boutiques like the one Emily takes her to?",
+      "options": {
+        "A": "Excitement about finding the latest fashion trends",
+        "B": "Guilt and concern for the environmental and social impact of fast fashion",
+        "C": "Indifference towards the sustainability of the brands she buys from",
+        "D": "Pride in supporting local businesses that prioritize fair labor practices"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who does Emily say she used to be like before changing her shopping habits?",
+      "options": {
+        "A": "A fashion blogger",
+        "B": "Someone who always shops second-hand",
+        "C": "Lena, as described by Emily",
+        "D": "A wealthy business owner"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "The benefits of fast fashion are discussed, highlighting its popularity among young people.",
+        "B": "Lena discovers that making sustainable changes to her shopping habits leads to a more fulfilling life.",
+        "C": "The author argues that online shopping is the biggest contributor to waste and carbon emissions in the fashion industry.",
+        "D": "The text presents a variety of perspectives on sustainable shopping, but does not take a clear stance."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

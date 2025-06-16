@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_88",
+  "title": "Make Money While You Sleep: The Ultimate Guide to Side Hustles & Passive Income",
+  "topic": "general",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "**The Secret to Achieving Financial Freedom: Unlocking Side Hustles and Passive Income**\n\nIn today's fast-paced economy, achieving financial freedom is no longer a luxury but a necessity. With the rise of gig economy and changing workforce dynamics, many individuals are turning to side hustles as a means to supplement their income and secure their financial future. But what exactly is a side hustle, and how can it help you achieve passive income?\n\n**What is a Side Hustle?**\n\nA side hustle refers to any additional activity or business that an individual pursues outside of their primary job or career. It can range from freelancing, part-time jobs, selling products online, or even starting a small business. The key characteristic of a side hustle is that it requires effort and dedication, but the potential for financial rewards is limitless.\n\n**Types of Side Hustles**\n\nThere are numerous types of side hustles that cater to various interests and skills. Some popular options include:\n\n*   **Freelancing**: Offer your expertise as a freelancer on platforms like Upwork or Fiverr.\n*   **Selling products online**: Utilize e-commerce websites like Amazon, eBay, or Etsy to sell physical or digital products.\n*   **Ride-sharing or driving jobs**: Sign up with companies like Uber or Lyft to earn money by transporting passengers.\n*   **Renting out a room on Airbnb**: Monetize your spare room and attract travelers from around the world.\n\n**The Power of Passive Income**\n\nPassive income is the holy grail of financial freedom, where you earn money without actively working for it. Side hustles can help you create passive income streams by investing time and effort upfront, but reaping benefits in the long run. Some popular ways to generate passive income include:\n\n*   **Investing in dividend-paying stocks**: Earn regular income from stocks that pay dividends.\n*   **Creating and selling online courses**: Share your knowledge and skills with others through video courses or e-books.\n*   **Affiliate marketing**: Promote products or services and earn a commission for each sale made through your unique referral link.\n\n**Tips for Success**\n\nTo make the most out of side hustles and passive income, consider the following tips:\n\n*   **Start small**: Begin with a low-commitment side hustle and scale up as you gain momentum.\n*   **Be patient**: Building passive income streams takes time, so be prepared to put in the effort upfront.\n*   **Diversify your income**: Spread your income across multiple sources to minimize risk and maximize returns.\n\n**Conclusion**\n\nAchieving financial freedom requires more than just a steady paycheck. By embracing side hustles and creating passive income streams, you can break free from the cycle of living paychecks to paychecks and build wealth over time. Whether it's freelancing, investing in stocks, or selling products online, the possibilities are endless. So, take control of your financial future today and start building a life of abundance and prosperity.\n\n**Final Thoughts**\n\nFinancial freedom is within reach, but it requires dedication and effort. By understanding side hustles and passive income streams, you can unlock a world of opportunities and create a brighter financial future for yourself and your loved ones.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude towards achieving financial freedom?",
+      "options": {
+        "A": "The author believes it is only possible with a high-paying job.",
+        "B": "The author thinks it requires a significant amount of effort and patience, but is achievable with the right mindset.",
+        "C": "The author recommends relying solely on one type of side hustle to achieve financial freedom.",
+        "D": "The author doubts that individuals can achieve financial freedom in today's economy."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word 'necessity' mean in the following sentence: \"In today's fast-paced economy, achieving financial freedom is no longer a luxury but a necessity.\"",
+      "options": {
+        "A": "Something that brings great pleasure",
+        "B": "A situation or thing that must be done because it is essential",
+        "C": "An activity that one can do only in their free time",
+        "D": "A type of business that requires little effort"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is a key characteristic of a side hustle?",
+      "options": {
+        "A": "It can be done full-time",
+        "B": "It requires effort and dedication but has limitless potential for financial rewards",
+        "C": "It is only available to individuals with a primary job or career",
+        "D": "It must be done online"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the phrase \"the holy grail of financial freedom\" refer to in the text?",
+      "options": {
+        "A": "A specific type of side hustle",
+        "B": "The ultimate goal of achieving passive income",
+        "C": "A way to invest in dividend-paying stocks",
+        "D": "A method for creating and selling online courses"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea or purpose of this text about achieving financial freedom?",
+      "options": {
+        "A": "To inform readers about different types of investment options.",
+        "B": "To explain how side hustles can help individuals achieve passive income.",
+        "C": "To encourage readers to quit their primary jobs and focus on side hustles only.",
+        "D": "To provide tips for managing finances effectively."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

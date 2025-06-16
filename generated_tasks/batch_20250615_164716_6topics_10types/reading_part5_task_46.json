@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_46",
+  "title": "The Green Revolution Hits the High Street: A Guide to Sustainable Shopping",
+  "topic": "technology",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "Sustainable Shopping and Ethical Consumption: A Cultural Shift in the Making\n\nIn recent years, the concept of sustainable shopping has gained significant traction globally, with consumers increasingly seeking to make more conscious choices about the products they buy and how they impact the environment. This cultural shift is driven by a growing awareness of the environmental, social, and economic consequences of traditional consumption patterns.\n\nOne of the key drivers of this trend is the rise of online platforms and social media, which have made it easier for consumers to access information about the brands and products they purchase. Social media influencers and bloggers have played a significant role in promoting sustainable shopping, sharing their personal experiences with eco-friendly products and highlighting the benefits of adopting more environmentally responsible habits.\n\nHowever, sustainable shopping is not just about making individual choices; it's also about challenging the dominant consumer culture that prioritizes growth and profit over social and environmental well-being. The fast fashion industry, for example, has been criticized for its exploitative labor practices, waste generation, and contribution to climate change. In response, many consumers are turning to second-hand shopping, swapping clothes with friends, or investing in high-quality, timeless pieces that minimize the need for frequent purchases.\n\nAnother area where sustainable shopping is making a significant impact is in the realm of food production and consumption. With growing concerns about the environmental and health impacts of industrial agriculture, consumers are increasingly seeking out locally sourced, organic produce and choosing plant-based diets. This shift towards more mindful eating practices has also led to an interest in cooking and preparing meals from scratch, which not only reduces waste but also promotes a greater connection to food and its production.\n\nDespite these positive trends, there is still much work to be done to make sustainable shopping the norm. One of the main challenges is the lack of clear labeling and regulation around sustainability claims. This has led to a situation where some companies can label their products as \"eco-friendly\" or \"sustainable\" without necessarily backing up these claims with concrete evidence.\n\nTo address this issue, consumers need to be more discerning in their purchasing decisions, seeking out brands that have transparent supply chains and a clear commitment to sustainability. They also need to support policy initiatives that promote labeling standards and regulations around sustainability claims.\n\nFurthermore, sustainable shopping requires a fundamental shift in our relationship with consumption itself. Rather than perpetuating the cycle of constant buying and discarding, consumers can adopt a more mindful approach to acquiring products. This means investing in high-quality items that will last for years to come, repairing or repurposing existing items rather than replacing them, and embracing a more minimalist lifestyle.\n\nIn conclusion, sustainable shopping is not just a passing trend; it's a cultural shift that has the potential to transform our relationship with consumption and the environment. As consumers, we have the power to demand more from brands and policymakers, driving change through our purchasing decisions and advocating for policies that promote sustainability. By working together, we can create a more equitable, environmentally conscious consumer culture that benefits both people and the planet.\n\nUltimately, sustainable shopping is not just about making individual choices; it's about contributing to a broader cultural movement that prioritizes social and environmental well-being over profit and growth. As consumers, we have a responsibility to use our purchasing power to drive positive change, promoting a more mindful, responsible approach to consumption that benefits both people and the planet for generations to come.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about consumers who are turning to second-hand shopping or swapping clothes with friends?",
+      "options": {
+        "A": "They are only motivated by a desire to save money",
+        "B": "They are trying to minimize their environmental impact and support more sustainable fashion practices",
+        "C": "They are primarily driven by the need for new, trendy clothing",
+        "D": "They are no longer interested in buying high-quality, timeless pieces"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"dominant\" mean in the context of consumer culture?",
+      "options": {
+        "A": "A way of doing something that is widely accepted",
+        "B": "The most popular or well-known option",
+        "C": "A type of product or service that is considered to be the best choice",
+        "D": "The usual or traditional approach to something"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one of the main challenges facing sustainable shopping today?",
+      "options": {
+        "A": "The lack of clear labeling and regulation around sustainability claims",
+        "B": "The rise of fast fashion industry's exploitative labor practices",
+        "C": "The growing awareness of environmental, social, and economic consequences of traditional consumption patterns",
+        "D": "The increasing popularity of second-hand shopping and swapping clothes with friends"
+      },
+      "correct_answer": "A",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think is the main reason why some companies can label their products as \"eco-friendly\" or \"sustainable\" without providing evidence?",
+      "options": {
+        "A": "Because consumers are not educated about sustainability issues",
+        "B": "Because there is a lack of clear labeling and regulation around sustainability claims",
+        "C": "Because sustainable shopping is just a trend that will soon pass",
+        "D": "Because consumers do not care about environmental concerns"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"traditional consumption patterns\" refer to in the text?",
+      "options": {
+        "A": "The fast fashion industry's exploitative labor practices",
+        "B": "The environmental, social, and economic consequences of unsustainable shopping habits",
+        "C": "The dominant consumer culture that prioritizes growth and profit over social and environmental well-being",
+        "D": "The benefits of adopting more environmentally responsible habits through sustainable shopping"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable shopping?",
+      "options": {
+        "A": "The author argues that sustainable shopping is just a matter of individual choices.",
+        "B": "The cultural shift towards sustainable shopping has the potential to transform our relationship with consumption and the environment.",
+        "C": "Online platforms and social media are the only drivers of the trend towards sustainable shopping.",
+        "D": "Sustainable shopping is not necessary because traditional consumption patterns do not have negative consequences."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_02",
+  "title": "Travel Kindly: How Your Holidays Can Save the Planet",
+  "topic": "technology",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "Sustainable Travel on the Rise as Eco-Conscious Tourists Seek Out Green Getaways\n\nAs concerns over climate change and environmental degradation continue to grow, a new trend is emerging in the travel industry: sustainable tourism. Once seen as a niche interest for eco-warriors and adventure-seekers, sustainable travel is now becoming increasingly mainstream as travelers seek out ways to minimize their impact on the environment while exploring the world.\n\nAt its core, sustainable travel refers to tourism that prioritizes environmental conservation and social responsibility over profit. This can take many forms, from staying in environmentally-friendly accommodations to participating in locally-led tours that support community development projects.\n\nOne of the most popular destinations for eco-conscious travelers is Costa Rica, a small country in Central America known for its lush rainforests, exotic wildlife, and commitment to sustainability. Visitors can stay in eco-lodges made from sustainable materials, participate in reforestation efforts, or simply soak up the sun on one of the many pristine beaches.\n\nBut sustainable travel isn't just about visiting remote wilderness areas – it's also about exploring cities and towns that are working hard to reduce their environmental footprint. Cities like Copenhagen, Denmark, and Vancouver, Canada, have made significant strides in reducing carbon emissions and promoting green transportation.\n\nIn fact, according to a recent survey by the World Tourism Organization (UNWTO), 76% of travelers say they would choose a destination that is committed to sustainability over one that is not. This shift in consumer behavior has led many destinations to prioritize environmental conservation and social responsibility.\n\nOne of the most innovative examples of sustainable tourism can be found in Iceland, where visitors can take part in glacier hiking excursions led by local guides who are working to preserve the country's fragile natural beauty. These tours not only provide a unique and unforgettable experience for travelers but also help support community development projects that promote environmental conservation.\n\nOf course, sustainable travel isn't without its challenges. One of the biggest hurdles facing eco-conscious travelers is the issue of accessibility – many destinations, particularly in developing countries, lack the infrastructure to accommodate visitors who want to minimize their impact on the environment.\n\nDespite these challenges, there are many organizations working to make sustainable travel more accessible and affordable for everyone. For example, the non-profit organization, Sustainable Tourism Certification (STC), offers certification programs for hotels, tour operators, and other businesses that meet rigorous standards for environmental sustainability and social responsibility.\n\nAs the demand for sustainable tourism continues to grow, it's clear that this trend is here to stay. Whether you're a seasoned traveler or just starting to plan your next adventure, there are many ways to make your travels more eco-friendly – from choosing environmentally-friendly accommodations to supporting local community development projects.\n\nIn conclusion, sustainable travel is no longer just for the adventurous few – it's becoming a mainstream movement that offers travelers a chance to explore the world while minimizing their impact on the environment. As consumers continue to prioritize sustainability and social responsibility, destinations around the globe are taking notice and adapting to meet this new demand.\n\nSo next time you're planning your next trip, consider choosing a destination that prioritizes environmental conservation and social responsibility. Not only will you be supporting local communities and preserving the natural beauty of our planet – but you'll also have a unique and unforgettable experience that will stay with you for years to come.\n\nIn fact, sustainable travel is not just about visiting remote wilderness areas or cities; it's also about exploring how people live in harmony with nature. By choosing eco-friendly accommodations, supporting local community development projects, and participating in environmentally responsible activities, travelers can contribute to the preservation of our planet while experiencing unforgettable adventures.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred from the fact that 76% of travelers say they would choose a destination that is committed to sustainability over one that is not?",
+      "options": {
+        "A": "The majority of travelers are willing to compromise on their travel plans if it means supporting sustainable practices.",
+        "B": "Travelers who prioritize sustainability are also interested in visiting remote wilderness areas and cities with high environmental standards.",
+        "C": "There has been a significant increase in the number of destinations prioritizing environmental conservation and social responsibility due to consumer demand.",
+        "D": "The rise of sustainable tourism is mainly driven by younger generations."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"niche interest\" mean in this context?",
+      "options": {
+        "A": "A popular choice among tourists",
+        "B": "A small group of people with a particular concern or enthusiasm",
+        "C": "A type of accommodation that is environmentally friendly",
+        "D": "An activity that prioritizes profit over environmental conservation"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of travelers say they would choose a destination that is committed to sustainability over one that is not?",
+      "options": {
+        "A": "50%",
+        "B": "65%",
+        "C": "76%",
+        "D": "85%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards sustainable travel becoming mainstream?",
+      "options": {
+        "A": "The author is disappointed that it's taking so long for people to adopt this trend.",
+        "B": "The author thinks it's a positive development that more people are choosing eco-friendly options.",
+        "C": "The author believes that sustainable travel is only suitable for adventurous travelers and not for the general public.",
+        "D": "The author is skeptical about the effectiveness of sustainable tourism in reducing environmental impact."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"this\" refer to in the sentence: \"One of the most innovative examples of sustainable tourism can be found in Iceland, where visitors can take part in glacier hiking excursions led by local guides who are working to preserve the country's fragile natural beauty. These tours not only provide a unique and unforgettable experience for travelers but also help support community development projects that promote environmental conservation.\"",
+      "options": {
+        "A": "The World Tourism Organization (UNWTO)",
+        "B": "Sustainable travel",
+        "C": "Community development projects",
+        "D": "Glacier hiking excursions in Iceland"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about sustainable travel?",
+      "options": {
+        "A": "The rise of sustainable tourism is a threat to local communities.",
+        "B": "Sustainable travel is becoming increasingly mainstream as travelers seek out ways to minimize their impact on the environment.",
+        "C": "Eco-friendly accommodations are no longer necessary for environmentally responsible travel.",
+        "D": "Climate change and environmental degradation have led to a decline in international tourism."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "travel_adventure"
+}

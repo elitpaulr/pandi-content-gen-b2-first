@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_89",
+  "title": "Turn Your Skills into Cash: The Ultimate Guide to Side Hustles and Passive Income",
+  "topic": "general",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "**Unlocking Financial Freedom: The Power of Side Hustles and Passive Income**\n\nIn today's fast-paced world, financial stability is more important than ever. With the rising cost of living and uncertain economic conditions, many people are looking for ways to supplement their income and achieve financial freedom. Two popular solutions that have gained significant attention in recent years are side hustles and passive income. In this article, we will delve into what these concepts mean, how they work, and provide tips on how to get started.\n\n**What is a Side Hustle?**\n\nA side hustle refers to any additional income-generating activity that you can pursue alongside your primary job or career. It's often used to describe freelance work, part-time jobs, or entrepreneurial ventures that are separate from one's main occupation. Examples of popular side hustles include:\n\n* Freelance writing or graphic design\n* Selling products online through e-commerce platforms like Amazon FBA\n* Tutoring or teaching English as a foreign language\n* Pet-sitting or dog-walking services\n* Delivering food with companies like Uber Eats or DoorDash\n\nSide hustles offer numerous benefits, including increased earning potential, flexibility, and the opportunity to pursue your passions. However, they also require time, effort, and dedication to succeed.\n\n**What is Passive Income?**\n\nPassive income refers to earnings that are generated without actively working for them. This type of income can come from a variety of sources, such as investments, rental properties, or online businesses. The key characteristic of passive income is that it requires minimal maintenance or effort to generate and sustain. Examples of passive income streams include:\n\n* Renting out a spare room on Airbnb\n* Creating and selling an online course or ebook\n* Investing in dividend-paying stocks or real estate investment trusts (REITs)\n* Monetizing a YouTube channel or podcast through ads or sponsorships\n\nPassive income offers the potential for long-term financial stability, reduced stress, and increased freedom to pursue other interests.\n\n**Combining Side Hustles and Passive Income**\n\nWhile side hustles and passive income are distinct concepts, they can complement each other effectively. For instance, a side hustle that generates high earnings can be used to invest in passive income-generating assets, such as real estate or stocks. Conversely, a successful online business can become a source of passive income once it reaches a certain level of maturity.\n\n**Getting Started**\n\nIf you're interested in exploring side hustles and passive income, here are some tips to get started:\n\n* Identify your strengths and passions: Side hustles that align with your skills and interests are more likely to succeed.\n* Research popular platforms: Websites like Upwork, Fiverr, or Freelancer can connect you with clients seeking services like writing, graphic design, or web development.\n* Invest in education: Online courses or certifications can enhance your skills and make you a more competitive candidate for side hustles or passive income opportunities.\n* Be patient and persistent: Building a successful side hustle or passive income stream takes time, effort, and perseverance.\n\nIn conclusion, side hustles and passive income offer exciting opportunities for financial freedom and stability. By understanding the differences between these concepts and implementing effective strategies, you can unlock your earning potential and achieve your long-term financial goals. Whether you're looking to supplement your income, pursue a passion project, or create wealth, exploring side hustles and passive income is an excellent place to start.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if someone uses their high-earning side hustle to invest in passive income-generating assets?",
+      "options": {
+        "A": "They will have less time to devote to their primary job or career",
+        "B": "They will increase their chances of achieving financial stability and freedom",
+        "C": "They will need to work more hours to maintain their current level of income",
+        "D": "They will be unable to pursue other interests or hobbies"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"minimal maintenance\" mean in the context of passive income?",
+      "options": {
+        "A": "Requiring a lot of time and effort",
+        "B": "Generating earnings without actively working for them but still requiring some upkeep",
+        "C": "Involving no regular work or supervision",
+        "D": "Only applicable to investments like stocks or real estate"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of investment can generate dividend-paying income as a source of passive income?",
+      "options": {
+        "A": "Buying a house",
+        "B": "Investing in real estate investment trusts (REITs)",
+        "C": "Creating an online course or ebook",
+        "D": "Monetizing a YouTube channel through ads or sponsorships"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author imply about the benefits of combining side hustles and passive income?",
+      "options": {
+        "A": "The author suggests that this combination leads to financial instability.",
+        "B": "The author implies that combining side hustles and passive income offers a clear path to achieving financial freedom.",
+        "C": "The author believes that side hustles should be prioritized over passive income.",
+        "D": "The author warns that combining these two concepts can lead to burnout."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who are \"you\" referring to when it says \"it's often used to describe freelance work, part-time jobs, or entrepreneurial ventures that are separate from one's main occupation\"?",
+      "options": {
+        "A": "The primary job holder",
+        "B": "Freelance workers who have a side hustle",
+        "C": "People looking for financial freedom and stability",
+        "D": "Entrepreneurs with multiple business ventures"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about side hustles and passive income?",
+      "options": {
+        "A": "To explain how to invest in stocks and real estate",
+        "B": "To provide tips on how to get started with side hustles and passive income",
+        "C": "To discuss the benefits and drawbacks of combining side hustles and passive income streams",
+        "D": "To introduce readers to the concepts of side hustles and passive income and their potential for financial freedom"
+      },
+      "correct_answer": "D",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

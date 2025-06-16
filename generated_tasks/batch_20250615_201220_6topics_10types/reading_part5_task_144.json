@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_144",
+  "title": "Digital Nomad Budget Hacks to Fuel Your Wanderlust Adventures",
+  "topic": "technology",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "As a digital nomad, you're probably used to living life on your own terms – traveling from one exotic destination to the next, working remotely from a beachside café or co-working space, and soaking up new cultures at every turn. But with all the freedom that comes with being a digital nomad, it's easy to lose sight of one crucial aspect: budgeting.\n\nIt's not just about pinching pennies; it's about making smart financial decisions that allow you to enjoy your lifestyle without sacrificing your long-term goals. Whether you're saving up for a down payment on a house, paying off student loans, or simply building an emergency fund, having a solid budget is essential.\n\nSo, how do you create a budget that works for you as a digital nomad? The first step is to track your expenses. This might seem like a no-brainer, but it's surprising how many people don't take the time to actually write down what they're spending their money on each month. Grab a spreadsheet or use an app like Mint or Personal Capital to log every single transaction – from that fancy coffee in the morning to your monthly rent.\n\nOnce you've got a clear picture of where your money is going, it's time to categorize your expenses. As a digital nomad, you'll likely fall into several categories: housing (whether that's renting an apartment or crashing on a friend's couch), food and drink, transportation, entertainment, and savings. Be honest with yourself – if you're spending more than 50% of your income on rent alone, it might be time to rethink your living arrangements.\n\nNext up is setting financial goals. What do you want to achieve in the next six months? A year? Five years? Are you saving up for a big trip or a down payment on a house? Having clear goals will help you make smart decisions about how to allocate your money. For example, if you're trying to pay off student loans quickly, you might consider cutting back on non-essential expenses like dining out or subscription services.\n\nNow it's time to get real about your income. As a digital nomad, your income can be unpredictable – one month you might bring in a hefty sum from a lucrative freelance project, while the next month you're scrambling to find new clients. To account for this unpredictability, aim to save at least 20% of your net income each month. This will give you a cushion against lean months and help you build up your savings over time.\n\nOf course, budgeting as a digital nomad isn't just about the numbers – it's also about living in the moment. With so many amazing experiences available to us, it can be tempting to splurge on that fancy dinner or expensive souvenir. But remember: every dollar you spend is a choice, and choosing to prioritize your long-term goals over short-term indulgences will pay off in the end.\n\nFinally, don't forget about taxes. As a digital nomad, you might not have to deal with traditional employer-based benefits like health insurance or retirement plans – but that doesn't mean you're exempt from paying taxes. Research the tax laws in each country you visit and take advantage of any deductions or credits available to you.\n\nIn conclusion, budgeting as a digital nomad requires a bit more planning and discipline than your average 9-to-5er. But with the right tools and mindset, it's entirely possible to live life on your own terms while still saving for the future. So go ahead – take that spontaneous trip to Bali or invest in that new laptop – just remember to keep an eye on the bottom line.\n\nIn fact, budgeting can even be liberating. By knowing exactly how much you have to spend each month, you'll feel more confident and carefree about your choices. Whether you're a seasoned nomad or just starting out, prioritizing your finances will allow you to enjoy every moment of this incredible lifestyle – without breaking the bank.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if a digital nomad spends more than 50% of their income on rent alone?",
+      "options": {
+        "A": "They will be able to save up for a big trip",
+        "B": "They might need to rethink their living arrangements",
+        "C": "They will have enough money left over for entertainment and savings",
+        "D": "They will be exempt from paying taxes"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for something to be \"non-essential\" in the context of budgeting as a digital nomad?",
+      "options": {
+        "A": "Something that is expensive but worthwhile",
+        "B": "Something that you need to buy or do in order to survive",
+        "C": "Something that can be cut back on without affecting your quality of life",
+        "D": "Something that is related to your long-term financial goals"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of net income should a digital nomad aim to save each month?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's opinion on the relationship between budgeting and freedom for digital nomads?",
+      "options": {
+        "A": "Budgeting restricts the freedom of digital nomads",
+        "B": "Budgeting allows digital nomads to enjoy their lifestyle without sacrificing long-term goals",
+        "C": "Budgeting is unnecessary for digital nomads due to their unpredictable income",
+        "D": "Budgeting takes away from the spontaneity and excitement of being a digital nomad"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"non-essential expenses\" refer to in the text?",
+      "options": {
+        "A": "The costs associated with traveling from one destination to another",
+        "B": "Expenses such as dining out or subscription services that are not necessary for survival",
+        "C": "Housing costs and utility bills",
+        "D": "Transportation costs and taxes owed to each country visited"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text for digital nomads about budgeting?",
+      "options": {
+        "A": "Budgeting as a digital nomad means sacrificing short-term pleasures to achieve long-term financial goals.",
+        "B": "The key to successful budgeting as a digital nomad is to track expenses and categorize spending.",
+        "C": "Digital nomads can enjoy their lifestyle without worrying about money if they just use the right tools and apps.",
+        "D": "Budgeting as a digital nomad requires a complete overhaul of one's financial habits."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

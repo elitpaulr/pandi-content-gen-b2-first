@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_54",
+  "title": "Shop Kindly: The Future of Fashion is in Your Hands",
+  "topic": "technology",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "**The Rise of Sustainable Shopping: How to Make Ethical Consumption a Part of Your Life**\n\nAs consumers, we've become increasingly aware of the impact our purchasing decisions have on the planet. From deforestation to pollution, the effects of mass production and consumption are far-reaching and alarming. But there's hope - sustainable shopping and ethical consumption are on the rise, and it's easier than ever to make a positive change.\n\nSo, what exactly is sustainable shopping? At its core, it's about making conscious choices that minimize harm to the environment, animals, and people. This means avoiding products made from unsustainable materials, choosing second-hand over new, and supporting brands that prioritize transparency and social responsibility. It may seem daunting, but with a few simple tweaks to your shopping habits, you can join the movement towards a more sustainable future.\n\nOne of the easiest ways to start is by reducing your reliance on single-use plastics. From water bottles to straws, these items are choking our oceans and landfills. Instead, opt for reusable alternatives like stainless steel water bottles or cloth bags. You'll save money in the long run, and reduce your carbon footprint. Another simple switch is to choose products with minimal packaging - think bulk bins at the grocery store or shopping online from brands that ship directly from their suppliers.\n\nAnother key aspect of sustainable shopping is buying second-hand. Not only does this reduce waste and support local charities, but it's also a great way to find unique, one-of-a-kind items. Thrift stores, consignment shops, and online marketplaces like eBay or Depop are all treasure troves for the eco-conscious shopper. You can score everything from gently used clothing to vintage furniture, all while giving old items new life.\n\nWhen it comes to new purchases, do your research on the brands you support. Look for certifications like Fair Trade or B Corp, which ensure that companies meet rigorous standards for social and environmental responsibility. Check websites like Good On You or Ethical Consumer, which review brands based on their sustainability and ethics policies. You can also check out online directories like Green America's Shop With Us list, which highlights environmentally responsible businesses.\n\nIn addition to researching brands, it's essential to consider the life cycle of a product. From production to disposal, every item has an impact - from resource extraction to pollution and waste management. When possible, choose products made from sustainable materials like organic cotton or recycled plastic. You can also support companies that design their products with end-of-life recyclability in mind.\n\nOf course, making these changes requires some effort and commitment. But the benefits far outweigh any inconvenience. By choosing sustainable shopping options, you'll not only be reducing your environmental footprint but also supporting fair labor practices and social justice causes.\n\nSo how can you make sustainable shopping a part of your life? Start by taking small steps - swap out one or two single-use items for reusable alternatives each week. Experiment with second-hand shopping, either online or in-store. Research brands and support those that align with your values. And don't be afraid to get creative and DIY when possible.\n\nIn the end, sustainable shopping is about more than just making a few tweaks to our habits - it's about creating a culture of compassion and responsibility. By choosing conscious consumption over mindless buying, we can build a better future for ourselves, our children, and the planet. So why not join the movement? Your wallet (and the Earth) will thank you.\n\nAs consumers, we have the power to drive change through our purchasing decisions. By supporting sustainable shopping practices, we're sending a clear message that we value people, planet, and profit - in that order. Together, we can create a more just and environmentally conscious world, one purchase at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if consumers continue with their current shopping habits?",
+      "options": {
+        "A": "The environmental impact of mass production and consumption will decrease significantly",
+        "B": "Brands that prioritize social responsibility and transparency will become more prominent",
+        "C": "Landfills and oceans will become even more polluted due to increased single-use plastics",
+        "D": "Sustainable shopping practices will no longer be necessary as technology improves"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does 'end-of-life recyclability' mean in this context?",
+      "options": {
+        "A": "The ability to reuse an item after it has been used once",
+        "B": "The process of recycling materials from products that have reached the end of their life cycle",
+        "C": "The practice of designing a product so that it can be easily recycled at its final stage",
+        "D": "The method of repairing items instead of replacing them"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What certification do companies need to meet in order to be considered socially responsible according to the text?",
+      "options": {
+        "A": "Fair Trade",
+        "B": "ISO 14001",
+        "C": "B Corp",
+        "D": "GOTS"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards consumers who don't choose sustainable shopping options?",
+      "options": {
+        "A": "The author believes they are selfish and irresponsible",
+        "B": "The author feels that they need education and guidance to make better choices",
+        "C": "The author thinks they are making a positive contribution to society by buying as usual",
+        "D": "The author views them as lazy and unwilling to change"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"second-hand\" refer to in this text?",
+      "options": {
+        "A": "Reusing products you already own",
+        "B": "Buying new items made from sustainable materials",
+        "C": "Purchasing pre-owned or used goods",
+        "D": "Reducing packaging on online purchases"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable shopping?",
+      "options": {
+        "A": "To convince readers to stop buying anything new",
+        "B": "Sustainable shopping allows consumers to make a positive impact on the environment and society",
+        "C": "The effects of mass production and consumption are not significant enough to worry about",
+        "D": "Only rich people can afford to shop sustainably"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

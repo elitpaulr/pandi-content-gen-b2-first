@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_127",
+  "title": "Surviving on Sunshine: Budget Hacks for Digital Nomad Life",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her coconut water on the sun-kissed beach of Bali, Maya stared at her laptop screen with a mix of frustration and concern. Her bank account was dwindling faster than her tan line, and she knew it was time to get serious about budgeting. As a digital nomad, she'd been living in paradise for months, but the blissful freedom came with a price tag.\n\nMaya's eyes scanned the spreadsheets, trying to decipher the jumbled mess of expenses. She'd been tracking her spending on Mint, but it was getting harder to keep up with the irregular income from freelance writing gigs and tutoring sessions. The unpredictability of digital nomad life made budgeting a constant challenge.\n\nJust then, a fellow traveler, Alex, plopped down beside her, ordering another cold brew from the nearby café. \"Hey, what's got you looking so stressed?\" he asked, noticing Maya's furrowed brow.\n\n\"I'm trying to get my finances in order,\" she replied, sighing. \"It's not easy being a digital nomad on a shoestring budget.\"\n\nAlex nodded sympathetically. \"I feel your pain. But let me tell you, I've cracked the code. Well, sort of.\" He grinned mischievously.\n\nMaya raised an eyebrow. \"What's your secret?\"\n\n\"Prioritize,\" Alex said, leaning in conspiratorially. \"Make a list of fixed costs – rent, food, transportation. Then, tackle variable expenses like entertainment and travel. Allocate specific amounts for each category.\"\n\nMaya scribbled some notes on her pad. \"That sounds like common sense, but how do you actually make it work?\"\n\nAlex chuckled. \"It's all about tracking your income and expenses. Use apps like Expensify or Toshl to categorize your spending. Set up automatic transfers for savings and bills. And – this is crucial – leave some wiggle room in your budget for emergencies.\"\n\nMaya's eyes widened as she realized the simplicity of Alex's approach. \"That makes sense,\" she said, feeling a weight lift off her shoulders.\n\nTheir conversation was interrupted by a fellow traveler asking to join their beachside discussion on budgeting. As they chatted, Maya began to see that many digital nomads faced similar challenges – irregular income, unexpected expenses, and the constant desire for adventure.\n\nBut with Alex's guidance, she started to understand that budgeting wasn't about depriving herself of experiences; it was about being intentional with her money. She realized that setting aside a portion of each paycheck for savings and emergencies would give her the freedom to explore without worrying about financial stress.\n\nAs the sun dipped below the horizon, casting a golden glow over the beach, Maya felt a sense of relief wash over her. With Alex's advice and her newfound commitment to budgeting, she was ready to take on the world – one spreadsheet at a time.\n\nMaya closed her laptop, feeling more confident about navigating the financial realities of digital nomad life. She knew that with the right tools and mindset, even on a shoestring budget, she could enjoy the freedom and adventure that came with being a digital nomad.\n\nAs she stood up to join Alex for another round of coconuts and conversation, Maya realized that budgeting wasn't just about numbers; it was about creating a life that balanced financial responsibility with the thrill of exploration. And in this sun-kissed corner of Bali, anything seemed possible.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to Alex's advice, what is an essential step for digital nomads to take control of their finances?",
+      "options": {
+        "A": "They should reduce their expenses by cutting back on non-essential spending",
+        "B": "They should prioritize fixed costs such as rent and food over variable expenses like travel",
+        "C": "They should try to earn more money through freelance writing gigs and tutoring sessions",
+        "D": "They should use apps like Expensify or Toshl to track their income only"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Alex mean by \"leave some wiggle room in your budget for emergencies\"?",
+      "options": {
+        "A": "To save money specifically for unexpected expenses",
+        "B": "To reduce fixed costs such as rent and food",
+        "C": "To increase income from freelance writing gigs and tutoring sessions",
+        "D": "To allocate more funds for entertainment and travel"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the name of the app Alex mentions for categorizing spending and tracking income?",
+      "options": {
+        "A": "Mint",
+        "B": "Expensify or Toshl",
+        "C": "Google Wallet",
+        "D": "PayPal"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is Maya's attitude towards budgeting at the beginning of her conversation with Alex?",
+      "options": {
+        "A": "She feels confident and prepared for the challenges of digital nomad life.",
+        "B": "She is frustrated and concerned about managing her finances on a limited income.",
+        "C": "She is excited to share her own expertise on budgeting with Alex.",
+        "D": "She is skeptical that budgeting can be done effectively as a digital nomad."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Alex refer to when he says \"leave some wiggle room in your budget for emergencies\"?",
+      "options": {
+        "A": "Maya's irregular income from freelance writing gigs",
+        "B": "The unpredictability of digital nomad life",
+        "C": "Variable expenses like entertainment and travel",
+        "D": "Savings and bills that are paid automatically through transfers"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text?",
+      "options": {
+        "A": "The challenges of digital nomadism are too great to overcome.",
+        "B": "Budgeting is a constant challenge for digital nomads due to irregular income and expenses.",
+        "C": "Maya's conversation with Alex teaches her that budgeting is about depriving herself of experiences.",
+        "D": "Digital nomads can easily manage their finances without any difficulties."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

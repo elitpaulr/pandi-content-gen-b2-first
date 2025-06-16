@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_28",
+  "title": "Mastering Money Skills: A Guide to Smart Financial Decisions",
+  "topic": "general",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "**Taking Control of Your Finances: A Guide to Financial Literacy for Young Adults**\n\nAs a young adult, managing your finances can be overwhelming. With student loans, rent, and everyday expenses piling up, it's easy to feel like you're drowning in debt. But financial literacy is key to taking control of your money and achieving long-term financial stability. In this article, we'll explore the importance of financial literacy for young adults and provide practical tips for getting started.\n\n**Why Financial Literacy Matters**\n\nFinancial literacy is more than just knowing how to balance a checkbook or use a budgeting app. It's about understanding how personal finance works, making informed decisions about money, and avoiding costly mistakes. According to a recent survey by the National Foundation for Credit Counseling (NFCC), nearly 60% of young adults have no idea where their money is going each month. This lack of financial awareness can lead to debt accumulation, missed payments, and even financial crises.\n\n**Understanding Your Finances**\n\nBefore you can take control of your finances, you need to understand what's happening with your money. Start by tracking your income and expenses using a budgeting app or spreadsheet. Be honest about every transaction, no matter how small. Categorize your spending into needs (housing, food, utilities) and wants (entertainment, hobbies). This will help you identify areas where you can cut back and allocate more funds towards savings.\n\n**Debt Management**\n\nStudent loans, credit cards, and personal loans are common sources of debt for young adults. While some debt is unavoidable, it's essential to manage your debt wisely to avoid financial strain. Consider the 50/30/20 rule: allocate 50% of your income towards needs, 30% towards discretionary spending, and 20% towards debt repayment.\n\n**Investing in Your Future**\n\nSaving for retirement may seem daunting, but starting early is key. Take advantage of employer-matched retirement accounts like 401(k) or IRA to build a nest egg over time. You can also explore other investment options, such as stocks or bonds, with the help of a financial advisor.\n\n**Avoiding Financial Pitfalls**\n\nYoung adults are often vulnerable to financial scams and pitfalls, such as payday lending, debt consolidation services, and credit card traps. Be cautious when dealing with financial institutions, and always research before making any major financial decisions. A reputable credit counselor or financial advisor can provide expert guidance on managing debt and building a stable financial future.\n\n**Practical Tips for Improving Financial Literacy**\n\n1. **Read personal finance books**: Authors like Dave Ramsey, Suze Orman, and Ramit Sethi offer insightful advice on budgeting, saving, and investing.\n2. **Attend workshops or seminars**: Local credit unions, libraries, and community organizations often host free financial literacy events.\n3. **Join online forums**: Websites like Reddit's r/personalfinance and NerdWallet's community forum provide a platform to ask questions and learn from others.\n4. **Seek professional advice**: Consult with a financial advisor or credit counselor for personalized guidance.\n\n**Conclusion**\n\nFinancial literacy is not just about money; it's about taking control of your life. By understanding your finances, managing debt, investing in your future, and avoiding financial pitfalls, you'll be well on your way to achieving long-term financial stability. Remember, it's never too early or too late to start learning about personal finance. Take the first step today and begin building a brighter financial tomorrow.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what percentage of young adults have no idea where their money is going each month?",
+      "options": {
+        "A": "30%",
+        "B": "40%",
+        "C": "Nearly 60%",
+        "D": "Over 70%"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"debt accumulation\" mean in this context?",
+      "options": {
+        "A": "A reduction in the amount of money owed",
+        "B": "The process of collecting debts from others",
+        "C": "An increase in the amount of debt someone has, often leading to financial difficulties",
+        "D": "A way to avoid paying interest on loans"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a recent survey by the National Foundation for Credit Counseling (NFCC), what percentage of young adults have no idea where their money is going each month?",
+      "options": {
+        "A": "30%",
+        "B": "40%",
+        "C": "50%",
+        "D": "60%"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards young adults who lack financial literacy?",
+      "options": {
+        "A": "The author believes that these individuals are irresponsible and should be ashamed of their situation.",
+        "B": "The author thinks that a lack of financial knowledge is a normal part of growing up, but it can lead to problems if not addressed.",
+        "C": "The author views them as victims of circumstance and sympathizes with their struggles.",
+        "D": "The author sees them as naive and foolish for not knowing how to manage their finances."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"personal loans\" refer to in this text?",
+      "options": {
+        "A": "A type of investment",
+        "B": "A common source of debt for young adults",
+        "C": "A savings account for retirement",
+        "D": "A budgeting app or spreadsheet used for tracking finances"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article?",
+      "options": {
+        "A": "The importance of credit scores for young adults",
+        "B": "How to avoid debt accumulation and achieve long-term financial stability",
+        "C": "The benefits of investing in stocks or bonds for retirement",
+        "D": "Why personal finance books are a waste of time for young adults"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_23",
+  "title": "Master Your Money: How to Thrive Financially in Your 20s",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "As a young adult, navigating the world of finance can be daunting. Between student loans, credit card debt, and saving for the future, it's easy to feel overwhelmed by the sheer amount of information available. But financial literacy is more than just understanding how to balance your checkbook – it's about making smart choices that will set you up for long-term success.\n\nOne of the most critical components of financial literacy is budgeting. Gone are the days of living paycheck-to-paycheck, barely scraping by from one pay period to the next. Creating a realistic budget allows you to prioritize your spending and make conscious decisions about how you allocate your resources. Start by tracking your income and expenses for a month or two, then categorize your spending into needs (rent, utilities, groceries) versus wants (dining out, entertainment). From there, it's simply a matter of adjusting your budget accordingly.\n\nAnother key aspect of financial literacy is understanding credit. While it may seem counterintuitive to accumulate debt in order to establish good credit, the truth is that having a healthy credit score can save you thousands of dollars over time. Start by opening a single credit card and making regular payments on time. As your credit history grows, so will your credit score – and with it, your ability to secure loans and lower interest rates.\n\nInvesting in yourself is also a crucial part of financial literacy. Rather than pouring all of your resources into fancy gadgets or trendy clothing, consider investing in experiences that will benefit you in the long run. This might mean taking courses to improve your skills, attending industry conferences, or even pursuing higher education. By investing in yourself, you'll be better equipped to tackle challenges and seize opportunities as they arise.\n\nOf course, financial literacy isn't just about personal finance – it's also about understanding the larger economic landscape. Stay informed about national and global events that may impact your finances, from changes in interest rates to shifts in tax policies. By staying up-to-date on current events, you'll be better equipped to navigate any challenges that come your way.\n\nPracticing financial literacy is a lifelong journey – one that requires patience, discipline, and a willingness to learn. Don't be afraid to make mistakes along the way; after all, it's often through trial and error that we discover what works best for us. And don't be intimidated by the complexity of finance – with time and practice, even the most daunting concepts will begin to feel more manageable.\n\nTo get started, consider seeking out resources designed specifically for young adults. Websites like NerdWallet and The Balance offer a wealth of information on personal finance topics, from budgeting and saving to investing and managing debt. You can also take advantage of free or low-cost financial education programs offered by local credit unions, banks, or non-profit organizations.\n\nUltimately, the key to financial literacy is simply to start – whether that means creating a budget, opening a savings account, or taking a course in investing. By making small changes over time, you'll be amazed at how quickly your finances begin to shift. And as you continue on this journey of discovery, remember that financial literacy isn't just about money – it's about building confidence, independence, and a brighter future for yourself.\n\nBy embracing the principles of financial literacy, young adults can break free from the cycle of debt and build a more secure, prosperous life. It may not be easy – but with patience, persistence, and a willingness to learn, even the most daunting challenges will begin to feel more manageable. So take control of your finances today – your future self will thank you.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude towards making mistakes in financial literacy?",
+      "options": {
+        "A": "They believe that making mistakes is a waste of time and resources.",
+        "B": "They think that making mistakes is an essential part of learning and growing financially.",
+        "C": "They advise against seeking advice from others when making financial decisions.",
+        "D": "They recommend being overly cautious when dealing with finances."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for financial literacy to be about \"making smart choices that will set you up for long-term success\"?",
+      "options": {
+        "A": "It means being able to borrow money with low interest rates.",
+        "B": "It means understanding how to make decisions that benefit your financial situation over a period of time.",
+        "C": "It means having a large amount of money saved in a bank account.",
+        "D": "It means being able to pay off debts quickly."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one of the key benefits of having a healthy credit score?",
+      "options": {
+        "A": "You can save money on everyday expenses",
+        "B": "You can secure loans and lower interest rates",
+        "C": "You can invest in shares without paying taxes",
+        "D": "You can withdraw cash from your account for free"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards making mistakes while learning about personal finance?",
+      "options": {
+        "A": "They are inevitable and should be avoided at all costs.",
+        "B": "They are a normal part of the learning process and can often lead to valuable insights.",
+        "C": "They are a sign of laziness and a lack of discipline.",
+        "D": "They will have serious consequences and damage one's credit score."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who can benefit from taking courses to improve skills, according to the text?",
+      "options": {
+        "A": "Only those who are already financially literate",
+        "B": "Young adults who want to invest in themselves",
+        "C": "People with a high credit score",
+        "D": "Individuals who have completed higher education"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about financial literacy for young adults?",
+      "options": {
+        "A": "Financial literacy only applies to investing and managing debt.",
+        "B": "Practicing financial literacy requires patience, discipline, and a willingness to learn, but can ultimately lead to long-term success and financial security.",
+        "C": "The most important aspect of financial literacy is understanding credit scores.",
+        "D": "Financial literacy is not necessary for young adults, as they will automatically know how to manage their finances."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

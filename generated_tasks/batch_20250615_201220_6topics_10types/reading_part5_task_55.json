@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_55",
+  "title": "Unpacking the Secrets of Sustainable Souvenirs on the Road",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I wandered through the bustling streets of Tokyo's Shimokitazawa district, I stumbled upon a treasure trove of sustainable shopping that left me in awe. The narrow alleys were lined with tiny boutiques and specialty stores that showcased the city's commitment to reducing waste and promoting eco-friendly practices.\n\nOne store that caught my eye was \"The Remade,\" a quirky little shop filled with beautifully crafted items made from repurposed materials. I marveled at the intricate patterns on a hand-embroidered tote bag made from recycled plastic bags, and admired the delicate jewelry crafted from vintage buttons. The owner, a kind-eyed woman named Yui, told me that her mission was to \"reduce, reuse, and recycle\" in every aspect of her business.\n\nAs I continued my exploration, I discovered \"Good News,\" a charming shop that specialized in second-hand clothing and textiles. The racks were stacked high with gently used garments from around the world, each one carefully selected for its unique character and story. I chatted with the owner, a warm and knowledgeable woman named Naomi, who explained that her goal was to provide customers with \"more than just clothes\" – she aimed to create a sense of community and connection through sustainable fashion.\n\nMy next stop was \"People Tree,\" a Fair Trade certified store that showcased stunning handmade textiles from small-scale farmers in developing countries. I was struck by the vibrant colors and intricate patterns on the fabrics, each one telling a story of tradition and craftsmanship. The owner, a friendly young woman named Leela, explained that her company worked closely with farmers to ensure fair prices, safe working conditions, and sustainable farming practices.\n\nAs I delved deeper into Tokyo's sustainable shopping scene, I began to notice a common thread – a commitment to community and social responsibility. At \"Nippon Herbs,\" a small shop specializing in natural skincare products, the owner, a wise and gentle man named Hiro, told me that his goal was not just to sell products, but to educate customers about the importance of sustainable living.\n\nMy journey took me to the Tokyo Eco Center, where I met with activists and entrepreneurs working tirelessly to promote eco-friendly practices. I listened in awe as they shared their vision for a more sustainable future – one where waste is minimized, energy is harnessed from renewable sources, and communities come together to protect the planet.\n\nAs I reflected on my experiences in Tokyo, I realized that sustainable shopping and ethical consumption are not just buzzwords – they're a way of life. In this vibrant city, I saw people coming together to create positive change, one small step at a time. Whether it was reducing waste, promoting fair trade, or advocating for environmental justice, every individual I met was driven by a deep commitment to creating a better world.\n\nAs I left Tokyo and returned home, I felt inspired to make my own contribution to the sustainable shopping revolution. With its innovative stores, passionate entrepreneurs, and vibrant community spirit, Tokyo had shown me that even in the midst of urban chaos, there is always room for kindness, compassion, and a deep love for the planet.\n\nIn an era where consumerism often reigns supreme, it's refreshing to see cities like Tokyo embracing sustainable shopping as a way of life. By supporting local businesses, reducing waste, and promoting fair trade practices, we can all play a role in creating a more just and environmentally conscious world – one small step at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivates the owners of \"The Remade\" store to sell items made from repurposed materials?",
+      "options": {
+        "A": "They want to make as much money as possible",
+        "B": "They believe it's their responsibility to reduce waste and promote eco-friendly practices",
+        "C": "They are trying to appeal to tourists",
+        "D": "They think it's trendy to use recycled materials"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"reduce, reuse, recycle\" mean in this context?",
+      "options": {
+        "A": "To make new products using waste materials",
+        "B": "To limit the amount of waste produced, use items multiple times, and convert waste into something useful",
+        "C": "To only sell second-hand clothing and textiles",
+        "D": "To focus on selling handmade products from small-scale farmers"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What was the name of the store that specialized in second-hand clothing and textiles?",
+      "options": {
+        "A": "The Remade",
+        "B": "Good News",
+        "C": "People Tree",
+        "D": "Nippon Herbs"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards cities that prioritize sustainable shopping?",
+      "options": {
+        "A": "They are too idealistic for their own good.",
+        "B": "They offer a refreshing alternative to consumerist culture.",
+        "C": "They are often too expensive for ordinary people.",
+        "D": "They are not innovative enough."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about Tokyo's sustainable shopping scene?",
+      "options": {
+        "A": "The city of Tokyo has become a hub for luxury brands and high-end consumerism.",
+        "B": "Sustainable shopping and ethical consumption are becoming increasingly popular in Tokyo, with local businesses leading the way.",
+        "C": "The author's visit to Tokyo was disappointing due to the city's failure to prioritize eco-friendly practices.",
+        "D": "The text focuses on the economic benefits of sustainable shopping for small business owners in Tokyo."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

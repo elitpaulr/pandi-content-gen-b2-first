@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_58",
+  "title": "The Impact of Your Wallet: How Sustainable Shopping Changes Everything",
+  "topic": "technology",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "As we browse through our favorite online marketplaces or wander through local shops, have you ever stopped to think about the impact of your purchasing decisions? Sustainable shopping and ethical consumption are not just buzzwords; they're essential aspects of living in harmony with the planet and its inhabitants.\n\nThe term \"sustainable\" refers to practices that minimize harm to the environment while promoting social justice. In the context of shopping, it means choosing products and brands that prioritize environmental protection, fair labor conditions, and community well-being. Ethical consumption, on the other hand, focuses on the moral implications of our purchasing choices.\n\nSo, what drives consumers towards unsustainable habits? Often, it's a combination of factors: convenience, affordability, and lack of awareness about the product's life cycle. Fast fashion, for instance, is a prime example of unsustainable shopping. The rapid production and disposal of cheap clothing contribute to textile waste, pollution, and exploitation of workers in the garment industry.\n\nTo make more informed choices, let's explore some key aspects of sustainable shopping:\n\n1.  **Second-hand first**: Before buying new, consider thrift stores, online marketplaces for second-hand goods, or swapping with friends. This approach reduces waste, saves resources, and often supports local communities.\n2.  **Eco-friendly materials**: Opt for products made from environmentally responsible materials, such as organic cotton, recycled paper, or sustainably sourced wood. Be wary of \"greenwashing\" – marketing tactics that exaggerate a product's eco-credentials.\n3.  **Brand transparency**: Research companies' values, policies, and supply chain practices. Look for certifications like Fair Trade, B Corp, or ISO 14001 (Environmental Management System). These labels indicate a commitment to sustainability and social responsibility.\n4.  **Avoid single-use products**: Refuse items with excessive packaging, such as water bottles or straws. Instead, invest in reusable alternatives that will reduce waste over time.\n\nNow, let's delve into the importance of ethical consumption:\n\n1.  **Fair labor practices**: Choose brands that ensure fair wages, safe working conditions, and respect for workers' rights.\n2.  **Animal welfare**: Consider products made from animal-friendly materials or those with certifications like cruelty-free or vegan.\n3.  **Community support**: Select brands that contribute to local economies, empower marginalized groups, or promote social justice.\n\nTo incorporate sustainable shopping and ethical consumption into your daily life:\n\n1.  Set clear goals: Identify areas where you'd like to make a positive impact (e.g., reducing plastic use or supporting fair trade).\n2.  Educate yourself: Continuously learn about the environmental and social implications of different products.\n3.  Start small: Gradually adopt more sustainable habits, beginning with simple changes in your daily routine.\n\nRemember, every purchase counts, and collective action can drive significant positive change. By embracing sustainable shopping and ethical consumption, you'll not only reduce your personal impact but also contribute to a broader movement towards a more just and environmentally conscious world.\n\nAs consumers, we have the power to reshape markets and influence companies' practices. Together, let's redefine what it means to shop – and make a lasting difference in the process.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude towards sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "The author is dismissive of consumers who prioritize convenience over sustainability.",
+        "B": "The author believes that individual actions have no significant impact on the environment.",
+        "C": "The author encourages readers to make informed choices and take collective action for positive change.",
+        "D": "The author thinks that only large corporations can drive sustainable practices."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"greenwashing\" refer to in the context of sustainable shopping?",
+      "options": {
+        "A": "A marketing tactic that exaggerates a product's environmental benefits",
+        "B": "A certification label indicating a company's commitment to sustainability",
+        "C": "A type of packaging that reduces waste",
+        "D": "A social media campaign promoting eco-friendly products"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the term \"sustainable\" referring to in the context of shopping?",
+      "options": {
+        "A": "The ability to afford products",
+        "B": "The practice of minimizing harm to the environment while promoting social justice",
+        "C": "The rapid production and disposal of cheap clothing",
+        "D": "The use of eco-friendly materials only"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's tone towards fast fashion in this text?",
+      "options": {
+        "A": "The author admires companies that use cheap materials to produce trendy clothing.",
+        "B": "The author views fast fashion as a prime example of unsustainable shopping and its negative consequences.",
+        "C": "The author believes that consumers have no choice but to buy cheap, disposable clothing due to economic pressures.",
+        "D": "The author thinks that fast fashion is a necessary evil in the world of sustainable consumption."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the term \"greenwashing\" refer to in the context of sustainable shopping?",
+      "options": {
+        "A": "Exaggerating a product's eco-credentials",
+        "B": "A marketing tactic used by companies to promote fair labor practices",
+        "C": "The practice of buying second-hand products instead of new ones",
+        "D": "A certification that indicates a company's commitment to sustainability and social responsibility"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of the text about sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "To inform readers about the benefits of fast fashion for the environment",
+        "B": "To encourage consumers to adopt more environmentally friendly and socially responsible purchasing habits",
+        "C": "To discuss the impact of online marketplaces on local businesses",
+        "D": "To explain the differences between sustainable and eco-friendly products"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

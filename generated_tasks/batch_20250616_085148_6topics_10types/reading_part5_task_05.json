@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_05",
+  "title": "The Green Passport Revolution: How Travelers Are Saving the Planet",
+  "topic": "technology",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "As we embark on our next adventure, whether it's exploring the depths of the Amazon rainforest or trekking through the Himalayas, it's essential to consider the impact our travels have on the environment. Sustainable travel and eco-tourism are not just buzzwords; they're a necessity for preserving the beauty and wonder of our planet.\n\nThe statistics are alarming: according to the World Tourism Organization (UNWTO), international tourist arrivals reached 1.4 billion in 2019, generating over $1 trillion in revenue. While tourism can bring economic benefits to local communities, it also poses significant environmental challenges. From pollution and waste management to habitat destruction and climate change, the consequences of mass tourism are far-reaching.\n\nSo, what is sustainable travel? At its core, it's about minimizing our footprint while exploring new destinations. This involves making conscious choices about how we travel, where we stay, and what activities we participate in. For instance, choosing eco-lodges or environmentally certified hotels can help reduce energy consumption and support local conservation efforts.\n\nOne of the most significant advantages of sustainable travel is its potential to promote cultural exchange and community engagement. By immersing ourselves in local customs and traditions, we not only gain a deeper understanding of the place but also contribute to the local economy. This can be as simple as purchasing locally sourced products or supporting small-scale farmers.\n\nEco-tourism, on the other hand, takes sustainable travel to the next level by incorporating environmental conservation into its core mission. This often involves participating in activities that directly support wildlife conservation, such as volunteering for reforestation efforts or tracking endangered species. For example, a visit to the Serengeti National Park in Tanzania can involve joining a guided tour led by local guides who are passionate about protecting the park's majestic wildlife.\n\nHowever, not all eco-tourism initiatives are created equal. Some operators prioritize profits over people and the planet, leading to negative impacts on local communities and ecosystems. When selecting an eco-tour operator, look for certifications such as Ecotourism Australia or the International Ecotourism Society, which ensure that the tour meets rigorous environmental and social standards.\n\nAnother crucial aspect of sustainable travel is reducing our carbon footprint. This can be achieved by choosing flights with offsetting schemes, using public transportation, or even opting for electric vehicles in some destinations. For instance, a recent study found that tourists traveling to Iceland could reduce their carbon emissions by up to 90% by taking the bus instead of renting a car.\n\nAs we explore our planet's most breathtaking landscapes, it's essential to acknowledge the delicate balance between tourism and conservation. By making conscious choices about how we travel, where we stay, and what activities we participate in, we can minimize our impact while promoting sustainable development.\n\nIn conclusion, sustainable travel and eco-tourism are not just trends; they're a necessity for preserving the beauty and wonder of our planet. By choosing environmentally certified accommodations, participating in activities that support conservation efforts, and reducing our carbon footprint, we can contribute to the long-term sustainability of destinations around the world. As we embark on our next adventure, let's remember: responsible travel is not just about exploring new places; it's about preserving them for future generations.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred from the text about tourists traveling to Iceland?",
+      "options": {
+        "A": "They have a significant impact on the local economy.",
+        "B": "Taking public transportation can reduce carbon emissions by up to 90%.",
+        "C": "The Icelandic government has implemented strict regulations to limit tourism.",
+        "D": "Most tourists in Iceland prefer renting cars over taking buses."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"minimizing our footprint\" mean in this context?",
+      "options": {
+        "A": "To leave a lasting impact on the local environment",
+        "B": "To reduce our negative effects on the planet and its resources",
+        "C": "To increase our carbon emissions and energy consumption",
+        "D": "To ignore the environmental consequences of our actions"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many international tourists arrived at their destination in 2019 according to the World Tourism Organization (UNWTO)?",
+      "options": {
+        "A": "1 billion",
+        "B": "1.2 billion",
+        "C": "1.4 billion",
+        "D": "1.6 billion"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards tourists who prioritize profits over people and the planet?",
+      "options": {
+        "A": "They are simply making a business decision",
+        "B": "They are reckless and irresponsible",
+        "C": "They are often unaware of the consequences of their actions",
+        "D": "They are doing what is necessary to succeed in the tourism industry"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about sustainable travel and eco-tourism?",
+      "options": {
+        "A": "The benefits of mass tourism outweigh its negative impacts on the environment.",
+        "B": "Sustainable travel and eco-tourism are essential for preserving the planet's beauty and wonder.",
+        "C": "Responsible travel only involves reducing one's carbon footprint through transportation choices.",
+        "D": "Eco-tourism initiatives should prioritize profits over environmental conservation."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "travel_adventure"
+}

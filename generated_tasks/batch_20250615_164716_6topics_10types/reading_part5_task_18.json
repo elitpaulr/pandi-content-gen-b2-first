@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_18",
+  "title": "Unlocking the Secrets of Smart Money Habits for Young Adults Today",
+  "topic": "general",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "As we navigate the complexities of modern life, one thing is becoming increasingly clear: financial literacy is not just a nicety, but a necessity for young adults. In today's economy, where credit card debt and student loans are rampant, it's no longer sufficient to simply have a job or earn a decent income. One must also possess the knowledge and skills to manage their finances effectively.\n\nThis may seem like an obvious statement, but it's surprising how many young adults are still not equipped with even the basic understanding of personal finance. A recent survey found that nearly 60% of millennials (born between 1981 and 1996) struggle with financial literacy, with over 40% admitting to making costly mistakes due to lack of knowledge.\n\nOne of the primary reasons for this phenomenon is the changing landscape of the economy. The traditional notion of a stable job and steady income has given way to a gig economy where freelancing, entrepreneurship, and online side hustles are increasingly common. As a result, young adults must navigate multiple sources of income, expenses, and financial responsibilities that were previously handled by their parents or employers.\n\nMoreover, the widespread use of technology has also contributed to the decline in financial literacy. While mobile banking apps and digital payment systems have made it easier for people to manage their finances on-the-go, they have also created a culture of instant gratification and impulse spending. Many young adults are so accustomed to swiping their credit cards or clicking \"buy now\" that they forget about the long-term consequences of their financial decisions.\n\nSo what can be done to improve financial literacy among young adults? For starters, schools should prioritize teaching personal finance as part of the curriculum. This could include modules on budgeting, saving, investing, and debt management, taught by experts in the field or through partnerships with local banks and financial institutions.\n\nIn addition to formal education, there are also numerous online resources available that can provide young adults with a wealth of information and tools for managing their finances. Websites such as NerdWallet, The Balance, and Investopedia offer tutorials, calculators, and advice on everything from credit scores to retirement planning.\n\nHowever, it's not just about providing access to knowledge – it's also about creating a culture that values financial literacy. Parents, educators, and employers must all play a role in promoting responsible financial behavior among young adults. This could involve setting a good example by practicing what you preach, offering guidance and support when needed, or even incorporating financial education into workplace training programs.\n\nUltimately, improving financial literacy among young adults requires a multifaceted approach that addresses both the individual's need for knowledge and the broader societal factors that contribute to their financial challenges. By working together, we can empower young adults with the skills and confidence they need to make informed financial decisions – and set them on a path towards long-term financial stability.\n\nIn conclusion, financial literacy is no longer a luxury, but an essential life skill for young adults in today's economy. As we move forward, it's crucial that we prioritize teaching personal finance, leverage online resources, and create a culture that values responsible financial behavior. By doing so, we can ensure that the next generation of leaders and citizens are equipped to navigate the complexities of modern life with confidence – and avoid the pitfalls of financial ignorance.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if young adults continue to struggle with financial literacy?",
+      "options": {
+        "A": "They will be less likely to start their own businesses",
+        "B": "Their financial mistakes will increase, leading to more debt and stress",
+        "C": "They will have an easier time managing multiple sources of income",
+        "D": "The economy will experience a significant boost in growth"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the term \"nicety\" mean in the context of the text?",
+      "options": {
+        "A": "A requirement or necessity",
+        "B": "An advantage or luxury",
+        "C": "A skill or talent that is not essential",
+        "D": "A type of financial instrument, such as a bond or stock"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what percentage of millennials struggle with financial literacy?",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "50%",
+        "D": "60%"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the widespread use of technology in relation to financial literacy?",
+      "options": {
+        "A": "It has improved young adults' ability to manage their finances effectively.",
+        "B": "It has created a culture of instant gratification and impulse spending, contributing to financial ignorance.",
+        "C": "It has made personal finance more accessible and convenient for young adults.",
+        "D": "It is not relevant to the issue of financial literacy among young adults."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who or what is mainly responsible for creating a culture of instant gratification and impulse spending among young adults?",
+      "options": {
+        "A": "Mobile banking apps",
+        "B": "The widespread use of technology",
+        "C": "Young adults themselves, due to their lack of knowledge about personal finance",
+        "D": "Parents who fail to teach their children about financial responsibility"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main reason for the lack of financial literacy among young adults?",
+      "options": {
+        "A": "They are not taught personal finance in school.",
+        "B": "The widespread use of technology has created a culture of instant gratification and impulse spending.",
+        "C": "They do not have access to online resources that provide information on managing finances.",
+        "D": "They are too busy with their jobs to learn about financial literacy."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

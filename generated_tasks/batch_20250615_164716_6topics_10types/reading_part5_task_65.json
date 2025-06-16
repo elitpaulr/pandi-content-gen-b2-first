@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_65",
+  "title": "Beyond Your Day Job: How to Earn Money While You Sleep",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "The Side Hustle Revolution: How Ordinary People Are Creating Extra Income\n\nIn today's economy, having multiple sources of income is no longer a luxury, but a necessity for many people. With the rise of the gig economy and the increasing cost of living, more individuals are turning to side hustles as a way to supplement their main income. But what exactly is a side hustle, and how can you create one?\n\nA side hustle is essentially a part-time business or entrepreneurial venture that you pursue outside of your regular 9-to-5 job. It can be anything from freelancing, tutoring, or pet-sitting, to creating and selling products online or renting out a spare room on Airbnb. The key idea behind a side hustle is to create an extra source of income that can help you pay off debt, build savings, or achieve financial goals.\n\nOne of the most attractive aspects of side hustles is the potential for passive income. Passive income refers to earnings that are generated without actively trading time for money. In other words, once you've set up a side hustle, it can continue to generate income with minimal effort required from you. This could be through royalties from selling digital products or stock photography, interest on investments, or even renting out property.\n\nTake Sarah, a 32-year-old marketing specialist who started a blog about parenting and lifestyle in her spare time. She began by writing articles and creating content, but soon realized that she could monetize her site with advertising and affiliate marketing. Today, Sarah earns an additional $1,000 per month from her side hustle, which she uses to pay off student loans.\n\nAnother example is John, a 45-year-old IT professional who started selling stock photos on platforms like Shutterstock and iStock. With just a few hours of work each week, he can earn up to $500 in passive income from his photos being licensed by other users.\n\nCreating a side hustle requires some initial effort and planning, but it's not as daunting as you might think. Here are some tips for getting started:\n\n1. Identify your skills: Think about what you're good at or enjoy doing, and see how that could be turned into a part-time business.\n2. Research the market: Look at what others are selling or offering in your area of expertise, and find a niche to fill.\n3. Set clear goals: Determine what you want to achieve with your side hustle, whether it's generating extra income or building wealth.\n4. Start small: Don't try to tackle too much at once – begin with a simple idea and scale up as you go.\n\nOf course, not all side hustles are created equal. Some may require significant upfront costs, such as investing in equipment or software. Others may involve long hours of work, leaving little time for personal pursuits. But the benefits can be substantial – increased financial security, reduced stress, and a sense of accomplishment.\n\nAs the gig economy continues to grow, it's likely that side hustles will become an even more integral part of our lives. With the rise of online platforms and social media, it's easier than ever to connect with customers and start earning extra income. Whether you're looking to pay off debt or build a safety net for the future, creating a side hustle could be just what you need.\n\nIn conclusion, side hustles are not just for entrepreneurs or business owners – they're for anyone who wants to take control of their finances and achieve their goals. By identifying your skills, researching the market, setting clear goals, and starting small, you can create a side hustle that generates passive income and changes your life for the better. So why wait? Start exploring your options today and join the side hustle revolution!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to Sarah's student loans if she continues to earn an additional $1,000 per month from her side hustle?",
+      "options": {
+        "A": "They will increase because of the extra income",
+        "B": "They may take longer to pay off due to her increased spending habits",
+        "C": "They will be paid off in a shorter time frame",
+        "D": "The exact impact is impossible to determine"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"passive income\" mean in the context of side hustles?",
+      "options": {
+        "A": "Income generated from actively trading time for money",
+        "B": "Earnings that are generated without requiring much effort or time",
+        "C": "A business venture that requires a significant upfront cost",
+        "D": "Extra income earned through freelancing or consulting"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, how much does Sarah earn from her side hustle per month?",
+      "options": {
+        "A": "$500",
+        "B": "$1,000",
+        "C": "$2,000",
+        "D": "$5,000"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards people who start side hustles?",
+      "options": {
+        "A": "They are seen as lazy and trying to avoid hard work.",
+        "B": "They are praised for taking control of their finances and achieving their goals.",
+        "C": "They are viewed as a threat to traditional employment and the economy.",
+        "D": "They are stereotyped as being only young entrepreneurs with innovative ideas."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the key idea behind a side hustle\" refer to?",
+      "options": {
+        "A": "The benefits of having multiple sources of income",
+        "B": "The potential for passive income",
+        "C": "The main reason people turn to side hustles",
+        "D": "The characteristics of a part-time business or entrepreneurial venture"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about side hustles?",
+      "options": {
+        "A": "The article explains how to create a successful online business.",
+        "B": "Side hustles are a way for people to earn extra income, achieve financial goals, and reduce stress.",
+        "C": "The article focuses on the challenges and difficulties of starting a side hustle.",
+        "D": "Side hustles are only suitable for young people and entrepreneurs."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

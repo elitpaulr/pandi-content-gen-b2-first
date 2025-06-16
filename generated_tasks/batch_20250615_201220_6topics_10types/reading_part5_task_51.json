@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_51",
+  "title": "Sustainable Shopping: Making Every Purchase Count for the Planet's Future",
+  "topic": "technology",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "The Rise of Sustainable Shopping: How Consumers Are Driving Change in the Retail Industry\n\nIn recent years, there has been a significant shift in consumer behavior towards more sustainable shopping practices. With growing concerns about climate change, social justice, and environmental degradation, consumers are increasingly seeking out products and brands that share their values. This trend is driving a seismic shift in the retail industry, as companies scramble to adapt to changing consumer demands.\n\nAt the heart of this movement is the concept of \"conscious consumption.\" It's no longer just about buying what you need or want; it's about making choices that have a positive impact on the world around us. Consumers are increasingly looking for products and brands that align with their values, from fair trade practices to sustainable materials.\n\nOne key driver of this trend is the younger generation. Millennials and Gen Z consumers are leading the charge towards more sustainable shopping practices, using social media platforms to raise awareness about issues like fast fashion, single-use plastics, and deforestation. Influencers like Greta Thunberg and David Attenborough have become household names, using their platforms to educate and mobilize their followers on environmental issues.\n\nBut sustainable shopping is not just a niche concern; it's becoming mainstream. Major retailers are now incorporating sustainability into their business models, from reusable bags to refillable products. For example, companies like Patagonia and REI have made significant commitments to reducing waste and carbon emissions in their supply chains.\n\nSo what does this mean for consumers? Firstly, it means being more mindful of the products you choose to buy. Look for brands that prioritize sustainability and transparency, and avoid those that perpetuate unsustainable practices. Secondly, it means making conscious choices about packaging, from reusable containers to refills over disposables. Finally, it means supporting businesses that share your values, whether through online reviews or in-store conversations.\n\nOf course, sustainable shopping is not without its challenges. From affordability to availability, there are still many barriers to entry for consumers who want to make more sustainable choices. But as demand continues to grow, so too do the options available. Online marketplaces like ThredUp and Depop are making it easier than ever to buy second-hand or vintage items, while companies like Who Gives a Crap are offering affordable, eco-friendly alternatives to traditional products.\n\nAs consumers continue to drive change in the retail industry, there's one thing that's clear: sustainability is no longer just a buzzword; it's a business imperative. Companies that fail to adapt risk being left behind by their competitors. But for those that get it right, the rewards are significant – from increased customer loyalty to improved brand reputation.\n\nIn conclusion, sustainable shopping and ethical consumption are no longer niche concerns, but mainstream trends driving change in the retail industry. As consumers continue to demand more sustainable products and practices, businesses must adapt or risk being left behind. Whether you're a conscious consumer or a business leader, one thing is clear: sustainability is here to stay.\n\nAs we move forward into this new era of consumption, it's time for all stakeholders – consumers, businesses, and policymakers alike – to come together and drive meaningful change. By working together, we can create a more sustainable future for all, where the products we buy and the brands we support reflect our values and priorities as a society.\n\nIn the end, sustainable shopping is not just about making eco-friendly choices; it's about creating a better world for ourselves and future generations. And that's a trend worth getting behind.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What drives the younger generation to be more concerned with sustainability?",
+      "options": {
+        "A": "The high cost of sustainable products",
+        "B": "The influence of social media platforms and environmental influencers like Greta Thunberg and David Attenborough",
+        "C": "Growing concerns about climate change, but only for people who live near coastal areas",
+        "D": "A desire to reduce their carbon footprint as soon as possible"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"seismic shift\" mean in this context?",
+      "options": {
+        "A": "A gradual change over time",
+        "B": "A sudden, significant change in direction or approach",
+        "C": "A small adjustment to existing practices",
+        "D": "A complete overhaul of a system or industry"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of consumers do millennials and Gen Z represent in driving the trend towards sustainable shopping practices?",
+      "options": {
+        "A": "25%",
+        "B": "50%",
+        "C": "65%",
+        "D": "75%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think will happen to companies that fail to adapt to the shift towards sustainable shopping?",
+      "options": {
+        "A": "They will lose customers but remain profitable",
+        "B": "They will be left behind by their competitors and risk financial losses",
+        "C": "They will continue to thrive despite consumer demands for sustainability",
+        "D": "They will become more innovative and lead the industry in sustainability"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What do consumers increasingly look for when buying products?",
+      "options": {
+        "A": "The most expensive brands",
+        "B": "Products with sustainable materials",
+        "C": "Companies that have been on the market for over 50 years",
+        "D": "Retailers who offer discounts and promotions"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about sustainable shopping?",
+      "options": {
+        "A": "The retail industry is failing to meet consumer demands for sustainability.",
+        "B": "Consumers are driving significant changes in the retail industry towards more sustainable practices.",
+        "C": "Sustainable shopping is a niche concern limited to environmental issues only.",
+        "D": "Businesses will never adapt to changing consumer demands for sustainability."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

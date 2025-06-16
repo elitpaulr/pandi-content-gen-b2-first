@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_01",
+  "title": "Mastering Money: The Ultimate Guide to Smart Financial Decisions",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**Taking Control of Your Finances**\n\nAs a young adult, managing your finances can be overwhelming. Between paying off student loans, saving for the future, and navigating credit cards, it's no wonder many people feel lost in the world of personal finance. But with a solid understanding of financial literacy, you'll be better equipped to make informed decisions about your money.\n\n**Why Financial Literacy Matters**\n\nFinancial literacy is not just about knowing how to balance your checkbook or create a budget (although these are essential skills). It's also about understanding the underlying principles that govern personal finance. This includes concepts like compound interest, inflation, and risk management – all of which can impact your financial well-being.\n\nAccording to a report by the Financial Industry Regulatory Authority (FINRA), nearly 60% of Americans lack basic knowledge about investing and managing their finances. As a result, many young adults struggle with financial stress, making it harder to achieve long-term goals like buying a home or starting a family.\n\n**The Importance of Budgeting**\n\nOne of the most critical components of financial literacy is budgeting. A budget is not just a spreadsheet or a plan; it's a roadmap for your financial future. By tracking income and expenses, you'll be able to identify areas where you can cut back on unnecessary spending and allocate more resources towards savings.\n\n\"Budgeting is like planning a road trip,\" explains personal finance expert, Farnoosh Torabi. \"You need to know where you're going, how much fuel you have, and what route to take to get there. If you don't plan ahead, you might end up lost in the middle of nowhere.\"\n\n**The Dangers of Credit Card Debt**\n\nCredit cards can be a convenient way to make purchases, but they often come with hidden costs that can add up quickly. Interest rates, fees, and penalties can all contribute to debt that's difficult to pay off.\n\nAccording to the Federal Reserve, outstanding credit card debt in the United States totals over $1 trillion – an average of around $4,000 per household. To avoid getting caught in this cycle, it's essential to understand how credit cards work and use them responsibly.\n\n**Investing for the Future**\n\nSaving for retirement or other long-term goals requires a solid understanding of investing principles. From stocks and bonds to real estate and mutual funds, there are many options available. However, it's crucial to educate yourself on the risks and rewards associated with each investment type.\n\n\"Many young adults think they need to be experts in finance before they start investing,\" notes financial advisor, Jean Chatzky. \"But the truth is, you don't have to know everything to get started. Just take small steps – like setting up a 401(k) or contributing to an IRA – and let compound interest do its magic.\"\n\n**Taking Action**\n\nFinancial literacy is not just about knowledge; it's also about taking action. By applying what you've learned, you'll be able to make informed decisions that align with your financial goals.\n\nSo where do you start? Here are a few steps to get you on the path to financial literacy:\n\n* Take an online course or attend a seminar to learn more about personal finance.\n* Set up a budget and track your expenses.\n* Research investment options and consider starting small.\n* Seek guidance from a financial advisor or mentor.\n\nBy prioritizing financial literacy, young adults can take control of their finances and achieve long-term success. Remember, it's never too early (or late) to start learning about money – and the rewards will be worth the effort.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if many people continue to lack basic knowledge about investing and managing their finances?",
+      "options": {
+        "A": "They will not struggle with financial stress.",
+        "B": "The economy will grow rapidly.",
+        "C": "Many young adults will be able to achieve long-term goals like buying a home or starting a family.",
+        "D": "Financial institutions will experience significant losses."
+      },
+      "correct_answer": "D",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Farnoosh Torabi mean by comparing budgeting to \"planning a road trip\"?",
+      "options": {
+        "A": "It involves making spontaneous purchases without thinking about the consequences",
+        "B": "It's like creating a detailed plan for your financial future, including tracking income and expenses",
+        "C": "Budgeting is only necessary when you're trying to save money for something specific",
+        "D": "It implies that budgeting is a one-time task that can be completed quickly"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a report by the Financial Industry Regulatory Authority (FINRA), what percentage of Americans lack basic knowledge about investing and managing their finances?",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "Nearly 60%",
+        "D": "Over 80%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards the financial industry?",
+      "options": {
+        "A": "They view it as untrustworthy and exploitative.",
+        "B": "They see it as a necessary evil that can be navigated with knowledge and caution.",
+        "C": "They believe it is a source of unnecessary stress and complexity for young adults.",
+        "D": "They think it is a place where only experts should venture."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who does Jean Chatzky think you need to be before investing?",
+      "options": {
+        "A": "A financial advisor",
+        "B": "An expert in finance",
+        "C": "A credit card holder",
+        "D": "A homeowner"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this text about financial literacy for young adults?",
+      "options": {
+        "A": "To inform readers about different investment options",
+        "B": "To encourage young adults to take control of their finances by prioritizing financial literacy",
+        "C": "To provide a detailed guide on how to balance a checkbook and create a budget",
+        "D": "To warn readers about the dangers of credit card debt without offering solutions"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

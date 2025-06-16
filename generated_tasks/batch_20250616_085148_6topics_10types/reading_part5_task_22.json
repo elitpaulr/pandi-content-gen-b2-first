@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_22",
+  "title": "Powering Your Home with Sunshine: Affordable Renewable Options Revealed",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "Renewable Energy Solutions for Homes: A Guide to Going Green\n\nAs the world grapples with climate change, reducing carbon emissions has become a pressing concern. One of the most effective ways to make a difference is by adopting renewable energy solutions in our homes. Gone are the days when going green was considered expensive and impractical. With advancements in technology and decreasing costs, renewable energy is now more accessible than ever.\n\nSolar Power: Harnessing the Sun's Energy\n\nSolar power is one of the most popular renewable energy sources for homes. It involves installing solar panels on your roof to generate electricity from sunlight. The cost of solar panels has plummeted over the years, making it a viable option for many homeowners. In fact, according to the International Renewable Energy Agency (IRENA), the cost of solar power has fallen by 70% in the last decade.\n\nThe benefits of solar power are numerous. Not only does it reduce your carbon footprint, but it also saves you money on your electricity bills. With a typical solar panel system, you can save up to $1,000 per year on energy costs. Moreover, solar panels require minimal maintenance and can last up to 25 years.\n\nWind Power: Harnessing the Wind's Energy\n\nAnother popular renewable energy source for homes is wind power. While it may not be suitable for all locations, wind turbines can generate significant amounts of electricity from wind energy. The cost of wind turbines has decreased dramatically in recent years, making them a competitive option to traditional fossil fuels.\n\nHowever, there are some limitations to consider. Wind turbines require a significant amount of land and can be noisy. Moreover, they may not be suitable for areas with low wind speeds or complex terrain. Nevertheless, wind power is an excellent choice for homes located in windy regions.\n\nGeothermal Energy: Harnessing the Earth's Heat\n\nGeothermal energy is another innovative renewable energy solution for homes. It involves harnessing the natural heat of the earth to generate electricity. This technology is particularly effective in areas with high geothermal activity, such as volcanic regions.\n\nThe benefits of geothermal energy are numerous. Not only does it reduce greenhouse gas emissions, but it also provides a reliable source of energy. Geothermal systems can last up to 50 years or more, making them a long-term investment for homeowners.\n\nHydroelectric Power: Harnessing Water's Energy\n\nHydroelectric power is another renewable energy source that has been around for decades. It involves harnessing the energy of moving water to generate electricity. While it may require significant upfront costs, hydroelectric power can provide a substantial return on investment.\n\nThe benefits of hydroelectric power are numerous. Not only does it reduce carbon emissions, but it also provides a reliable source of energy. Hydroelectric systems can last up to 50 years or more, making them a long-term investment for homeowners.\n\nConclusion\n\nRenewable energy solutions for homes have come a long way in recent years. With decreasing costs and increasing efficiency, going green has never been easier. Whether you choose solar power, wind power, geothermal energy, or hydroelectric power, the benefits are numerous. Not only does it reduce your carbon footprint, but it also saves you money on energy bills.\n\nIf you're considering adopting renewable energy solutions for your home, there are several steps to take. First, assess your energy needs and identify which type of renewable energy source is best suited for your location. Next, research local incentives and tax credits that can help offset the upfront costs. Finally, consult with a professional to ensure a smooth installation process.\n\nAs we move towards a more sustainable future, adopting renewable energy solutions in our homes is an essential step. With its numerous benefits and decreasing costs, going green has never been easier. So why wait? Take the first step today and start harnessing the power of renewable energy for your home.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what percentage decrease in cost did solar power experience over the last decade?",
+      "options": {
+        "A": "50%",
+        "B": "60%",
+        "C": "70%",
+        "D": "80%"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word \"plummeted\" mean in the context of the text?",
+      "options": {
+        "A": "To increase rapidly",
+        "B": "To decrease sharply",
+        "C": "To remain stable over time",
+        "D": "To be completely eliminated"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the International Renewable Energy Agency (IRENA), what percentage has the cost of solar power fallen by in the last decade?",
+      "options": {
+        "A": "30%",
+        "B": "50%",
+        "C": "70%",
+        "D": "90%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about the cost of renewable energy solutions for homes?",
+      "options": {
+        "A": "The author believes that renewable energy is still expensive and not accessible to many people.",
+        "B": "The author thinks that the cost of renewable energy has decreased significantly, making it a viable option for homeowners.",
+        "C": "The author is neutral about the cost of renewable energy and does not think it affects its viability.",
+        "D": "The author believes that the cost of renewable energy is increasing every year."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "According to the International Renewable Energy Agency (IRENA), what percentage decrease in cost has solar power experienced over the last decade?",
+      "options": {
+        "A": "50%",
+        "B": "70%",
+        "C": "80%",
+        "D": "90%"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this guide to renewable energy solutions for homes?",
+      "options": {
+        "A": "To explain the science behind different types of renewable energy",
+        "B": "To encourage homeowners to reduce their carbon emissions and save money on energy bills",
+        "C": "To provide a detailed comparison of the costs and benefits of various renewable energy sources",
+        "D": "To discuss the environmental impact of human activities on climate change"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

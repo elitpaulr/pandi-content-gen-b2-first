@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_13",
+  "title": "Get Fit in 15 Minutes a Day Without Losing Your Mind",
+  "topic": "health_and_fitness",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her morning coffee, Emma scrolled through her social media feed, bombarded by fitness influencers peddling the latest trends. \"Get ripped in 30 days with this one weird trick!\" or \"Say goodbye to your muffin top with our miracle workout!\" But Emma wasn't buying it. A busy marketing manager in her late twenties, she knew that a sustainable fitness routine needed more than just gimmicks.\n\nEmma had always been active, but after a particularly grueling project at work, she found herself struggling to squeeze in even a 30-minute gym session. She was tired of feeling guilty for not meeting unrealistic expectations and wanted to find a way to stay fit without sacrificing her sanity. So, she started researching fitness trends tailored to busy professionals like herself.\n\nOne trend that caught her eye was High-Intensity Interval Training (HIIT). Proponents claimed it could be done in as little as 20 minutes, making it perfect for time-strapped individuals. Emma tried it out and was surprised by how effective it was. She'd sprint on the treadmill for a minute, followed by two minutes of rest, repeating the cycle for a total of 15-20 minutes. It was intense, but the results were undeniable.\n\nNext up was group fitness classes – or rather, virtual versions of them. Emma discovered that many gyms now offered online sessions, allowing her to join in from the comfort of her own home (or office). She opted for a HIIT class and was impressed by how motivating it was. The instructor's energy was infectious, and she found herself moving with more intensity than she ever thought possible.\n\nAnother trend that resonated with Emma was functional fitness. Instead of focusing solely on aesthetics, this approach emphasized building strength and mobility for everyday activities. She started incorporating exercises like squats, lunges, and step-ups into her routine, which not only improved her overall health but also made her feel more capable at work. No longer did she dread carrying heavy luggage or climbing the stairs to the office.\n\nEmma also became interested in fitness tracking apps. While initially skeptical, she discovered that they could be a valuable tool for monitoring progress and staying accountable. She opted for an app that allowed her to track her workouts, nutrition, and sleep patterns, providing a comprehensive picture of her overall well-being.\n\nAs Emma continued to explore these trends, she noticed a shift in her mindset. Rather than viewing exercise as a chore, she began seeing it as a way to recharge and refocus. She started taking short breaks throughout the day to stretch or do a few jumping jacks, finding that even small increments of physical activity made a significant difference.\n\nOf course, not all trends were created equal. Emma was wary of fad diets and overpriced supplements peddled by influencers. She knew that true fitness required patience, consistency, and a willingness to adapt. As she continued on her journey, she realized that the key to success lay not in following the latest trend but in finding what worked for her – and sticking with it.\n\nAs Emma sipped her evening tea, feeling more energized than ever before, she knew that she'd finally found her footing. She no longer felt guilty for not meeting unrealistic expectations; instead, she was empowered by her newfound understanding of what worked best for her busy lifestyle. The fitness trends might come and go, but Emma's commitment to a healthy, balanced routine remained unwavering – a testament to the transformative power of finding one's own path to wellness.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Emma's approach to exercise before she started researching fitness trends tailored to busy professionals?",
+      "options": {
+        "A": "She was already following a strict diet and exercising for several hours every day.",
+        "B": "She had given up on exercising altogether due to lack of time.",
+        "C": "She was overwhelmed by the numerous unrealistic expectations presented by social media influencers, but continued to follow them anyway.",
+        "D": "She felt guilty about not meeting the expectations of her fitness routine, but didn't know how to change."
+      },
+      "correct_answer": "D",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"peddling\" mean in this context?",
+      "options": {
+        "A": "To enthusiastically promote something",
+        "B": "To deceitfully sell something, often with exaggerated claims",
+        "C": "To discuss a topic in detail",
+        "D": "To provide expert advice on a particular issue"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many minutes did a typical HIIT session with Emma take?",
+      "options": {
+        "A": "30-40 minutes",
+        "B": "15-20 minutes",
+        "C": "45-60 minutes",
+        "D": "10-15 minutes"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is Emma's attitude towards unrealistic fitness expectations?",
+      "options": {
+        "A": "She thinks they are achievable and encourages others to follow them",
+        "B": "She is tired of feeling guilty for not meeting them and wants a more realistic approach",
+        "C": "She believes that following influencers' advice is the key to success",
+        "D": "She thinks it's impossible to stay fit with a busy lifestyle"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who was bombarded by fitness influencers peddling the latest trends?",
+      "options": {
+        "A": "Emma",
+        "B": "A busy marketing manager in her late twenties",
+        "C": "Her social media feed",
+        "D": "Fitness influencers themselves"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What was Emma looking for when she started researching fitness trends?",
+      "options": {
+        "A": "A quick fix to get rid of her muffin top",
+        "B": "A sustainable way to stay fit without sacrificing her sanity",
+        "C": "The latest HIIT workout routine",
+        "D": "A magic pill to lose weight overnight"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "health_wellness"
+}

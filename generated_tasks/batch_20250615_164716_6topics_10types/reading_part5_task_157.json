@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_157",
+  "title": "The Remote Revolution: How Working from Home Changes Everything Forever",
+  "topic": "business_and_work",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her coffee, Rachel gazed out the window at the bustling streets of downtown Manhattan. She was supposed to be at a meeting with her team at their company's headquarters, but instead, she was sitting in her cozy home office, typing away on her laptop.\n\nRachel was one of the lucky ones – she had been working remotely for years, and loved it. But as she scrolled through her social media feed, she couldn't help but feel a pang of guilt. Her friends were all still stuck in traffic, commuting to their offices, while she got to enjoy a 10-minute walk to her home office.\n\nShe shook off the feeling and focused on the task at hand – crunching numbers for her company's quarterly reports. As a remote worker, Rachel had discovered that she was not only more productive, but also more cost-effective. No more expensive lunches or coffee breaks in the city; no more pricey dry cleaning bills from accidentally spilling coffee all over her shirt.\n\nBut as she delved deeper into the numbers, Rachel began to realize just how far-reaching the economic impact of remote work could be. According to a recent study, companies that allowed their employees to work remotely full-time saw an average increase in productivity of 13%. And it wasn't just about the bottom line – remote workers also reported higher job satisfaction and lower turnover rates.\n\nRachel's mind wandered back to her friend Emily, who had been working from home for months after having a baby. At first, she was worried that she would fall behind on her work, but instead, she found herself being more efficient than ever before. And with the extra time off during her commute, she was able to spend quality time with her little one.\n\nAs Rachel continued to type away, she couldn't help but think about all the other Emily's out there – the ones who had been forced back into the office after having a baby, or the ones who were struggling to balance work and family life. She knew that remote work wasn't a magic solution for everyone, but it was definitely a step in the right direction.\n\nJust then, her phone buzzed with an incoming message from her colleague, Jack. \"Hey Rachel, have you seen the latest numbers on remote work?\" he asked. Rachel's heart skipped a beat as she opened up the report – it was even more impressive than she had expected. The data showed that companies who adopted flexible work arrangements saw a 25% increase in revenue, and a significant reduction in overhead costs.\n\nRachel felt a surge of excitement – this could be the key to transforming her industry. She quickly typed out a response to Jack, suggesting they schedule a meeting with their CEO to discuss implementing more remote work options for their team.\n\nAs she hit send, Rachel realized that she wasn't just thinking about herself and her company – she was thinking about all the other employees who would benefit from this shift in mindset. And as she gazed out at the city skyline, she knew that she was part of something bigger than just a remote work revolution – she was part of a global movement towards flexibility, equality, and economic growth.\n\nThe numbers were clear: remote work wasn't just a nice-to-have; it was a must-have for businesses looking to stay ahead of the curve. And as Rachel settled in for another productive day at home, she couldn't help but wonder what other secrets her laptop held – secrets that would change the face of business forever.\n\nRachel's phone buzzed again, this time with an email from their CEO. \"Great job on your report, team,\" he wrote. \"Let's make remote work a priority for our company moving forward.\" Rachel grinned to herself as she hit reply – it was going to be a good day indeed.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what percentage increase in revenue did companies see after adopting flexible work arrangements?",
+      "options": {
+        "A": "10%",
+        "B": "13%",
+        "C": "25%",
+        "D": "50%"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does 'crunching numbers' mean in this context?",
+      "options": {
+        "A": "To calculate and compare different financial options",
+        "B": "To work on a creative project that requires artistic skills",
+        "C": "To think deeply about complex economic issues",
+        "D": "To organize and prioritize tasks for the day"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a recent study mentioned in the text, companies that allowed their employees to work remotely full-time saw an average increase in productivity of what percentage?",
+      "options": {
+        "A": "10%",
+        "B": "13%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the impact of remote work on employees who have babies?",
+      "options": {
+        "A": "She believes that working from home would make them less efficient.",
+        "B": "She thinks that flexible work arrangements are essential for employees with family responsibilities.",
+        "C": "She assumes that all employees can easily balance work and family life.",
+        "D": "She doubts that remote work is a suitable solution for employees with childcare needs."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase 'the other Emily's out there' refer to?",
+      "options": {
+        "A": "Employees who are struggling to balance work and family life",
+        "B": "Women who have had babies and are working from home",
+        "C": "People who are not allowed to work remotely full-time",
+        "D": "Companies that see a significant reduction in overhead costs"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about Rachel and her experience with remote work?",
+      "options": {
+        "A": "The benefits of remote work are mainly personal, allowing individuals like Rachel to enjoy more flexibility and productivity.",
+        "B": "Remote work has a significant impact on companies' productivity, job satisfaction, and turnover rates, making it a crucial aspect of modern business.",
+        "C": "Rachel's story is an example of how remote work can be beneficial for working mothers, but not necessarily for others.",
+        "D": "The text focuses on the negative aspects of remote work and its potential drawbacks."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

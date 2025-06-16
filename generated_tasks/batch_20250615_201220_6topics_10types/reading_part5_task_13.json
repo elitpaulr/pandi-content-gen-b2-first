@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_13",
+  "title": "The Money Sense Quiz: Do You Know Your Financial Future?",
+  "topic": "general",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "Financial Literacy: The Secret to Securing Your Future\n\nAs a young adult, you're probably thinking about the future - your career, relationships, and of course, your finances. But are you equipped with the knowledge to make informed decisions about money? Financial literacy is not just about managing your income; it's about understanding how to use your resources wisely to achieve your goals.\n\nThink back to when you first started working. You might have earned a decent salary, but did you know how much taxes were deducted from your paycheck? Or perhaps you wondered why you couldn't afford the latest gadgets or travel abroad despite having a steady income? This is where financial literacy comes in - it's not just about knowing how to save money, but also understanding how to use credit cards, invest, and manage debt.\n\nThe importance of financial literacy cannot be overstated. According to a survey by the Financial Industry Regulatory Authority (FINRA), only 24% of young adults aged 18-34 feel confident in their ability to make informed investment decisions. This lack of knowledge can lead to costly mistakes, such as overspending or making poor investment choices.\n\nSo, where do you start? Here are some essential financial skills to learn:\n\n1. **Budgeting**: Create a budget that accounts for all your income and expenses. You can use the 50/30/20 rule: allocate 50% of your income towards necessities like rent and utilities, 30% for discretionary spending, and 20% for saving and debt repayment.\n2. **Saving**: Start building an emergency fund to cover unexpected expenses. Aim to save at least three months' worth of living costs in a separate account.\n3. **Investing**: Learn about different investment options, such as stocks, bonds, or mutual funds. Even small amounts invested regularly can add up over time.\n4. **Credit management**: Understand how credit scores work and make smart decisions about using credit cards.\n\nTo put these skills into practice, consider the following real-life scenarios:\n\n* Sarah earns $40,000 per year but spends most of her income on dining out and subscription services. She realizes that she's not saving enough for her long-term goals, such as buying a house or retirement.\n* Alex has a credit card with an annual fee of $200 and a high interest rate. He decides to cancel the card and opt for a low-interest alternative.\n\nBy mastering these financial skills, you'll be well on your way to securing your future. Remember that financial literacy is a lifelong learning process - it's okay to make mistakes, but being aware of your spending habits and making informed decisions will help you avoid costly pitfalls.\n\nIn conclusion, financial literacy is not just about numbers; it's about understanding how to use your resources wisely to achieve your goals. By learning essential skills like budgeting, saving, investing, and credit management, you'll be equipped to make informed decisions about money and secure a brighter future for yourself.\n\nAdditionally, consider the following tips to improve your financial literacy:\n\n* Seek advice from a financial advisor or planner\n* Read personal finance books or online resources\n* Join online forums or communities to discuss financial topics with others\n* Take advantage of free financial education resources offered by banks or credit unions\n\nBy taking control of your finances and developing good habits, you'll be well on your way to achieving financial stability and security.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what percentage of young adults aged 18-34 feel confident in their ability to make informed investment decisions?",
+      "options": {
+        "A": "50%",
+        "B": "24%",
+        "C": "75%",
+        "D": "90%"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"overspend\" in the context of personal finance?",
+      "options": {
+        "A": "To save money by reducing unnecessary expenses",
+        "B": "To make purchases that are beyond one's means, leading to debt or financial difficulties",
+        "C": "To invest a large amount of money at once",
+        "D": "To earn more income than necessary"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a survey by FINRA, what percentage of young adults aged 18-34 feel confident in their ability to make informed investment decisions?",
+      "options": {
+        "A": "40%",
+        "B": "50%",
+        "C": "60%",
+        "D": "24%"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The author's tone towards people who lack financial knowledge is best described as:",
+      "options": {
+        "A": "Disapproving",
+        "B": "Sympathetic",
+        "C": "Critical",
+        "D": "Encouraging"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about financial literacy for young adults?",
+      "options": {
+        "A": "Financial literacy is only necessary for older adults.",
+        "B": "Mastering essential skills like budgeting, saving, investing, and credit management can help you secure your future.",
+        "C": "The text focuses on providing examples of people who have made poor financial decisions.",
+        "D": "Financial literacy is not important because it's just about managing income."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

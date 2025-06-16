@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_35",
+  "title": "Green is the New Black: The Future of Sustainable Shopping Revealed",
+  "topic": "technology",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "Sustainable Shopping on the Rise: Consumers Demand More from Brands\n\nAs concerns over climate change, social justice, and environmental degradation continue to grow, consumers are increasingly demanding more from the brands they support. The shift towards sustainable shopping and ethical consumption is gaining momentum worldwide, with a growing number of people choosing to prioritize products that align with their values.\n\nAccording to a recent study by Nielsen, 81% of global consumers now believe that companies have a responsibility to society and the environment, while 67% of millennials are willing to pay more for sustainable brands. This changing landscape has led many businesses to re-examine their practices and invest in more eco-friendly and socially responsible operations.\n\nOne key area of focus is reducing waste and packaging. As consumers become more aware of the environmental impact of single-use plastics and excessive packaging, companies are responding by introducing innovative solutions. For example, Loop, a platform launched by TerraCycle and partners such as Procter & Gamble, Unilever, and PepsiCo, offers customers the option to purchase products in reusable containers that can be returned for refilling.\n\nFashion is another sector where sustainable shopping is making waves. Fast fashion has long been criticized for its environmental impact, with many brands prioritizing speed and low costs over quality and sustainability. However, some companies are now adopting more responsible approaches. Patagonia, a pioneer in eco-friendly outdoor apparel, uses environmentally-friendly materials and production methods to minimize waste and carbon emissions.\n\nFood shopping is also becoming increasingly sustainable. Online grocery platforms such as Thrive Market and Instacart offer customers the option to buy in bulk and avoid single-use packaging. Some companies are even using vertical farming techniques to reduce transportation costs and carbon emissions associated with traditional agriculture.\n\nIn addition to reducing environmental impact, consumers are also demanding more from brands when it comes to social responsibility. Fair trade practices, workers' rights, and community support are all becoming key considerations for consumers. For example, a recent survey by the market research firm YouGov found that 71% of Americans believe companies have a greater responsibility to society than they do to shareholders.\n\nNot everyone agrees with this shift towards sustainable shopping and ethical consumption. Some argue that it is too expensive or impractical, while others question whether individual actions can truly make a difference. However, many experts argue that the impact of individual choices can be significant when combined with collective action.\n\nAccording to Dr. Kate Raworth, author of \"Doughnut Economics,\" even small changes in consumer behavior can have a profound effect when scaled up. \"If we can get 10% of consumers to make a few simple changes in their shopping habits, that could add up to a significant reduction in greenhouse gas emissions and other environmental impacts.\"\n\nAs the demand for sustainable shopping and ethical consumption continues to grow, it is clear that brands will need to adapt if they hope to remain relevant. Companies such as Patagonia, Seventh Generation, and REI are already leading the way by prioritizing sustainability and transparency.\n\nUltimately, this shift towards more responsible consumerism represents an opportunity for both consumers and businesses to come together in a shared effort to create positive change. By choosing sustainable shopping options and supporting brands that prioritize ethics and environmental responsibility, we can all play a role in shaping a better future for our planet.\n\nIn conclusion, the trend towards sustainable shopping and ethical consumption is here to stay, driven by growing concerns over climate change, social justice, and environmental degradation. As consumers continue to demand more from brands, it remains to be seen which companies will adapt and thrive in this new landscape.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to Dr. Kate Raworth, what effect can small changes in consumer behavior have when scaled up?",
+      "options": {
+        "A": "They can make a significant reduction in greenhouse gas emissions but not other environmental impacts.",
+        "B": "They can have a profound effect on reducing greenhouse gas emissions and other environmental impacts.",
+        "C": "They are unlikely to have any impact on the environment.",
+        "D": "They will only affect companies that prioritize sustainability."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"re-examine\" mean in the context of the text?",
+      "options": {
+        "A": "To change or alter something",
+        "B": "To look at something carefully and make changes if necessary",
+        "C": "To ignore or disregard something",
+        "D": "To add new features to a product"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a recent study by Nielsen, what percentage of global consumers believe that companies have a responsibility to society and the environment?",
+      "options": {
+        "A": "55%",
+        "B": "67%",
+        "C": "81%",
+        "D": "90%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to Dr. Kate Raworth, what is likely to happen if 10% of consumers make a few simple changes to their shopping habits?",
+      "options": {
+        "A": "It won't have any significant impact on greenhouse gas emissions",
+        "B": "Individual actions will become redundant with collective action",
+        "C": "A small change in consumer behavior can add up to a significant reduction in environmental impacts",
+        "D": "The shift towards sustainable shopping and ethical consumption is already happening too slowly"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the text about sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "Brands are increasingly prioritizing profits over social and environmental responsibility.",
+        "B": "Consumers are demanding more from brands when it comes to sustainability and social responsibility, leading to a shift towards responsible consumerism.",
+        "C": "The trend towards sustainable shopping and ethical consumption is driven by individual actions alone.",
+        "D": "Sustainable shopping and ethical consumption have no significant impact on the environment or society."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

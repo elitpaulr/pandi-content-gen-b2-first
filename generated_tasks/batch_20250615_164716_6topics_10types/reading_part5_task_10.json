@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_10",
+  "title": "Mastering Money 101: Essential Life Skills for Young Adults",
+  "topic": "general",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "As I sit here reflecting on my early twenties, I'm reminded of how clueless I was when it came to managing money. Like many young adults, I had just entered the workforce and was suddenly faced with making financial decisions that would impact my future. It wasn't until I hit rock bottom – overspending, accumulating debt, and feeling financially stressed all the time – that I realized I needed a crash course in financial literacy.\n\nFast forward to today, and I'm proud to say I've become a master of managing my finances. But it's not just about me; I want to share what I've learned with others who are just starting out on their own financial journey. As young adults, we're at a critical stage where our money habits set the foundation for the rest of our lives.\n\nSo, where do you start? For me, it all began with understanding the basics: budgeting, saving, and investing. I know what you might be thinking – \"I'm not good with numbers\" or \"this is too complicated.\" But trust me, financial literacy isn't rocket science; it's about making informed decisions that align with your values.\n\nFirst things first, let's talk about budgeting. A budget is simply a plan for how you want to allocate your money towards different expenses and savings goals. Think of it as a roadmap for your finances. Start by tracking your income and expenses using a spreadsheet or an app like Mint or Personal Capital. Identify areas where you can cut back on unnecessary spending – things like dining out too frequently, subscription services you don't use, or that expensive coffee habit.\n\nNext up, saving. I know it's hard to save when there are so many temptations to spend money on fun experiences and material goods. But here's the thing: saving is not about deprivation; it's about delayed gratification. Set a realistic savings goal – aim to put aside at least 10% of your income each month – and make it automatic by setting up direct deposits into a separate savings account.\n\nInvesting is often the scariest part for young adults, but it doesn't have to be. Investing in a diversified portfolio of stocks, bonds, or real estate can help your money grow over time. Don't worry if you don't know where to start; consider consulting with a financial advisor or using robo-advisors like Betterment or Wealthfront.\n\nAnother crucial aspect of financial literacy is understanding credit and debt. Credit cards can be a double-edged sword – they offer convenience, but also tempt us to overspend. Make sure to pay off your balance in full each month to avoid interest charges; if you're carrying debt from student loans or other sources, prioritize paying those down as quickly as possible.\n\nLastly, let's talk about the importance of building an emergency fund. Aim to save 3-6 months' worth of expenses in a separate savings account – this will help you weather financial storms like job loss, medical emergencies, or car repairs.\n\nIn conclusion, becoming financially literate takes time and effort, but it's worth it. By mastering these basics – budgeting, saving, investing, and understanding credit and debt – you'll set yourself up for long-term success. Remember, it's not about depriving yourself of life's joys; it's about making informed decisions that align with your values.\n\nIf I had to go back in time, I'd give my younger self one piece of advice: start early and be consistent. Don't wait until you've \"made it\" – financial literacy is a lifelong journey, not a destination. By taking control of your finances today, you'll be better equipped to handle life's twists and turns tomorrow.\n\nSo, take the first step towards financial freedom by educating yourself on these essential topics. Join online forums or attend workshops; read books like \"Your Money or Your Life\" or \"The Total Money Makeover\"; and surround yourself with people who share your values around money.\n\nAs I look back on my journey, I realize that becoming financially literate has given me a sense of confidence and peace of mind. It's not just about managing money; it's about living the life you want to live.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was the author's main reason for writing this article?",
+      "options": {
+        "A": "To encourage young adults to invest their money as soon as possible",
+        "B": "To share his personal experience of learning financial literacy and help others avoid similar mistakes",
+        "C": "To promote a specific financial product or service",
+        "D": "To explain how credit cards work and how to use them responsibly"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"double-edged sword\" mean in this context?",
+      "options": {
+        "A": "A situation that offers both benefits and drawbacks",
+        "B": "A financial tool with no risks or consequences",
+        "C": "A method of investing money for guaranteed returns",
+        "D": "A type of debt that is easy to pay off quickly"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of income should be saved each month, according to the author?",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What can be inferred about the author's attitude towards financial literacy?",
+      "options": {
+        "A": "The author thinks that financial literacy is too complicated for young adults.",
+        "B": "The author believes that becoming financially literate is a lifelong journey, not a destination.",
+        "C": "The author is critical of people who overspend and accumulate debt.",
+        "D": "The author thinks that financial literacy is only necessary for those who have already \"made it\"."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"it\" refer to in the sentence \"But trust me, financial literacy isn't rocket science; it's about making informed decisions that align with your values.\"?",
+      "options": {
+        "A": "Making informed decisions",
+        "B": "Financial literacy",
+        "C": "Rocket science",
+        "D": "The author's past mistakes"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text?",
+      "options": {
+        "A": "The author regrets their financial decisions in their early twenties.",
+        "B": "Financial literacy is a lifelong journey that requires effort and patience.",
+        "C": "The author provides tips on how to manage money effectively.",
+        "D": "Young adults should avoid using credit cards altogether."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

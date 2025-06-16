@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_11",
+  "title": "Master Your Money: Essential Financial Skills for Young Adults",
+  "topic": "general",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember the day I received my first paycheck like it was yesterday. I was thrilled to finally have some money in my pocket, but little did I know that managing my finances would be a whole different story. As a young adult, I struggled with understanding how to make ends meet, save for the future, and avoid debt. It wasn't until I took control of my financial education that things started to fall into place.\n\nNow, as someone who has been through the struggles and successes of financial literacy, I want to share what I've learned with others. Financial literacy is not just about knowing how to balance a checkbook or save for retirement; it's about developing healthy habits and making informed decisions that impact your entire life.\n\nOne of the most crucial aspects of financial literacy is understanding the difference between needs and wants. As a young adult, it's easy to get caught up in keeping up with the latest trends or buying the newest gadgets. But when you're living paycheck to paycheck, you quickly realize that those expenses add up fast. By prioritizing your needs over your wants, you'll be able to allocate your resources more efficiently and make progress towards your financial goals.\n\nAnother important concept is budgeting. I used to think that budgeting was restrictive, but in reality, it's liberating. When you know exactly how much money you have coming in and going out each month, you can start making intentional decisions about where your hard-earned cash goes. It's not about depriving yourself of things you enjoy; it's about being mindful of your spending habits and making sure they align with your values.\n\nOne of the most effective tools I've found for budgeting is the 50/30/20 rule. This simple formula suggests allocating 50% of your income towards necessary expenses like rent, utilities, and groceries. The next 30% should go towards discretionary spending like dining out or entertainment. And finally, 20% should be saved or invested in your future.\n\nOf course, saving is a crucial part of financial literacy. It's not just about setting aside money for retirement; it's about building an emergency fund, paying off high-interest debt, and investing in your education or career. I remember when I first started saving for college – it seemed like a daunting task, but with a solid plan and consistent effort, I was able to cover my tuition costs without taking on any student loans.\n\nAs you navigate the world of personal finance, it's essential to stay informed and adapt to changing circumstances. The job market is becoming increasingly unpredictable, and economic downturns can catch even the savviest investors off guard. That's why it's crucial to stay up-to-date with financial news, educate yourself on investing strategies, and diversify your portfolio.\n\nFinally, I want to emphasize the importance of patience and persistence when it comes to financial literacy. It takes time to develop healthy habits and make progress towards your goals. There will be setbacks along the way – unexpected expenses, job losses, or market downturns – but it's how you respond that matters. By staying committed to your values and priorities, you'll be better equipped to weather any storm.\n\nAs I reflect on my own financial journey, I'm reminded of just how far I've come. From struggling with debt and uncertainty to enjoying a sense of security and stability, it's been a wild ride. But the lessons I've learned along the way have been invaluable – lessons that I hope to pass on to others who are embarking on their own financial journeys.\n\nIn conclusion, financial literacy is not just about numbers or charts; it's about developing a mindset that values discipline, patience, and persistence. By prioritizing your needs over your wants, budgeting effectively, saving for the future, staying informed, and adapting to changing circumstances, you'll be well on your way to achieving financial freedom. So take control of your finances today – your future self will thank you!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the author, what is one of the main reasons why budgeting can feel restrictive at first?",
+      "options": {
+        "A": "Because it involves depriving oneself of things enjoyed",
+        "B": "Because it requires a lot of time and effort",
+        "C": "Because people are not used to tracking their expenses",
+        "D": "Because they do not understand the difference between needs and wants"
+      },
+      "correct_answer": "A",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "According to the text, what does it mean for budgeting to be \"liberating\"?",
+      "options": {
+        "A": "It means that budgeting allows you to spend all your money on whatever you want.",
+        "B": "It refers to the feeling of being free from financial worries and able to make intentional decisions about your spending.",
+        "C": "It implies that budgeting is a restrictive process that limits your freedom.",
+        "D": "It means that budgeting only applies to necessary expenses, not discretionary spending."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what percentage of income should be allocated towards discretionary spending?",
+      "options": {
+        "A": "40%",
+        "B": "30%",
+        "C": "50%",
+        "D": "70%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards budgeting?",
+      "options": {
+        "A": "It's a restrictive and unnecessary practice that hinders personal freedom.",
+        "B": "It's a liberating experience that allows for intentional decision-making about spending habits.",
+        "C": "It's a complex task that requires advanced mathematical skills.",
+        "D": "It's only necessary for those with high incomes."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who or what did the writer \"struggle with understanding how to make ends meet\"?",
+      "options": {
+        "A": "Their parents",
+        "B": "Financial literacy",
+        "C": "Managing their finances would be a whole different story",
+        "D": "The job market"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about financial literacy?",
+      "options": {
+        "A": "The author shares their own personal struggles with debt and how they overcame them.",
+        "B": "Financial literacy is essential for young adults to make informed decisions that impact their entire lives.",
+        "C": "The 50/30/20 rule is a simple formula for achieving financial freedom.",
+        "D": "Budgeting is restrictive and can limit one's spending habits."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

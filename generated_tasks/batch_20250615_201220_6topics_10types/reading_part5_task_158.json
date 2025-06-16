@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_158",
+  "title": "Remote Work Revolution: How WFH Affects Your Wallet",
+  "topic": "business_and_work",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her coffee, Emily stared out the window, lost in thought. It was just another typical Monday morning for her - no commute, no office politics, just a quiet day at home with her laptop. She had been working remotely for over two years now, and it had changed her life in ways she never thought possible.\n\nEmily's company, a software development firm, had made the switch to remote work five years ago. The decision was made after the CEO realized that hiring top talent from all over the world wasn't just about offering competitive salaries - it was also about providing flexibility and work-life balance. Emily was one of those hires, a skilled developer from Australia who moved to the US with her family.\n\n\"I remember when I first started,\" Emily said, recalling the conversation she had with her manager at the time. \"He told me that our company valued flexibility above all else. He said we could work from anywhere, as long as we met deadlines and communicated effectively.\" She smiled, remembering the sense of freedom that came with it.\n\nBut as Emily's career progressed, she began to realize the economic impact of remote work on her community, her country, and the world at large. With people like her working from home, local economies were transforming in ways both big and small. For one, the reduced need for office space meant a decrease in commercial rent costs. Property owners who once relied on high-rent leases now had to adapt to a new reality.\n\n\"It's not just about the money,\" Emily said, as she opened her laptop and began typing away. \"It's about creating opportunities for people like me, who wouldn't have been able to live in these cities without remote work.\" She typed furiously for a few minutes before pausing to scroll through social media.\n\nAs she scrolled, Emily came across an article discussing the economic benefits of remote work on the environment. With fewer commutes and less travel, carbon emissions were decreasing at an alarming rate - a staggering 20% in some countries. It wasn't just about reducing pollution; it was also about preserving natural resources.\n\n\"Remote work is not just a perk,\" Emily's manager, Rachel, said when she called to discuss the latest quarterly numbers. \"It's a game-changer.\" As they chatted, Rachel explained how the company had seen a 30% increase in productivity since switching to remote. With no office distractions and more flexibility, employees were able to focus on their work like never before.\n\nAs Emily continued typing away, she thought about her own productivity levels - which had skyrocketed since making the switch to remote work. No longer did she have to worry about rush-hour traffic or fighting for a parking spot. She could work in her pajamas if she wanted to, and no one would bat an eyelid.\n\nBut there were challenges too. With great flexibility came great responsibility, and Emily often found herself working longer hours than when she was in the office. The blurred lines between work and personal life had become a real issue for many remote workers like her.\n\nAs she packed up her laptop and headed to the kitchen to make lunch, Emily couldn't help but wonder about the future of remote work. Would it continue to revolutionize the way we live and work? And what would be its ultimate economic impact on society?\n\nOne thing was certain - with or without remote work, people like Emily were redefining what it meant to be a productive member of society. They were changing the game, one flexible hour at a time.\n\nAs she sat down to eat her lunch, Emily scrolled through her phone and came across an article about a new startup that allowed workers to swap their commutes for travel experiences around the world. It was another example of how remote work was transforming not just the economy, but also people's lives.\n\nAnd as she finished her meal and settled back into her laptop, Emily knew that she was part of something much bigger than herself - a revolution that would change the face of work forever.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to local economies with a high number of people working remotely?",
+      "options": {
+        "A": "They will experience significant economic growth and development",
+        "B": "They will struggle to adapt to reduced commercial rent costs",
+        "C": "They will see an increase in property prices due to the demand for office space",
+        "D": "They will be forced to lay off workers due to decreased productivity"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"blurred lines\" mean in this context?",
+      "options": {
+        "A": "Distinct boundaries between two things",
+        "B": "Clear differences between two things",
+        "C": "Confused or unclear distinctions between two things",
+        "D": "Separate and distinct categories of something"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How much did carbon emissions decrease in some countries due to remote work?",
+      "options": {
+        "A": "10%",
+        "B": "15%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Emily's attitude towards the economic impact of remote work on local economies?",
+      "options": {
+        "A": "She believes it has had a devastating effect, leading to widespread job losses.",
+        "B": "She thinks it has brought about significant benefits, including reduced commercial rent costs and increased opportunities for people like her.",
+        "C": "She is neutral about its effects, feeling that they are not significant enough to make a difference.",
+        "D": "She worries that it will lead to a decline in local businesses and services."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who said \"Remote work is not just a perk, it's a game-changer\"?",
+      "options": {
+        "A": "Emily",
+        "B": "Rachel",
+        "C": "The CEO",
+        "D": "A person mentioned in an article on social media"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about remote work?",
+      "options": {
+        "A": "Remote work has negative economic and environmental impacts.",
+        "B": "The shift to remote work has transformed local economies, reducing commercial rent costs and creating new opportunities for people.",
+        "C": "Remote workers are less productive than office-based workers.",
+        "D": "Remote work is a temporary solution to the need for flexibility in the workplace."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

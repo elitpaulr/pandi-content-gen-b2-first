@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_65",
+  "title": "5 Side Hustles That Can Turn Your Dreams into Cash Overnight!",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**The Rise of Side Hustles and Passive Income: How to Diversify Your Finances**\n\nIn today's economy, having a steady job is no longer enough to secure one's financial future. With the cost of living on the rise and wages stagnant, many people are turning to side hustles and passive income streams to supplement their earnings. But what exactly are these terms, and how can you get in on the action?\n\nA side hustle, also known as a part-time business or freelancing, is any venture that earns extra money outside of your primary job. It could be anything from dog walking or tutoring to selling handmade crafts online or driving for a ride-sharing service. The key is to find something that aligns with your skills and interests, so you can enjoy the work while earning some extra cash.\n\nPassive income, on the other hand, refers to earnings that require little to no active involvement once set up. This could include renting out a spare room on Airbnb, investing in dividend-paying stocks or real estate investment trusts (REITs), or creating and selling digital products like ebooks or courses.\n\nThe benefits of side hustles and passive income are numerous. For one, they can provide a financial safety net in case of job loss or economic downturn. They also offer an opportunity to pursue your passions and interests outside of your primary career, leading to greater fulfillment and satisfaction.\n\nBut perhaps the most compelling reason to explore side hustles and passive income is the potential for long-term wealth creation. By diversifying your earnings streams and investing wisely, you can build a nest egg that will serve you well into retirement or even generations ahead.\n\nSo how do you get started? Here are some practical tips:\n\n1. **Identify your strengths**: What are you good at? What skills have you developed over the years? Use these to inform your side hustle choices.\n2. **Research popular options**: Look into online marketplaces like Upwork, Fiverr, or Freelancer for freelance work. Research local gig economy opportunities like Uber or TaskRabbit.\n3. **Start small**: Don't try to tackle too much at once. Begin with a small side hustle and gradually scale up as you gain momentum.\n4. **Invest wisely**: If you're interested in passive income, consider consulting with a financial advisor to determine the best investment strategies for your situation.\n\nSome inspiring examples of successful side hustlers and passive income earners include:\n\n* **Blogger and author Michelle Schroeder-Gardner**, who earns over $100,000 per month from her website Making Sense of Cents.\n* **YouTuber and entrepreneur Marques Brownlee**, who has built a lucrative career creating tech reviews and tutorials.\n* **Real estate investor Grant Cardone**, who has made millions through savvy property investments.\n\nWhile side hustles and passive income streams offer many benefits, they also come with some potential drawbacks. For example:\n\n* **Time commitment**: Side hustles can require significant time and effort to set up and maintain.\n* **Financial risks**: Investing in passive income streams carries inherent risks, such as market fluctuations or unexpected expenses.\n\nUltimately, whether you choose to pursue a side hustle or invest in passive income depends on your individual circumstances and goals. With careful planning and execution, however, these strategies can provide a solid foundation for financial stability and long-term prosperity.\n\nAs the old adage goes: \"Don't put all your eggs in one basket.\" Diversify your finances with a combination of side hustles and passive income streams, and watch your wealth grow over time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude towards financial stability?",
+      "options": {
+        "A": "They believe it is impossible to achieve without multiple sources of income.",
+        "B": "They think that having a steady job is enough to secure one's financial future.",
+        "C": "They recommend diversifying finances with a combination of side hustles and passive income streams.",
+        "D": "They advise against investing in the stock market."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for earnings to require little to no active involvement once set up?",
+      "options": {
+        "A": "They need to be actively managed on a daily basis",
+        "B": "They can only be earned during specific hours of the day",
+        "C": "They generate money with minimal effort or upkeep required",
+        "D": "They are only available to people under 30 years old"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is an example of a digital product that can be created to generate passive income?",
+      "options": {
+        "A": "Selling handmade crafts online",
+        "B": "Renting out a spare room on Airbnb",
+        "C": "Creating and selling ebooks or courses",
+        "D": "Investing in dividend-paying stocks"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards people who rely solely on their primary job for financial security?",
+      "options": {
+        "A": "They are portrayed as irresponsible.",
+        "B": "They are seen as being unable to adapt to changing economic circumstances.",
+        "C": "The author seems sympathetic and understanding of their situation.",
+        "D": "They are described as being lazy."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about side hustles and passive income?",
+      "options": {
+        "A": "The benefits of having only one steady job.",
+        "B": "How to use side hustles and passive income to secure a better financial future.",
+        "C": "Why investing in stocks is the best way to earn extra money.",
+        "D": "The importance of having no job at all."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_52",
+  "title": "Ditch Fast Fashion: How to Wear Your Values on Your Sleeve",
+  "topic": "technology",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "Sustainable Fashion Takes Center Stage as Consumers Demand Change\n\nIn recent years, the concept of sustainability has become increasingly important in various aspects of our lives, including fashion. The industry's environmental impact has been a topic of discussion among experts, consumers, and policymakers alike. As the world grapples with climate change, pollution, and waste management issues, the need for sustainable fashion has never been more pressing.\n\nFast fashion, which emerged as a trend in the 1990s, has been criticized for its detrimental effects on the environment and society. The rapid production and consumption of cheap clothing have led to an estimated 12% of global greenhouse gas emissions being attributed to the fashion industry. Moreover, the industry's reliance on non-renewable resources such as cotton, polyester, and nylon contributes significantly to pollution.\n\nHowever, there is a growing movement towards sustainable fashion, driven by consumers who are increasingly aware of the environmental and social implications of their purchasing decisions. According to a recent survey, 75% of Gen Z consumers consider sustainability when making clothing purchases, while 60% of millennials prioritize eco-friendly options.\n\nOne key aspect of sustainable fashion is the concept of circularity. This approach involves designing garments that can be easily repaired, recycled, or repurposed at the end of their life cycle. Brands such as Patagonia and Reformation are leading the way in this regard, incorporating recycled materials into their collections and implementing take-back programs to encourage customers to return old items.\n\nAnother important trend is the rise of second-hand shopping. Online platforms such as ThredUp and The RealReal have made it easier for consumers to access pre-owned clothing, reducing the demand for new, resource-intensive garments. Additionally, many high-end brands are now offering pre-owned or refurbished products through their own websites.\n\nConsumers are also driving change by adopting more mindful consumption habits. Some are embracing the idea of buying fewer, higher-quality items that can be worn and loved for years to come. This shift towards a slower fashion pace is reflected in the growing popularity of capsule wardrobes and minimalist styling.\n\nWhile progress is being made, there is still much work to be done. The industry's reliance on synthetic materials and non-sustainable production methods remains a significant challenge. Moreover, concerns around labor practices and supply chain transparency continue to plague the sector.\n\nIn response to these issues, some governments are implementing policies aimed at promoting sustainability in fashion. For example, France has introduced a law requiring brands to collect and recycle 15% of their packaging waste by 2025. Similarly, the European Union is working towards a comprehensive strategy for sustainable textiles.\n\nBrands, too, are taking steps to address these challenges. Many are incorporating eco-friendly materials into their collections, using renewable energy sources in production, or implementing recycling programs.\n\nAs consumers become more aware of the environmental and social implications of fashion, they are demanding change from brands and policymakers alike. By embracing sustainable practices and adopting mindful consumption habits, we can work towards a more responsible fashion industry that prioritizes the well-being of both people and planet.\n\nIn conclusion, while there is still much to be done, the movement towards sustainable fashion is gaining momentum. As consumers become increasingly aware of their impact on the environment, brands are responding with innovative solutions and policies aimed at reducing waste and promoting sustainability. The future of fashion looks bright, but it will require a collective effort from all stakeholders – consumers, brands, policymakers – to make it happen.\n\nWith the rise of sustainable fashion, we have the opportunity to transform an industry that has long been criticized for its environmental and social impact. By choosing second-hand shopping over fast fashion, buying fewer, higher-quality items, and demanding transparency from brands, consumers can play a vital role in shaping a more responsible fashion industry.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what percentage of Gen Z consumers consider sustainability when making clothing purchases?",
+      "options": {
+        "A": "40%",
+        "B": "60%",
+        "C": "75%",
+        "D": "85%"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word \"mindful\" mean in the context of consumer habits?",
+      "options": {
+        "A": "Thoughtless",
+        "B": "Carefully considered",
+        "C": "Excessive and wasteful",
+        "D": "Unaware of environmental impacts"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of global greenhouse gas emissions is attributed to the fashion industry?",
+      "options": {
+        "A": "10%",
+        "B": "12%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the phrase \"the growing movement towards sustainable fashion\" refer to in the text?",
+      "options": {
+        "A": "The increasing popularity of fast fashion",
+        "B": "The rising awareness among consumers about environmental and social implications of their purchasing decisions",
+        "C": "The growth of online platforms selling new clothing",
+        "D": "The decrease in demand for second-hand shopping"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about sustainable fashion?",
+      "options": {
+        "A": "The fashion industry's reliance on synthetic materials is the biggest challenge to sustainability.",
+        "B": "Consumers are driving change towards sustainable fashion by adopting mindful consumption habits and demanding transparency from brands.",
+        "C": "Fast fashion has been completely eliminated in response to concerns over its environmental impact.",
+        "D": "Sustainable fashion is only a trend that will fade away soon."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

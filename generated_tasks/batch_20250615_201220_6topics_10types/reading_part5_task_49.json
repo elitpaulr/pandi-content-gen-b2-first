@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_49",
+  "title": "The Sustainable Shopper's Guide to Ethical Consumption in the Digital Age",
+  "topic": "technology",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "The Shift towards Sustainable Shopping: A New Era of Ethical Consumption\n\nAs consumers become increasingly aware of the environmental and social impact of their purchasing decisions, a seismic shift is taking place in the retail industry. Gone are the days of mindless consumption; today's shoppers are demanding more from the products they buy, and the companies that sell them. Sustainable shopping and ethical consumption are no longer niche concerns, but mainstream priorities.\n\nAt the forefront of this movement are younger generations, who are driving demand for transparency, accountability, and sustainability in business practices. According to a recent survey by the Natural Marketing Institute, 75% of millennials and Gen Z consumers consider sustainability when making purchasing decisions. This demographic is not only more environmentally conscious than previous generations but also more willing to pay a premium for products that align with their values.\n\nSo, what does sustainable shopping look like in practice? For many consumers, it begins with a closer examination of the product's life cycle – from raw materials to end-of-life disposal. This involves considering factors such as production methods, packaging, and waste management. Brands are responding by adopting circular business models that prioritize reuse, recycling, and biodegradability.\n\nTake Patagonia, for example, which has long been a pioneer in sustainable fashion. The company's supply chain is transparent, with detailed information on the environmental and social impact of each product available online. Patagonia also encourages customers to repair, repurpose, or recycle its products through its Worn Wear program.\n\nEthical consumption, meanwhile, involves considering the human cost of production. This includes issues such as fair labor practices, safe working conditions, and living wages for workers. Brands like People Tree and Thought are leading the way in this area by using sustainable materials, ensuring fair prices for artisans, and promoting community development programs.\n\nAnother key aspect of sustainable shopping is the rise of second-hand consumption. Online marketplaces like ThredUp and The RealReal are democratizing access to pre-owned fashion, while platforms like Depop and eBay are connecting consumers with a global network of sellers. This shift towards sharing and reuse is not only reducing waste but also promoting diversity and individuality in fashion.\n\nHowever, sustainable shopping still has its challenges. For one, the majority of companies have yet to transition to more environmentally friendly practices. According to a report by CDP (Carbon Disclosure Project), over 70% of global greenhouse gas emissions are linked to consumer goods. Moreover, the production of new materials and packaging continues to contribute significantly to waste and pollution.\n\nTo address these issues, governments and industry leaders must work together to create policies and incentives that support sustainable business practices. This includes implementing extended producer responsibility for waste management, investing in circular economy innovation, and promoting transparency through labeling schemes like the Global Organic Textile Standard (GOTS).\n\nUltimately, sustainable shopping and ethical consumption are not just about individual choices; they require a fundamental transformation of the retail industry itself. As consumers, we must continue to demand more from brands – greater transparency, accountability, and commitment to sustainability. By doing so, we can create a future where commerce is no longer at odds with the environment or society.\n\nAs the retail landscape continues to evolve, one thing is clear: sustainable shopping is here to stay. It's time for businesses to adapt and lead the way in this new era of responsible consumption.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, which demographic is most likely to consider sustainability when making purchasing decisions?",
+      "options": {
+        "A": "Baby Boomers",
+        "B": "Millennials and Gen Z consumers",
+        "C": "Generation X",
+        "D": "Older adults"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"mindless consumption\" mean in the context of the text?",
+      "options": {
+        "A": "The tendency to buy more products than necessary",
+        "B": "A lack of awareness about the environmental and social impact of purchasing decisions",
+        "C": "The practice of buying only second-hand or pre-owned goods",
+        "D": "A desire for greater transparency and accountability from companies"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a recent survey by the Natural Marketing Institute, what percentage of millennials and Gen Z consumers consider sustainability when making purchasing decisions?",
+      "options": {
+        "A": "50%",
+        "B": "60%",
+        "C": "75%",
+        "D": "90%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the role of younger generations in driving demand for sustainability?",
+      "options": {
+        "A": "The author is critical of their lack of awareness about environmental issues.",
+        "B": "The author believes they are making a significant positive impact on the retail industry.",
+        "C": "The author sees them as a necessary step, but also a potential threat to traditional business models.",
+        "D": "The author thinks they are not making enough progress in adopting sustainable practices."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "According to a recent survey by the Natural Marketing Institute, what percentage of millennials and Gen Z consumers consider sustainability when making purchasing decisions?",
+      "options": {
+        "A": "25%",
+        "B": "50%",
+        "C": "75%",
+        "D": "90%"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this text about sustainable shopping?",
+      "options": {
+        "A": "To inform readers about the environmental impact of consumer choices",
+        "B": "To discuss the challenges facing the retail industry in adopting sustainable practices",
+        "C": "To outline a new era of responsible consumption and its implications for businesses and consumers",
+        "D": "To persuade readers to boycott companies that do not prioritize sustainability"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

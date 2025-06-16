@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_130",
+  "title": "Surviving on a Shoestring: Budget Hacks for Digital Nomad Life",
+  "topic": "technology",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "As I sit here in my favorite coffee shop in Chiang Mai, sipping on a strong cappuccino and reflecting on the past few months of traveling as a digital nomad, I realize just how much of a rollercoaster ride it's been financially. The freedom to work from anywhere is a dream come true for many, but without a solid budgeting plan in place, it can quickly turn into a nightmare.\n\nWhen I first started out on this journey, I thought that having a laptop and an internet connection was all I needed to live the digital nomad lifestyle. Boy, was I wrong! Between finding affordable accommodations, navigating unfamiliar markets for food and supplies, and keeping up with local customs, it's easy to get caught off guard by unexpected expenses.\n\nOne of my biggest mistakes was underestimating the cost of living in foreign countries. In Southeast Asia, where many digital nomads flock, the cost of accommodation can range from $10-30 per night for a hostel or Airbnb, depending on location and amenities. Food is also relatively cheap, with meals starting at just $3-5, but it's easy to get carried away with trying new restaurants and cafes, only to find myself breaking the bank.\n\nTo avoid financial stress, I've had to become much more intentional about my spending habits. I use a budgeting app called Mint to track every single transaction, no matter how small, and categorize them into different areas (housing, food, transportation, etc.). This way, I can see exactly where my money is going and make adjustments as needed.\n\nOne of the biggest surprises for me was the cost of healthcare abroad. In many countries, medical facilities are top-notch and affordable, but in others, the quality can be hit-or-miss. When I landed in Colombia with a nasty case of food poisoning, I quickly learned that investing in health insurance is essential for digital nomads.\n\nI also have to admit that I've been guilty of over-spending on \"treats\" like scuba diving trips and weekend getaways. While these experiences are totally worth it, they can add up quickly and blow a hole in my budget. To combat this, I've started setting aside a small portion of each month's income for discretionary spending – essentially, a digital nomad version of an emergency fund.\n\nAnother important consideration is taxes. As a digital nomad, you're likely considered a resident of the country where you earn your income (or at least, that's what the tax authorities will tell you!). Researching and understanding local tax laws can be daunting, but trust me, it's worth it to avoid any unexpected bills down the line.\n\nOf course, budgeting is just one aspect of being a digital nomad. The freedom to work from anywhere also means embracing uncertainty and flexibility – whether that means adjusting your schedule to accommodate visa requirements or taking on short-term gigs to make ends meet.\n\nIn the end, becoming a successful digital nomad requires more than just a laptop and an internet connection; it demands discipline, resourcefulness, and a willingness to adapt. By being mindful of my finances and staying organized, I've been able to enjoy this incredible lifestyle while minimizing financial stress.\n\nAs I finish up this post and continue sipping on my cappuccino, I'm reminded that budgeting as a digital nomad is an ongoing process – one that requires constant attention, creativity, and humor. Whether you're just starting out or have been on the road for years, remember: it's okay to make mistakes; what matters most is learning from them and staying true to your values along the way.\n\nI'd love to hear from fellow digital nomads: how do you budget for life on the move? What tips and tricks can you share with us? Let me know in the comments below!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "The writer mentions that they had a \"nasty case of food poisoning\" in Colombia, which prompted them to invest in health insurance. This implies that their previous experience with healthcare abroad was",
+      "options": {
+        "A": "Very expensive and high-quality",
+        "B": "Inadequate and unreliable",
+        "C": "Generally good but occasionally poor",
+        "D": "Not relevant to their decision to get health insurance"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "According to the text, what does it mean to \"keep up with local customs\"?",
+      "options": {
+        "A": "To be aware of and follow the financial regulations in a foreign country",
+        "B": "To be mindful of the local way of life and its impact on one's daily routines",
+        "C": "To understand and adapt to the language spoken in a foreign country",
+        "D": "To research and comply with visa requirements"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How much does accommodation cost per night in Southeast Asia, according to the text?",
+      "options": {
+        "A": "$5-10",
+        "B": "$10-30",
+        "C": "$20-50",
+        "D": "$50-100"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think is a major challenge of being a digital nomad financially?",
+      "options": {
+        "A": "Having too much money saved up before traveling",
+        "B": "Failing to budget and track expenses carefully",
+        "C": "Being able to live on cheap food and accommodation forever",
+        "D": "Not earning enough income from remote work"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who does the writer use a budgeting app called Mint to track every single transaction?",
+      "options": {
+        "A": "A fellow digital nomad who is also using the app",
+        "B": "The writer's friend, who lives in Chiang Mai",
+        "C": "The writer themselves",
+        "D": "A financial advisor who specializes in international taxation"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about being a digital nomad?",
+      "options": {
+        "A": "The author regrets their decision to become a digital nomad.",
+        "B": "Budgeting and financial planning are essential for successful digital nomads.",
+        "C": "Digital nomads should avoid using budgeting apps and instead rely on intuition.",
+        "D": "Being a digital nomad is only suitable for people with a lot of money."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

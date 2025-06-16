@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_30",
+  "title": "Team Sports or Solo Stars? The Battle of Social and Solo Pursuits",
+  "topic": "general",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "**The Great Divide: Team Sports vs Individual Activities**\n\nWhen it comes to physical education and extracurricular activities, students are often faced with a choice between participating in team sports or pursuing individual activities. While both options have their benefits, they cater to different learning styles and personalities. In this article, we will delve into the advantages of each type and explore how they can contribute to a well-rounded educational experience.\n\n**The Joy of Team Sports**\n\nTeam sports are an integral part of many school curricula around the world. They promote teamwork, communication, and social skills among participants. When students engage in team sports, they learn valuable life lessons such as cooperation, discipline, and strategy. For instance, playing on a soccer team requires not only physical fitness but also coordination with teammates to achieve victory.\n\nTeam sports also foster a sense of belonging and camaraderie among players. Being part of a team encourages students to work together towards a common goal, which can lead to strong friendships and lasting memories. Moreover, participating in team sports can help build confidence and self-esteem as students learn to rely on one another's strengths and weaknesses.\n\n**The Benefits of Individual Activities**\n\nOn the other hand, individual activities such as tennis, swimming, or dance provide an alternative for those who prefer a more solitary pursuit. These activities allow participants to focus on their own improvement and progress at their own pace. Students can develop self-reliance, discipline, and perseverance through individual activities.\n\nIndividual activities also offer students the opportunity to explore different interests and passions without being influenced by team dynamics. For example, a student who excels in swimming may find it easier to dedicate time to practice and improve without the pressures of teamwork. Additionally, individual activities can be adapted to accommodate varying fitness levels and abilities, making them more inclusive for students with special needs.\n\n**Comparing Team Sports and Individual Activities**\n\nWhile both team sports and individual activities have their merits, they cater to distinct learning styles and preferences. Research suggests that team sports tend to benefit students who are outgoing, competitive, and enjoy working in a group setting. On the other hand, individual activities suit those who prefer a more independent approach, value self-improvement, and can focus on their own goals.\n\nIt's essential for schools to offer a diverse range of both team sports and individual activities to cater to different student needs. This ensures that students have choices that align with their interests, abilities, and learning styles. Moreover, providing opportunities for students to participate in various physical education programs can help develop a lifelong commitment to physical activity.\n\n**Conclusion**\n\nThe debate between team sports and individual activities is not necessarily a zero-sum game. Both types of physical education offer unique benefits and advantages that can contribute to a well-rounded educational experience. By recognizing the value of each, schools can create a more inclusive and diverse environment that caters to different student needs. Whether students prefer the camaraderie of team sports or the independence of individual activities, they will undoubtedly develop essential life skills that extend far beyond the playing field.\n\nIn conclusion, understanding the differences between team sports and individual activities is crucial for educators seeking to create a balanced physical education program. By acknowledging the strengths of both types and providing opportunities for students to engage in various activities, schools can help foster a lifelong love of physical activity and promote overall well-being.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the article, which type of student tends to benefit more from individual activities?",
+      "options": {
+        "A": "Students who are outgoing, competitive, and enjoy working in a group setting",
+        "B": "Students who prefer a more independent approach, value self-improvement, and can focus on their own goals",
+        "C": "Students with special needs who require adapted physical education programs",
+        "D": "Students who excel in team sports but struggle with individual activities"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"solitary pursuit\" mean in this context?",
+      "options": {
+        "A": "A type of sport that requires a lot of teamwork",
+        "B": "An activity that is done alone, without other people's help or influence",
+        "C": "A physical education class that takes place outdoors",
+        "D": "A way to improve skills and progress at one's own speed"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what is required when playing on a soccer team?",
+      "options": {
+        "A": "Only physical fitness",
+        "B": "Coordination with teammates",
+        "C": "Physical fitness but no communication with teammates",
+        "D": "No teamwork or strategy"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the article, what is the author's attitude towards students who prefer individual activities?",
+      "options": {
+        "A": "They are portrayed as being lazy and lacking motivation.",
+        "B": "They value self-improvement and independence.",
+        "C": "They are not suited for a team sport environment.",
+        "D": "They are only interested in winning competitions."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who do playing on a soccer team require students to coordinate with?",
+      "options": {
+        "A": "Themselves only",
+        "B": "Their coach",
+        "C": "Their teammates",
+        "D": "The school principal"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about team sports vs individual activities?",
+      "options": {
+        "A": "Schools should prioritize one type of physical education over the other to save resources.",
+        "B": "Team sports and individual activities have different benefits that cater to distinct learning styles and preferences.",
+        "C": "Participating in team sports leads to better academic performance than engaging in individual activities.",
+        "D": "Individual activities are more physically demanding than team sports."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

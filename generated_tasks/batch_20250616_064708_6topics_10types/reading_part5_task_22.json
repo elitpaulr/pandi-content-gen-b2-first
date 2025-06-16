@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_22",
+  "title": "Teamwork or Solo Success: Which Sports Style Reigns Supreme?",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "Team Sports vs Individual Activities: What's Best for You?\n\nWhen it comes to staying active and having fun, many of us are faced with a choice between team sports and individual activities. While both options have their benefits, they cater to different personalities and needs. In this article, we'll explore the advantages and disadvantages of each option, helping you decide what's best for you.\n\nTeam Sports: Building Stronger Bonds\n\nParticipating in team sports is an excellent way to meet new people and build lasting relationships. Whether it's joining a local soccer league or participating in a corporate basketball tournament, team sports promote camaraderie and teamwork. Players learn to rely on each other, communicate effectively, and trust one another's strengths and weaknesses.\n\nTake the example of Jennifer, a 25-year-old marketing specialist who joined a recreational softball league last year. She was hesitant at first, but soon found herself enjoying the social aspect of the game. \"I met some amazing people through the team,\" she says. \"We'd grab drinks after games and talk about our lives outside of work.\" Jennifer's experience is not unique; many participants in team sports report improved mental health and a sense of belonging.\n\nHowever, team sports also have their drawbacks. For one, they require a significant time commitment, which can be challenging for those with busy schedules. Additionally, the pressure to perform can be intense, leading to stress and anxiety. Michael, a 30-year-old lawyer who played on a local rugby team, recalls the frustration he felt when his team lost a crucial match. \"I was so disappointed that I ended up missing practice the next week,\" he admits.\n\nIndividual Activities: Freedom and Flexibility\n\nOn the other hand, individual activities offer a more relaxed and flexible approach to exercise. Whether it's jogging, yoga, or swimming, solo pursuits allow individuals to set their own pace and schedule. This autonomy can be particularly appealing to those who prefer alone time or have limited availability.\n\nFor instance, Sarah, a 28-year-old freelance writer, prefers to run in the morning before starting her workday. \"I love being able to go at my own pace and enjoy the quiet time,\" she says. Individual activities also allow individuals to focus on their personal goals, whether it's improving endurance or mastering a new skill.\n\nHowever, individual activities can be isolating, particularly for those who thrive in social environments. Without teammates to motivate and support them, individuals may struggle with consistency and motivation. Emily, a 22-year-old student who tried solo weightlifting, found herself losing interest after a few weeks. \"I missed the camaraderie of being on a team,\" she says.\n\nThe Verdict: What's Best for You?\n\nSo, which option is best? Ultimately, it comes down to personal preference and lifestyle. If you enjoy socializing, value teamwork, and can commit to regular practice sessions, team sports may be the way to go. However, if you prefer a more relaxed pace, need flexibility in your schedule, or thrive in solo environments, individual activities are an excellent choice.\n\nIt's worth noting that many gyms and studios now offer group classes, which combine the benefits of team sports with the freedom of individual activities. These classes allow individuals to work out together while still maintaining their independence.\n\nIn conclusion, both team sports and individual activities have their advantages and disadvantages. By understanding your needs and preferences, you can make an informed decision about what's best for you. Whether you're a social butterfly or a solo enthusiast, there's no denying the importance of regular exercise in maintaining physical and mental well-being. So, get moving – and find the perfect fit!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Emily from her experience with solo weightlifting?",
+      "options": {
+        "A": "She found it to be a highly effective way to improve her physique",
+        "B": "She struggled with consistency and motivation because she missed the camaraderie of being on a team",
+        "C": "She was disappointed by the lack of variety in the weightlifting routine",
+        "D": "She prefers to work out at home rather than in a gym"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"camaraderie\" mean in this text?",
+      "options": {
+        "A": "A feeling of rivalry with others",
+        "B": "The ability to work independently without support from teammates",
+        "C": "A sense of friendship and companionship, especially among team members",
+        "D": "A need for a lot of free time to participate in sports"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many people does Jennifer say she met through her recreational softball league?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "20"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the author, what is one major drawback of team sports?",
+      "options": {
+        "A": "They promote social anxiety among players.",
+        "B": "They require a significant time commitment, which can be challenging for those with busy schedules.",
+        "C": "They only cater to individuals who are highly competitive.",
+        "D": "They have no negative effects on mental health."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who did Jennifer meet through her recreational softball league?",
+      "options": {
+        "A": "A lawyer who played on a local rugby team",
+        "B": "Some amazing people from her marketing company",
+        "C": "A freelance writer she met at a running group",
+        "D": "Players from other teams in the local soccer league"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about team sports and individual activities?",
+      "options": {
+        "A": "To convince readers to try both team sports and individual activities",
+        "B": "To help readers decide which option suits their personality and lifestyle best",
+        "C": "To compare the benefits and drawbacks of team sports versus video games",
+        "D": "To promote a specific sport or activity as the best choice for everyone"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

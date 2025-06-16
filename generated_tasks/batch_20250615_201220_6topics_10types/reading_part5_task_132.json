@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_132",
+  "title": "Living Abroad Without Breaking the Bank as a Digital Nomad",
+  "topic": "technology",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember my first months as a digital nomad. The excitement of exploring new places, the thrill of working from anywhere, and the freedom to live life on my own terms. But with that came a steep learning curve – managing finances in a foreign country where I didn't speak the language or know the customs.\n\nAt first, it was chaos. I'd splurge on fancy coffee shops, book overpriced Airbnb apartments, and spend hours browsing online stores back home. My bank account would cry out for mercy as my expenses far exceeded my income. It wasn't until I stumbled upon some wise advice from fellow digital nomads that I began to get a handle on budgeting.\n\nThe first rule of thumb is to track every single expense. Yes, you read that right – every single one. From the price of a coconut water at the local market to the cost of a $10 Uber ride, it all adds up. I started using an app called Mint that connected my bank accounts and credit cards, allowing me to see where my money was going in real-time.\n\nOne of the biggest surprises for me was just how much money I was wasting on transportation. As a digital nomad, you'd think I'd be used to walking or taking public transport, but often it's more convenient (and cheaper) to take taxis or ride-sharing services. To combat this, I started using public transport whenever possible and even began learning the local language to negotiate prices with drivers.\n\nAnother crucial aspect of budgeting as a digital nomad is understanding exchange rates. When you're constantly moving between countries, it's easy to get caught up in the excitement of trying new things without considering the cost. A $10 coffee in Thailand might seem like a bargain compared to back home, but when converted to your home currency, it suddenly becomes more expensive than expected.\n\nOne strategy that helped me was setting aside a portion of my income for each country I visited. This way, I had a cushion for unexpected expenses and could still enjoy the local cuisine without breaking the bank. For example, in Bali, I allocated 10% of my income specifically for food – it ended up being more than enough to try all the delicious street food and restaurants I wanted.\n\nOf course, budgeting as a digital nomad also requires flexibility. Plans often change, and you need to be prepared for unexpected expenses or lost income due to visa issues or health problems. That's why I started building an emergency fund – three months' worth of living expenses saved up in case something goes wrong.\n\nOne final tip that's helped me is to consider the costs of living in different countries. While it might seem like a good idea to split my time between, say, Thailand and Vietnam, the cost of living can vary significantly between these two countries. In some cases, it might be more affordable to stay put for a few months rather than constantly moving.\n\nBudgeting as a digital nomad is not about depriving yourself of experiences or luxuries – it's about being mindful of your finances so you can enjoy life without worrying about money. By tracking expenses, understanding exchange rates, and setting aside funds for each country, I've been able to live comfortably on my own terms while still exploring the world.\n\nIt's funny how something as mundane as budgeting can be a game-changer for digital nomads like myself. With a little planning and awareness, we can enjoy the freedom of working from anywhere without sacrificing our financial stability. So if you're just starting out or looking to revamp your budgeting strategy, remember – it's not about cutting costs, but about living life on purpose.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was the author's biggest surprise when it came to managing their expenses as a digital nomad?",
+      "options": {
+        "A": "They were surprised by how much money they spent on accommodation.",
+        "B": "They were surprised by how much money they wasted on transportation.",
+        "C": "They were surprised by how difficult it was to access foreign bank accounts.",
+        "D": "They were surprised by how expensive local food was."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"steep learning curve\" mean in this context?",
+      "options": {
+        "A": "A sudden and significant increase in expenses",
+        "B": "A rapid improvement in budgeting skills",
+        "C": "The difficulty of adapting to new financial situations",
+        "D": "A reduction in income due to visa issues"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of his income did the writer allocate for food while staying in Bali?",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the author, what is the main reason for tracking every single expense as a digital nomad?",
+      "options": {
+        "A": "To avoid wasting money on transportation",
+        "B": "To understand exchange rates and adjust spending accordingly",
+        "C": "Because it's a way of being mindful of finances so you can enjoy life without worrying about money",
+        "D": "So that you can keep up with the cost of living in different countries"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Which of the following expenses did the author track using the app Mint?",
+      "options": {
+        "A": "The cost of a local language course",
+        "B": "Every single expense, from coconut water to $10 Uber rides",
+        "C": "Only transportation costs and food expenses",
+        "D": "The exchange rate between countries"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about budgeting for digital nomads?",
+      "options": {
+        "A": "It describes various ways to save money as a digital nomad.",
+        "B": "Budgeting as a digital nomad requires flexibility and planning for unexpected expenses.",
+        "C": "The author shares their personal experience with managing finances while traveling abroad.",
+        "D": "Digital nomads should focus on cutting costs in order to live comfortably."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

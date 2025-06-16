@@ -48,59 +48,67 @@ except ImportError:
                 st.error(f"  - {item.name}")
         st.stop()
 
-# B2 First Reading Part 5 Text Types
-B2_TEXT_TYPES = {
+# Load configuration data from JSON files
+def load_json_config(file_path: Path, fallback_data: dict = None):
+    """Load JSON configuration with fallback to default data"""
+    try:
+        if file_path.exists():
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        else:
+            st.warning(f"⚠️ Configuration file not found: {file_path.name}")
+            return fallback_data if fallback_data else {}
+    except Exception as e:
+        st.error(f"❌ Error loading {file_path.name}: {e}")
+        return fallback_data if fallback_data else {}
+
+# Define config file paths
+config_dir = project_root / "config"
+b2_text_types_path = config_dir / "b2_text_types.json"
+topic_categories_path = config_dir / "topic_categories.json"
+topic_sets_path = config_dir / "topic_sets.json"
+
+# Fallback data in case JSON files don't exist
+FALLBACK_B2_TEXT_TYPES = {
     "📰 Magazine Article": {
         "key": "magazine_article",
         "description": "Informative articles from lifestyle, science, or general interest magazines",
         "examples": ["Health and wellness trends", "Technology reviews", "Travel destinations"]
     },
-    "📄 Newspaper Article": {
-        "key": "newspaper_article", 
-        "description": "News articles, feature stories, and opinion pieces",
-        "examples": ["Environmental initiatives", "Social issues", "Cultural events"]
-    },
-    "📖 Novel Extract": {
-        "key": "novel_extract",
-        "description": "Excerpts from contemporary fiction showing character development",
-        "examples": ["Coming-of-age stories", "Adventure narratives", "Relationship dynamics"]
-    },
     "✍️ Personal Blog Post": {
         "key": "blog_post",
         "description": "First-person accounts of experiences and reflections",
         "examples": ["Travel experiences", "Career changes", "Personal challenges"]
-    },
-    "🔬 Popular Science Article": {
-        "key": "science_article",
-        "description": "Accessible explanations of scientific concepts and discoveries",
-        "examples": ["Climate science", "Psychology research", "Technology innovations"]
-    },
-    "🎭 Cultural Review": {
-        "key": "cultural_review",
-        "description": "Reviews and commentary on books, films, art, or performances",
-        "examples": ["Book reviews", "Film critiques", "Art exhibition reviews"]
-    },
-    "💼 Professional Feature": {
-        "key": "professional_feature",
-        "description": "Articles about careers, workplace trends, and professional development",
-        "examples": ["Remote work trends", "Career advice", "Industry insights"]
-    },
-    "🏠 Lifestyle Feature": {
-        "key": "lifestyle_feature",
-        "description": "Articles about home, family, hobbies, and personal interests",
-        "examples": ["Home improvement", "Cooking trends", "Hobby communities"]
-    },
-    "🌍 Travel Writing": {
-        "key": "travel_writing",
-        "description": "Descriptive accounts of places, cultures, and travel experiences",
-        "examples": ["Destination guides", "Cultural observations", "Adventure stories"]
-    },
-    "📚 Educational Feature": {
-        "key": "educational_feature",
-        "description": "Informative articles about learning, education, and skill development",
-        "examples": ["Language learning", "Study techniques", "Educational trends"]
     }
 }
+
+FALLBACK_TOPIC_CATEGORIES = {
+    "🌍 Environment & Sustainability": [
+        "sustainable travel and eco-tourism",
+        "urban gardening and community spaces",
+        "renewable energy solutions for homes"
+    ],
+    "💼 Work & Business": [
+        "remote work productivity strategies",
+        "career change in your thirties",
+        "workplace diversity and inclusion"
+    ]
+}
+
+FALLBACK_TOPIC_SETS = {
+    "🌍 Environment & Sustainability": [
+        "sustainable travel and eco-tourism",
+        "urban gardening and community spaces",
+        "renewable energy solutions for homes"
+    ]
+}
+
+# Load the configuration data from JSON files
+B2_TEXT_TYPES = load_json_config(b2_text_types_path, FALLBACK_B2_TEXT_TYPES)
+TOPIC_CATEGORIES = load_json_config(topic_categories_path, FALLBACK_TOPIC_CATEGORIES)
+TOPIC_SETS = load_json_config(topic_sets_path, FALLBACK_TOPIC_SETS)
+
+
 
 # Page configuration
 st.set_page_config(
@@ -259,89 +267,17 @@ def main():
         with col2:
             st.markdown("**Suggested Topics:**")
             
-            # Comprehensive B2 First Topic Categories
-            topic_categories = {
-                "🏃‍♂️ Sport & Fitness": [
-                    "extreme sports and risk-taking",
-                    "fitness trends for busy professionals",
-                    "team sports vs individual activities",
-                    "mental health benefits of exercise",
-                    "sports nutrition for amateur athletes"
-                ],
-                "🌍 Environment & Sustainability": [
-                    "sustainable travel and eco-tourism",
-                    "urban gardening and community spaces",
-                    "renewable energy solutions for homes",
-                    "plastic-free lifestyle challenges",
-                    "climate change adaptation strategies"
-                ],
-                "💰 Money & Economics": [
-                    "financial literacy for young adults",
-                    "sustainable shopping and ethical consumption",
-                    "side hustles and passive income",
-                    "cryptocurrency for beginners",
-                    "budgeting for digital nomads"
-                ],
-                "💼 Work & Business": [
-                    "remote work productivity strategies",
-                    "career change in your thirties",
-                    "entrepreneurship vs traditional employment",
-                    "workplace diversity and inclusion",
-                    "artificial intelligence in the workplace"
-                ],
-                "🎓 Education & Learning": [
-                    "lifelong learning and skill development",
-                    "online education vs traditional classrooms",
-                    "language learning through immersion",
-                    "creative thinking in problem-solving",
-                    "study abroad experiences"
-                ],
-                "🏠 Family & Relationships": [
-                    "work-life balance strategies",
-                    "multi-generational living arrangements",
-                    "long-distance relationships in digital age",
-                    "parenting in the social media era",
-                    "friendship maintenance as adults"
-                ],
-                "🎨 Arts & Culture": [
-                    "traditional crafts revival in modern times",
-                    "street art as cultural expression",
-                    "music festivals and community building",
-                    "cultural food exchange and fusion cuisine",
-                    "digital art and NFT revolution"
-                ],
-                "🏥 Health & Medicine": [
-                    "mindfulness and mental health awareness",
-                    "alternative medicine vs conventional treatment",
-                    "nutrition myths and scientific evidence",
-                    "sleep optimization for better performance",
-                    "preventive healthcare for young adults"
-                ],
-                "🌐 Technology & Digital Life": [
-                    "AI in everyday life applications",
-                    "social media influence on relationships",
-                    "digital wellness and screen time management",
-                    "cybersecurity for personal data protection",
-                    "virtual reality in education and training"
-                ],
-                "✈️ Travel & Adventure": [
-                    "digital nomad lifestyle challenges",
-                    "adventure sports psychology and motivation",
-                    "cultural immersion vs tourist experiences",
-                    "solo travel safety and empowerment",
-                    "sustainable tourism practices"
-                ]
-            }
+            # Comprehensive B2 First Topic Categories (loaded from config)
             
             # Category selector for topics
             selected_category = st.selectbox(
                 "Choose Topic Category",
-                list(topic_categories.keys()),
+                list(TOPIC_CATEGORIES.keys()),
                 key="topic_category_selector"
             )
             
             # Display topics from selected category
-            category_topics = topic_categories[selected_category]
+            category_topics = TOPIC_CATEGORIES[selected_category]
             
             st.markdown(f"**{selected_category} Topics:**")
             for i, topic_suggestion in enumerate(category_topics):
@@ -351,7 +287,7 @@ def main():
             
             # Quick random topic button
             if st.button("🎲 Random Topic", key="random_topic_btn"):
-                all_topics = [topic for topics in topic_categories.values() for topic in topics]
+                all_topics = [topic for topics in TOPIC_CATEGORIES.values() for topic in topics]
                 random_topic = random.choice(all_topics)
                 st.session_state.topic_input = random_topic
                 st.rerun()
@@ -559,24 +495,11 @@ def main():
                             with st.expander(f"Question {question['question_number']}", expanded=True):
                                 st.markdown(f"**{question['question_text']}**")
                                 
-                                # Handle both dict and list formats for options
-                                options = question.get('options', {})
-                                if isinstance(options, dict):
-                                    for option, text in options.items():
-                                        if option == question['correct_answer']:
-                                            st.markdown(f"✅ **{option}**: {text}")
-                                        else:
-                                            st.markdown(f"   **{option}**: {text}")
-                                elif isinstance(options, list):
-                                    # Handle list format (fallback)
-                                    option_keys = ['A', 'B', 'C', 'D']
-                                    for j, text in enumerate(options):
-                                        if j < len(option_keys):
-                                            option = option_keys[j]
-                                            if option == question['correct_answer']:
-                                                st.markdown(f"✅ **{option}**: {text}")
-                                            else:
-                                                st.markdown(f"   **{option}**: {text}")
+                                for option, text in question['options'].items():
+                                    if option == question['correct_answer']:
+                                        st.markdown(f"✅ **{option}**: {text}")
+                                    else:
+                                        st.markdown(f"   **{option}**: {text}")
                                 
                                 st.caption(f"Type: {question.get('question_type', 'unknown')}")
                                 if 'explanation' in question:
@@ -746,140 +669,10 @@ def main():
         
         st.info(f"Selected {len(selected_text_types)} text types: {', '.join([t.replace('_', ' ').title() for t in selected_text_types])}")
         
-        # Predefined topic sets
+        # Predefined topic sets (loaded from config)
         st.subheader("📚 Topics")
-        topic_sets = {
-            "🏃‍♂️ Sport & Fitness Focus": [
-                "extreme sports and risk-taking",
-                "fitness trends for busy professionals", 
-                "team sports vs individual activities",
-                "mental health benefits of exercise",
-                "sports nutrition for amateur athletes",
-                "adventure sports psychology and motivation"
-            ],
-            "🌍 Environment & Sustainability": [
-                "sustainable travel and eco-tourism",
-                "urban gardening and community spaces",
-                "renewable energy solutions for homes",
-                "plastic-free lifestyle challenges",
-                "climate change adaptation strategies",
-                "sustainable fashion and consumption"
-            ],
-            "💰 Money & Economics": [
-                "financial literacy for young adults",
-                "sustainable shopping and ethical consumption",
-                "side hustles and passive income",
-                "cryptocurrency for beginners",
-                "budgeting for digital nomads",
-                "economic impact of remote work"
-            ],
-            "💼 Work & Business": [
-                "remote work productivity strategies",
-                "career change in your thirties",
-                "entrepreneurship vs traditional employment",
-                "workplace diversity and inclusion",
-                "artificial intelligence in the workplace",
-                "work-life balance strategies"
-            ],
-            "🎓 Education & Learning": [
-                "lifelong learning and skill development",
-                "online education vs traditional classrooms",
-                "language learning through immersion",
-                "creative thinking in problem-solving",
-                "study abroad experiences",
-                "digital literacy for modern students"
-            ],
-            "🏠 Family & Relationships": [
-                "multi-generational living arrangements",
-                "long-distance relationships in digital age",
-                "parenting in the social media era",
-                "friendship maintenance as adults",
-                "cultural differences in family structures",
-                "community building in urban environments"
-            ],
-            "🎨 Arts & Culture": [
-                "traditional crafts revival in modern times",
-                "street art as cultural expression",
-                "music festivals and community building",
-                "cultural food exchange and fusion cuisine",
-                "digital art and NFT revolution",
-                "preserving cultural heritage through technology"
-            ],
-            "🏥 Health & Medicine": [
-                "mindfulness and mental health awareness",
-                "alternative medicine vs conventional treatment",
-                "nutrition myths and scientific evidence",
-                "sleep optimization for better performance",
-                "preventive healthcare for young adults",
-                "mental health stigma in different cultures"
-            ],
-            "🌐 Technology & Digital Life": [
-                "AI in everyday life applications",
-                "social media influence on relationships",
-                "digital wellness and screen time management",
-                "cybersecurity for personal data protection",
-                "virtual reality in education and training",
-                "ethical implications of artificial intelligence"
-            ],
-            "✈️ Travel & Adventure": [
-                "digital nomad lifestyle challenges",
-                "cultural immersion vs tourist experiences",
-                "solo travel safety and empowerment",
-                "sustainable tourism practices",
-                "travel photography and storytelling",
-                "adventure travel for personal growth"
-            ],
-            "🎯 Mixed Contemporary Issues": [
-                "social media influence on relationships",
-                "climate change adaptation strategies",
-                "remote work productivity strategies",
-                "mindfulness and mental health awareness",
-                "sustainable fashion and consumption",
-                "artificial intelligence in the workplace"
-            ],
-            "🌟 Personal Development": [
-                "lifelong learning and skill development",
-                "creative thinking in problem-solving",
-                "work-life balance strategies",
-                "mindfulness and mental health awareness",
-                "friendship maintenance as adults",
-                "sleep optimization for better performance"
-            ],
-            "🏙️ Modern Urban Life": [
-                "urban gardening and community spaces",
-                "multi-generational living arrangements",
-                "sustainable shopping and ethical consumption",
-                "digital wellness and screen time management",
-                "community building in urban environments",
-                "street art as cultural expression"
-            ],
-            "🎓 Student Life & Career": [
-                "study abroad experiences",
-                "language learning through immersion",
-                "career change in your thirties",
-                "financial literacy for young adults",
-                "online education vs traditional classrooms",
-                "workplace diversity and inclusion"
-            ],
-            "🌱 Wellness & Lifestyle": [
-                "nutrition myths and scientific evidence",
-                "alternative medicine vs conventional treatment",
-                "fitness trends for busy professionals",
-                "preventive healthcare for young adults",
-                "mental health benefits of exercise",
-                "plastic-free lifestyle challenges"
-            ],
-            "🚀 Innovation & Future": [
-                "virtual reality in education and training",
-                "cryptocurrency for beginners",
-                "digital art and NFT revolution",
-                "ethical implications of artificial intelligence",
-                "cybersecurity for personal data protection",
-                "preserving cultural heritage through technology"
-            ]
-        }
         
-        selected_set = st.selectbox("Choose Topic Set", list(topic_sets.keys()))
+        selected_set = st.selectbox("Choose Topic Set", list(TOPIC_SETS.keys()))
         
         # Custom topic set management
         st.markdown("---")
@@ -969,7 +762,7 @@ def main():
             topics_to_use = [topic.strip() for topic in custom_topics.split('\n') if topic.strip()]
             topic_source = "Custom Topics"
         else:
-            topics_to_use = topic_sets[selected_set]
+            topics_to_use = TOPIC_SETS[selected_set]
             topic_source = selected_set
         
         # Topic Preview and Statistics

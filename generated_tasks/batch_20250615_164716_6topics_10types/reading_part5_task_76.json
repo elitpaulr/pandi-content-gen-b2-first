@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_76",
+  "title": "The Secret to Leaving Your Day Job Behind: Side Hustle Success Stories",
+  "topic": "general",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "The rise of the gig economy has given birth to a new phenomenon - side hustles and passive income. Once a niche pursuit for entrepreneurs and freelancers, these concepts have now become mainstream, with millions of people around the world turning to them as a way to supplement their incomes and achieve financial freedom.\n\nBut what exactly are side hustles and passive income? At its core, a side hustle is any additional income-generating activity that an individual undertakes outside of their primary job or career. This can range from freelancing, tutoring, or selling products online, to renting out a spare room on Airbnb or driving for Uber. Passive income, on the other hand, refers to earnings that require little to no active involvement once they've been set up.\n\nThe appeal of side hustles and passive income is clear - they offer an escape from the monotony and drudgery of traditional employment, where individuals can earn extra money without sacrificing too much time or energy. Many people are now leveraging platforms like Upwork, Fiverr, and Etsy to monetize their skills, creativity, and expertise.\n\nHowever, as the popularity of side hustles and passive income grows, so do concerns about its impact on traditional employment and social structures. Some critics argue that these concepts perpetuate a culture of overwork, where individuals are encouraged to take on multiple jobs and responsibilities without adequate rest or compensation. Others worry that the rise of gig economy will erode job security, benefits, and social protections.\n\nDespite these criticisms, side hustles and passive income have also democratized access to economic opportunities for marginalized communities and low-income households. Online platforms like TaskRabbit, where individuals can offer their skills and services on demand, provide a means for people with limited English proficiency or education to earn money. Similarly, platforms like Sellfy and Gumroad allow artists, writers, and creatives to sell their work directly to customers without intermediaries.\n\nFurthermore, the proliferation of side hustles and passive income has also led to new forms of entrepreneurship and innovation. With the rise of e-commerce, digital marketing, and social media, individuals can now create and sell products that cater to niche markets and interests. Platforms like Kickstarter and Indiegogo have enabled creators to crowdfund their projects, turning ideas into reality.\n\nBut what about the notion of \"passive\" income? Does it really exist? In some cases, yes - dividend-paying stocks, real estate investment trusts (REITs), and peer-to-peer lending can generate steady streams of income without requiring constant effort. However, even these investments often demand ongoing management and attention to ensure their continued performance.\n\nUltimately, the appeal of side hustles and passive income lies in their potential for flexibility, autonomy, and financial empowerment. While they are not a panacea for societal ills or economic inequality, they have opened up new possibilities for individuals to earn money on their own terms. As more people explore these concepts, we must also acknowledge the risks and challenges that accompany them - from exploitation and burnout to uneven distribution of wealth.\n\nIn conclusion, side hustles and passive income are here to stay. Whether you're a seasoned entrepreneur or just starting out, they offer an opportunity to diversify your income streams, build wealth, and pursue your passions on your own terms. As we navigate the complex landscape of work and economics in the 21st century, it's essential to approach these concepts with a critical eye - recognizing both their benefits and limitations.\n\nAs we continue to grapple with the implications of side hustles and passive income, one thing is clear: they have become an integral part of our cultural and economic fabric. It's time to harness their potential while addressing their challenges, creating a more equitable and sustainable future for all.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the impact of side hustles on traditional employment?",
+      "options": {
+        "A": "Side hustles have led to an increase in job security",
+        "B": "Side hustles have eroded job security, benefits, and social protections",
+        "C": "Side hustles have no significant impact on traditional employment",
+        "D": "Side hustles have improved working conditions for many people"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for income to be \"passive\"?",
+      "options": {
+        "A": "Earnings that require a lot of effort and dedication",
+        "B": "Income that is generated without requiring constant involvement or active participation once set up",
+        "C": "Salary increases that are tied to performance reviews",
+        "D": "Government benefits that provide financial assistance"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of platform allows artists, writers, and creatives to sell their work directly to customers without intermediaries?",
+      "options": {
+        "A": "Airbnb",
+        "B": "Etsy",
+        "C": "Sellfy and Gumroad",
+        "D": "Upwork and Fiverr"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what are side hustles and passive income mainly appealing to people because of?",
+      "options": {
+        "A": "They offer a way to earn extra money quickly",
+        "B": "They provide an escape from traditional employment's monotony and drudgery",
+        "C": "They require a lot of time and energy to set up",
+        "D": "They only benefit the wealthy"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What do platforms like Upwork, Fiverr, and Etsy allow individuals to monetize?",
+      "options": {
+        "A": "Their physical assets",
+        "B": "Their skills, creativity, and expertise",
+        "C": "Their spare time",
+        "D": "Their primary job or career"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this text about side hustles and passive income?",
+      "options": {
+        "A": "To discuss the negative impact of side hustles on traditional employment",
+        "B": "To explore the potential benefits and limitations of side hustles and passive income as a way to achieve financial freedom",
+        "C": "To provide a guide for starting a successful online business using platforms like Upwork and Etsy",
+        "D": "To argue that side hustles and passive income are only suitable for entrepreneurs and freelancers"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

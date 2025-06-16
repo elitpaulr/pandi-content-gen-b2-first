@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_54",
+  "title": "From Fast to Last: The Sustainable Fashion Revolution Starts Here!",
+  "topic": "technology",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember the day I finally grasped the concept of sustainable fashion – it was like a weight had been lifted off my shoulders. I had always known that fast fashion was bad for the environment, but it wasn't until I started digging deeper that I realized just how devastating its impact really is.\n\nAs someone who's passionate about living a more environmentally conscious lifestyle, I've made it my mission to reduce my consumption and adopt more sustainable habits – including in the fashion world. It's not always easy, and there are times when I feel like I'm sacrificing style for sustainability (although, spoiler alert, that's just not true).\n\nThe truth is, fast fashion has a huge carbon footprint – it takes around 2,000 gallons of water to produce just one pair of jeans! That's enough to fill an Olympic-sized swimming pool. And it's not just the water usage; textile waste from the fashion industry is staggering. In fact, it's estimated that we throw away around 12.8 million tons of clothing each year in the United States alone.\n\nOne of the biggest problems with fast fashion is its \"take, make, dispose\" approach to production and consumption. This model prioritizes speed and affordability over quality and durability, resulting in a culture where clothes are worn once or twice before being discarded. It's like we're treating our garments like disposable tissues – no wonder they end up in landfills so quickly!\n\nSo what can we do about it? For starters, we need to rethink the way we consume fashion. This means investing in higher-quality pieces that won't fall apart after a few wearings (or months). It also means buying second-hand whenever possible and seeking out sustainable brands that prioritize eco-friendly materials and production methods.\n\nI've started by implementing a \"one in, one out\" policy with my wardrobe – for every new item I bring home, an old one has to go. This not only helps declutter my closet but also encourages me to think twice before buying something new. And when I do need to purchase something, I try to opt for timeless pieces that won't go out of style anytime soon.\n\nAnother key strategy is repurposing and upcycling existing clothes. I've started using old t-shirts as cleaning rags or turning last season's jeans into shorts (yes, it takes some creativity, but it's a great way to breathe new life into tired pieces).\n\nOf course, not everyone can afford to overhaul their entire wardrobe at once – nor should they have to! That's why I believe we need to normalize second-hand shopping and encourage brands to adopt more sustainable practices.\n\nTake Patagonia, for example. This outdoor apparel brand has been a pioneer in sustainable fashion for years, using environmentally-friendly materials like recycled polyester and promoting repair services to extend the life of their products.\n\nAs consumers, we also have the power to demand change from our favorite brands. We can vote with our wallets by choosing sustainable options and supporting companies that prioritize eco-friendliness. And if they don't meet our standards? It's time to take a closer look at their values – or find an alternative.\n\nSustainable fashion isn't just about making a few tweaks to our consumption habits; it's about fundamentally changing the way we think about clothing as consumers and producers alike. We need to move away from fast, cheap, disposable fashion and towards a culture that prioritizes quality over quantity.\n\nThat's not to say I've achieved perfection in my own wardrobe – far from it! But by being more mindful of my consumption habits and seeking out sustainable options whenever possible, I feel like I'm making progress. And who knows? Maybe one day we'll have a fashion industry that truly values the well-being of both people and planet.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the writer's approach to buying new clothes?",
+      "options": {
+        "A": "They believe that it's okay to buy cheap, trendy items as long as they're made from sustainable materials.",
+        "B": "They've adopted a strict \"one in, one out\" policy to avoid overconsumption and encourage mindful purchasing.",
+        "C": "They only buy second-hand clothes and have given up buying new ones altogether.",
+        "D": "They prioritize high-end designer brands that are often more expensive but also more sustainable."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"take, make, dispose\" approach to production and consumption mean in this context?",
+      "options": {
+        "A": "A process where clothes are carefully repaired and maintained before being discarded",
+        "B": "A model that prioritizes speed and affordability over quality and durability",
+        "C": "A system where second-hand clothing is collected from consumers and sold online",
+        "D": "An industry trend where brands focus on creating only limited-edition items"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many gallons of water are required to produce just one pair of jeans?",
+      "options": {
+        "A": "1,000 gallons",
+        "B": "2,000 gallons",
+        "C": "5,000 gallons",
+        "D": "10,000 gallons"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The author's opinion on fast fashion can be described as",
+      "options": {
+        "A": "Exciting and trendy, but also harmless to the environment",
+        "B": "Devastatingly bad for the environment, but still worth wearing occasionally",
+        "C": "A necessary evil that we cannot avoid as consumers",
+        "D": "A serious problem that requires a fundamental change in consumer behavior"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"it\" refer to in the sentence: \"The truth is, fast fashion has a huge carbon footprint – it takes around 2,000 gallons of water to produce just one pair of jeans!\"",
+      "options": {
+        "A": "Fast fashion",
+        "B": "The carbon footprint",
+        "C": "A pair of jeans",
+        "D": "Water usage"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable fashion?",
+      "options": {
+        "A": "The writer is criticizing the fashion industry for being too expensive.",
+        "B": "The writer argues that fast fashion has a significant impact on the environment and proposes ways to adopt more sustainable habits.",
+        "C": "The writer believes that second-hand shopping is the only way to be environmentally conscious.",
+        "D": "The writer thinks that sustainable fashion is just a trend that will soon pass."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

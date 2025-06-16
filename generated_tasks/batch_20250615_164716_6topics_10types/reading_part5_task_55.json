@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_55",
+  "title": "Shopping My Way Around the World: One Eco-Friendly Destination at a Time",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Bali, Indonesia, I was struck by the vibrant colors and lush greenery that surrounded me. But what caught my attention most was the way the locals shopped – with a sense of mindfulness and awareness that I'd never seen before. They wandered through markets and boutiques, carefully selecting items made from sustainable materials, crafted by skilled artisans, and produced in fair working conditions.\n\nI had arrived in Bali seeking answers to a question that had been nagging me for years: how could I shop without contributing to the environmental degradation and social injustices that seemed to accompany consumerism? The answer, it turned out, lay not just in avoiding fast fashion or plastic bags, but in embracing a more mindful approach to consumption altogether.\n\nMy first stop was the bustling Ubud Art Market, where I met local artisan Wayan. With deft hands, she wove intricate patterns into traditional Balinese textiles using natural dyes and organic cotton. As we chatted, it became clear that her work was not just about creating beautiful fabrics – it was also about preserving cultural heritage and supporting a community of skilled artisans.\n\nI asked Wayan about the market's emphasis on sustainability, and she smiled knowingly. \"We've learned from our mistakes,\" she said. \"Years ago, we used to dye our textiles with synthetic chemicals that polluted the rivers. But now, we use natural ingredients like turmeric and indigo. It's not just better for the environment – it's also more beautiful.\"\n\nAs I continued my exploration of Bali's shopping scene, I encountered similar stories of innovation and commitment to sustainability. At the eco-friendly boutique, Luna, I met owner Putu, who sourced her products from local designers using recycled materials and responsible manufacturing practices.\n\nBut what struck me most was not just the products themselves – it was the way the people behind them approached their work with such care and intention. These artisans were not just makers of goods; they were guardians of culture, stewards of the environment, and advocates for fair trade.\n\nOf course, sustainable shopping is not unique to Bali. Cities like Tokyo and Copenhagen are pioneering new models of consumption that prioritize environmental sustainability and social responsibility. But in Bali, I saw something special – a holistic approach to living that recognized the interconnectedness of human well-being, environmental health, and economic prosperity.\n\nAs I reflect on my journey, I realize that sustainable shopping is not just about buying the \"right\" products or supporting the \"right\" causes. It's about cultivating a mindset that values people, planet, and profit equally – and seeks to balance these competing interests in a way that benefits all parties involved.\n\nIn Bali, I saw that this approach is not only possible – it's also beautiful. As I wandered through the markets and boutiques, I was struck by the vibrant colors, intricate patterns, and joyful energy of the people around me. These artisans were not just making products; they were creating a way of life.\n\nAs I left Bali and returned to my own city, I felt inspired to carry this mindset back home with me. I began to seek out local designers and makers who shared these values, and to shop from them whenever possible. And as I did, I noticed a subtle but profound shift in the way I approached consumption – one that prioritized people over products, planet over profit, and well-being over waste.\n\nIn Bali, I discovered that sustainable shopping is not just about what we buy; it's about who we become. By embracing this more mindful approach to consumption, we can create a world that values human dignity, environmental health, and social justice – one product at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what motivated the author to start seeking answers to her question about sustainable shopping?",
+      "options": {
+        "A": "She was concerned about the rising cost of living",
+        "B": "She wanted to learn more about traditional Balinese textiles",
+        "C": "She had been thinking for years about how consumerism contributes to environmental degradation and social injustices",
+        "D": "She was looking for new fashion trends to follow"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"holistic\" mean in the context of sustainable shopping?",
+      "options": {
+        "A": "Focusing on individual products or items",
+        "B": "Considering the interconnectedness of people, planet, and profit",
+        "C": "Prioritizing environmental sustainability above all else",
+        "D": "Buying only second-hand or recycled products"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of material did Wayan use for natural dyes?",
+      "options": {
+        "A": "Synthetic materials",
+        "B": "Organic cotton",
+        "C": "Recycled paper",
+        "D": "Plastic bags"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What can be inferred about the author's attitude towards consumerism?",
+      "options": {
+        "A": "The author thinks it is impossible to shop sustainably without sacrificing quality.",
+        "B": "The author believes that sustainable shopping requires a mindset shift, prioritizing people and planet over profit.",
+        "C": "The author is critical of the environmental impact of fast fashion but not concerned with social injustices.",
+        "D": "The author thinks consumerism is inherently negative and should be avoided altogether."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Wayan refer to when she says \"we've learned from our mistakes\"?",
+      "options": {
+        "A": "The way local artisans used to dye their textiles with synthetic chemicals",
+        "B": "The pollution of the rivers caused by using synthetic dyes",
+        "C": "The traditional methods of natural dyeing that were passed down through generations",
+        "D": "The shift in consumer demand towards sustainable products"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What was the author's main goal when visiting Bali?",
+      "options": {
+        "A": "To learn about the local culture",
+        "B": "To explore new shopping habits and sustainable practices",
+        "C": "To promote eco-friendly products to tourists",
+        "D": "To document the environmental impact of tourism"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

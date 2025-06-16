@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_120",
+  "title": "Unlocking the Mysterious World of Cryptocurrency: A Beginner's Guide",
+  "topic": "general",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "Cryptocurrency for Beginners: A Comprehensive Guide to Getting Started\n\nIn recent years, cryptocurrency has become a buzzword in the financial world. With the rise of Bitcoin and other digital currencies, many people are curious about how they work and whether they're worth investing in. However, for beginners, navigating the world of cryptocurrency can be overwhelming. In this article, we'll provide a comprehensive guide to get you started on your journey.\n\n**What is Cryptocurrency?**\n\nTo begin with, let's define what cryptocurrency is. Simply put, it's a digital or virtual currency that uses cryptography (secret codes) for secure financial transactions. Just like traditional currencies, such as the US dollar or Euro, cryptocurrency can be used to buy goods and services online or in person.\n\n**Key Features of Cryptocurrency**\n\nThere are several key features that distinguish cryptocurrency from traditional currency:\n\n1. **Decentralization**: Cryptocurrency operates on a decentralized network, meaning there's no central authority controlling it.\n2. **Security**: Transactions are recorded on a public ledger called the blockchain, which ensures the integrity and security of transactions.\n3. **Anonymity**: Users can make transactions without revealing their identities.\n4. **Limited Supply**: Most cryptocurrencies have a limited supply to prevent inflation.\n\n**Types of Cryptocurrency**\n\nThere are thousands of cryptocurrencies in existence, but some of the most popular ones include:\n\n1. **Bitcoin (BTC)**: The first and most well-known cryptocurrency.\n2. **Ethereum (ETH)**: A platform for creating smart contracts and decentralized applications.\n3. **Litecoin (LTC)**: A faster and more lightweight alternative to Bitcoin.\n4. **Altcoins**: Alternative cryptocurrencies, such as Monero, Zcash, and Dogecoin.\n\n**How to Get Started**\n\nNow that you have a basic understanding of cryptocurrency, it's time to get started:\n\n1. **Choose a Wallet**: A wallet is where you'll store your cryptocurrencies. There are two types: software wallets (e.g., Electrum) and hardware wallets (e.g., Ledger).\n2. **Select an Exchange**: An exchange is where you can buy or sell cryptocurrencies. Popular exchanges include Coinbase, Binance, and Kraken.\n3. **Learn About Trading**: Trading involves buying and selling cryptocurrencies to make a profit. Research different trading strategies and learn how to use technical analysis tools.\n\n**Tips for Beginners**\n\nAs a beginner, it's essential to be aware of the following:\n\n1. **Invest Wisely**: Don't invest more than you can afford to lose.\n2. **Stay Informed**: Keep up-to-date with market news and trends.\n3. **Diversify Your Portfolio**: Spread your investments across different cryptocurrencies to minimize risk.\n\n**Conclusion**\n\nCryptocurrency may seem complex, but it's not as intimidating as it seems. By understanding the basics, types of cryptocurrency, and how to get started, you'll be well on your way to becoming a crypto-savvy individual. Remember to invest wisely, stay informed, and always keep learning. With time and practice, you'll become proficient in navigating the world of cryptocurrency.\n\n**Additional Resources**\n\nFor further learning, we recommend checking out online resources such as:\n\n1. **CoinDesk**: A leading news outlet for cryptocurrency and blockchain.\n2. **Coursera**: An online course platform offering courses on cryptocurrency and blockchain.\n3. **Cryptocurrency Subreddit**: A community-driven forum for discussing all things cryptocurrency.\n\nStart your crypto journey today and discover a new world of financial possibilities!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's intention when writing this article?",
+      "options": {
+        "A": "To scare readers away from investing in cryptocurrency",
+        "B": "To provide a comprehensive guide to help beginners understand cryptocurrency",
+        "C": "To promote a specific type of cryptocurrency over others",
+        "D": "To educate investors on how to make quick profits in the market"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"decentralization\" mean in the context of cryptocurrency?",
+      "options": {
+        "A": "It means that transactions are controlled by a central authority.",
+        "B": "It refers to the use of secret codes for secure financial transactions.",
+        "C": "It describes a system where decisions are made collectively and not by a single entity.",
+        "D": "It implies that cryptocurrency is only available online."
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is recorded on a public ledger to ensure the integrity and security of transactions?",
+      "options": {
+        "A": "Financial data",
+        "B": "Transaction history",
+        "C": "Blockchain",
+        "D": "User identities"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards investing in cryptocurrency?",
+      "options": {
+        "A": "The author strongly advises against investing in cryptocurrency.",
+        "B": "The author presents an objective view, without expressing any opinion or bias.",
+        "C": "The author considers investing in cryptocurrency a high-risk venture that requires caution and careful consideration.",
+        "D": "The author warns readers not to invest more than they can afford to lose."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"cryptocurrencies\" refer to in the text?",
+      "options": {
+        "A": "The central authority controlling the network",
+        "B": "The digital currencies that use cryptography for secure transactions",
+        "C": "The online course platform offering courses on cryptocurrency and blockchain",
+        "D": "The community-driven forum for discussing all things cryptocurrency"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this article about cryptocurrency?",
+      "options": {
+        "A": "To introduce advanced trading strategies for experienced investors",
+        "B": "To provide a comprehensive guide for beginners to get started with cryptocurrency",
+        "C": "To explain the technical details of blockchain technology",
+        "D": "To compare the benefits and drawbacks of different cryptocurrencies"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_33",
+  "title": "Ditching Plastic: The Ultimate Challenge to Your Daily Habits Revealed",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she stood in front of her overflowing trash can, Emma couldn't help but feel a sense of guilt wash over her. She had been trying to live a plastic-free lifestyle for months now, but it seemed like the more she tried, the more obstacles kept popping up. Her friends would often tease her about being \"too extreme,\" and even some of her family members thought she was being too uptight.\n\n\"What's the big deal?\" her sister would say, tossing a used water bottle into the recycling bin without hesitation. \"It's just one little plastic bottle, Emma.\"\n\nBut for Emma, it wasn't just about one little plastic bottle. It was about the collective impact of every single decision she made, every single day. She had read the statistics – over 8 million tons of plastic waste enter our oceans every year, harming marine life and contaminating the food chain.\n\n\"I'm trying to make a difference,\" Emma said, exasperated, as she stared down at her overflowing trash can. \"But it feels like no matter what I do, there's always something new that gets in my way.\"\n\nHer friend Rachel, who had been living plastic-free for years, chuckled and patted Emma on the back. \"I know exactly what you mean,\" she said. \"It takes time to adjust, but trust me, it's worth it.\"\n\nRachel had started her journey towards a plastic-free lifestyle after watching a documentary about the devastating effects of single-use plastics. She had been horrified by the sheer scale of the problem and decided that something needed to change.\n\n\"For me, it was about making small changes at first,\" Rachel explained. \"I started using reusable bags for grocery shopping and switched to glass water bottles. It wasn't easy, but I knew it was necessary.\"\n\nAs Emma listened intently, she began to feel a sense of determination rise up within her. She realized that she didn't have to be perfect – just making small changes here and there could make a big difference in the long run.\n\n\"But what about when you're on-the-go?\" Emma asked Rachel, who had been traveling extensively for work while maintaining a plastic-free lifestyle. \"How do you deal with situations like that?\"\n\nRachel smiled knowingly. \"Ah, that's where it gets really challenging,\" she admitted. \"But honestly? I've learned to carry a small reusable container and refill it whenever possible. And if all else fails, I just say no to single-use plastics.\"\n\nEmma nodded thoughtfully, taking mental notes as Rachel continued to share her tips and tricks for navigating the plastic-free lifestyle.\n\nAs they talked, Emma began to feel a sense of hope rising up within her. Maybe this wasn't going to be easy – maybe it was even downright impossible at times – but with friends like Rachel by her side, she felt like she could conquer anything.\n\nOver the next few weeks, Emma worked tirelessly to implement small changes into her daily routine. She started carrying a reusable water bottle everywhere she went and switched to shopping bags made from organic cotton.\n\nBut just as things were starting to fall into place, a new challenge arose – a trip to Japan for work that would last several weeks. Emma was hesitant at first, worried about how she'd manage without access to her usual eco-friendly products.\n\nRachel's words echoed in her mind: \"Small changes can make a big difference.\"\n\nWith newfound determination, Emma set out to research sustainable options available in Japan. She discovered local shops selling refillable containers and even found an online community of expats who shared tips on navigating the country's plastic-heavy culture.\n\nAs she stood in front of her packed suitcase, ready to embark on this new adventure, Emma felt a sense of pride wash over her. She may not be perfect – but she was trying. And that, in itself, was something to be proud of.\n\nThe plane ride was long and tiring, but the moment Emma stepped off onto Japanese soil, she knew that this trip would be an opportunity for growth – and not just about mastering new languages or navigating unfamiliar streets.\n\nAs she made her way through customs, Emma caught sight of a small sign above the recycling bin: \"Reduce. Reuse. Recycle.\"\n\nA smile spread across her face as she realized that even in a foreign country, the message was clear – every single person had the power to make a difference.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated Rachel to start living a plastic-free lifestyle?",
+      "options": {
+        "A": "She was inspired by Emma's determination",
+        "B": "She watched a documentary about the devastating effects of single-use plastics",
+        "C": "Her friends convinced her to try it out as a challenge",
+        "D": "She read an article in a magazine that highlighted the importance of reducing waste"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"uptight\" mean in this context?",
+      "options": {
+        "A": "Very careful about what I do",
+        "B": "Extremely strict and unwilling to compromise",
+        "C": "A bit lazy and always looking for excuses",
+        "D": "Totally relaxed and easy-going"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many tons of plastic waste enter our oceans every year, according to Emma's research?",
+      "options": {
+        "A": "5 million tons",
+        "B": "8 million tons",
+        "C": "10 million tons",
+        "D": "12 million tons"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "How does Emma feel about making small changes towards a plastic-free lifestyle?",
+      "options": {
+        "A": "She thinks it's impossible and gives up easily",
+        "B": "She feels overwhelmed but is determined to try harder",
+        "C": "She believes that one person can't make a difference, so why bother?",
+        "D": "She sees it as a pointless task and prefers not to think about it"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Rachel's statement \"For me, it was about making small changes at first\" refer to?",
+      "options": {
+        "A": "Her decision to switch to glass water bottles",
+        "B": "The documentary she watched about single-use plastics",
+        "C": "Starting her journey towards a plastic-free lifestyle",
+        "D": "Using reusable bags for grocery shopping"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is Emma's main motivation for living a plastic-free lifestyle?",
+      "options": {
+        "A": "To impress her friends and family with her new habits",
+        "B": "To reduce her environmental impact and contribute to a better future",
+        "C": "To follow the latest fashion trends and reduce waste in her home",
+        "D": "To save money on shopping by using reusable bags"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

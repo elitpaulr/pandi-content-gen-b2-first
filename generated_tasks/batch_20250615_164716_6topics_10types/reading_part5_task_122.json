@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_122",
+  "title": "Thrifty Travels: Mastering Your Money on the Move",
+  "topic": "technology",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Digital Nomad's Guide to Budgeting Abroad**\n\nAs a digital nomad, navigating the world while working remotely can be an incredible experience – but it requires careful financial planning to avoid burnout and maintain your freedom. With the rise of remote work, the number of digital nomads is increasing rapidly, with many finding themselves torn between exploring new destinations and keeping track of their finances.\n\nFor Rachel Lee, a full-time content creator based in Chiang Mai, Thailand, budgeting was a major concern when she first started her nomadic lifestyle. \"I had to learn how to manage my money effectively while traveling,\" she says. \"It's not just about saving money; it's also about making the most of your experience and staying organized.\"\n\nSo where do you start? The key is to set clear financial goals and priorities before embarking on your digital nomad journey. Consider what you need to sustain yourself, including a steady income, accommodation, food, and health insurance.\n\n**Income and Expenses**\n\nYour income will likely come from freelancing or remote employment, but as a digital nomad, it's essential to have multiple sources of income to ensure financial stability. Rachel recommends creating an emergency fund to cover at least three months' living expenses in case of unexpected events like visa issues or health problems.\n\nWhen it comes to expenses, research your destinations thoroughly and plan accordingly. Costs can vary significantly depending on the location, with cities like Tokyo and Singapore being among the most expensive. Consider budgeting for things like accommodation, food, transportation, and activities.\n\n**Accommodation**\n\nChoosing the right accommodation is crucial for digital nomads, as it affects not only your living costs but also your productivity and well-being. \"I prefer to stay in apartments or guesthouses rather than hostels,\" says Rachel. \"They offer more space and a sense of community.\"\n\nFor budget-friendly options, consider staying in shared accommodations or using online platforms like Airbnb or Booking.com. Be sure to read reviews carefully before booking and factor in additional costs such as utilities or Wi-Fi.\n\n**Food and Transportation**\n\nEating out can be expensive in foreign countries, but there are ways to save money without sacrificing flavor. Rachel suggests trying local markets or street food stalls for affordable meals. For transportation, consider purchasing a public transportation card or using ride-sharing apps like Grab or Go-Van.\n\n**Health Insurance**\n\nAs a digital nomad, you may not have access to the same healthcare services as you would at home. Invest in health insurance that covers medical expenses abroad and provides 24/7 support. Some popular options include World Nomads and SafetyWing.\n\n**Budgeting Tools**\n\nTo stay on top of your finances while traveling, use budgeting tools like Mint or Personal Capital to track your income and expenses. You can also set up automatic transfers from your main account to a separate savings or emergency fund.\n\nFor Rachel, the key to successful budgeting is staying organized and adaptable. \"Be prepared for unexpected expenses and changes in your lifestyle,\" she advises. \"Stay flexible and adjust your budget accordingly.\"\n\nIn conclusion, budgeting as a digital nomad requires careful planning, research, and flexibility. By setting clear financial goals, choosing affordable accommodations, and investing in health insurance, you can maintain your freedom and enjoy the experience of working remotely abroad.\n\n**Budgeting Tips for Digital Nomads**\n\n* Set clear financial goals and priorities before embarking on your journey\n* Create an emergency fund to cover at least three months' living expenses\n* Research destinations thoroughly and plan accordingly\n* Choose budget-friendly accommodations, such as shared apartments or guesthouses\n* Invest in health insurance that covers medical expenses abroad\n* Use budgeting tools like Mint or Personal Capital to track your income and expenses",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Rachel Lee's experience of being a digital nomad before she started using a budgeting system?",
+      "options": {
+        "A": "She had to quit her job due to visa issues",
+        "B": "She struggled to manage her finances and felt overwhelmed by her expenses",
+        "C": "She didn't have any financial problems and was able to travel freely without worrying about money",
+        "D": "She only worked remotely for short periods of time before settling back into a traditional office job"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "According to Rachel Lee, what is one of her preferred types of accommodation as a digital nomad?",
+      "options": {
+        "A": "Hotels",
+        "B": "Hostels",
+        "C": "Apartments or guesthouses",
+        "D": "Luxury resorts"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the author's attitude towards the experience of working remotely abroad?",
+      "options": {
+        "A": "It's a luxury only available to those with unlimited financial resources.",
+        "B": "It requires careful planning and research, but offers many rewards.",
+        "C": "It's a necessary evil for people who can't find work in their home countries.",
+        "D": "It's a burden that digital nomads would be better off without."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Rachel recommend creating for unexpected events such as visa issues or health problems?",
+      "options": {
+        "A": "A regular savings account",
+        "B": "An emergency fund to cover at least three months' living expenses",
+        "C": "A budgeting plan with multiple sources of income",
+        "D": "Health insurance that covers medical expenses abroad"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main purpose of this guide to budgeting for digital nomads?",
+      "options": {
+        "A": "To provide information on popular destinations for remote work",
+        "B": "To help readers navigate their finances while traveling abroad",
+        "C": "To promote freelancing and remote employment opportunities",
+        "D": "To offer tips on staying organized and productive as a digital nomad"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_46",
+  "title": "The Green Revolution: Rethinking Shopping in a Changing World",
+  "topic": "technology",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "Sustainable Shopping: A Cultural Shift Towards Ethical Consumption\n\nIn recent years, the world has witnessed a significant shift in consumer behavior towards sustainable shopping and ethical consumption. Gone are the days when buying cheap, trendy clothes or gadgets was considered the epitome of success. Today, consumers are increasingly aware of the environmental and social impact of their purchasing decisions, leading to a cultural movement that prioritizes sustainability and responsibility.\n\nAt its core, sustainable shopping is about making conscious choices that minimize harm to the planet and its inhabitants. This involves considering the entire lifecycle of a product, from production to disposal, and choosing options that reduce waste, pollution, and exploitation. Ethical consumption, on the other hand, focuses on the social implications of our purchasing power, advocating for fair labor practices, safe working conditions, and equitable trade.\n\nThe rise of fast fashion has been a major catalyst for this cultural shift. The industry's emphasis on speed, affordability, and disposability has led to an alarming amount of waste, with the average American generating 82 pounds of textile waste per year. However, consumers are now seeking alternatives that prioritize quality over quantity, investing in timeless pieces made from sustainable materials or repurposing old garments.\n\nOne notable example is the growth of second-hand shopping. Online platforms like ThredUp and eBay have made it easier than ever to buy and sell pre-owned items, reducing waste and promoting circular economy practices. Similarly, stores like Patagonia and Reformation are incorporating sustainability into their business models, using recycled materials, reducing energy consumption, and promoting fair labor practices.\n\nBeyond fashion, sustainable shopping has extended to other product categories, including food, home goods, and personal care products. The rise of zero-waste stores and online marketplaces specializing in eco-friendly products has created a new retail landscape that prioritizes sustainability over convenience.\n\nHowever, this shift towards sustainable shopping is not without its challenges. Many consumers struggle with the perceived higher cost of eco-friendly products or feel overwhelmed by the sheer amount of information available on product labels. Furthermore, some argue that the emphasis on individual consumer behavior distracts from systemic issues such as corporate responsibility and government policies that perpetuate unsustainable practices.\n\nDespite these challenges, the cultural movement towards sustainable shopping and ethical consumption is gaining momentum. Social media platforms like Instagram and TikTok have become breeding grounds for eco-conscious influencers, sharing tips and tricks for reducing waste and promoting sustainable living. Online communities and forums dedicated to sustainable shopping have also sprouted up, providing a space for consumers to share knowledge, resources, and best practices.\n\nAs we continue on this path towards sustainability, it's essential to acknowledge that individual actions alone cannot solve the complex problems we face. Corporations, governments, and policymakers must be held accountable for their role in perpetuating unsustainable practices. However, by making conscious choices as consumers, we can collectively drive demand for change and create a cultural shift that prioritizes people and planet over profit.\n\nIn conclusion, sustainable shopping and ethical consumption have become the new normal, driven by a growing awareness of the environmental and social impact of our purchasing decisions. As consumers, we have the power to shape this movement, driving innovation, advocacy, and policy changes that promote sustainability and responsibility. The future is not just about individual actions; it's about creating a cultural paradigm shift that prioritizes the well-being of both people and planet.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's view on the role of corporations in sustainable shopping?",
+      "options": {
+        "A": "The author believes that corporations are primarily responsible for perpetuating unsustainable practices.",
+        "B": "The author suggests that individual consumer actions are more effective than corporate policies in driving change.",
+        "C": "The author thinks that corporations have a crucial role to play in promoting sustainability, but need to be held accountable for their past actions.",
+        "D": "The author argues that corporations are not significant contributors to the shift towards sustainable shopping."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"catalyst\" mean in the context of the rise of fast fashion?",
+      "options": {
+        "A": "A result or consequence",
+        "B": "An event, situation, or person that speeds up a process or change",
+        "C": "A barrier or obstacle to progress",
+        "D": "A way to reduce waste and pollution"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, how many pounds of textile waste does the average American generate per year?",
+      "options": {
+        "A": "50 pounds",
+        "B": "70 pounds",
+        "C": "82 pounds",
+        "D": "100 pounds"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards consumers who struggle with the higher cost of eco-friendly products?",
+      "options": {
+        "A": "The author believes they are making a responsible decision by choosing affordable options.",
+        "B": "The author thinks they are being irresponsible by prioritizing price over sustainability.",
+        "C": "The author acknowledges that it can be challenging but encourages them to consider the long-term benefits.",
+        "D": "The author suggests that they should not be expected to make sacrifices for the environment."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"this\" refer to in the following sentence from the text?",
+      "options": {
+        "A": "The entire lifecycle of a product, from production to disposal",
+        "B": "The social implications of our purchasing power",
+        "C": "The alarming amount of waste generated by the fast fashion industry",
+        "D": "The cultural movement towards sustainable shopping and ethical consumption"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "To persuade readers to adopt fast fashion as a lifestyle choice",
+        "B": "To highlight the benefits of making conscious choices that minimize harm to the environment and its inhabitants",
+        "C": "To analyze the challenges faced by consumers in adopting eco-friendly products",
+        "D": "To encourage readers to ignore corporate responsibility and government policies for sustainability"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

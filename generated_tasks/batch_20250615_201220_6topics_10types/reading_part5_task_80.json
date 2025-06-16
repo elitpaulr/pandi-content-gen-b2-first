@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_80",
+  "title": "10 Ways to Earn Money While You Sleep: The Ultimate Passive Income Guide",
+  "topic": "general",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "The Rise of Side Hustles and Passive Income: How Employees Are Taking Control of Their Finances\n\nIn today's fast-paced work environment, employees are no longer content with just a steady paycheck. With the increasing cost of living and stagnant wages, many are seeking ways to supplement their income and achieve financial stability. Enter the world of side hustles and passive income – a phenomenon that is rapidly gaining traction among employees looking to take control of their finances.\n\nA side hustle, by definition, is any part-time business or entrepreneurial venture pursued in addition to one's primary job. This can range from freelancing or consulting to selling products online or renting out a spare room on Airbnb. The benefits of having a side hustle are numerous – not only does it provide an additional source of income, but it also allows employees to develop new skills, explore their passions, and potentially create a more fulfilling career.\n\nPassive income, on the other hand, refers to earnings that require minimal effort or maintenance once they've been set up. This can include investments in stocks, real estate, or peer-to-peer lending, as well as creating and selling online courses, ebooks, or software products. Passive income provides employees with a sense of security and financial freedom, knowing that their hard work is generating money even when they're not actively working.\n\nAccording to a recent survey by the American Express Open Forum, 44% of millennials have started a side hustle in the past year alone. This trend is driven by the desire for financial independence and flexibility, as well as the need to stay competitive in today's job market. With the rise of gig economy and remote work, employees are no longer tied to a single employer or location – they can now pursue multiple income streams and create their own schedules.\n\nOne example of a side hustle that has gained popularity is online freelancing. Platforms like Upwork, Fiverr, and Freelancer offer a range of services, from writing and design to programming and consulting. Employees can use these platforms to offer their skills on a part-time basis, earning extra money in their spare time.\n\nAnother example is creating and selling digital products. With the rise of e-commerce and online marketplaces like Amazon Kindle Direct Publishing and Etsy, it's easier than ever for employees to create and sell their own products – whether it's an ebook, a course, or handmade goods. This not only generates passive income but also allows employees to share their expertise and showcase their creativity.\n\nReal estate investing is another popular side hustle that has gained traction in recent years. With the rise of peer-to-peer lending and real estate crowdfunding platforms like Fundrise and Rich Uncles, employees can now invest in properties with minimal upfront costs. This not only generates passive income through rental yields but also provides a sense of ownership and long-term financial security.\n\nWhile side hustles and passive income offer many benefits, they also come with their own set of challenges. Time management is one of the biggest obstacles – balancing a full-time job with a part-time business or investment can be overwhelming. Additionally, there's always a risk involved when investing in any new venture – whether it's time, money, or emotional energy.\n\nDespite these challenges, employees are taking control of their finances and embracing side hustles and passive income as a way to achieve financial stability. With the rise of the gig economy and digital platforms, it's never been easier to create multiple income streams and pursue entrepreneurial ventures. As one employee-turned-entrepreneur put it, \"Having a side hustle is not just about making extra money – it's about creating a sense of purpose and fulfillment in my life.\"\n\nIn conclusion, side hustles and passive income are on the rise as employees seek to take control of their finances and achieve financial stability. Whether through freelancing, online business, or real estate investing, these alternatives offer a range of benefits – from developing new skills to generating passive income. As the job market continues to evolve, it's clear that side hustles and passive income are here to stay – and employees would do well to take advantage of them.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to employees who fail to adapt to the changing job market and its emphasis on multiple income streams?",
+      "options": {
+        "A": "They will be able to maintain their current level of financial stability without needing a side hustle or passive income.",
+        "B": "They will struggle to make ends meet due to stagnant wages and increasing living costs.",
+        "C": "They will have more time to focus on their primary job as the demand for side hustles decreases.",
+        "D": "They will no longer be able to balance their work-life responsibilities."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"passive income\" refer to in this text?",
+      "options": {
+        "A": "Money earned through hard work or effort",
+        "B": "Earnings that require minimal effort or maintenance once they've been set up",
+        "C": "A type of investment that involves high upfront costs",
+        "D": "A source of income that is guaranteed by an employer"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of millennials have started a side hustle in the past year alone, according to a recent survey by the American Express Open Forum?",
+      "options": {
+        "A": "30%",
+        "B": "44%",
+        "C": "50%",
+        "D": "60%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What can be inferred about the author's attitude towards side hustles and passive income?",
+      "options": {
+        "A": "The author believes they are a sign of laziness and lack of commitment.",
+        "B": "The author thinks they offer employees a sense of financial freedom and security.",
+        "C": "The author views them as a necessary evil in today's job market.",
+        "D": "The author is skeptical about their long-term benefits."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"employees looking to take control of their finances\" refer to in this text?",
+      "options": {
+        "A": "The increasing cost of living",
+        "B": "The benefits of having a side hustle",
+        "C": "Employees who are seeking ways to supplement their income and achieve financial stability",
+        "D": "The phenomenon of side hustles and passive income"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is driving the increasing popularity of side hustles and passive income among employees?",
+      "options": {
+        "A": "The desire for financial independence and flexibility",
+        "B": "The need for a traditional full-time job with benefits",
+        "C": "The rise of automation and artificial intelligence in the workforce",
+        "D": "The decline of online platforms and digital marketplaces"
+      },
+      "correct_answer": "A",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

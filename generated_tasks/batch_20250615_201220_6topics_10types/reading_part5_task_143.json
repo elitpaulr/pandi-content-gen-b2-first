@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_143",
+  "title": "Surviving on $10 a Day: Budget Hacks for Digital Nomad Life",
+  "topic": "technology",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "As a digital nomad, you're probably no stranger to living out of a suitcase or working from a coffee shop in a foreign country. But despite the freedom that comes with this lifestyle, managing your finances can be a real challenge. Between navigating unfamiliar currencies, keeping track of expenses, and making ends meet on a variable income, it's easy to get caught up in stress and uncertainty.\n\nBut don't worry – we've got you covered! In this article, we'll take a closer look at the ins and outs of budgeting for digital nomads, with practical tips and advice from experts who know what they're talking about.\n\nFirst things first: understanding your income is key to creating a budget that works for you. As a freelancer or remote worker, it's essential to have a clear picture of how much money you'll be bringing in each month. This might mean tracking your hours worked, calculating your hourly rate, and setting realistic targets for the number of clients you can take on.\n\nOf course, variable income is just one of the challenges that digital nomads face when it comes to budgeting. Another major issue is keeping track of expenses – especially in unfamiliar countries where prices may be higher or lower than what you're used to back home. To get around this problem, many digital nomads swear by mobile apps like Mint or Personal Capital, which allow them to easily track their spending and stay on top of their finances.\n\nBut budgeting for digital nomads isn't just about tracking income and expenses – it's also about making smart choices about how you spend your money. One strategy that experts recommend is the \"50/30/20 rule\": 50% of your income goes towards necessary expenses like rent, food, and transportation; 30% towards discretionary spending like travel or entertainment; and 20% towards saving and debt repayment.\n\nAnother key consideration for digital nomads is the cost of living in different countries. For example, if you're planning to spend several months in Southeast Asia, you may find that your money goes much further than it would back home in a major Western city. On the other hand, countries like Iceland or Switzerland can be eye-wateringly expensive – so it's essential to factor these costs into your budget from the get-go.\n\nOne of the biggest benefits of living as a digital nomad is the opportunity to explore new places and experience different cultures. But this also means that you'll need to plan ahead for things like travel insurance, visas, and health care – all of which can add up quickly if you're not careful. To stay on top of these expenses, many digital nomads recommend creating a separate fund specifically for these types of costs.\n\nOf course, budgeting as a digital nomad isn't just about numbers – it's also about mindset. One expert recommends creating a \"financial emergency kit\" – essentially a stash of savings that you can dip into in case of unexpected expenses or financial setbacks. This might mean setting aside a few thousand dollars for the month, or building up an emergency fund over time.\n\nUltimately, budgeting as a digital nomad requires flexibility, adaptability, and a willingness to learn as you go. By staying organized, tracking your spending, and making smart choices about how you spend your money, you can stay on top of your finances even in the most unpredictable circumstances.\n\nSo whether you're just starting out as a digital nomad or are an old pro at navigating the ups and downs of this lifestyle, remember that budgeting is key to enjoying all the benefits that come with being location-independent. With the right tools, mindset, and strategies, you can stay financially fit even on the road – and enjoy the freedom and adventure that comes with living as a digital nomad.\n\nBy following these practical tips and advice from experts in the field, you'll be well on your way to mastering the art of budgeting as a digital nomad. Happy travels!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is one of the main challenges that digital nomads face when it comes to budgeting, according to the article?",
+      "options": {
+        "A": "Keeping track of income from multiple clients",
+        "B": "Navigating unfamiliar currencies and exchange rates",
+        "C": "Calculating their hourly rate and setting realistic targets for client work",
+        "D": "Managing variable expenses in different countries"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for an income to be \"variable\"?",
+      "options": {
+        "A": "It means that the amount of money earned is always the same",
+        "B": "It means that the amount of money earned can change from one month to another",
+        "C": "It means that the amount of money earned depends on the location",
+        "D": "It means that the amount of money earned increases over time"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the \"50/30/20 rule\", what percentage of income should go towards saving and debt repayment?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "40%",
+        "D": "60%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards managing finances as a digital nomad?",
+      "options": {
+        "A": "The author thinks it's impossible for digital nomads to manage their finances effectively.",
+        "B": "The author finds managing finances as a digital nomad to be a real challenge, but provides solutions and advice to help.",
+        "C": "The author doesn't think budgeting is necessary for digital nomads because they can just earn more money.",
+        "D": "The author thinks managing finances as a digital nomad is easy and requires no special effort."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the 50/30/20 rule\" refer to in this article?",
+      "options": {
+        "A": "A type of visa required for digital nomads",
+        "B": "A strategy for allocating income towards necessary expenses, discretionary spending, and saving",
+        "C": "A mobile app used to track expenses and stay on top of finances",
+        "D": "A fund created specifically for travel insurance, visas, and health care"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this article about budgeting for digital nomads?",
+      "options": {
+        "A": "To introduce mobile apps that help digital nomads track their finances",
+        "B": "To provide tips and advice on how to manage variable income as a freelancer or remote worker",
+        "C": "To explain the importance of having a clear picture of one's financial situation when living abroad",
+        "D": "To outline the benefits of adopting a flexible and adaptable approach to budgeting while traveling"
+      },
+      "correct_answer": "D",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

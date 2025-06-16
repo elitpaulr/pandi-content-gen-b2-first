@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_99",
+  "title": "Unlocking Crypto: A Beginner's Guide to Making Your Money Grow",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sat in front of her laptop, Emily stared at the wall of text on her screen with a mix of confusion and frustration. She had always been interested in technology, but the world of cryptocurrency had seemed like a foreign language to her.\n\n\"What's the point of it all?\" her friend Rachel asked, sipping her coffee across from her. \"Can't we just use regular money?\"\n\nEmily sighed, rubbing her temples. \"It's not that simple. Cryptocurrency is like digital cash, but instead of being controlled by governments or banks, it's decentralized and run by a network of computers around the world.\"\n\nRachel raised an eyebrow. \"Decentralized? What does that even mean?\"\n\n\"It means that no single entity has control over it,\" Emily explained patiently. \"It's like a community-owned thing. And because it's digital, you can send it to anyone in the world instantly, without needing banks or intermediaries.\"\n\nRachel looked skeptical. \"But isn't it just for shady characters and hackers? I've heard horror stories about people losing their life savings to some Ponzi scheme.\"\n\nEmily smiled wryly. \"Yeah, there are definitely some bad apples out there. But that's true of any investment, really. The key is understanding how it works and being careful with your money.\"\n\n\"So, what makes it work?\" Rachel asked, her curiosity piqued.\n\n\"Well,\" Emily began, \"it all starts with something called a blockchain. It's like a digital ledger that records every transaction made with the currency, so you can see exactly where the money came from and where it went.\"\n\nRachel leaned in, fascinated. \"Like a digital paper trail?\"\n\n\"Exactly! And because it's decentralized, the whole network of computers has to agree on each new block before it gets added to the chain. That way, everything is transparent and secure.\"\n\nEmily pulled up an example on her screen: a chart showing the rapid rise and fall of Bitcoin's value in 2017. \"See how volatile it can be? But also see how quickly it recovered from that crash?\"\n\nRachel whistled. \"Wow, I had no idea. So, how do people actually buy and sell cryptocurrency?\"\n\n\"It's pretty simple,\" Emily said with a grin. \"You just create an account on an exchange – like Coinbase or Binance – and deposit some money to start buying in. Then you can trade it for other currencies or even use it to buy things online.\"\n\nRachel looked hesitant, but also intrigued. \"I guess I see how it could be useful... But what about security? Can't someone just hack into my account and steal all my digital cash?\"\n\nEmily nodded understandingly. \"Yeah, that's a valid concern. But most exchanges have top-notch security measures in place – like two-factor authentication and encryption – to protect your accounts. And you can even use hardware wallets or cold storage to keep your coins safe offline.\"\n\nAs Emily spoke, Rachel's eyes began to light up with comprehension. \"You know, I think I get it now. Cryptocurrency is like a digital revolution – disrupting traditional banking systems and giving people more control over their money.\"\n\nEmily smiled, pleased that her friend was catching on. \"Exactly! And while there are certainly risks involved, the potential rewards can be huge too.\"\n\nAs they wrapped up their conversation, Rachel leaned back in her chair, looking thoughtful. \"You know what? I think I might just have to give it a try.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to the value of Bitcoin if most people lose confidence in its security?",
+      "options": {
+        "A": "It will continue to rise",
+        "B": "It will suddenly plummet and stay low forever",
+        "C": "It will remain stable for a while, then recover quickly",
+        "D": "It will fluctuate wildly until more people understand how it works"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Emily mean by \"decentralized\" when explaining cryptocurrency?",
+      "options": {
+        "A": "It is controlled by governments or banks.",
+        "B": "No single entity has control over it, and it's run by a network of computers around the world.",
+        "C": "It uses special equipment to generate new currency.",
+        "D": "It's only used for online transactions between individuals."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one way that people can protect their cryptocurrency accounts from hacking?",
+      "options": {
+        "A": "By only using public Wi-Fi",
+        "B": "By creating an account on a reputable exchange and enabling two-factor authentication",
+        "C": "By not sharing their passwords with anyone",
+        "D": "By keeping their computers turned off when not in use"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Emily imply is the main problem with cryptocurrency for people who are new to it?",
+      "options": {
+        "A": "It's too complicated and requires too much technical knowledge.",
+        "B": "People don't understand its benefits and uses, but it has potential rewards.",
+        "C": "The risks involved in investing in cryptocurrency outweigh any potential gains.",
+        "D": "Cryptocurrency is only suitable for experienced investors and tech-savvy individuals."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who has control over cryptocurrency according to Emily?",
+      "options": {
+        "A": "Governments and banks",
+        "B": "A single entity or organization",
+        "C": "The community of users worldwide",
+        "D": "Rachel's friend, Alex"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of Emily's explanation about cryptocurrency to her friend Rachel?",
+      "options": {
+        "A": "Cryptocurrency is only used for illegal activities.",
+        "B": "The benefits of cryptocurrency include being able to send money anywhere in the world instantly without banks or intermediaries.",
+        "C": "Cryptocurrency is a new and complex concept that is difficult to understand.",
+        "D": "People should avoid investing in cryptocurrency because it's too volatile."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

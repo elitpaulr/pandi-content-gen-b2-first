@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_01",
+  "title": "Money Mastery in Your Twenties: Breaking Free from Financial Stress",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**Taking Control of Your Finances**\n\nAs a young adult, managing your finances can be overwhelming. Between student loans, credit card debt, and trying to build savings, it's easy to feel like you're drowning in a sea of numbers. But with the right tools and mindset, anyone can develop financial literacy and take control of their financial future.\n\n**The Importance of Financial Literacy**\n\nFinancial literacy is not just about knowing how to balance your checkbook or understand compound interest (although that's a good start). It's about making informed decisions about how you use your money. In a world where credit card debt and student loans are increasingly common, having a solid understanding of personal finance can make all the difference.\n\nAccording to a recent survey by the National Foundation for Credit Counseling, nearly 70% of young adults (ages 18-24) report feeling anxious or stressed about their finances. And it's not hard to see why: with the cost of living increasing and wages stagnant, many young adults are struggling to make ends meet.\n\n**Getting Started**\n\nSo where do you begin? Here are a few tips to help you get started:\n\n1. **Track your expenses**: Start by keeping track of every single transaction you make for one month. Write it down in a notebook or use an app like Mint or Personal Capital to make it easier.\n2. **Create a budget**: Based on your income and expenses, create a realistic budget that outlines projected income and expenses for the next month.\n3. **Prioritize needs over wants**: Be honest with yourself about what you need versus what you want. Make sure to prioritize essential expenses like rent/mortgage, utilities, and groceries before splurging on discretionary items.\n\n**Common Financial Mistakes**\n\nAs a young adult, it's easy to fall into common financial traps. Here are a few to watch out for:\n\n1. **Over-reliance on credit cards**: Using credit cards can be convenient, but it can also lead to debt if you're not careful.\n2. **Not saving enough**: With so many expenses competing for your attention, it's easy to neglect savings altogether.\n3. **Lack of emergency fund**: Having a cushion in place can help you weather financial storms and avoid going into debt.\n\n**Expert Advice**\n\nWe spoke with personal finance expert, Farnoosh Torabi, about what she wishes young adults knew about money management:\n\n\"The biggest mistake I see young adults making is not taking the time to understand their own financial goals,\" says Torabi. \"Before you start making big decisions about your money, take some time to think about what you want to achieve – whether it's paying off student loans, building a down payment on a house, or simply having enough saved for emergencies.\"\n\n**Putting It All Together**\n\nDeveloping financial literacy is not a one-time task; it takes ongoing effort and practice. But with the right tools and mindset, anyone can become financially savvy.\n\nRemember: financial literacy is not just about numbers; it's about making informed decisions that align with your values and goals. By taking control of your finances now, you'll be better equipped to handle life's unexpected twists and turns – and set yourself up for long-term success.\n\n**Start Your Financial Journey Today**\n\nTake the first step towards financial freedom by:\n\n* Downloading a budgeting app or spreadsheet\n* Starting a savings plan\n* Researching local financial counseling resources\n\nYour financial future starts now.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if young adults don't take control of their finances, according to Farnoosh Torabi's advice?",
+      "options": {
+        "A": "They will make smart investments",
+        "B": "They will accumulate more debt and struggle with financial stress",
+        "C": "They will be able to afford luxury items immediately",
+        "D": "They will have enough money saved for emergencies"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"drowning in a sea of numbers\" mean in this context?",
+      "options": {
+        "A": "To feel overwhelmed by too many bills to pay",
+        "B": "To be confused about how to use credit cards",
+        "C": "To struggle with keeping track of every single financial transaction",
+        "D": "To have no idea what your finances are like"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the National Foundation for Credit Counseling, what percentage of young adults (ages 18-24) report feeling anxious or stressed about their finances?",
+      "options": {
+        "A": "40%",
+        "B": "Nearly 70%",
+        "C": "Over 80%",
+        "D": "Less than 50%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards young adults who are struggling with their finances?",
+      "options": {
+        "A": "The author thinks that young adults are too lazy to manage their finances properly.",
+        "B": "The author believes that financial literacy can empower young adults and give them control over their financial future.",
+        "C": "The author thinks that financial struggles are a normal part of growing up and should be ignored.",
+        "D": "The author is pessimistic about the ability of young adults to change their financial habits."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"it\" refer to in the sentence \"Before you start making big decisions about your money, take some time to think about what you want to achieve – whether it's paying off student loans, building a down payment on a house, or simply having enough saved for emergencies\"?",
+      "options": {
+        "A": "Farnoosh Torabi",
+        "B": "Financial literacy",
+        "C": "Student loans",
+        "D": "Your financial goals"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this article about financial literacy for young adults?",
+      "options": {
+        "A": "To help readers understand how to make more money",
+        "B": "To provide tips and advice on taking control of one's finances and becoming financially literate",
+        "C": "To warn readers about the dangers of credit card debt and student loans",
+        "D": "To explain the importance of balancing a checkbook and understanding compound interest"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

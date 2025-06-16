@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_145",
+  "title": "Surviving on $20 a Day: Budget Hacks for Digital Nomad Travelers",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I sat on the sun-kissed beaches of Bali, sipping coconut water and tapping away at my laptop, I couldn't help but feel grateful for this life as a digital nomad. The freedom to roam, to work from anywhere, and to experience new cultures – it's a dream come true for many of us. But with great freedom comes great responsibility, and one of the most important aspects of being a digital nomad is managing our finances.\n\nFor those who are new to this lifestyle, budgeting can seem like an overwhelming task. How do you prioritize your expenses when you're constantly on the move? Where do you even start?\n\nLet's begin with the basics. As a digital nomad, it's essential to have a clear understanding of your income and expenses. Start by tracking every single transaction – no matter how small or insignificant it may seem. Use an app like Mint or Personal Capital to help you stay on top of your finances.\n\nNext, categorize your expenses into needs versus wants. Your needs will include essentials such as accommodation, food, and transportation, while your wants might be things like traveling, dining out, or trying new activities. Prioritize your needs first, making sure you have enough money set aside for the basics.\n\nAccommodation is often one of the biggest expenses for digital nomads. Options range from budget-friendly hostels to luxurious Airbnb apartments, so it's essential to set a realistic budget and stick to it. In cities like Chiang Mai or Medellín, you can find affordable accommodation options for under $500 per month. In more expensive locations like Tokyo or San Francisco, be prepared to pay upwards of $2,000 per month.\n\nFood is another significant expense, but also an opportunity to experience local cuisine and culture. Eat at street food stalls or markets, where a meal can cost as little as $3. Try cooking your own meals using fresh ingredients from the local market – not only will it save you money, but it's also a great way to bond with fellow travelers.\n\nTransportation costs can add up quickly, especially if you're constantly on the move. Consider budget airlines or bus companies for long-distance travel, and opt for public transportation or walking/biking whenever possible.\n\nBut budgeting isn't just about cutting expenses – it's also about making the most of your money. As a digital nomad, you have the freedom to live life on your own terms. Take advantage of this by investing in experiences rather than material possessions. Visit local festivals, try new activities like rock climbing or yoga, and explore hidden corners of the city.\n\nOne of the biggest advantages of being a digital nomad is access to a global community. Connect with fellow travelers through online forums or social media groups, and take advantage of shared knowledge and resources. Many digital nomads have created their own communities, offering coworking spaces, language exchange programs, and even investment opportunities.\n\nOf course, budgeting as a digital nomad isn't without its challenges. Exchange rates can fluctuate rapidly, making it difficult to plan ahead. Currency restrictions can limit your access to local ATMs or banks. And then there's the ever-present risk of scams or financial loss – especially when dealing with unfamiliar currencies and institutions.\n\nBut with the right mindset and resources, you can navigate these challenges with ease. Stay informed about exchange rates and economic trends in each country you visit. Use secure payment methods like TransferWise or PayPal to minimize fees and risks. And always keep a backup of your important documents and financial information – both online and offline.\n\nAs I reflect on my time as a digital nomad, I realize that budgeting isn't just about money – it's about living life to the fullest. By prioritizing our needs, investing in experiences, and connecting with fellow travelers, we can create a lifestyle that's both financially sustainable and incredibly rewarding.\n\nSo if you're ready to take the leap and join the ranks of digital nomads around the world, remember this: budgeting is not about depriving yourself – it's about living life on your own terms. Happy travels!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude to budgeting as a digital nomad?",
+      "options": {
+        "A": "The author views budgeting as a necessary evil, but has no personal interest in managing their finances.",
+        "B": "The author believes that budgeting is essential for enjoying the freedom and experiences of being a digital nomad.",
+        "C": "The author thinks that budgeting is only important when traveling to expensive locations like Tokyo or San Francisco.",
+        "D": "The author recommends ignoring expenses and focusing solely on saving money."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the author mean by \"investing in experiences rather than material possessions\"?",
+      "options": {
+        "A": "To spend money on buying luxury items",
+        "B": "To prioritize spending money on food and accommodation over other expenses",
+        "C": "To use your money to gain new skills, knowledge, or cultural experiences",
+        "D": "To save money by cutting back on travel and exploration"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How much can a meal cost at a street food stall or market?",
+      "options": {
+        "A": "$10",
+        "B": "$3",
+        "C": "$5",
+        "D": "$20"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author believe is the main purpose of budgeting for digital nomads?",
+      "options": {
+        "A": "To minimize expenses and save as much money as possible",
+        "B": "To prioritize needs over wants and invest in experiences",
+        "C": "To restrict oneself to a narrow lifestyle with minimal freedom",
+        "D": "To follow traditional financial planning methods without flexibility"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"you\" refer to in the sentence \"For those who are new to this lifestyle, budgeting can seem like an overwhelming task. How do you prioritize your expenses when you're constantly on the move?\"",
+      "options": {
+        "A": "Fellow digital nomads",
+        "B": "The author of the text",
+        "C": "People who have never lived as a digital nomad before",
+        "D": "Anyone who wants to live abroad and work remotely"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text for a digital nomad who wants to manage their finances effectively?",
+      "options": {
+        "A": "To learn how to make money while traveling",
+        "B": "To understand that budgeting as a digital nomad requires discipline and responsibility",
+        "C": "To explore ways to cut expenses and live on a tight budget",
+        "D": "To prioritize experiences over material possessions and connect with fellow travelers"
+      },
+      "correct_answer": "D",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

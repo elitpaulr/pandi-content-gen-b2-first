@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_45",
+  "title": "Fuel Your Fitness: Unlock the Power of Proper Sports Nutrition",
+  "topic": "health_and_fitness",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "As an amateur athlete, you know how essential proper nutrition is to your performance on the field or court. A well-planned diet can make all the difference between winning and losing, while a poorly planned one can lead to fatigue, injury, and decreased motivation. But what does it take to fuel your body for optimal athletic performance? Let's dive into the world of sports nutrition.\n\n**Understanding Your Energy Needs**\n\nWhen you exercise, your muscles use up stored energy in the form of glycogen and ATP (adenosine triphosphate). If these stores are depleted, you'll feel fatigued and struggle to perform at your best. To avoid this, it's essential to consume enough carbohydrates, protein, and healthy fats to replenish these energy stores.\n\nThe International Society of Sports Nutrition recommends that athletes aim to consume 2-3 grams of carbohydrates per kilogram of body weight daily. For example, if you weigh 70 kilograms (154 pounds), you should aim for 140-210 grams of carbohydrates each day. Focus on complex carbs like whole grains, fruits, and vegetables, which provide sustained energy and essential vitamins and minerals.\n\n**Hydration: The Key to Optimal Performance**\n\nProper hydration is just as crucial as proper nutrition when it comes to athletic performance. Even mild dehydration can lead to decreased power output, speed, and endurance. Aim to drink at least 8-10 glasses of water per day, and make sure to consume electrolyte-rich drinks during intense or long-duration activities.\n\n**Timing Is Everything**\n\nWhen it comes to fueling your body for optimal performance, timing is everything. Aim to eat a balanced meal that includes carbohydrates, protein, and healthy fats 1-3 hours before competition or exercise. This will help top off your energy stores and provide the necessary building blocks for muscle repair and recovery.\n\nDuring exercise, aim to consume easily digestible carbs like sports drinks, energy gels, or bananas. These can help replenish energy stores and prevent bonking (a state of extreme fatigue). Post-workout, focus on consuming a mix of carbohydrates and protein within 30-60 minutes to aid in muscle repair and recovery.\n\n**Macronutrient Balance**\n\nWhile it's essential to consume enough carbs for energy production, you also need adequate protein to build and repair muscle tissue. Aim to consume 1.2-1.6 grams of protein per kilogram of body weight daily, spread out over 3-5 main meals.\n\nHealthy fats are also crucial for athletic performance, providing sustained energy and supporting the absorption of fat-soluble vitamins. Focus on consuming sources like nuts, seeds, avocados, and olive oil.\n\n**Individualized Nutrition**\n\nWhile these general guidelines provide a good starting point, it's essential to remember that every athlete is unique. Factors like body composition, training intensity, and dietary restrictions can impact your nutritional needs.\n\nWork with a registered dietitian or qualified healthcare professional to develop an individualized nutrition plan tailored to your specific needs. This will help you optimize your performance while avoiding potential pitfalls like overtraining, injury, or digestive issues.\n\n**Conclusion**\n\nSports nutrition is not rocket science, but it does require attention to detail and a willingness to experiment and adapt. By understanding your energy needs, staying hydrated, timing your meals correctly, balancing macronutrients, and working with a qualified professional, you can optimize your athletic performance and achieve your goals. Remember, proper nutrition is the foundation of success – don't neglect it!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What would likely happen to an amateur athlete's energy levels if they only consumed enough carbohydrates for their body weight on one day a week?",
+      "options": {
+        "A": "Their energy stores would be replenished, but not sustainably",
+        "B": "They would experience no noticeable difference in performance",
+        "C": "Their muscles would start using stored fat as energy instead of glycogen and ATP",
+        "D": "They would feel extremely fatigued during exercise due to depleted energy stores"
+      },
+      "correct_answer": "D",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"bonking\" refer to in the context of exercise?",
+      "options": {
+        "A": "A state of extreme excitement",
+        "B": "A state of extreme fatigue",
+        "C": "A type of sports injury",
+        "D": "A digestive issue common among athletes"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many grams of carbohydrates does an amateur athlete aim to consume daily according to the International Society of Sports Nutrition?",
+      "options": {
+        "A": "1-2 grams per kilogram of body weight",
+        "B": "2-3 grams per kilogram of body weight",
+        "C": "4-5 grams per kilogram of body weight",
+        "D": "6-7 grams per kilogram of body weight"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about the importance of sports nutrition for amateur athletes?",
+      "options": {
+        "A": "The author believes that a well-planned diet is not crucial for athletic performance.",
+        "B": "The author thinks that proper nutrition can make all the difference between winning and losing.",
+        "C": "The author suggests that individualized nutrition plans are unnecessary for most athletes.",
+        "D": "The author states that hydration is more important than nutrition for optimal performance."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What do these carbohydrates, protein, and healthy fats help to replenish during exercise?",
+      "options": {
+        "A": "Muscle tissue",
+        "B": "Energy stores in the form of glycogen and ATP",
+        "C": "Blood sugar levels",
+        "D": "Body water"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sports nutrition for amateur athletes?",
+      "options": {
+        "A": "The article discusses the importance of hydration for optimal athletic performance.",
+        "B": "The text provides a detailed explanation of how to create an individualized nutrition plan for each athlete.",
+        "C": "Proper nutrition, including carbohydrate intake and macronutrient balance, is essential for achieving success in sports.",
+        "D": "The main focus of the text is on providing general guidelines for amateur athletes to follow."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

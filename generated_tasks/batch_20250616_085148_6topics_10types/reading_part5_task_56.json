@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_56",
+  "title": "The Dark Side of Fashion: Is Sustainable Style Just a Marketing Myth?",
+  "topic": "technology",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "The Fashion Revolution's Wake-Up Call\n\nIn recent years, the world of fashion has been forced to confront its dark side – one that is as much about fast-paced profit-driven production as it is about slow-poisoning our planet. The environmental and social costs of fast fashion have become increasingly apparent, sparking a global movement towards sustainable fashion and consumption.\n\nThe most obvious indicator of this shift is the rise of second-hand shopping. Thrift stores and online marketplaces are now flooded with consumers eager to buy pre-loved garments rather than contribute to the staggering 12.8 million tons of clothing waste generated annually in the United States alone. The likes of ThredUp, Poshmark, and Depop have capitalized on this trend by making it easier for people to buy, sell, and trade gently used items.\n\nAnother significant development is the emergence of clothing rental services. Companies like Rent the Runway and Vestiare Collective offer high-end fashion at a fraction of the cost by allowing consumers to borrow rather than buy. This model not only reduces waste but also democratizes access to luxury brands that were previously out of reach for many.\n\nThe industry's response to these changes has been mixed, with some companies embracing sustainable practices while others continue to prioritize profits over people and planet. Patagonia, a pioneer in environmentally-friendly manufacturing, has made significant strides in reducing its environmental impact through the use of recycled materials and regenerative farming practices. However, even the most well-intentioned brands struggle to keep up with the pace of consumption.\n\nFast fashion's business model relies on churning out cheap, trendy garments that are worn once or twice before being discarded. This cycle is fueled by social media platforms like Instagram and TikTok, where influencer endorsements and celebrity sightings create a culture of instant gratification. The average American generates 82 pounds of textile waste per year – a staggering figure that underscores the need for change.\n\nSo what does sustainable fashion look like in practice? For starters, it requires a fundamental shift in our relationship with clothing. Rather than viewing garments as disposable commodities, we must learn to value them as investments in our personal style and well-being. This means buying fewer, higher-quality items that are made to last rather than relying on fast-fashion's relentless stream of cheap knock-offs.\n\nIt also demands a more nuanced understanding of the production process. The truth is that many so-called \"sustainable\" brands are little more than greenwashing exercises designed to boost sales and credibility. Look for companies that prioritize transparency, use environmentally-friendly materials, and pay fair wages to their workers.\n\nUltimately, sustainable fashion is not just about clothes – it's a cultural movement that challenges our values and behaviors. As consumers, we must be willing to question the status quo and demand more from the brands we support. By embracing second-hand shopping, clothing rental services, and responsible manufacturing practices, we can create a more equitable and environmentally conscious industry.\n\nThe fashion revolution is here – it's time to join the movement.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does the text suggest about the role of social media platforms in perpetuating fast fashion?",
+      "options": {
+        "A": "They are a major obstacle to sustainable fashion practices",
+        "B": "They have helped to reduce textile waste by promoting second-hand shopping",
+        "C": "They are neutral and do not contribute to the problem of fast fashion",
+        "D": "They are an important tool for raising awareness about sustainable fashion options"
+      },
+      "correct_answer": "A",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"greenwashing\" mean in this context?",
+      "options": {
+        "A": "The practice of using environmentally-friendly materials to make clothes",
+        "B": "The process of making clothes more expensive by adding extra features",
+        "C": "The act of pretending that a company is sustainable when it's not",
+        "D": "A type of fabric used in fashion production"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the estimated annual amount of clothing waste generated in the United States?",
+      "options": {
+        "A": "8 million tons",
+        "B": "12.8 million tons",
+        "C": "20 million tons",
+        "D": "25 million tons"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think of companies that prioritize profits over people and planet?",
+      "options": {
+        "A": "They are making a positive contribution to sustainable fashion",
+        "B": "They are exploiting consumers for financial gain",
+        "C": "They are struggling to keep up with changing consumer demands",
+        "D": "They are doing their best in difficult circumstances"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"slow-poisoning our planet\" refer to in the text?",
+      "options": {
+        "A": "The environmental costs of fast fashion",
+        "B": "The social costs of fast fashion",
+        "C": "The economic benefits of sustainable production",
+        "D": "The effects of second-hand shopping on local communities"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about sustainable fashion?",
+      "options": {
+        "A": "The rise of fast fashion has led to a significant increase in global textile waste.",
+        "B": "Sustainable fashion requires a fundamental shift in our relationship with clothing, prioritizing quality over quantity and transparency in production.",
+        "C": "The Fashion Revolution is primarily focused on criticizing companies that prioritize profits over people and planet.",
+        "D": "Second-hand shopping and clothing rental services are the only effective solutions to reduce textile waste."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

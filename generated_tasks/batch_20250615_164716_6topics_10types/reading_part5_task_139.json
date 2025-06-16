@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_139",
+  "title": "Mastering Your Finances on the Move: A Digital Nomad's Budget Blueprint",
+  "topic": "technology",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "**The Digital Nomad's Guide to Budgeting Abroad**\n\nAs the world becomes increasingly interconnected, the concept of traditional employment has evolved. With the rise of remote work, a new breed of professionals has emerged: digital nomads. These individuals live and work abroad, often in exotic locations, while maintaining their careers through technology.\n\nHowever, navigating the financial aspects of this lifestyle can be daunting. Digital nomads must contend with fluctuating exchange rates, high cost-of-living expenses, and varying tax regulations across countries. Effective budgeting is essential for these professionals to maintain a stable financial footing while exploring the world.\n\n**Understanding Your Expenses**\n\nTo create a comprehensive budget, digital nomads must first identify their recurring expenses. These include:\n\n1. Rent: Short-term or long-term housing arrangements vary in cost depending on location and duration.\n2. Food: Eating out can be convenient but expensive; cooking at home is often a more cost-effective option.\n3. Transportation: Frequent travel between countries can quickly add up, especially if not factored into the budget.\n4. Health insurance: Adequate coverage is crucial for digital nomads, who may lack access to local medical facilities.\n\nNext, consider one-time expenses such as:\n\n1. Visa fees\n2. Travel vaccinations and medications\n3. Equipment purchases (e.g., laptops, portable Wi-Fi routers)\n\n**Budgeting Strategies**\n\nTo manage these expenses, digital nomads can employ various budgeting strategies:\n\n1. **50/30/20 Rule**: Allocate 50% of income towards necessary expenses, 30% for discretionary spending, and 20% for savings.\n2. **Envelope System**: Divide expenses into categories (e.g., housing, food) and allocate funds accordingly using separate \"envelopes.\"\n3. **Zero-Based Budgeting**: Account for every single transaction to ensure all expenses are justified.\n\nDigital nomads can also take advantage of tax-efficient solutions such as:\n\n1. **Tax-free savings accounts**: Many countries offer tax-advantaged retirement or savings plans.\n2. **Deductible business expenses**: Keep receipts and records of work-related costs, which may be deductible on personal income taxes.\n\n**Maximizing Income**\n\nTo supplement their income, digital nomads can explore various opportunities:\n\n1. **Freelancing**: Offer specialized skills to clients worldwide through platforms like Upwork or Freelancer.\n2. **Online tutoring**: Utilize language skills or expertise in a particular subject to teach students remotely.\n3. **Affiliate marketing**: Promote products or services of other companies and earn a commission.\n\n**Conclusion**\n\nBudgeting for digital nomads requires careful consideration of expenses, income, and tax regulations across countries. By employing effective budgeting strategies, maximizing income through various opportunities, and understanding their financial obligations, these professionals can maintain stability while exploring the world. Whether based in bustling cities or tranquil islands, digital nomads must prioritize financial planning to ensure a successful career abroad.\n\nEffective budgeting empowers digital nomads to make informed decisions about their lifestyle choices, from choosing destinations to investing in local experiences. By embracing this mindset and developing a comprehensive understanding of personal finances, these professionals can thrive in an increasingly globalized work environment.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if digital nomads do not account for every single transaction when managing their expenses?",
+      "options": {
+        "A": "They will struggle to save money.",
+        "B": "Their financial stability will be severely affected.",
+        "C": "They may miss out on tax deductions for deductible business expenses.",
+        "D": "They can maintain a stable income without any issues."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for expenses to be \"deductible on personal income taxes\"?",
+      "options": {
+        "A": "Something that is paid twice",
+        "B": "An expense that can be subtracted from taxable income",
+        "C": "A type of savings account with high interest rates",
+        "D": "A financial obligation that must be paid immediately"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one example of a deductible business expense for digital nomads?",
+      "options": {
+        "A": "Visa fees",
+        "B": "Rent for short-term housing arrangements",
+        "C": "Travel vaccinations and medications",
+        "D": "Keep receipts and records of work-related costs, which may be deductible on personal income taxes"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the financial challenges faced by digital nomads?",
+      "options": {
+        "A": "The author believes that digital nomads are reckless with their finances and should be more responsible.",
+        "B": "The author thinks that budgeting for digital nomads is a complex task, but it can be managed with the right strategies.",
+        "C": "The author suggests that digital nomads are wealthy individuals who don't need to worry about money.",
+        "D": "The author implies that digital nomads are irresponsible and lack financial discipline."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main purpose of \"The Digital Nomad's Guide to Budgeting Abroad\"?",
+      "options": {
+        "A": "To discuss the challenges of remote work and how to overcome them",
+        "B": "To provide digital nomads with essential information on budgeting abroad",
+        "C": "To explore various career opportunities for professionals working remotely",
+        "D": "To describe the benefits of a globalized work environment"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

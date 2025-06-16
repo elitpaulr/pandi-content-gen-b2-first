@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_72",
+  "title": "Turn Your Hobbies into Profit: Easy Side Hustles for Passive Income",
+  "topic": "general",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "As I sit here typing away on my laptop, I'm reminded of the journey that has led me to where I am today. It's been a few years since I first started exploring the world of side hustles and passive income, and what a wild ride it's been.\n\nFor those who may not know, a side hustle is essentially a part-time business or venture that you start in addition to your main job. It's a way to earn extra money, pursue your passions, and often create a more fulfilling life. And let me tell you, I was hooked from the very beginning.\n\nMy first foray into the world of side hustles was with freelance writing. I had always been interested in writing, but it wasn't until I started taking on clients outside of my full-time job that I realized how much I enjoyed it. The freedom to choose my own projects and work at my own pace was exhilarating.\n\nBut as I delved deeper into the world of side hustles, I began to realize that there were many other ways to earn money beyond just freelancing. I started experimenting with affiliate marketing, selling products online through platforms like Amazon and Etsy, and even creating digital courses on topics I'm knowledgeable about.\n\nAnd then, of course, there's passive income – the holy grail of making money without actively working for it. At first, I thought this was some kind of myth, but as I learned more about investing in stocks, real estate, and peer-to-peer lending, I began to see that it's very much a reality.\n\nOne of my favorite examples of passive income is dividend-paying stocks. Essentially, you invest money into companies that pay out a portion of their profits to shareholders on a regular basis. It's like getting paid without actually doing any work – genius!\n\nAnother area I've become interested in is creating and selling online courses. As someone who has taught writing workshops in the past, I realized that there are so many people out there who want to learn new skills but don't have the time or resources to do so in a traditional classroom setting.\n\nBy putting together digital courses on platforms like Udemy or Skillshare, I can share my expertise with others while earning passive income from course sales. It's a win-win!\n\nBut what I've come to realize is that side hustles and passive income aren't just about making money – they're also about creating freedom and flexibility in your life. When you have multiple streams of income, you're no longer reliant on just one job or source of income.\n\nThis has allowed me to pursue my passions without worrying about the financial implications. I can travel more, take breaks when I need them, and focus on projects that bring me joy rather than just trying to make a living.\n\nOf course, it's not all smooth sailing. There are ups and downs with any business venture or investment, and there will be times when you'll feel overwhelmed or uncertain about your next move.\n\nBut the truth is, side hustles and passive income are worth the effort. Not only can they bring in extra money, but they also give you a sense of purpose and fulfillment that's hard to find elsewhere.\n\nAs I look back on my journey so far, I'm reminded of why I started exploring this world in the first place: freedom and flexibility. And while there will always be ups and downs, I know that with persistence and creativity, anything is possible.\n\nIf you're just starting out or looking for inspiration to take your side hustles to the next level, I hope my story can offer some encouragement. Remember, it's never too late to start, and the possibilities are endless when you have a clear vision and a willingness to put in the work.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated the author to continue exploring side hustles and passive income despite experiencing ups and downs?",
+      "options": {
+        "A": "The promise of making extra money",
+        "B": "The desire for freedom and flexibility in their life",
+        "C": "The need to pay off debt",
+        "D": "The pressure from family members to succeed"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"exhilarating\" mean in this context?",
+      "options": {
+        "A": "Extremely boring",
+        "B": "Extremely exciting or thrilling",
+        "C": "A little bit interesting",
+        "D": "Completely unimportant"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What was the author's first foray into the world of side hustles?",
+      "options": {
+        "A": "Creating digital courses on platforms like Udemy or Skillshare",
+        "B": "Freelance writing",
+        "C": "Investing in stocks and real estate",
+        "D": "Selling products online through Amazon"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the author, what is one of the main benefits of side hustles and passive income?",
+      "options": {
+        "A": "They can lead to financial instability",
+        "B": "They bring about a sense of purpose and fulfillment",
+        "C": "They are only suitable for people with a lot of experience",
+        "D": "They are not worth the effort"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the freedom to choose my own projects and work at my own pace\" refer to?",
+      "options": {
+        "A": "The author's initial lack of interest in side hustles",
+        "B": "The benefits of freelancing as a part-time business or venture",
+        "C": "The financial rewards of investing in stocks and real estate",
+        "D": "The limitations of working a full-time job"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about side hustles and passive income?",
+      "options": {
+        "A": "The author shares their personal story of struggling with finances and finding success through side hustles.",
+        "B": "Side hustles and passive income offer a way to earn extra money, pursue passions, and create a more fulfilling life.",
+        "C": "Investing in stocks and real estate is the only way to achieve passive income.",
+        "D": "Side hustles and passive income are only for people who want to quit their main job."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

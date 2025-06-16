@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_12",
+  "title": "Master Your Money: Essential Skills for Young Adults to Thrive",
+  "topic": "general",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember the day I opened my first bank account. I was 18 years old, just started college, and suddenly felt like an adult. My parents had been drilling into me the importance of saving money since childhood, but I never really understood what that meant until then.\n\nAs a young adult, managing finances can be overwhelming. Between juggling classes, part-time jobs, and social lives, it's easy to put off learning about personal finance. But trust me, investing your time in financial literacy will pay off in the long run – literally.\n\nGrowing up, I saw friends who spent their entire paycheck on impulse buys or living far beyond their means. They'd get a new phone every year, go on expensive vacations without saving for them, and wonder why they were always broke. Meanwhile, I was quietly building an emergency fund, paying off student loans early, and investing in my future.\n\nDon't get me wrong – I'm not perfect. There have been times when I splurged on something I couldn't afford or didn't prioritize saving as much as I should have. But the key is learning from those mistakes and making adjustments along the way.\n\nSo what exactly does financial literacy mean? It's more than just knowing how to balance a checkbook (although that's a good start). It's about understanding the basics of money management, including budgeting, saving, investing, and avoiding debt. It's also about developing healthy relationships with money – recognizing it as a tool for achieving goals rather than an end in itself.\n\nOne of my earliest financial lessons was learning to live below my means. When I got my first job, I made sure to save at least 20% of my income before spending on anything else. It wasn't always easy, especially when friends would invite me out for expensive dinners or shopping trips. But I knew that the more I saved, the faster I'd reach my long-term goals.\n\nAnother crucial aspect of financial literacy is understanding different types of accounts and investments. As a young adult, you might be tempted to invest in trendy stocks or cryptocurrency without doing your research. But remember that investing always involves some level of risk – it's better to start with low-risk options like high-yield savings accounts or index funds.\n\nI also learned the importance of automating my finances. Setting up automatic transfers from my checking account to my savings and investment accounts made saving easier than ever. I could forget about it, knowing that my money was working hard for me in the background.\n\nAs you navigate your own financial journey, keep these key takeaways in mind:\n\n* Start with small, achievable goals – like building an emergency fund or paying off high-interest debt.\n* Educate yourself on personal finance through books, podcasts, or online resources (I highly recommend \"The Total Money Makeover\" by Dave Ramsey).\n* Develop a long-term perspective – investing in your future is worth the short-term sacrifices.\n* Prioritize needs over wants – there's a big difference between essential expenses and discretionary spending.\n\nFinancial literacy isn't just about money; it's about developing good habits, discipline, and patience. By mastering these skills now, you'll set yourself up for long-term financial stability and freedom.\n\nLooking back on my own journey, I'm grateful for the mistakes and lessons learned along the way. Financial literacy has given me confidence in managing my finances – not just as a young adult but also for the rest of my life. If you're just starting out or looking to improve your money management skills, trust that it's worth the effort.\n\nAs I close this post, I want to leave you with one final thought: financial literacy is a lifelong journey, not a destination. It takes time, patience, and practice – but the rewards are well worth it. Start small, stay consistent, and watch your finances flourish over time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was the author's initial approach to managing their finances when they first started earning money?",
+      "options": {
+        "A": "They spent most of their income on luxury items.",
+        "B": "They made sure to save at least 20% of their income before spending on anything else.",
+        "C": "They invested all their earnings in stocks and cryptocurrency.",
+        "D": "They prioritized paying off high-interest debt over saving."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the author mean by \"living below my means\"?",
+      "options": {
+        "A": "Spending money on luxury items to feel richer",
+        "B": "Avoiding debt and saving more than necessary",
+        "C": "Managing finances effectively by setting clear goals",
+        "D": "Prioritizing needs over wants, being financially responsible"
+      },
+      "correct_answer": "D",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the author, what percentage of income should be saved before spending on anything else?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about making impulsive purchases as a young adult?",
+      "options": {
+        "A": "They encourage readers to do so as a way of treating themselves.",
+        "B": "They believe it's a sign of immaturity and a lack of financial literacy.",
+        "C": "They think it's a normal part of growing up and can be learned from.",
+        "D": "They advise against it, but understand that mistakes will happen along the way."
+      },
+      "correct_answer": "D",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about financial literacy for young adults?",
+      "options": {
+        "A": "Financial literacy is only necessary for people who struggle with managing their money.",
+        "B": "Financial literacy is essential for achieving long-term financial stability and freedom.",
+        "C": "The author's personal experience with money management is irrelevant to the topic of financial literacy.",
+        "D": "Young adults should ignore financial education and focus on enjoying themselves instead."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

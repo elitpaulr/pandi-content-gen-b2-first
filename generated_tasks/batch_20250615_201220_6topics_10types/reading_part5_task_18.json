@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_18",
+  "title": "Money Matters: How Young Adults Can Master Their Financial Futures",
+  "topic": "general",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "Financial literacy for young adults has become an essential life skill in today's economy. With the increasing complexity of personal finance and the rise of digital banking, it's no longer sufficient to simply earn a steady income. Young adults need to understand how to manage their money effectively, make informed financial decisions, and plan for long-term goals.\n\nThe problem is that many young adults lack basic knowledge about personal finance. A study by the Financial Industry Regulatory Authority (FINRA) found that nearly 25% of millennials have no savings at all, while 34% have less than $1,000 in their emergency fund. This lack of financial literacy is particularly concerning given the high levels of student loan debt and stagnant wages among young adults.\n\nSo what's behind this financial illiteracy? One reason is that many schools don't teach personal finance as part of their curriculum. While math and science are essential subjects, financial education should be equally important for preparing students for adulthood. A survey by the National Endowment for Financial Education found that only 17 states in the US require high school students to take a course on personal finance.\n\nAnother reason is that many young adults don't have access to reliable information about managing their finances. The internet is filled with conflicting advice and biased opinions, making it difficult for individuals to separate fact from fiction. For example, some online articles may claim that credit cards are the best way to build credit, while others argue that they're a recipe for disaster.\n\nFortunately, there are many resources available to help young adults improve their financial literacy. Online platforms like Coursera and edX offer free courses on personal finance and investing. Mobile apps such as Mint and Personal Capital provide users with budgeting tools and investment advice. Even social media can be a valuable resource, with influencers sharing tips and tricks for managing money.\n\nHowever, simply having access to information is not enough. Young adults also need to develop healthy financial habits. This includes creating a budget, paying off high-interest debt, and saving regularly. It's essential to prioritize needs over wants and make smart financial decisions based on long-term goals rather than short-term desires.\n\nTo promote financial literacy among young adults, educators, policymakers, and industry leaders must work together. Schools should incorporate personal finance into their curriculum, while online platforms and mobile apps can provide supplementary resources. Influencers and social media can help spread awareness about the importance of financial education.\n\nMoreover, it's essential to address the underlying issues that contribute to financial illiteracy. For example, student loan debt is a major obstacle for many young adults, making it difficult for them to save and invest. Policymakers must work towards implementing policies that reduce borrowing costs and provide more affordable options for students.\n\nIn conclusion, financial literacy is no longer a nicety but a necessity for young adults. With the increasing complexity of personal finance and the rise of digital banking, individuals need to understand how to manage their money effectively, make informed financial decisions, and plan for long-term goals. By promoting education, providing access to reliable information, and developing healthy financial habits, we can empower young adults to take control of their finances and build a more secure future.\n\nAs we move forward in an economy increasingly dominated by digital transactions and complex financial products, it's essential that we prioritize the development of financial literacy among young adults. By doing so, we can ensure that they are equipped with the skills and knowledge necessary to navigate this new landscape and achieve their long-term goals.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is a likely reason why many online articles provide conflicting advice on managing finances?",
+      "options": {
+        "A": "Many authors of these articles have a vested interest in promoting certain financial products",
+        "B": "Online platforms do not regulate the content published on their websites",
+        "C": "The lack of expertise among some writers leads to inaccurate information being shared",
+        "D": "People are more likely to click on sensationalist headlines, regardless of their accuracy"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"financial illiteracy\" mean in this text?",
+      "options": {
+        "A": "A lack of access to reliable information about managing finances",
+        "B": "A situation where young adults have no savings at all",
+        "C": "A lack of understanding about how to manage money effectively and make informed financial decisions",
+        "D": "A high level of student loan debt among young adults"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many states in the US require high school students to take a course on personal finance?",
+      "options": {
+        "A": "10",
+        "B": "17",
+        "C": "25",
+        "D": "34"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards schools not teaching personal finance as part of their curriculum?",
+      "options": {
+        "A": "It's a minor issue, but it should be addressed.",
+        "B": "It's a significant problem that contributes to financial illiteracy among young adults.",
+        "C": "It's a necessary step in preparing students for adulthood.",
+        "D": "It's not relevant to the topic of financial literacy."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"some online articles\" refer to in the text?",
+      "options": {
+        "A": "The authors' own opinions on financial education",
+        "B": "Conflicting advice on managing credit cards found online",
+        "C": "Financial literacy courses available on Coursera and edX",
+        "D": "Influencers sharing tips and tricks for managing money"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about financial literacy for young adults?",
+      "options": {
+        "A": "The problem of financial illiteracy among young adults can be solved by simply providing access to information online.",
+        "B": "Financial literacy is no longer a nicety but a necessity for young adults, and it requires education, reliable information, and healthy habits.",
+        "C": "Young adults are not interested in learning about personal finance, and therefore, there is no need to promote financial literacy.",
+        "D": "The main reason for financial illiteracy among young adults is that they lack basic math skills."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_12",
+  "title": "Squeezing in Sweat: Fitness Tips for the Time-Poor Professional",
+  "topic": "health_and_fitness",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**Fitness on Demand: How Busy Professionals are Staying in Shape**\n\nAs the world becomes increasingly fast-paced, it's no surprise that many of us struggle to find time for exercise. But with the rise of new fitness trends and technologies, busy professionals can now stay in shape without sacrificing their valuable work hours.\n\nOne trend that's gaining traction is the use of mobile apps that offer on-demand workouts. Apps like Nike Training Club and JEFIT provide users with a library of exercises and routines that can be completed anywhere, anytime. With the ability to download workouts for offline use, professionals can squeeze in a quick 30-minute session during their lunch break or before a meeting.\n\nAnother trend is the rise of high-intensity interval training (HIIT). This type of workout involves short bursts of intense exercise followed by brief periods of rest. HIIT has been shown to be effective in improving cardiovascular health and burning calories, making it an attractive option for those with limited time. Apps like Sworkit and Tabata offer pre-designed HIIT workouts that can be completed at home or on the go.\n\nFor those who prefer group fitness classes, many gyms are now offering online options that allow members to join virtual classes from anywhere in the world. This allows professionals to stay connected with their fitness community even when they're traveling or working remotely.\n\nBut it's not just about traditional workouts – new technologies are also making it easier for busy professionals to prioritize nutrition and recovery. Meal kit delivery services like Blue Apron and HelloFresh provide healthy, pre-portioned ingredients that can be cooked in under 30 minutes. Meanwhile, apps like Headspace and Calm offer guided meditation sessions that help reduce stress and improve sleep quality.\n\nOf course, no discussion of fitness trends would be complete without mentioning the rise of wellness retreats. These immersive programs combine exercise with mindfulness and self-care practices, providing a holistic approach to health and wellbeing. With destinations ranging from Bali to Costa Rica, professionals can now escape the stresses of city life for a week or two and rejuvenate their bodies and minds.\n\nWhile these trends may seem like a panacea for busy professionals, it's worth noting that consistency is key when it comes to exercise and nutrition. Aiming for 20-30 minutes of moderate-intensity activity per day is still the recommended goal, regardless of how many apps or gadgets you have at your disposal.\n\nIn an interview with our newspaper, fitness expert Emily Johnson noted that \"the most important thing is to find a routine that works for you and stick to it. Whether it's a quick morning jog or a lunchtime yoga class, make time for physical activity every day.\"\n\nAs we continue to navigate the demands of modern life, it's clear that fitness trends are evolving to meet our unique needs as busy professionals. By incorporating on-demand workouts, HIIT, online classes, and wellness retreats into their routine, individuals can prioritize their health and wellbeing without sacrificing precious time.\n\nUltimately, fitness is not a one-size-fits-all solution – but with the right tools and mindset, anyone can stay in shape and thrive in today's fast-paced world.\n\n**Sources:**\n\n* Nike Training Club (mobile app)\n* JEFIT (mobile app)\n* Sworkit (mobile app)\n* Tabata (mobile app)\n* Blue Apron (meal kit delivery service)\n* HelloFresh (meal kit delivery service)\n* Headspace (meditation app)\n* Calm (meditation app)\n\n**Image credit:** Getty Images",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to be a characteristic of busy professionals who successfully incorporate on-demand workouts into their routine?",
+      "options": {
+        "A": "They tend to have more free time than non-professionals",
+        "B": "They are willing to invest money in expensive gym memberships",
+        "C": "They find it difficult to stick to a regular exercise schedule",
+        "D": "They prioritize consistency and flexibility when choosing an exercise routine"
+      },
+      "correct_answer": "D",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"immersive\" mean in the context of wellness retreats?",
+      "options": {
+        "A": "A comprehensive and detailed approach to health and wellbeing",
+        "B": "An intense and physically demanding program",
+        "C": "A holistic and self-care focused experience",
+        "D": "A short-term and superficial treatment for stress relief"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Which of the following meal kit delivery services provides healthy, pre-portioned ingredients that can be cooked in under 30 minutes?",
+      "options": {
+        "A": "Fitbit",
+        "B": "Blue Apron and HelloFresh",
+        "C": "Sworkit",
+        "D": "Nike Training Club"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards busy professionals trying to stay fit?",
+      "options": {
+        "A": "The author believes that fitness trends are a waste of time for busy professionals.",
+        "B": "The author thinks that on-demand workouts and other technologies are making it easier than ever for professionals to prioritize their health and wellbeing.",
+        "C": "The author is skeptical about the effectiveness of mobile apps in helping busy professionals stay fit.",
+        "D": "The author thinks that only traditional gym workouts can be beneficial for busy professionals."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"these\" refer to in the text?",
+      "options": {
+        "A": "The meal kit delivery services mentioned",
+        "B": "The fitness trends and technologies described earlier in the text",
+        "C": "The sources listed at the end of the article",
+        "D": "Emily Johnson's interview with the newspaper"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about fitness trends for busy professionals?",
+      "options": {
+        "A": "The article argues that traditional gym workouts are still the best option for staying fit.",
+        "B": "Fitness trends are evolving to help busy professionals prioritize their health and wellbeing without sacrificing time.",
+        "C": "The article recommends a specific workout routine that includes 20-30 minutes of moderate-intensity activity per day.",
+        "D": "Technology is replacing human fitness instructors in gyms."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "health_wellness"
+}

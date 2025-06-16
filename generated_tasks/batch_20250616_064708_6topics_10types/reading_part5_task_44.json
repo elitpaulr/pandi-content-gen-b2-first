@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_44",
+  "title": "Fuel Your Fitness: Top Nutrition Tips for Amateur Athletes",
+  "topic": "health_and_fitness",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember my first marathon training session. I was so excited to finally take on this new challenge that I had been putting off for months. But, as soon as I hit the pavement, I realized that running long distances wasn't just about endurance – it was also about fueling your body correctly.\n\nAs an amateur athlete, I thought I could get away with eating whatever I wanted and still perform well. But, let me tell you, that didn't quite work out. My energy levels were all over the place, and I found myself struggling to recover from even short workouts. It wasn't until I started paying attention to my sports nutrition that things began to turn around.\n\nFor amateur athletes like myself, proper nutrition is just as important as regular training sessions. When you're pushing your body to its limits, it needs the right fuel to function at its best. So, what does this mean exactly? Let's break it down.\n\nFirst and foremost, hydration is key. I know, I know – it sounds obvious. But, trust me, it's easy to get caught up in the excitement of training and forget to drink enough water. Not only can dehydration lead to dizziness and headaches, but it can also impact your performance on the field or track.\n\nTo stay hydrated, aim for at least eight cups (64 ounces) of water per day. And don't just stop at plain old H2O – consider mixing things up with coconut water or sports drinks to replenish lost electrolytes.\n\nNext up is macronutrient balance. As an amateur athlete, you're likely going to need a mix of carbohydrates, protein, and healthy fats to power your workouts. Carbs are essential for fueling long-duration activities like distance running or cycling, while protein helps with muscle repair and recovery. And don't even get me started on the importance of healthy fats – they provide sustained energy and support heart health.\n\nAim for a balanced plate that includes:\n\n* 55-65% complex carbohydrates (whole grains, fruits, vegetables)\n* 15-20% lean protein sources (chicken, fish, beans, lentils)\n* 20-30% healthy fats (nuts, seeds, avocado)\n\nNow, I know what you're thinking – \"But what about all the fancy sports nutrition products out there?\" Look, as an amateur athlete, you don't need to break the bank on expensive supplements or protein powders. In fact, many of these products are just gimmicks designed to part you from your hard-earned cash.\n\nInstead, focus on making whole foods a priority. Try meal prepping for the week ahead of time, or prep simple snacks like energy balls made with oats, nuts, and dried fruit.\n\nTiming is also crucial when it comes to sports nutrition. Aim to fuel up 1-3 hours before your workout with a balanced snack that includes complex carbs, protein, and healthy fats. And don't forget to refuel within 30-60 minutes after exercise – this is when your body needs the most nutrients to recover.\n\nOne of my favorite pre-workout snacks? A banana with almond butter and honey on whole-grain toast. The combination of complex carbs from the bread, protein from the nut butter, and healthy fats from the honey gives me sustained energy for my toughest workouts.\n\nOf course, everyone's nutritional needs are different – it's essential to listen to your body and experiment with different fueling strategies to find what works best for you.\n\nFor me, that means being mindful of my blood sugar levels. As someone with a history of low blood sugar episodes during long workouts, I've learned to be more strategic about how I fuel up in the hours leading up to exercise.\n\nIt's also worth noting that certain foods can actually hinder athletic performance. Common culprits include dairy products (for those with lactose intolerance or sensitivity), processed meats (which are high in sodium and preservatives), and excessive sugar intake (which can cause an energy crash mid-workout).\n\nBy paying attention to your sports nutrition, you'll be amazed at how much of a difference it makes in your performance. Trust me – I've seen it firsthand.\n\nWhen I started prioritizing proper fueling, my energy levels skyrocketed. I was able to run longer distances without bonking, and my recovery time decreased dramatically. And the best part? It wasn't about cutting out entire food groups or following a restrictive diet – just about making informed choices that nourish both body and mind.\n\nSo go ahead, give sports nutrition a try. Your body will thank you.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was the author's initial approach to fueling their marathon training sessions?",
+      "options": {
+        "A": "They prioritized eating healthy foods but didn't pay much attention to hydration.",
+        "B": "They relied on expensive sports nutrition products and supplements.",
+        "C": "They ate whatever they wanted, thinking it wouldn't affect their performance.",
+        "D": "They followed a restrictive diet that excluded certain food groups."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for an athlete to \"bonk\" during exercise?",
+      "options": {
+        "A": "To experience severe muscle cramps",
+        "B": "To feel extremely tired and lose energy suddenly",
+        "C": "To suffer from dehydration and dizziness",
+        "D": "To experience a sharp pain in the joints"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of daily calories should come from complex carbohydrates for an amateur athlete?",
+      "options": {
+        "A": "30-40%",
+        "B": "55-65%",
+        "C": "20-25%",
+        "D": "10-15%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the author, which of the following is NOT necessary for amateur athletes?",
+      "options": {
+        "A": "Breaking the bank on expensive supplements",
+        "B": "Eating whatever they want and still performing well",
+        "C": "Paying attention to their sports nutrition",
+        "D": "Drinking at least eight cups (64 ounces) of water per day"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"lean protein sources\" refer to in this text?",
+      "options": {
+        "A": "Energy bars",
+        "B": "Whole grains, fruits, and vegetables",
+        "C": "Chicken, fish, beans, lentils",
+        "D": "Nuts and seeds"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text?",
+      "options": {
+        "A": "The author recommends extreme dieting for better athletic performance.",
+        "B": "Proper nutrition is essential for amateur athletes to achieve their goals.",
+        "C": "The best way to improve athletic performance is through expensive supplements and protein powders.",
+        "D": "Amateur athletes should only eat whatever they want without worrying about sports nutrition."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

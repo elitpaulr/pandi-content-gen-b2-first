@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_39",
+  "title": "Finding Inner Peace on the Road: How Exercise Heals Your Mind",
+  "topic": "health_and_fitness",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Bali, Indonesia, the warm tropical air enveloped me like a gentle hug. I had been feeling stuck and stagnant for months, struggling to shake off the weight of anxiety that had taken up residence in my mind. But something about this island paradise called to me – perhaps it was the promise of crystal-clear waters, lush green landscapes, or the vibrant culture that seemed to pulse with energy.\n\nI had always known that exercise was good for me, but I'd never truly appreciated its transformative power until now. My plan was simple: immerse myself in the local culture, try new activities, and let go of my worries on the yoga mat. And so, my adventure began – a journey to discover the mental health benefits of exercise.\n\nMy first stop was a scenic coastal town, where I met a group of yogis at a local studio perched on a hill overlooking the ocean. As we flowed through downward-facing dog and warrior poses, I felt a sense of calm wash over me. It wasn't just the stunning views that relaxed me – it was the release of tension in my muscles, the stilling of my racing thoughts.\n\nAs I continued to explore Bali's lush landscapes, I found myself drawn to water-based activities like surfing and kayaking. Paddling through serene waters or riding a wave on the ocean's surface, I felt an unshakeable sense of confidence and joy. It was as if my anxiety had been swept away by the gentle tides.\n\nBut it wasn't just the exercise itself that made a difference – it was also the cultural context in which it took place. In Bali, yoga and meditation are not just activities; they're a way of life. Every morning, locals gather at temples to chant, stretch, and connect with one another. As I joined in, I felt a deep sense of community and belonging.\n\nOf course, exercise has long been touted as a mood-booster, but its benefits extend far beyond a temporary high. Research shows that regular physical activity can actually change the structure and function of our brains – reducing stress hormones like cortisol, boosting neurotransmitters like serotonin, and even growing new neurons in areas responsible for emotional regulation.\n\nAs I delved deeper into Bali's culture, I discovered more ways to incorporate exercise into my daily routine. In addition to yoga and water sports, I tried local dance classes – a fusion of traditional Balinese movements with modern grooves that left me grinning from ear to ear. I even joined a group of locals for an early morning jog through the rice fields, feeling invigorated by the crisp air and stunning scenery.\n\nAs the days passed, I began to notice subtle yet profound shifts in my mental landscape. My anxiety, once a constant companion, seemed to dissipate with each passing day. I felt more focused, more patient, and more at peace – even when faced with challenges or uncertainties.\n\nOf course, this wasn't just about Bali – it was about me. As I reflected on my experiences, I realized that exercise had been missing from my life for far too long. In a world where stress and anxiety are increasingly prevalent, it's time to reclaim the power of physical activity as a key tool in our mental health toolkit.\n\nAs I packed up to leave Bali, I felt rejuvenated – not just by the island's stunning beauty or its rich culture, but also by the simple act of moving my body. It was a lesson that would stay with me long after I left this tropical paradise behind: exercise is more than just physical movement – it's a journey to inner peace and mental well-being.\n\nAnd so, as I step back into the world outside Bali's borders, I'm reminded that the benefits of exercise are available to us all, regardless of where we roam. Whether on a sun-kissed beach or in our own backyard, every rep, every stretch, and every movement brings us closer to a healthier, happier mind – one that's free from anxiety and open to the world's endless possibilities.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the writer's state of mind before arriving in Bali?",
+      "options": {
+        "A": "They were feeling anxious and stressed due to a recent break-up",
+        "B": "They were struggling with low self-esteem and lack of confidence",
+        "C": "They had been experiencing anxiety for months, but felt stuck and stagnant",
+        "D": "They were physically fit, but mentally drained from work"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for something to be \"stagnant\" in this text?",
+      "options": {
+        "A": "To be very slow or inactive",
+        "B": "To be in a state of calmness and relaxation",
+        "C": "To be stuck or unable to move forward",
+        "D": "To feel completely free from anxiety"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to research mentioned in the text, regular physical activity can reduce which hormone?",
+      "options": {
+        "A": "Cortisol",
+        "B": "Serotonin",
+        "C": "Adrenaline",
+        "D": "Insulin"
+      },
+      "correct_answer": "A",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards exercise as a solution for mental health issues?",
+      "options": {
+        "A": "Exercise is just a temporary fix for anxiety and stress.",
+        "B": "Exercise has the power to transform one's life and bring inner peace.",
+        "C": "The benefits of exercise are only physical, not mental.",
+        "D": "Exercise is only suitable for people who live in tropical climates."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What did the author feel when paddling through serene waters or riding a wave on the ocean's surface?",
+      "options": {
+        "A": "A sense of sadness",
+        "B": "An unshakeable sense of confidence and joy",
+        "C": "A feeling of hunger for food",
+        "D": "A need to return to her old routine"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about exercise?",
+      "options": {
+        "A": "The author discovers the benefits of yoga and meditation on her own, without any prior knowledge.",
+        "B": "Regular physical activity can actually change the structure and function of our brains to improve mental health.",
+        "C": "The author's trip to Bali was a failure in terms of finding inner peace through exercise.",
+        "D": "Exercise is only effective for people with severe mental illnesses."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "health_wellness"
+}

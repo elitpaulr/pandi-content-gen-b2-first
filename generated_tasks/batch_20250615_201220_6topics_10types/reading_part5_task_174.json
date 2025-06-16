@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_174",
+  "title": "Remote Work Revolution: The Surprising Economics of Working from Home",
+  "topic": "business_and_work",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "The Shift to Remote Work: How It's Changing Our Lives and Economies\n\nAs we continue to navigate the new normal of life in a pandemic world, one thing has become clear: remote work is here to stay. And with good reason - it's not only beneficial for our personal well-being but also has significant economic implications that are far-reaching.\n\nFor many of us, the thought of commuting to an office every day was starting to feel like a chore. Traffic jams, long hours on public transportation, and the stress of being away from family and loved ones made it a necessary evil at best. But with the rise of remote work, we've been given a gift: the freedom to create our own schedules, work in comfortable environments, and spend more time with those who matter most.\n\nBut what does this mean for our economy? In short, it's a game-changer. With more people working from home, there's less need for office space, which means reduced overhead costs for companies. According to a report by Global Workplace Analytics, the average company saves around $11,000 per year per employee by allowing them to work remotely. And with millions of employees now working from home, that adds up quickly.\n\nOf course, one of the most significant benefits of remote work is its impact on the environment. With fewer people commuting to offices every day, there's a corresponding decrease in carbon emissions and air pollution. In fact, according to a study by the University of Illinois, if just 10% of employees worked from home full-time, it could save around 865 million gallons of gasoline per year.\n\nBut remote work isn't just good for companies and the environment - it's also beneficial for individuals. With more time spent at home, people are able to cook their own meals, exercise in their own space, and pursue hobbies and interests that bring them joy. And let's not forget about the cost savings: no need for expensive office attire, commutes, or lunches out.\n\nHowever, there are also challenges associated with remote work. For one thing, it can be difficult to separate work and personal life when your home is also your office. Boundaries get blurred, and before long, you're checking emails at the dinner table and working on reports while watching TV with family members. It takes discipline and intentionality to make remote work successful.\n\nAnother challenge is staying connected with colleagues and friends. When we're not physically present in an office, it can be hard to feel like we're a part of a team or community. But with the rise of digital communication tools, this has become much easier. Video conferencing apps like Zoom and Google Meet make it simple to connect with others from anywhere in the world.\n\nSo what does the future hold for remote work? In all likelihood, it will continue to be a major part of our lives - not just because of the pandemic, but because of its many benefits. Companies are starting to realize that they don't need to rely on traditional office space to get work done, and employees are discovering new levels of flexibility and autonomy.\n\nAs we move forward in this brave new world, it's essential to be intentional about creating healthy boundaries between work and personal life. This might mean setting aside specific times for work and play, or establishing a dedicated workspace that signals \"work mode\" to family members. It also means staying connected with others - whether through digital communication tools or regular video check-ins.\n\nUltimately, the shift to remote work is not just about where we work; it's about how we live our lives. By embracing this new reality and finding ways to make it work for us, we can create a more sustainable, flexible, and fulfilling future for ourselves and those around us.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to office space usage as remote work becomes more widespread?",
+      "options": {
+        "A": "It will increase significantly as companies build more offices to accommodate employees who prefer working from home.",
+        "B": "Office space will become a luxury that only high-end companies can afford, and many businesses will downsize their offices.",
+        "C": "Companies will continue to rely on traditional office space, but with some adjustments to make it more comfortable for employees.",
+        "D": "There will be less need for office space as companies reduce their overhead costs by allowing employees to work remotely."
+      },
+      "correct_answer": "D",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"new normal\" in the text most likely refer to?",
+      "options": {
+        "A": "A recent economic trend",
+        "B": "The current state of life during a pandemic",
+        "C": "A new type of office layout",
+        "D": "A change in company policies"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a report by Global Workplace Analytics, what is the average company savings per year per employee by allowing them to work remotely?",
+      "options": {
+        "A": "$10,000",
+        "B": "$11,000",
+        "C": "$12,000",
+        "D": "$13,000"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the impact of remote work on individuals?",
+      "options": {
+        "A": "Remote work has ruined many people's lives by taking away their social interactions.",
+        "B": "The benefits of remote work, such as flexibility and cost savings, outweigh its drawbacks for individuals.",
+        "C": "Remote work has been a disaster for employees who have had to adjust to working from home.",
+        "D": "The shift to remote work is the worst thing that has happened to our society."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"it\" refer to in the sentence \"But with the rise of remote work, we've been given a gift: the freedom to create our own schedules, work in comfortable environments, and spend more time with those who matter most.\"",
+      "options": {
+        "A": "The freedom to create our own schedules",
+        "B": "Remote work",
+        "C": "The thought of commuting to an office every day",
+        "D": "Family and loved ones"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the article about remote work?",
+      "options": {
+        "A": "Remote work has both positive and negative effects on individuals and companies.",
+        "B": "The shift to remote work will have a significant impact on the environment by reducing carbon emissions.",
+        "C": "Remote work is a game-changer for companies, saving them money and providing employees with flexibility and autonomy.",
+        "D": "Remote work is only a temporary solution until the pandemic ends."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

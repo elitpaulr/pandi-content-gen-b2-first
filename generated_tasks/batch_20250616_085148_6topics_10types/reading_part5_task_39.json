@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_39",
+  "title": "From Beaches to Backpacks: How I Survived on a Plastic-Free Adventure",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Bali, Indonesia, I was greeted by the warm tropical air and the sound of waves crashing against the shore. But as I made my way through customs, something caught my eye - a sea turtle trapped in a plastic bag, its flippers tangled in the discarded packaging. It was a stark reminder of the devastating impact of human behavior on our planet's ecosystems.\n\nI had come to Bali with a mission: to immerse myself in a plastic-free lifestyle and explore the challenges that come with it. For weeks, I stayed with local families who were committed to living without single-use plastics. My host mother, Wayan, would carefully pack my breakfast into reusable cloth bags, while my friend Ketut showed me how to carry water in a refillable stainless steel bottle.\n\nThe first challenge I faced was navigating the island's bustling markets and shopping centers. Everywhere I looked, there were plastic bags, straws, and bottles - it seemed like every product came wrapped in its own individual package. But Wayan taught me how to shop smart: buying loose fruit and vegetables instead of pre-packaged ones, choosing products with minimal or biodegradable packaging.\n\nOne day, we ventured into the city's central market, where I was struck by the sheer volume of plastic waste on display. Stalls overflowed with bottles, straws, and sachets - it seemed like a sea of plastic stretching out as far as the eye could see. But amidst the chaos, there were glimmers of hope: women selling reusable bags made from vibrant textiles, men peddling refillable water bottles made from durable stainless steel.\n\nAs I delved deeper into my plastic-free experiment, I encountered more challenges than I had anticipated. Simple tasks like brushing my teeth or washing my clothes became complicated by the absence of single-use plastics. But with each hurdle came a new discovery: a soap maker who crafted beautiful bars from natural ingredients, a laundry service that used eco-friendly detergents and reusable bags to collect dirty clothes.\n\nI began to realize that living plastic-free wasn't just about avoiding certain products - it was about adopting a mindset of sustainability and reducing waste. Wayan showed me how to repurpose old containers as planters or bird feeders, while Ketut introduced me to the concept of \"zero-waste\" cooking: using every last scrap of food to create nutritious meals.\n\nAs my time in Bali drew to a close, I felt a sense of accomplishment and growth. I had learned that living plastic-free wasn't just a choice, but a necessity - for our planet's health, for future generations, and for the well-being of all creatures on Earth. And as I watched Wayan carefully rinse her reusable bags in the sink, I knew that I would carry this newfound awareness back home with me.\n\nThe sea turtle incident still lingered in my mind, but now it seemed like a turning point - a wake-up call to rethink our relationship with plastic and our impact on the world. As I boarded the plane to return home, I felt hopeful: knowing that there were communities around the globe working tirelessly to reduce waste and live sustainably.\n\nIn Bali's lush landscape, surrounded by people who lived in harmony with nature, I discovered a new way of being - one that prioritized simplicity, resourcefulness, and a deep respect for the planet. As I soared into the sky, I felt invigorated, ready to take on the challenges of living plastic-free back home.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated the writer to visit Bali and adopt a plastic-free lifestyle?",
+      "options": {
+        "A": "To explore the local culture and try new foods",
+        "B": "To immerse herself in a community that lived sustainably and reduce her environmental impact",
+        "C": "To escape the stress of city life and relax on the beach",
+        "D": "To learn about traditional Balinese medicine and its connection to nature"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"stark reminder\" mean in this text?",
+      "options": {
+        "A": "A clear warning about a potential danger",
+        "B": "A sudden realization of the devastating impact of human behavior",
+        "C": "A shocking example that shows something clearly",
+        "D": "A gradual understanding of a complex issue"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What was the host mother's name that helped the author live without single-use plastics?",
+      "options": {
+        "A": "Sari",
+        "B": "Wayan",
+        "C": "Ketut",
+        "D": "Lani"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the people she met during her stay in Bali who were committed to living without single-use plastics?",
+      "options": {
+        "A": "They are portrayed as being overly strict and rigid in their lifestyle choices.",
+        "B": "They are shown to be passionate and dedicated to reducing waste and living sustainably.",
+        "C": "They are depicted as being uninfluenced by the author's plastic-free experiment.",
+        "D": "They are described as being careless and dismissive of the impact of plastics on the environment."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"our planet's ecosystems\" refer to?",
+      "options": {
+        "A": "The island of Bali",
+        "B": "The natural world and its inhabitants",
+        "C": "The city's central market",
+        "D": "Wayan's household"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What was the author's main goal when she went to Bali?",
+      "options": {
+        "A": "To explore the island and its culture",
+        "B": "To raise awareness about the impact of human behavior on ecosystems",
+        "C": "To immerse herself in a plastic-free lifestyle and learn from local families",
+        "D": "To study the effects of climate change on marine life"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

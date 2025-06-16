@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_28",
+  "title": "Will You Thrive in a Team or Alone? The Great Sports Debate!",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "**The Team Spirit: Why Group Activities Trump Solo Pursuits**\n\nWhen it comes to exercising or pursuing a hobby, many of us are torn between two options: joining a team sport or going solo with an individual activity. While both have their benefits, the advantages of team sports far outweigh those of solitary pursuits. In this article, we'll explore why being part of a team is essential for our mental and physical well-being.\n\nFirst and foremost, team sports foster camaraderie and social connections that are difficult to replicate in individual activities. When you're part of a team, you become an integral part of something bigger than yourself – a collective unit working towards a common goal. This sense of belonging leads to stronger relationships with your teammates, which can be a valuable asset in all areas of life.\n\nOne prime example is the well-documented benefits of football (soccer) on mental health. Studies have shown that players are less likely to experience depression and anxiety than those who engage in solo activities. The social aspect of team sports provides an outlet for stress relief, as you're able to share your emotions with teammates while working together towards a common objective.\n\nIn contrast, individual activities like running or cycling can be isolating, especially if you're training alone without any accountability or support system. While these pursuits do have their benefits – such as improved cardiovascular health and increased discipline – they often lack the social interaction that's crucial for our emotional well-being.\n\nAnother advantage of team sports is that they promote healthy competition and a growth mindset. When you're part of a team, you're constantly pushing yourself to improve your skills and performance, which can lead to personal growth and self-improvement. This competitive spirit also encourages teamwork, as players learn to rely on each other's strengths to overcome weaknesses.\n\nTake basketball, for instance. Players need to work together seamlessly to execute plays, creating a sense of unity and trust among teammates. This synergy translates into real-life scenarios, where individuals can apply the same communication and problem-solving skills learned on the court.\n\nOf course, individual activities have their own unique benefits, such as allowing you to pursue your passion without worrying about others' opinions or schedules. However, these pursuits often lack the structure and accountability that team sports provide.\n\nTo illustrate this point, consider a group fitness class like Zumba. While participants work together towards a common goal (getting in shape), they're also motivated by their instructor's guidance and encouragement. This external support system can be just as effective as having teammates cheering you on during a game.\n\nUltimately, the choice between team sports and individual activities comes down to personal preference. However, if you want to reap the rewards of improved mental health, social connections, and healthy competition, joining a team sport is the way to go.\n\nSo why not lace up your cleats or grab your racket and join a local recreational league? You never know who you might meet along the way – or what personal growth awaits you on the field.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about individuals who engage in team sports compared to those who participate in individual activities?",
+      "options": {
+        "A": "Team sport players are generally more disciplined than individual activity enthusiasts.",
+        "B": "Players of team sports tend to have stronger relationships with their family and friends.",
+        "C": "Those involved in team sports are less likely to experience depression and anxiety.",
+        "D": "Individual activity participants are typically more confident than team sport players."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"integral\" mean in the context of team sports?",
+      "options": {
+        "A": "Able to be replaced by another member",
+        "B": "Essential and necessary for something to function properly",
+        "C": "Only relevant when playing against a rival team",
+        "D": "Limited to only certain positions on the field"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one of the benefits of team sports compared to individual activities, according to studies mentioned in the article?",
+      "options": {
+        "A": "Team sports have no impact on mental health.",
+        "B": "Players are less likely to experience depression and anxiety than those who engage in solo activities.",
+        "C": "Individual activities are more time-efficient than team sports.",
+        "D": "Team sports only improve physical fitness but not mental well-being."
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the article, team sports are more beneficial for mental health than individual activities.",
+      "options": {
+        "A": "The author believes that individual activities have no negative effects on mental health.",
+        "B": "Team sports foster camaraderie and social connections that lead to stronger relationships with teammates.",
+        "C": "The author is neutral about the benefits of team sports for mental health.",
+        "D": "The article states that team sports can actually worsen anxiety and depression."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"them\" refer to in the following sentence: \"One prime example is the well-documented benefits of football (soccer) on mental health. Studies have shown that players are less likely to experience depression and anxiety than those who engage in solo activities, the social aspect of team sports provides an outlet for stress relief, as you're able to share your emotions with teammates while working together towards a common objective, and this helps them to relax.\"",
+      "options": {
+        "A": "The readers of the article",
+        "B": "Teammates playing football (soccer)",
+        "C": "People who engage in solo activities",
+        "D": "Players who participate in team sports"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about team sports and individual activities?",
+      "options": {
+        "A": "Team sports are more physically demanding than individual activities.",
+        "B": "The social connections and camaraderie found in team sports are essential for our mental and physical well-being.",
+        "C": "Individual activities like running or cycling can be just as beneficial as team sports if done correctly.",
+        "D": "The structure and accountability of team sports outweigh the benefits of individual pursuits."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

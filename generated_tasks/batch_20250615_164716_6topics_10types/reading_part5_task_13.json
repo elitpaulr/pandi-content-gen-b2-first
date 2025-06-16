@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_13",
+  "title": "How Money Magic Works: Uncovering the Secrets of Financial Literacy",
+  "topic": "general",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "**The Money Savvy Generation: Financial Literacy for Young Adults**\n\nAs we navigate the complexities of modern life, one fundamental skill often gets overlooked: financial literacy. It's a crucial aspect of personal development that enables individuals to make informed decisions about their money. However, many young adults struggle to manage their finances effectively, leading to a vicious cycle of debt and financial insecurity.\n\n**The Problem with Financial Illiteracy**\n\nFinancial illiteracy affects people from all walks of life, but it's particularly prevalent among young adults. A survey conducted by the National Foundation for Credit Counseling found that 72% of millennials (born between 1981 and 1996) feel anxious about their financial situation. This anxiety is often rooted in a lack of understanding about personal finance.\n\nTake, for example, credit card debt. Many young adults don't realize the importance of paying off balances in full each month or the consequences of carrying high-interest debt. According to a report by Credit Karma, the average American student graduates with over $30,000 in student loans and $4,000 in credit card debt.\n\n**The Benefits of Financial Literacy**\n\nSo, what's at stake if young adults don't develop financial literacy? The answer is simple: financial instability. When individuals lack a basic understanding of personal finance, they're more likely to fall victim to predatory lending practices, overspend on unnecessary items, and accumulate high-interest debt.\n\nOn the other hand, financial literacy offers numerous benefits, including:\n\n1.  **Reduced stress**: When you understand your finances, you'll feel more in control of your money.\n2.  **Increased savings**: By creating a budget and sticking to it, you can build wealth over time.\n3.  **Improved credit score**: Responsible financial habits will help you maintain a healthy credit score.\n\n**Building Financial Literacy**\n\nSo, how can young adults develop the skills they need to navigate the world of personal finance? The key is education and practice. Here are some simple steps to get started:\n\n1.  **Start with the basics**: Learn about budgeting, saving, investing, and managing debt.\n2.  **Use online resources**: Websites like NerdWallet, The Balance, and Investopedia offer a wealth of information on personal finance.\n3.  **Seek professional advice**: Consult with a financial advisor or planner to create a customized plan tailored to your needs.\n4.  **Practice what you learn**: Apply your new skills by managing your own finances.\n\n**Real-Life Examples**\n\nTo illustrate the importance of financial literacy, let's consider two real-life scenarios:\n\n1.  **Scenario 1: Alex and Maddie**\n    Alex and Maddie are college students who share an apartment. They earn $2,000 per month combined but struggle to pay their rent on time due to overspending on dining out and streaming services.\n\n    To fix this situation, they create a budget that allocates 50% of their income towards rent, 30% for groceries and household expenses, and 20% for entertainment. By prioritizing needs over wants, Alex and Maddie are able to pay their bills on time and save money for the future.\n2.  **Scenario 2: Jamie**\n    Jamie is a young professional who recently landed her dream job. However, she quickly realizes that her salary isn't as high as she thought, and she's struggling to make ends meet.\n\n    To address this challenge, Jamie starts by tracking her expenses using an app like Mint or Personal Capital. She identifies areas where she can cut back on unnecessary spending and allocates the savings towards paying off her credit card debt.\n\n**Conclusion**\n\nFinancial literacy is a vital skill that young adults need to succeed in today's economy. By understanding personal finance concepts, creating a budget, and practicing responsible financial habits, individuals can reduce stress, build wealth, and achieve long-term financial stability. Whether you're a student or a young professional, the time to start learning about money management is now.\n\nIncorporating financial literacy into your daily life may seem daunting at first, but with education and practice, it becomes second nature. By embracing this skill, you'll be better equipped to navigate the complexities of personal finance and achieve financial freedom. So, take control of your finances today and join the money-savvy generation!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can we infer about Alex and Maddie's living situation before they created a budget?",
+      "options": {
+        "A": "They had a fixed income but struggled to make ends meet.",
+        "B": "They were experiencing financial stability despite their overspending habits.",
+        "C": "They lived beyond their means due to high rent costs.",
+        "D": "They had never managed their finances effectively in the past."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"predatory lending practices\" mean in this context?",
+      "options": {
+        "A": "Loans with high interest rates that are offered to people who cannot afford them",
+        "B": "Financial services provided by banks and credit unions",
+        "C": "Investment opportunities for individuals with a lot of money",
+        "D": "Credit counseling services for people in debt"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what percentage of millennials feel anxious about their financial situation?",
+      "options": {
+        "A": "50%",
+        "B": "60%",
+        "C": "72%",
+        "D": "80%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards young adults who struggle with financial literacy?",
+      "options": {
+        "A": "The author believes that young adults who struggle with financial literacy are lazy and lack motivation.",
+        "B": "The author thinks that young adults who struggle with financial literacy are victims of circumstance, often due to a lack of understanding about personal finance.",
+        "C": "The author considers young adults who struggle with financial literacy as being irresponsible and reckless with their money.",
+        "D": "The author views young adults who struggle with financial literacy as being intelligent but unlucky."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the money-savvy generation\" refer to?",
+      "options": {
+        "A": "A group of people who have a lot of wealth",
+        "B": "Young adults who are knowledgeable about personal finance and money management",
+        "C": "Adults over 50 who have retired from work",
+        "D": "People who struggle with debt and financial insecurity"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of the text about financial literacy for young adults?",
+      "options": {
+        "A": "To provide tips on how to manage credit card debt",
+        "B": "To encourage young adults to develop a basic understanding of personal finance and take control of their money",
+        "C": "To discuss the benefits of using online resources for managing finances",
+        "D": "To introduce a new concept of \"money-savvy\" as a replacement for financial literacy"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

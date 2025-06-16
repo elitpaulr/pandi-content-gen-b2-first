@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_83",
+  "title": "5 Side Hustles That Can Turn Your Spare Time into a Fortune",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "In today's economy, having one job is not enough for many people. The cost of living has skyrocketed, and the desire to live comfortably has become a top priority. As a result, side hustles have become increasingly popular, and with them, the concept of passive income.\n\nBut what exactly are side hustles? Simply put, they're part-time jobs or freelance work that supplement your primary source of income. It could be anything from dog walking to photography, graphic design to house sitting – as long as it's not related to your main job, you can consider it a side hustle.\n\nThe benefits of having a side hustle are numerous. For one, it provides an opportunity to explore different interests and passions, often leading to new career paths or entrepreneurial ventures. Secondly, it allows for financial flexibility and security, giving you the peace of mind that comes with knowing you have extra income coming in.\n\nOne popular side hustle is affiliate marketing. The idea is simple: promote products or services from other companies and earn a commission on sales made through your unique referral link. It's a low-cost venture that requires minimal effort but can generate significant passive income.\n\nAnother favorite among side hustlers is creating digital content, such as ebooks, courses, or even mobile apps. Once created, these assets can be sold multiple times without any additional work, making them an attractive option for those seeking passive income.\n\nBut not all side hustles require a computer or online presence. Some of the most lucrative opportunities involve leveraging skills like writing, photography, or graphic design in real-world settings. For instance, if you have a talent for photography, consider offering your services to local clients on freelance platforms or at events.\n\nReal estate investing is another side hustle that has gained popularity in recent years. With the rise of Airbnb and short-term rentals, it's now possible to earn passive income from properties without having to be physically present. Simply rent out a spare room or invest in rental properties to generate ongoing revenue.\n\nOf course, not all side hustles are created equal, and some require more effort than others. For example, creating an online course or ebook can take months of research and writing, while affiliate marketing may require constant promotion and marketing efforts. However, with the right mindset and strategy, even these tasks can be turned into passive income streams.\n\nOne key aspect to consider when starting a side hustle is your financial goals. Are you looking to supplement your primary income or create a full-time business? Your objectives will dictate which type of side hustle to pursue and how much time to dedicate to it.\n\nWhen getting started, don't be discouraged if your initial efforts yield little to no results. Many side hustles require patience, persistence, and creativity. Continuously adapt and improve as you go along, adjusting strategies based on what works best for you.\n\nUltimately, the key to a successful side hustle is finding an area that complements your skills and interests while generating passive income. Experiment with different options until you find the perfect fit, and don't be afraid to pivot when needed. With persistence, creativity, and a willingness to learn, anyone can turn their passion into a lucrative side hustle.\n\nAs you explore side hustles, keep in mind that it's not just about making money – it's also an opportunity to grow as a person and gain new skills. The journey may be challenging at times, but the end result is well worth it: financial freedom, personal fulfillment, and the ability to pursue your dreams without limitations.\n\nTo conclude, side hustles have become essential in today's economy, providing flexibility, security, and opportunities for growth. With so many options available, finding a passive income stream that suits your needs is more achievable than ever. So why not take the leap and start building your side hustle today?",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what can be expected from a successful side hustle?",
+      "options": {
+        "A": "Only financial freedom",
+        "B": "A balance between financial security and personal growth",
+        "C": "Immediate success with minimal effort required",
+        "D": "The ability to pursue any dream or career path without limitations"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"complement\" mean in the following sentence: \"Ultimately, the key to a successful side hustle is finding an area that complements your skills and interests while generating passive income.\"",
+      "options": {
+        "A": "To replace or take the place of",
+        "B": "To add something extra or additional",
+        "C": "To work well together with or support",
+        "D": "To be completely different from"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of venture requires constant promotion and marketing efforts?",
+      "options": {
+        "A": "Creating digital content such as ebooks or courses",
+        "B": "Affiliate marketing",
+        "C": "Writing, photography, or graphic design in real-world settings",
+        "D": "Real estate investing"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about the idea of making money from a side hustle?",
+      "options": {
+        "A": "It's a waste of time, as it's unlikely to generate significant income.",
+        "B": "It's an opportunity for personal growth and financial freedom.",
+        "C": "It's only suitable for people who are already wealthy.",
+        "D": "It's not necessary in today's economy."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"your primary source of income\" refer to in the text?",
+      "options": {
+        "A": "Your main job",
+        "B": "The money you earn from a side hustle",
+        "C": "A part-time job or freelance work that supplements your main job",
+        "D": "Any kind of financial support you receive"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this text about side hustles?",
+      "options": {
+        "A": "To explain different types of jobs people can have",
+        "B": "To show how to create a full-time business from a side hustle",
+        "C": "To introduce readers to various ways of earning passive income and achieving financial freedom",
+        "D": "To describe the benefits of having only one job in today's economy"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

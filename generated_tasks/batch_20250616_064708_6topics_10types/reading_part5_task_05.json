@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_05",
+  "title": "Can Your Brain Handle the Crash? The Science of Extreme Sports Addiction",
+  "topic": "general",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "**The Thrill of Risk: Unpacking the Psychology of Extreme Sports**\n\nImagine hurtling down a mountain on a snowboard, dodging trees at breakneck speeds or leaping off a cliff with nothing but a parachute between you and certain doom. These are the scenarios that come to mind when thinking about extreme sports – activities that push the boundaries of human endurance, skill, and sheer bravery.\n\nBut what drives individuals to engage in such high-risk behaviors? Is it an innate desire for adventure, a need for thrills, or something more complex? To answer these questions, let's delve into the psychology behind risk-taking in extreme sports.\n\n**The Thrill-Seeker's Brain**\n\nResearch suggests that our brains are wired to respond positively to thrilling experiences. When we engage in activities like skydiving or rock climbing, our bodies release dopamine – a neurotransmitter associated with pleasure and reward. This can create a feedback loop, where the rush of adrenaline becomes addictive, driving us to pursue more extreme experiences.\n\nOne key factor is the concept of **sensory seeking**. Some individuals crave intense sensory stimulation, which can be provided by activities like bungee jumping or white-water rafting. These experiences activate our brain's reward system, releasing feel-good chemicals that reinforce the behavior.\n\n**The Role of Personality**\n\nPersonality traits also play a significant role in risk-taking behavior. Certain characteristics, such as **sensation-seeking**, are more prevalent among individuals who engage in extreme sports. People with high levels of sensation-seeking tend to be more open to new experiences and enjoy exploring their limits.\n\nAnother crucial aspect is **self-efficacy** – an individual's confidence in their ability to perform a task or activity. When we believe we can handle the risks involved, we're more likely to take on challenging situations.\n\n**The Social Aspect**\n\nExtreme sports often involve social interactions with others who share similar interests and values. This sense of community can foster a culture of mutual support and encouragement, where individuals feel emboldened to push their limits.\n\nResearch has shown that **social influence** plays a significant role in shaping behavior related to risk-taking. When we observe others engaging in high-risk activities, our own willingness to take risks increases – a phenomenon known as **social contagion**.\n\n**The Dark Side of Risk-Taking**\n\nWhile the thrill of extreme sports can be exhilarating, it also comes with a price. **Injury and death** are unfortunate but potential consequences of participating in such activities. The psychological toll can also be significant, particularly when individuals experience failure or setbacks.\n\n**Conclusion**\n\nEngaging in extreme sports is not for the faint of heart. It requires a unique combination of physical and mental abilities, as well as a willingness to push beyond perceived limits. By understanding the psychology behind risk-taking behavior, we can better appreciate the complexities involved.\n\nWhether driven by the desire for thrills, social influence, or personality traits, extreme sports offer a glimpse into human nature's capacity for resilience and adaptability. While risks will always be present, it's clear that many individuals find value in embracing them – a testament to our innate need for challenge and growth.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about people who engage in extreme sports in terms of their social interactions?",
+      "options": {
+        "A": "They tend to prefer solo activities.",
+        "B": "They often feel anxious around others who share similar interests.",
+        "C": "Social influence plays a significant role in shaping their risk-taking behavior.",
+        "D": "They usually avoid interacting with others after participating in an activity."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the term \"sensory seeking\" refer to in the context of extreme sports?",
+      "options": {
+        "A": "A desire for social interaction with others who share similar interests",
+        "B": "The tendency to engage in activities that provide intense physical stimulation",
+        "C": "An individual's confidence in their ability to perform a task or activity",
+        "D": "The need for a sense of community and mutual support"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is released by the brain when we engage in activities like skydiving or rock climbing?",
+      "options": {
+        "A": "Serotonin",
+        "B": "Adrenaline",
+        "C": "Dopamine",
+        "D": "Oxytocin"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards individuals who engage in extreme sports?",
+      "options": {
+        "A": "The author believes they are reckless and irresponsible.",
+        "B": "The author admires their bravery and willingness to push limits.",
+        "C": "The author views them as thrill-seekers with a lack of self-control.",
+        "D": "The author thinks they are abnormal and mentally unstable."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"sensory seeking\" refer to in the text?",
+      "options": {
+        "A": "The process of assessing the risks involved in extreme sports",
+        "B": "A personality trait characterized by an innate desire for adventure",
+        "C": "The brain's response to thrilling experiences and intense sensory stimulation",
+        "D": "A social phenomenon where individuals follow others' behavior without question"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about extreme sports?",
+      "options": {
+        "A": "The text argues that extreme sports are only suitable for physically strong individuals.",
+        "B": "The psychology behind risk-taking behavior in extreme sports can be understood by examining various factors, including personality traits and social influence.",
+        "C": "Extreme sports are a waste of time and should be avoided at all costs.",
+        "D": "The text primarily focuses on the physical aspects of extreme sports."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

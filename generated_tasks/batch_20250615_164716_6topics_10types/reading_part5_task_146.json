@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_146",
+  "title": "Living Abroad Without Breaking the Bank: Digital Nomad Budget Hacks",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I sat on the sun-kissed beaches of Bali, sipping coconut water and typing away on my laptop, I couldn't help but feel grateful for the digital nomad lifestyle. The freedom to work from anywhere, at any time, is a dream come true for many of us. But with this newfound flexibility comes a new set of challenges – particularly when it comes to managing our finances.\n\nAs a seasoned digital nomad, I've learned that budgeting is an art form in itself. It requires a delicate balance of saving, spending, and splurging (because let's be real, we're human beings with taste buds and a desire for adventure!). So, how do we navigate the complexities of budgeting on the road? Where do we even start?\n\nFirst things first: tracking your expenses is key. It sounds tedious, I know, but trust me, it's essential to understand where every dollar (or euro, or rupee) is going. I use a spreadsheet to log all my transactions – from coffee shop runs to accommodation bookings. It might sound old-school, but it's surprisingly effective in keeping me on track.\n\nNext up: categorize your spending. This is where the magic happens! Divide your expenses into three buckets: essentials (rent, food, transportation), discretionary (entertainment, travel, hobbies), and savings (ahem, emergency fund). Be ruthless when cutting back – those fancy dinners at trendy restaurants might be fun now, but will they still be worth it in six months?\n\nNow, let's talk about the elephant in the room: taxes. As a digital nomad, you're likely to be classified as self-employed or freelance, which means you'll need to navigate the complex world of tax deductions and credits. Research your options (e.g., US expat tax returns, UK self-assessment) and consult with an accountant if needed – it's worth the investment.\n\nOne of my favorite budgeting hacks is to use a 50/30/20 rule. Allocate 50% of your income towards essentials, 30% towards discretionary spending, and 20% towards savings. It's not rocket science, but it provides a solid foundation for building financial stability on the road.\n\nAnother crucial aspect of digital nomad budgeting is emergency fund planning. With the constant flux of travel and work arrangements, life can get unpredictable quickly. Aim to save at least three months' worth of living expenses in an easily accessible savings account – this will give you peace of mind during those uncertain moments.\n\nBut don't just focus on saving; think about investing too! The digital nomad lifestyle is all about embracing new experiences and making the most of each location. Consider micro-investing apps or platforms that allow you to invest small amounts into stocks, bonds, or real estate – it's a great way to diversify your portfolio while still living life on the edge.\n\nLastly, be mindful of exchange rates, bank fees, and credit card charges. These sneaky expenses can quickly add up and blow holes in your budget. Look for fee-free international transfers, choose credit cards with low interest rates, and research local banking options – every little bit counts!\n\nAs I gazed out at the turquoise waters, feeling the warm breeze on my skin, I realized that budgeting as a digital nomad is not about depriving yourself of experiences; it's about making conscious choices that align with your values. By tracking expenses, categorizing spending, and building an emergency fund, you'll be well-equipped to navigate life's twists and turns – all while soaking up the sun-kissed views from that beachside laptop.\n\nAnd when in doubt? Just remember: every dollar is a story waiting to be written. So go ahead, splurge on that sunset cocktail (or two, or three...), knowing you've got the budgeting basics covered. Cheers to that!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's approach to budgeting as a digital nomad?",
+      "options": {
+        "A": "They focus primarily on saving money and avoiding expenses.",
+        "B": "They believe in being frugal and sacrificing experiences for financial stability.",
+        "C": "They prioritize making conscious choices that align with their values, rather than depriving themselves of experiences.",
+        "D": "They rely solely on credit cards for all financial transactions."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for something to be \"old-school\" in this context?",
+      "options": {
+        "A": "To use modern technology and innovative methods",
+        "B": "To rely on traditional or outdated approaches",
+        "C": "To prioritize luxury items over essential expenses",
+        "D": "To focus solely on short-term financial gains"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what percentage of income should be allocated towards savings?",
+      "options": {
+        "A": "40%",
+        "B": "20%",
+        "C": "60%",
+        "D": "50%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about the idea of depriving oneself of experiences while budgeting as a digital nomad?",
+      "options": {
+        "A": "It's essential to be strict and avoid any unnecessary expenses.",
+        "B": "The goal is to make conscious choices that align with your values, not to deprive yourself entirely.",
+        "C": "Budgeting as a digital nomad means sacrificing one's desires for financial stability.",
+        "D": "Only those who are willing to sacrifice their freedom can truly budget effectively."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the writer use their spreadsheet for?",
+      "options": {
+        "A": "To keep track of their daily exercise routine",
+        "B": "To log all their transactions – from coffee shop runs to accommodation bookings",
+        "C": "To plan their next travel destination",
+        "D": "To research tax deductions and credits"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about digital nomad budgeting?",
+      "options": {
+        "A": "The author provides a comprehensive guide on how to invest and manage taxes as a digital nomad.",
+        "B": "The article focuses on the importance of tracking expenses and categorizing spending for financial stability.",
+        "C": "Budgeting as a digital nomad requires depriving oneself of experiences in order to save money.",
+        "D": "The text is an inspirational account of the author's personal budgeting journey without providing practical advice."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

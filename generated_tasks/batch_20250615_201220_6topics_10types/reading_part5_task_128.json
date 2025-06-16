@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_128",
+  "title": "Digital Nomad on a Shoestring: How to Live Abroad Without Breaking the Bank",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her coffee on the balcony of her Chiang Mai hostel, Maya stared out at the mist-shrouded mountains, her mind wandering back to the countless hours spent hunched over her laptop, trying to make sense of her finances.\n\nShe had always been drawn to the freedom and flexibility of digital nomadism – working remotely from exotic locations, immersing herself in new cultures, and living life on her own terms. But as she navigated the world's most beautiful cities, Maya began to realize that this lifestyle came with its own unique set of financial challenges.\n\n\"It's not just about finding cheap accommodations or eating street food for every meal,\" she confessed to a fellow traveler, Rachel, over breakfast at a local café. \"It's about understanding where your money is going and making conscious choices.\"\n\nRachel nodded sympathetically. As a seasoned digital nomad herself, she had encountered her fair share of budgeting mishaps. \"I used to think I was being frugal by eating out for every meal,\" she admitted. \"But then I started tracking my expenses and realized that I was wasting hundreds of dollars a month on mediocre food.\"\n\nMaya's eyes widened in surprise. \"How did you change your spending habits?\"\n\nRachel pulled out her phone and opened an app called Mint, which helped her track her income and expenses. \"I set up budgets for categories like housing, transportation, food, and entertainment,\" she explained. \"It was eye-opening to see where my money was going – I had no idea how much I was spending on Ubers and coffee shops!\"\n\nMaya scribbled down the app's name in her notebook, determined to give it a try. As they continued their conversation, Rachel shared more tips for budgeting as a digital nomad:\n\n1. **Track your expenses**: Use an app like Mint or Expensify to monitor your spending and identify areas where you can cut back.\n2. **Set financial goals**: Determine what you want to achieve in the short-term (e.g., saving $5,000 for a down payment on an apartment) and long-term (e.g., retiring early).\n3. **Prioritize needs over wants**: Be honest about what you need versus what you want – and make sacrifices accordingly.\n4. **Take advantage of tax benefits**: As a digital nomad, you may be eligible for tax deductions or credits that can save you thousands of dollars.\n\nAs Maya delved deeper into her own finances, she discovered some surprising areas where she could cut back:\n\n* She was paying $10 per day for a coworking space when she could rent a private office for $200 a month.\n* Her phone plan was racking up hundreds of dollars in international roaming charges – a simple switch to a local SIM card solved the problem.\n* She had been splurging on expensive coffee and snacks at trendy cafes, when really, she just needed a basic breakfast bowl with eggs and rice.\n\nWith these newfound insights, Maya felt more confident about her financial future. As she packed up her belongings to move on to the next destination, she smiled, knowing that this time, she'd be budgeting like a pro – and living life as a digital nomad without breaking the bank.\n\nBack in her Chiang Mai hostel room, Maya sat down at her laptop and opened Mint, ready to start tracking her expenses and making conscious choices about how she spent her money. She smiled, feeling more connected to her financial reality than ever before – and excited for the adventures ahead.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was Maya's main reason for wanting to change her spending habits as a digital nomad?",
+      "options": {
+        "A": "To impress her fellow traveler Rachel with her frugal lifestyle",
+        "B": "Because she wanted to understand where her money was going and make conscious choices",
+        "C": "To save money on Ubers and coffee shops",
+        "D": "To retire early and live off her savings"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Rachel mean by \"conscious choices\" when talking to Maya?",
+      "options": {
+        "A": "Decisions made without thinking about the consequences",
+        "B": "Decisions that take into account where your money is going and how you can save it",
+        "C": "Impulsive decisions based on emotions rather than logic",
+        "D": "Decisions made solely for financial gain"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What app does Rachel use to track her income and expenses as a digital nomad?",
+      "options": {
+        "A": "Expensify",
+        "B": "Mint",
+        "C": "PayPal",
+        "D": "Google Wallet"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Maya's attitude towards managing her finances as a digital nomad?",
+      "options": {
+        "A": "She finds it exciting to track every single expense.",
+        "B": "She is hesitant about changing her spending habits but realizes it's necessary.",
+        "C": "She believes that budgeting is too restrictive and limiting for her lifestyle.",
+        "D": "She thinks that financial responsibility is boring and unglamorous."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"it\" refer to in the following sentence from the text?",
+      "options": {
+        "A": "her financial situation",
+        "B": "the freedom of digital nomadism",
+        "C": "finding affordable places to stay",
+        "D": "being frugal with food expenses"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about digital nomadism?",
+      "options": {
+        "A": "The author is a seasoned digital nomad who shares tips on how to stay organized.",
+        "B": "Budgeting as a digital nomad requires understanding financial challenges and making conscious choices.",
+        "C": "Digital nomads should prioritize finding cheap accommodations over tracking their expenses.",
+        "D": "Using an app like Mint is the only way for digital nomads to manage their finances."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

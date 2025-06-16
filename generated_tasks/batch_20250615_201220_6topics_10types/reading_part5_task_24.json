@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_24",
+  "title": "Money Mastery in Your Twenties: Break Free from Financial Stress",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "As we navigate the complexities of adulthood, one essential skill often gets overlooked: financial literacy. Many young adults struggle to manage their finances effectively, leading to stress, anxiety, and a host of other problems. But fear not – with a solid understanding of personal finance and some practical tips, you can take control of your money and build a brighter future.\n\nFinancial literacy is more than just knowing how to balance a checkbook or budget; it's about making informed decisions that align with your values and goals. It requires a willingness to learn, ask questions, and seek advice from trusted sources. In today's economy, financial literacy is no longer a nicety – it's a necessity.\n\nOne of the biggest hurdles young adults face is credit card debt. With enticing interest rates and tempting rewards programs, it's easy to get caught up in the cycle of overspending and racking up high balances. But here's the thing: credit cards are not a long-term solution for managing your finances. Instead, they can lead to serious financial woes if not used responsibly.\n\nTo avoid this trap, focus on building an emergency fund – a cushion of savings that'll help you weather life's unexpected expenses without going into debt. Aim to stash away three to six months' worth of living expenses in a separate, easily accessible account. This will give you peace of mind and prevent you from relying on high-interest credit cards when times get tough.\n\nAnother critical aspect of financial literacy is investing. While it may seem daunting, the concept is simple: invest your money wisely, and it'll grow over time, providing a safety net for your future. Consider automating your investments through a Roth IRA or 401(k), which offer tax benefits and compound interest.\n\nBut how do you know where to start? Begin by assessing your spending habits and creating a budget that accounts for every dollar. Categorize your expenses into needs (housing, food, utilities) versus wants (entertainment, hobbies). This will help you prioritize essential expenses and cut back on discretionary spending.\n\nNext, explore different types of savings vehicles, such as high-yield savings accounts or certificates of deposit (CDs), which offer higher returns than traditional savings accounts. Consider low-cost index funds or ETFs for long-term investing – they'll give you broad diversification without breaking the bank.\n\nFinancial literacy also involves understanding your credit score and report. Your credit score is a three-digit number that reflects your creditworthiness, influencing interest rates and loan terms. Check your report regularly to catch any errors or inaccuracies, which can harm your score.\n\nLastly, don't be afraid to seek help when needed. Consult with a financial advisor or planner who can offer personalized guidance and support. Many also provide workshops, webinars, or online resources to educate young adults on personal finance basics.\n\nIn conclusion, financial literacy is a skill that takes time to develop but pays dividends in the long run. By building an emergency fund, investing wisely, understanding credit scores, and seeking advice when needed, you'll be well on your way to achieving financial stability. Remember, it's not about being perfect – it's about making progress.\n\nIn today's fast-paced world, young adults face an array of financial challenges, from student loan debt to stagnant wages. But by prioritizing financial literacy, you can take control of your finances and build a brighter future. So, start small – learn one new thing each week, automate your savings, or simply ask questions when unsure.\n\nWith patience, persistence, and a willingness to learn, you'll be well on your way to achieving financial freedom. And who knows? You may just discover that the journey itself is the greatest reward of all.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what is one of the main benefits of building an emergency fund?",
+      "options": {
+        "A": "It allows you to spend more on entertainment and hobbies",
+        "B": "It helps you weather life's unexpected expenses without going into debt",
+        "C": "It reduces your need for credit cards with high interest rates",
+        "D": "It eliminates the need to budget or track your spending"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"diversification\" mean in the context of investing?",
+      "options": {
+        "A": "To invest a large amount of money in one stock or asset",
+        "B": "To spread investments across different types of savings vehicles, such as stocks and bonds",
+        "C": "To take on high levels of risk to potentially earn higher returns",
+        "D": "To avoid investing at all"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many months' worth of living expenses should be saved in an emergency fund?",
+      "options": {
+        "A": "One month",
+        "B": "Three to six months",
+        "C": "Twelve months",
+        "D": "Twenty-four months"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The author's attitude towards credit cards can best be described as:",
+      "options": {
+        "A": "Credit cards are a necessary tool for managing finances effectively.",
+        "B": "Credit cards are a long-term solution for building wealth and achieving financial stability.",
+        "C": "Credit cards are not a reliable way to manage finances and should be used responsibly.",
+        "D": "Credit cards are too expensive and unnecessary for most young adults."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"needs\" refer to in this text?",
+      "options": {
+        "A": "The amount of money required for emergency expenses",
+        "B": "Essential expenses such as housing, food, and utilities",
+        "C": "Discretionary spending on hobbies and entertainment",
+        "D": "High-interest credit card debt"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about financial literacy for young adults?",
+      "options": {
+        "A": "Financial literacy is a skill that is only necessary for high-income earners.",
+        "B": "To achieve financial stability, young adults should focus on building an emergency fund and making informed decisions about their finances.",
+        "C": "Credit cards are a long-term solution for managing one's finances if used responsibly.",
+        "D": "Financial literacy is not essential in today's economy."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

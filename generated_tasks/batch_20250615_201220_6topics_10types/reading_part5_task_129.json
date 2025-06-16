@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_129",
+  "title": "How to Save Money While Working Abroad as a Digital Nomad",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "Lena sat on the beach, sipping her coffee as she gazed out at the turquoise water. She had been living the dream of being a digital nomad for months now, working remotely from exotic locations and traveling whenever she pleased. But with freedom came financial responsibility – or so she kept telling herself.\n\nAs she scrolled through her bank statements on her laptop, Lena's eyes widened in horror. She had blown through her entire savings in just three months, and was starting to feel the strain of living off credit card debt. \"How did I end up here?\" she muttered to herself.\n\nHer friend Rachel, a seasoned digital nomad who had been traveling for years, walked up beside her. \"Hey, what's going on?\" Rachel asked, noticing Lena's frazzled expression.\n\n\"I just can't seem to get my finances under control,\" Lena confessed. \"I'm spending way too much money and I don't know how to budget.\"\n\nRachel nodded sympathetically. \"It's tough when you're traveling all the time. But trust me, it gets easier with practice.\" She pulled out her phone and started typing away on a spreadsheet. \"Let me show you my secret to budgeting as a digital nomad.\"\n\nLena leaned in as Rachel explained her system. \"First, I separate my expenses into categories – housing, food, transportation, and entertainment. Then, I allocate a specific amount for each category based on how often I plan to use it. For example, if I know I'll be staying in one place for a few weeks, I budget more for housing.\"\n\nRachel's system made sense to Lena, but she was still struggling to apply it to her own life. \"What about when you don't know what your expenses will be?\" Lena asked. \"Like when you're traveling to a new country and everything is unfamiliar?\"\n\n\"That's where the 50/30/20 rule comes in,\" Rachel said with a smile. \"Fifty percent of my income goes towards necessary expenses like housing and food. Thirty percent towards discretionary spending like travel and entertainment, and twenty percent towards saving and debt repayment.\"\n\nLena scribbled down some notes as Rachel continued to explain the intricacies of her budgeting system. She realized that she had been living in a state of constant uncertainty, never really knowing how much money she would have from one month to the next.\n\n\"That's not sustainable,\" Lena said to herself, feeling a sense of determination wash over her. \"I need to get my finances under control if I want to keep living this lifestyle.\"\n\nRachel handed Lena a copy of her budget spreadsheet and offered words of encouragement. \"You got this, girl. Just take it one step at a time and remember that budgeting is not a one-time task – it's an ongoing process.\"\n\nLena took a deep breath as she gazed out at the ocean. She knew she still had a lot to learn about budgeting for digital nomads, but with Rachel's guidance and her own determination, she was ready to take on the challenge.\n\nAs they chatted further, Lena realized that living like this wasn't just about traveling to new places – it was also about growing as a person. She needed to be responsible, adaptable, and financially savvy if she wanted to truly enjoy the freedom of being a digital nomad.\n\n\"I think I'm starting to get the hang of this,\" Lena said to Rachel with a grin. \"Thanks for your help – you've been an amazing mentor!\"\n\nRachel smiled back at her. \"Anytime, girl. Now let's go celebrate with some affordable lunch and enjoy the rest of our day on this beautiful beach.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What will likely happen to Lena if she continues living without a budget?",
+      "options": {
+        "A": "She will have enough money for all her expenses without ever needing to worry about debt",
+        "B": "She will be forced to return to her old job and give up on her digital nomad lifestyle",
+        "C": "She will struggle financially and may even lose some of the freedom associated with being a digital nomad",
+        "D": "Her friends will no longer want to travel with her because they think she's irresponsible"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Rachel mean by 'necessary expenses' when explaining her budgeting system?",
+      "options": {
+        "A": "Money spent on travel and entertainment",
+        "B": "Regular costs such as housing, food, and transportation",
+        "C": "Savings and debt repayment",
+        "D": "Expenses related to a digital nomad's lifestyle"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Rachel's budgeting system, what percentage of Lena's income should be allocated towards discretionary spending such as travel and entertainment?",
+      "options": {
+        "A": "10%",
+        "B": "30%",
+        "C": "40%",
+        "D": "50%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Lena's attitude towards being a digital nomad before she meets Rachel?",
+      "options": {
+        "A": "She sees it as a carefree lifestyle that requires no financial planning",
+        "B": "She thinks it's not sustainable and feels overwhelmed by her expenses",
+        "C": "She believes it's only for people who are naturally good with money",
+        "D": "She doesn't think it's worth the hassle of budgeting"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Rachel pull out to explain her budgeting system as she is talking to Lena?",
+      "options": {
+        "A": "A calculator",
+        "B": "Her phone",
+        "C": "A notebook",
+        "D": "A wallet"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of Lena's conversation with Rachel about budgeting as a digital nomad?",
+      "options": {
+        "A": "They discuss the benefits of living off credit card debt.",
+        "B": "Lena learns how to separate her expenses into categories and allocate specific amounts for each one.",
+        "C": "The importance of being financially responsible and adaptable in order to enjoy the freedom of being a digital nomad is emphasized.",
+        "D": "Rachel's budgeting system focuses on saving money by minimizing travel expenses."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

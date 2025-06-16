@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_25",
+  "title": "Money, Mountains, and Maturity: My Journey to Financial Freedom in Tokyo",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Singapore, I couldn't help but feel a sense of excitement and trepidation. I was on a mission to explore one of the most fascinating destinations on earth: the world of financial literacy for young adults. My journey would take me through bustling cities, quaint towns, and even rural villages, where I would meet with experts, entrepreneurs, and everyday people who have mastered the art of managing their finances.\n\nMy first stop was the vibrant city of Kuala Lumpur in Malaysia. I arrived at a trendy café in the heart of the financial district, where I met with my guide, Rohan, a young entrepreneur who had built a successful business from scratch. Over steaming cups of coffee, he shared his story of how he learned to manage his finances from a tender age. \"Growing up,\" he told me, \"my parents taught me the importance of saving and investing in myself. They encouraged me to start my own business when I was just 19 years old.\" Rohan's enthusiasm was contagious as he showed me his startup's thriving office space, where young adults were busy brainstorming innovative ideas.\n\nAs we walked through the city streets, Rohan pointed out billboards advertising financial products and services tailored specifically for young adults. \"This is a rapidly growing market,\" he explained, \"as more people in their 20s and 30s become aware of the need to take control of their finances.\" We passed by street vendors selling colorful brochures and business cards, each promising easy access to loans, credit cards, and investment opportunities.\n\nThe next day, I traveled to the picturesque town of Penang, where I met with a group of students at a local university. They were participating in a workshop on financial literacy led by a renowned expert, Dr. Wong. As I listened to her presentation, I was struck by the simplicity and clarity of her explanations. She emphasized the importance of understanding one's personal financial goals, creating a budget, and investing wisely for the future.\n\nDr. Wong's words echoed in my mind as I traveled to rural villages in Thailand, where I met with farmers who had learned to manage their finances through a community-based program. They shared stories of how they used microloans to start small businesses, such as selling handicrafts or growing organic vegetables. These entrepreneurs were not only generating income but also creating employment opportunities for others in their communities.\n\nAs my journey continued, I began to notice common threads among the people I met. Despite their diverse backgrounds and experiences, they all shared a deep understanding of the importance of financial literacy. They had learned that managing one's finances was not just about saving money or investing wisely; it was also about building confidence, resilience, and a sense of purpose.\n\nAs I prepared to leave this incredible journey behind, I couldn't help but feel inspired by the people I met along the way. Their stories reminded me that financial literacy is not just a skill, but a way of life. It's a mindset that empowers individuals to take control of their finances, pursue their dreams, and make a positive impact on their communities.\n\nAs I boarded my flight back home, I felt a sense of gratitude for the incredible experiences I had accumulated during this journey. Financial literacy may seem like a dry topic at first glance, but it's actually a rich tapestry of stories, people, and places that can inspire and educate anyone willing to listen.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was Rohan's age when he started his own business according to his story?",
+      "options": {
+        "A": "15 years old",
+        "B": "19 years old",
+        "C": "25 years old",
+        "D": "He didn't mention starting a business at all"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Rohan mean by \"investing in myself\"?",
+      "options": {
+        "A": "To spend money on expensive clothes",
+        "B": "To save money for the future",
+        "C": "To take risks with my business to earn more profits",
+        "D": "To improve my skills and knowledge to achieve my goals"
+      },
+      "correct_answer": "D",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "At what age did Rohan start his own business?",
+      "options": {
+        "A": "18 years old",
+        "B": "19 years old",
+        "C": "21 years old",
+        "D": "25 years old"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about financial literacy?",
+      "options": {
+        "A": "It is a complex and boring subject.",
+        "B": "It is an exciting and empowering way of life.",
+        "C": "It is only necessary for people who are wealthy.",
+        "D": "It is not important for young adults."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who did Rohan credit with teaching him the importance of saving and investing in himself?",
+      "options": {
+        "A": "A group of students at a local university",
+        "B": "His parents",
+        "C": "Dr. Wong, a renowned expert on financial literacy",
+        "D": "The farmers he met in rural villages in Thailand"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of the author's journey in exploring financial literacy for young adults?",
+      "options": {
+        "A": "To criticize the current state of financial education",
+        "B": "To show how financial literacy empowers individuals to take control of their lives and communities",
+        "C": "To compare different countries' approaches to teaching personal finance",
+        "D": "To promote a specific financial product or service"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

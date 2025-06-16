@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_32",
+  "title": "Ditching Plastic: The Ultimate Test of Willpower and Sustainability",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "The Plastic-Free Lifestyle Challenge: A Test of Willpower and Creativity\n\nIn recent years, the world has witnessed a growing concern over the devastating impact of single-use plastics on our environment. From clogged oceans to suffocating landfills, plastic pollution has become a pressing issue that requires immediate attention. In response, many individuals have taken up the challenge of adopting a plastic-free lifestyle. But what does this entail, and is it feasible for ordinary people?\n\nFor Sarah Jones, a 32-year-old marketing executive from London, the decision to go plastic-free was sparked by her growing awareness of the issue. \"I used to think that recycling was enough,\" she recalls. \"But when I started reading about the microplastics in our food and water, I realized that something had to change.\" Jones began by making small adjustments to her daily routine: carrying a reusable water bottle, shopping for produce in bulk, and opting for cloth bags instead of plastic ones.\n\nHowever, as she delved deeper into the world of zero-waste living, Jones encountered numerous challenges. \"It's not just about avoiding single-use plastics,\" she notes. \"You have to rethink your entire lifestyle.\" She had to start buying soap bars, switching to a metal straw, and even making her own cleaning products using natural ingredients.\n\nFor others, the transition was more drastic. Emily Patel, a 29-year-old student from Manchester, gave up her beloved smartphone due to its plastic casing and excessive packaging. \"It's not easy, but I feel so much better knowing that I'm reducing my carbon footprint,\" she says. Patel now uses a second-hand laptop, which she repaired herself using YouTube tutorials.\n\nWhile the benefits of a plastic-free lifestyle are undeniable – reduced waste, lower emissions, and improved health – many people struggle to maintain this way of living. In fact, research suggests that up to 75% of individuals who attempt to adopt a zero-waste lifestyle ultimately fall back into their old habits.\n\nSo what's behind this failure? One major obstacle is the lack of infrastructure. Many cities still don't provide adequate recycling facilities or public transportation options, making it difficult for people to adapt to new habits. Another challenge lies in social norms: when everyone around you is using single-use plastics, it can be hard to resist.\n\nDespite these obstacles, many advocates argue that going plastic-free is not just about individual actions – but also about collective change. \"It's a societal issue,\" says Dr. Rachel Lee, an environmental scientist at the University of Oxford. \"We need to rethink our entire economic model and make sustainable living more accessible and affordable for everyone.\"\n\nSome cities are already leading the way in this regard. San Francisco, for example, has implemented a comprehensive recycling program that includes organic waste collection and textile recycling. Similarly, Copenhagen has introduced a \"green tax\" on single-use plastics, which has seen a significant reduction in usage.\n\nWhile we may not be able to eradicate plastic use entirely – at least, not yet – the plastic-free lifestyle challenge serves as a crucial wake-up call for individuals and policymakers alike. By adopting creative solutions, rethinking our consumption habits, and advocating for systemic change, we can all play a part in reducing plastic pollution and creating a more sustainable future.\n\nIn conclusion, embracing a plastic-free lifestyle requires not only willpower but also creativity and community support. As Sarah Jones puts it, \"It's not about perfection – it's about progress.\" By joining forces with like-minded individuals and pushing for policy changes, we can all contribute to a world where single-use plastics are a thing of the past.\n\nWord Count: 652",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if individuals don't receive support from their communities when trying to adopt a plastic-free lifestyle?",
+      "options": {
+        "A": "They will be more successful in reducing their carbon footprint.",
+        "B": "They will struggle to maintain new habits and may give up altogether.",
+        "C": "They will start using even more single-use plastics than before.",
+        "D": "They will not be bothered by the lack of infrastructure in their cities."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"suffocating\" mean in this context?",
+      "options": {
+        "A": "Extremely cold",
+        "B": "Slowly and painfully killing or destroying something",
+        "C": "Completely surrounded by water",
+        "D": "Completely free from pollution"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what percentage of individuals who attempt to adopt a zero-waste lifestyle ultimately fall back into their old habits?",
+      "options": {
+        "A": "Up to 90%",
+        "B": "Up to 75%",
+        "C": "Up to 50%",
+        "D": "Up to 95%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to Dr. Rachel Lee, what is the plastic-free lifestyle challenge mainly about?",
+      "options": {
+        "A": "It's solely an individual problem that requires personal effort and willpower.",
+        "B": "It's a societal issue that needs collective change and policy reforms.",
+        "C": "It's a luxury only affordable for wealthy individuals who can afford sustainable products.",
+        "D": "It's a temporary solution until technology improves."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Sarah Jones mean by \"something had to change\" in this sentence?",
+      "options": {
+        "A": "She realized that buying more expensive products was not worth it.",
+        "B": "She understood that recycling alone was insufficient to tackle plastic pollution.",
+        "C": "She decided to stop using her smartphone because of its plastic casing.",
+        "D": "She started a new business to produce eco-friendly products."
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of the Plastic-Free Lifestyle Challenge?",
+      "options": {
+        "A": "To encourage people to use more plastic",
+        "B": "To raise awareness about the devastating impact of single-use plastics and promote sustainable living",
+        "C": "To test individuals' ability to live without any modern conveniences",
+        "D": "To make a profit from selling eco-friendly products"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

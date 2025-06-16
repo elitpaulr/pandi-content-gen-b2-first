@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_75",
+  "title": "Unlocking Financial Freedom: The Science of Side Hustle Success",
+  "topic": "general",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "The concept of making money has long been tied to traditional employment, but in recent years, the idea of supplementing one's primary income with a \"side hustle\" or generating passive income has gained significant traction. This shift in mindset is largely driven by technological advancements and changing economic landscapes.\n\nA side hustle typically refers to any additional income-generating activity undertaken outside of one's main job or profession. These can range from freelancing, part-time jobs, or even selling products online through platforms such as Etsy or eBay. The key benefit of a side hustle lies in its flexibility – allowing individuals to choose when and how they dedicate time to earning extra money.\n\nPassive income, on the other hand, involves generating revenue without actively participating in it. This can be achieved through various means, including investing in dividend-paying stocks, real estate, or creating and selling digital products such as e-books, courses, or software. The idea behind passive income is that once the initial effort has been put into creating a product or service, subsequent earnings are largely automated.\n\nOne popular method of generating passive income involves affiliate marketing. This involves promoting other people's products or services on one's own website, social media channels, or through email campaigns. When someone clicks an affiliate link and makes a purchase, the individual behind the promotion earns a commission. By leveraging existing audiences and networks, individuals can generate significant revenue without investing excessive time or effort.\n\nAnother approach to passive income is creating and selling digital products. With the rise of online marketplaces such as Gumroad and Sellfy, anyone with expertise in a particular area – be it cooking, photography, or software development – can create and sell their own products. These can range from e-books and video courses to stock photos and graphics.\n\nInvesting in dividend-paying stocks also provides an attractive option for generating passive income. By purchasing shares in companies that distribute a portion of their profits to shareholders as dividends, individuals can earn regular returns without actively contributing to the company's operations.\n\nSome examples of successful side hustles and passive income streams include:\n\n* A blogger who creates content around a specific niche and earns money through advertising, affiliate marketing, or sponsored posts.\n* An artist who sells prints or original artwork online, leveraging platforms such as Society6 or Redbubble.\n* A software developer who creates an app or game that generates revenue through in-app purchases or subscription-based models.\n\nWhen it comes to getting started with side hustles and passive income streams, the key is to identify areas of interest and skill. By choosing activities that align with one's strengths and passions, individuals can build momentum and create a sense of purpose around their additional income-generating endeavors.\n\nIn conclusion, the concept of side hustles and passive income offers a wealth of opportunities for those looking to supplement their primary income or transition into entrepreneurship. As technology continues to evolve and more platforms emerge, it is likely that these trends will only gain further traction in the coming years.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about individuals who are successful with side hustles and passive income streams?",
+      "options": {
+        "A": "They have a lot of free time to devote to their additional income-generating activities.",
+        "B": "They often combine multiple sources of income to achieve financial stability.",
+        "C": "They tend to focus on traditional employment over other forms of earning money.",
+        "D": "They usually start out by investing in dividend-paying stocks."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"generate revenue without actively participating in it\" mean in this context?",
+      "options": {
+        "A": "To work long hours to earn a lot of money",
+        "B": "To make money from an investment, business, or product with minimal effort",
+        "C": "To reduce one's primary income by taking on a part-time job",
+        "D": "To sell products online through platforms like Etsy or eBay"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What platform allows individuals to sell digital products such as e-books and courses?",
+      "options": {
+        "A": "Etsy",
+        "B": "eBay",
+        "C": "Gumroad",
+        "D": "Society6"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author seem to think about the shift from traditional employment to supplementing one's income with side hustles or passive income?",
+      "options": {
+        "A": "The author believes this trend is a bad idea and will ultimately lead to financial instability.",
+        "B": "The author thinks this shift in mindset is largely driven by technological advancements, which will continue to gain traction.",
+        "C": "The author is sceptical about the benefits of side hustles and passive income, and warns readers against getting involved.",
+        "D": "The author views this trend as a positive development that offers many opportunities for financial freedom."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"existing audiences and networks\" refer to in this text?",
+      "options": {
+        "A": "The primary income-generating activities mentioned earlier",
+        "B": "Individuals' online presence, including their websites and social media channels",
+        "C": "The companies that distribute dividends to shareholders",
+        "D": "The initial effort required to create a product or service"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about side hustles and passive income?",
+      "options": {
+        "A": "The benefits of traditional employment are being replaced by the need for people to find additional jobs.",
+        "B": "Supplementing one's primary income with a \"side hustle\" or generating passive income offers new opportunities for financial freedom.",
+        "C": "The concept of making money is no longer relevant in today's economy.",
+        "D": "Technology is causing people to lose their main jobs and move to part-time work."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

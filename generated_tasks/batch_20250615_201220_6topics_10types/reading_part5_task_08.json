@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_08",
+  "title": "Mastering Money Magic: Essential Skills for Young Adults",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sat at her small desk, staring blankly at the stack of bills in front of her, Emily couldn't help but feel overwhelmed. She was only 22, but the weight of responsibility was already settling in. Her part-time job barely covered her expenses, and she was still living with her parents to make ends meet.\n\nHer friend, Rachel, walked into the room, sensing Emily's distress. \"Hey, what's going on?\" Rachel asked, flopping down onto the couch beside her.\n\n\"I don't know how I'm going to pay all of these bills,\" Emily admitted, gesturing to the pile in front of her. \"I feel like I'm drowning in debt.\"\n\nRachel nodded sympathetically. \"I remember when I first started working and had to deal with all this stuff. It's tough, but you'll get through it.\" She paused, collecting her thoughts before continuing. \"You know, Emily, financial literacy is key here. If you understand how money works, you can make better decisions about your finances.\"\n\nEmily raised an eyebrow. \"Financial literacy? That sounds so... adult.\"\n\nRachel chuckled. \"It's not just for adults! Financial literacy means understanding basic concepts like budgeting, saving, and investing. It's essential for making smart financial choices and achieving your goals.\"\n\nThe two friends spent the next hour pouring over Rachel's notes on personal finance, covering topics from compound interest to credit scores. Emily was fascinated by how simple yet powerful these concepts were.\n\n\"Wow, I had no idea,\" Emily said, scribbling down some key terms in her notebook. \"I feel like I've been living in a financial dark ages or something.\"\n\nRachel grinned. \"Don't worry, it's not too late to catch up! Now that you're learning the basics, we can work on creating a budget together. That way, you'll be able to prioritize your expenses and make progress towards paying off those bills.\"\n\nAs they delved deeper into Emily's finances, Rachel introduced her to the 50/30/20 rule – allocating 50% of income towards necessities like rent and utilities, 30% towards discretionary spending, and 20% towards saving and debt repayment. It seemed simple enough, but Emily was amazed at how much her perspective on money changed.\n\nWith newfound determination, Emily began applying these principles to her life. She set aside a specific amount each month for savings, paying attention to interest rates and fees associated with her bank accounts. She also started making small adjustments to her spending habits, opting for cheaper alternatives when possible and cutting back on unnecessary expenses.\n\nOver the next few weeks, Emily noticed significant improvements in her financial stability. Her bills were getting paid on time, and she had even managed to put aside a small emergency fund – just in case life threw any unexpected surprises her way.\n\nAs she sat at her desk, surrounded by neatly organized receipts and account statements, Emily felt an overwhelming sense of pride and accomplishment. She realized that financial literacy wasn't some distant, unattainable goal; it was within reach, and all she had to do was take control of her finances.\n\nRachel, who had been observing from the sidelines with a knowing smile, nodded in approval. \"See? I told you it wouldn't be so hard! You're doing great, Emily.\"\n\nEmily smiled back at her friend, grateful for the guidance and support. Together, they continued to navigate the world of personal finance, exploring new strategies and refining their skills.\n\nAs they delved deeper into the realm of financial literacy, Emily knew that she was not only gaining knowledge but also confidence – in herself and her ability to manage her finances effectively.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated Emily to take control of her finances?",
+      "options": {
+        "A": "She wanted to impress her parents with her responsible behavior.",
+        "B": "She had read about the importance of financial literacy in a magazine article.",
+        "C": "She realized that financial literacy was key to making better decisions about her money.",
+        "D": "She saw how much her friend Rachel's salary increased after learning about personal finance."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"financial literacy\" mean in this context?",
+      "options": {
+        "A": "The ability to make large sums of money quickly",
+        "B": "A complete understanding of how money works, including budgeting, saving, and investing",
+        "C": "A complex system of financial rules that only experts can understand",
+        "D": "A type of investment that involves taking risks with your money"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of income should be allocated towards saving and debt repayment according to the 50/30/20 rule?",
+      "options": {
+        "A": "10%",
+        "B": "15%",
+        "C": "25%",
+        "D": "20%"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Rachel think is the key to making smart financial choices?",
+      "options": {
+        "A": "It's all about being good with numbers.",
+        "B": "Financial literacy is just for adults, it's not relevant for young people like Emily.",
+        "C": "Understanding basic concepts like budgeting, saving, and investing is essential.",
+        "D": "You don't need a plan or guidance to manage your finances, just be responsible."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Rachel's phrase \"financial literacy is key\" refer to?",
+      "options": {
+        "A": "Her part-time job barely covering her expenses",
+        "B": "The importance of understanding basic financial concepts",
+        "C": "Emily's feelings of being overwhelmed with bills",
+        "D": "Living with parents due to financial struggles"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about Emily's journey with financial literacy?",
+      "options": {
+        "A": "Emily learns how to make a lot of money quickly.",
+        "B": "Financial literacy is essential for young adults like Emily to make smart financial choices and achieve their goals.",
+        "C": "Rachel helps Emily pay off her debts by giving her some extra money each month.",
+        "D": "Emily becomes wealthy after winning the lottery."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

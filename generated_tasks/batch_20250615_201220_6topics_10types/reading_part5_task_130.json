@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_130",
+  "title": "Mastering Your Money on the Move: A Digital Nomad's Budget Blueprint",
+  "topic": "technology",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "**The Digital Nomad's Guide to Budgeting**\n\nAs I sit here in my beachside coworking space, sipping on a $5 latte (because priorities), I'm reminded of the financial struggles many digital nomads face. The freedom to work from anywhere is a blessing, but it can also be a curse when it comes to managing our finances.\n\nI've been living the digital nomad lifestyle for over two years now, and I've learned that budgeting is not just about saving money – it's about being intentional with your resources so you can focus on what matters most: exploring new destinations, building meaningful relationships, and pursuing your passions.\n\n**The Problem with Traditional Budgeting**\n\nWhen I first started working remotely, I tried to apply traditional budgeting principles to my digital nomad life. I set up a spreadsheet, categorized my expenses, and tracked every single transaction. Sounds great in theory, but it quickly became overwhelming. With constant travel and irregular income, my budget was constantly out of whack.\n\nI'm not alone in this struggle. Many digital nomads have shared their own horror stories about trying to stick to a traditional budget while living on the road. It's just too inflexible for our unpredictable lifestyle.\n\n**The Solution: Flexible Budgeting**\n\nSo what's a digital nomad to do? I've come up with a flexible budgeting system that works for me, and I'd love to share it with you.\n\nFirst, I allocate 30% of my income towards essential expenses like rent (okay, Airbnb fees), food, and healthcare. These costs can vary depending on where I am in the world, but they're always a priority.\n\nNext, I set aside 20% for discretionary spending – think fancy dinners, weekend getaways, or that $50 yoga class in Bali. This is where I indulge in some retail therapy or treat myself to a nice coffee (or two).\n\nThe remaining 50%? That's for savings and investments. As a digital nomad, it can be tempting to spend all your money on experiences, but trust me – you'll regret not putting something away for the future.\n\n**Tracking Your Expenses**\n\nNow that I've got my budget sorted out, I need to keep track of where my money is going. That's where apps like Mint and Trail Wallet come in handy. These tools help me monitor my spending, set budgets, and even earn rewards on my purchases (hello, free flights!).\n\nI also make sure to prioritize needs over wants. When I'm traveling through Southeast Asia, for instance, I know that $5 street food is a much better value than splurging on expensive restaurant meals.\n\n**Prioritizing Your Values**\n\nBudgeting as a digital nomad isn't just about saving money; it's about living intentionally. What are your non-negotiables? For me, it's having reliable Wi-Fi and a comfortable place to sleep. Others might prioritize access to healthy food or regular exercise routines.\n\nOnce you know what matters most to you, you can start making budgeting decisions that align with those values.\n\n**Conclusion**\n\nBudgeting as a digital nomad requires creativity, flexibility, and intentionality. It's not about depriving yourself of experiences; it's about being mindful of your resources so you can focus on what truly brings you joy.\n\nBy allocating 30% for essentials, 20% for discretionary spending, and 50% for savings, I've found a system that works for me. Of course, everyone's financial situation is unique – the key is to experiment until you find a budgeting approach that fits your lifestyle.\n\nSo go ahead, take a deep breath, and dive into the world of flexible budgeting. Your wallet (and your sanity) will thank you!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What percentage of income is allocated towards discretionary spending according to the author's flexible budgeting system?",
+      "options": {
+        "A": "20%",
+        "B": "30%",
+        "C": "40%",
+        "D": "50%"
+      },
+      "correct_answer": "A",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the author mean by \"being intentional with your resources\" in this context?",
+      "options": {
+        "A": "To spend as little money as possible",
+        "B": "To make thoughtful decisions about how to use one's money",
+        "C": "To save a fixed amount each month",
+        "D": "To track every single transaction on a spreadsheet"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of my income do I allocate towards essential expenses like rent, food, and healthcare?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "50%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think is the main problem with traditional budgeting for digital nomads?",
+      "options": {
+        "A": "It's too inflexible for our stable lifestyle.",
+        "B": "It's not suitable for people who want to save money quickly.",
+        "C": "It can't be adapted to constant travel and irregular income.",
+        "D": "It's too time-consuming."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"my budget was constantly out of whack\" refer to?",
+      "options": {
+        "A": "The author's irregular income",
+        "B": "The difficulty of tracking every single transaction",
+        "C": "The author's inability to manage their finances effectively",
+        "D": "The constant travel and changing locations"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about budgeting for digital nomads?",
+      "options": {
+        "A": "The author presents a traditional budgeting system that works best for digital nomads.",
+        "B": "Budgeting as a digital nomad requires creativity, flexibility, and intentionality.",
+        "C": "The author recommends saving 50% of one's income and spending the rest on travel.",
+        "D": "Digital nomads should avoid using any apps to track their expenses."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

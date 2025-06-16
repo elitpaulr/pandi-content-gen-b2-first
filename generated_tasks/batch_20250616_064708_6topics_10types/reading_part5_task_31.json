@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_31",
+  "title": "Sweat Your Way to Happiness: How Exercise Boosts Mental Health",
+  "topic": "health_and_fitness",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**Get Moving for Better Mental Health**\n\nExercise is often associated with physical health, but did you know that regular physical activity has a profound impact on our mental well-being too? From reducing stress and anxiety to boosting mood and even alleviating symptoms of depression, the benefits of exercise on mental health are undeniable.\n\nAccording to Dr. Kelly McGonigal, a leading expert in the field of exercise science, \"Regular physical activity is one of the most effective ways to protect against mental illness.\" With more than 75% of adults experiencing mental health issues each year, finding an effective solution has never been more crucial.\n\n**Reduces Stress and Anxiety**\n\nExercise is a natural stress-reliever. When we engage in physical activity, our body releases endorphins – also known as \"feel-good\" hormones – which help to calm the mind and reduce anxiety levels. This can be particularly beneficial for individuals who experience high levels of stress, such as busy professionals or students.\n\nOne study published in the Journal of Clinical Psychology found that exercise reduced symptoms of anxiety and depression by 43% in patients with chronic pain. This is because exercise stimulates the production of brain-derived neurotrophic factor (BDNF), a protein that promotes neuronal health and resilience.\n\n**Boosts Mood**\n\nRegular exercise has also been shown to have a profound impact on mood. Physical activity releases neurotransmitters such as serotonin, dopamine, and endorphins, which help to regulate mood and reduce symptoms of depression. This is why exercise is often used as an adjunct therapy for individuals with mental health conditions, including major depressive disorder.\n\n**Improves Sleep**\n\nExercise can also have a significant impact on sleep quality. Regular physical activity helps to regulate the body's circadian rhythms, ensuring that we fall asleep faster and stay asleep longer. With 1 in 5 adults experiencing sleep disorders each year, this is a vital benefit for many people.\n\n**Increases Self-Esteem**\n\nRegular exercise can also have a profound impact on self-esteem. As individuals become more physically active, they often experience increased confidence and body satisfaction. This can be particularly beneficial for young women or individuals who struggle with body image issues.\n\nOne study published in the Journal of Sport & Exercise Psychology found that participation in sports programs improved self-esteem in adolescents by 28%. This is because exercise provides a sense of accomplishment and competence, helping to build confidence and self-worth.\n\n**Getting Started**\n\nSo, how can you incorporate exercise into your life? Start small – aim for at least 30 minutes of moderate-intensity physical activity each day. Find an activity that you enjoy, whether it's walking, running, swimming or dancing. Exercise with a friend or family member to increase motivation and accountability.\n\nRemember, the benefits of exercise on mental health are not limited to physical activity alone. Activities such as yoga, tai chi, and meditation can also provide a sense of calm and relaxation. Experiment with different activities until you find what works best for you.\n\n**Conclusion**\n\nThe relationship between exercise and mental health is clear: regular physical activity has the power to reduce stress and anxiety, boost mood, improve sleep, increase self-esteem, and alleviate symptoms of depression. So why not get moving today? With the numerous benefits that come with exercise, there's never been a better time to prioritize your mental well-being.\n\nAs Dr. McGonigal so eloquently puts it: \"Exercise is a powerful tool for improving mental health. By incorporating physical activity into our daily lives, we can reduce symptoms of anxiety and depression, boost mood, and improve overall quality of life.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to Dr. Kelly McGonigal, what percentage of adults experience mental health issues each year?",
+      "options": {
+        "A": "25%",
+        "B": "More than 75%",
+        "C": "Between 50% and 60%",
+        "D": "Less than 10%"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase 'alleviating symptoms' mean in this context?",
+      "options": {
+        "A": "Making symptoms worse",
+        "B": "Reducing or relieving symptoms",
+        "C": "Causing new symptoms to appear",
+        "D": "Ignoring symptoms altogether"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Dr. Kelly McGonigal, what percentage of adults experience mental health issues each year?",
+      "options": {
+        "A": "25%",
+        "B": "75%",
+        "C": "50%",
+        "D": "90%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to Dr. Kelly McGonigal, what does regular exercise do to protect against mental illness?",
+      "options": {
+        "A": "It reduces the risk of developing a mental health condition",
+        "B": "It has no impact on mental illness at all",
+        "C": "It is one of the most effective ways to treat an existing mental health condition",
+        "D": "It can cause more harm than good"
+      },
+      "correct_answer": "A",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who according to Dr. Kelly McGonigal, is one of the most effective ways to protect against mental illness?",
+      "options": {
+        "A": "Busy professionals",
+        "B": "Regular physical activity",
+        "C": "Individuals with chronic pain",
+        "D": "Young women"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this text about exercise and mental health?",
+      "options": {
+        "A": "To inform readers about the benefits of yoga for improving mental well-being",
+        "B": "To encourage people to incorporate regular physical activity into their daily lives for better mental health",
+        "C": "To discuss the potential risks of over-exercising on mental health",
+        "D": "To provide a comprehensive guide to managing anxiety and depression"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "health_wellness"
+}

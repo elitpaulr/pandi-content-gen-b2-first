@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_07",
+  "title": "Mastering Money Magic: Essential Skills for Young Adults to Thrive Finanically",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "**The Art of Money**\n\nAs she sat in her small dorm room, surrounded by textbooks and scattered notes, Emily stared blankly at the stack of bills in front of her. She had just received her first paycheck from her part-time job as a barista, but instead of excitement, she felt overwhelmed. How was she supposed to manage this money? Her parents had always handled the finances, and now it was all up to her.\n\nAcross campus, Emily's friend Rachel was having similar struggles. A junior majoring in business, Rachel had taken a course on personal finance last semester, but even with that knowledge, she found herself unsure about how to apply it to real life. \"I mean, I know I need to budget and save, but what does that actually look like?\" she asked Emily over coffee.\n\nEmily shook her head, feeling a little more confident than Rachel. \"Honestly, I have no idea. But I'm trying to figure it out.\" She pulled out her phone and began scrolling through a financial app she had downloaded the day before. \"I've been reading about something called the 50/30/20 rule – you allocate 50% of your income towards necessities like rent and groceries, 30% towards discretionary spending, and 20% towards saving and debt repayment.\"\n\nRachel's eyes widened in understanding. \"That sounds doable. But what about student loans? I'm drowning in debt already.\" Emily nodded sympathetically. \"Yeah, that's a big one. But here's the thing: you can't just ignore your debt – you have to face it head-on. Start by making minimum payments on all your loans, and then try to pay extra whenever possible.\"\n\nAs they talked, Emily realized that financial literacy wasn't just about numbers and rules; it was about mindset. \"You know, I used to think that saving meant depriving myself of everything fun,\" she said. \"But now I see it as an investment in my future – a way to secure stability and freedom.\"\n\nRachel smiled, looking more determined than ever. \"I'm with you on this. Time to take control of our finances.\" Together, they pored over Emily's phone, exploring budgeting apps and credit score tracking tools.\n\nThe next day, Emily sat down at her desk with a clear plan in place. She set up automatic transfers for savings and debt repayment, allocated specific amounts for entertainment and personal expenses, and even started tracking her daily spending through an app. It wasn't perfect – there were still moments of uncertainty and frustration – but she felt more in control than ever before.\n\nAs the weeks turned into months, Emily noticed a significant change within herself. She no longer worried about money; instead, she focused on enjoying life's experiences without breaking the bank. \"It's not just about having enough,\" she mused to Rachel one afternoon. \"It's about understanding where your money comes from – and using it wisely.\"\n\nAs they parted ways for the day, Emily felt a sense of accomplishment wash over her. She had taken the first steps towards financial literacy, and in doing so, gained something far more valuable: confidence.\n\nOver coffee later that evening, Rachel turned to Emily with a newfound determination in her eyes. \"You know what? I think I'm ready to take on my finances now.\" Emily grinned, knowing that she had played a small part in empowering her friend to do the same. Together, they would navigate the complex world of money – one budget at a time.\n\nThe 50/30/20 rule was just the beginning; for Emily and Rachel, it marked the start of a lifelong journey towards financial literacy, self-sufficiency, and peace of mind.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does Emily initially think about saving money?",
+      "options": {
+        "A": "She sees it as a way to secure stability and freedom",
+        "B": "She believes it's only for people with high incomes",
+        "C": "She thinks it means depriving herself of everything fun",
+        "D": "She doesn't understand the concept at all"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Emily's phrase \"mindset\" refer to in this context?",
+      "options": {
+        "A": "A set of rules or guidelines for managing finances",
+        "B": "The way people think about and approach financial decisions",
+        "C": "A type of investment strategy for saving money",
+        "D": "A specific budgeting app used by Emily and Rachel"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Emily's explanation, how much of her income should she allocate towards saving and debt repayment?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Emily's attitude towards saving money?",
+      "options": {
+        "A": "She sees saving as a way to deprive herself of fun",
+        "B": "She thinks it's only about having enough money",
+        "C": "She views saving as an investment in her future and a source of stability and freedom",
+        "D": "She believes it's not necessary for young adults like herself"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"you can't just ignore your debt – you have to face it head-on\" refer to in this text?",
+      "options": {
+        "A": "Emily's student loans",
+        "B": "The 50/30/20 rule",
+        "C": "Rachel's financial struggles with her part-time job",
+        "D": "The importance of budgeting and saving"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about two young adults learning to manage their finances?",
+      "options": {
+        "A": "The importance of following specific rules for managing money",
+        "B": "Developing confidence and taking control of one's finances is key to financial literacy",
+        "C": "Student loans are the primary obstacle to achieving financial stability in young adulthood",
+        "D": "Budgeting apps and tools are the only solution to managing personal finances"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

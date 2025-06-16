@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_81",
+  "title": "Boost Your Finances with Smart Side Hustles and Passive Income Strategies",
+  "topic": "general",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "The Rise of Side Hustles and Passive Income: A New Era of Financial Freedom\n\nIn recent years, the concept of a traditional 9-to-5 job has become increasingly outdated. With the rise of technology and the gig economy, more and more people are turning to side hustles and passive income streams to supplement their primary income or achieve financial independence.\n\nA side hustle is essentially any part-time business or freelance work that an individual pursues in addition to their main career. This can include anything from freelancing as a writer or designer, to renting out a spare room on Airbnb, or even selling products online through e-commerce platforms like Amazon or Etsy.\n\nOne of the most appealing aspects of side hustles is their potential for passive income. Passive income refers to earnings that are generated without actively working for them. This can include investments in dividend-paying stocks, real estate rental properties, or even creating and selling digital products like ebooks or courses.\n\nFor example, let's say you're a freelance writer who has built up a loyal client base. You can create a course teaching others how to write effectively, sell it online through platforms like Udemy or Skillshare, and earn passive income from royalties without having to actively work on the project anymore.\n\nSimilarly, if you have a spare room in your home, you can list it on Airbnb and rent it out to travelers. While this requires some initial setup and maintenance, once the listing is up and running, you can earn passive income from rental fees with minimal effort required.\n\nBut side hustles aren't just for entrepreneurs or small business owners. Anyone can start a side hustle, regardless of their profession or skill set. For instance, a software engineer might create an app that generates revenue through advertising or in-app purchases, while a stay-at-home parent could sell handmade crafts on Etsy.\n\nThe benefits of side hustles and passive income streams are numerous. Not only do they provide an additional source of income, but they also offer flexibility and autonomy. With the rise of remote work, it's easier than ever to manage multiple projects and businesses from anywhere in the world.\n\nMoreover, side hustles can help individuals develop new skills and build their professional networks. By working on a side project or freelancing, you may discover hidden talents or interests that can be applied to your main career, leading to increased job satisfaction and opportunities for advancement.\n\nOf course, starting a side hustle requires some initial effort and investment. You'll need to research market demand, develop a business plan, and allocate time and resources to get started. However, the potential rewards are well worth it.\n\nIn fact, according to a survey by Bankrate, 45% of Americans now have a side hustle, with many citing financial insecurity as their primary motivator. With the rise of gig economy platforms like Uber and TaskRabbit, it's easier than ever to find work and earn money outside of traditional employment.\n\nAs the world becomes increasingly digital, the opportunities for side hustles and passive income streams are expanding exponentially. Whether you're a seasoned entrepreneur or just starting out, there's never been a better time to explore alternative sources of income and achieve financial freedom.\n\nIn conclusion, side hustles and passive income streams offer a new era of financial freedom and flexibility. By leveraging technology, developing new skills, and thinking outside the box, anyone can create additional income streams and achieve their financial goals. Whether you're looking to supplement your primary income or pursue full-time entrepreneurship, the possibilities are endless.\n\nAs the gig economy continues to grow and evolve, one thing is clear: side hustles and passive income streams are here to stay. So why not take the first step towards financial freedom today?",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude towards traditional 9-to-5 jobs?",
+      "options": {
+        "A": "The author thinks they are a thing of the past and have no value.",
+        "B": "The author believes they provide job security and financial stability.",
+        "C": "The author is neutral about them but sees side hustles as an option for extra income.",
+        "D": "The author thinks they can be beneficial in certain situations, but not always."
+      },
+      "correct_answer": "A",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does 'passive income' mean in this context?",
+      "options": {
+        "A": "Money earned by actively working for it",
+        "B": "Earnings that are generated without requiring active effort or work",
+        "C": "Income that is dependent on a person's primary job",
+        "D": "A guaranteed source of regular income"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of Americans now have a side hustle, according to a survey by Bankrate?",
+      "options": {
+        "A": "30%",
+        "B": "45%",
+        "C": "55%",
+        "D": "60%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards traditional 9-to-5 jobs?",
+      "options": {
+        "A": "They believe they will always be necessary",
+        "B": "They think they're becoming increasingly outdated",
+        "C": "They have a neutral view of their importance",
+        "D": "They don't see any problem with them"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"without actively working for them\" refer to in the text?",
+      "options": {
+        "A": "The need for a traditional 9-to-5 job",
+        "B": "Earnings generated from side hustles and passive income streams",
+        "C": "Investments in dividend-paying stocks and real estate rental properties",
+        "D": "Freelancing as a writer or designer"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about side hustles and passive income?",
+      "options": {
+        "A": "The traditional 9-to-5 job is becoming obsolete due to technological advancements.",
+        "B": "Side hustles and passive income streams are a new era of financial freedom that offer flexibility and autonomy.",
+        "C": "Starting a side hustle requires little initial effort and investment.",
+        "D": "Only entrepreneurs or small business owners can start side hustles."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_119",
+  "title": "Discover the World of Cryptocurrency in 10 Easy Steps",
+  "topic": "general",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "Cryptocurrency for Beginners: A Guide to Understanding the Basics\n\nIn recent years, cryptocurrency has become a buzzword in the financial world, with many people investing their hard-earned money into digital currencies like Bitcoin, Ethereum, and Litecoin. But what is cryptocurrency, and how does it work? As a beginner, understanding the basics of cryptocurrency can be overwhelming, but don't worry – we've got you covered.\n\n**What is Cryptocurrency?**\n\nCryptocurrency is a digital or virtual currency that uses cryptography for secure financial transactions. It's decentralized, meaning it's not controlled by any government or institution, and its creation and transfer are recorded on a public ledger called a blockchain. Think of cryptocurrency as a digital version of cash, but instead of physical coins and bills, it exists only in electronic form.\n\n**Key Features of Cryptocurrency**\n\nSo, what makes cryptocurrency unique? Here are some key features to keep in mind:\n\n* **Decentralized**: Cryptocurrency is not controlled by any government or institution, making it a more secure and transparent way to conduct transactions.\n* **Digital**: Cryptocurrency exists only in electronic form, eliminating the need for physical coins and bills.\n* **Limited supply**: Most cryptocurrencies have a limited supply of tokens, which helps prevent inflation and maintain value.\n* **Fast transactions**: Cryptocurrency transactions are processed quickly, often within minutes or seconds.\n\n**Types of Cryptocurrency**\n\nYou may be wondering what types of cryptocurrency exist. Here are some of the most popular ones:\n\n* **Bitcoin (BTC)**: The first and most well-known cryptocurrency, Bitcoin was created in 2009 by an individual or group using the pseudonym Satoshi Nakamoto.\n* **Ethereum (ETH)**: Ethereum is a platform that allows developers to build decentralized applications (dApps) on its blockchain, making it more than just a currency.\n* **Litecoin (LTC)**: Litecoin was created in 2011 as a faster and more lightweight alternative to Bitcoin.\n\n**How Cryptocurrency Works**\n\nNow that you know what cryptocurrency is and some of the key features, let's dive into how it works. Here's a step-by-step guide:\n\n1. **Mining**: New cryptocurrencies are created through a process called mining, where powerful computers solve complex mathematical equations to validate transactions.\n2. **Blockchain**: Transactions are recorded on a public ledger called a blockchain, which is maintained by a network of computers worldwide.\n3. **Wallets**: To store and send cryptocurrency, you need a digital wallet, such as MetaMask or Electrum.\n4. **Exchanges**: Cryptocurrencies can be bought and sold on online exchanges like Coinbase or Binance.\n\n**Getting Started with Cryptocurrency**\n\nReady to dip your toes into the world of cryptocurrency? Here are some tips for beginners:\n\n* **Start small**: Begin with a small investment to get familiar with the process.\n* **Choose a reputable exchange**: Research and select a trustworthy exchange to buy and sell cryptocurrencies.\n* **Stay informed**: Follow cryptocurrency news and updates to stay ahead of the game.\n\n**Conclusion**\n\nCryptocurrency can be intimidating, but with this guide, you're now equipped with the basics. Remember that investing in cryptocurrency carries risks, so always do your research and consult with financial experts before making any decisions. With time and practice, you'll become more confident in navigating the world of cryptocurrency.\n\nAs the cryptocurrency market continues to grow and evolve, it's essential for beginners to understand the fundamentals. By following this guide, you'll be well on your way to becoming a crypto-savvy individual.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if many people start investing their money into cryptocurrency?",
+      "options": {
+        "A": "The value of each individual cryptocurrency will decrease.",
+        "B": "More and more governments will start regulating cryptocurrencies.",
+        "C": "The decentralized nature of cryptocurrency will make it even more secure.",
+        "D": "The price of cryptocurrency may fluctuate rapidly due to increased demand."
+      },
+      "correct_answer": "D",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the term 'decentralized' mean in the context of cryptocurrency?",
+      "options": {
+        "A": "It is controlled by a single government or institution.",
+        "B": "It has a limited supply of tokens and prevents inflation.",
+        "C": "Transactions are recorded on a public ledger called a blockchain.",
+        "D": "It exists only in electronic form, eliminating physical coins and bills."
+      },
+      "correct_answer": "D",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is recorded on a public ledger called a blockchain?",
+      "options": {
+        "A": "Cryptocurrency transactions and user information",
+        "B": "Only cryptocurrency creation and transfer",
+        "C": "Financial transactions, including those for physical currencies",
+        "D": "Government laws and regulations related to cryptocurrency"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards investing in cryptocurrency?",
+      "options": {
+        "A": "The author seems to think that investing in cryptocurrency is extremely risky and advises beginners to avoid it.",
+        "B": "The author presents an objective view, but subtly discourages readers from investing in cryptocurrency due to its volatility.",
+        "C": "The author encourages readers to invest in cryptocurrency, highlighting its potential for growth and security.",
+        "D": "The author emphasizes the importance of understanding the basics before investing in cryptocurrency, showing a neutral and informative tone."
+      },
+      "correct_answer": "D",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"Satoshi Nakamoto\" refer to in the text?",
+      "options": {
+        "A": "The creator of Ethereum",
+        "B": "A network of computers worldwide that maintains the blockchain",
+        "C": "An individual or group who created Bitcoin",
+        "D": "A digital wallet for storing and sending cryptocurrency"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this text about cryptocurrency?",
+      "options": {
+        "A": "To warn readers about the risks of investing in cryptocurrency",
+        "B": "To provide an introduction to the basics of cryptocurrency for beginners",
+        "C": "To explain how to make a profit from buying and selling cryptocurrencies",
+        "D": "To compare different types of digital currencies"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

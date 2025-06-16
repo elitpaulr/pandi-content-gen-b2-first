@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_158",
+  "title": "The Future of Work is Not in the Office",
+  "topic": "business_and_work",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "**The New Normal**\n\nAs she sipped her morning coffee, Rachel gazed out at the rain-soaked streets of San Francisco, wondering how she'd ever get used to this new normal. She was one of the lucky ones, having landed a job at a tech startup that allowed her to work from home full-time. But with great freedom came great uncertainty.\n\n\"I'm not sure I'll ever be able to afford a place in the city again,\" Rachel confided to her best friend, Emily, over a video call. \"The cost of living is just too high.\"\n\nEmily, who worked at a marketing firm downtown, nodded sympathetically. \"I feel you. But have you seen the stats on remote work? It's changing everything.\"\n\nRachel raised an eyebrow. \"What do you mean?\"\n\n\"Well, for one thing, companies are saving a fortune on office space and utilities,\" Emily explained. \"And employees like us get to save on commutes, clothes, and lunches out. It's a win-win.\"\n\nBut as Rachel delved deeper into the world of remote work, she began to see that there were far-reaching economic implications at play.\n\nTake the case of WeWork, which had once been hailed as the pioneer of co-working spaces. With its flexible, membership-based model, it promised entrepreneurs and freelancers a stylish, high-end workspace without the hassle of long-term leases. But as more people began working from home, the demand for these shared offices plummeted.\n\n\"By 2025, WeWork's revenue is expected to decline by 20%,\" Rachel read aloud from her laptop screen. \"It's a sign of things to come – traditional office spaces are becoming obsolete.\"\n\nAnd yet, despite this shift, some industries were thriving in the remote work era. E-commerce platforms like Amazon and Shopify had seen unprecedented growth as people turned to online shopping for convenience.\n\n\"Remote work is driving up demand for digital skills,\" Emily pointed out. \"Jobs like data analysis, UX design, and content creation are on the rise.\"\n\nBut what about the workers who were being left behind? Rachel wondered. Those who didn't have the luxury of flexible schedules or high-speed internet at home?\n\nHer research led her to a small community in rural Nebraska, where a group of entrepreneurs had banded together to create a co-working space specifically designed for remote workers. It was a hub of activity, with freelancers and startups using the space as a base for their work.\n\n\"This is the future,\" Rachel exclaimed to Emily over another video call. \"People are finding ways to adapt and thrive in this new economy.\"\n\nAs she hung up the phone, Rachel gazed out at her own cluttered home office, feeling a sense of hope and possibility. Maybe, just maybe, this remote work thing wasn't so bad after all.\n\nIn fact, it was changing the game – for companies, employees, and cities alike. And as she settled in to tackle another day's worth of tasks from the comfort of her own home, Rachel couldn't help but wonder what other surprises the future held.\n\n**The Numbers**\n\n* $13,000: The average annual savings on commutes for remote workers\n* 25%: The estimated decline in office space demand by 2025\n* $1.4 trillion: The projected growth of e-commerce platforms like Amazon and Shopify by 2025\n\nAs Rachel sat at her desk, munching on a bagel and scrolling through her social feeds, she couldn't help but feel grateful for this new normal – one that was full of uncertainty, but also full of possibility.\n\nAnd as the rain continued to fall outside, washing away the city's concrete canyons and revealing the hidden stories beneath, Rachel knew that she wasn't alone in this journey. There were millions of others out there, working remotely and navigating the twists and turns of a rapidly changing economy.\n\nTogether, they would shape the future – one keyboard stroke at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the impact of remote work on office space demand?",
+      "options": {
+        "A": "The number of people living in cities will increase.",
+        "B": "Companies are likely to see significant savings on utilities and maintenance.",
+        "C": "Office spaces will continue to be in high demand as a hub for networking and face-to-face interactions.",
+        "D": "The decline in office space demand is expected to affect only small businesses."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"plummet\" mean in this context?",
+      "options": {
+        "A": "To increase sharply",
+        "B": "To decline drastically",
+        "C": "To change slowly over time",
+        "D": "To remain stable"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the estimated decline in office space demand by 2025?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "25%",
+        "D": "30%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Rachel's attitude towards the impact of remote work on her personal finances?",
+      "options": {
+        "A": "She is optimistic about saving money on commutes and living costs.",
+        "B": "She is worried that the cost of living will continue to rise, despite working remotely.",
+        "C": "She believes that remote work has made it impossible for her to afford a place in San Francisco.",
+        "D": "She thinks that remote work has led to significant financial losses for companies."
+      },
+      "correct_answer": "A",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Emily mean by \"It's changing everything\" in the conversation with Rachel?",
+      "options": {
+        "A": "The remote workers are saving money on office space and utilities.",
+        "B": "The cost of living is increasing due to high demand for housing in San Francisco.",
+        "C": "Companies are saving a fortune on office space and utilities, and employees like them get to save on commutes, clothes, and lunches out.",
+        "D": "Traditional office spaces are becoming obsolete."
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the article about the economic impact of remote work?",
+      "options": {
+        "A": "Remote work will lead to widespread unemployment as companies downsize.",
+        "B": "The shift to remote work is transforming traditional office spaces and changing the economy, with both benefits and challenges for different groups.",
+        "C": "E-commerce platforms like Amazon are responsible for the decline in office space demand.",
+        "D": "Remote workers will always struggle to afford living costs due to high housing prices."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_07",
+  "title": "Mastering Money Magic: The Ultimate Guide to Financial Freedom",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sat in her dorm room, surrounded by textbooks and scattered notes, Emily couldn't help but feel overwhelmed by the looming deadline to file her taxes. She had always been bad with numbers, but now that she was living on her own for the first time, she knew she needed to get a handle on her finances.\n\n\"Hey, Em, what's up?\" her roommate, Rachel, asked as she walked in and plopped down beside Emily on the bed. \"I saw you staring at your laptop screen like it was going to bite you.\"\n\n\"I'm just trying to figure out how much I owe the government,\" Emily replied, frustration creeping into her voice.\n\nRachel chuckled. \"Ah, taxes. The ultimate rite of passage for young adults. Don't worry, I've got some experience with this stuff. Let me take a look.\"\n\nAs Rachel began to navigate the tax filing website, Emily couldn't help but think about how she had always been clueless when it came to money. Growing up, her parents had handled all the financial planning, and now that she was on her own, she felt like she was starting from scratch.\n\nRachel noticed Emily's worried expression and put a reassuring hand on her arm. \"Hey, you're not alone in this. We can figure it out together.\"\n\nTogether, they spent the next few hours pouring over tax forms, credit card statements, and bank accounts. Rachel explained concepts like compound interest, amortization, and inflation, using examples that made sense to Emily.\n\nFor instance, when discussing credit cards, Rachel used the analogy of a pizza party: \"Think of your credit limit as the number of slices you can have at the pizza party. If you go over that limit, it's like trying to eat more slices than there are – it just doesn't work out.\"\n\nEmily laughed and felt a weight lift off her shoulders. She realized that financial literacy wasn't about being a math whiz or having a degree in economics; it was about understanding the basics and making smart decisions.\n\nAs they finished up the tax forms, Rachel handed Emily a small notebook with some notes scribbled on the inside cover. \"Here, take this. I've written down some key terms and concepts. It's not rocket science, Em – just remember to be consistent, and don't be afraid to ask questions.\"\n\nEmily smiled, feeling more confident about her financial future. She realized that it was okay to not know everything, but what mattered most was being willing to learn.\n\nOver the next few weeks, Emily found herself becoming more engaged with her finances. She started tracking her expenses using a budgeting app and even began reading books on personal finance. It wasn't always easy – she still had moments of frustration and uncertainty – but she knew that she was taking control of her financial life.\n\nAs she settled into her new routine, Emily felt a sense of pride and accomplishment wash over her. She was no longer just a clueless college student; she was becoming a financially literate young adult, ready to take on the world.\n\nThe process had been long and sometimes painful, but in the end, it was worth it. Emily knew that she would always have moments of uncertainty, but with each step forward, she felt more confident in her ability to navigate the complex world of finance.\n\nAs she drifted off to sleep that night, Emily smiled to herself, knowing that she had finally found a sense of financial freedom. It wasn't about being rich or having all the answers; it was about understanding the basics and trusting herself to make smart decisions. And with Rachel's guidance and support, Emily knew that she could conquer anything – even taxes.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Emily's relationship with her roommate, Rachel?",
+      "options": {
+        "A": "They had been friends since high school.",
+        "B": "Rachel was a senior majoring in finance who had offered to tutor Emily on personal finance.",
+        "C": "They were not close, and Rachel only helped Emily out of obligation.",
+        "D": "Rachel had recently moved in and was trying to fit in with her new roommate's lifestyle."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"looming deadline\" most likely mean in this context?",
+      "options": {
+        "A": "A long period of time before a task needs to be completed",
+        "B": "A future date or event that is causing anxiety and stress",
+        "C": "A past event that has already occurred",
+        "D": "A regular routine that is easy to follow"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the name of the concept explained by Rachel using the analogy of a pizza party?",
+      "options": {
+        "A": "Amortization",
+        "B": "Inflation",
+        "C": "Compound interest",
+        "D": "Credit limit"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author suggest is the most important thing for young adults like Emily to do when it comes to managing their finances?",
+      "options": {
+        "A": "They need to be experts in accounting and economics.",
+        "B": "They just need to remember a few key concepts and make smart decisions.",
+        "C": "They should avoid thinking about money at all, as it's too complicated.",
+        "D": "They must rely solely on the guidance of parents or financial advisors."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who did Emily ask for help with her finances?",
+      "options": {
+        "A": "Her parents",
+        "B": "Her roommate, Rachel",
+        "C": "A financial advisor",
+        "D": "An online tax expert"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text?",
+      "options": {
+        "A": "The importance of having a high credit score for young adults.",
+        "B": "Financial literacy is a complex subject that requires years of study and experience.",
+        "C": "Learning to manage finances can be intimidating, but with practice and patience, anyone can become financially literate.",
+        "D": "Young adults should rely on their parents or financial advisors to handle all their financial decisions."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

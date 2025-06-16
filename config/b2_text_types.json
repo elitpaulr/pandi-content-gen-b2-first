@@ -1,0 +1,52 @@
+{
+  "📰 Magazine Article": {
+    "key": "magazine_article",
+    "description": "Informative articles from lifestyle, science, or general interest magazines",
+    "examples": ["Health and wellness trends", "Technology reviews", "Travel destinations"]
+  },
+  "📄 Newspaper Article": {
+    "key": "newspaper_article", 
+    "description": "News articles, feature stories, and opinion pieces",
+    "examples": ["Environmental initiatives", "Social issues", "Cultural events"]
+  },
+  "📖 Novel Extract": {
+    "key": "novel_extract",
+    "description": "Excerpts from contemporary fiction showing character development",
+    "examples": ["Coming-of-age stories", "Adventure narratives", "Relationship dynamics"]
+  },
+  "✍️ Personal Blog Post": {
+    "key": "blog_post",
+    "description": "First-person accounts of experiences and reflections",
+    "examples": ["Travel experiences", "Career changes", "Personal challenges"]
+  },
+  "🔬 Popular Science Article": {
+    "key": "science_article",
+    "description": "Accessible explanations of scientific concepts and discoveries",
+    "examples": ["Climate science", "Psychology research", "Technology innovations"]
+  },
+  "🎭 Cultural Review": {
+    "key": "cultural_review",
+    "description": "Reviews and commentary on books, films, art, or performances",
+    "examples": ["Book reviews", "Film critiques", "Art exhibition reviews"]
+  },
+  "💼 Professional Feature": {
+    "key": "professional_feature",
+    "description": "Articles about careers, workplace trends, and professional development",
+    "examples": ["Remote work trends", "Career advice", "Industry insights"]
+  },
+  "🏠 Lifestyle Feature": {
+    "key": "lifestyle_feature",
+    "description": "Articles about home, family, hobbies, and personal interests",
+    "examples": ["Home improvement", "Cooking trends", "Hobby communities"]
+  },
+  "🌍 Travel Writing": {
+    "key": "travel_writing",
+    "description": "Descriptive accounts of places, cultures, and travel experiences",
+    "examples": ["Destination guides", "Cultural observations", "Adventure stories"]
+  },
+  "📚 Educational Feature": {
+    "key": "educational_feature",
+    "description": "Informative articles about learning, education, and skill development",
+    "examples": ["Language learning", "Study techniques", "Educational trends"]
+  }
+} 

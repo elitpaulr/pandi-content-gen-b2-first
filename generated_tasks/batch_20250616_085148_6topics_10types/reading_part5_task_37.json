@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_37",
+  "title": "Ditching Plastic: Can You Survive the No-Waste Challenge?",
+  "topic": "general",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "The Plastic-Free Lifestyle Challenge: A Growing Trend in Sustainable Living\n\nIn recent years, there has been a significant shift towards sustainable living, with many individuals adopting a plastic-free lifestyle as a way to reduce their environmental footprint. This trend is driven by growing concerns about the impact of plastic waste on our planet's ecosystems and health. From beach cleanups to reducing single-use plastics, the plastic-free movement is gaining momentum worldwide.\n\nOne of the primary drivers of this movement is the alarming rate at which plastic waste is accumulating in our oceans and landfills. According to the World Economic Forum, if current trends continue, there will be more plastic than fish in the ocean by 2050. This staggering statistic has prompted governments, businesses, and individuals to take action.\n\nFor those looking to adopt a plastic-free lifestyle, one of the most significant challenges is identifying and avoiding single-use plastics. These items are ubiquitous in modern life, from water bottles and straws to bags and cutlery. However, there are many alternatives available that can help reduce reliance on these products. For example, reusable stainless steel or glass containers can replace plastic water bottles, while metal or bamboo straws offer a sustainable alternative to plastic.\n\nAnother challenge facing those embracing a plastic-free lifestyle is changing shopping habits. Many everyday items, such as food packaging and household goods, are wrapped in plastic. To overcome this, individuals must become more mindful of their purchasing decisions, opting for products with minimal or biodegradable packaging. Buying in bulk and choosing locally sourced produce can also help reduce packaging waste.\n\nIn addition to reducing single-use plastics, adopting a plastic-free lifestyle requires creativity and resourcefulness. For instance, making your own cleaning products using natural ingredients like baking soda and vinegar can eliminate the need for chemical-laden cleaning supplies packaged in plastic bottles.\n\nThe benefits of embracing a plastic-free lifestyle extend beyond environmental gains. By choosing sustainable alternatives to single-use plastics, individuals can also reduce their exposure to chemicals and toxins commonly found in these products. Furthermore, adopting a more minimalist approach to consumption can lead to cost savings and reduced waste.\n\nTo support those taking on the challenge of a plastic-free lifestyle, many organizations and businesses are offering resources and alternatives to traditional plastic products. For example, some cities now offer refill stations for cleaning supplies and personal care items, eliminating the need for single-use packaging.\n\nWhile adopting a plastic-free lifestyle can be challenging, it is not without its rewards. By making conscious choices about the products we use and the waste we generate, individuals can contribute to a more sustainable future for our planet. As awareness of the impact of plastic waste grows, so too does the demand for change. With increased education, innovation, and collective action, it is possible to create a world where single-use plastics are a thing of the past.\n\nUltimately, adopting a plastic-free lifestyle requires patience, persistence, and creativity. However, with the benefits extending beyond environmental gains to personal health and well-being, this challenge is one that many individuals are eager to take on. As we move forward in our pursuit of sustainability, it will be essential for governments, businesses, and individuals to work together to create a world where plastic waste is minimalized and sustainable living becomes the norm.\n\nThe impact of individual actions may seem insignificant in isolation, but collectively they can lead to profound change. By embracing a plastic-free lifestyle, we are not only reducing our own environmental footprint but also contributing to a global movement that demands action from governments and corporations. As the world continues to grapple with the issue of plastic waste, it is clear that adopting a plastic-free lifestyle is no longer just a choice – it's a necessity for creating a more sustainable future.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about individuals who choose not to adopt a plastic-free lifestyle?",
+      "options": {
+        "A": "They are aware of the impact of plastic waste but lack the resources to make changes.",
+        "B": "They prioritize their convenience and comfort over environmental concerns.",
+        "C": "They are not concerned with the health risks associated with single-use plastics.",
+        "D": "They have no access to sustainable alternatives to traditional products."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word \"ubiquitous\" mean in this context?",
+      "options": {
+        "A": "Found only in certain parts of the world",
+        "B": "Widespread and common everywhere",
+        "C": "Restricted to specific situations or events",
+        "D": "Rarely used in everyday life"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is predicted to happen by 2050 according to the World Economic Forum?",
+      "options": {
+        "A": "There will be more trees than fish in the ocean",
+        "B": "There will be no plastic waste left on our planet",
+        "C": "There will be more plastic than fish in the ocean",
+        "D": "The world will run out of freshwater"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What can be inferred about the author's attitude towards individuals who adopt a plastic-free lifestyle?",
+      "options": {
+        "A": "They are seen as selfish and indulgent.",
+        "B": "They are commended for taking action to reduce their environmental footprint.",
+        "C": "They are viewed as naive and uninformed about the issue of plastic waste.",
+        "D": "They are criticized for being too extreme in their efforts."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What do \"reusable stainless steel or glass containers\" refer to in the text?",
+      "options": {
+        "A": "A new type of cleaning product",
+        "B": "An alternative to plastic water bottles",
+        "C": "A way to reduce packaging waste from food purchases",
+        "D": "A method for reducing single-use plastics in households"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this text about plastic-free lifestyles?",
+      "options": {
+        "A": "To inform readers about the history of the plastic-free movement",
+        "B": "To persuade individuals to adopt a plastic-free lifestyle as a way to reduce their environmental footprint and promote sustainable living",
+        "C": "To compare the impact of single-use plastics on landfills versus oceans",
+        "D": "To discuss the economic benefits of reducing plastic waste"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_82",
+  "title": "5 Side Hustles That Can Make You Rich While Sleeping",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "**The Secret to Living Life on Your Own Terms: Side Hustles and Passive Income**\n\nIn today's fast-paced world, many of us are stuck in a cycle of monotony - wake up, go to work, come home, sleep, repeat. But what if you could break free from this cycle and live life on your own terms? What if you could earn extra income without sacrificing precious time with family and friends or compromising your sanity?\n\nEnter the world of side hustles and passive income. These clever concepts have been gaining traction in recent years, and for good reason: they offer a flexible and sustainable way to supplement your income, pursue your passions, and live life more intentionally.\n\nSo, what exactly are side hustles and passive income? Simply put, side hustles refer to any additional work or activity you do outside of your primary job to earn extra money. This could be anything from freelancing, selling products online, or offering services like dog walking or house sitting. Passive income, on the other hand, refers to earnings that require little to no active involvement once they're set up. Think dividend-paying stocks, rent from a rental property, or royalties from creative work.\n\nOne of the biggest benefits of side hustles and passive income is flexibility. Unlike traditional employment, these concepts allow you to create your own schedule and choose how much time you want to devote. This means you can pursue your passions without sacrificing precious hours with loved ones. For example, if you love photography but your full-time job doesn't permit creative expression, consider starting a side hustle offering portrait photography services on the weekends.\n\nTo get started, begin by identifying your strengths and interests. What are you naturally good at? What do you enjoy doing in your free time? Once you have a clear idea of what you want to offer, research potential markets and competition. This will help you refine your concept and create a solid business plan.\n\nFor those interested in passive income, consider investing in dividend-paying stocks or real estate investment trusts (REITs). These vehicles can provide steady returns with minimal effort required. Alternatively, think about creating digital products like ebooks, courses, or software that can be sold online with little maintenance needed.\n\nOf course, side hustles and passive income aren't magic solutions to financial woes. They do require effort and patience upfront, but the payoff is well worth it. Imagine having a safety net of extra income to cover unexpected expenses or pursue big-ticket dreams like traveling the world.\n\nMany successful entrepreneurs and individuals have built their fortunes on these principles. For example, Chris Guillebeau, author of \"The $100 Startup,\" has made a career out of creating digital products and services that generate passive income. Similarly, many bloggers and YouTubers earn significant amounts through affiliate marketing, sponsored content, and advertising.\n\nWhile side hustles and passive income offer exciting possibilities, it's essential to approach these concepts with realism and caution. They're not get-rich-quick schemes or silver bullets for financial problems. Instead, think of them as complementary tools to enhance your financial stability and freedom.\n\nIn conclusion, embracing the world of side hustles and passive income can be a game-changer for those seeking more control over their lives and finances. By leveraging your strengths, passions, and creativity, you can create a more balanced and fulfilling existence that aligns with your values. So why not take the leap? Start small, stay flexible, and watch how these concepts transform your life in ways you never thought possible.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What type of work does Chris Guillebeau do to generate passive income?",
+      "options": {
+        "A": "He invests in dividend-paying stocks",
+        "B": "He creates digital products that sell online with little maintenance needed",
+        "C": "He offers portrait photography services on weekends",
+        "D": "He is a full-time investor and doesn't have any other jobs"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"generate passive income\" according to the text?",
+      "options": {
+        "A": "To constantly work on a project to earn extra money",
+        "B": "To earn earnings that require little to no active involvement once they're set up",
+        "C": "To invest large amounts of money in order to get returns quickly",
+        "D": "To sell products online without any ongoing effort"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what is an example of a digital product that can be sold online with little maintenance needed?",
+      "options": {
+        "A": "A rental property",
+        "B": "An ebook or course",
+        "C": "A traditional employment contract",
+        "D": "A physical product for sale at a local market"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards side hustles and passive income?",
+      "options": {
+        "A": "They are a quick fix for financial problems.",
+        "B": "They offer a flexible and sustainable way to live life on one's own terms.",
+        "C": "They require a lot of effort and dedication upfront but are not worth it.",
+        "D": "They are only suitable for successful entrepreneurs, not ordinary people."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What exactly do side hustles refer to?",
+      "options": {
+        "A": "Earnings that require little to no active involvement once they're set up",
+        "B": "Any additional work or activity you do outside of your primary job to earn extra money",
+        "C": "Investing in dividend-paying stocks or real estate investment trusts (REITs)",
+        "D": "Creating digital products like ebooks, courses, or software"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about side hustles and passive income?",
+      "options": {
+        "A": "To introduce new get-rich-quick schemes for making money.",
+        "B": "To provide a flexible way to supplement income, pursue passions, and live life more intentionally.",
+        "C": "To encourage people to quit their jobs and rely solely on side hustles.",
+        "D": "To discuss the benefits of working long hours without any breaks."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

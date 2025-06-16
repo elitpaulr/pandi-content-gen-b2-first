@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_67",
+  "title": "Make Money While You Sleep: Unlocking Passive Income Secrets",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her morning coffee, Emily gazed out at the bustling city streets below her apartment window. She had always been fascinated by the idea of making extra money on the side – a concept she'd heard her friends and colleagues whisper about in hushed tones.\n\n\"What's the point of just having one job?\" Emily's friend Rachel would often say. \"Why not create multiple streams of income, right?\"\n\nEmily had taken Rachel's words to heart and had been experimenting with various side hustles for months now. She was determined to break free from the monotony of her 9-to-5 desk job.\n\nHer first attempt at a side hustle involved selling handmade candles on Etsy. Emily spent hours perfecting the recipe, packaging each candle in elegant white boxes, and taking Instagram-worthy photos. But despite her best efforts, she found it hard to compete with more established sellers who had better marketing budgets and higher-quality products.\n\nUndeterred, Emily shifted her focus to freelance writing. She updated her LinkedIn profile, created a portfolio of sample articles, and started pitching stories to local publications. Within weeks, she landed a few small gigs, writing articles for health food blogs and lifestyle magazines. It wasn't lucrative, but the flexibility was a welcome change from her rigid corporate schedule.\n\nAs Emily continued to build her freelance portfolio, she began exploring more ambitious side hustles. She invested in an online course on dropshipping, learning how to sell products without holding any inventory. The concept fascinated her – imagine making money by selling someone else's stuff!\n\nWith newfound confidence, Emily set up an e-commerce store using Shopify and started sourcing products from suppliers overseas. It was a steep learning curve, but the potential for passive income kept her motivated.\n\nOne evening, as she settled into her couch with a cup of tea, Emily stumbled upon a podcast about investing in dividend-paying stocks. The host's words sparked something within her – \"Why not generate income while you sleep?\" Emily thought to herself.\n\nShe spent the next few weeks reading books on investing and attending webinars. With a small investment, she began buying shares in established companies with a history of consistent dividends. It was exhilarating to think about earning money simply by owning a piece of these businesses.\n\nAs the months went by, Emily's side hustles started generating a decent passive income stream. Her freelance writing gigs became more frequent, and her dropshipping store attracted customers from all over the world. The dividend-paying stocks paid out quarterly dividends, adding a steady sum to her account.\n\nThe freedom that came with this newfound financial flexibility was intoxicating. Emily could travel whenever she wanted, attend concerts or sporting events without worrying about tickets, and even help out friends in need by lending them money without breaking a sweat.\n\nRachel would often joke that side hustles were like having a superpower – the ability to generate wealth while doing what you love. As Emily looked out at the city below, she realized that this was more than just a novelty; it was a way of life.\n\nThe concept of passive income had awakened something within her – a desire for financial independence and creative freedom. With each new side hustle, Emily felt empowered to take control of her finances and create a life on her own terms. And as the sun set over the city, she smiled, knowing that this journey was only just beginning.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated Emily's decision to explore more ambitious side hustles after trying freelance writing?",
+      "options": {
+        "A": "She wanted a change of scenery and a chance to work from home",
+        "B": "She became frustrated with her low earnings from selling handmade candles on Etsy",
+        "C": "She was inspired by the potential for passive income, which would allow her to earn money while doing other things",
+        "D": "She needed a break from her corporate schedule due to health issues"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"rigid\" mean in this context?",
+      "options": {
+        "A": "Flexible",
+        "B": "Unpredictable",
+        "C": "Rigid refers to a schedule or routine that is fixed and unchanging.",
+        "D": "Easy-going"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What platform did Emily use to start an e-commerce store for her dropshipping business?",
+      "options": {
+        "A": "Amazon",
+        "B": "Shopify",
+        "C": "Etsy",
+        "D": "eBay"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Emily think about having one job?",
+      "options": {
+        "A": "It's sufficient to meet all my needs.",
+        "B": "It's a trap that limits my financial freedom.",
+        "C": "I can make extra money with it, but I'd prefer more.",
+        "D": "It's not necessary for me."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"her\" refer to in the sentence \"The dividend-paying stocks paid out quarterly dividends, adding a steady sum to her account\"?",
+      "options": {
+        "A": "Emily's bank account",
+        "B": "Rachel's financial situation",
+        "C": "The writer's income from freelance work",
+        "D": "The passive income generated by Emily's side hustles"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the story about Emily's side hustles?",
+      "options": {
+        "A": "Emily tries various side hustles but ultimately fails to achieve financial success.",
+        "B": "Emily finds a way to earn a decent passive income by diversifying her income streams and investing in dividend-paying stocks.",
+        "C": "Emily becomes disillusioned with her corporate job and quits to focus on her side hustles full-time.",
+        "D": "Emily discovers that the key to financial freedom is to have only one successful business venture."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

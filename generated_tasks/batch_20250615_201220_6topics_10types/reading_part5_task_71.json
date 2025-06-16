@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_71",
+  "title": "Unlock Your Financial Freedom: 10 Side Hustles That Pay Forever",
+  "topic": "general",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember the day I realized that my 9-to-5 job wasn't enough to cover all my expenses. The rent was going up, bills were piling up, and I was barely scraping by on my salary. That's when I decided to take matters into my own hands and explore side hustles.\n\nSide hustles are extra income-generating activities that you can do outside of your main job. They're a great way to earn some extra cash, pay off debt, or save up for a big purchase. But what really got me excited was the potential to create passive income streams – money that flows in without much effort from my end.\n\nThe first side hustle I tried was freelancing. I offered my writing services on freelance platforms like Upwork and Fiverr. It wasn't easy, of course. I had to compete with other writers for gigs, and sometimes I'd go weeks without a single client. But when the work came in, it was worth it – I earned more per hour than I did at my full-time job.\n\nNext up was selling products online. I started by decluttering my closet and putting some gently used items on eBay. To my surprise, they sold quickly! Encouraged by this success, I began to research other marketplaces like Amazon Handmade and Etsy. Now, I sell handmade crafts and vintage items online, earning a tidy profit from each sale.\n\nBut it was passive income that really got me hooked. I started investing in dividend-paying stocks, which generate interest without requiring much effort on my part. I also created an affiliate marketing website, where I promote products and earn a commission for each sale made through my unique referral link. It's not a lot of money at first, but it adds up over time.\n\nOne of the most interesting side hustles I've tried is creating digital products. I wrote and self-published an e-book on Amazon Kindle Direct Publishing, which now earns me a steady income from sales. I also created a course teaching others how to write for freelance platforms – the royalties are nice!\n\nOf course, not all side hustles require upfront effort or huge investments. Some ideas are simple: selling unused items on Craigslist, dog walking, babysitting, or even delivering food with Uber Eats. These gigs may not make you rich, but they can help cover unexpected expenses or provide a cushion in case of an emergency.\n\nThe key to success lies in diversifying your side hustles and creating multiple income streams. Don't put all your eggs in one basket – if one fails, the others will still keep you afloat. I've found that a combination of freelancing, online sales, passive investing, and digital product creation has been a winning formula.\n\nNow, I'm not going to sugarcoat it: side hustles require work and dedication. You'll have to be disciplined and focused to make them pay off. But the rewards are worth it – financial freedom, peace of mind, and the thrill of creating something new.\n\nAs I look back on my journey, I realize that side hustles have not only earned me extra income but also given me a sense of purpose and fulfillment. They've allowed me to pursue my passions and interests outside of my main job, which has kept me engaged and motivated.\n\nIf you're thinking about starting your own side hustle, here's the most important thing: take that first step. Don't be afraid to try new things or face rejection – it's all part of the learning process. And don't underestimate the power of passive income streams; they can change the game for you in ways you never thought possible.\n\nIn conclusion, side hustles and passive income have been a game-changer for me. They've not only helped me earn extra money but also given me a sense of freedom and fulfillment. If you're looking to supplement your income or break free from the 9-to-5 grind, I encourage you to explore these opportunities. Trust me – it's worth it!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was the author's main reason for exploring side hustles?",
+      "options": {
+        "A": "To pay off debt and save up for a big purchase",
+        "B": "To create passive income streams that would generate money without much effort",
+        "C": "To earn extra cash to cover living expenses",
+        "D": "To pursue their passion for writing full-time"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"piling up\" mean in this context?",
+      "options": {
+        "A": "To pay off debts quickly",
+        "B": "To have a large amount of something, such as bills or expenses",
+        "C": "To work hard to earn extra money",
+        "D": "To reduce costs and save money"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How did the writer earn money from their first side hustle?",
+      "options": {
+        "A": "By creating and selling digital products",
+        "B": "By freelancing on Upwork and Fiverr",
+        "C": "By investing in dividend-paying stocks",
+        "D": "By delivering food with Uber Eats"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the author, what is the key benefit of side hustles and passive income streams?",
+      "options": {
+        "A": "They allow you to work less hours",
+        "B": "They provide financial freedom and peace of mind",
+        "C": "They are a way to earn a lot of money quickly",
+        "D": "They are not worth the effort required"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"it\" refer to in the sentence: \"But what really got me excited was the potential to create passive income streams – money that flows in without much effort from my end.\"",
+      "options": {
+        "A": "The potential of creating passive income streams",
+        "B": "Money that flows in without much effort from my end",
+        "C": "My main job",
+        "D": "Passive income streams"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this text about side hustles and passive income?",
+      "options": {
+        "A": "To persuade readers to quit their jobs and pursue a life of leisure",
+        "B": "To share personal experiences and advice on creating extra income streams",
+        "C": "To explain the benefits of investing in stocks and bonds",
+        "D": "To introduce a new business idea for starting an online marketplace"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

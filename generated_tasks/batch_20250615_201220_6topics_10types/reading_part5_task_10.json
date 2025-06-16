@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_10",
+  "title": "Mastering Money Magic: Essential Financial Skills for Young Adults",
+  "topic": "general",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember the day I graduated from college, feeling like I was ready to take on the world. I had landed my first job, moved into an apartment with friends, and was eager to start building a life of my own. But as I began to manage my finances, I quickly realized that I was in over my head.\n\nI had no idea how to create a budget, let alone balance a checkbook or understand the concept of compound interest. It wasn't until I stumbled upon a financial literacy course at work that things started to click into place. For the first time, I felt like I was getting a handle on my finances and making progress towards long-term goals.\n\nAs a young adult, it's easy to get caught up in the excitement of newfound independence and put off learning about personal finance until later. But trust me, it's never too early (or too late) to start building your financial literacy skills. In fact, developing good habits now will set you up for success in the long run.\n\nSo, where do you even begin? For starters, let's talk about something that might seem obvious but is often overlooked: budgeting. A budget isn't just a list of income and expenses – it's a plan for how you want to allocate your resources. Think of it like a game plan for your money. You need to know what you're working with, prioritize your spending, and make conscious decisions about where your hard-earned cash is going.\n\nOne of the most important things I learned in that financial literacy course was the 50/30/20 rule. The idea is to allocate 50% of your income towards necessary expenses like rent, utilities, and groceries; 30% towards discretionary spending on entertainment, hobbies, or travel; and 20% towards saving and debt repayment.\n\nIt's not always easy to stick to this ratio, especially when it comes to the fun stuff. But trust me, it's worth it in the long run. When you prioritize your savings and debt repayment, you'll be amazed at how quickly you can pay off student loans or build up an emergency fund.\n\nOf course, financial literacy isn't just about numbers and spreadsheets – it's also about understanding the bigger picture. Take investing, for example. I used to think that investing was only for rich people who had a lot of money to spare. But the truth is, anyone can start investing with even small amounts of money.\n\nIt's all about starting early, being consistent, and letting time do its magic. Even if you're not sure where to begin or feel intimidated by the world of finance, there are plenty of resources available to help you get started. From online courses to financial advisors, it's easier than ever to learn about investing and make informed decisions.\n\nAs a young adult, it's also essential to understand your credit score and how it affects your financial life. Your credit score is like a report card for your financial habits – it shows lenders whether you're responsible with money or prone to overspending.\n\nThe good news is that there are plenty of ways to improve your credit score without sacrificing too much. For example, paying bills on time, keeping credit utilization low, and avoiding unnecessary credit inquiries can all help boost your score over time.\n\nIn the end, financial literacy is about more than just numbers – it's about taking control of your life and making intentional decisions about how you want to use your resources. It takes time, patience, and practice, but trust me, it's worth it in the long run.\n\nAs I look back on my journey towards financial literacy, I realize that it's a continuous process. There are still days when I feel overwhelmed or unsure of what to do next. But with each small victory – whether it's paying off debt or building up an emergency fund – I'm reminded of just how far I've come.\n\nSo if you're feeling lost or uncertain about your finances, take heart. You don't have to be a financial genius to make progress towards long-term goals. With the right mindset and resources, anyone can develop good financial habits and achieve financial stability.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was the author's initial approach to managing their finances after graduation?",
+      "options": {
+        "A": "They had a clear plan to pay off student loans and build an emergency fund.",
+        "B": "They relied on a friend who worked as a financial advisor for guidance.",
+        "C": "They were completely overwhelmed and didn't know where to begin.",
+        "D": "They used a budgeting app that helped them track their expenses."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for someone's finances to be \"in over their head\"?",
+      "options": {
+        "A": "To have a lot of money saved up",
+        "B": "To be struggling to manage one's finances due to lack of knowledge or experience",
+        "C": "To be earning a high income",
+        "D": "To have all expenses covered by a single source of income"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of income should be allocated towards saving and debt repayment according to the 50/30/20 rule?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "40%",
+        "D": "60%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the author, what is the best time to start building your financial literacy skills?",
+      "options": {
+        "A": "Only when you're earning a high income",
+        "B": "As soon as possible, regardless of age or income level",
+        "C": "After completing higher education",
+        "D": "Once you've paid off all your debts"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"the 50/30/20 rule\" refer to in the text?",
+      "options": {
+        "A": "A type of investment strategy",
+        "B": "A plan for how to allocate your income towards necessary expenses, discretionary spending, and saving",
+        "C": "A formula for calculating credit scores",
+        "D": "A method for balancing a checkbook"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about personal finance?",
+      "options": {
+        "A": "The importance of investing for young adults",
+        "B": "How to create a budget using the 50/30/20 rule",
+        "C": "The benefits of developing good financial literacy skills from a young age",
+        "D": "Ways to improve your credit score quickly"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

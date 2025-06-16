@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_47",
+  "title": "Buying into Change: The Rise of Sustainable Shopping Culture",
+  "topic": "technology",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "Sustainable Shopping and Ethical Consumption: A Cultural Shift Towards Responsibility\n\nIn recent years, there has been a growing awareness of the need for sustainable shopping and ethical consumption. As consumers become increasingly environmentally conscious and socially responsible, businesses are adapting to meet these changing expectations. The shift towards sustainability is not just about reducing waste and conserving resources; it's also about promoting fair labor practices, animal welfare, and community development.\n\nThe rise of fast fashion has had a devastating impact on the environment and workers in the garment industry. Cheap clothing is often made from synthetic materials that contribute to microplastic pollution, while factories in developing countries exploit cheap labor, perpetuating poverty and human rights abuses. However, consumers are starting to wake up to these issues, seeking out brands that prioritize sustainability and transparency.\n\nOne notable example of this shift is the growth of second-hand shopping. Online marketplaces like ThredUp and Poshmark have made it easy for consumers to buy and sell pre-loved clothing, reducing waste and promoting reuse. Similarly, companies like Patagonia and Reformation are incorporating sustainable materials and practices into their supply chains, such as using recycled polyester and implementing energy-efficient manufacturing processes.\n\nThe demand for transparency is also driving change in the industry. Consumers are increasingly looking beyond a brand's marketing claims to see how they source materials, treat workers, and interact with local communities. Companies like Everlane and People Tree have made it easy to access this information through detailed supply chain reports and certifications from organizations like Fair Trade USA.\n\nBeyond fashion, sustainable shopping is also transforming the food industry. The rise of plant-based eating has led to a surge in demand for locally sourced, organic produce. Supermarkets are responding by stocking more eco-friendly options and promoting seasonal, artisanal products. Consumers are also seeking out zero-waste grocery stores that eliminate single-use packaging and encourage customers to bring their own containers.\n\nThe growth of sustainable shopping is not just about individual consumer choices; it's also a cultural shift towards collective responsibility. As consumers become more aware of the environmental and social impacts of their purchasing decisions, they're demanding more from businesses and governments alike. This movement has sparked conversations around systemic change, such as the need for policy reforms to regulate industries like agriculture and manufacturing.\n\nOne area where sustainable shopping is particularly effective is in promoting community development. Local cooperatives and independent retailers are creating jobs and stimulating economic growth by investing in local suppliers and supporting small-scale producers. In contrast, large corporations often prioritize profit over people, neglecting the needs of workers and communities near their operations.\n\nOf course, there's still a long way to go before sustainable shopping becomes the norm. Many consumers remain unaware of the environmental and social costs of their purchasing decisions, while others may not have access to eco-friendly options in their local area. However, as the movement continues to grow, it's clear that change is underway.\n\nAs we navigate this cultural shift towards sustainability, it's essential to recognize both progress and challenges. By acknowledging the complexities of systemic change, we can build momentum for meaningful reform. For businesses, this means embracing transparency and accountability, investing in sustainable practices, and advocating for policy changes that support environmental protection and social justice. For consumers, it means staying informed about industry trends, demanding more from brands, and supporting local initiatives that promote sustainability.\n\nUltimately, the shift towards sustainable shopping is not just a response to consumer demand; it's also a reflection of our collective values as a society. As we move forward, let's prioritize responsibility over convenience, justice over profit, and community development over individual gain. By doing so, we can create a more equitable, environmentally conscious culture that benefits both people and the planet.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if consumers continue to demand transparency from companies?",
+      "options": {
+        "A": "Companies will prioritize profit over environmental concerns.",
+        "B": "Companies will invest in sustainable practices and improve their supply chains.",
+        "C": "The demand for eco-friendly products will decrease.",
+        "D": "Consumers will become less concerned about the social and environmental impacts of their purchasing decisions."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean by 'perpetuating poverty' in the context of the garment industry?",
+      "options": {
+        "A": "To eradicate poverty",
+        "B": "To perpetuate or continue to maintain a situation where people are poor",
+        "C": "To increase wealth among workers in developing countries",
+        "D": "To reduce the number of jobs available in factories"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Which online marketplace is mentioned as making it easy for consumers to buy and sell pre-loved clothing?",
+      "options": {
+        "A": "Everlane",
+        "B": "Poshmark",
+        "C": "Patagonia",
+        "D": "ThredUp"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The author seems to believe that sustainable shopping is primarily about individual consumer choices, rather than collective responsibility.",
+      "options": {
+        "A": "The growth of sustainable shopping is a cultural shift towards personal freedom.",
+        "B": "The movement has sparked conversations around systemic change and policy reforms.",
+        "C": "Sustainable shopping is particularly effective in promoting community development and local economic growth.",
+        "D": "Consumers are solely responsible for driving the demand for eco-friendly products and practices."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"cheap labor\" in the text refer to?",
+      "options": {
+        "A": "Exploitation of workers by large corporations",
+        "B": "The use of low-cost materials in manufacturing processes",
+        "C": "Poverty and human rights abuses perpetuated by factories in developing countries",
+        "D": "The growth of online marketplaces for second-hand shopping"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "The growth of sustainable shopping is mainly driven by individual consumer choices to reduce waste and conserve resources.",
+        "B": "The shift towards sustainability is a cultural movement that requires collective responsibility from consumers, businesses, and governments alike.",
+        "C": "Sustainable shopping is primarily focused on promoting fair labor practices in the garment industry.",
+        "D": "The rise of fast fashion has had no negative impact on the environment or workers."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

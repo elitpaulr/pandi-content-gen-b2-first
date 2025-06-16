@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_98",
+  "title": "Unlocking the World of Cryptocurrency: A Beginner's Guide to Success",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her latte, Emma leaned back in her chair, eyes scanning the rows of screens behind Alex's head. \"So, you're saying this is all about... currency?\" Her tone was a mix of skepticism and curiosity.\n\nAlex nodded, his fingers flying across the keyboard as he brought up a spreadsheet on one of the monitors. \"Exactly! Cryptocurrency is digital money, Emma. Like any other form of currency – dollars, euros, yen – but instead of being physical, it exists only in electronic form.\"\n\nEmma's eyes widened slightly as she took this in. \"And it's not just for tech-savvy people, right? Anyone can use it?\"\n\n\"Absolutely,\" Alex replied with a grin. \"You don't need to be a genius programmer or have a Ph.D. in economics to understand cryptocurrency. Just basic knowledge of how money works will do.\"\n\nHe clicked on a new tab and brought up a graph showing the fluctuating value of Bitcoin, one of the most popular cryptocurrencies. Emma's eyes scanned it quickly before looking back at Alex.\n\n\"So, what makes this different from regular currency?\" she asked.\n\n\"Well,\" Alex began, \"there are several key differences. First, cryptocurrency is decentralized – there's no central authority controlling its supply or circulation. The entire network relies on a distributed ledger called blockchain to record all transactions.\"\n\nEmma raised an eyebrow. \"Distributed ledger? Sounds like some kind of sci-fi movie plot.\"\n\nAlex chuckled. \"I know it sounds weird, but trust me, it's not that complicated. Think of the blockchain as a digital accounting book where every single transaction is recorded and verified by multiple computers on the network simultaneously.\"\n\nHe clicked on another tab, showing a simplified version of the blockchain process. Emma watched intently as Alex explained how each block in the chain contained a unique code called a 'hash' that linked it to the previous one.\n\n\"The beauty of this system,\" he said, \"is its transparency and security. All transactions are recorded publicly, so you can see exactly where your money's going – no more shady bank transfers or hidden fees.\"\n\nEmma leaned forward, intrigued by Alex's enthusiasm. She'd always been skeptical about cryptocurrency, but now she was starting to see the appeal.\n\n\"So, how does it work?\" she asked, her voice a little louder than usual.\n\nAlex smiled, happy to dive deeper into the details. \"It works just like regular currency – you can buy and sell goods and services using cryptocurrency instead of dollars or euros. The main difference is that you don't need a middleman like a bank to facilitate transactions.\"\n\nHe clicked on another tab, showing Emma how she could exchange her fiat money (dollars) for Bitcoin, the most widely accepted cryptocurrency.\n\nAs Alex continued explaining the basics of cryptocurrency, Emma's skepticism slowly turned into understanding and even excitement. She asked more questions – about mining, wallets, and the various types of cryptocurrencies available – each one making her feel more confident in her grasp of this complex topic.\n\nBy the end of their conversation, Emma felt like she'd finally grasped the concept. Cryptocurrency wasn't just some obscure online phenomenon; it was a legitimate way to manage money digitally.\n\nAs they wrapped up their meeting and Emma gathered her things to leave, Alex grinned at her. \"Welcome to the world of cryptocurrency, my friend! It's not as scary as you thought, is it?\"\n\nEmma smiled back, tucking her laptop under her arm. \"Not at all,\" she said, already mentally preparing herself for her next step – setting up a digital wallet and making her first cryptocurrency transaction.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Emma's initial attitude towards cryptocurrency?",
+      "options": {
+        "A": "She was highly enthusiastic and knowledgeable about it from the start",
+        "B": "She was completely dismissive of the concept and didn't want to learn more",
+        "C": "She was skeptical but open-minded, wanting to understand its basics",
+        "D": "She had never heard of cryptocurrency before their conversation"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Alex mean by saying that cryptocurrency is \"decentralized\"?",
+      "options": {
+        "A": "It's controlled by a single government or authority",
+        "B": "It exists only on one computer network",
+        "C": "There's no central authority controlling its supply or circulation, and it relies on a distributed ledger called blockchain to record all transactions",
+        "D": "It can only be used for online purchases"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What makes cryptocurrency different from regular currency?",
+      "options": {
+        "A": "It's only available on the internet",
+        "B": "There's no central authority controlling its supply or circulation",
+        "C": "It can only be used by tech-savvy people",
+        "D": "It's not recognized as a legitimate form of payment"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Emma's attitude towards cryptocurrency change as Alex explains it to her?",
+      "options": {
+        "A": "She remains unconvinced by Alex's explanation",
+        "B": "Her initial skepticism turns into confidence",
+        "C": "She becomes disinterested and stops paying attention",
+        "D": "She thinks it's too complicated to understand"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Alex's phrase \"the entire network relies on a distributed ledger called blockchain to record all transactions\" refer to?",
+      "options": {
+        "A": "The spreadsheet he brought up on one of the monitors",
+        "B": "A digital accounting book where every single transaction is recorded and verified by multiple computers on the network simultaneously",
+        "C": "A graph showing the fluctuating value of Bitcoin",
+        "D": "A middleman like a bank that facilitates transactions"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is Alex trying to explain to Emma about cryptocurrency?",
+      "options": {
+        "A": "That it's only used by tech-savvy people",
+        "B": "That it's a new form of currency that exists only in electronic form",
+        "C": "That it's a way for governments to control the economy",
+        "D": "That it's not necessary for daily life"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

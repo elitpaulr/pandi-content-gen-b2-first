@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_148",
+  "title": "Surviving on $10 a Day: Mastering Budgets as a Digital Nomad",
+  "topic": "technology",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "As a digital nomad, navigating the world while maintaining a stable financial situation can be a daunting task. The freedom to travel and work remotely is a coveted lifestyle, but it also requires discipline and planning when it comes to budgeting. Digital nomads often find themselves in unfamiliar territories, with variable exchange rates, unpredictable expenses, and an ever-changing social scene.\n\nBefore embarking on your digital nomad journey, it's essential to establish a budget that suits your needs. Start by tracking your income and expenses from previous trips or work-from-home periods. Identify areas where you can cut back and allocate funds more efficiently. Consider your accommodation costs, food, transportation, and entertainment expenses – all of which can vary greatly depending on the location.\n\nOne of the primary concerns for digital nomads is managing their finances in foreign currencies. When dealing with different exchange rates, it's easy to lose track of your spending. To avoid this, adopt a system where you allocate specific amounts for each category (housing, food, etc.) and stick to it. Consider using budgeting apps like Mint or Trail Wallet that allow you to categorize expenses and monitor your spending in real-time.\n\nAnother crucial aspect of digital nomad budgeting is understanding the tax implications of working remotely. Depending on your location, you may be subject to local taxes, social security contributions, or even income tax withholding. Research the tax laws of each country you plan to visit and adjust your budget accordingly. Consult with a financial advisor or tax professional to ensure you're meeting all necessary obligations.\n\nHealthcare is also an essential consideration for digital nomads. Medical costs can be unpredictable, especially in countries without comprehensive healthcare systems. Consider investing in travel insurance that covers medical emergencies, evacuations, and trip cancellations. Research local healthcare options and budget for any ongoing medical expenses.\n\nWhen it comes to accommodation, digital nomads often opt for shared housing or short-term rentals. While these options can be cost-effective, they also require flexibility and adaptability. Budget for temporary living arrangements, but also plan for potential rent increases or changes in accommodation costs.\n\nEntertainment and socializing are an integral part of the digital nomad lifestyle. Allocate funds for exploring local cuisine, attending cultural events, and participating in community activities. Consider budgeting for coworking spaces, networking events, or language classes that can enhance your experience and skills.\n\nIn addition to individual expenses, consider the costs associated with maintaining a remote work setup. Invest in reliable laptop, phone, and internet connectivity, as well as software and tools necessary for your profession. Factor in the cost of international data plans, portable Wi-Fi hotspots, or local SIM cards that can help you stay connected.\n\nLastly, don't underestimate the importance of emergency funds. As a digital nomad, you're constantly adapting to new environments, which means unexpected expenses can arise at any moment. Allocate 10-20% of your income towards an easily accessible savings fund – think credit cards or online banking services.\n\nBudgeting for digital nomads requires attention to detail and flexibility. By establishing clear financial goals, tracking expenses, and understanding the tax implications of working remotely, you'll be better equipped to navigate the challenges of this lifestyle. Remember to prioritize healthcare, accommodation costs, and ongoing expenses, while also allowing room for exploration and socializing. With a solid budget in place, you can enjoy the freedom and adventure that comes with being a digital nomad.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is a crucial aspect of managing finances as a digital nomad that is often overlooked?",
+      "options": {
+        "A": "Investing in expensive accommodation",
+        "B": "Understanding the tax implications of working remotely",
+        "C": "Using budgeting apps to track expenses only",
+        "D": "Focusing solely on entertainment and socializing"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean by \"unpredictable expenses\" in the context of digital nomads?",
+      "options": {
+        "A": "Expenses that are lower than expected",
+        "B": "Expenses that vary greatly depending on location",
+        "C": "Expenses related to healthcare and medical emergencies",
+        "D": "Expenses that can be easily planned for and budgeted"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of income should be allocated towards an emergency fund?",
+      "options": {
+        "A": "5-10%",
+        "B": "15-25%",
+        "C": "20-30%",
+        "D": "10-20%"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards the idea of not having an emergency fund as a digital nomad?",
+      "options": {
+        "A": "It is completely unnecessary for digital nomads to have an emergency fund.",
+        "B": "A small emergency fund is crucial for navigating unexpected expenses while traveling.",
+        "C": "Having an emergency fund can limit one's freedom and spontaneity as a digital nomad.",
+        "D": "Emergency funds are only necessary for digital nomads who travel to certain countries."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who should be consulted when researching tax laws of each country to adjust your budget accordingly?",
+      "options": {
+        "A": "A travel agent",
+        "B": "A financial advisor or tax professional",
+        "C": "A healthcare specialist",
+        "D": "An accommodation provider"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this text about budgeting for digital nomads?",
+      "options": {
+        "A": "To describe the lifestyle of digital nomads",
+        "B": "To provide tips on how to manage finances while traveling abroad",
+        "C": "To explain the tax implications of working remotely for digital nomads",
+        "D": "To encourage readers to abandon traditional work and become digital nomads"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

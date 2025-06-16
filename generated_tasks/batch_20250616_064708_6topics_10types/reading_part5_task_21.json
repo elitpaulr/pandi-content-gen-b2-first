@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_21",
+  "title": "Team Up or Go Solo: Which Sports Style is Right for You?",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Great Debate: Team Sports vs Individual Activities**\n\nWhen it comes to staying active and engaged in physical pursuits, many of us face a choice between two distinct paths: team sports or individual activities. While both options have their own set of benefits and drawbacks, which one is best for you? In this article, we'll delve into the advantages and disadvantages of each type of activity, exploring what makes them unique and what they can offer to those who participate.\n\n**The Benefits of Team Sports**\n\nTeam sports are a classic choice for many people. Whether it's soccer, basketball, or volleyball, team sports provide an opportunity to be part of something larger than oneself. This collective effort fosters camaraderie and teamwork, essential skills that extend far beyond the playing field. \"When you're on a team,\" says Dr. John Smith, a renowned sports psychologist, \"you develop communication, trust, and problem-solving skills that are invaluable in everyday life.\"\n\nTeam sports also offer an added layer of accountability and motivation. Knowing that your actions directly impact the outcome of the game can be a powerful motivator to push yourself beyond your limits. Furthermore, being part of a team provides a sense of belonging and social connection, which is essential for our mental health and well-being.\n\n**The Benefits of Individual Activities**\n\nOn the other hand, individual activities offer a more solitary experience, allowing you to focus solely on your own performance and improvement. Whether it's running, swimming, or cycling, individual activities provide an opportunity to challenge yourself at your own pace, without worrying about being part of a team.\n\nIndividual activities also offer greater flexibility and convenience. With the rise of online classes and virtual training programs, it's never been easier to participate in individual sports from the comfort of your own home. This accessibility has made individual activities more appealing than ever, especially for those with busy schedules or limited access to team-based facilities.\n\n**Which One is Right for You?**\n\nWhile both team sports and individual activities have their advantages, the choice ultimately comes down to personal preference. If you're someone who thrives in a social environment, enjoys the camaraderie of being part of a team, and values the accountability that comes with it, then team sports may be the way to go.\n\nOn the other hand, if you prefer to work at your own pace, enjoy solo activities, or value the convenience and flexibility of individual sports, then an individual activity might be more suited to your needs. Perhaps the best approach is a combination of both – incorporating elements of team sports into your individual routine or vice versa.\n\n**The Bottom Line**\n\nIn conclusion, whether you choose to participate in team sports or individual activities, what's most important is finding a physical pursuit that brings you joy and fulfillment. Both options have their unique benefits and drawbacks, but ultimately, it's up to each individual to decide which path suits them best.\n\nAs Dr. Smith notes, \"It's not about one being better than the other; it's about finding what works for you.\" By embracing both team sports and individual activities, we can reap the rewards of a balanced and varied physical routine, fostering a healthier, happier, and more well-rounded lifestyle in the process.\n\nSo next time you're deciding between joining a team or going solo, remember that there's no one-size-fits-all solution. The most important thing is finding an activity that you enjoy, and that brings you closer to achieving your fitness goals. Whether it's on the field or on your own, every step counts – and with dedication and passion, the possibilities are endless.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to Dr. John Smith, what is a key benefit of being part of a team sport?",
+      "options": {
+        "A": "You develop skills that only apply to sports",
+        "B": "You gain essential skills that extend far beyond the playing field",
+        "C": "You become more independent and less reliant on others",
+        "D": "You have no accountability or responsibility towards your teammates"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "According to Dr. John Smith, what skills do team sports help develop that extend beyond the playing field?",
+      "options": {
+        "A": "Only communication skills",
+        "B": "Communication, trust, and problem-solving skills",
+        "C": "Teamwork and leadership skills only",
+        "D": "Physical fitness and endurance skills"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Dr. John Smith, what is the main difference between team sports and individual activities?",
+      "options": {
+        "A": "Team sports require more physical effort than individual activities.",
+        "B": "Team sports focus on personal achievement, while individual activities emphasize teamwork.",
+        "C": "Team sports provide an opportunity for personal growth, whereas individual activities are only about winning or losing.",
+        "D": "It's not about one being better than the other; it's about finding what works for you."
+      },
+      "correct_answer": "D",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Dr. John Smith refer to when he says \"you develop communication, trust, and problem-solving skills that are invaluable in everyday life\"?",
+      "options": {
+        "A": "The benefits of individual activities",
+        "B": "The importance of being part of a team",
+        "C": "The advantages of team sports compared to individual pursuits",
+        "D": "The skills acquired through participating in online classes"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this article about team sports vs individual activities?",
+      "options": {
+        "A": "The article compares the benefits of team sports to those of individual activities, but ultimately concludes that one is better than the other.",
+        "B": "The article presents a balanced view of both team sports and individual activities, encouraging readers to find an approach that suits their needs.",
+        "C": "The article argues that team sports are only suitable for young people, while individual activities are best for adults.",
+        "D": "The article suggests that readers should choose between team sports and individual activities based on their social status."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

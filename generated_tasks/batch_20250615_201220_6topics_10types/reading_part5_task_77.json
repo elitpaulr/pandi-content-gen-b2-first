@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_77",
+  "title": "The Secret to Financial Freedom: How Side Hustlers are Changing Lives",
+  "topic": "general",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "The Rise of Side Hustles and Passive Income: A Cultural Shift in the Making\n\nIn recent years, there has been a significant shift in the way people approach work and finances. The traditional 9-to-5 job is no longer the only option for many individuals, as the rise of side hustles and passive income has become increasingly popular. This cultural phenomenon is not just about making extra money; it's about redefining what it means to be financially independent and having control over one's life.\n\nSide hustles refer to any additional income-generating activity that is pursued outside of one's primary job. These can range from freelancing, tutoring, or selling products online to renting out a spare room on Airbnb or driving for Uber. The beauty of side hustles lies in their flexibility and potential for scalability. With the rise of the gig economy and remote work, it's easier than ever to start a side hustle with minimal financial risk.\n\nPassive income, on the other hand, refers to earnings that require little to no active effort to maintain. Examples include investing in dividend-paying stocks, real estate investment trusts (REITs), or creating and selling digital products such as ebooks or online courses. The idea behind passive income is that once the initial setup is done, the money continues to flow in with minimal upkeep.\n\nThe appeal of side hustles and passive income lies in their potential to create a sense of financial freedom. With a side hustle, individuals can supplement their primary income and have more money for travel, savings, or debt repayment. Passive income takes this concept to the next level by providing a steady stream of earnings that can help achieve long-term financial goals.\n\nOne of the driving forces behind the rise of side hustles and passive income is the growing dissatisfaction with traditional employment arrangements. Many people feel trapped in jobs that don't provide a sense of purpose or fulfillment, leading them to seek alternative ways to earn money. This desire for autonomy and flexibility has been fueled by the increasing availability of online platforms and tools that make it easier to start and manage side hustles.\n\nThe cultural impact of side hustles and passive income extends beyond individual finances. It's changing the way we think about work, identity, and community. For example, with the rise of remote work, traditional notions of office culture are being challenged. Side hustlers and online entrepreneurs often create their own communities and networks, blurring the lines between personal and professional lives.\n\nHowever, there are also concerns surrounding the impact of side hustles and passive income on mental health and relationships. The pressure to constantly produce content or manage multiple streams of income can be overwhelming, leading to burnout and stress. Furthermore, the pursuit of financial freedom can sometimes lead individuals to neglect their social connections and community ties.\n\nIn conclusion, the rise of side hustles and passive income represents a significant cultural shift in our approach to work and finances. While it offers many benefits, such as increased flexibility and autonomy, it also poses challenges that must be acknowledged. As we move forward in this era of remote work and online entrepreneurship, it's essential to prioritize self-care, community engagement, and financial literacy.\n\nUltimately, the success of side hustles and passive income depends on individual circumstances and goals. What's clear is that this trend is here to stay, and its impact will continue to shape our culture, economy, and personal lives in profound ways. Whether you're a seasoned entrepreneur or just starting out, it's essential to approach this new landscape with curiosity, adaptability, and a willingness to learn.\n\nAs we navigate this changing economic landscape, one thing is certain: the notion of work and financial stability will never be the same again. The rise of side hustles and passive income has opened up new possibilities for individuals to take control of their finances and create a more fulfilling life. It's an exciting time to be alive, and we're just beginning to scratch the surface of what this cultural shift will bring.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What may happen if individuals focus too much on making money from side hustles and passive income?",
+      "options": {
+        "A": "They will have more free time to pursue their hobbies",
+        "B": "They will experience a significant increase in stress and burnout",
+        "C": "They will become more financially literate and make better investment decisions",
+        "D": "They will have no problem maintaining healthy relationships with friends and family"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean by \"scalability\" in the context of side hustles?",
+      "options": {
+        "A": "The ability to work flexible hours",
+        "B": "The potential for a side hustle to generate more income as it grows",
+        "C": "The ease with which a side hustle can be started from scratch",
+        "D": "The number of people required to maintain a side hustle"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what is one example of passive income that requires little to no active effort to maintain?",
+      "options": {
+        "A": "Investing in stocks",
+        "B": "Creating and selling digital products such as ebooks or online courses",
+        "C": "Renting out a spare room on Airbnb",
+        "D": "Freelancing"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards people who pursue side hustles and passive income as a means to achieve financial freedom?",
+      "options": {
+        "A": "The author believes that these individuals are reckless and irresponsible.",
+        "B": "The author thinks that pursuing side hustles and passive income is a sign of laziness and lack of ambition.",
+        "C": "The author views this trend as a positive development, allowing people to take control of their finances and lives.",
+        "D": "The author is neutral about the topic and does not have an opinion on it."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea or purpose of the text about side hustles and passive income?",
+      "options": {
+        "A": "To provide a guide on how to start and manage successful side hustles",
+        "B": "To explore the impact of side hustles and passive income on individual finances and mental health",
+        "C": "To argue that traditional employment arrangements are superior to side hustles and passive income",
+        "D": "To discuss the cultural shift towards greater financial independence and autonomy"
+      },
+      "correct_answer": "D",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

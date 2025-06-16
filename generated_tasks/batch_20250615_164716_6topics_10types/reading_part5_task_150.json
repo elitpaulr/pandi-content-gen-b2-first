@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_150",
+  "title": "From Bali to Barcelona: Mastering Your Digital Nomad Budget Blueprint",
+  "topic": "technology",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "As a digital nomad, living and working from exotic locations around the world can be a dream come true. But with great freedom comes great financial responsibility. Budgeting is not just a necessary evil; it's an essential skill for navigating the ups and downs of life on the road.\n\nFor many digital nomads, the concept of budgeting is often misunderstood or seen as restrictive. However, a well-crafted budget can be a powerful tool for achieving your goals, whether that's saving up for a dream vacation, paying off debt, or simply enjoying the freedom to travel without financial stress.\n\nSo, where do you start? The first step in creating a budget is to track your income and expenses. This might seem simple, but it's surprising how often we underestimate our spending habits or overestimate our earnings. Start by downloading an expense tracking app like Mint or Personal Capital, which will help you categorize your spending and identify areas where you can cut back.\n\nNext, consider the 50/30/20 rule: allocate 50% of your income towards necessary expenses like rent, utilities, and food; 30% towards discretionary spending like travel, entertainment, and hobbies; and 20% towards saving and debt repayment. This is just a starting point, but it's a good way to balance short-term needs with long-term goals.\n\nAnother key consideration for digital nomads is the cost of living in different countries. Researching local prices and adjusting your budget accordingly can make all the difference between enjoying a comfortable lifestyle and struggling to make ends meet. For example, if you're planning to move to Chiang Mai, Thailand, you'll find that the cost of living is significantly lower than in major cities like Bangkok or even smaller towns in the West.\n\nIn addition to tracking expenses and setting financial goals, digital nomads should also consider the following budgeting strategies:\n\n* **Emergency fund**: Save 3-6 months' worth of living expenses in an easily accessible savings account. This will help you weather unexpected expenses or income disruptions.\n* **Health insurance**: As a digital nomad, you may not have access to employer-sponsored health insurance. Research affordable options and consider investing in a travel medical plan.\n* **Taxes**: Understand your tax obligations as a digital nomad, including potential requirements for registering with the IRS or other government agencies.\n* **Retirement savings**: Even on a tight budget, it's essential to prioritize retirement savings. Consider contributing to a SEP-IRA or roth IRA.\n\nTo make budgeting more manageable, consider implementing a few simple habits:\n\n* Set aside time each week to review your finances and track expenses.\n* Use a budgeting app to automate tracking and reminders.\n* Prioritize needs over wants – be honest with yourself about what's essential versus discretionary spending.\n* Review and adjust your budget regularly to reflect changes in income or expenses.\n\nBy following these tips and adapting them to your individual circumstances, you can create a budget that supports your lifestyle as a digital nomad. Remember, budgeting is not about restricting freedom; it's about empowering yourself to make the most of your time on the road.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What might happen if a digital nomad doesn't prioritize retirement savings?",
+      "options": {
+        "A": "They will have more money available for discretionary spending.",
+        "B": "They may struggle financially in their later years.",
+        "C": "They won't be able to afford health insurance premiums.",
+        "D": "They will be able to travel more frequently."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What percentage of income should be allocated towards saving and debt repayment according to the 50/30/20 rule?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "40%",
+        "D": "60%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What does the author think about budgeting for digital nomads?",
+      "options": {
+        "A": "It's a necessary evil that restricts their freedom.",
+        "B": "It's an essential skill that empowers them to travel without financial stress.",
+        "C": "It's only useful for saving up for a dream vacation.",
+        "D": "It's too complicated and best left to accountants."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does \"you\" refer to in this sentence?",
+      "options": {
+        "A": "A particular financial advisor",
+        "B": "The reader of the article, who is a digital nomad",
+        "C": "A person planning to move to Chiang Mai, Thailand",
+        "D": "An employer of digital nomads"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea or purpose of this text about budgeting for digital nomads?",
+      "options": {
+        "A": "To describe various budgeting strategies and tools used by digital nomads",
+        "B": "To explain how to create a successful life as a digital nomad without worrying about money",
+        "C": "To provide essential tips and habits for managing finances while living and working abroad",
+        "D": "To argue that budgeting is not necessary or relevant for digital nomads"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

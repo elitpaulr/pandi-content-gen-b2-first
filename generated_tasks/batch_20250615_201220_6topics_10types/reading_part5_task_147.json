@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_147",
+  "title": "Living Abroad on a Shoestring: Budget Hacks for Digital Nomads",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I sipped my $2 coffee in a bustling Chiang Mai market, I couldn't help but think about the delicate balance of being a digital nomad. The freedom to work from anywhere is intoxicating, but it's also a financial tightrope that requires careful juggling.\n\nFor those who've made the leap, budgeting becomes an art form. It's not just about saving money; it's about making conscious choices about how you spend your days and dollars. As I navigated the winding streets of Hanoi, I watched as fellow travelers struggled to find balance between indulging in street food and keeping their bank accounts afloat.\n\nThe cost of living in popular digital nomad destinations like Chiang Mai, Medellín, or Bali can be surprisingly affordable – but it's easy to get caught up in the excitement and overspend. A $10-a-day meal plan may sound cheap, but when you're eating out three meals a day, those numbers add up quickly.\n\nOne of my friends, a freelance writer, had been living in Lisbon for months on end, renting a cozy apartment for €400 a month. But after a few too many nights out dancing the fado, she found herself scrambling to make ends meet. \"I thought I was being frugal,\" she confessed to me over coffee (which, ironically, cost more than our drinks). \"But really, I just wasn't paying attention.\"\n\nAttention is key when it comes to budgeting as a digital nomad. Every dollar counts, and every choice affects your financial flexibility. It's not about depriving yourself of experiences or amenities; it's about making intentional decisions that align with your values and goals.\n\nTake housing, for example. Rent can be a significant expense in popular cities, but opting for a shared apartment or house-sitting can reduce costs by half. And then there's the matter of transportation – renting a scooter or motorbike may seem like a luxury, but it can actually save you money on taxis and public transport.\n\nOf course, not everyone can afford to be as flexible with their spending. Some digital nomads have more financial constraints than others, whether due to student loans, credit card debt, or simply the need for a steady income. For these individuals, every dollar counts even more.\n\nIn Medellín's trendy El Poblado neighborhood, I met a young entrepreneur who'd been living on $1,500 a month for years. He'd optimized his expenses by finding free coworking spaces and cooking most of his meals at home. His secret? A strict 50/30/20 budget rule: 50% for necessities like rent and food, 30% for discretionary spending, and 20% for savings.\n\nAs I watched him effortlessly navigate the city's vibrant streets, I realized that budgeting as a digital nomad isn't just about saving money; it's about cultivating a sense of financial freedom. By making conscious choices about how we spend our time and resources, we can create a life that's both adventurous and sustainable.\n\nOf course, there are no one-size-fits-all solutions for digital nomads. What works for one person may not work for another – but the key is to find what works for you. Whether it's cooking your own meals, finding free coworking spaces, or simply being mindful of every dollar spent, the art of budgeting as a digital nomad requires creativity, discipline, and attention.\n\nAs I finished my coffee and prepared to leave Chiang Mai behind, I felt a sense of gratitude for the freedom to roam – and for the lessons learned along the way. Budgeting may not be the most glamorous part of being a digital nomad, but it's an essential one. By prioritizing financial flexibility and making intentional choices about our spending, we can truly live the life we want – without breaking the bank.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the likely reason why some digital nomads have more financial constraints than others?",
+      "options": {
+        "A": "They are older and less tech-savvy",
+        "B": "They have more student loans or credit card debt to pay off",
+        "C": "They prefer to spend their money on luxury items rather than necessities",
+        "D": "They are not willing to adapt to the local culture and customs"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"juggling\" mean in this context?",
+      "options": {
+        "A": "To carefully plan and manage a budget",
+        "B": "To make difficult financial decisions under pressure",
+        "C": "To balance two or more things, especially money and freedom",
+        "D": "To spend money impulsively without thinking about the future"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How much did the freelance writer pay for her apartment rent in Lisbon?",
+      "options": {
+        "A": "€200 a month",
+        "B": "€400 a month",
+        "C": "€600 a month",
+        "D": "€800 a month"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The author seems to think that budgeting as a digital nomad is primarily about",
+      "options": {
+        "A": "Saving money for the sake of saving it",
+        "B": "Making conscious choices about how you spend your days and dollars",
+        "C": "Depriving oneself of experiences or amenities",
+        "D": "Being extremely frugal and avoiding any kind of luxury"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"it\" refer to in this sentence: \"A $10-a-day meal plan may sound cheap, but when you're eating out three meals a day, those numbers add up quickly\"?",
+      "options": {
+        "A": "The cost of living in popular digital nomad destinations",
+        "B": "A $10-a-day meal plan",
+        "C": "Every dollar spent by a digital nomad",
+        "D": "The total number of meals eaten per day"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about budgeting for digital nomads?",
+      "options": {
+        "A": "The author recommends a strict 50/30/20 budget rule as the only way to be financially successful.",
+        "B": "Budgeting as a digital nomad is all about depriving oneself of experiences and amenities in order to save money.",
+        "C": "By making conscious choices about how they spend their time and resources, digital nomads can create a life that's both adventurous and sustainable.",
+        "D": "The cost of living for digital nomads is extremely high, but it's worth it for the freedom to roam."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

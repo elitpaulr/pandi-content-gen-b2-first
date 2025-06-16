@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_25",
+  "title": "Why Team Sports Can Boost Your Brain More Than Solo Activities",
+  "topic": "general",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "When it comes to exercise and physical activity, people often have to choose between two main types of pursuits: team sports and individual activities. While both options have their benefits, research suggests that participating in team sports can be just as effective – if not more so – than engaging in solo endeavors.\n\nOne key advantage of team sports is the social aspect. When we work together towards a common goal, such as winning a game or completing a challenge, it fosters a sense of camaraderie and teamwork. This shared experience can lead to stronger relationships between teammates, improved communication skills, and even enhanced creativity. For example, studies have shown that team sports like soccer and basketball promote social bonding and trust among players.\n\nAnother benefit of team sports is the element of accountability. When you're part of a team, you're more likely to show up for practice and put in effort, as you don't want to let your teammates down. This sense of responsibility can translate to other areas of life, such as work or school, where teamwork and cooperation are essential.\n\nIndividual activities, on the other hand, often rely on self-motivation and discipline to stay on track. While some people excel in this area, others may struggle with procrastination or lack of enthusiasm. For instance, running or swimming can be great solo pursuits, but they require a strong willpower and dedication to stick to a routine.\n\nHowever, team sports are not without their drawbacks. One common criticism is that they often emphasize competition over cooperation, which can lead to negative consequences like injuries, stress, and burnout. Furthermore, not everyone may be comfortable with the level of physical contact or high-pressure situations that come with many team sports.\n\nIn contrast, individual activities tend to offer a more relaxed atmosphere, where participants can focus on their own performance without worrying about others' expectations. For example, yoga or tai chi are low-impact exercises that promote flexibility and balance while allowing practitioners to work at their own pace.\n\nDespite these differences, research suggests that both team sports and individual activities have cognitive benefits when performed regularly. Exercise has been shown to improve memory, boost concentration, and even enhance problem-solving skills. Moreover, participating in physical activity can stimulate the release of endorphins – also known as \"feel-good\" hormones – which contribute to overall well-being.\n\nIn recent years, there's been a growing interest in combining team sports with individual activities to create hybrid approaches. For instance, group fitness classes that incorporate elements of team sports, such as partner work or small-group challenges, are becoming increasingly popular. These sessions offer the best of both worlds: social interaction and accountability while still allowing participants to focus on their own performance.\n\nUltimately, whether you prefer team sports or individual activities depends on your personal preferences and goals. If you value camaraderie and teamwork, team sports may be the way to go. However, if you're more self-motivated and enjoy working at your own pace, individual activities could be a better fit.\n\nOne thing is clear: regular physical activity is essential for both physical and mental health. By incorporating either team sports or individual activities into our routine, we can reap numerous benefits that extend far beyond the exercise itself. As we strive to live healthier, happier lives, it's worth considering what type of physical pursuit might work best for us – whether it's with friends, family, or on our own.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about people who are not comfortable with high-pressure situations in team sports?",
+      "options": {
+        "A": "They often struggle with procrastination and lack of enthusiasm",
+        "B": "They tend to prefer individual activities with a more relaxed atmosphere",
+        "C": "They may benefit from participating in group fitness classes that combine elements of team sports",
+        "D": "They usually excel in solo pursuits like running or swimming"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"fosters a sense of camaraderie and teamwork\" mean in this text?",
+      "options": {
+        "A": "It creates feelings of rivalry and competition among teammates",
+        "B": "It encourages individuals to work independently with no reliance on others",
+        "C": "It promotes social bonding, stronger relationships, and improved communication skills when working together towards a common goal",
+        "D": "It leads to conflicts and disagreements between team members"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is a common criticism of team sports?",
+      "options": {
+        "A": "They often require too much time and effort",
+        "B": "They emphasize competition over cooperation",
+        "C": "They are too physically demanding for older adults",
+        "D": "They can be too expensive to participate in"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards people who prefer individual activities over team sports?",
+      "options": {
+        "A": "The author thinks that individuals are selfish and don't value teamwork.",
+        "B": "The author acknowledges that individual activities have their benefits but emphasizes the importance of social interaction.",
+        "C": "The author believes that team sports are the only way to achieve physical and mental health benefits.",
+        "D": "The author dismisses individual activities as boring and unchallenging."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the shared experience\" refer to in the text?",
+      "options": {
+        "A": "The benefits of individual activities",
+        "B": "The advantages of team sports when compared to solo endeavors",
+        "C": "The importance of physical activity for mental health",
+        "D": "The positive effects of social bonding and trust among teammates"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about exercise and physical activity?",
+      "options": {
+        "A": "To argue that team sports are always more effective than individual activities",
+        "B": "To discuss the benefits and drawbacks of both team sports and individual activities, and suggest a balanced approach to physical fitness",
+        "C": "To recommend yoga as the best type of exercise for everyone",
+        "D": "To prove that there is no difference between team sports and individual activities"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

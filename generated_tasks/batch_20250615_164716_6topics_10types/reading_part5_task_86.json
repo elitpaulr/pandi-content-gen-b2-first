@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_86",
+  "title": "Escape the Grind: How I Earned Money While Traveling the World",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I wandered through the bustling streets of Chiang Mai, Thailand, I stumbled upon a peculiar phenomenon - a community of digital nomads who had traded in their 9-to-5 jobs for a life of freedom and flexibility. They were the pioneers of a new economy, one that thrived on side hustles and passive income.\n\nI met Emma, a young entrepreneur from Australia, who had been living in Chiang Mai for six months. She had started a blog about her travel experiences, which quickly gained traction and began generating a steady stream of passive income through affiliate marketing and advertising. \"It's amazing,\" she said with a smile, \"I can wake up every morning knowing that my blog is working for me, even if I'm not actively contributing to it.\"\n\nAs I explored the city further, I came across a group of expats who had set up shop in a trendy co-working space. They were developing mobile apps and e-learning courses on the side, leveraging their expertise to create digital products that could be sold worldwide without requiring much maintenance. \"It's like having a business that runs itself,\" said Tom, one of the entrepreneurs, \"we focus on creating something valuable once, and then it generates income for us continuously.\"\n\nThe concept of side hustles and passive income was not new, but its adoption was accelerating rapidly in Chiang Mai. The city had become a hub for digital nomads and remote workers, who were drawn by its affordability, rich culture, and reliable internet connectivity. As I observed the community's dynamic, I noticed that it was not just about making money; it was also about living life on one's own terms.\n\nOne of the most fascinating aspects of Chiang Mai's side hustle ecosystem was its inclusivity. I met people from diverse backgrounds - designers, developers, writers, and artists - who had found a sense of belonging in this community. They were all united by their desire to create something meaningful and generate income beyond their primary occupation.\n\nAs I delved deeper into the world of side hustles, I began to see parallels with traditional travel. Just as travelers seek out new experiences and immerse themselves in local cultures, entrepreneurs who adopt a side hustle mindset are constantly seeking out opportunities for growth and exploration. They experiment with different business models, test their ideas, and adapt to changing markets.\n\nIn Chiang Mai, the air was thick with the scent of entrepreneurship - a mix of creativity, risk-taking, and innovation that was both exhilarating and intimidating. Yet, as I watched Emma's blog generate income without her direct involvement, or saw Tom's app selling across continents, I realized that this was not just about making money; it was also about creating something lasting.\n\nAs I prepared to leave Chiang Mai, I reflected on the lessons I had learned from its side hustle community. It was a reminder that true wealth lies in the freedom to pursue one's passions and create value for others. The city's entrepreneurs had shown me that with determination and creativity, anyone can build a life of purpose and prosperity.\n\nIn the end, my journey through Chiang Mai's side hustle landscape had been a transformative experience - a fusion of travel, entrepreneurship, and personal growth. As I packed my bags to return home, I knew that I would carry this newfound perspective with me, inspiring me to explore new opportunities and create something meaningful in my own life.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does Emma's blog represent for her according to the text?",
+      "options": {
+        "A": "A way to make money quickly",
+        "B": "A business that requires constant maintenance",
+        "C": "An income stream that generates wealth without direct involvement",
+        "D": "A hobby with no potential for financial gain"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"pioneers of a new economy\" mean in the context of the text?",
+      "options": {
+        "A": "People who have discovered a new way of making money",
+        "B": "Individuals who are leading the way and creating a new system or model for earning a living",
+        "C": "Entrepreneurs who are starting small businesses to supplement their income",
+        "D": "People who are working long hours to make ends meet"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What was Emma's blog generating income through?",
+      "options": {
+        "A": "Facebook advertising only",
+        "B": "Affiliate marketing and advertising",
+        "C": "Google AdSense and sponsored content",
+        "D": "Selling digital products online"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the pronoun 'it' refer to in the sentence \"I can wake up every morning knowing that my blog is working for me, even if I'm not actively contributing to it\"?",
+      "options": {
+        "A": "Emma's travel experiences",
+        "B": "The blogger's blog",
+        "C": "The city of Chiang Mai",
+        "D": "The 9-to-5 job"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the text about Chiang Mai's side hustle community?",
+      "options": {
+        "A": "The city has become a hub for remote workers who are looking for a better work-life balance.",
+        "B": "The adoption of side hustles and passive income is accelerating rapidly in Chiang Mai, but it's not just about making money.",
+        "C": "The city's entrepreneurs are primarily motivated by the desire to accumulate wealth quickly.",
+        "D": "The concept of side hustles and passive income is new to Chiang Mai."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

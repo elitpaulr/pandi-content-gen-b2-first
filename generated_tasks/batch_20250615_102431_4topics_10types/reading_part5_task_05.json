@@ -86,5 +86,63 @@
     "max_tokens": 2000,
     "model_full_name": "llama3.1:8b"
   },
-  "topic_category": "health_wellness"
+  "topic_category": "health_wellness",
+  "qa_annotations": {
+    "overall_task": {
+      "status": "approved",
+      "reviewer": "Paul",
+      "notes": "",
+      "timestamp": "2025-06-15T16:41:06.647774"
+    },
+    "title": {
+      "status": "approved",
+      "reviewer": "Paul",
+      "notes": "",
+      "timestamp": "2025-06-15T16:41:06.647774"
+    },
+    "text": {
+      "status": "approved",
+      "reviewer": "Paul",
+      "notes": "",
+      "timestamp": "2025-06-15T16:41:06.647774"
+    },
+    "questions": {
+      "question_1": {
+        "status": "rejected",
+        "reviewer": "Paul",
+        "notes": "",
+        "timestamp": "2025-06-15T16:41:06.647774"
+      },
+      "question_2": {
+        "status": "approved",
+        "reviewer": "Paul",
+        "notes": "",
+        "timestamp": "2025-06-15T16:41:06.647774"
+      },
+      "question_3": {
+        "status": "pending",
+        "reviewer": "Paul",
+        "notes": "",
+        "timestamp": "2025-06-15T16:41:06.647774"
+      },
+      "question_4": {
+        "status": "approved",
+        "reviewer": "Paul",
+        "notes": "",
+        "timestamp": "2025-06-15T16:41:06.647774"
+      },
+      "question_5": {
+        "status": "approved",
+        "reviewer": "Paul",
+        "notes": "",
+        "timestamp": "2025-06-15T16:41:06.647774"
+      },
+      "question_6": {
+        "status": "rejected",
+        "reviewer": "Paul",
+        "notes": "",
+        "timestamp": "2025-06-15T16:41:06.647774"
+      }
+    }
+  }
 }

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_05",
+  "title": "Breaking Free from Debt: Smart Money Moves for Young Adults",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**The Financial Wake-Up Call for Young Adults**\n\nAs the world becomes increasingly digital, managing finances has never been more crucial for young adults. With rising costs of living, student loans, and the pressure to keep up with social norms, it's no wonder many young people struggle to make ends meet. However, financial literacy is not just about budgeting and saving; it's a vital life skill that can impact future opportunities, relationships, and overall well-being.\n\nA recent survey revealed that nearly 60% of millennials (born between 1981 and 1996) feel anxious or stressed when thinking about their finances. This anxiety can lead to poor financial decisions, further exacerbating the problem. But it's not just about individual struggles – a lack of financial knowledge affects entire communities.\n\n\"The cost of living is rising, but wages are stagnant,\" says Emma Taylor, a financial advisor specializing in young adults. \"Young people need to understand that their financial decisions have consequences not only for themselves but also for future generations.\"\n\nSo, what does it mean to be financially literate? In essence, it's the ability to manage one's finances effectively, making informed decisions about spending, saving, and investing. This includes understanding basic concepts like interest rates, compound interest, and inflation.\n\n**The Importance of Financial Education**\n\nFinancial literacy starts early, but many young adults miss out on crucial lessons in school. A study by the National Endowment for Financial Education found that only 17% of high school students feel confident about their financial knowledge. This gap can lead to costly mistakes, such as over-reliance on credit cards or unsecured loans.\n\nIn contrast, countries like Australia and Canada prioritize financial education from a young age. Their curricula cover topics like budgeting, saving, and investing, setting students up for long-term success.\n\n**Practical Tips for Young Adults**\n\nWhile it's essential to have a solid understanding of financial concepts, practical application is equally crucial. Here are some actionable tips:\n\n1.  **Start small**: Begin by tracking expenses and creating a simple budget.\n2.  **Prioritize needs over wants**: Distinguish between essential expenses (housing, food) and discretionary spending (entertainment, hobbies).\n3.  **Take advantage of tax benefits**: Utilize tax-advantaged accounts like 401(k), IRA, or Roth IRA for retirement savings.\n4.  **Avoid unnecessary fees**: Be aware of bank fees, credit card charges, and investment management costs.\n\n**Breaking the Cycle**\n\nFinancial struggles can be a family affair, perpetuating cycles of debt and financial insecurity. However, by learning from past mistakes and adopting healthy financial habits, young adults can break free from these patterns.\n\n\"It's about more than just managing money; it's about taking control of your life,\" says Taylor. \"When you feel confident in your financial decisions, you're more likely to pursue opportunities, build strong relationships, and achieve your goals.\"\n\nAs the world becomes increasingly complex, financial literacy is no longer a luxury but a necessity for young adults. By prioritizing education, adopting practical habits, and breaking cycles of debt, they can secure a brighter future – one that's financially stable, resilient, and fulfilling.\n\n**Sources:**\n\n*   National Endowment for Financial Education\n*   Federal Reserve Bank of Dallas\n*   American Psychological Association",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if young adults don't develop good financial habits?",
+      "options": {
+        "A": "They will be more likely to accumulate wealth and achieve their long-term goals.",
+        "B": "They may struggle with debt, anxiety, and financial insecurity throughout their lives.",
+        "C": "Their relationships will suffer due to a lack of financial stability.",
+        "D": "They won't have enough money to pursue higher education or career opportunities."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to say that something has \"consequences not only for themselves but also for future generations\"?",
+      "options": {
+        "A": "It means that the decision will have a negative impact on their personal finances.",
+        "B": "It means that the decision will affect people other than the individual, including their family and community.",
+        "C": "It means that the decision will be remembered for a long time.",
+        "D": "It means that the decision will only affect the individual's immediate needs."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Emma Taylor, a financial advisor specializing in young adults, what is the main reason why young people need to understand their financial decisions?",
+      "options": {
+        "A": "They have consequences only for themselves",
+        "B": "They affect future generations and themselves",
+        "C": "They are influenced by social norms",
+        "D": "They lead to poor financial decisions"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards young adults' financial literacy?",
+      "options": {
+        "A": "The author believes that young adults are naturally financially literate and only need to learn how to manage their money.",
+        "B": "The author thinks that financial literacy is a vital life skill that can impact future opportunities, relationships, and overall well-being.",
+        "C": "The author views financial education as unnecessary for young adults, who will automatically pick up the skills they need.",
+        "D": "The author believes that financial literacy is only important for older adults, not for young people."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who says \"It's about more than just managing money; it's about taking control of your life\"?",
+      "options": {
+        "A": "Emma Taylor, a financial advisor specializing in young adults",
+        "B": "A representative from the National Endowment for Financial Education",
+        "C": "The author of the article",
+        "D": "An anonymous respondent to a survey"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about financial literacy for young adults?",
+      "options": {
+        "A": "The text argues that financial education should start from a very young age.",
+        "B": "Financial literacy is not just about budgeting and saving, but also affects future opportunities, relationships, and overall well-being.",
+        "C": "Young people are financially responsible because they have been taught by their parents.",
+        "D": "Digital technology has made managing finances easier for young adults."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

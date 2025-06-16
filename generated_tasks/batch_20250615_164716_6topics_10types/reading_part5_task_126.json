@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_126",
+  "title": "Digital Nomad Survival Guide: Saving Money on the Go",
+  "topic": "technology",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**The Digital Nomad's Guide to Budgeting Abroad**\n\nAs the world becomes increasingly connected, more and more people are ditching their desks and embracing the digital nomad lifestyle. Whether you're a seasoned remote worker or just starting out, navigating finances on the road can be a daunting task. But fear not, fellow travelers! With some careful planning and smart budgeting strategies, you too can live like a king – or at least, on a modest income.\n\nFor many digital nomads, the freedom to work from anywhere is a dream come true. No more 9-to-5 cubicles, no more boring office politics. But with this newfound flexibility comes a unique set of financial challenges. From fluctuating exchange rates to unpredictable living expenses, it's easy to get caught off guard.\n\nTake Sarah Jenkins, a freelance writer who has been traveling the world for two years. \"When I first started out, I had no idea how much things would cost in different countries,\" she says. \"I remember going to a restaurant in Bangkok and being shocked by the prices – it was like someone had turned up the dial on my credit card bill!\"\n\nTo avoid financial shocks like this, digital nomads need to be proactive about budgeting. Here are some essential tips for staying on top of your finances while living abroad:\n\n**Track Your Expenses**\n\nThe first step in any budgeting plan is to track your expenses. This means keeping a close eye on every single transaction – from coffee shop lattes to hostel stays. There are plenty of apps and tools available to help with this, including Mint, Personal Capital, and Trail Wallet.\n\n\"I use an app called Spendee to keep track of my expenses,\" says Jenkins. \"It's really easy to use and helps me stay on top of my spending.\"\n\n**Set a Budget**\n\nOnce you have a clear picture of your expenses, it's time to set a budget. This might sound obvious, but many digital nomads underestimate the importance of setting realistic financial goals.\n\n\"For me, the key is to prioritize,\" says Jenkins. \"I know I can afford a certain amount each month for food and transportation, so I try to stick to that.\"\n\n**Use the 50/30/20 Rule**\n\nA simple yet effective budgeting strategy is the 50/30/20 rule. This means allocating 50% of your income towards necessary expenses like rent and utilities, 30% towards discretionary spending (like travel or dining out), and 20% towards saving and debt repayment.\n\n**Take Advantage of Tax Breaks**\n\nAs a digital nomad, you may be eligible for tax breaks on certain expenses. For example, you can deduct business-related costs like coworking space fees or equipment purchases from your taxable income.\n\n\"I didn't know about this until I spoke with an accountant,\" says Jenkins. \"It's been a game-changer for me.\"\n\n**Plan for Healthcare**\n\nFinally, don't forget to budget for healthcare expenses – both in terms of medical costs and health insurance premiums.\n\n\"I made the mistake of not getting health insurance when I first started traveling,\" says Jenkins. \"Luckily, I was able to afford the costs out-of-pocket, but it's something to definitely prioritize.\"\n\nIn conclusion, budgeting as a digital nomad requires careful planning and attention to detail. By tracking your expenses, setting realistic financial goals, using the 50/30/20 rule, taking advantage of tax breaks, and planning for healthcare, you can stay on top of your finances – no matter where life takes you.\n\nAs Jenkins puts it, \"It's not about being rich or poor – it's about being smart with your money. And that's something anyone can do.\"\n\nWith these tips in mind, digital nomads everywhere can breathe a sigh of relief. No more financial stress, no more worrying about the future. Just the freedom to explore and live life on their own terms.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to Sarah Jenkins' experience, what was the main challenge she faced when it came to budgeting for her digital nomad lifestyle?",
+      "options": {
+        "A": "She struggled with fluctuating exchange rates",
+        "B": "She underestimated the cost of living expenses in different countries",
+        "C": "She had difficulty tracking her income and expenses",
+        "D": "She found it hard to prioritize her financial goals"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"ditch\" mean in the context of the text?",
+      "options": {
+        "A": "To reduce one's spending",
+        "B": "To abandon or leave behind something, especially a routine or a job",
+        "C": "To increase one's income",
+        "D": "To prioritize financial goals"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of income should be allocated towards saving and debt repayment according to the 50/30/20 rule?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "25%",
+        "D": "35%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to Sarah Jenkins, what is most important when it comes to managing finances as a digital nomad?",
+      "options": {
+        "A": "It's essential to save at least 20% of your income",
+        "B": "Being smart with your money has nothing to do with how much you earn",
+        "C": "You should always prioritize non-essential spending",
+        "D": "The freedom to work from anywhere means you don't need to worry about budgeting"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who told Jenkins that tax breaks could be deducted from her taxable income?",
+      "options": {
+        "A": "Her accountant",
+        "B": "A fellow digital nomad",
+        "C": "The author of \"The Digital Nomad's Guide to Budgeting Abroad\"",
+        "D": "Sarah's friend who also travels the world"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this guide for digital nomads?",
+      "options": {
+        "A": "To provide tips on how to make a lot of money while traveling",
+        "B": "To help digital nomads manage their finances effectively while living abroad",
+        "C": "To share stories of successful digital nomads and their financial experiences",
+        "D": "To convince people that the digital nomad lifestyle is not worth the financial risks"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

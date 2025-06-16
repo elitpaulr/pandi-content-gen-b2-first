@@ -1,0 +1,579 @@
+BATCH GENERATION SUMMARY
+========================
+
+Generated: 2025-06-16 01:30:24
+Batch Folder: batch_20250615_201220_6topics_10types
+Model: llama3.1:8b
+
+GENERATION PARAMETERS:
+---------------------
+Topics: 6
+Text Types: 10
+Tasks per Topic: 3
+Custom Instructions: None
+
+TOPICS PROCESSED:
+----------------
+• financial literacy for young adults
+• sustainable shopping and ethical consumption
+• side hustles and passive income
+• cryptocurrency for beginners
+• budgeting for digital nomads
+• economic impact of remote work
+
+TEXT TYPES:
+----------
+• magazine_article
+• newspaper_article
+• novel_extract
+• blog_post
+• science_article
+• cultural_review
+• professional_feature
+• lifestyle_feature
+• travel_writing
+• educational_feature
+
+RESULTS:
+--------
+Total Tasks Generated: 176
+Success Rate: 176/180 (97.8%)
+
+GENERATED TASKS:
+---------------
+ 1. reading_part5_task_01 - Money Mastery in Your Twenties: Breaking Free from Financial Stress
+    Topic: general | Type: magazine_article | Words: 559
+ 2. reading_part5_task_02 - Mastering Money 101: Smart Spending for Young Adults
+    Topic: general | Type: magazine_article | Words: 561
+ 3. reading_part5_task_03 - Mastering Money Magic: Smart Financial Moves for Young Adults
+    Topic: general | Type: magazine_article | Words: 511
+ 4. reading_part5_task_04 - Money Smarts at 20: How to Avoid Financial Fiascos Forever
+    Topic: general | Type: newspaper_article | Words: 655
+ 5. reading_part5_task_05 - Breaking Free from Debt: Smart Money Moves for Young Adults
+    Topic: general | Type: newspaper_article | Words: 514
+ 6. reading_part5_task_06 - Mastering Money: Young Adults' Guide to Financial Freedom
+    Topic: general | Type: newspaper_article | Words: 524
+ 7. reading_part5_task_07 - Mastering Money Magic: Essential Skills for Young Adults to Thrive Finanically
+    Topic: general | Type: novel_extract | Words: 601
+ 8. reading_part5_task_08 - Mastering Money Magic: Essential Skills for Young Adults
+    Topic: general | Type: novel_extract | Words: 593
+ 9. reading_part5_task_09 - Mastering Money Magic: Smart Finances for Young Adults
+    Topic: general | Type: novel_extract | Words: 628
+10. reading_part5_task_10 - Mastering Money Magic: Essential Financial Skills for Young Adults
+    Topic: general | Type: blog_post | Words: 703
+11. reading_part5_task_11 - Master Your Money: Essential Financial Skills for Young Adults
+    Topic: general | Type: blog_post | Words: 662
+12. reading_part5_task_12 - Master Your Money: Essential Skills for Young Adults to Thrive
+    Topic: general | Type: blog_post | Words: 647
+13. reading_part5_task_13 - The Money Sense Quiz: Do You Know Your Financial Future?
+    Topic: general | Type: science_article | Words: 557
+14. reading_part5_task_14 - Unlocking Your Financial Future: Why Smart Money Habits Matter Now
+    Topic: general | Type: science_article | Words: 617
+15. reading_part5_task_15 - The Money Mindset: How Young Adults Can Master Financial Literacy
+    Topic: general | Type: science_article | Words: 734
+16. reading_part5_task_16 - Crash Course in Cash: How Young Adults Can Master Money Management
+    Topic: general | Type: cultural_review | Words: 683
+17. reading_part5_task_17 - Breaking Free from Debt: Mastering Money Skills for Young Adults
+    Topic: general | Type: cultural_review | Words: 618
+18. reading_part5_task_18 - Money Matters: How Young Adults Can Master Their Financial Futures
+    Topic: general | Type: cultural_review | Words: 594
+19. reading_part5_task_19 - Mastering Money Management in Your 20s and Beyond
+    Topic: general | Type: professional_feature | Words: 505
+20. reading_part5_task_20 - Mastering Money 101: A Guide to Smart Financial Decisions for Young Adults
+    Topic: general | Type: professional_feature | Words: 503
+21. reading_part5_task_21 - Mastering Money 101: Essential Tips for Young Adults' Financial Success
+    Topic: general | Type: professional_feature | Words: 671
+22. reading_part5_task_22 - Mastering Money Magic: Essential Skills for Young Adults to Thrive Finanially
+    Topic: general | Type: lifestyle_feature | Words: 553
+23. reading_part5_task_23 - Mastering Money on Your Own Terms: Smart Finance for Young Adults
+    Topic: general | Type: lifestyle_feature | Words: 625
+24. reading_part5_task_24 - Money Mastery in Your Twenties: Break Free from Financial Stress
+    Topic: general | Type: lifestyle_feature | Words: 610
+25. reading_part5_task_25 - Money, Mountains, and Maturity: My Journey to Financial Freedom in Tokyo
+    Topic: general | Type: travel_writing | Words: 583
+26. reading_part5_task_26 - Banking on Adventure: My Journey to Financial Freedom Abroad
+    Topic: general | Type: travel_writing | Words: 646
+27. reading_part5_task_27 - From Backpack to Bank Account: Mastering Money on the Move
+    Topic: general | Type: travel_writing | Words: 648
+28. reading_part5_task_28 - Mastering Money Skills: A Guide to Smart Financial Decisions
+    Topic: general | Type: educational_feature | Words: 542
+29. reading_part5_task_29 - Master Your Money Mindset: A Guide to Financial Freedom for Young Adults
+    Topic: general | Type: educational_feature | Words: 556
+30. reading_part5_task_30 - Mastering Your Money: A Guide to Financial Freedom for Young Adults
+    Topic: general | Type: educational_feature | Words: 539
+31. reading_part5_task_31 - Green Shopping Revolution: The Future of Ethical Consumption Starts Here
+    Topic: technology | Type: magazine_article | Words: 523
+32. reading_part5_task_32 - Green Dollars Matter: The Power of Ethical Shopping Revealed
+    Topic: technology | Type: magazine_article | Words: 568
+33. reading_part5_task_33 - The Conscious Consumer: How to Shop Your Values without Breaking the Bank
+    Topic: technology | Type: magazine_article | Words: 671
+34. reading_part5_task_34 - Shopping Smarter, Not Harder: The Future of Sustainable Consumption
+    Topic: technology | Type: newspaper_article | Words: 581
+35. reading_part5_task_35 - Green Dollars, Clear Conscience: The Rise of Eco-Friendly Shopping
+    Topic: technology | Type: newspaper_article | Words: 568
+36. reading_part5_task_36 - Going Green: Can Your Shopping Habits Really Change the World?
+    Topic: technology | Type: newspaper_article | Words: 625
+37. reading_part5_task_37 - The Truth About Your Favorite Brands: Are They Sustainable or Not?
+    Topic: technology | Type: novel_extract | Words: 716
+38. reading_part5_task_39 - Can You Shop Your Way to Saving the Planet?
+    Topic: technology | Type: novel_extract | Words: 742
+39. reading_part5_task_40 - The Sustainable Shopper's Secret Guide to Saving the Planet
+    Topic: technology | Type: blog_post | Words: 576
+40. reading_part5_task_41 - Buy Less, Live More: The Sustainable Shopping Revolution Starts Here
+    Topic: technology | Type: blog_post | Words: 632
+41. reading_part5_task_42 - Shopping with a Conscience: The Future of Sustainable Buying
+    Topic: technology | Type: blog_post | Words: 549
+42. reading_part5_task_43 - The Impact of Your Shopping Habits on the Planet's Future Revealed
+    Topic: technology | Type: science_article | Words: 740
+43. reading_part5_task_44 - The Hidden Cost of That Cute T-Shirt: Uncovering the Dark Side of Fast Fashion
+    Topic: technology | Type: science_article | Words: 555
+44. reading_part5_task_45 - The Hidden Cost of Convenience: How Your Shopping Habits Affect the Planet
+    Topic: technology | Type: science_article | Words: 574
+45. reading_part5_task_46 - The Green Revolution: Rethinking Shopping in a Changing World
+    Topic: technology | Type: cultural_review | Words: 560
+46. reading_part5_task_47 - Buying into Change: The Rise of Sustainable Shopping Culture
+    Topic: technology | Type: cultural_review | Words: 624
+47. reading_part5_task_48 - Buying Kindly: The Rise of Sustainable Shopping in Modern Life
+    Topic: technology | Type: cultural_review | Words: 710
+48. reading_part5_task_49 - The Sustainable Shopper's Guide to Ethical Consumption in the Digital Age
+    Topic: technology | Type: professional_feature | Words: 560
+49. reading_part5_task_50 - Making Conscience Choices in Your Daily Shopping Routine
+    Topic: technology | Type: professional_feature | Words: 594
+50. reading_part5_task_51 - Sustainable Shopping: Making Every Purchase Count for the Planet's Future
+    Topic: technology | Type: professional_feature | Words: 587
+51. reading_part5_task_52 - The Kind Consumer Revolution: How Your Wallet Can Change the World
+    Topic: technology | Type: lifestyle_feature | Words: 561
+52. reading_part5_task_53 - Make Your Money Matter: The Ultimate Guide to Sustainable Shopping
+    Topic: technology | Type: lifestyle_feature | Words: 586
+53. reading_part5_task_54 - The Green Revolution: Shop Smarter, Not Harder, For A Better World
+    Topic: technology | Type: lifestyle_feature | Words: 645
+54. reading_part5_task_55 - Unpacking the Secrets of Sustainable Souvenirs on the Road
+    Topic: technology | Type: travel_writing | Words: 578
+55. reading_part5_task_56 - Shopping on the Road to Redemption: Sustainable Havens Abroad
+    Topic: technology | Type: travel_writing | Words: 591
+56. reading_part5_task_57 - Uncovering Hidden Gems: Shopping with a Conscience Around the World
+    Topic: technology | Type: travel_writing | Words: 592
+57. reading_part5_task_58 - The Impact of Your Wallet: How Sustainable Shopping Changes Everything
+    Topic: technology | Type: educational_feature | Words: 487
+58. reading_part5_task_59 - Can Your Wallet Make a Difference? The Sustainable Shopping Revolution
+    Topic: technology | Type: educational_feature | Words: 524
+59. reading_part5_task_60 - Make Your Money Matter: The Ultimate Guide to Sustainable Shopping
+    Topic: technology | Type: educational_feature | Words: 545
+60. reading_part5_task_61 - Unlock Your Financial Freedom with These Secret Side Hustles
+    Topic: general | Type: magazine_article | Words: 609
+61. reading_part5_task_62 - Make Money While You Sleep: The Ultimate Side Hustle Guide
+    Topic: general | Type: magazine_article | Words: 528
+62. reading_part5_task_63 - Boost Your Bank Balance: 10 Side Hustles That Make Money While You Sleep
+    Topic: general | Type: magazine_article | Words: 572
+63. reading_part5_task_64 - From Rags to Riches: Unlocking Your Hidden Earning Potential
+    Topic: general | Type: newspaper_article | Words: 618
+64. reading_part5_task_65 - 5 Side Hustles That Can Turn Your Dreams into Cash Overnight!
+    Topic: general | Type: newspaper_article | Words: 578
+65. reading_part5_task_66 - Side Hustle Secrets to Wealth: How Ordinary People Make Extra Money
+    Topic: general | Type: newspaper_article | Words: 641
+66. reading_part5_task_67 - 10 Surprising Ways to Make Money While You Sleep Tonight
+    Topic: general | Type: novel_extract | Words: 531
+67. reading_part5_task_68 - How to Earn Money While You Sleep: The Ultimate Side Hustle Guide
+    Topic: general | Type: novel_extract | Words: 586
+68. reading_part5_task_69 - 7 Secrets to Earning Money While You Sleep: Side Hustle Mastery
+    Topic: general | Type: novel_extract | Words: 574
+69. reading_part5_task_70 - 5 Simple Side Hustles That Can Turn Your Dreams into Passive Income
+    Topic: general | Type: blog_post | Words: 561
+70. reading_part5_task_71 - Unlock Your Financial Freedom: 10 Side Hustles That Pay Forever
+    Topic: general | Type: blog_post | Words: 666
+71. reading_part5_task_72 - Unlock Your Financial Freedom: Top Side Hustles for Passive Income
+    Topic: general | Type: blog_post | Words: 669
+72. reading_part5_task_73 - How to Turn Your Hobbies into Cash Machines Overnight
+    Topic: general | Type: science_article | Words: 559
+73. reading_part5_task_74 - Unlocking Wealth Without Working: The Science of Side Hustles
+    Topic: general | Type: science_article | Words: 720
+74. reading_part5_task_75 - The Secret to Financial Freedom: How Side Hustles Become Passive Income Machines
+    Topic: general | Type: science_article | Words: 654
+75. reading_part5_task_77 - The Secret to Financial Freedom: How Side Hustlers are Changing Lives
+    Topic: general | Type: cultural_review | Words: 675
+76. reading_part5_task_78 - The Secret Lives of Hustlers: How Ordinary People Make Extra Money
+    Topic: general | Type: cultural_review | Words: 620
+77. reading_part5_task_79 - Maximize Your Earnings: Unlock the Power of Side Hustles and Passive Income
+    Topic: general | Type: professional_feature | Words: 577
+78. reading_part5_task_80 - 10 Ways to Earn Money While You Sleep: The Ultimate Passive Income Guide
+    Topic: general | Type: professional_feature | Words: 697
+79. reading_part5_task_81 - Unlock the Secrets to Earning Money While You Sleep
+    Topic: general | Type: professional_feature | Words: 604
+80. reading_part5_task_82 - 5 Side Hustles That Can Make You Rich While Sleeping
+    Topic: general | Type: lifestyle_feature | Words: 585
+81. reading_part5_task_83 - 5 Side Hustles That Can Turn Your Spare Time into a Fortune
+    Topic: general | Type: lifestyle_feature | Words: 648
+82. reading_part5_task_84 - Escape Your 9-to-5 Nightmare: 7 Side Hustles to Riches
+    Topic: general | Type: lifestyle_feature | Words: 790
+83. reading_part5_task_85 - Earning Freedom on the Road: How to Live Your Best Digital Nomad Life
+    Topic: general | Type: travel_writing | Words: 608
+84. reading_part5_task_86 - Earning Freedom on the Road: How to Turn Your Dreams into Reality
+    Topic: general | Type: travel_writing | Words: 622
+85. reading_part5_task_87 - How I Made Money While Traveling Without a 9-to-5 Job
+    Topic: general | Type: travel_writing | Words: 610
+86. reading_part5_task_88 - Make Money While You Sleep: The Ultimate Guide to Side Hustles & Passive Income
+    Topic: general | Type: educational_feature | Words: 507
+87. reading_part5_task_89 - Turn Your Skills into Cash: The Ultimate Guide to Side Hustles and Passive Income
+    Topic: general | Type: educational_feature | Words: 555
+88. reading_part5_task_90 - 10 Side Hustles That Can Generate Passive Income Overnight
+    Topic: general | Type: educational_feature | Words: 503
+89. reading_part5_task_91 - Uncover the Secrets of Cryptocurrency: A Beginner's Guide to Making Money Online
+    Topic: general | Type: magazine_article | Words: 635
+90. reading_part5_task_92 - Unlocking the Secrets of Cryptocurrency: A Beginner's Guide to Success
+    Topic: general | Type: magazine_article | Words: 610
+91. reading_part5_task_93 - Unlocking the Secrets of Cryptocurrency: A Beginner's Guide to Success
+    Topic: general | Type: magazine_article | Words: 565
+92. reading_part5_task_95 - Unlocking the Mystery of Cryptocurrency: A Beginner's Guide
+    Topic: general | Type: newspaper_article | Words: 675
+93. reading_part5_task_96 - Unlocking the World of Cryptocurrency: A Beginner's Guide to Digital Money
+    Topic: general | Type: newspaper_article | Words: 584
+94. reading_part5_task_97 - Unlocking the World of Cryptocurrency: A Beginner's Guide to Digital Wealth
+    Topic: general | Type: novel_extract | Words: 565
+95. reading_part5_task_98 - Unlocking Bitcoin: A Beginner's Guide to Cryptocurrency Success
+    Topic: general | Type: novel_extract | Words: 632
+96. reading_part5_task_99 - Unlocking Crypto: A Beginner's Guide to Making Your Money Grow
+    Topic: general | Type: novel_extract | Words: 550
+97. reading_part5_task_100 - Unlocking Crypto Secrets: A Beginner's Guide to Bitcoin & Beyond
+    Topic: general | Type: blog_post | Words: 589
+98. reading_part5_task_101 - Unlocking the World of Crypto: A Beginner's Guide to Making Money Online
+    Topic: general | Type: blog_post | Words: 640
+99. reading_part5_task_102 - Unlocking the Secrets of Cryptocurrency: A Beginner's Guide to Riches
+    Topic: general | Type: blog_post | Words: 649
+100. reading_part5_task_103 - Unlocking the Secrets of Cryptocurrency: A Beginner's Guide to Blockchain Basics
+    Topic: general | Type: science_article | Words: 557
+101. reading_part5_task_104 - Unlocking the Mysterious World of Cryptocurrency: A Beginner's Guide
+    Topic: general | Type: science_article | Words: 756
+102. reading_part5_task_105 - Uncovering the Secrets of Cryptocurrency: A Beginner's Guide to Digital Wealth
+    Topic: general | Type: science_article | Words: 656
+103. reading_part5_task_106 - The Cryptocurrency Revolution: A Beginner's Guide to Digital Wealth
+    Topic: general | Type: cultural_review | Words: 570
+104. reading_part5_task_107 - Unlocking Digital Wealth: A Beginner's Guide to Cryptocurrency Success
+    Topic: general | Type: cultural_review | Words: 676
+105. reading_part5_task_108 - Decoding Crypto: A Beginner's Guide to the Wild World of Digital Money
+    Topic: general | Type: cultural_review | Words: 652
+106. reading_part5_task_110 - Unlocking the World of Cryptocurrency: A Beginner's Essential Guide
+    Topic: general | Type: professional_feature | Words: 574
+107. reading_part5_task_111 - Unlocking the World of Cryptocurrency: A Beginner's Essential Guide
+    Topic: general | Type: professional_feature | Words: 629
+108. reading_part5_task_112 - Unlocking the World of Cryptocurrency: A Beginner's Guide to Digital Wealth
+    Topic: general | Type: lifestyle_feature | Words: 615
+109. reading_part5_task_113 - Unlocking the World of Cryptocurrency: A Beginner's Guide to Making Money Online
+    Topic: general | Type: lifestyle_feature | Words: 639
+110. reading_part5_task_114 - Unlock Your Digital Fortune: A Beginner's Guide to Cryptocurrency
+    Topic: general | Type: lifestyle_feature | Words: 635
+111. reading_part5_task_115 - Blockchain Passport: Your Journey to Cryptocurrency Freedom Starts Here!
+    Topic: general | Type: travel_writing | Words: 564
+112. reading_part5_task_116 - Decoding Digital Currencies on a Blockchain Boulevard
+    Topic: general | Type: travel_writing | Words: 604
+113. reading_part5_task_117 - Crashing into Crypto: My Journey to Bitcoin Bootcamp
+    Topic: general | Type: travel_writing | Words: 596
+114. reading_part5_task_118 - Unlocking the World of Cryptocurrency: A Beginner's Guide to Digital Wealth
+    Topic: general | Type: educational_feature | Words: 575
+115. reading_part5_task_119 - Discover the World of Cryptocurrency in 10 Easy Steps
+    Topic: general | Type: educational_feature | Words: 547
+116. reading_part5_task_120 - Unlocking the Mysterious World of Cryptocurrency: A Beginner's Guide
+    Topic: general | Type: educational_feature | Words: 511
+117. reading_part5_task_121 - Thrifty Travels: Mastering Your Money as a Digital Nomad
+    Topic: technology | Type: magazine_article | Words: 593
+118. reading_part5_task_122 - Living Abroad on a Shoestring: Budgeting Secrets for Digital Nomads
+    Topic: technology | Type: magazine_article | Words: 593
+119. reading_part5_task_123 - Maximizing Your Dollars on the Move: Budgeting Secrets for Digital Nomads
+    Topic: technology | Type: magazine_article | Words: 480
+120. reading_part5_task_124 - Living Abroad on a Shoestring: Tips for Digital Nomad Budgeting
+    Topic: technology | Type: newspaper_article | Words: 643
+121. reading_part5_task_125 - Money on the Move: Mastering Budgets as a Digital Nomad
+    Topic: technology | Type: newspaper_article | Words: 579
+122. reading_part5_task_126 - Surviving on Sunshine: Mastering Budgets as a Digital Nomad
+    Topic: technology | Type: newspaper_article | Words: 624
+123. reading_part5_task_127 - Money on the Move: Mastering Budgets as a Digital Nomad
+    Topic: technology | Type: novel_extract | Words: 682
+124. reading_part5_task_128 - Digital Nomad on a Shoestring: How to Live Abroad Without Breaking the Bank
+    Topic: technology | Type: novel_extract | Words: 579
+125. reading_part5_task_129 - How to Save Money While Working Abroad as a Digital Nomad
+    Topic: technology | Type: novel_extract | Words: 599
+126. reading_part5_task_130 - Mastering Your Money on the Move: A Digital Nomad's Budget Blueprint
+    Topic: technology | Type: blog_post | Words: 590
+127. reading_part5_task_131 - Surviving on Sunshine: A Digital Nomad's Guide to Budgeting Abroad
+    Topic: technology | Type: blog_post | Words: 624
+128. reading_part5_task_132 - Living Abroad Without Breaking the Bank as a Digital Nomad
+    Topic: technology | Type: blog_post | Words: 626
+129. reading_part5_task_133 - The Digital Nomad's Budget Breakthrough: Mastering Finances on the Go
+    Topic: technology | Type: science_article | Words: 704
+130. reading_part5_task_134 - Crunching Numbers on the Go: Essential Budgeting Tips for Digital Nomads
+    Topic: technology | Type: science_article | Words: 643
+131. reading_part5_task_135 - Surviving on Sunshine: Budget Hacks for Digital Nomad Life
+    Topic: technology | Type: science_article | Words: 567
+132. reading_part5_task_136 - Living Abroad on a Shoestring: Budgeting Secrets for Digital Nomads
+    Topic: technology | Type: cultural_review | Words: 569
+133. reading_part5_task_137 - Living Abroad on a Shoestring: Budget Hacks for Digital Nomads
+    Topic: technology | Type: cultural_review | Words: 600
+134. reading_part5_task_138 - The Nomad's Budget Survival Guide: How to Live Abroad Without Losing Your Mind
+    Topic: technology | Type: cultural_review | Words: 537
+135. reading_part5_task_139 - Master Your Digital Nomad Budget: Tips for Traveling Without Breaking the Bank
+    Topic: technology | Type: professional_feature | Words: 577
+136. reading_part5_task_140 - Master Your Money: Essential Budgeting Tips for Digital Nomad Life
+    Topic: technology | Type: professional_feature | Words: 473
+137. reading_part5_task_141 - Master Your Finances on the Go: Budgeting Tips for Digital Nomads
+    Topic: technology | Type: professional_feature | Words: 564
+138. reading_part5_task_142 - Digital Nomad Budget Hacks to Save You from Financial FOMO
+    Topic: technology | Type: lifestyle_feature | Words: 604
+139. reading_part5_task_143 - Surviving on $10 a Day: Budget Hacks for Digital Nomad Life
+    Topic: technology | Type: lifestyle_feature | Words: 665
+140. reading_part5_task_144 - Digital Nomad Budget Hacks to Fuel Your Wanderlust Adventures
+    Topic: technology | Type: lifestyle_feature | Words: 664
+141. reading_part5_task_145 - Living Abroad on a Shoestring: Budget Hacks for Digital Nomads
+    Topic: technology | Type: travel_writing | Words: 661
+142. reading_part5_task_146 - From $0 to Nomad: How to Budget Your Digital Dream Life
+    Topic: technology | Type: travel_writing | Words: 629
+143. reading_part5_task_147 - Living Abroad on a Shoestring: Budget Hacks for Digital Nomads
+    Topic: technology | Type: travel_writing | Words: 617
+144. reading_part5_task_148 - Budgeting on the Go: Master Your Finances as a Digital Nomad
+    Topic: technology | Type: educational_feature | Words: 565
+145. reading_part5_task_149 - Survive on Sunshine: Essential Budgeting Tips for Digital Nomad Life
+    Topic: technology | Type: educational_feature | Words: 672
+146. reading_part5_task_150 - Master Your Finances on the Move: A Digital Nomad's Budgeting Guide
+    Topic: technology | Type: educational_feature | Words: 531
+147. reading_part5_task_151 - Remote Work Revolution: How It's Changing the Global Economy Forever
+    Topic: business_and_work | Type: magazine_article | Words: 640
+148. reading_part5_task_152 - The Remote Revolution: How Working from Home is Changing the Global Economy
+    Topic: business_and_work | Type: magazine_article | Words: 600
+149. reading_part5_task_153 - The Remote Revolution: How Working from Home Is Changing Our Economy
+    Topic: business_and_work | Type: magazine_article | Words: 630
+150. reading_part5_task_154 - Remote Work Revolution: How COVID-19 Changed the Global Economy Forever
+    Topic: business_and_work | Type: newspaper_article | Words: 639
+151. reading_part5_task_155 - Remote Work Revolution: Boosting Local Economies or Causing Job Loss?
+    Topic: business_and_work | Type: newspaper_article | Words: 592
+152. reading_part5_task_156 - Remote Work Revolution: How It's Shaking Up Local Economies Worldwide
+    Topic: business_and_work | Type: newspaper_article | Words: 633
+153. reading_part5_task_157 - The Remote Revolution: How Working from Home Changes Everything
+    Topic: business_and_work | Type: novel_extract | Words: 579
+154. reading_part5_task_158 - Remote Work Revolution: How WFH Affects Your Wallet
+    Topic: business_and_work | Type: novel_extract | Words: 692
+155. reading_part5_task_159 - Will Remote Work Save or Sink the Economy?
+    Topic: business_and_work | Type: novel_extract | Words: 488
+156. reading_part5_task_160 - Will Remote Work Save or Sink Our Economies?
+    Topic: business_and_work | Type: blog_post | Words: 632
+157. reading_part5_task_161 - Will Remote Work Revolutionize the Global Economy Forever?
+    Topic: business_and_work | Type: blog_post | Words: 573
+158. reading_part5_task_162 - Remote Work Revolution: How Flexibility Affects Local Economies
+    Topic: business_and_work | Type: blog_post | Words: 582
+159. reading_part5_task_163 - The Remote Work Revolution: How It's Changing Global Economies Forever
+    Topic: business_and_work | Type: science_article | Words: 756
+160. reading_part5_task_164 - Remote Work Revolution: How Flexibility Affects Local Economies
+    Topic: business_and_work | Type: science_article | Words: 676
+161. reading_part5_task_165 - Remote Work Revolution: How Working from Home Affects Global Economies
+    Topic: business_and_work | Type: science_article | Words: 563
+162. reading_part5_task_166 - Remote Work Revolution: How Working from Home Is Changing Our Economy Forever
+    Topic: business_and_work | Type: cultural_review | Words: 632
+163. reading_part5_task_167 - The Remote Revolution: How Working from Home is Redefining Global Economies
+    Topic: business_and_work | Type: cultural_review | Words: 599
+164. reading_part5_task_168 - The Remote Revolution: How Work from Home Changed the Global Economy Forever
+    Topic: business_and_work | Type: cultural_review | Words: 575
+165. reading_part5_task_169 - The Future of Work: How Remote Jobs Are Reshaping Economies Worldwide
+    Topic: business_and_work | Type: professional_feature | Words: 605
+166. reading_part5_task_170 - Remote Work Revolution: How Flexible Working is Changing Global Economies Forever
+    Topic: business_and_work | Type: professional_feature | Words: 608
+167. reading_part5_task_171 - Remote Revolution: How Working from Home is Changing Our Economy
+    Topic: business_and_work | Type: professional_feature | Words: 647
+168. reading_part5_task_172 - Remote Work Revolution: How It's Changing Our Wallets Forever
+    Topic: business_and_work | Type: lifestyle_feature | Words: 547
+169. reading_part5_task_173 - Remote Control: How Working from Home is Changing Your Wallet Forever
+    Topic: business_and_work | Type: lifestyle_feature | Words: 593
+170. reading_part5_task_174 - Remote Work Revolution: The Surprising Economics of Working from Home
+    Topic: business_and_work | Type: lifestyle_feature | Words: 639
+171. reading_part5_task_175 - Working from Paradise: How Remote Workers Are Boosting Local Economies
+    Topic: business_and_work | Type: travel_writing | Words: 656
+172. reading_part5_task_176 - Working from Paradise: How Remote Workers Are Transforming Local Economies
+    Topic: business_and_work | Type: travel_writing | Words: 631
+173. reading_part5_task_177 - Distant Profits: How Remote Workers are Transforming Local Economies
+    Topic: business_and_work | Type: travel_writing | Words: 632
+174. reading_part5_task_178 - How Remote Work is Reshaping the Global Economy Forever
+    Topic: business_and_work | Type: educational_feature | Words: 572
+175. reading_part5_task_179 - The Remote Revolution: How Work-from-Home Changed the Global Economy Forever
+    Topic: business_and_work | Type: educational_feature | Words: 625
+176. reading_part5_task_180 - The Future of Work: How Remote Jobs Are Changing Our Economy Forever
+    Topic: business_and_work | Type: educational_feature | Words: 579
+
+TASK CATEGORIES:
+---------------
+• General: 117 tasks
+• Technology Modern: 59 tasks
+
+FILES IN BATCH:
+--------------
+• reading_part5_task_01.json (7,318 bytes)
+• reading_part5_task_02.json (7,189 bytes)
+• reading_part5_task_03.json (7,127 bytes)
+• reading_part5_task_04.json (7,874 bytes)
+• reading_part5_task_05.json (7,813 bytes)
+• reading_part5_task_06.json (7,112 bytes)
+• reading_part5_task_07.json (6,980 bytes)
+• reading_part5_task_08.json (7,296 bytes)
+• reading_part5_task_09.json (7,314 bytes)
+• reading_part5_task_10.json (7,366 bytes)
+• reading_part5_task_100.json (7,317 bytes)
+• reading_part5_task_101.json (7,823 bytes)
+• reading_part5_task_102.json (8,038 bytes)
+• reading_part5_task_103.json (7,075 bytes)
+• reading_part5_task_104.json (8,880 bytes)
+• reading_part5_task_105.json (8,487 bytes)
+• reading_part5_task_106.json (7,610 bytes)
+• reading_part5_task_107.json (8,623 bytes)
+• reading_part5_task_108.json (8,562 bytes)
+• reading_part5_task_11.json (7,611 bytes)
+• reading_part5_task_110.json (7,798 bytes)
+• reading_part5_task_111.json (7,879 bytes)
+• reading_part5_task_112.json (7,825 bytes)
+• reading_part5_task_113.json (7,983 bytes)
+• reading_part5_task_114.json (7,538 bytes)
+• reading_part5_task_115.json (7,453 bytes)
+• reading_part5_task_116.json (7,596 bytes)
+• reading_part5_task_117.json (7,420 bytes)
+• reading_part5_task_118.json (7,854 bytes)
+• reading_part5_task_119.json (7,592 bytes)
+• reading_part5_task_12.json (7,034 bytes)
+• reading_part5_task_120.json (7,341 bytes)
+• reading_part5_task_121.json (7,046 bytes)
+• reading_part5_task_122.json (7,256 bytes)
+• reading_part5_task_123.json (6,549 bytes)
+• reading_part5_task_124.json (7,844 bytes)
+• reading_part5_task_125.json (7,175 bytes)
+• reading_part5_task_126.json (7,388 bytes)
+• reading_part5_task_127.json (8,041 bytes)
+• reading_part5_task_128.json (6,932 bytes)
+• reading_part5_task_129.json (7,103 bytes)
+• reading_part5_task_13.json (6,191 bytes)
+• reading_part5_task_130.json (6,868 bytes)
+• reading_part5_task_131.json (6,712 bytes)
+• reading_part5_task_132.json (7,134 bytes)
+• reading_part5_task_133.json (8,182 bytes)
+• reading_part5_task_134.json (7,512 bytes)
+• reading_part5_task_135.json (7,541 bytes)
+• reading_part5_task_136.json (7,345 bytes)
+• reading_part5_task_137.json (7,625 bytes)
+• reading_part5_task_138.json (7,562 bytes)
+• reading_part5_task_139.json (7,979 bytes)
+• reading_part5_task_14.json (7,411 bytes)
+• reading_part5_task_140.json (7,410 bytes)
+• reading_part5_task_141.json (8,084 bytes)
+• reading_part5_task_142.json (7,639 bytes)
+• reading_part5_task_143.json (7,805 bytes)
+• reading_part5_task_144.json (7,591 bytes)
+• reading_part5_task_145.json (7,662 bytes)
+• reading_part5_task_146.json (7,575 bytes)
+• reading_part5_task_147.json (7,324 bytes)
+• reading_part5_task_148.json (7,574 bytes)
+• reading_part5_task_149.json (8,138 bytes)
+• reading_part5_task_15.json (8,861 bytes)
+• reading_part5_task_150.json (7,161 bytes)
+• reading_part5_task_151.json (7,691 bytes)
+• reading_part5_task_152.json (7,953 bytes)
+• reading_part5_task_153.json (7,633 bytes)
+• reading_part5_task_154.json (7,401 bytes)
+• reading_part5_task_155.json (7,503 bytes)
+• reading_part5_task_156.json (7,862 bytes)
+• reading_part5_task_157.json (7,163 bytes)
+• reading_part5_task_158.json (7,516 bytes)
+• reading_part5_task_159.json (6,718 bytes)
+• reading_part5_task_16.json (7,947 bytes)
+• reading_part5_task_160.json (7,926 bytes)
+• reading_part5_task_161.json (7,040 bytes)
+• reading_part5_task_162.json (7,198 bytes)
+• reading_part5_task_163.json (8,467 bytes)
+• reading_part5_task_164.json (8,081 bytes)
+• reading_part5_task_165.json (6,765 bytes)
+• reading_part5_task_166.json (8,132 bytes)
+• reading_part5_task_167.json (7,309 bytes)
+• reading_part5_task_168.json (7,803 bytes)
+• reading_part5_task_169.json (7,668 bytes)
+• reading_part5_task_17.json (7,325 bytes)
+• reading_part5_task_170.json (7,983 bytes)
+• reading_part5_task_171.json (8,106 bytes)
+• reading_part5_task_172.json (7,160 bytes)
+• reading_part5_task_173.json (7,154 bytes)
+• reading_part5_task_174.json (7,739 bytes)
+• reading_part5_task_175.json (7,737 bytes)
+• reading_part5_task_176.json (7,679 bytes)
+• reading_part5_task_177.json (7,697 bytes)
+• reading_part5_task_178.json (7,618 bytes)
+• reading_part5_task_179.json (7,934 bytes)
+• reading_part5_task_18.json (7,816 bytes)
+• reading_part5_task_180.json (7,508 bytes)
+• reading_part5_task_19.json (6,310 bytes)
+• reading_part5_task_20.json (6,856 bytes)
+• reading_part5_task_21.json (7,583 bytes)
+• reading_part5_task_22.json (7,230 bytes)
+• reading_part5_task_23.json (7,442 bytes)
+• reading_part5_task_24.json (7,506 bytes)
+• reading_part5_task_25.json (6,640 bytes)
+• reading_part5_task_26.json (7,483 bytes)
+• reading_part5_task_27.json (7,301 bytes)
+• reading_part5_task_28.json (7,019 bytes)
+• reading_part5_task_29.json (7,642 bytes)
+• reading_part5_task_30.json (6,941 bytes)
+• reading_part5_task_31.json (6,670 bytes)
+• reading_part5_task_32.json (7,788 bytes)
+• reading_part5_task_33.json (7,967 bytes)
+• reading_part5_task_34.json (7,119 bytes)
+• reading_part5_task_35.json (7,248 bytes)
+• reading_part5_task_36.json (8,135 bytes)
+• reading_part5_task_37.json (7,586 bytes)
+• reading_part5_task_39.json (8,404 bytes)
+• reading_part5_task_40.json (6,732 bytes)
+• reading_part5_task_41.json (7,707 bytes)
+• reading_part5_task_42.json (6,594 bytes)
+• reading_part5_task_43.json (9,022 bytes)
+• reading_part5_task_44.json (6,617 bytes)
+• reading_part5_task_45.json (7,477 bytes)
+• reading_part5_task_46.json (8,000 bytes)
+• reading_part5_task_47.json (8,429 bytes)
+• reading_part5_task_48.json (8,755 bytes)
+• reading_part5_task_49.json (7,463 bytes)
+• reading_part5_task_50.json (8,028 bytes)
+• reading_part5_task_51.json (7,465 bytes)
+• reading_part5_task_52.json (6,741 bytes)
+• reading_part5_task_53.json (7,324 bytes)
+• reading_part5_task_54.json (8,726 bytes)
+• reading_part5_task_55.json (6,712 bytes)
+• reading_part5_task_56.json (7,389 bytes)
+• reading_part5_task_57.json (7,257 bytes)
+• reading_part5_task_58.json (7,591 bytes)
+• reading_part5_task_59.json (7,310 bytes)
+• reading_part5_task_60.json (7,448 bytes)
+• reading_part5_task_61.json (6,439 bytes)
+• reading_part5_task_62.json (7,221 bytes)
+• reading_part5_task_63.json (7,300 bytes)
+• reading_part5_task_64.json (7,085 bytes)
+• reading_part5_task_65.json (6,761 bytes)
+• reading_part5_task_66.json (7,064 bytes)
+• reading_part5_task_67.json (7,016 bytes)
+• reading_part5_task_68.json (7,011 bytes)
+• reading_part5_task_69.json (7,375 bytes)
+• reading_part5_task_70.json (7,170 bytes)
+• reading_part5_task_71.json (7,225 bytes)
+• reading_part5_task_72.json (7,574 bytes)
+• reading_part5_task_73.json (6,871 bytes)
+• reading_part5_task_74.json (8,058 bytes)
+• reading_part5_task_75.json (7,331 bytes)
+• reading_part5_task_77.json (7,691 bytes)
+• reading_part5_task_78.json (7,797 bytes)
+• reading_part5_task_79.json (6,970 bytes)
+• reading_part5_task_80.json (8,124 bytes)
+• reading_part5_task_81.json (8,092 bytes)
+• reading_part5_task_82.json (7,411 bytes)
+• reading_part5_task_83.json (7,532 bytes)
+• reading_part5_task_84.json (8,537 bytes)
+• reading_part5_task_85.json (7,092 bytes)
+• reading_part5_task_86.json (7,704 bytes)
+• reading_part5_task_87.json (7,420 bytes)
+• reading_part5_task_88.json (6,527 bytes)
+• reading_part5_task_89.json (7,652 bytes)
+• reading_part5_task_90.json (6,957 bytes)
+• reading_part5_task_91.json (8,395 bytes)
+• reading_part5_task_92.json (7,866 bytes)
+• reading_part5_task_93.json (7,528 bytes)
+• reading_part5_task_95.json (8,391 bytes)
+• reading_part5_task_96.json (7,393 bytes)
+• reading_part5_task_97.json (7,291 bytes)
+• reading_part5_task_98.json (7,477 bytes)
+• reading_part5_task_99.json (7,133 bytes)

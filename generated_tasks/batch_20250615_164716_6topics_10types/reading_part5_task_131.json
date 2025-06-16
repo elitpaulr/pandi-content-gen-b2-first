@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_131",
+  "title": "5 Budget Hacks to Keep You Working Abroad Without Broke Moments",
+  "topic": "technology",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "Budgeting for Digital Nomads: My Struggle is Real!\n\nAs a digital nomad, I've had the privilege of traveling to over 20 countries in the past three years. But with great freedom comes great responsibility – or so they say. One of the biggest challenges I face as a remote worker is managing my finances on the go. Let's be real, it's not exactly easy to keep track of your expenses when you're constantly changing locations.\n\nIn the early days of my nomadic journey, I made some rookie mistakes that still make me cringe. Like the time I accidentally overpaid for a month's worth of rent in Chiang Mai by 50%. Or the great foodie fail in Tokyo where I blew an entire week's budget on sushi and ramen.\n\nBut as I've grown more experienced (and wiser), I've learned some valuable lessons about budgeting that have helped me stay afloat. So, if you're struggling to keep your finances in check while traveling the world, don't worry – you're not alone!\n\n**Step 1: Track Your Expenses**\n\nThe first step to effective budgeting is understanding where your money is going. Sounds simple, right? Well, it's actually one of the most difficult tasks I've encountered as a digital nomad. With multiple bank accounts, credit cards, and cash transactions happening daily, it's easy to lose track of your spending.\n\nTo keep tabs on my expenses, I use a budgeting app called Mint. It connects all my financial accounts in one place, allowing me to see exactly how much I'm spending each month. Another great tool is Google Sheets – I've created a spreadsheet that logs every single transaction, from coffee purchases to accommodation bookings.\n\n**Step 2: Set Realistic Goals**\n\nAs a digital nomad, your income can be unpredictable at best. One week you might earn a small fortune freelancing; the next, you're struggling to make ends meet. To avoid financial stress, it's essential to set realistic budget goals that take into account your variable income.\n\nFor me, this means allocating 30% of my earnings towards savings and emergency funds. Sounds ambitious? Trust me, it's not when you consider the costs associated with traveling (and living) abroad. I also prioritize needs over wants – if I'm on a tight budget month, I cut back on non-essential expenses like dining out or entertainment.\n\n**Step 3: Be Mindful of Exchange Rates**\n\nExchange rates can be a digital nomad's worst enemy. With constantly fluctuating currency values, it's easy to get caught off guard and overdraw your account.\n\nTo mitigate this risk, I always research the current exchange rate before traveling to a new country. I also use services like TransferWise or PayPal to minimize conversion fees when sending money across borders.\n\n**Step 4: Plan for Taxes**\n\nTaxes can be a daunting topic for digital nomads – especially those in countries with complex tax laws (cough, Japan, cough). To avoid any nasty surprises come tax season, I research the local tax regulations in each country and set aside a portion of my income accordingly.\n\n**Conclusion**\n\nBudgeting as a digital nomad requires flexibility, patience, and a willingness to adapt. By tracking expenses, setting realistic goals, being mindful of exchange rates, and planning for taxes, you can avoid financial stress and enjoy the freedom that comes with remote work.\n\nOf course, there are still days when I feel like throwing my laptop out the window due to a particularly tight budget or unexpected expense. But the truth is, it's all part of the journey – and the lessons I've learned along the way have made me a more confident (and financially savvy) digital nomad.\n\nIf you're struggling with budgeting as a remote worker, don't give up! Keep experimenting with different tools and strategies until you find what works for you. And remember: a little financial planning can go a long way – especially when traveling the world.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to the writer's budget if they don't take into account the exchange rates of different countries?",
+      "options": {
+        "A": "They will earn more money from freelance work",
+        "B": "They will have to pay higher taxes on their income",
+        "C": "They may overdraw their account due to unexpected conversion fees",
+        "D": "Their expenses will increase, but their income will also rise"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"mitigate\" a risk according to the text?",
+      "options": {
+        "A": "To reduce or eliminate the impact of a situation",
+        "B": "To increase or enhance the likelihood of an event occurring",
+        "C": "To ignore or disregard the potential consequences of a decision",
+        "D": "To take advantage of a financial opportunity without considering its risks"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of my earnings does the writer allocate towards savings and emergency funds?",
+      "options": {
+        "A": "20%",
+        "B": "30%",
+        "C": "40%",
+        "D": "50%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards budgeting as a digital nomad?",
+      "options": {
+        "A": "The author finds it a thrilling challenge to manage finances on the go.",
+        "B": "The author believes that budgeting is an essential skill for remote workers, but acknowledges the difficulties involved.",
+        "C": "The author thinks that budgeting is too complicated and not worth the effort.",
+        "D": "The author has never struggled with budgeting and thinks it's easy."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"it\" refer to in the following sentence?",
+      "options": {
+        "A": "The cost of living abroad",
+        "B": "Financial stress",
+        "C": "Setting realistic budget goals",
+        "D": "Your variable income"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about budgeting as a digital nomad?",
+      "options": {
+        "A": "The author shares their personal struggles with budgeting and provides general tips for remote workers.",
+        "B": "The article offers practical advice on how to manage finances while traveling abroad, based on the author's own experiences.",
+        "C": "Digital nomads should abandon their traditional jobs and focus solely on freelancing to increase their income.",
+        "D": "Budgeting is not necessary for digital nomads as they can simply use credit cards and worry about the consequences later."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

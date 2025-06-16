@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_15",
+  "title": "Cracking the Code to Financial Freedom Starts at Your Age!",
+  "topic": "general",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "Financial literacy is the foundation upon which a stable future is built. It's not just about making ends meet; it's about understanding how money works, making informed decisions, and securing your economic well-being. However, many young adults struggle with basic financial concepts, often resulting in unnecessary debt, missed opportunities, and stress.\n\nTo grasp this critical aspect of life, let's break down the essential components of financial literacy. At its core, it encompasses knowledge about earning, saving, investing, budgeting, and managing risk. This may seem daunting at first, but with a solid understanding and practical application, you'll be well on your way to financial stability.\n\nOne crucial aspect is income management. Earning money is only the beginning; making the most of it requires discipline and strategy. A key principle is the 50/30/20 rule: Allocate 50% towards necessities (rent, utilities, food), 30% for discretionary spending (entertainment, hobbies), and 20% for saving and debt repayment. This framework helps strike a balance between enjoying your life today and securing a tomorrow.\n\nInvesting is another vital area of financial literacy. Many young adults are hesitant to invest due to fear or lack of knowledge. However, the earlier you start, the more time your money has to grow. Consider this: If you put $100 into a savings account earning 2% interest annually, in five years you'd have approximately $112. But if you invested that same $100 in a diversified stock portfolio with an average annual return of 7%, after five years you'd have around $146 – nearly a 30% increase.\n\nTo get started, explore low-cost investment options like index funds or ETFs. These allow you to invest in the overall market rather than individual stocks, reducing risk and minimizing fees. Even small, regular investments can add up over time, thanks to compound interest.\n\nA budget is also essential for financial stability. It's not about depriving yourself of things you enjoy; it's about being intentional with your spending. Make a list of all your expenses and categorize them (housing, transportation, entertainment). Then, prioritize needs over wants. Use the envelope system: Divide your expenses into categories and place the corresponding budgeted amount in labeled envelopes.\n\nCredit is another complex topic that requires understanding. Credit scores influence not only loan interest rates but also employment opportunities, rental applications, and even insurance premiums. Keep credit utilization below 30%, as high balances can negatively impact your score. Make timely payments and monitor your credit report to ensure accuracy.\n\nRisk management involves identifying potential financial pitfalls and taking steps to mitigate them. This includes having an emergency fund for unexpected expenses, maintaining a diversified investment portfolio, and being cautious when borrowing money.\n\nFinancial literacy isn't just about accumulating wealth; it's also about avoiding debt traps like payday loans or high-interest credit cards. These can quickly spiral out of control, causing financial ruin. A rule of thumb is to avoid borrowing more than you can afford to pay back within a short period – typically six months or less.\n\nIn conclusion, financial literacy for young adults requires understanding and applying basic concepts like income management, investing, budgeting, credit utilization, and risk management. While it may seem overwhelming at first, breaking down these topics into manageable parts makes the process more accessible and achievable. By prioritizing financial knowledge and developing good habits early on, you'll be better equipped to navigate life's challenges and secure a stable economic future.\n\nWith this foundation in place, you can confidently tackle any financial decision that comes your way – whether it's buying a car, paying off student loans, or planning for retirement. Remember, financial literacy is a lifelong journey; the key is to start early and be consistent. By doing so, you'll not only build wealth but also peace of mind, knowing you're in control of your economic destiny.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude towards borrowing money?",
+      "options": {
+        "A": "The author strongly advises against borrowing money at all costs.",
+        "B": "The author suggests that borrowing money is a necessary part of financial stability, as long as it's done responsibly.",
+        "C": "The author believes that young adults should only borrow money to cover emergencies, but not for non-essential expenses.",
+        "D": "The author thinks that borrowing money is a sign of financial ignorance and should be avoided."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"mitigate\" risks in financial management?",
+      "options": {
+        "A": "To completely eliminate a potential danger",
+        "B": "To reduce or minimize the impact of a risk",
+        "C": "To ignore the possibility of a risk occurring",
+        "D": "To take on more debt as a way to handle uncertainty"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of money should be allocated towards saving and debt repayment according to the 50/30/20 rule?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "25%",
+        "D": "40%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what attitude should young adults have towards borrowing money?",
+      "options": {
+        "A": "It's okay to borrow as much as you need",
+        "B": "They should be cautious and only borrow what they can afford to pay back quickly",
+        "C": "Borrowing money is a necessary part of life and can't be avoided",
+        "D": "Young adults shouldn't worry about debt because it's not their responsibility"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about financial literacy for young adults?",
+      "options": {
+        "A": "Financial literacy is only relevant to making ends meet and managing debt.",
+        "B": "Understanding basic concepts like income management, investing, and budgeting is crucial for a stable future.",
+        "C": "Young adults should avoid borrowing money altogether to achieve financial stability.",
+        "D": "Financial literacy is not necessary for most people as long as they have a steady job."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

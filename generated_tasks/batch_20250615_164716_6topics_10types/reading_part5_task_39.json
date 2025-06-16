@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_39",
+  "title": "The Green Revolution Starts in Your Shopping Basket Now!",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she wandered through the crowded streets of Tokyo's Harajuku district, Emiko felt a sense of discomfort wash over her. Everywhere she looked, there were people rushing to keep up with the latest fashion trends, discarding last season's styles without a second thought. It was as if they were trying to outrun the passage of time itself.\n\nEmiko, on the other hand, had been on a mission to change her shopping habits for months now. She'd read all about the devastating impact of fast fashion on the environment and the people who made it – the toxic chemicals in the dyes, the sweatshop labor, the mountains of waste that ended up in landfills. It was a bleak picture, but one that she knew was worth changing.\n\nAs she stopped in front of a small boutique, Emiko felt a tap on her shoulder. \"Hey, want to come in and check out some sustainable fashion?\" asked a friendly voice. She turned to see a young woman with a bright smile and a tote bag made from recycled plastic.\n\n\"Actually, I'm looking for something specific,\" Emiko replied, pulling out her phone to show the woman an image of a simple white dress she'd seen online. \"I want to buy something that's not only stylish but also eco-friendly.\"\n\nThe woman's eyes lit up. \"We have just the thing! Our designer uses organic cotton and natural dyes. The best part is, every item in our store has been carefully curated to minimize waste. We even offer a 'buy-back' program for customers who want to trade in their old clothes for new ones.\"\n\nEmiko's eyes widened as she browsed through the racks. Each item had a small label attached with information about its materials and production process. She picked up a beautiful scarf made from recycled silk, marveling at how light it was.\n\n\"I love this one!\" she exclaimed. \"But what about the price? It seems a bit steep.\"\n\nThe woman smiled knowingly. \"That's true, but think of all the money you'll save in the long run by buying high-quality items that will last for years to come. Plus, we offer discounts for customers who bring in their old clothes or buy multiple items at once.\"\n\nAs Emiko made her way home with her new purchases, she felt a sense of pride and satisfaction wash over her. She'd taken a small step towards changing the fashion industry's unsustainable practices, and it had cost her nothing but a bit more money.\n\nBut it was more than just about the price tag. It was about the kind of world we wanted to live in – one where people were valued for their skills and creativity, not just exploited for cheap labor. A world where clothes weren't disposable, but treasured for years to come.\n\nOver the next few weeks, Emiko noticed a change in her friends' attitudes towards shopping as well. They began to ask more questions about the brands they wore – \"Is this made from sustainable materials?\" or \"How much waste does your company produce?\"\n\nOne of them even started a blog reviewing eco-friendly fashion brands and sharing tips on how to shop sustainably. Emiko felt a sense of hope rising within her – maybe, just maybe, this was the start of something big.\n\nAs she scrolled through her social media feed, Emiko came across an article about a new app that tracked carbon emissions from clothing production. She clicked on it, intrigued. The numbers were staggering – a single pair of jeans could produce up to 20 kilograms of CO2 equivalent in its lifetime!\n\nBut there was also good news: companies like Patagonia and Reformation were leading the way with innovative production methods that reduced waste and carbon emissions. And apps like ThredUp and Poshmark were making it easier for people to buy second-hand clothes, reducing demand for new garments.\n\nIt wasn't easy being a consumer in this modern world – there were always more choices, more temptations, more excuses not to do the right thing. But Emiko knew that every small step counted. And with friends like hers by her side, she felt ready to take on whatever challenges came their way.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Emiko's attitude towards sustainable fashion after her visit to the boutique?",
+      "options": {
+        "A": "She was completely uninterested and saw it as a waste of time",
+        "B": "She had changed her shopping habits significantly but still had some reservations",
+        "C": "She had never thought about sustainable fashion before, but now she was completely converted",
+        "D": "She was only there to buy something cheap and didn't care about the brand's ethics"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"to outrun\" mean in this context?",
+      "options": {
+        "A": "To catch up with someone or something",
+        "B": "To try to avoid or escape from something",
+        "C": "To move quickly and try to keep up with a trend or pace",
+        "D": "To ignore or disregard something"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of dyes does the sustainable fashion designer in the boutique use?",
+      "options": {
+        "A": "Artificial colours",
+        "B": "Natural dyes",
+        "C": "Toxic chemicals",
+        "D": "Recycled water-based paints"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Emiko think about people who rush to buy new clothes without considering the environmental impact?",
+      "options": {
+        "A": "She admires their sense of style and independence",
+        "B": "She disapproves of their thoughtless consumption, but doesn't expect them to change",
+        "C": "She believes they are unaware of the issues surrounding fast fashion, and wants to educate them",
+        "D": "She thinks they are victims of a system that prioritizes profits over people"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who was making clothes with toxic chemicals in the dyes mentioned in the text?",
+      "options": {
+        "A": "The woman who owned the boutique",
+        "B": "Emiko's friends who started a blog about eco-friendly fashion",
+        "C": "People working in sweatshops",
+        "D": "The designer of the sustainable fashion store"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about Emiko's experience with sustainable shopping?",
+      "options": {
+        "A": "The devastating impact of fast fashion on the environment and people.",
+        "B": "How Emiko changes her friends' attitudes towards shopping through her example.",
+        "C": "The importance of making small, conscious choices in our daily lives as consumers.",
+        "D": "The high cost of buying eco-friendly clothes compared to traditional fashion."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

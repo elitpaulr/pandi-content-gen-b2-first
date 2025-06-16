@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_36",
+  "title": "Beyond Single-Use: Can You Survive Without Plastic?",
+  "topic": "general",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "The Plastic-Free Lifestyle Challenge: A Cultural Shift or Just a Fad?\n\nIn recent years, the term \"plastic-free\" has become a buzzword in our daily conversations, social media posts, and even advertising campaigns. But what does it really mean to adopt a plastic-free lifestyle? Is it just a trend that will fade away with time, or is it a genuine attempt at changing the way we live? As an observer of cultural shifts, I'd like to delve into the world of plastic-free living and examine its challenges, successes, and implications for our society.\n\nFor many of us, reducing plastic use has become a habit. We carry reusable bags, coffee cups, and water bottles with us wherever we go. We refuse single-use plastics, recycle as much as possible, and even make our own cleaning products using natural ingredients. However, despite these efforts, the statistics remain alarming: according to the United Nations, over 8 million tons of plastic waste enter our oceans every year.\n\nThe challenges of adopting a plastic-free lifestyle are numerous. One of the main obstacles is convenience. Single-use plastics are often cheaper and more convenient than their reusable counterparts. Take, for example, the humble straw. Paper straws have become a popular alternative to plastic ones, but they're also prone to disintegrating in hot drinks and can be messy to clean. Moreover, many restaurants and cafes still use plastic straws despite customer requests not to.\n\nAnother challenge is accessibility. Not everyone has access to reusable products or the means to purchase them. In some parts of the world, especially in developing countries, single-use plastics are the only affordable option for people who live on a tight budget. This raises questions about sustainability and environmental justice: can we truly say that our efforts to reduce plastic use are inclusive and equitable?\n\nDespite these challenges, there have been some remarkable successes. Cities like Copenhagen and Vancouver have implemented ambitious plans to become plastic-free by 2050. Governments are also starting to take action: the European Union has banned single-use plastics in many areas, including straws, cutlery, and bags.\n\nBut what about individual actions? Can a plastic-free lifestyle really make a difference? Research suggests that collective action can have significant impacts on environmental issues like plastic pollution. A study by the University of California found that if 50% of households in Los Angeles reduced their plastic use, it would be equivalent to taking over 1 million cars off the road.\n\nHowever, it's also essential to acknowledge the cultural and economic implications of a plastic-free lifestyle. Many industries rely heavily on single-use plastics, from packaging materials to disposable products. Reducing or eliminating these products could lead to job losses and economic disruption.\n\nSo, is the plastic-free lifestyle challenge just a fad or a genuine attempt at changing our behavior? I believe it's a bit of both. While some people may be drawn to the trendiness of reducing plastic use, many others are genuinely committed to making a difference. As we navigate this cultural shift, it's essential to acknowledge the challenges and successes, as well as the implications for our society.\n\nUltimately, a plastic-free lifestyle is not just about avoiding single-use plastics; it's about adopting a more mindful approach to consumption and waste management. It's about recognizing that every small action counts and that collective efforts can lead to significant positive change. As we continue on this journey towards sustainability, let's remember that the challenges of a plastic-free lifestyle are worth overcoming – for our planet, our communities, and future generations.\n\nIn conclusion, the plastic-free lifestyle challenge is not just a fleeting trend but an ongoing cultural shift that requires commitment, creativity, and collective action. By acknowledging its challenges and successes, we can work towards creating a more sustainable, equitable, and environmentally conscious world.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about people who live on a tight budget in developing countries?",
+      "options": {
+        "A": "They are not affected by the issue of plastic pollution.",
+        "B": "They often have access to reusable products at an affordable price.",
+        "C": "Single-use plastics are their only option due to lack of financial resources.",
+        "D": "They are actively involved in promoting sustainable practices."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"genuine\" mean in this context?",
+      "options": {
+        "A": "Very expensive",
+        "B": "Really happening or true",
+        "C": "Only fashionable for a short time",
+        "D": "Completely opposite of what is intended"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the United Nations, how many tons of plastic waste enter our oceans every year?",
+      "options": {
+        "A": "5 million",
+        "B": "8 million",
+        "C": "10 million",
+        "D": "12 million"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards people who adopt a plastic-free lifestyle just for its trendiness?",
+      "options": {
+        "A": "The author believes that people who reduce plastic use only for its trendiness are hypocrites.",
+        "B": "The author thinks that people who adopt a plastic-free lifestyle mainly for its trendiness can still make a positive impact on the environment.",
+        "C": "The author is sceptical of people who reduce plastic use just to be fashionable, but acknowledges their efforts as a starting point for change.",
+        "D": "The author believes that people who adopt a plastic-free lifestyle only for its trendiness are wasting their time."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"single-use plastics\" refer to in this text?",
+      "options": {
+        "A": "Products made from 100% recycled materials",
+        "B": "Plastics that are used once and then thrown away",
+        "C": "Reusable products with a long lifespan",
+        "D": "Plastic waste that enters our oceans every year"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the author's main idea about the plastic-free lifestyle challenge?",
+      "options": {
+        "A": "It is just a fad that will soon disappear",
+        "B": "It requires commitment, creativity, and collective action to overcome its challenges",
+        "C": "The statistics on plastic waste are not alarming enough to justify adopting a plastic-free lifestyle",
+        "D": "It is only relevant in developed countries and has no impact on sustainability in developing countries"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

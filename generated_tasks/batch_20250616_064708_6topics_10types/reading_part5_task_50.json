@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_50",
+  "title": "Fuel Your Performance: Boost Energy & Endurance in Sports",
+  "topic": "health_and_fitness",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "**Fuel Your Body: The Importance of Sports Nutrition for Amateur Athletes**\n\nAs an amateur athlete, you know that regular exercise is essential to improving your physical fitness and achieving your goals. However, what many people don't realize is that proper nutrition plays a crucial role in supporting their athletic performance. A well-planned diet can help you recover faster, build strength, and enhance your overall endurance. In this article, we'll explore the basics of sports nutrition and provide tips on how to fuel your body for optimal performance.\n\n**Understanding Your Nutritional Needs**\n\nTo optimize your sports nutrition, it's essential to understand your individual nutritional needs. This depends on several factors such as your age, sex, weight, height, and activity level. For example, if you're a distance runner, you'll require more carbohydrates than a sprinter who requires more protein.\n\nA good starting point is to calculate your daily energy intake. You can do this by multiplying your body weight in kilograms by an activity factor of 1.6-2.4. This will give you an estimate of the number of calories you need per day. For instance, if you weigh 60 kg and are moderately active, you'll require approximately 3,600-4,800 calories per day.\n\n**Macronutrient Balance**\n\nA well-balanced sports diet consists of three macronutrients: carbohydrates, protein, and fat. Here's a breakdown of their importance:\n\n*   **Carbohydrates**: Provide energy for high-intensity activities such as sprinting and weightlifting. Focus on complex carbs like whole grains, fruits, and vegetables.\n*   **Protein**: Essential for muscle growth and repair. Aim for 1.2-1.6 grams of protein per kilogram of body weight from sources like lean meats, fish, eggs, dairy products, and legumes.\n*   **Fat**: Important for hormone production and absorption of vitamins. Choose healthy fats found in nuts, seeds, avocados, and olive oil.\n\n**Hydration and Electrolytes**\n\nProper hydration is vital to athletic performance. Aim to drink at least 8-10 glasses of water per day, and adjust according to your activity level and climate. Additionally, electrolyte balance is crucial for maintaining proper fluid levels in the body. Include foods rich in electrolytes like bananas (potassium), dates (potassium), and coconut water (sodium and potassium) in your diet.\n\n**Pre-Workout Snacks**\n\nA pre-workout snack can provide a much-needed energy boost before exercise. Opt for a mix of carbohydrates and protein to sustain you throughout your workout. Some examples include:\n\n*   Banana with almond butter\n*   Apple slices with peanut butter\n*   Energy bar (look for natural ingredients and avoid added sugars)\n*   Smoothie bowl with frozen berries, Greek yogurt, and granola\n\n**Post-Workout Recovery**\n\nAfter a grueling workout, your body needs to recover. Fueling it with the right nutrients can help promote muscle repair and growth.\n\n*   **Within 30 minutes**: Consume a mix of carbohydrates and protein within 30 minutes after exercise to replenish energy stores and support muscle recovery.\n*   **Within 1-2 hours**: Include a source of protein and healthy fats in your meal to aid in muscle repair and satiety.\n*   **Before bedtime**: Aim for a light, balanced snack or meal with complex carbohydrates and lean protein to promote muscle growth during sleep.\n\n**Conclusion**\n\nProper sports nutrition is essential for amateur athletes looking to improve their performance and achieve their goals. By understanding your individual nutritional needs, balancing macronutrients, staying hydrated, and fueling before and after exercise, you'll be well on your way to optimal athletic success. Remember, everyone's nutritional requirements are unique, so experiment with different foods and portion sizes to find what works best for you.\n\n**Additional Tips**\n\n*   **Experiment with new foods**: Try different fruits, vegetables, lean meats, and whole grains to find healthy alternatives.\n*   **Avoid processed foods**: Opt for natural ingredients and avoid added sugars, saturated fats, and artificial preservatives.\n*   **Consult a sports dietitian**: A professional can help you develop a personalized nutrition plan tailored to your specific needs.\n\nBy following these tips and staying committed to a balanced diet, you'll be able to perform at your best and achieve your athletic goals.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if an amateur athlete fails to replenish energy stores within 30 minutes after exercise?",
+      "options": {
+        "A": "They will experience muscle cramps",
+        "B": "Their body will not recover from muscle damage",
+        "C": "They will lose strength and endurance over time",
+        "D": "They will not be able to perform at their usual level the next day"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the term \"macronutrient\" refer to in the context of sports nutrition?",
+      "options": {
+        "A": "A type of vitamin",
+        "B": "A group of essential nutrients that provide energy for the body",
+        "C": "A source of hydration",
+        "D": "A category of foods that are high in calories but low in nutritional value"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the recommended daily energy intake for someone who weighs 60 kg and is moderately active?",
+      "options": {
+        "A": "2,400 calories",
+        "B": "3,600-4,800 calories",
+        "C": "1,200 calories",
+        "D": "5,000 calories"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The author's tone towards processed foods is likely",
+      "options": {
+        "A": "Encouraging and supportive",
+        "B": "Critical and warning",
+        "C": "Neutral and informative",
+        "D": "Indifferent and uninterested"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"1.6-2.4\" refer to in the text?",
+      "options": {
+        "A": "The number of glasses of water an amateur athlete should drink per day",
+        "B": "The activity factor used to calculate daily energy intake",
+        "C": "The grams of protein required per kilogram of body weight for muscle growth and repair",
+        "D": "The percentage of calories that should come from fat in a well-balanced sports diet"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about sports nutrition for amateur athletes?",
+      "options": {
+        "A": "The article provides general information about exercise and physical fitness.",
+        "B": "Proper nutrition plays a crucial role in supporting athletic performance, and understanding individual nutritional needs is essential.",
+        "C": "A balanced diet consists only of carbohydrates and protein.",
+        "D": "Amateur athletes should avoid processed foods altogether."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

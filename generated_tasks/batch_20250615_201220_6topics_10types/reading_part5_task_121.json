@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_121",
+  "title": "Thrifty Travels: Mastering Your Money as a Digital Nomad",
+  "topic": "technology",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Digital Nomad's Guide to Budgeting on the Go**\n\nAs a digital nomad, you're likely accustomed to living life on your own terms. You work remotely, travel frequently, and enjoy the freedom that comes with being location-independent. However, this lifestyle can also be expensive, especially if you're not careful about managing your finances.\n\nAccording to a survey by Nomad List, the average monthly cost for a digital nomad is around $2,500. This includes expenses such as accommodation, food, transportation, and entertainment. But what if you're on a tighter budget? How can you afford to live the lifestyle of a digital nomad without breaking the bank?\n\n**Know Your Expenses**\n\nThe first step in creating a budget for your digital nomad lifestyle is to track your expenses. This means keeping a record of every purchase you make, from coffee and snacks to accommodation and flights. You can use an app like Mint or Excel to help you stay organized.\n\n\"Tracking your expenses is crucial,\" says Rachel Jones, a financial expert who specializes in budgeting for digital nomads. \"You need to know exactly how much you're spending on what, so you can make informed decisions about where to cut back and allocate more funds.\"\n\n**Accommodation: A Major Expense**\n\nOne of the biggest expenses for digital nomads is accommodation. Depending on the location and type of accommodation, prices can range from a few hundred dollars per month to several thousand.\n\nTo save money on accommodation, consider staying in hostels or shared apartments, especially if you're traveling solo. You can also look into renting out a room on websites like Airbnb or Couchsurfing.\n\n**Food: Eat Local**\n\nEating out can be expensive, but it doesn't have to be. Instead of hitting up touristy restaurants, try eating at local markets or street food stalls. Not only will you save money, but you'll also get a taste of the local culture.\n\n\"Food is one area where digital nomads often overspend,\" says Alex Chant, a seasoned traveler and budgeting expert. \"But with a little creativity, you can eat well without breaking the bank.\"\n\n**Transportation: Plan Ahead**\n\nGetting from one place to another as a digital nomad can be costly, especially if you're traveling long distances. To save money on transportation, plan ahead by booking flights or buses in advance.\n\nYou can also consider using budget airlines or taking trains instead of taxis or rental cars. And don't forget to research local transportation options, such as bike rentals or public transportation systems.\n\n**The 50/30/20 Rule**\n\nWhen it comes to budgeting for your digital nomad lifestyle, the 50/30/20 rule is a good starting point. This means allocating 50% of your income towards necessities like accommodation and food, 30% towards discretionary spending like entertainment and travel, and 20% towards saving and debt repayment.\n\nOf course, this is just a rough guideline, and you'll need to adjust the proportions based on your individual circumstances. But as a starting point, it's a good way to get a handle on your finances and make sure you're not overspending.\n\n**Conclusion**\n\nBudgeting for your digital nomad lifestyle requires some planning and creativity, but with the right strategies in place, you can save money and enjoy the freedom that comes with this lifestyle. Remember to track your expenses, eat local, plan ahead for transportation, and allocate your income wisely.\n\nAs Rachel Jones says, \"The key is to be mindful of your spending habits and make conscious choices about how you allocate your resources. With a little discipline and creativity, you can live the life of a digital nomad on any budget.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to Rachel Jones, what will happen if a digital nomad is not mindful of their spending habits?",
+      "options": {
+        "A": "They will have more money for entertainment",
+        "B": "They will be able to save and pay off debt easily",
+        "C": "They may struggle financially and have to make tough choices",
+        "D": "They will never need to budget again"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to be \"location-independent\" according to the text?",
+      "options": {
+        "A": "To be tied down by a specific location or job",
+        "B": "To work and travel freely without being tied to a particular place",
+        "C": "To have limited financial resources",
+        "D": "To prioritize accommodation over other expenses"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Nomad List's survey, what is the average monthly cost for a digital nomad?",
+      "options": {
+        "A": "$1,500",
+        "B": "$2,000",
+        "C": "$2,500",
+        "D": "$3,000"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to Rachel Jones, what is crucial for creating a budget as a digital nomad?",
+      "options": {
+        "A": "Being flexible with expenses",
+        "B": "Tracking your income only",
+        "C": "Tracking your expenses is crucial",
+        "D": "Ignoring transportation costs"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "According to Rachel Jones, what is crucial for digital nomads when it comes to managing their finances?",
+      "options": {
+        "A": "Saving money on accommodation",
+        "B": "Tracking your expenses",
+        "C": "Earning more income",
+        "D": "Eating out frequently"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this guide for digital nomads?",
+      "options": {
+        "A": "The guide focuses on finding ways to make more money as a digital nomad.",
+        "B": "Budgeting for a digital nomad lifestyle requires some planning and creativity, but can be done with the right strategies.",
+        "C": "This guide is specifically designed for experienced digital nomads who want to learn advanced budgeting techniques.",
+        "D": "The guide argues that living as a digital nomad is inherently expensive and impossible on a tight budget."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

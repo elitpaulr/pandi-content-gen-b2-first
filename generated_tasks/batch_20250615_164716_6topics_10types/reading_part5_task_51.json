@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_51",
+  "title": "The Green Revolution in Retail: How Sustainable Shopping is Changing Business Forever",
+  "topic": "technology",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "The Rise of Sustainable Shopping and Ethical Consumption: A New Era for Consumers\n\nIn recent years, the world has witnessed a significant shift in consumer behavior, driven by growing concerns over environmental degradation, social injustices, and animal welfare. As consumers become increasingly aware of the impact of their purchasing decisions on the planet and its inhabitants, sustainable shopping and ethical consumption have emerged as key trends shaping the retail industry.\n\nThe concept of sustainability has evolved beyond just being environmentally friendly; it now encompasses a broader definition that includes social responsibility and economic viability. Consumers are no longer content with just buying products; they want to know the story behind them – who made them, under what conditions, and how they were sourced. This shift in consumer consciousness has given rise to the concept of \"conscious consumption,\" where buyers prioritize products that align with their values.\n\nOne of the driving forces behind sustainable shopping is the increasing awareness of climate change. As governments and corporations fail to take adequate action to reduce carbon emissions, consumers are taking matters into their own hands by making eco-friendly choices in their daily lives. From reusable bags and water bottles to energy-efficient appliances and electric vehicles, consumers are investing in products that minimize their environmental footprint.\n\nAnother significant factor influencing sustainable shopping is the growing awareness of social injustices. Consumers are becoming more conscious of the human cost associated with mass production and consumption. They want to ensure that the companies they support treat their employees fairly, provide safe working conditions, and respect human rights. This has led to a surge in demand for products made by fair-trade organizations, cooperatives, and local artisans who prioritize social responsibility.\n\nThe rise of e-commerce platforms has also contributed significantly to the growth of sustainable shopping. Online retailers are providing consumers with an array of eco-friendly and socially responsible options, making it easier than ever to shop sustainably. Some online marketplaces even offer features such as carbon offsetting, allowing customers to calculate their environmental impact and make amends for it.\n\nHowever, despite these advances, there is still a long way to go before sustainable shopping becomes the norm. Many consumers remain unaware of the true cost of their purchasing decisions or lack the financial means to invest in eco-friendly products. Additionally, some companies continue to prioritize profits over people and the planet, perpetuating unsustainable practices that exacerbate environmental degradation.\n\nTo accelerate the transition towards a more sustainable retail industry, governments, corporations, and consumers must work together. Governments can establish policies and regulations that support sustainable business practices, while corporations can adopt transparency and accountability in their supply chains. Consumers, meanwhile, can continue to educate themselves on sustainable shopping options and make conscious purchasing decisions that align with their values.\n\nAs the world grapples with the challenges of climate change, social inequality, and economic instability, sustainable shopping and ethical consumption offer a beacon of hope for a more responsible and equitable future. By making informed choices about what we buy and how it is made, consumers can drive positive change in the retail industry and contribute to a more sustainable world for generations to come.\n\nIn conclusion, the rise of sustainable shopping and ethical consumption represents a fundamental shift in consumer behavior that has far-reaching implications for businesses, governments, and individuals. As consumers continue to demand more from companies and themselves, it is essential to recognize the importance of sustainability and social responsibility in driving positive change. By working together, we can create a retail industry that prioritizes people, planet, and profit – not just profits over people and the planet.\n\nAs consumers become increasingly aware of their impact on the world, they are beginning to use their purchasing power as a force for good. Sustainable shopping is no longer just a trend; it has become a lifestyle choice that reflects a deeper understanding of the intricate relationships between human well-being, environmental health, and economic viability. By embracing this new era of conscious consumption, we can build a more resilient, equitable, and sustainable future – one purchase at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if governments establish policies that support sustainable business practices?",
+      "options": {
+        "A": "Consumers will become less interested in eco-friendly products.",
+        "B": "Companies will focus solely on making profits, ignoring social and environmental issues.",
+        "C": "The demand for socially responsible products will increase, driving businesses to adopt more sustainable practices.",
+        "D": "Online shopping will become the dominant form of retail, making it harder for consumers to shop sustainably."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"conscious consumption\" imply about consumers' approach to purchasing products?",
+      "options": {
+        "A": "That they prioritize products that are cheap and readily available",
+        "B": "That they want to know the story behind their purchases, including who made them and under what conditions",
+        "C": "That they only buy essential items and avoid non-essential spending",
+        "D": "That they ignore the environmental impact of their purchases"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what percentage of consumers is still unaware of the true cost of their purchasing decisions?",
+      "options": {
+        "A": "25%",
+        "B": "50%",
+        "C": "75%",
+        "D": "80%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards companies that prioritize profits over people and the planet?",
+      "options": {
+        "A": "The author is optimistic about their potential for change.",
+        "B": "The author believes they are responsible for environmental degradation and social injustices.",
+        "C": "The author is critical of their unsustainable practices and suggests they need to adopt more responsible business models.",
+        "D": "The author thinks they are making efforts to become more sustainable."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who do consumers want to know made their products?",
+      "options": {
+        "A": "The CEOs of companies",
+        "B": "The employees who work in factories",
+        "C": "The farmers who grow raw materials",
+        "D": "The suppliers who deliver goods"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about the rise of sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "The text describes the negative impact of consumerism on the environment and society.",
+        "B": "The shift towards sustainable shopping and ethical consumption represents a fundamental change in consumer behavior with far-reaching implications for businesses, governments, and individuals.",
+        "C": "The text argues that e-commerce platforms are primarily responsible for the growth of sustainable shopping.",
+        "D": "The main idea of the text is to criticize companies that prioritize profits over people and the planet."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

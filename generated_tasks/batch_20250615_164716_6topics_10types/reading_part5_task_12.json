@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_12",
+  "title": "Master Your Money: A Guide to Smart Financial Decision-Making for Young Adults",
+  "topic": "general",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember my first paycheck like it was yesterday. I was fresh out of college, had just landed my dream job, and couldn't wait to start living the high life. But as I stared at that first check, I realized I had no idea what to do with it. My parents had always taken care of our finances, so I didn't know how to budget, save, or even invest.\n\nFast forward a few months, and I was in a financial pickle. I was overspending, racking up debt, and stressing about money all the time. It wasn't until I stumbled upon a personal finance book that things started to click into place. Suddenly, I realized that financial literacy wasn't just about numbers – it was about understanding how money works and making intentional decisions with it.\n\nAs a young adult, you're likely in the same boat as I was. You might be struggling to make ends meet, or worrying about student loans, credit card debt, or saving for retirement (yes, even if it seems far away!). But trust me, learning financial literacy is one of the best investments you can make – and it's not as hard as you think.\n\nSo where do you start? For me, it was all about understanding the basics. I learned about the 50/30/20 rule: 50% of my income goes towards necessities (rent, food, utilities), 30% towards discretionary spending (entertainment, hobbies), and 20% towards saving and debt repayment. It sounds simple, but it's a game-changer.\n\nNext up was budgeting. I started tracking every single transaction – no matter how small – in a spreadsheet. It took some getting used to, but soon I had a clear picture of where my money was going. And let me tell you, it was eye-opening. I realized I was wasting hundreds of dollars a month on unnecessary subscriptions and impulse buys.\n\nBut budgeting is only half the battle. Saving and investing are just as important – if not more so. I started by setting up automatic transfers into a high-yield savings account and a Roth IRA (Individual Retirement Account). It's amazing how quickly those small amounts add up over time.\n\nOne of the biggest surprises for me was learning about compound interest. Essentially, it means that your savings can grow exponentially over time – without you even lifting a finger! For example, if I put $1,000 into a high-yield savings account earning 2% interest, after one year I'd have around $1,020. But here's the magic: if I leave those $1,020 in there for another year, and earn 2% again, I'll now have around $1,044.\n\nNow, I know what you're thinking – \"This all sounds great, but where do I even start?\" Don't worry, I've got some practical tips to share. First, take advantage of free resources online, like budgeting apps (Mint, Personal Capital) and financial literacy websites (NerdWallet, The Balance). Next, consider taking a personal finance course or workshop – many libraries and community centers offer them for free.\n\nAnd finally, don't be afraid to ask for help. Talk to your parents, friends, or a financial advisor about your goals and concerns. They might have some valuable insights or advice to share.\n\nAs I look back on my own journey with financial literacy, I realize that it's been just as much about mindset as it has been about money. Learning to manage my finances has given me confidence, reduced stress, and allowed me to pursue my passions without worrying about the cost.\n\nSo if you're a young adult struggling to get your finances in order, know this: you're not alone. And with a little bit of effort and dedication, you can build a solid financial foundation that will serve you well for years to come.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated the author to take control of their finances?",
+      "options": {
+        "A": "The desire to impress their parents",
+        "B": "The realization that financial literacy was key to making intentional decisions with money",
+        "C": "The need to pay off student loans immediately",
+        "D": "The influence of a financial advisor they met at college"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"overspending\" mean in this context?",
+      "options": {
+        "A": "To spend money on essential items such as rent, food, and utilities",
+        "B": "To spend more money than one has available or can afford",
+        "C": "To save money by reducing expenses",
+        "D": "To invest money in stocks or bonds"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the 50/30/20 rule, what percentage of income should be allocated towards saving and debt repayment?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "40%",
+        "D": "50%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the author, learning about compound interest has had what effect on their financial situation?",
+      "options": {
+        "A": "It has led them to overspend even more",
+        "B": "It has increased their stress levels about money",
+        "C": "It has allowed their savings to grow exponentially over time",
+        "D": "It has made them less confident in managing their finances"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"50% of my income goes towards necessities (rent, food, utilities)\" refer to?",
+      "options": {
+        "A": "My parents' financial habits",
+        "B": "The author's own financial situation after landing their dream job",
+        "C": "The 50/30/20 rule for allocating income",
+        "D": "A budgeting app recommended by the author"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about the author's experience with financial literacy?",
+      "options": {
+        "A": "The author recommends investing in stocks as a way to increase wealth quickly.",
+        "B": "Financial literacy is a crucial skill for young adults to learn, and it can help reduce stress and improve confidence.",
+        "C": "Budgeting apps are the best resource for managing finances, according to the author.",
+        "D": "The 50/30/20 rule is a complicated formula that only experts understand."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

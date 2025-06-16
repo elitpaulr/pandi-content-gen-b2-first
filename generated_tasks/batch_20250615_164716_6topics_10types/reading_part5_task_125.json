@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_125",
+  "title": "Surviving on Sunshine: Budget Hacks for Digital Nomad Life",
+  "topic": "technology",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**The Digital Nomad's Guide to Budgeting on the Go**\n\nAs the world becomes increasingly interconnected, more and more individuals are choosing to abandon traditional 9-to-5 lifestyles in favor of a life of travel and flexibility as digital nomads. While this way of living offers unparalleled opportunities for adventure and personal growth, it also presents unique financial challenges.\n\nFor those who call no single place home, budgeting can be a daunting task. Without a fixed address or stable income, it's easy to let expenses spiral out of control. However, with the right mindset and strategies, digital nomads can maintain financial stability even in the most unpredictable environments.\n\nAt its core, budgeting for digital nomads is all about adaptability. Unlike traditional budgets, which often rely on rigid income projections and fixed expenses, a digital nomad's budget must be flexible enough to accommodate changing circumstances. This might mean regularly reassessing priorities, adjusting spending habits, and being prepared to make tough financial decisions.\n\nOne of the biggest expenses for digital nomads is accommodation. With no permanent address, it's easy to get caught up in high-end Airbnb rentals or luxury hotel stays. However, these indulgences can quickly blow a hole in even the most well-planned budget. A more practical approach might be to opt for shared accommodations or hostels, which not only save money but also provide opportunities to connect with like-minded travelers.\n\nFood is another area where digital nomads can easily overspend. With the rise of food delivery apps and meal kit services, it's tempting to treat oneself to a convenient (if expensive) dining experience every night. However, cooking one's own meals – even if just occasionally – can make a significant dent in expenses. Many digital nomads also opt for local eateries or street food, which not only save money but also offer a more authentic taste of the culture.\n\nTransportation is another key expense for digital nomads. With no fixed address, it's often necessary to rely on public transportation or ride-sharing services, which can add up quickly. However, by researching affordable options in advance and taking advantage of free walking tours or bike rentals, digital nomads can save significant amounts.\n\nIn addition to these practical considerations, digital nomads must also be mindful of taxes and other financial obligations. With no fixed address, it's easy to put off paperwork and accounting tasks – but this can lead to serious penalties down the line. A good rule of thumb is to set aside a small portion of each paycheck for tax purposes, even if it feels counterintuitive.\n\nUltimately, budgeting as a digital nomad requires a combination of flexibility, planning, and discipline. By setting clear financial goals and regularly tracking expenses, digital nomads can maintain stability even in the most unpredictable environments. Whether working remotely from a beachside cafe or navigating the unfamiliar streets of a foreign city, those who adapt their budget to their lifestyle will find that – with the right mindset – anything is possible.\n\n**Tips for Digital Nomad Budgeting**\n\n* Set aside 30% of each paycheck for taxes and other financial obligations\n* Prioritize shared accommodations over luxury rentals\n* Cook one's own meals at least a few times a week\n* Research affordable transportation options in advance\n* Regularly review and adjust budget priorities to accommodate changing circumstances",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if a digital nomad puts off paperwork and accounting tasks while traveling?",
+      "options": {
+        "A": "They will save money on taxes and other financial obligations.",
+        "B": "They will have more time for leisure activities and exploring new places.",
+        "C": "They will face serious penalties, such as fines or even prosecution.",
+        "D": "They will be able to avoid dealing with bureaucracy altogether."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for digital nomads' budgets to be \"flexible enough to accommodate changing circumstances\"?",
+      "options": {
+        "A": "To have a large amount of money set aside for emergencies",
+        "B": "To regularly reassess priorities, adjust spending habits, and make tough financial decisions",
+        "C": "To use only credit cards for all expenses",
+        "D": "To spend as little as possible on everything"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to \"The Digital Nomad's Guide to Budgeting on the Go\", what percentage of each paycheck should be set aside for taxes and other financial obligations?",
+      "options": {
+        "A": "20%",
+        "B": "30%",
+        "C": "40%",
+        "D": "50%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What attitude does the author recommend for digital nomads when it comes to managing their expenses?",
+      "options": {
+        "A": "Being as frugal as possible, even if it means sacrificing some comforts.",
+        "B": "Focusing on flexibility and adaptability when making financial decisions.",
+        "C": "Trying to keep up with their peers by spending large amounts of money on luxuries.",
+        "D": "Ignoring taxes and other financial obligations in order to save time and effort."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the right mindset\" refer to in the text?",
+      "options": {
+        "A": "A fixed address or stable income",
+        "B": "The combination of flexibility, planning, and discipline needed for digital nomad budgeting",
+        "C": "High-end Airbnb rentals or luxury hotel stays",
+        "D": "Cooking one's own meals every night"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about budgeting for digital nomads?",
+      "options": {
+        "A": "Digital nomads should avoid using public transportation or ride-sharing services at all costs.",
+        "B": "Budgeting as a digital nomad requires flexibility, planning, and discipline to maintain financial stability.",
+        "C": "The most important thing for digital nomads is to save money by choosing the cheapest accommodation options available.",
+        "D": "Digital nomads should not worry about taxes and other financial obligations because they can be dealt with later."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_138",
+  "title": "The Nomad's Budget Survival Guide: How to Live Abroad Without Losing Your Mind",
+  "topic": "technology",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "The Digital Nomad Dilemma: Budgeting in the Age of Remote Work\n\nAs the world becomes increasingly interconnected, the concept of traditional employment has given way to the rise of remote work. With the advent of high-speed internet and affordable travel options, digital nomads have taken to the skies, embracing a lifestyle that combines work and adventure. However, this newfound freedom comes with its own set of financial challenges.\n\nFor those who choose to abandon the 9-to-5 routine in favor of a life on the move, budgeting becomes an art form. Gone are the days of stable salaries and predictable expenses; instead, digital nomads must navigate a complex web of currencies, exchange rates, and variable income streams. It's a financial tightrope that requires careful balance and a deep understanding of one's own spending habits.\n\nOne of the most significant challenges facing digital nomads is managing their finances across multiple countries. With each new destination comes a fresh set of expenses: accommodation, food, transportation, and sometimes even visa fees. To make matters more complicated, exchange rates fluctuate constantly, rendering last year's budget useless in today's economic climate.\n\nTo mitigate these risks, many digital nomads swear by the \"50/30/20\" rule: 50% of their income goes towards necessities like rent and food, while 30% is allocated for discretionary spending (travel, entertainment, etc.), and 20% is saved or invested. While this framework provides a useful starting point, it's essential to remember that every digital nomad's financial situation is unique.\n\nFor instance, freelancers may face irregular income streams, making it difficult to budget for monthly expenses. In contrast, remote workers with fixed salaries can plan their finances more easily. Furthermore, those living in countries with high costs of living (e.g., Singapore or San Francisco) must adapt their budgets accordingly.\n\nAnother critical aspect of digital nomad budgeting is managing one's assets and liabilities. With the rise of mobile banking apps and online payment systems, it's easier than ever to access your money from anywhere in the world. However, this convenience can also lead to overspending and financial recklessness.\n\nOne popular strategy among digital nomads is to maintain a \"digital wallet\" or separate bank account specifically for travel-related expenses. This compartmentalization helps to keep personal finances separate from work funds and reduces the temptation to splurge on unnecessary items.\n\nBeyond individual budgeting strategies, there's also a growing recognition of the importance of community in navigating the financial challenges of digital nomadism. Online forums, social media groups, and co-working spaces provide valuable resources for sharing knowledge, best practices, and advice from fellow travelers.\n\nIn conclusion, budgeting as a digital nomad requires a delicate balance of financial planning, risk management, and adaptability. By understanding one's unique financial situation and adopting strategies like the \"50/30/20\" rule or maintaining separate bank accounts, digital nomads can mitigate the risks associated with variable income streams and fluctuating exchange rates.\n\nUltimately, embracing the financial flexibility that comes with remote work allows digital nomads to live life on their own terms. Whether it's exploring new cities, immersing oneself in local cultures, or simply enjoying a more relaxed pace of life, budgeting for digital nomads is not just about managing finances – it's an art form that enables a truly free and fulfilling existence.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about freelancers who choose to become digital nomads?",
+      "options": {
+        "A": "They often have fixed salaries, which makes budgeting easier for them.",
+        "B": "Their irregular income streams make it difficult for them to budget for monthly expenses.",
+        "C": "They tend to live in countries with high costs of living, making their budgets more complicated.",
+        "D": "They rarely use mobile banking apps and online payment systems."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"variable income streams\" mean in this text?",
+      "options": {
+        "A": "A stable salary that remains unchanged over time",
+        "B": "Income from different sources, such as freelance work or investments",
+        "C": "Expenses incurred while traveling to a new destination",
+        "D": "Exchange rates fluctuating constantly between countries"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what percentage of digital nomad income should be allocated towards discretionary spending?",
+      "options": {
+        "A": "40%",
+        "B": "30%",
+        "C": "50%",
+        "D": "60%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what attitude does the author take towards the financial challenges faced by digital nomads?",
+      "options": {
+        "A": "The author views budgeting as a burden that digital nomads must endure.",
+        "B": "The author believes that managing finances as a digital nomad is an art form that requires creativity and flexibility.",
+        "C": "The author thinks that digital nomads should abandon their travels to avoid financial stress.",
+        "D": "The author considers budgeting for digital nomads as a straightforward process with few complexities."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"variable income streams\" refer to in the context of digital nomadism?",
+      "options": {
+        "A": "Fluctuating exchange rates",
+        "B": "Irregular financial transactions from online payment systems",
+        "C": "Earnings that change depending on an individual's location and work schedule",
+        "D": "High costs of living in certain countries"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about budgeting for digital nomads?",
+      "options": {
+        "A": "The article provides tips on how to save money while traveling as a digital nomad.",
+        "B": "Budgeting as a digital nomad requires careful balance and adaptability due to variable income streams and fluctuating exchange rates.",
+        "C": "Digital nomads should prioritize saving 50% of their income for necessities, 30% for discretionary spending, and 20% for investment.",
+        "D": "The rise of remote work has made traditional employment obsolete."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

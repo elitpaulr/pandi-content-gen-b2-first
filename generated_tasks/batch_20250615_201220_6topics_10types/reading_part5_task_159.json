@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_159",
+  "title": "Will Remote Work Save or Sink the Economy?",
+  "topic": "business_and_work",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her coffee, Emily stared out at the unfamiliar skyline, trying to wrap her head around this new reality. She had traded in her daily commute for a quieter morning routine, but the benefits went far beyond just saving time and money on gas.\n\n\"Remote work is changing the game,\" Emily's colleague, Rachel, said over video conference. \"Not just for employees, but for entire cities and economies.\"\n\nEmily nodded enthusiastically, typing away at her laptop as they discussed the shift in workforce dynamics. With more people working from home, businesses were finding ways to adapt and thrive.\n\nAccording to a recent report by Gallup, remote work had increased by 159% over the past decade, with nearly one-third of employed adults working remotely either full-time or part-time. This seismic shift was having far-reaching consequences for local economies.\n\n\"In San Francisco alone, we're seeing a significant decrease in office space demand,\" said Emily's boss, Mark. \"That's forcing landlords to get creative and adapt their properties to accommodate growing industries like tech and healthcare.\"\n\nAs the city adjusted to its new role as a hub for innovation, residents were benefiting from increased economic activity. With more people working remotely, there was less congestion on roads, allowing local businesses to flourish.\n\n\"Take our neighborhood coffee shop,\" Emily said, referring to her favorite spot just around the corner. \"They've seen a 25% increase in sales since we started working from home.\"\n\nRachel chuckled. \"It's not just about the caffeine fix – it's about fostering community and connection among remote workers.\"\n\nEmily nodded, thinking about all the impromptu coffee breaks she'd taken with colleagues over the years. As their work-from-home arrangements continued to grow, so did the importance of face-to-face interactions.\n\nThe economic impact wasn't limited to urban centers either. With reduced overhead costs and increased flexibility, businesses were expanding into rural areas, where affordable housing and lower living costs made it easier for remote workers to set up shop.\n\n\"This is a game-changer for our local economy,\" said Sarah, a small business owner from rural Oregon. \"We've seen an influx of entrepreneurs setting up virtual offices and hiring local talent – it's like a mini-economic boom.\"\n\nAs the world continued to adjust to this new normal, one thing was clear: remote work was rewriting the rules on economic growth.\n\n\"It's not just about where we work,\" Mark said thoughtfully. \"It's about how we work – and what that means for our communities and our planet.\"\n\nEmily smiled, tapping her pen against her laptop keyboard as she pondered the implications of this seismic shift. The future was uncertain, but one thing was clear: with remote work leading the charge, the economic landscape would never be the same.\n\nAs the video conference drew to a close, Emily felt a sense of excitement and purpose wash over her. She wasn't just working from home – she was part of something much bigger than that.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about local businesses in urban centers after the shift to remote work?",
+      "options": {
+        "A": "They are struggling financially due to reduced customer traffic",
+        "B": "They are thriving and experiencing increased sales, thanks to remote workers' coffee breaks and lunches",
+        "C": "They have closed down altogether, unable to adapt to the new reality",
+        "D": "They are no longer reliant on office space rentals as a source of income"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"seismic\" mean in this context?",
+      "options": {
+        "A": "Extremely expensive",
+        "B": "Of great importance and influence, making a significant impact",
+        "C": "Relating to earthquakes or volcanic eruptions",
+        "D": "Causing financial losses for businesses"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the Gallup report mentioned in the text, what percentage increase has there been in remote work over the past decade?",
+      "options": {
+        "A": "100%",
+        "B": "159%",
+        "C": "200%",
+        "D": "300%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards the economic impact of remote work on local businesses?",
+      "options": {
+        "A": "It has a negative impact and will lead to job losses.",
+        "B": "It has a positive impact, increasing sales and fostering community connections.",
+        "C": "It has no significant effect on local economies and businesses.",
+        "D": "It is a temporary solution that will eventually revert back to traditional office work."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"their neighborhood coffee shop\" refer to in the text?",
+      "options": {
+        "A": "The coffee shop where Emily's boss, Mark, meets clients",
+        "B": "The coffee shop just around the corner from Emily's home",
+        "C": "A large office building in downtown San Francisco",
+        "D": "A popular coffee chain with multiple locations"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about remote work?",
+      "options": {
+        "A": "The impact of remote work on urban centers has been largely negative.",
+        "B": "Remote work is having a significant and positive economic impact on both cities and rural areas.",
+        "C": "The shift to remote work is causing a decline in office space demand, but no other benefits.",
+        "D": "The rise of remote work will lead to widespread job losses in the near future."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

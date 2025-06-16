@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_143",
+  "title": "Living Abroad on a Shoestring: Budgeting Hacks for Digital Nomads",
+  "topic": "technology",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "As a digital nomad, living life on your own terms is exhilarating, but keeping track of your finances can be overwhelming. From managing multiple currencies to navigating unpredictable income streams, staying within budget is a constant challenge.\n\nThe freedom to roam the world, working remotely from exotic locations and experiencing new cultures, is a dream come true for many. However, it's essential to maintain financial stability amidst the excitement. Digital nomads often face unique budgeting dilemmas due to their global lifestyle. Here are some practical tips to help you manage your finances effectively.\n\n**Tracking Expenses**\n\nOne of the most significant challenges digital nomads face is tracking expenses in different currencies and locations. It's easy to get caught up in the moment and forget to record purchases, especially when exploring new places. To avoid overspending, use budgeting apps like Mint or Personal Capital that allow you to track your expenses across multiple currencies. These tools also enable you to set budgets, monitor spending habits, and receive alerts when you exceed certain limits.\n\n**Budgeting Strategies**\n\nEffective budgeting requires a flexible approach, considering the unpredictability of digital nomad life. Allocate 50% of your income towards necessities like accommodation, food, and transportation. Reserve 30% for discretionary spending, such as entertainment, travel, or personal indulgences. Set aside the remaining 20% for savings, emergencies, and long-term investments.\n\n**Managing Multiple Currencies**\n\nAs a digital nomad, you'll encounter various currencies during your travels. To minimize exchange rate losses, use credit cards that don't charge foreign transaction fees. Consider opening a borderless bank account with companies like TransferWise or Revolut, which offer competitive exchange rates and lower fees than traditional banks.\n\n**Income Inequality**\n\nDigital nomads often experience fluctuations in income due to factors like project completion, client cancellations, or irregular payment schedules. To mitigate these uncertainties, create an emergency fund that covers 3-6 months of living expenses. This safety net will give you peace of mind and allow you to focus on your work without financial stress.\n\n**Healthcare and Insurance**\n\nRegular healthcare check-ups and insurance are essential for digital nomads, as they often don't have access to employer-sponsored benefits. Research local healthcare options in each country, and consider purchasing travel insurance that covers medical expenses, trip cancellations, or interruptions.\n\n**Community Support**\n\nJoining online communities of fellow digital nomads can be a great way to share budgeting tips, advice, and experiences. Websites like Nomad List or Facebook groups dedicated to remote work offer valuable insights into managing finances on the go.\n\n**Staying Organized**\n\nTo maintain financial stability while living an unconventional lifestyle, it's crucial to stay organized. Use digital tools like Google Drive, Trello, or Evernote to keep track of receipts, invoices, and financial documents. Set reminders for bill payments, tax deadlines, or important financial milestones.\n\nBudgeting as a digital nomad requires creativity, flexibility, and attention to detail. By implementing these practical tips, you'll be better equipped to manage your finances effectively, enjoy the benefits of remote work, and maintain a stress-free lifestyle on the move.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What percentage of income should digital nomads allocate towards discretionary spending?",
+      "options": {
+        "A": "40%",
+        "B": "50%",
+        "C": "30%",
+        "D": "60%"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for digital nomads' income streams to be \"unpredictable\"?",
+      "options": {
+        "A": "Regularly stable",
+        "B": "Constantly fluctuating due to various factors",
+        "C": "Earning only during peak travel seasons",
+        "D": "Always increasing with every new project"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of digital nomads' income should they allocate towards discretionary spending?",
+      "options": {
+        "A": "10%",
+        "B": "30%",
+        "C": "50%",
+        "D": "60%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards managing finances as a digital nomad?",
+      "options": {
+        "A": "It's a simple task that requires minimal effort",
+        "B": "It's a constant challenge that demands creativity and flexibility",
+        "C": "It's not necessary for those who have high-paying remote jobs",
+        "D": "It's only important when traveling to certain countries"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"these\" refer to in the sentence \"Use budgeting apps like Mint or Personal Capital that allow you to track your expenses across multiple currencies. These tools also enable you to set budgets, monitor spending habits, and receive alerts when you exceed certain limits\"?",
+      "options": {
+        "A": "The two budgeting apps mentioned (Mint or Personal Capital)",
+        "B": "The different currencies used by digital nomads",
+        "C": "The tips provided in the article for managing finances effectively",
+        "D": "The features of the budgeting apps mentioned"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about budgeting for digital nomads?",
+      "options": {
+        "A": "The benefits of being a digital nomad outweigh the challenges of managing finances.",
+        "B": "Digital nomads need to be creative and flexible when it comes to budgeting due to their unique lifestyle.",
+        "C": "There are no specific tips or strategies that can help digital nomads manage their finances effectively.",
+        "D": "Staying organized is the most important aspect of budgeting for digital nomads."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

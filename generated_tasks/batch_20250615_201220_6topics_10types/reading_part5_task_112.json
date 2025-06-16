@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_112",
+  "title": "Unlocking the World of Cryptocurrency: A Beginner's Guide to Digital Wealth",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "The world of cryptocurrency has taken the financial markets by storm in recent years. With its promise of decentralization, security, and anonymity, it's no wonder why many people are turning to crypto as a viable investment option. However, for beginners, navigating this complex landscape can be daunting. In this article, we'll take a closer look at what cryptocurrency is, how it works, and provide some practical tips for getting started.\n\n**What is Cryptocurrency?**\n\nCryptocurrency is a digital or virtual currency that uses cryptography (secret codes) to secure and verify transactions. It's decentralized, meaning that it's not controlled by any government or financial institution, but rather exists on a global network of computers. Think of it like the internet, but instead of websites, you're dealing with money.\n\nThe most well-known cryptocurrency is Bitcoin, which was launched in 2009. Since then, hundreds of other cryptocurrencies have emerged, each with its own unique features and uses. Some popular alternatives to Bitcoin include Ethereum, Litecoin, and Ripple.\n\n**How Does Cryptocurrency Work?**\n\nCryptocurrencies use a technology called blockchain to record transactions. The blockchain is like a digital ledger that's maintained by a network of computers around the world. When a transaction takes place, it's broadcast to this network and verified using complex algorithms. Once verified, the transaction is added to the blockchain, creating a permanent and unalterable record.\n\nHere's an example of how it works:\n\nLet's say you want to send 1 Bitcoin to your friend. You would initiate the transfer by entering your friend's public address (like a bank account number) and the amount you want to send. The transaction is then broadcast to the network, where it's verified by powerful computers using complex algorithms. Once verified, the transaction is added to the blockchain, and the Bitcoin is transferred to your friend's wallet.\n\n**Getting Started with Cryptocurrency**\n\nSo, how do you get started with cryptocurrency? Here are some practical tips for beginners:\n\n1. **Choose a Wallet:** A digital wallet is where you'll store your cryptocurrencies. There are two types of wallets: hot wallets (connected to the internet) and cold wallets (not connected to the internet). Choose a reputable provider that offers both options.\n2. **Select a Brokerage:** You can buy cryptocurrency through online brokerages like Coinbase, Binance, or Kraken. These platforms allow you to purchase cryptocurrencies using fiat currency (like US dollars).\n3. **Learn About Different Cryptocurrencies:** With so many options available, it's essential to do your research and learn about different cryptocurrencies before investing.\n4. **Start Small:** Don't put all your eggs in one basket! Start with a small investment and gradually increase as you become more comfortable with the market.\n\n**Security Tips**\n\nAs with any investment, there are risks associated with cryptocurrency. Here are some security tips to keep in mind:\n\n1. **Use Strong Passwords:** Use unique and complex passwords for your digital wallet and brokerage accounts.\n2. **Enable Two-Factor Authentication:** Add an extra layer of security by enabling two-factor authentication (2FA) on your accounts.\n3. **Keep Your Wallet Up-to-Date:** Regularly update your digital wallet to ensure you have the latest security patches.\n\n**Conclusion**\n\nCryptocurrency can be a complex and intimidating topic, but with practice and patience, it's accessible to anyone. By understanding how cryptocurrency works, choosing a reputable provider, and following basic security tips, you'll be well on your way to navigating this exciting market. Whether you're an investor or simply curious about the world of crypto, there's never been a better time to get involved.\n\nAs the cryptocurrency landscape continues to evolve, one thing is certain: it's here to stay. So why not take the plunge and join the thousands of people around the world who are already reaping the benefits of this revolutionary technology?",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's opinion on cryptocurrency from the text?",
+      "options": {
+        "A": "They think it is a passing trend",
+        "B": "They believe it has the potential to revolutionize the financial industry",
+        "C": "They consider it a threat to traditional forms of currency",
+        "D": "They think it is only suitable for experienced investors"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"decentralized\" mean in the context of cryptocurrency, according to the article?",
+      "options": {
+        "A": "It is controlled by a single government or financial institution.",
+        "B": "It uses complex algorithms to secure and verify transactions.",
+        "C": "It exists on a global network of computers and is not controlled by any one entity.",
+        "D": "It can only be used for online transactions."
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of code does cryptocurrency use to secure and verify transactions?",
+      "options": {
+        "A": "Binary codes",
+        "B": "Cryptography (secret codes)",
+        "C": "HTML codes",
+        "D": "SQL codes"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What can be inferred about the author's attitude towards cryptocurrency for beginners?",
+      "options": {
+        "A": "The author is skeptical and warns readers to be cautious.",
+        "B": "The author presents a neutral, informative tone with no clear opinion.",
+        "C": "The author encourages readers to take risks and invest large amounts of money in cryptocurrency.",
+        "D": "The author believes that cryptocurrency can be intimidating but is ultimately accessible to anyone."
+      },
+      "correct_answer": "D",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"it\" refer to in the sentence \"With its promise of decentralization, security, and anonymity, it's no wonder why many people are turning to crypto as a viable investment option\"?",
+      "options": {
+        "A": "The benefits of cryptocurrency",
+        "B": "The promises made by cryptocurrency investors",
+        "C": "Cryptocurrency itself",
+        "D": "The reasons for investing in cryptocurrency"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of the article about cryptocurrency for beginners?",
+      "options": {
+        "A": "To explain the risks associated with investing in cryptocurrency",
+        "B": "To introduce readers to the basics of cryptocurrency and provide tips for getting started",
+        "C": "To compare different types of cryptocurrencies and recommend the best ones to invest in",
+        "D": "To discuss the potential uses of blockchain technology beyond cryptocurrency"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

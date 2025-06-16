@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_43",
+  "title": "Thriving on a Warmer Planet: Smart Strategies to Save Our Future",
+  "topic": "environment",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "**The Island of Rising Tides**\n\nLena stood on the worn wooden dock, gazing out at the sea that had once been her family's livelihood. Now, with the ocean levels rising, their small island was slowly drowning. The once-quaint beachside homes were now mere feet from the encroaching waves.\n\n\"You're thinking of relocating again?\" her father asked, his voice heavy with concern.\n\n\"It's not just about moving,\" Lena said, turning to face him. \"We need a plan for when we do leave. What are our options?\"\n\nHer father rubbed his temples. \"I've been trying to get some answers from the government. They keep talking about 'adaptation strategies' but I'm not sure what that means.\"\n\nLena's eyes lit up with understanding. She had been studying climate change in school and knew exactly what her father was asking for.\n\n\"Adaptation strategies are like... coping mechanisms,\" she began, trying to explain it simply. \"They're ways for communities to adjust to the changing environment without totally disrupting their lives.\"\n\nHer father raised an eyebrow. \"And how do we find these magic solutions?\"\n\n\"Well,\" Lena started, taking a deep breath, \"one strategy is called sea walls or dunes. We can build barriers between our homes and the ocean to protect them from erosion. Or, in some cases, we can even restore natural habitats like mangroves that help absorb wave energy.\"\n\n\"But what about when they get washed away?\" her father asked skeptically.\n\n\"Ah, that's where 'green infrastructure' comes in,\" Lena said with a smile. \"Instead of building permanent structures, we can use plants and trees to stabilize the soil and prevent erosion. It's like natural armor!\"\n\nHer father looked intrigued despite himself. \"And what about our agriculture? We've got crops to tend.\"\n\nLena nodded vigorously. \"That's where 'agroforestry' comes in – integrating trees into farming systems. Not only do they provide shade, but the roots also help prevent soil erosion. And when the plants get old and die, we can plant new ones on top of them. It's like a natural cycle!\"\n\nAs Lena spoke, her father's expression shifted from skepticism to consideration. For the first time in months, he looked hopeful.\n\n\"Okay,\" he said softly. \"Maybe there is hope for us after all.\"\n\nTheir conversation was interrupted by a loud shout from a neighbor. A massive storm surge had hit, flooding their small homes and washing away what little belongings they had left.\n\nAs they worked together to salvage what was left, Lena realized that adaptation strategies weren't just about saving the island – it was about preserving their culture, way of life, and future as well. They needed a new approach, one that balanced short-term survival with long-term sustainability.\n\nAs the sun dipped below the horizon, casting a golden glow over the turbulent waters, Lena knew she'd found her calling: to help her community adapt to climate change, not just survive it.\n\nThe days that followed were a blur of planning meetings and discussions about green infrastructure. But for Lena, something shifted within her. She realized that even in the face of uncertainty, there was still room for hope – as long as she was willing to get her hands dirty and fight for their future.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does Lena's father seem to be worried about at first when discussing adaptation strategies with his daughter?",
+      "options": {
+        "A": "That they won't work quickly enough to save the island",
+        "B": "That they will disrupt the community's way of life",
+        "C": "That they are too expensive for their small island",
+        "D": "That they won't be effective in the face of a massive storm surge"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"agroforestry\" mean in this text?",
+      "options": {
+        "A": "Planting trees on top of each other",
+        "B": "Integrating trees into farming systems to prevent soil erosion",
+        "C": "Building green infrastructure using only plants and trees",
+        "D": "Rebuilding homes with sustainable materials after a flood"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one example of a natural barrier that can help absorb wave energy?",
+      "options": {
+        "A": "Sea walls or dunes",
+        "B": "Mangroves",
+        "C": "Trees in urban parks",
+        "D": "Dams on rivers"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author's tone suggest about Lena's attitude towards adapting to climate change?",
+      "options": {
+        "A": "She is pessimistic about the island's chances of survival.",
+        "B": "She is enthusiastic about finding solutions that balance short-term needs with long-term sustainability.",
+        "C": "She is detached from her family's struggles and concerned only with her own interests.",
+        "D": "She believes it's too late to make a difference in addressing climate change."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the conversation between Lena and her father about climate change adaptation strategies?",
+      "options": {
+        "A": "The government's lack of action on climate change is causing problems for Lena's community.",
+        "B": "Climate change is threatening Lena's family's livelihood, but they can find ways to adapt with the right planning.",
+        "C": "Lena thinks that moving away from the island is the only solution to their problem.",
+        "D": "Lena is disappointed by her father's skepticism about climate change."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "environment_sustainability"
+}

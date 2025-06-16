@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_53",
+  "title": "The Shocking Truth About Your Favorite Brands: Sustainable Fashion Revealed",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she rummaged through her grandmother's old trunk, Emilia couldn't help but feel a pang of guilt every time she picked up an item that had been discarded. The once-trendy tops with faded logos, the worn-out jeans with frayed hems, and the delicate lace dresses with yellowed edges – all testaments to a bygone era of fast fashion. Her grandmother's words echoed in her mind: \"You should never waste anything, child. Every thread has a story to tell.\"\n\nEmilia's eyes landed on an old photograph of her great-grandmother, dressed to the nines in a 1920s flapper dress, beaded and sequined with precision. She recalled her grandmother's tales of making do with what they had, repurposing fabric scraps into doll dresses or using leftover threads to mend worn-out socks. The more she delved into the trunk, the more Emilia realized that her family's values were rooted in a different era – one where thriftiness and resourcefulness reigned supreme.\n\nFast-forward to the present day, and Emilia found herself drowning in a sea of disposable fashion. She scrolled through Instagram feeds filled with models flaunting designer pieces, influencers peddling fast-fashion trends, and celebrities endorsing eco-unfriendly brands. The pressure was overwhelming: keep up or get left behind. But at what cost? Emilia couldn't shake off the feeling that her generation was perpetuating a cycle of waste and excess.\n\nShe began to dig deeper into the world of sustainable fashion, devouring articles on minimalism, zero-waste living, and second-hand shopping. It wasn't easy – every click revealed another layer of complexity, from the carbon footprint of production to the staggering statistics on textile waste. But as she pored over blogs and interviews with industry insiders, Emilia started to see the world in a different light.\n\nShe met with local designers who were redefining the concept of sustainability: using organic materials, repurposing vintage fabrics, and even incorporating 3D printing into their collections. Their stories were inspiring – tales of innovation and perseverance that challenged the status quo. There was Maria, a young designer who had spent years perfecting her zero-waste pattern-cutting techniques; Jake, an entrepreneur who had created a line of clothing made from plastic waste collected from oceans; and Rachel, a knitwear expert who wove garments from repurposed yarns.\n\nAs Emilia listened to their experiences, she began to grasp the enormity of the problem. Fashion, once a creative outlet for self-expression, had become an engine of consumption – perpetuating a cycle of disposability that ravaged the environment and exploited workers. The statistics were staggering: each American generates 82 pounds of textile waste per year; fast fashion's carbon footprint is projected to reach 26% of global greenhouse gas emissions by 2050.\n\nBut amidst this sea of despair, Emilia saw glimmers of hope. People were starting to wake up – consumers and designers alike – demanding change from the industry. The rise of second-hand shopping apps, sustainable labeling initiatives, and environmentally conscious certifications was a sign that the tide was shifting. Brands like Patagonia, Reformation, and Everlane were pioneering new approaches: using recycled materials, implementing circular business models, and promoting transparency in supply chains.\n\nAs Emilia closed her grandmother's trunk, she felt a sense of resolve wash over her. She knew that changing the world wouldn't happen overnight – but with every small step towards sustainability, she could make a difference. Her great-grandmother's words echoed once more: \"You should never waste anything, child. Every thread has a story to tell.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Emilia's grandmother from her words?",
+      "options": {
+        "A": "She was a fashion designer who sold her designs online.",
+        "B": "She valued thriftiness and resourcefulness above all else.",
+        "C": "She believed in wasting resources to keep up with the latest trends.",
+        "D": "She only wore expensive, high-end clothing."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for something to be \"testaments\"?",
+      "options": {
+        "A": "A type of fabric used in clothing",
+        "B": "Evidence or proof that something existed",
+        "C": "A method of repurposing old materials",
+        "D": "A fashion trend from a particular era"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the estimated percentage of global greenhouse gas emissions that fast fashion is projected to reach by 2050?",
+      "options": {
+        "A": "10%",
+        "B": "26%",
+        "C": "40%",
+        "D": "50%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Emilia's attitude towards fast fashion?",
+      "options": {
+        "A": "She thinks it's an essential part of self-expression and creativity.",
+        "B": "She feels guilty about buying into it despite her family's values.",
+        "C": "She believes it's a harmless trend that can be easily discarded.",
+        "D": "She considers it a necessary evil in modern society."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"them\" refer to in the sentence: \"People were starting to wake up – consumers and designers alike – demanding change from the industry\"?",
+      "options": {
+        "A": "The local designers Emilia met with",
+        "B": "Her grandmother's old trunk and its contents",
+        "C": "Consumers and designers who are part of the fashion industry",
+        "D": "The statistics on textile waste mentioned earlier in the text"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is Emilia trying to achieve through her exploration of sustainable fashion?",
+      "options": {
+        "A": "To become a successful fashion designer",
+        "B": "To change the way people think about and consume fashion",
+        "C": "To start her own fast-fashion brand",
+        "D": "To learn how to make clothes from scratch"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

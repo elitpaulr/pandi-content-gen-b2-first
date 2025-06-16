@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_115",
+  "title": "Blockchain Passport: Your Journey to Cryptocurrency Freedom Starts Here!",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As we stepped into the bustling streets of Tokyo, I couldn't help but feel a sense of excitement and trepidation. We were on a mission to explore the world of cryptocurrency, a realm that was both familiar and foreign to us. Like tourists in an unfamiliar land, we had brought with us a backpack full of questions and a hunger for knowledge.\n\nOur first stop was the Tokyo Stock Exchange, where we met with a wise guide named Hiro. With a twinkle in his eye, he began to explain the basics of cryptocurrency. \"Think of it like a digital cash system,\" he said, \"where transactions are recorded on a public ledger called the blockchain.\" I scribbled furiously in my notebook as Hiro explained that this decentralized system allowed for peer-to-peer transactions without the need for intermediaries.\n\nAs we walked through the streets of Tokyo, I couldn't help but notice the eerie silence. Everyone was staring at their phones, their eyes fixed on the screens with a look of intense focus. It dawned on me that they were all engaged in online trading, buying and selling cryptocurrencies like Bitcoin and Ethereum. The air was electric with activity, as if the very fate of the world hung in the balance.\n\nWe made our way to a small café, where we met with a group of cryptocurrency enthusiasts. They introduced themselves as \"crypto-savvy\" individuals, with a deep understanding of the intricacies of blockchain technology. Over steaming cups of coffee, they explained the concept of mining, where powerful computers solve complex mathematical problems to validate transactions and create new coins.\n\nAs I listened intently, I realized that cryptocurrency was not just a financial instrument but also an ideological movement. It represented a rejection of traditional power structures and a desire for decentralization. The enthusiasts spoke with passion about the potential of cryptocurrency to empower individuals and bring about social change.\n\nBut amidst all this excitement, I couldn't shake off the feeling of unease. Like any new frontier, the world of cryptocurrency was fraught with risks. We heard stories of scams and Ponzi schemes, where unsuspecting investors lost their life savings. The market was notoriously volatile, with prices fluctuating wildly like a rollercoaster.\n\nAs we continued our journey, we visited a number of cryptocurrency exchanges, each one more bewildering than the last. Like a maze, they offered multiple trading platforms, wallets, and payment options. I felt overwhelmed by the sheer complexity of it all, as if I was navigating an uncharted territory without a map.\n\nYet, amidst the chaos, there were moments of beauty and simplicity. A young trader named Yui shared with us her experience of using cryptocurrency to send money to her family in rural Japan. With a smile, she explained how it had empowered them to access global markets and improve their standard of living.\n\nAs our journey came to an end, I reflected on what we had learned. Cryptocurrency was not just a financial system but also a cultural phenomenon. It represented a desire for freedom, autonomy, and connection in a world increasingly fragmented by technology.\n\nLike any traveler returning from a foreign land, I felt changed by my experience. The world of cryptocurrency had opened my eyes to new possibilities and challenges. As I looked out at the Tokyo skyline, I knew that this was only the beginning of our journey into the unknown.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Yui's family from her experience with using cryptocurrency?",
+      "options": {
+        "A": "They were struggling to make ends meet and relied heavily on Yui for financial support.",
+        "B": "They had limited access to traditional banking services, making cryptocurrency a valuable option.",
+        "C": "They were skeptical of cryptocurrency and only used it because Yui persuaded them to.",
+        "D": "They were wealthy investors who saw cryptocurrency as a way to diversify their portfolios."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"decentralized\" mean in the context of cryptocurrency?",
+      "options": {
+        "A": "Controlled by a single person or organization",
+        "B": "Operated using a public ledger called the blockchain",
+        "C": "Free from government regulation and oversight",
+        "D": "Limited to transactions between individuals within a specific country"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Hiro, what is a key characteristic of the blockchain in the context of cryptocurrency?",
+      "options": {
+        "A": "It is a private ledger used for storing sensitive information",
+        "B": "It is a public ledger that records transactions digitally",
+        "C": "It is a centralized system managed by a single entity",
+        "D": "It is an offline system used for security purposes"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author's attitude towards cryptocurrency suggest?",
+      "options": {
+        "A": "The author is extremely enthusiastic and optimistic about the future of cryptocurrency.",
+        "B": "The author views cryptocurrency as a revolutionary force for social change, but also acknowledges its risks and complexities.",
+        "C": "The author is dismissive and critical of the concept of cryptocurrency, seeing it as a fad with no real value.",
+        "D": "The author is neutral and impartial, providing a purely factual account of the world of cryptocurrency."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who was the wise guide who explained the basics of cryptocurrency to the narrator?",
+      "options": {
+        "A": "A young trader named Yui",
+        "B": "Hiro, a member of a group of cryptocurrency enthusiasts",
+        "C": "A fellow tourist in Tokyo",
+        "D": "The narrator's friend from back home"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the author's experience with cryptocurrency?",
+      "options": {
+        "A": "Cryptocurrency is a financial system that is easy to understand and use.",
+        "B": "The world of cryptocurrency represents a desire for freedom, autonomy, and connection in a fragmented world.",
+        "C": "The author was disappointed by the complexity and risks involved in cryptocurrency trading.",
+        "D": "The author's experience with cryptocurrency was solely focused on its technical aspects."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

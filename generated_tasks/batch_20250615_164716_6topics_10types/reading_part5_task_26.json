@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_26",
+  "title": "Money Makes the World Go Round: A Young Adventurer's Guide to Financial Freedom",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Tokyo, the vibrant city welcomed me with open arms. But as a young adult, I had another destination on my mind – Financial Literacy Land. It was a place where young minds could learn to navigate the complexities of money management, and I was determined to explore its wonders.\n\nMy journey began at the Bank of Knowledge, where I met a wise guide named Ms. Nakamura. She showed me around the vast library filled with books on personal finance, investing, and budgeting. The shelves seemed endless, but Ms. Nakamura knew exactly which ones to pick up first. \"Start with the basics,\" she said, handing me a book titled 'The Intelligent Investor'. I began to read, devouring every word like a hungry traveler at a roadside restaurant.\n\nAs I delved deeper into Financial Literacy Land, I encountered many fascinating sights and experiences. At the Credit Card Canyon, I learned about the perils of overspending and the importance of credit scores. A wise old sage named Mr. Tanaka shared his tale of how he had fallen prey to credit card debt in his youth, but had since recovered through discipline and smart budgeting.\n\nIn the town square, I saw a group of young people gathered around a large screen displaying real-time market data. They were enthusiastically discussing the latest trends in cryptocurrency and stocks. A kind old man approached me and introduced himself as Sensei – a master investor with years of experience under his belt. He offered words of wisdom on diversification and risk management, which I eagerly absorbed like a sponge.\n\nAs I wandered through the city, I encountered numerous street performers showcasing their financial skills. One group was doing an impressive juggling act with various types of debts – credit card debt, student loans, and mortgages. Another troupe was performing a dance routine that highlighted the importance of saving for retirement and emergency funds.\n\nOne evening, I found myself at a cozy café sipping matcha latte while listening to a young woman named Yui share her story of financial freedom. She had always been interested in personal finance and had started reading books on the subject when she was just 19. Through diligent effort and smart investments, she had become financially independent by the age of 25.\n\nAs I sat there, mesmerized by Yui's words, I realized that Financial Literacy Land wasn't just a place – it was a state of mind. It required dedication, discipline, and a willingness to learn from one's mistakes. The people I met along the way were all on different journeys, but they shared a common goal: to become financially literate and free.\n\nMy stay in Financial Literacy Land came to an end, but its lessons lingered with me like the sweet aroma of matcha wafting through the streets. As I prepared to leave, Ms. Nakamura handed me a small gift – a book on investing that she had written herself. \"Remember,\" she said, \"financial literacy is a lifelong journey. Keep learning, and you'll find your own path to financial freedom.\"\n\nAs I boarded my flight back home, I felt grateful for the incredible experiences I had accumulated during my time in Financial Literacy Land. The city might have been thousands of miles away, but its lessons would stay with me forever – guiding me through the twists and turns of adulthood, and helping me navigate the complex world of personal finance.\n\nThe plane took off, leaving the vibrant streets of Tokyo behind. But as I looked out the window, I knew that Financial Literacy Land would always be with me – a place where young adults could come to learn, grow, and find their own path to financial freedom.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can we infer about Ms. Nakamura's relationship with personal finance?",
+      "options": {
+        "A": "She is struggling with debt",
+        "B": "She has written several books on investing",
+        "C": "She is a young adult who is just beginning to learn about money management",
+        "D": "She is an experienced investor and mentor to others"
+      },
+      "correct_answer": "D",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Ms. Nakamura mean by \"Start with the basics\" when she hands you the book 'The Intelligent Investor'?",
+      "options": {
+        "A": "To begin making investments",
+        "B": "To learn about the perils of overspending and credit card debt",
+        "C": "To start reading books on personal finance, investing, and budgeting from scratch",
+        "D": "To take out a loan to buy a house"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What was the title of the book Ms. Nakamura handed to the narrator at the beginning of her journey?",
+      "options": {
+        "A": "'The Art of Saving'",
+        "B": "'The Intelligent Investor'",
+        "C": "'The Path to Financial Freedom'",
+        "D": "'Managing Your Money'"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards learning about personal finance?",
+      "options": {
+        "A": "It's a chore that must be done reluctantly",
+        "B": "It's an exciting adventure that requires dedication and discipline",
+        "C": "It's a waste of time, as most people won't benefit from it",
+        "D": "It's something only wealthy people need to worry about"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"the Credit Card Canyon\" refer to in the text?",
+      "options": {
+        "A": "A popular tourist attraction in Tokyo",
+        "B": "A place where visitors can learn about credit scores and avoid debt",
+        "C": "A location where visitors can experience the city's vibrant nightlife",
+        "D": "A natural wonder of Japan"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of the author's journey to \"Financial Literacy Land\"?",
+      "options": {
+        "A": "To describe the author's experiences as a tourist in Tokyo",
+        "B": "To provide tips on how to avoid debt and overspending",
+        "C": "To explore the importance of financial literacy for young adults and promote lifelong learning",
+        "D": "To compare different investing strategies"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

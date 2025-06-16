@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_06",
+  "title": "Mastering Money: Young Adults' Guide to Financial Freedom",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**Financial Literacy: The Missing Piece in Young Adults' Lives**\n\nAs young adults venture into the world of adulthood, they are often unprepared to handle the complexities of personal finance. Financial literacy, a critical life skill, is frequently overlooked in school curricula and left to chance. This lack of knowledge can lead to poor financial decisions, debt, and stress, ultimately affecting their overall well-being.\n\nA survey conducted by the National Foundation for Credit Counseling found that nearly 60% of young adults consider themselves financially illiterate. This staggering statistic is a wake-up call for educators, parents, and policymakers to prioritize financial education in schools and communities.\n\nFinancial literacy encompasses basic concepts such as budgeting, saving, investing, and managing debt. It involves understanding the difference between needs and wants, recognizing the importance of credit scores, and making informed decisions about loans, credit cards, and other financial products. Young adults need these skills to navigate the increasingly complex financial landscape.\n\nOne of the primary reasons young adults struggle with financial literacy is due to a lack of practical experience. Many have never balanced a checkbook or written a budget. They may not understand the concept of compound interest or how to invest in a 401(k) plan. This void in knowledge leads to impulsive decisions, such as overspending on luxury items or accumulating high-interest debt.\n\nHowever, there are resources available to help young adults improve their financial literacy. Online platforms like Dave Ramsey's Financial Peace University and the National Endowment for Financial Education (NEFE) offer comprehensive guides, videos, and interactive tools. These resources provide step-by-step instructions and practical advice on topics such as creating a budget, paying off debt, and building credit.\n\nSchools and educators can also play a vital role in promoting financial literacy among young adults. By incorporating personal finance into the curriculum, students will gain essential knowledge and skills to manage their finances effectively. Some schools have implemented innovative programs, such as mock stock markets or peer-to-peer lending simulations, to make learning more engaging and relevant.\n\nParents and guardians can also contribute to their children's financial education by modeling responsible behavior and having open conversations about money management. By sharing their own experiences and lessons learned, they can help young adults develop a healthy relationship with money and avoid costly mistakes.\n\nIn addition to individual efforts, policymakers and lawmakers must address the issue of financial literacy on a larger scale. Governments can allocate funds for financial education programs, encourage employers to offer financial wellness benefits, and create legislation that promotes transparency in financial services.\n\nFinancial literacy is not just about numbers; it's about achieving long-term goals, reducing stress, and improving overall well-being. Young adults must be equipped with the knowledge and skills to navigate the complexities of personal finance. By prioritizing financial education, we can empower the next generation to make informed decisions, achieve financial stability, and thrive in an increasingly uncertain economy.\n\nAs a society, it's time to acknowledge the importance of financial literacy and take collective action to address this pressing issue. By doing so, we can help young adults build a stronger financial foundation, reduce debt, and improve their overall quality of life.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what percentage of young adults consider themselves financially illiterate?",
+      "options": {
+        "A": "20%",
+        "B": "30%",
+        "C": "Nearly 60%",
+        "D": "Over 70%"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word \"encompasses\" mean in the text?",
+      "options": {
+        "A": "Includes all aspects",
+        "B": "Leaves out important details",
+        "C": "Ignores major concepts",
+        "D": "Is limited to a few examples"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the survey conducted by the National Foundation for Credit Counseling, what percentage of young adults consider themselves financially illiterate?",
+      "options": {
+        "A": "40%",
+        "B": "50%",
+        "C": "55%",
+        "D": "60%"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the state of financial education for young adults?",
+      "options": {
+        "A": "The author believes that young adults are generally financially literate and only need to learn more advanced concepts.",
+        "B": "The author thinks that financial literacy is not a critical life skill and can be learned through experience alone.",
+        "C": "The author is concerned about the lack of financial knowledge among young adults and believes it affects their overall well-being.",
+        "D": "The author suggests that schools are doing enough to teach financial literacy, but parents and policymakers need to step in."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"impulsive decisions\" refer to in the text?",
+      "options": {
+        "A": "The need for more education on personal finance",
+        "B": "Young adults' tendency to overspend on luxury items or accumulate high-interest debt",
+        "C": "The importance of credit scores in financial literacy",
+        "D": "The role of schools and educators in promoting financial literacy"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of the text about financial literacy for young adults?",
+      "options": {
+        "A": "To provide tips on how to balance a checkbook",
+        "B": "To emphasize the importance of financial education in schools and communities",
+        "C": "To explain the concept of compound interest",
+        "D": "To discuss the benefits of using online platforms for personal finance"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_03",
+  "title": "Master Your Money: 10 Essential Skills Every Young Adult Needs",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**Taking Control of Your Finances: Why Financial Literacy Matters**\n\nAs a young adult, you're likely to be bombarded with messages telling you to spend, spend, spend. Whether it's the latest fashion trends or the newest gadgets, it can be tempting to splurge on things that bring immediate gratification. But as you navigate your 20s and beyond, it's essential to develop financial literacy – the ability to manage your money effectively and make informed decisions about your financial future.\n\n**The Reality of Financial Illiteracy**\n\nUnfortunately, many young adults struggle with basic financial concepts. A survey by the National Foundation for Credit Counseling found that nearly 70% of millennials (born between 1981 and 1996) don't have a budget or emergency fund in place. This lack of financial literacy can lead to debt, stress, and even financial instability.\n\n\"I remember when I was in college, I thought I was saving money by living off ramen noodles,\" says Rachel, a 25-year-old marketing specialist. \"But looking back, I realize that I had no idea how much I was spending or where my money was going.\" Without a clear understanding of their finances, young adults can fall prey to debt traps like credit card balances and high-interest loans.\n\n**Building Financial Literacy**\n\nSo, where do you start? Developing financial literacy requires a combination of education, self-awareness, and discipline. Here are some essential skills to get you started:\n\n1. **Track your expenses**: Use a budgeting app or spreadsheet to record every single transaction, no matter how small. This will help you identify areas where you can cut back and allocate more resources towards long-term goals.\n2. **Create a budget**: Based on your income and expenses, create a realistic budget that allocates 50-30-20: 50% for necessities (rent, utilities), 30% for discretionary spending, and 20% for savings and debt repayment.\n3. **Prioritize needs over wants**: Distinguish between essential expenses (housing, food) and discretionary spending (dining out, entertainment). Make smart choices about what you can cut back on or delay.\n4. **Invest in yourself**: Develop skills that will increase your earning potential, such as learning a new language or taking online courses.\n\n**The Benefits of Financial Literacy**\n\nBy developing financial literacy, young adults can:\n\n1. **Reduce debt and build credit**: By making informed decisions about borrowing and repayment, you'll avoid costly interest rates and build a positive credit score.\n2. **Increase savings and investments**: With a clear understanding of your finances, you'll be able to allocate resources towards long-term goals like retirement or buying a home.\n3. **Manage stress and anxiety**: Financial stability can lead to reduced stress levels and improved mental well-being.\n\n**Conclusion**\n\nFinancial literacy is not just about numbers and spreadsheets – it's about taking control of your financial future. By developing essential skills, prioritizing needs over wants, and investing in yourself, you'll be better equipped to navigate the challenges of adulthood. As Rachel notes, \"I wish I had learned more about finances in college. It would have saved me so much time and stress in the long run.\" Don't wait until it's too late – start building your financial literacy today.\n\n**Additional Resources**\n\n* National Foundation for Credit Counseling: [www.nfcc.org](http://www.nfcc.org)\n* Financial Literacy Month (April): [www.financialliteracymonth.com](http://www.financialliteracymonth.com)\n\nBy taking the first steps towards financial literacy, you'll be well on your way to securing a stable and prosperous future.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to Rachel's experience, what can be inferred about her spending habits during college?",
+      "options": {
+        "A": "She had a budget in place, but didn't track her expenses.",
+        "B": "She spent most of her money on necessary expenses like rent and utilities.",
+        "C": "She was unaware of how much she was spending and where her money was going.",
+        "D": "She saved up for emergencies and had a clear understanding of her finances."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"immediate gratification\" mean in this text?",
+      "options": {
+        "A": "A long-term goal that requires patience",
+        "B": "A feeling of satisfaction or pleasure gained from doing something quickly",
+        "C": "A large amount of money earned through hard work",
+        "D": "A type of debt that is difficult to pay back"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the survey by the National Foundation for Credit Counseling, what percentage of millennials don't have a budget or emergency fund in place?",
+      "options": {
+        "A": "40%",
+        "B": "60%",
+        "C": "70%",
+        "D": "80%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the idea that young adults should prioritize short-term pleasure over long-term financial stability?",
+      "options": {
+        "A": "The author thinks it's a necessary part of growing up, but ultimately bad advice.",
+        "B": "The author believes it's a tempting trap, but one that can be avoided with financial literacy.",
+        "C": "The author argues that it's not a big deal and that young adults should focus on having fun.",
+        "D": "The author is critical of any message that encourages short-term pleasure over long-term stability."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who does Rachel say she had no idea how much she was spending or where her money was going when she lived off ramen noodles?",
+      "options": {
+        "A": "Her parents",
+        "B": "Her financial advisor",
+        "C": "Herself",
+        "D": "A survey by the National Foundation for Credit Counseling"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about financial literacy for young adults?",
+      "options": {
+        "A": "It highlights the benefits of financial literacy and provides tips for managing debt.",
+        "B": "The article argues that financial literacy is not important for young adults, as they can always learn to manage their finances later in life.",
+        "C": "Developing financial literacy requires a combination of education, self-awareness, and discipline, enabling young adults to take control of their financial future.",
+        "D": "Financial illiteracy is only a problem for low-income families."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

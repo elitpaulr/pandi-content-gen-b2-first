@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_09",
+  "title": "Mastering Money Magic: Smart Finances for Young Adults",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she walked into her economics class, Emily couldn't help but feel a sense of dread wash over her. She had always been terrible with numbers, and the thought of learning about finances made her stomach twist into knots.\n\nHer teacher, Ms. Patel, began to write on the board as Emily took her seat beside her friend, Alex. \"Today, we're going to talk about budgeting,\" Ms. Patel announced, her voice clear and enthusiastic.\n\nEmily groaned inwardly, thinking that this was exactly what she had been dreading. But as Ms. Patel started explaining the concept of needs versus wants, Emily began to feel a spark of interest ignite within her.\n\n\"Needs are essential expenses, like rent or groceries,\" Ms. Patel explained, \"while wants are things we want but don't necessarily need.\" She wrote an example on the board: \"Rent: $1,000; Groceries: $500; Want: Concert tickets.\"\n\nEmily scribbled down some notes as Alex leaned over to whisper in her ear, \"I know I spend way too much money on video games and snacks. Maybe this will help me cut back?\"\n\nAs Ms. Patel continued to explain the importance of prioritizing needs over wants, Emily found herself nodding along enthusiastically. She realized that she had been living paycheck-to-paycheck, never really thinking about her financial future.\n\nThe class then broke into small groups to practice creating their own budgets. Emily and Alex were paired together, and as they started filling out their budget worksheets, Emily was surprised at how much fun it actually was.\n\n\"I never thought I'd say this, but I'm actually enjoying this,\" Emily said with a grin, holding up her worksheet for Alex to see.\n\nAlex chuckled. \"Yeah, who knew that spreadsheets could be so exciting?\"\n\nAs they worked through their budget, Emily and Alex discussed their respective financial goals. Emily mentioned wanting to save up enough money to travel abroad next summer, while Alex expressed his desire to pay off his student loans early.\n\nMs. Patel circulated around the room, offering guidance and encouragement as needed. When she reached their table, she smiled at Emily's worksheet. \"You're doing great! Remember, budgeting is all about prioritizing what's most important to you.\"\n\nAfter class, Emily lingered behind with Alex, excitedly flipping through her notes. \"I never realized how much I was overspending on non-essentials,\" she said, her eyes wide with newfound understanding.\n\nAlex nodded enthusiastically. \"Yeah, me too! This financial literacy stuff is actually really cool once you get the hang of it.\"\n\nOver the next few weeks, Emily and Alex practiced what they learned in class, diligently tracking their expenses and making adjustments to their budget as needed. It wasn't always easy – there were times when Emily felt like giving up or Alex got frustrated with his lack of progress.\n\nBut slowly but surely, they began to see real changes in their financial lives. They started saving money for emergencies, investing in long-term plans, and enjoying the peace of mind that came with knowing where their money was going.\n\nAs Emily sat in her room one evening, reviewing her budget for the month, a sense of satisfaction washed over her. She realized that learning about finances wasn't just about numbers or spreadsheets – it was about taking control of her life and creating a brighter future for herself.\n\n\"You know, Alex,\" she said to her friend on the phone, \"I think I'm actually starting to enjoy this financial literacy thing.\"\n\nAlex chuckled on the other end. \"Yeah, me too! Who knew that learning about money could be so cool?\"\n\nEmily smiled, feeling a newfound sense of confidence and determination. She was excited to see where this new path would lead – and she knew that with every step forward, her financial literacy would only continue to grow stronger.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Emily's initial attitude towards learning about finances?",
+      "options": {
+        "A": "She was enthusiastic from the start",
+        "B": "She felt overwhelmed but still willing to try",
+        "C": "She struggled with numbers and found the topic boring",
+        "D": "She had no interest in learning and skipped classes"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for Emily's expenses to be \"overspending on non-essentials\"?",
+      "options": {
+        "A": "Spending too much money on things that are necessary for daily life",
+        "B": "Spending more than they earn, regardless of whether it's on essential or non-essential items",
+        "C": "Spending too much money on things that she wants but doesn't need",
+        "D": "Saving up all her money without spending anything at all"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How much is Emily's monthly rent?",
+      "options": {
+        "A": "$800",
+        "B": "$1,000",
+        "C": "$500",
+        "D": "$2,000"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Emily think about learning about finances at the beginning of the class?",
+      "options": {
+        "A": "She finds it extremely boring but useful",
+        "B": "She thinks it's going to be a waste of time and hates numbers",
+        "C": "It makes her stomach twist into knots, but she's interested in learning more",
+        "D": "She's been looking forward to it all week"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who did Emily feel a spark of interest ignite within her as Ms. Patel explained the concept of needs versus wants?",
+      "options": {
+        "A": "Her friend Alex",
+        "B": "Ms. Patel's colleague Mr. Johnson",
+        "C": "Emily herself",
+        "D": "The students in the class next door"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the story about Emily's experience learning about finances?",
+      "options": {
+        "A": "Emily struggles to understand the concept of needs versus wants and eventually gives up on budgeting.",
+        "B": "Emily discovers that learning about finances can be a fun and empowering experience.",
+        "C": "Emily's teacher, Ms. Patel, has a negative impact on her students' attitudes towards financial literacy.",
+        "D": "Emily becomes frustrated with budgeting and decides to focus on other aspects of her life."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

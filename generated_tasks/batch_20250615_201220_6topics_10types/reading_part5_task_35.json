@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_35",
+  "title": "Green Dollars, Clear Conscience: The Rise of Eco-Friendly Shopping",
+  "topic": "technology",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**The Shift Towards Sustainable Shopping: A Changing Mindset**\n\nIn today's world, consumers are becoming increasingly aware of the impact their purchasing decisions have on the environment and society. As concerns about climate change, waste management, and social inequality continue to rise, many people are adopting a more mindful approach to shopping. The shift towards sustainable shopping is gaining momentum, and it's not just about buying eco-friendly products; it's about making conscious choices that promote ethical consumption.\n\n**The Problem with Fast Fashion**\n\nFast fashion has become a major contributor to the world's environmental problems. The rapid production and disposal of cheap clothing result in massive amounts of waste, pollution, and carbon emissions. It's estimated that the average American generates 82 pounds of textile waste per year, with the majority coming from fast fashion brands. To put this into perspective, if we were to stop buying clothes for just one day a week, it would save enough energy to power 3 million homes.\n\n**The Rise of Sustainable Brands**\n\nIn response to growing consumer demand, many companies are adopting sustainable practices and incorporating eco-friendly materials into their products. Patagonia, for example, uses environmentally-friendly materials in their clothing line, such as recycled polyester and organic cotton. The company also encourages customers to repair and reuse their products through a \"Worn Wear\" program.\n\nAnother brand making waves is Everlane, which prioritizes transparency and sustainability in its production processes. The company provides detailed information about the environmental impact of each product and offers a recycling program for old garments. Everlane's commitment to sustainability has not only attracted environmentally-conscious consumers but also investors who share their values.\n\n**Beyond Products: The Importance of Supply Chains**\n\nWhile buying sustainable products is a step in the right direction, it's equally important to consider the supply chains behind these brands. Many companies have come under scrutiny for exploiting workers and perpetuating unfair labor practices. Brands like H&M and Zara have faced criticism for their poor working conditions and low wages.\n\nTo address this issue, some companies are implementing fair trade policies and partnering with suppliers who adhere to strict environmental and social standards. For example, the clothing brand People Tree works directly with small-scale farmers in developing countries to produce organic cotton and other eco-friendly materials.\n\n**The Role of Consumers**\n\nAs consumers, we have a significant impact on the industry's practices. By making informed choices, we can drive change from within. Here are some simple tips for adopting sustainable shopping habits:\n\n* Buy second-hand: Consider thrift stores, online marketplaces, or swapping clothes with friends to reduce waste.\n* Choose multi-use products: Invest in items that serve multiple purposes, such as a reusable water bottle or a scarf that doubles as a blanket.\n* Support local businesses: Shopping locally reduces carbon emissions and supports the community economy.\n\n**The Future of Sustainable Shopping**\n\nAs consumers become more aware of their purchasing power, companies are taking notice. Brands are incorporating sustainability into their business models, from product design to supply chains. Governments and policymakers are also starting to take action, implementing laws and regulations that promote sustainable practices.\n\nWhile there's still much work to be done, the shift towards sustainable shopping is gaining momentum. As consumers, we have a responsibility to make conscious choices that benefit not only ourselves but also the planet and its inhabitants. By embracing sustainable shopping habits, we can create a more equitable and environmentally-friendly future for all.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if people continue to buy clothes at the same rate as before?",
+      "options": {
+        "A": "The amount of textile waste will decrease significantly.",
+        "B": "Companies will increase their use of eco-friendly materials.",
+        "C": "The environmental impact of fast fashion will remain unchanged.",
+        "D": "The industry's demand for sustainable practices will grow."
+      },
+      "correct_answer": "D",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"mindful\" mean in the context of shopping?",
+      "options": {
+        "A": "To buy products without thinking about their impact on the environment",
+        "B": "To make conscious choices that take into account the social and environmental consequences of one's purchasing decisions",
+        "C": "To prioritize luxury brands over affordable options",
+        "D": "To shop only online"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many pounds of textile waste does the average American generate per year?",
+      "options": {
+        "A": "40 pounds",
+        "B": "82 pounds",
+        "C": "120 pounds",
+        "D": "150 pounds"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What can be inferred about the author's attitude towards fast fashion?",
+      "options": {
+        "A": "The author is optimistic about the potential of fast fashion to change.",
+        "B": "The author views fast fashion as a major contributor to environmental problems and criticizes its practices.",
+        "C": "The author believes that fast fashion is a necessary evil in today's consumerist culture.",
+        "D": "The author thinks that fast fashion has no significant impact on the environment."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about sustainable shopping?",
+      "options": {
+        "A": "The importance of buying eco-friendly products is the key to reducing waste and pollution.",
+        "B": "Sustainable shopping is not just about buying green products, but also making conscious choices that promote fair trade and social responsibility.",
+        "C": "Fast fashion is a major contributor to environmental problems, but individual actions can make no difference in addressing climate change.",
+        "D": "The government should take strict measures to enforce sustainable practices on companies."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

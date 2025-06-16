@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_23",
+  "title": "Team Sports vs Individual Activities: Which Builds Stronger Champions?",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she laced up her sneakers, Emily couldn't help but feel a sense of nostalgia wash over her. She was heading to the local community center for her weekly soccer game with her friends, just like they had done every Wednesday night for years.\n\n\"Hey, Em, you ready to crush it out there?\" her teammate, Rachel, called out as she jogged past Emily in the locker room.\n\nEmily grinned and gave a thumbs-up. \"Born ready!\"\n\nThe rest of the team was already gathered on the field, laughing and joking around as they warmed up. Emily took a deep breath, feeling a rush of adrenaline as she spotted her friend Mike leading the group through some light stretches.\n\nAs they began their game, Emily couldn't help but think about the differences between team sports like soccer and individual activities like running or swimming. She had always been drawn to team sports – there was something about being part of a unit, working together towards a common goal that just clicked with her.\n\n\"Teamwork makes the dream work,\" Rachel chimed in as Emily made her way onto the field, \"and I think we've got this one in the bag tonight!\"\n\nThe game was intense, with both teams playing fiercely. But it wasn't until they scored their first goal that Emily felt a surge of pride and satisfaction. It wasn't just about winning – it was about being part of something bigger than herself.\n\nAs they walked off the field after their match, Emily turned to Rachel and asked, \"What do you think is the biggest difference between team sports and individual activities?\"\n\nRachel thought for a moment before responding, \"I reckon it's accountability. When you're on your own, like with running or swimming, it's all about pushing yourself and meeting your own goals. But in team sports, there's this added layer of responsibility – you've got to think not just about yourself, but about the rest of the team too.\"\n\nEmily nodded in agreement. \"And it's not just about winning or losing either. In individual activities, you can still have a great workout and achieve your goals even if nobody else is watching. But with team sports...there's something special about being part of that shared experience.\"\n\nTheir conversation was interrupted by Mike, who called out to them as he headed off the field. \"Hey guys, great game tonight! Let's grab some food and celebrate!\"\n\nThe group made their way to a nearby café, where they devoured burgers and fries while swapping stories about the match.\n\nAs Emily sipped her soda, she couldn't help but feel grateful for the friendships and experiences that came with playing team sports. It wasn't just about the thrill of competition – it was about being part of something bigger than herself, something that brought people together in a way that individual activities just couldn't replicate.\n\n\"Team sports are all about trust,\" Rachel said as they wrapped up their meal. \"You've got to rely on each other, work together towards a common goal. It's not just about winning or losing – it's about the journey itself.\"\n\nEmily nodded in agreement, feeling a sense of contentment wash over her. She knew that no matter what challenges lay ahead, she could face them with confidence, knowing that she had a supportive team behind her every step of the way.\n\nAs they parted ways and headed home, Emily couldn't help but feel a sense of excitement for their next match. Who knows – maybe this time would be the one where they finally took home the win? But even if it wasn't, Emily knew that the real reward lay in being part of something bigger than herself – something that brought her friends and her together in a way that just couldn't be replicated by individual activities alone.\n\nThe night air was crisp as Emily walked home, the sounds of laughter and chatter from her teammates still echoing in her mind. She knew that no matter what life threw her way, she'd always have her team – and that was all the motivation she needed to keep pushing forward.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Emily's relationship with individual activities like running or swimming?",
+      "options": {
+        "A": "She finds them boring compared to team sports",
+        "B": "She prefers them because they allow her to push herself at her own pace",
+        "C": "She enjoys them for their social benefits, but not as much as she loves the sense of community in team sports",
+        "D": "She thinks they are only suitable for competitive athletes"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Rachel mean by \"added layer of responsibility\" when talking about team sports?",
+      "options": {
+        "A": "A feeling of being in charge",
+        "B": "A sense of accountability towards others",
+        "C": "The pressure to perform better than your opponents",
+        "D": "The need to follow strict rules and regulations"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What does Rachel think is the biggest difference between team sports and individual activities?",
+      "options": {
+        "A": "It's about winning or losing",
+        "B": "It's accountability - when you're part of a team, you have to think about yourself and others too",
+        "C": "It's about pushing yourself physically",
+        "D": "It's about having fun with friends"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Emily think is a special feature of team sports compared to individual activities?",
+      "options": {
+        "A": "Team sports are more competitive than individual activities",
+        "B": "Team sports allow for greater independence and self-reliance",
+        "C": "Team sports offer a shared experience that brings people together in a way that individual activities can't replicate",
+        "D": "Team sports require less physical effort than individual activities"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Emily feel a sense of nostalgia for as she gets ready for her weekly soccer game?",
+      "options": {
+        "A": "Her daily jog",
+        "B": "The friendships and experiences that come with playing team sports",
+        "C": "Her weekly soccer game with her friends, just like they had done every Wednesday night for years",
+        "D": "The local community center"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about Emily's experience with team sports?",
+      "options": {
+        "A": "Individual activities are better for building friendships than team sports.",
+        "B": "Team sports are more about winning and losing than being part of a shared experience.",
+        "C": "The author argues that team sports offer a unique sense of belonging and connection that individual activities cannot replicate.",
+        "D": "Team sports are only enjoyable when you're winning."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

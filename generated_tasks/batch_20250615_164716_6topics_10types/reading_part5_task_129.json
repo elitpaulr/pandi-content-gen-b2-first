@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_129",
+  "title": "Money on the Move: A Digital Nomad's Guide to Budget Bliss",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her coffee on the sun-drenched beach in Bali, Maya couldn't help but feel a sense of freedom that came with being a digital nomad. She had traded in her 9-to-5 job for a life of remote work, and it was everything she had hoped for – except when it came to managing her finances.\n\n\"I'm so tired of living paycheck to paycheck,\" Maya said to her friend, Rachel, who was sitting across from her on the beachside cafe. \"I feel like I'm always scrambling to make ends meet.\"\n\nRachel nodded sympathetically. \"I totally get it. But have you tried tracking your expenses?\"\n\nMaya shook her head. \"No, I just use a spreadsheet or something. It's so old-school.\"\n\n\"Well, let me tell you about the 50/30/20 rule,\" Rachel said with a smile. \"It's not that hard to follow, and it'll help you stay on top of your finances.\"\n\nMaya raised an eyebrow. \"What does it mean?\"\n\n\"It means that 50% of your income goes towards necessary expenses like rent, utilities, and food. Then, 30% is for discretionary spending – things like travel, entertainment, and hobbies. And finally, 20% is for saving and debt repayment.\"\n\nMaya's eyes widened in surprise. \"That makes sense! But how do I actually track my expenses?\"\n\nRachel pulled out her phone and showed Maya an app called Mint that allowed her to link all of her bank accounts and credit cards. \"This way, you can see exactly where your money is going, and make adjustments as needed.\"\n\nMaya was intrigued. She downloaded the app on her own phone and started setting up her accounts.\n\nAs they chatted, Maya realized that budgeting for digital nomads wasn't so different from budgeting in general – it just required a bit more flexibility. With a laptop and a smartphone, she could work from anywhere, which meant that her living expenses varied greatly depending on the location.\n\n\"I'm still learning how to navigate these new costs,\" Maya said, referring to things like coworking space fees and visa requirements.\n\nRachel nodded understandingly. \"Yeah, it's not always easy. But one thing you can do is research the local cost of living before you arrive in a new place. That way, you'll have an idea of what to expect.\"\n\nMaya made a mental note to start doing more research. She also decided to set aside some money each month for unexpected expenses – like medical bills or equipment repairs.\n\nAs they finished their coffee and packed up their belongings, Maya felt a sense of gratitude towards Rachel. \"Thanks for the tips,\" she said with a smile. \"I'm feeling way more confident about managing my finances now.\"\n\nRachel grinned back at her. \"No problem! Budgeting is all about finding what works for you. And remember – it's okay to make mistakes along the way.\"\n\nAs Maya walked off into the sunset, phone in hand and app open on screen, she felt a sense of peace wash over her. She was finally taking control of her finances as a digital nomad, and that felt amazing.\n\nThe next few weeks flew by in a blur of budgeting and financial planning. Maya set up automatic transfers to her savings account, started using cashback rewards credit cards for big purchases, and even invested in a small side hustle to boost her income.\n\nAs she sat on the beach at sunset one evening, watching the waves roll in, Maya couldn't help but feel proud of herself. She had taken the first steps towards financial stability as a digital nomad, and it felt incredible.\n\n\"I'm ready for whatever comes next,\" she said out loud, smiling to herself as the stars began to twinkle overhead.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was Maya's main problem with managing her finances as a digital nomad?",
+      "options": {
+        "A": "She didn't know how to use a spreadsheet",
+        "B": "She was struggling to make ends meet and living paycheck to paycheck",
+        "C": "She thought budgeting wasn't necessary for remote work",
+        "D": "She had too many expenses due to her frequent travels"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Rachel mean by \"discretionary spending\"?",
+      "options": {
+        "A": "Spending on essential items such as food and rent",
+        "B": "Spending on things like travel, entertainment, and hobbies",
+        "C": "Saving money for the future",
+        "D": "Paying off debts or loans"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of Maya's income is allocated to saving and debt repayment according to the 50/30/20 rule?",
+      "options": {
+        "A": "25%",
+        "B": "30%",
+        "C": "40%",
+        "D": "20%"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "How does Maya feel about her current budgeting situation?",
+      "options": {
+        "A": "She is very confident that she knows what she's doing.",
+        "B": "She feels a sense of freedom and joy when managing her finances.",
+        "C": "She is tired of living paycheck to paycheck and wants to take control.",
+        "D": "She thinks that budgeting as a digital nomad is easier than in a traditional job."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who did Maya mention was \"tired of living paycheck to paycheck\"?",
+      "options": {
+        "A": "Rachel",
+        "B": "Maya's boss",
+        "C": "Maya's friend, Rachel",
+        "D": "A digital nomad she met on the beach"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about Maya's experience with budgeting as a digital nomad?",
+      "options": {
+        "A": "The benefits of using a spreadsheet for tracking expenses",
+        "B": "How to use the 50/30/20 rule for budgeting as a digital nomad",
+        "C": "The challenges and solutions for managing finances while working remotely",
+        "D": "The importance of researching local cost of living before traveling"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

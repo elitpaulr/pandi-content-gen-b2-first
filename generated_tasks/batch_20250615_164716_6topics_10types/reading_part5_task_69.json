@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_69",
+  "title": "Unlocking Extra Income: 10 Surprising Side Hustle Ideas That Work",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her coffee, Emily gazed out at the bustling streets of the city, her mind racing with thoughts of financial freedom. She was tired of living paycheck to paycheck, of never having enough money in her bank account to do what she truly wanted. That's when she stumbled upon a blog about side hustles and passive income.\n\n\"Who knew there were so many ways to make extra money?\" Emily exclaimed to her roommate, Rachel, as she devoured article after article on the topic. \"I could sell products online, offer freelance services, or even rent out my spare room on Airbnb!\" The possibilities seemed endless.\n\nRachel raised an eyebrow. \"You're not going to start selling your own handmade crafts on Etsy again, are you?\" Emily had tried that once before, but it hadn't exactly taken off. Still, she was determined to find a way to supplement her income and gain some financial stability.\n\nAs she delved deeper into the world of side hustles, Emily discovered a wealth of options beyond just selling products or offering services. She could invest in dividend-paying stocks, create an online course teaching others a skill she possessed, or even start a YouTube channel focused on cooking or gardening. The key was to find something that aligned with her passions and interests.\n\nOne evening, while scrolling through social media, Emily stumbled upon a post from a friend who had started a successful affiliate marketing business. \"How did you do it?\" she asked him in a direct message. He explained that he partnered with a company to promote their products on his blog and social media channels, earning a commission for each sale made through his unique referral link.\n\nEmily's eyes widened as she calculated the potential earnings. \"That sounds like a lot of passive income!\" she exclaimed to Rachel, who was now more intrigued by Emily's newfound enthusiasm. As they brainstormed ideas together, it became clear that creating and promoting digital products could be a lucrative side hustle for both of them.\n\nThe next weekend, Emily spent hours researching online courses and marketing strategies, her mind buzzing with creative possibilities. She created an outline for a course on social media marketing, planning to sell it on Udemy or Skillshare. Meanwhile, Rachel started developing a recipe book focused on vegan cooking, envisioning it as a digital download on Gumroad.\n\nAs the weeks turned into months, both Emily and Rachel found themselves juggling their side hustles alongside their full-time jobs. The extra income was a welcome surprise, but more importantly, they had discovered a sense of purpose and fulfillment in creating something of value for others. They no longer felt trapped by their limited salaries; instead, they felt empowered to pursue their passions and build a financial safety net.\n\nOne evening, as Emily sat at her desk, editing the last chapter of her online course, she smiled at Rachel, who was typing away on her laptop nearby. \"We did it,\" Emily said, feeling a sense of pride and accomplishment. \"We've created our own side hustles, generating passive income and taking control of our financial futures.\"\n\nRachel looked up from her screen, eyes shining with excitement. \"And we're not stopping here.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated Emily to start researching ways to make extra money?",
+      "options": {
+        "A": "She wanted to save up for a big purchase",
+        "B": "She was tired of living paycheck to paycheck and wanted financial freedom",
+        "C": "Her friend's successful affiliate marketing business inspired her to try something similar",
+        "D": "She needed more free time to pursue hobbies"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Emily mean by \"financial freedom\"?",
+      "options": {
+        "A": "Having a lot of money to spend on luxury items",
+        "B": "Being able to do what you truly want without worrying about money",
+        "C": "Owning your own business and being your own boss",
+        "D": "Earning a high salary from your full-time job"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What platform did Emily plan to sell her social media marketing course on?",
+      "options": {
+        "A": "Etsy",
+        "B": "Udemy or Skillshare",
+        "C": "Gumroad",
+        "D": "Airbnb"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Emily's attitude towards her limited salary indicate?",
+      "options": {
+        "A": "She is resigned to living on a tight budget forever.",
+        "B": "She feels a sense of freedom and empowerment by exploring side hustles.",
+        "C": "She is hesitant to take risks and try new things financially.",
+        "D": "She is completely satisfied with her current financial situation."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Emily's blog post refer to?",
+      "options": {
+        "A": "A recipe book for vegan cooking",
+        "B": "An online course on social media marketing",
+        "C": "Her own handmade crafts on Etsy",
+        "D": "The possibilities of passive income and side hustles"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this text about Emily's experience with side hustles?",
+      "options": {
+        "A": "To describe the challenges of living paycheck to paycheck",
+        "B": "To explain the importance of financial stability and independence",
+        "C": "To provide tips and strategies for creating a successful side hustle",
+        "D": "To share personal anecdotes of people who have made money from their passions"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_115",
+  "title": "Money on the Move: A Beginner's Guide to Crypto Road Trip",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Singapore, the humid air enveloped me like a warm hug. But I wasn't here to indulge in street food or visit iconic landmarks – I was on a mission to explore the world of cryptocurrency. My destination? The bustling streets of Singapore's financial district.\n\nThe first stop on my journey was the Singapore Exchange (SGX), where traders and investors converged to buy and sell stocks, bonds, and commodities. As I walked through the glass-and-steel skyscrapers, I felt a sense of awe at the sheer scale of global finance. But amidst the chaos, I spotted a small sign: \"Crypto Trading Platform\". My heart skipped a beat – this was my chance to dip into the world of cryptocurrency.\n\nI met with a local expert who introduced me to the concept of blockchain technology, the backbone of cryptocurrencies like Bitcoin and Ethereum. Imagine a digital ledger that records transactions across a network of computers, he explained. It's like a secure, decentralized bank account that anyone can access. The implications were staggering – no more middlemen, no more fees, just direct peer-to-peer transactions.\n\nNext, we headed to the Marina Bay Sands, where I met with a group of cryptocurrency enthusiasts. They shared their stories of investing in Bitcoin and Ethereum, each with its own unique features and use cases. Some touted the potential of blockchain for supply chain management, while others saw it as a means to democratize access to financial services. The conversation was lively and passionate, with opinions ranging from \"it's a bubble waiting to burst\" to \"this is the future of money\".\n\nAs I wandered through the streets, I stumbled upon a small café where locals gathered to discuss cryptocurrency. Over steaming cups of coffee, they debated the merits of various coins and tokens. Some spoke about the potential for decentralized finance (DeFi) to disrupt traditional banking systems, while others shared their experiences with initial coin offerings (ICOs). The energy was infectious – it felt like I was part of a global community united by a common interest.\n\nAs my journey continued, I began to grasp the complexities of cryptocurrency. There's Bitcoin Cash, for instance, which split from the original Bitcoin chain in 2017. Then there's Ethereum, often referred to as \"the internet computer\" due to its versatility and programmability. But amidst the technical jargon, one thing became clear: cryptocurrency is not just about money – it's about a new way of thinking.\n\nAs I boarded my flight back home, I reflected on what I had learned. Singapore may seem like an unlikely hub for cryptocurrency, but it's a city that thrives on innovation and progress. The people here are passionate, driven, and open to new ideas – qualities that will shape the future of finance.\n\nMy journey through the world of cryptocurrency has left me with more questions than answers, but I'm excited about the possibilities. Will blockchain technology revolutionize industries like healthcare or education? Can decentralized finance bring about a new era of financial inclusion? The uncertainty is thrilling, and I know that I'll be following this story closely as it unfolds.\n\nAs I looked out the window at the passing clouds, I felt a sense of wonder – what other secrets lie hidden in the digital realm, waiting to be uncovered?",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude towards cryptocurrency after their journey through Singapore?",
+      "options": {
+        "A": "They are skeptical and think it's a fad",
+        "B": "They are enthusiastic and see great potential for growth",
+        "C": "They are neutral and don't have strong feelings either way",
+        "D": "They are disappointed and feel that they've wasted their time"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"decentralized\" mean in the context of blockchain technology and cryptocurrency?",
+      "options": {
+        "A": "Controlled by a single government or institution",
+        "B": "Regulated by a central authority to ensure security and stability",
+        "C": "Operated independently, without reliance on middlemen or intermediaries",
+        "D": "Exclusive to individuals with high financial status"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What was the name of the exchange where the writer first started exploring cryptocurrency?",
+      "options": {
+        "A": "The Singapore Exchange (SGX)",
+        "B": "The Marina Bay Sands",
+        "C": "The Blockchain Centre",
+        "D": "The Cryptocurrency Trading Platform"
+      },
+      "correct_answer": "A",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the potential of cryptocurrency?",
+      "options": {
+        "A": "The author thinks it's a waste of time and money",
+        "B": "The author believes that blockchain technology has the power to revolutionize many industries",
+        "C": "The author is sceptical about the idea of decentralized finance",
+        "D": "The author thinks it's just a fad that will soon disappear"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who introduced the writer to the concept of blockchain technology?",
+      "options": {
+        "A": "A group of cryptocurrency enthusiasts",
+        "B": "The local expert at the Singapore Exchange (SGX)",
+        "C": "A financier from a traditional banking system",
+        "D": "One of the locals gathered at the small café"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of the author's journey through Singapore's cryptocurrency scene?",
+      "options": {
+        "A": "To compare and contrast different types of cryptocurrencies",
+        "B": "To explore the potential applications of blockchain technology beyond finance",
+        "C": "To get a closer look at the world of cryptocurrency and understand its underlying principles",
+        "D": "To critique the investment strategies of cryptocurrency enthusiasts in Singapore"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

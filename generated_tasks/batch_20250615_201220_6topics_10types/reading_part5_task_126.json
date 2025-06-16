@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_126",
+  "title": "Surviving on Sunshine: Mastering Budgets as a Digital Nomad",
+  "topic": "technology",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**The Digital Nomad's Dilemma: Budgeting on the Go**\n\nAs the world becomes increasingly connected, more and more people are ditching traditional office jobs to live a life of freedom and adventure as digital nomads. With the rise of remote work, it's never been easier to trade in a desk for a laptop and travel the globe. But with great flexibility comes great responsibility – and that means managing your finances on the go.\n\nFor those new to the digital nomad lifestyle, budgeting can be a daunting task. Where do you start? How do you prioritize expenses when every day is a new adventure? We spoke to several seasoned digital nomads to get their tips and tricks for staying financially savvy while exploring the world.\n\n**Tracking Expenses: The Key to Budgeting**\n\nOne of the biggest challenges digital nomads face is keeping track of expenses. When you're constantly on the move, it's easy to lose sight of where your money is going. \"I used to just wing it and hope for the best,\" admits Sarah, a 28-year-old freelance writer who has been living in Chiang Mai, Thailand for six months. \"But that was a recipe for disaster. Now I use an app like Mint or Personal Capital to track every single transaction – it's game-changer.\"\n\nSarah's right. With the rise of mobile banking and budgeting apps, there's never been an easier time to keep tabs on your finances. Apps like Trail Wallet and Budget Your Trip allow you to categorize expenses, set budgets, and even split bills with travel companions.\n\n**Prioritizing Expenses: The Digital Nomad's Guide**\n\nSo, what are the essential expenses for digital nomads? According to our experts, here's where to focus:\n\n* Accommodation: Short-term rentals or Airbnb apartments are often more affordable than long-term leases.\n* Food: Eating out can be expensive – try cooking your own meals or opt for budget-friendly street food.\n* Transportation: Public transportation is usually the cheapest option, but consider investing in a good travel credit card for airport transfers and transportation fees.\n* Health insurance: This might seem like an afterthought, but it's essential for digital nomads. Consider purchasing a global health insurance policy that covers you abroad.\n\n**Saving for the Future**\n\nAs tempting as it is to splurge on every new experience, digital nomads need to think about long-term savings too. \"I used to just live in the moment,\" says Alex, a 30-year-old software developer who has been traveling for two years. \"But now I prioritize saving at least 20% of my income – it's not always easy, but it's worth it.\"\n\nConsider setting up automatic transfers from your checking account to a savings or investment account. You can also take advantage of tax-advantaged retirement accounts like the SEP IRA or solo 401(k).\n\n**The Digital Nomad's Budgeting Formula**\n\nSo what does a typical budget for digital nomads look like? Here's a rough breakdown:\n\n* Essential expenses (50%): Accommodation, food, transportation, and health insurance.\n* Savings (20%): Emergency fund, long-term savings, or retirement accounts.\n* Entertainment (10%): Travel, activities, and miscellaneous expenses.\n* Miscellaneous (10%): Phone bills, internet fees, and other incidentals.\n\nOf course, this is just a rough estimate – every digital nomad's budget will vary depending on their lifestyle, location, and financial goals. But by prioritizing essential expenses, saving for the future, and being mindful of entertainment costs, you can stay financially stable while living your best life as a digital nomad.\n\nIn conclusion, budgeting for digital nomads requires flexibility, discipline, and a willingness to adapt to new situations. By tracking expenses, prioritizing essential expenses, saving for the future, and following the digital nomad's budgeting formula, you'll be well on your way to managing your finances like a pro – no matter where life takes you.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does Sarah's experience suggest about the importance of tracking expenses as a digital nomad?",
+      "options": {
+        "A": "She thinks it's unnecessary because she can keep track of her money mentally.",
+        "B": "She recommends using an app to track every single transaction, but doesn't prioritize doing so.",
+        "C": "She has found that using an app is a game-changer for keeping tabs on her finances.",
+        "D": "She believes that only manual spreadsheets are effective for tracking expenses."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"wing it\" mean in this context?",
+      "options": {
+        "A": "To use an app to track every single transaction",
+        "B": "To make a plan for budgeting and stick to it",
+        "C": "To rely on luck or chance when managing finances",
+        "D": "To invest in a global health insurance policy"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of income should a digital nomad prioritize saving?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to Sarah, what was her previous approach to budgeting before using an app like Mint or Personal Capital?",
+      "options": {
+        "A": "She always prioritized saving 20% of her income",
+        "B": "She just winged it and hoped for the best",
+        "C": "She only tracked expenses related to accommodation and food",
+        "D": "She used a spreadsheet to manually track every transaction"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Sarah use to track every single transaction?",
+      "options": {
+        "A": "A spreadsheet",
+        "B": "An app like Mint or Personal Capital",
+        "C": "A budgeting book",
+        "D": "A calculator"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about budgeting for digital nomads?",
+      "options": {
+        "A": "The article provides tips and tricks for staying financially savvy while exploring the world.",
+        "B": "Digital nomads should prioritize entertainment expenses over essential costs.",
+        "C": "Budgeting for digital nomads requires flexibility, discipline, and a willingness to adapt to new situations.",
+        "D": "Using mobile banking apps is not necessary for tracking expenses as a digital nomad."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

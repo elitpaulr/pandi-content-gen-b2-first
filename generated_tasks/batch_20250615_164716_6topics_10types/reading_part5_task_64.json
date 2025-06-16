@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_64",
+  "title": "5 Smart Ways to Earn Money While You Sleep Every Night",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**Side Hustles and Passive Income: A Path to Financial Freedom**\n\nIn today's fast-paced economy, people are constantly looking for ways to increase their earning potential and achieve financial stability. With the rising cost of living and stagnant wages, many individuals are turning to side hustles and passive income streams to supplement their primary income.\n\nBut what exactly is a side hustle? According to experts, it's any venture or activity that generates additional income outside of one's main job. This can range from freelancing, selling products online, or offering services like dog walking or house cleaning. The key characteristic of a side hustle is its ability to provide a flexible and often lucrative way for individuals to earn extra money.\n\nOne popular example of a side hustle is affiliate marketing. This involves promoting products or services from other companies and earning a commission on sales made through one's unique referral link. With the rise of social media, it's easier than ever to promote products and reach a large audience.\n\nFor instance, Emily Wilson, a 32-year-old marketing specialist, started an affiliate marketing business in her spare time. She created a blog focused on sustainable living and partnered with eco-friendly brands to promote their products. Within six months, she was earning over $1,000 per month from affiliate sales alone.\n\nAnother way to generate passive income is through investing in dividend-paying stocks or real estate investment trusts (REITs). These investments provide regular income without requiring direct involvement. For example, John Lee, a 40-year-old engineer, invested $10,000 in a REIT that yields an average annual return of 8%. He now receives quarterly checks totaling over $800.\n\nDigital products, such as ebooks and online courses, are also popular passive income sources. Once created, these products can be sold multiple times without requiring additional effort. Rachel Patel, a 28-year-old writer, published her first ebook on Amazon Kindle Direct Publishing last year. It has since become a bestseller, generating over $5,000 in revenue.\n\nWhile side hustles and passive income streams offer exciting opportunities for financial growth, they also come with challenges. For instance, investing time and effort into building a side hustle can be overwhelming, especially when combined with a demanding full-time job. Additionally, the unpredictability of income from these sources can be stressful.\n\nTo mitigate these risks, experts recommend diversifying one's income streams and setting realistic goals. \"It's essential to have multiple revenue channels to ensure financial stability,\" says Dr. Jane Smith, a personal finance expert. \"By spreading your investments across different asset classes, you'll reduce the risk of losing everything in one area.\"\n\nAs more people seek ways to supplement their primary income, side hustles and passive income streams are becoming increasingly popular. Whether through affiliate marketing, investing, or creating digital products, these alternatives offer a path to financial freedom and security.\n\nIn conclusion, while there are challenges associated with side hustles and passive income, the rewards far outweigh them for those willing to put in the effort. By diversifying one's investments and setting realistic goals, individuals can create multiple revenue streams that provide financial stability and flexibility.\n\n**Side Hustle Statistics:**\n\n* 44% of Americans have a side hustle (Gallup)\n* The average side hustler earns an additional $1,300 per month (Bankrate)\n* 75% of affiliate marketers report higher earnings due to their online activities (Affiliate Summit)\n\nBy embracing the world of side hustles and passive income streams, individuals can break free from financial constraints and achieve a more stable future.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to Emily Wilson's affiliate marketing business if she stops promoting products on social media?",
+      "options": {
+        "A": "It will continue to earn over $1,000 per month without her direct involvement",
+        "B": "Her earnings from affiliate sales will decrease significantly",
+        "C": "She will be able to sell more products than before due to increased visibility",
+        "D": "The business will fail and she will lose all her income"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for an investment or business to be \"lucrative\"?",
+      "options": {
+        "A": "Producing very little profit",
+        "B": "Providing a flexible way to earn extra money",
+        "C": "Generating a lot of income and profit",
+        "D": "Requiring a lot of time and effort with little reward"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the article, what percentage of Americans have a side hustle?",
+      "options": {
+        "A": "25%",
+        "B": "44%",
+        "C": "55%",
+        "D": "65%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards people who start side hustles and pursue passive income?",
+      "options": {
+        "A": "The author believes they are lazy and unwilling to work hard.",
+        "B": "The author thinks they are entrepreneurial and willing to take risks.",
+        "C": "The author views them as reckless and irresponsible with their finances.",
+        "D": "The author considers them to be unimaginative and unwilling to innovate."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"any venture or activity\" refer to in the text?",
+      "options": {
+        "A": "A job that requires a lot of time",
+        "B": "A side hustle that generates additional income outside of one's main job",
+        "C": "A way to invest money without taking any risk",
+        "D": "A type of product that can be sold online"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this article about side hustles and passive income?",
+      "options": {
+        "A": "To warn readers about the risks associated with starting a side hustle",
+        "B": "To provide tips and strategies for achieving financial stability through multiple income streams",
+        "C": "To promote affiliate marketing as the best way to earn extra money",
+        "D": "To describe the benefits of investing in dividend-paying stocks or real estate investment trusts"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

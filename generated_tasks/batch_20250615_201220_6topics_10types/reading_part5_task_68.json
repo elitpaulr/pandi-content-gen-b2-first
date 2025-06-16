@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_68",
+  "title": "How to Earn Money While You Sleep: The Ultimate Side Hustle Guide",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her coffee, Emily gazed out at the bustling streets of Manhattan, her mind whirling with ideas. She'd always been drawn to the idea of making extra money on top of her day job as a marketing specialist. For years, she'd experimented with various side hustles – freelance writing, dog walking, and even selling handmade jewelry online. But it was only recently that she'd stumbled upon the concept of passive income.\n\n\"Hey, Emily, I've been meaning to talk to you about this,\" said her friend Rachel, plopping down beside her on the couch. \"I just invested in a dividend-paying stock portfolio. It's like having my own personal ATM.\"\n\nEmily raised an eyebrow. \"That sounds too good to be true. How does it work?\"\n\nRachel launched into an enthusiastic explanation of how she'd used a robo-advisor to set up a diversified portfolio that would generate regular income without her needing to lift a finger.\n\n\"But isn't this just another form of speculation?\" Emily asked, skeptical. \"I mean, what if the market crashes?\"\n\n\"Actually, it's more stable than you think,\" Rachel said with a grin. \"And besides, it's not like I'm putting all my eggs in one basket. I've got a diversified portfolio spread across different asset classes and sectors.\"\n\nEmily nodded thoughtfully as she scribbled down some notes on her phone. She'd always been interested in investing, but never knew where to start.\n\nAs they continued chatting, Emily realized that Rachel's passive income streams were not only lucrative but also relatively low-maintenance. Rachel was earning around $1,000 a month from her stock portfolio alone – money that she could use for anything from paying off debt to traveling the world.\n\n\"But what about the time it takes to set up?\" Emily asked. \"I'm already working full-time and don't have a lot of extra hours to spare.\"\n\nRachel chuckled. \"That's the beauty of passive income, Em. Once you've put in the initial effort, it can run on autopilot. I mean, sure, there are some maintenance tasks involved – quarterly rebalancing, tax-loss harvesting – but it's not like I'm spending 40 hours a week working on it.\"\n\nEmily's eyes widened as she grasped the concept. \"So you're saying that with passive income, I can create wealth without sacrificing my free time?\"\n\nRachel nodded enthusiastically. \"Exactly! And it's not just about investing in stocks or real estate either. There are countless other ways to generate passive income – from creating and selling online courses to licensing your creative work.\"\n\nAs Emily continued to absorb the information, she began to brainstorm ideas for her own side hustles. What if she created an app that generated revenue through affiliate marketing? Or wrote a series of ebooks on marketing strategy?\n\nOver the next few weeks, Emily dedicated herself to researching various passive income streams and experimenting with different approaches. She launched a successful podcast on marketing trends, started selling print-on-demand t-shirts online, and even invested in a peer-to-peer lending platform.\n\nIt wasn't easy, of course – there were setbacks and learning curves along the way. But as she watched her bank account grow steadily over time, Emily realized that the work had been worth it. She'd stumbled upon a secret to financial freedom: creating wealth without sacrificing her precious free time.\n\nAnd as she looked out at the Manhattan skyline, now seeing the city in a whole new light, Emily knew that she was only just beginning to scratch the surface of what was possible with side hustles and passive income.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was one of the benefits that Rachel's stock portfolio provided for her?",
+      "options": {
+        "A": "It allowed her to invest a lot of time in managing it.",
+        "B": "It gave her access to a large amount of money quickly.",
+        "C": "It generated regular income without requiring much effort from her.",
+        "D": "It only worked during business hours."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Rachel mean by \"having my own personal ATM\"?",
+      "options": {
+        "A": "A machine that dispenses cash from her bank account",
+        "B": "An investment that generates regular income without much effort",
+        "C": "A savings plan where she puts aside a fixed amount each month",
+        "D": "A way of investing in stocks and shares with no risk involved"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How much money is Rachel earning from her stock portfolio each month?",
+      "options": {
+        "A": "$500",
+        "B": "$1,000",
+        "C": "$5,000",
+        "D": "$10,000"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Emily think about Rachel's idea of investing in a dividend-paying stock portfolio?",
+      "options": {
+        "A": "She is extremely enthusiastic and wants to invest all her money immediately.",
+        "B": "She is skeptical, but open to learning more about it.",
+        "C": "She thinks it's a scam and doesn't believe in its potential.",
+        "D": "She has no interest in discussing it with Rachel."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"a robo-advisor\" refer to in the text?",
+      "options": {
+        "A": "A type of bank account",
+        "B": "A software program that helps people invest in stocks and other assets",
+        "C": "A mobile app for tracking personal finances",
+        "D": "An investment fund that specializes in real estate"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the conversation between Emily and Rachel?",
+      "options": {
+        "A": "Emily convinces Rachel to invest in a new business venture.",
+        "B": "Rachel shares her knowledge about generating passive income through investments.",
+        "C": "Emily decides to quit her day job to focus on side hustles.",
+        "D": "The two friends discuss the pros and cons of freelancing versus full-time work."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

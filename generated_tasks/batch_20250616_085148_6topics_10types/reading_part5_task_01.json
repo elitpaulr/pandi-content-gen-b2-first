@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_01",
+  "title": "Travel with a Conscience: The Green Guide to Sustainable Adventures",
+  "topic": "technology",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Green Way to Explore**\n\nAs travelers become increasingly aware of the impact their actions have on the environment, the concept of sustainable travel is gaining momentum. Eco-tourism, once a niche market, has evolved into a mainstream phenomenon, with many tour operators and destinations adopting environmentally-friendly practices.\n\nAccording to the United Nations World Tourism Organization (UNWTO), tourism accounts for 8% of global greenhouse gas emissions. However, the same industry also generates significant revenue and employment opportunities for local communities. The key is striking a balance between economic benefits and environmental sustainability.\n\nOne way to achieve this balance is by supporting tour operators that adhere to strict eco-friendly standards. For instance, **EcoCamp Patagonia**, located in Chile's Torres del Paine National Park, offers glamping accommodations made from natural materials, sourced locally whenever possible. The camp's waste management system is designed to minimize its ecological footprint.\n\nSimilarly, **Intrepid Travel** has implemented a range of initiatives aimed at reducing the environmental impact of its tours. These include offsetting carbon emissions through reforestation projects and promoting responsible wildlife viewing practices.\n\nSustainable travel isn't just about choosing eco-friendly tour operators; it's also about making conscious decisions during your trip. For example, consider staying in locally-owned accommodations rather than large hotel chains, which often have a higher environmental impact due to energy consumption and water usage.\n\nAdditionally, be mindful of the activities you participate in while traveling. Avoid tours that promote animal exploitation or damage fragile ecosystems. Instead, opt for experiences that allow you to immerse yourself in local cultures and appreciate natural beauty without harming it.\n\n**The Benefits of Sustainable Travel**\n\nSo, why should travelers care about sustainable travel? The benefits are numerous:\n\n*   **Preservation of natural habitats**: By supporting eco-friendly tour operators and activities, you contribute to the preservation of fragile ecosystems.\n*   **Support for local communities**: When you choose locally-owned accommodations or participate in community-based tours, your money stays within the local economy.\n*   **Reduced carbon emissions**: Offset your carbon footprint by choosing tour operators that adopt environmentally-friendly practices.\n\n**Getting Involved**\n\nWhile individual actions can make a difference, collective efforts can lead to significant positive change. Consider joining a community of like-minded travelers through organizations such as **The International Ecotourism Society**, which promotes sustainable tourism practices worldwide.\n\nFurthermore, raise awareness about the importance of sustainable travel by sharing your experiences with friends and family. By inspiring others to adopt eco-friendly habits, you contribute to a broader movement towards environmentally responsible travel.\n\nAs we continue to explore our planet's wonders, let us do so in a way that respects the environment and supports local communities. The future of sustainable travel is bright, and it's up to us to shape its course.\n\nIn conclusion, sustainable travel is not just a trend; it's a necessity for preserving our planet's natural beauty and supporting local economies. By making conscious choices during your travels, you contribute to a more environmentally-friendly tourism industry that benefits both people and the environment.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about travelers who choose locally-owned accommodations instead of large hotel chains?",
+      "options": {
+        "A": "They are likely to prioritize economic benefits over environmental concerns",
+        "B": "They contribute to the preservation of natural habitats and support local communities",
+        "C": "They have a higher carbon footprint due to energy consumption and water usage",
+        "D": "They are more likely to engage in animal exploitation"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"ecological footprint\" mean in this context?",
+      "options": {
+        "A": "The amount of money spent on travel-related expenses",
+        "B": "The impact an activity or organization has on the environment",
+        "C": "A type of accommodation that is environmentally friendly",
+        "D": "A measure of a person's physical fitness level"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of global greenhouse gas emissions is attributed to tourism according to the United Nations World Tourism Organization (UNWTO)?",
+      "options": {
+        "A": "5%",
+        "B": "8%",
+        "C": "12%",
+        "D": "15%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about large hotel chains?",
+      "options": {
+        "A": "They are often more environmentally friendly than locally-owned accommodations.",
+        "B": "They have a higher environmental impact due to energy consumption and water usage.",
+        "C": "They are an essential part of sustainable travel.",
+        "D": "They should be avoided at all costs."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"its ecological footprint\" refer to in the text?",
+      "options": {
+        "A": "The camp's waste management system",
+        "B": "EcoCamp Patagonia's glamping accommodations",
+        "C": "The impact of large hotel chains on energy consumption and water usage",
+        "D": "The contribution of tourism to global greenhouse gas emissions"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the article about sustainable travel?",
+      "options": {
+        "A": "The article presents various tour operators that offer eco-friendly services but do not provide information on how to make conscious decisions during a trip.",
+        "B": "Sustainable travel is becoming increasingly popular, and individuals can contribute to its growth by adopting environmentally responsible practices while traveling.",
+        "C": "The article focuses on the economic benefits of sustainable tourism without discussing environmental concerns.",
+        "D": "Only large hotel chains are responsible for damaging the environment."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "travel_adventure"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_171",
+  "title": "Remote Revolution: How Working from Home is Changing Our Economy",
+  "topic": "business_and_work",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "The Economic Impact of Remote Work: A Shift in the Global Economy\n\nIn recent years, remote work has become an increasingly popular trend among companies worldwide. With advancements in technology and the rise of digital communication tools, employees can now work from anywhere, at any time, as long as they have a stable internet connection. But what are the economic implications of this shift? How is remote work affecting businesses, economies, and societies globally?\n\nOne of the most significant impacts of remote work on the economy is the reduction in overhead costs for companies. With no need to maintain large office spaces or provide employees with transportation, businesses can save millions of dollars each year. According to a report by Global Workplace Analytics, employers could save up to $11,000 per year per employee by allowing them to work remotely half-time. These savings can be reinvested in the business, leading to increased productivity and competitiveness.\n\nAnother significant economic impact of remote work is the increase in job opportunities for people with disabilities. With traditional office spaces often inaccessible or unsuitable for individuals with mobility impairments, remote work has opened up new possibilities for these workers. A study by the Job Accommodation Network found that employees with disabilities are more likely to be successful when working remotely due to increased flexibility and reduced commuting times.\n\nRemote work is also having a positive impact on local economies. As employees no longer need to commute to central business districts, they can spend their time and money in local communities instead. This has led to an increase in small businesses and entrepreneurship, as people are more likely to support local shops and services. According to a report by the Remote Year community, 75% of remote workers report spending more time in local cafes and restaurants, contributing to the local economy.\n\nHowever, there are also concerns about the economic impact of remote work on urban centers. As employees move out of cities, there is a risk that businesses and services may struggle to adapt to the changing needs of their communities. In some cities, this has led to increased competition for office space, driving up costs and reducing affordability.\n\nDespite these challenges, many experts argue that the benefits of remote work far outweigh the drawbacks. By increasing flexibility and productivity, companies can improve their bottom line and create new opportunities for employees. According to a report by Gartner, 47% of companies expect to have more than half of their workforce working remotely by 2023.\n\nThe economic impact of remote work is not limited to businesses and economies alone. It also has significant implications for individuals and communities worldwide. With the ability to work from anywhere, people can now pursue careers that were previously inaccessible due to geographical constraints. This has led to an increase in digital nomadism, as people are free to travel and live abroad while continuing to work.\n\nHowever, this shift also raises important questions about global economic inequality. As remote workers flock to destinations with low costs of living, there is a risk that local communities may struggle to adapt to the changing workforce. In some cases, this has led to concerns about gentrification and displacement, as affluent digital nomads move into previously affordable areas.\n\nIn conclusion, the economic impact of remote work is complex and multifaceted. While it presents opportunities for businesses and individuals alike, it also raises important questions about global economic inequality. As companies and governments continue to adapt to this shift, it will be essential to prioritize flexibility, accessibility, and community development in order to ensure that everyone benefits from the economic impact of remote work.\n\nThe shift towards remote work is a significant trend that is here to stay. By understanding its economic implications and working together to address the challenges it presents, we can create a more inclusive and equitable global economy for all.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to local businesses in urban centers as a result of remote work?",
+      "options": {
+        "A": "They will experience a significant increase in sales due to increased foot traffic",
+        "B": "They may struggle to adapt to the changing needs of their communities and face increased competition for office space",
+        "C": "They will be able to reduce their overhead costs and invest more in marketing",
+        "D": "They will see no impact at all, as remote workers do not spend any time or money locally"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word \"gentrification\" mean in this context?",
+      "options": {
+        "A": "The process of an area becoming less crowded",
+        "B": "The process of affluent digital nomads moving into previously affordable areas, often leading to rising costs and displacement of local residents",
+        "C": "The increase in small businesses and entrepreneurship due to remote work",
+        "D": "The reduction in overhead costs for companies due to remote work"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the report by Global Workplace Analytics, how much could employers save per year per employee by allowing them to work remotely half-time?",
+      "options": {
+        "A": "$5,000",
+        "B": "$10,000",
+        "C": "$11,000",
+        "D": "$20,000"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the impact of remote work on local economies?",
+      "options": {
+        "A": "The author believes that remote work has a negative effect on local businesses.",
+        "B": "The author thinks that remote work has opened up new opportunities for small businesses and entrepreneurship.",
+        "C": "The author is neutral about the economic impact of remote work on local communities.",
+        "D": "The author argues that remote work is having a devastating effect on urban centers."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What do employees with disabilities stand to gain from remote work?",
+      "options": {
+        "A": "Reduced competition for office space",
+        "B": "Increased flexibility and reduced commuting times",
+        "C": "Higher salaries",
+        "D": "Greater job security"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about the economic impact of remote work?",
+      "options": {
+        "A": "Remote work is having a negative impact on urban centers and local economies.",
+        "B": "The shift towards remote work presents opportunities for businesses and individuals, but also raises concerns about global economic inequality.",
+        "C": "Companies can save millions of dollars by allowing employees to work remotely full-time.",
+        "D": "Remote work is only beneficial for people with disabilities."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

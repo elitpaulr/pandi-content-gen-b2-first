@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_86",
+  "title": "Earning Freedom on the Road: How to Turn Your Dreams into Reality",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I wandered through the bustling streets of Chiang Mai, Thailand, I stumbled upon a peculiar phenomenon – digital nomads sipping coffee at quaint cafes, typing away on their laptops with an air of contentment. They were the embodiment of the modern-day wanderer, chasing not just sunsets but also financial freedom.\n\nMy curiosity piqued, I struck up a conversation with one such traveler, Alex, who was juggling multiple side hustles while living in this Thai city. \"It's all about diversifying your income streams,\" he explained, sipping his latte. \"You see, here, you can easily find affordable accommodation and food, but the cost of living is low enough to allow for some serious extra-curricular activities.\"\n\nAs we strolled through the night market, Alex introduced me to the concept of side hustles – part-time gigs that supplement one's primary income. These weren't just any ordinary jobs; they were creative outlets, entrepreneurial ventures, or even online businesses that generated passive income.\n\nOne such venture was a blog about sustainable living, which his partner managed from a co-working space in town. They had invested minimal initial capital but reaped considerable returns through affiliate marketing and sponsored content. \"It's not just about making money,\" Alex said, as we sampled local street food. \"We're also promoting eco-friendly practices that align with our values.\"\n\nI observed how many of these digital nomads were leveraging their unique skills to monetize their passions. For instance, a graphic designer was offering online courses on design principles, while another entrepreneur had created an app for language learners. These side hustles not only generated income but also allowed them to travel and explore the world.\n\nAs I explored Chiang Mai further, I discovered that many locals were embracing this gig economy too. Some had set up shop as freelancers in fields like writing, web development, or social media management. Others were monetizing their properties through Airbnb or short-term rentals. \"It's a win-win situation,\" said a local entrepreneur, who was running a co-working space and renting out his apartment on the side.\n\nI soon realized that the concept of passive income was more than just an online buzzword – it was a reality for many in Chiang Mai. With its relatively low cost of living, affordable coworking spaces, and abundance of cafes with reliable Wi-Fi, this city had become a hotspot for digital nomads seeking financial freedom.\n\nAs I prepared to leave, Alex handed me a business card with a cryptic message: \"Don't just travel – create a life that travels with you.\" It was a reminder that side hustles and passive income aren't just means to an end; they're gateways to a more liberated existence.\n\nIn the days that followed, I met individuals who had turned their passions into full-time businesses. There was the photographer capturing stunning landscapes, the yoga instructor offering online classes, or the food blogger sharing her favorite recipes with the world. Each one's story was a testament to the power of side hustles and passive income – the ability to turn your interests into a life that follows you wherever you roam.\n\nAs I reflected on my experiences in Chiang Mai, I understood why this city had become a haven for digital nomads. It wasn't just about escaping the mundane; it was about creating a lifestyle that aligns with one's values and passions. And for those who were brave enough to pursue their dreams, there existed an entire world of opportunities waiting to be seized.\n\nThe streets of Chiang Mai may have been filled with digital nomads sipping coffee and typing away on their laptops, but what I saw was something far more profound – a community united by the pursuit of financial freedom and a life that truly travels.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated Alex to start multiple side hustles while living in Chiang Mai?",
+      "options": {
+        "A": "He wanted to escape the high cost of living in his home country.",
+        "B": "He was looking for a way to align his work with his values and passions.",
+        "C": "He had limited skills and saw side hustles as a means to earn some extra money.",
+        "D": "He hoped to one day retire and live off his passive income."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"diversifying your income streams\" mean in this context?",
+      "options": {
+        "A": "To invest in multiple businesses simultaneously",
+        "B": "To create multiple part-time jobs to supplement one's primary income",
+        "C": "To focus on a single, high-paying job and avoid taking risks",
+        "D": "To rely solely on a single source of income, such as a full-time job"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one way Alex's partner generates passive income from her blog about sustainable living?",
+      "options": {
+        "A": "By selling physical products online",
+        "B": "Through affiliate marketing and sponsored content",
+        "C": "By offering online courses on design principles",
+        "D": "By renting out a co-working space in town"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The author's attitude towards side hustles can be described as",
+      "options": {
+        "A": "Cynical, with a focus on the negative consequences.",
+        "B": "Excited and optimistic, seeing them as a key to financial freedom.",
+        "C": "Ambivalent, neither praising nor criticizing their benefits.",
+        "D": "Skeptical, questioning their sustainability and long-term viability."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Alex's blog about sustainable living generate through affiliate marketing and sponsored content?",
+      "options": {
+        "A": "A modest income for his family",
+        "B": "Considerable returns, allowing him to invest in other ventures",
+        "C": "Passive income that supports their travel plans",
+        "D": "No significant financial benefits, as it is not a profitable venture"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about side hustles and passive income?",
+      "options": {
+        "A": "The author discovers that Chiang Mai, Thailand has become an expensive city for tourists.",
+        "B": "The author learns about the benefits of side hustles and passive income from his conversations with digital nomads in Chiang Mai.",
+        "C": "The article is a travel guide to Chiang Mai's best cafes and co-working spaces.",
+        "D": "The author concludes that side hustles and passive income are not worth pursuing because they require too much effort."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

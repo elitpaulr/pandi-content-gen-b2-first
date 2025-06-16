@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_136",
+  "title": "Living Abroad on a Shoestring: Budgeting Secrets for Digital Nomads",
+  "topic": "technology",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "Budgeting for Digital Nomads: A Culture of Frugality and Freedom\n\nThe rise of the digital nomad has given birth to a unique culture that values freedom above all else. These modern-day travelers abandon traditional notions of stability and security to live life on their own terms, often in exotic destinations around the world. But with this newfound freedom comes a delicate balancing act: managing finances effectively so as not to compromise one's lifestyle.\n\nFor digital nomads, budgeting is not just about saving money; it's an art form that requires creativity, flexibility, and a willingness to adapt to changing circumstances. Gone are the days of rigid budgets and strict accounting; today's digital nomad must be a master of living in the moment while still planning for the future.\n\nOne of the most significant challenges facing digital nomads is the high cost of living in many popular destinations. Cities like Bangkok, Chiang Mai, and Bali have become hotspots for remote workers, but their affordability has given way to rising prices and gentrification. As a result, digital nomads must be vigilant about monitoring expenses and finding ways to save money without sacrificing quality of life.\n\nTo achieve this balance, many digital nomads employ the concept of \"50/30/20\" budgeting, where 50% of income is allocated towards necessary expenses like rent and food, 30% towards discretionary spending, and 20% towards saving and debt repayment. This framework provides a flexible yet structured approach to managing finances, allowing individuals to make adjustments as needed.\n\nAnother key aspect of digital nomad budgeting is the importance of tracking expenses. Gone are the days of manual spreadsheets or clunky accounting software; today's digital nomads rely on apps like Mint, Personal Capital, and Trail Wallet to monitor spending in real-time. These tools not only provide a clear picture of financial health but also offer insights into areas where costs can be optimized.\n\nOf course, budgeting for digital nomads is not just about numbers and spreadsheets; it's also an exercise in lifestyle design. By prioritizing experiences over material possessions, individuals can create a more fulfilling and meaningful life on the road. Whether it's trying new foods, taking language classes, or exploring hidden gems off the beaten path, digital nomads have the freedom to curate their own unique adventures.\n\nBut with great freedom comes great responsibility. Digital nomads must also contend with the financial risks associated with traveling abroad, including health insurance, visa requirements, and unexpected expenses. To mitigate these risks, many individuals opt for travel insurance policies that cover medical emergencies, trip cancellations, or lost luggage.\n\nIn conclusion, budgeting for digital nomads is a delicate dance between frugality and freedom. By embracing the principles of flexibility, adaptability, and creativity, individuals can navigate the complexities of international living while maintaining a sense of stability and security. Whether you're a seasoned pro or just starting out on your digital nomad journey, remember that budgeting is not just about saving money – it's about designing a life that truly reflects your values and aspirations.\n\nUltimately, the art of budgeting for digital nomads is one of balance and harmony. By finding ways to save, invest, and enjoy the present moment, individuals can unlock the full potential of their lifestyle while minimizing financial stress. So pack light, stay curious, and remember: in the world of digital nomadism, every dollar counts – but so does every experience, every connection, and every moment lived with intention and purpose.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is a key challenge facing digital nomads who want to maintain their lifestyle?",
+      "options": {
+        "A": "They have too much free time",
+        "B": "They struggle to balance their desire for freedom with the high cost of living in popular destinations",
+        "C": "They can no longer use traditional budgeting methods",
+        "D": "They are not able to travel abroad"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"a delicate balancing act\" mean in this text?",
+      "options": {
+        "A": "A situation where someone has too much time on their hands",
+        "B": "A challenging situation that requires careful management to achieve a desired outcome",
+        "C": "A type of accounting software used by digital nomads",
+        "D": "A way of living that is completely carefree and without financial worries"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of income is allocated towards saving and debt repayment according to the \"50/30/20\" budgeting framework?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "40%",
+        "D": "60%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards living a life without financial stability?",
+      "options": {
+        "A": "The author believes that stability is essential for happiness.",
+        "B": "The author sees freedom as more important than financial security.",
+        "C": "The author thinks that budgeting is only for those with high incomes.",
+        "D": "The author recommends saving money at all costs."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"this framework\" refer to in the text?",
+      "options": {
+        "A": "The concept of prioritizing experiences over material possessions",
+        "B": "The idea of living life on their own terms as a digital nomad",
+        "C": "The 50/30/20 budgeting framework",
+        "D": "The use of apps like Mint and Personal Capital for tracking expenses"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about budgeting for digital nomads?",
+      "options": {
+        "A": "Budgeting for digital nomads requires a strict and rigid approach to finances.",
+        "B": "The art of budgeting for digital nomads is a delicate balance between frugality and freedom.",
+        "C": "Digital nomads should prioritize saving money over experiencing new things while traveling.",
+        "D": "Budgeting for digital nomads is only about tracking expenses and cutting costs."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

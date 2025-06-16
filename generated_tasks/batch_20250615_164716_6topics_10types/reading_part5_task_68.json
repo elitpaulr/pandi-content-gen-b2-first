@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_68",
+  "title": "Unlock Your Hidden Wealth: Simple Side Hustles to Riches",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her coffee, Emily gazed out at the bustling streets of Manhattan, feeling trapped in a never-ending cycle of monotony. Her 9-to-5 job as a marketing manager was stifling her creativity, suffocating her dreams. She yearned for something more – a way to break free from the chains of financial dependence and forge her own path.\n\nHer roommate, Rachel, a self-proclaimed \"entrepreneur extraordinaire,\" overheard Emily's lamentations and swooped in with a knowing smile. \"Girl, I've got just the thing for you!\" she exclaimed, pulling out her phone to show off her latest project – an online course teaching social media marketing.\n\nEmily's eyes widened as Rachel explained how the course had been generating passive income since its launch six months ago. The concept was simple: create a valuable resource that people would pay for, and then sit back while it earned money on autopilot.\n\n\"I know what you're thinking,\" Rachel said with a chuckle, \"but trust me, this is the secret to financial freedom. With side hustles like this, I've been able to supplement my income, travel, and even quit my full-time job.\"\n\nEmily's curiosity was piqued. She began researching online courses, ebooks, and podcasts – all potential ways to generate passive income. The more she delved into the world of side hustling, the more she realized it wasn't just about creating a product or service; it was about building an audience that would support her endeavors.\n\nAs Emily spent more time exploring this new world, she discovered a plethora of opportunities beyond online courses. She met individuals who were making a killing on Amazon FBA (Fulfillment by Amazon), selling products they designed and manufactured themselves. Others had built lucrative YouTube channels, generating revenue from ads and sponsorships.\n\nBut with the allure of passive income came the daunting task of creating something valuable enough to attract an audience. Emily struggled to balance her creative ideas with the harsh reality of making a living. How could she possibly turn her passion into a profitable venture?\n\nRachel's words echoed in her mind: \"The key is to find your niche, create something unique and valuable, and then promote it consistently.\" Easy to say, but how did one actually do that? Emily spent hours scouring the internet for tutorials, webinars, and online communities. She devoured books on entrepreneurship and marketing.\n\nAs the weeks passed, Emily's side hustle began to take shape – a blog focusing on sustainable living, complete with product reviews, DIY tutorials, and expert interviews. It wasn't easy; she faced rejection after rejection from advertisers and struggled to maintain her creative spark amidst the monotony of writing schedules.\n\nBut slowly, her hard work started paying off. Readers began to engage with her content, commenting on her posts and sharing them on social media. Advertisers took notice of her growing audience and approached her for collaborations. Emily's income from the blog was still modest, but it represented a crucial step towards financial independence – one that would allow her to pursue more ambitious ventures.\n\nRachel beamed with pride as she watched Emily's confidence grow. \"You're doing it, girl! You're building your own empire.\" And as they sat in their Manhattan apartment, surrounded by the hum of laptops and smartphones, Emily knew she was just getting started on a journey that would take her far beyond the confines of a 9-to-5 job.\n\nShe glanced at Rachel, who was busy editing a podcast episode. \"How do you do it?\" Emily asked, genuinely curious about the woman's remarkable ability to balance multiple side hustles and passive income streams.\n\nRachel smiled knowingly. \"It's all about creating value,\" she said. \"The rest is just math.\"\n\nAs Emily sipped her coffee, now infused with a newfound sense of purpose, she realized that Rachel was right – it wasn't magic; it was hard work, dedication, and a willingness to learn and adapt. With this epiphany, Emily's own entrepreneurial journey had begun, fueled by the promise of passive income and the freedom that came with it.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to Rachel, what is the key factor that determines whether or not a side hustle will generate significant passive income?",
+      "options": {
+        "A": "The amount of time and effort invested in creating the product or service",
+        "B": "Creating something unique and valuable, and then promoting it consistently",
+        "C": "Having a large initial investment to fund the venture",
+        "D": "Being born with entrepreneurial skills"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Rachel mean by \"create something unique and valuable\" when advising Emily on how to generate passive income?",
+      "options": {
+        "A": "To design a product or service that is completely original",
+        "B": "To create a valuable resource that people will pay for, such as an online course or ebook",
+        "C": "To build an audience that will support her endeavors through social media",
+        "D": "To make a lot of money quickly and easily"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How long after its launch did Rachel's online course start generating passive income?",
+      "options": {
+        "A": "1 month",
+        "B": "3 months",
+        "C": "6 months",
+        "D": "12 months"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Rachel think is the most important thing for someone starting a side hustle to focus on?",
+      "options": {
+        "A": "Building a large social media following",
+        "B": "Creating something unique and valuable",
+        "C": "Working long hours to get more clients",
+        "D": "Relying solely on luck and intuition"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"it\" refer to in the following sentence: \"The rest is just math\"?",
+      "options": {
+        "A": "The amount of money Emily's side hustle earns",
+        "B": "Rachel's ability to balance multiple side hustles and passive income streams",
+        "C": "The concept of creating value through side hustles",
+        "D": "The process of generating passive income"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the story about Emily's journey towards financial independence?",
+      "options": {
+        "A": "Emily discovers a way to quit her job and live off her investments.",
+        "B": "Emily learns how to create multiple side hustles and passive income streams through online courses and entrepreneurship.",
+        "C": "Emily struggles to balance her creative ideas with making a living, but eventually finds success.",
+        "D": "Emily's roommate Rachel is the only one who achieves financial freedom through her online course."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

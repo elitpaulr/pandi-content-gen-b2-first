@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_147",
+  "title": "Budgeting Abroad Without Breaking the Bank as a Digital Nomad",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I sit here in a bustling Chiang Mai cafe, sipping on a strong coffee and typing away on my laptop, I'm reminded of the delicate balance that comes with being a digital nomad. The freedom to work from anywhere, explore new cultures, and experience the world's diverse offerings is unparalleled – but it also means juggling finances like a tightrope walker.\n\nFor those who've made the switch, you know what I mean: one day you're soaking up the sun in Bali, the next you're navigating the streets of Tokyo. The digital nomad lifestyle requires flexibility and adaptability, but it's not just about where you go – it's also about how you get there (and survive) on a budget.\n\nThe first step to budgeting for digital nomads is understanding your expenses. I've found that breaking down costs into categories helps me stay sane: accommodation, food, transportation, and activities. In Chiang Mai, a popular destination for remote workers, I rent a small apartment for $200 a month, which is roughly 30% of my monthly income. Food-wise, street stalls offer delicious meals for under $3 – but I do splurge on the occasional high-end meal at a local restaurant.\n\nTransportation costs can add up quickly, especially if you're always on the move. In Asia, buses and trains are affordable options, with prices starting from around $10 for a long-distance ride. However, flights can be pricey – unless you book in advance or opt for budget airlines. I once flew from Bangkok to Hanoi for just $30, but that was an exception rather than the rule.\n\nActivities are where the costs can get out of hand if you're not careful. Cultural events and festivals often come with a price tag, while tours and group excursions can be expensive. I've learned to prioritize free or low-cost experiences: attending local markets, visiting temples during off-peak hours, or taking a self-guided walking tour.\n\nBut budgeting isn't just about saving money – it's also about being mindful of your spending habits. As digital nomads, we often find ourselves in situations where the line between work and play is blurred. It's easy to get caught up in the excitement of exploring a new city and overspend on impulse purchases or lavish meals.\n\nThat's why I've started using the 50/30/20 rule: 50% of my income goes towards necessities (accommodation, food, transportation), 30% towards discretionary spending (activities, entertainment), and 20% towards saving and debt repayment. It may not be perfect, but it's helped me stay on track and avoid financial stress.\n\nAnother crucial aspect of budgeting for digital nomads is understanding the local costs and exchange rates. I've had my fair share of surprises: in some countries, a $5 meal can translate to $20 or more due to unfavorable exchange rates. Researching the cost of living in your destination beforehand helps you prepare and avoid sticker shock.\n\nOf course, budgeting for digital nomads isn't just about numbers – it's also about lifestyle choices. As I sit here watching locals go about their day, I'm reminded that this lifestyle is not just about seeing new places; it's also about immersing yourself in different cultures and connecting with like-minded individuals.\n\nIn the end, budgeting for digital nomads requires a delicate balance between saving money and living life to the fullest. By understanding your expenses, prioritizing free experiences, and being mindful of your spending habits, you can enjoy the freedom and adventure that comes with this lifestyle – without breaking the bank.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if a digital nomad doesn't research the cost of living in their destination beforehand?",
+      "options": {
+        "A": "They will have enough money for all their expenses",
+        "B": "They will be surprised by high prices and exchange rates",
+        "C": "They will stay in the same place for a longer period of time",
+        "D": "They will only eat at street stalls"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word \"necessities\" mean in the context of budgeting for digital nomads?",
+      "options": {
+        "A": "Things that are not essential but bring pleasure",
+        "B": "Things that you need to survive and function, such as food and shelter",
+        "C": "Activities that cost money, like tours and group excursions",
+        "D": "Places to visit and things to do while traveling"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How much does the author pay per month for a small apartment in Chiang Mai?",
+      "options": {
+        "A": "$150",
+        "B": "$200",
+        "C": "$250",
+        "D": "$300"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards budgeting for digital nomads?",
+      "options": {
+        "A": "It's a restrictive and boring aspect of their lifestyle.",
+        "B": "A necessary part of enjoying the freedom and adventure that comes with being a digital nomad.",
+        "C": "Something to be avoided at all costs, as it takes away from the excitement of exploring new cities.",
+        "D": "An afterthought, only relevant when they're in financial trouble."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"I\" refer to at the beginning of the text?",
+      "options": {
+        "A": "The author's laptop",
+        "B": "The author themselves",
+        "C": "A digital nomad who has recently switched careers",
+        "D": "A tourist visiting Chiang Mai for a short trip"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about budgeting for digital nomads?",
+      "options": {
+        "A": "The author provides tips on how to save money while traveling abroad.",
+        "B": "Digital nomadism requires a delicate balance between saving money and experiencing new cultures.",
+        "C": "Budgeting for digital nomads is all about finding cheap flights and accommodation.",
+        "D": "The 50/30/20 rule is the only way to budget successfully as a digital nomad."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

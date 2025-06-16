@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_55",
+  "title": "The Shocking Truth About Your Wardrobe: How Fashion Hurts the Planet",
+  "topic": "technology",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "The Fashion Industry's Dirty Secret: How Sustainable Consumption Can Save the Planet\n\nFast fashion has become a staple of modern life, with many of us guilty of buying cheap clothes that we often discard after just one wear. But beneath the trendy façade lies a dark truth: the fashion industry is one of the most polluting and unsustainable industries on the planet. From toxic chemicals to massive water waste, it's time to rethink our relationship with fashion.\n\nThe statistics are staggering. According to the United Nations Environment Programme (UNEP), the fashion industry produces over 12% of global greenhouse gas emissions – more than the entire country of France. That's not all: the production and disposal of textiles also account for around 10% of global carbon emissions, equivalent to the annual output of 170 million cars.\n\nSo what's driving this unsustainable demand? The answer lies in the way we consume fashion. Fast fashion encourages us to buy more, buy often, and discard quickly. This \"take-make-dispose\" model is not only environmentally devastating but also perpetuates a culture of disposability and waste. In fact, it's estimated that the average American generates 82 pounds of textile waste per year – most of which ends up in landfills or incinerators.\n\nBut there are signs of change on the horizon. The rise of sustainable fashion is gaining momentum, with brands like Patagonia and Reformation leading the way. These companies prioritize eco-friendly materials, energy-efficient manufacturing processes, and responsible supply chains. They're also implementing innovative recycling programs that turn old clothes into new ones – a process known as \"closed-loop\" production.\n\nOne key player in this revolution is Ellen MacArthur, a British sailor and environmentalist who has dedicated her life to promoting circular economies. Her book, \"Circular Economy: An Introduction,\" outlines the principles of regenerative growth, where products are designed to be recycled, reused, or biodegradable. The idea is simple yet powerful: by changing the way we make things, we can reduce waste and pollution while creating new economic opportunities.\n\nSo what does sustainable fashion look like in practice? For one thing, it means buying fewer, better-made clothes that will last longer. This may mean investing in quality over quantity – or opting for second-hand shopping. Online platforms like ThredUp and Poshmark are making it easier to buy and sell pre-loved clothes, reducing the need for new production.\n\nIt's not just about what we wear; it's also about how we make things. The fashion industry is waking up to the importance of sustainable materials, from organic cotton to recycled polyester. Some brands are even using plant-based alternatives like pineapple leaves or mushroom mycelium – a fungus that can replace plastic in textiles.\n\nOf course, there are challenges ahead. Changing consumer behavior won't be easy, especially when faced with cheap prices and trendy designs. But as we become more aware of the environmental costs of fast fashion, we'll begin to demand better from our favorite brands.\n\nThe good news is that there's a growing movement towards sustainable consumption – not just in fashion but across industries. Governments, companies, and individuals are all working together to create a more circular economy. By embracing this shift, we can reduce waste, pollution, and greenhouse gas emissions while creating new opportunities for growth and innovation.\n\nIn the end, it comes down to a simple choice: do we want to continue down the path of unsustainable consumption or do we opt for a more regenerative approach? The fashion industry may be one of the most polluting sectors on earth, but with collective action and innovative solutions, we can create a more sustainable future – one outfit at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if consumers continue to demand cheap prices and trendy designs from fashion brands?",
+      "options": {
+        "A": "The production of sustainable materials will increase.",
+        "B": "The fashion industry's pollution levels will decrease significantly.",
+        "C": "Brands will be forced to prioritize quality over quantity in their products.",
+        "D": "The number of people buying second-hand clothes online will rise."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"regenerative growth\" mean in the context of Ellen MacArthur's book?",
+      "options": {
+        "A": "A type of economic system that focuses on reducing waste",
+        "B": "An approach to business where companies aim to make more money by producing more products",
+        "C": "The idea that products should be designed to be recycled, reused, or biodegradable",
+        "D": "An economic model that prioritizes short-term profits over long-term sustainability"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what percentage of global greenhouse gas emissions is produced by the fashion industry?",
+      "options": {
+        "A": "8%",
+        "B": "12%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards fast fashion?",
+      "options": {
+        "A": "The author views fast fashion as a necessary evil for modern life.",
+        "B": "The author believes that fast fashion has no significant impact on the environment.",
+        "C": "The author sees fast fashion as a polluting and unsustainable industry that needs to change.",
+        "D": "The author thinks that fast fashion is not entirely responsible for environmental issues."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Ellen MacArthur's book \"Circular Economy: An Introduction\" outline?",
+      "options": {
+        "A": "The principles of reducing greenhouse gas emissions",
+        "B": "The principles of regenerative growth, where products are designed to be recycled, reused, or biodegradable",
+        "C": "The statistics on textile waste in the United States",
+        "D": "The benefits of second-hand shopping"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this text about sustainable consumption?",
+      "options": {
+        "A": "To describe the environmental impact of fast fashion and promote individual actions to reduce waste.",
+        "B": "To discuss the role of governments and companies in creating a circular economy.",
+        "C": "To argue that sustainable fashion is not necessary and can coexist with traditional fast-fashion practices.",
+        "D": "To introduce Ellen MacArthur's concept of \"Circular Economy\" as a solution to environmental problems."
+      },
+      "correct_answer": "A",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

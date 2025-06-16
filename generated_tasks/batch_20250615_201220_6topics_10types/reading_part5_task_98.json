@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_98",
+  "title": "Unlocking Bitcoin: A Beginner's Guide to Cryptocurrency Success",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her latte, Emily stared at the sleek smartphone in front of her, her eyes fixed on the cryptic abbreviations on the screen. She had always been fascinated by the world of finance, but cryptocurrency was a mystery to her. Her friend, Alex, a self-proclaimed crypto aficionado, leaned over and began to explain.\n\n\"Think of it like money, Emily,\" he said, his voice animated. \"But instead of being issued by governments or banks, it's created online through complex math problems.\"\n\nEmily raised an eyebrow. \"Complex math problems?\"\n\nAlex nodded enthusiastically. \"That's right. Miners – that's what they're called – use powerful computers to solve these problems in exchange for a certain amount of cryptocurrency. It's like solving a massive puzzle.\"\n\nIntrigued, Emily asked, \"And then what happens with this cryptocurrency?\"\n\n\"Well,\" Alex began, \"it gets added to a public ledger called the blockchain. This ledger is maintained by thousands of computers around the world, so it's virtually unhackable.\"\n\nEmily's eyes widened as she grasped the concept. \"So it's like digital cash that exists outside of traditional financial systems?\"\n\nAlex grinned. \"Exactly! And because it's decentralized – not controlled by any one entity – transactions are faster and more secure than with traditional currencies.\"\n\nHe paused, noticing Emily's skeptical expression. \"Don't worry if it sounds confusing at first,\" he reassured her. \"It's not rocket science. Let me give you an example to help clarify things.\"\n\nAlex pulled out his phone and opened a popular cryptocurrency exchange app. \"This is where people buy and sell different types of cryptocurrencies, like Bitcoin or Ethereum.\" He swiped through the menu options. \"See this? This is a chart showing the value of Bitcoin over time. It's like any other stock market chart – but instead of stocks, it's tracking the value of cryptocurrency.\"\n\nEmily leaned in, her curiosity piqued. \"And what about security?\"\n\nAlex nodded seriously. \"Security is a top priority when it comes to cryptocurrency. Transactions are encrypted and verified through complex algorithms, so even if someone were to hack into an exchange or wallet, they wouldn't be able to access the funds without knowing the owner's private key.\"\n\nHe handed Emily his phone, pointing out a wallet app on the screen. \"This is where you store your cryptocurrency securely. It's like having a digital safe for your money – but instead of cash, it's for crypto.\"\n\nEmily took the phone, her eyes scanning the unfamiliar interface. She felt a surge of excitement mixed with trepidation as she realized just how vast and complex this world was.\n\nAs they parted ways, Emily couldn't shake off the feeling that she had only scratched the surface of cryptocurrency. But Alex had sparked something within her – a desire to learn more about this rapidly evolving field.\n\nOver the next few days, Emily delved deeper into the world of cryptocurrency, devouring articles and YouTube videos on the subject. She began to grasp the concepts, from blockchain technology to market volatility.\n\nThe more she learned, the more fascinated she became. The decentralization, the security, the potential for financial freedom – it all resonated with her.\n\nAs Emily sat at her desk, surrounded by screens and notes, she felt a sense of accomplishment wash over her. She had conquered the basics of cryptocurrency, and now she was ready to take on the next challenge: investing in this unpredictable market.\n\nWith a newfound sense of confidence, Emily opened up an exchange account and made her first investment – a small sum in Bitcoin. The world of cryptocurrency was vast and mysterious, but with every step forward, she felt more at home.\n\nThe future was uncertain, but one thing was clear: Emily had taken the first step into a brave new world, where money was no longer just dollars and cents.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated Emily to learn more about cryptocurrency after her conversation with Alex?",
+      "options": {
+        "A": "She wanted to impress her friend with her financial knowledge.",
+        "B": "She felt it was essential for her job as a finance professional.",
+        "C": "She was intrigued by the potential for financial freedom and decentralization offered by cryptocurrency.",
+        "D": "She had invested in cryptocurrency before and needed to understand its workings."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Alex mean by \"miners\" in the context of cryptocurrency?",
+      "options": {
+        "A": "People who buy and sell cryptocurrencies",
+        "B": "Individuals or organizations that use powerful computers to solve complex math problems for a reward",
+        "C": "Companies that provide security services for exchanges and wallets",
+        "D": "Governments or banks that issue traditional currencies"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Alex, what is maintained by thousands of computers around the world?",
+      "options": {
+        "A": "A central database",
+        "B": "A public ledger called the blockchain",
+        "C": "A complex algorithm",
+        "D": "A cryptocurrency exchange app"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Emily's attitude towards cryptocurrency change as she learns more about it?",
+      "options": {
+        "A": "She becomes increasingly skeptical of its potential",
+        "B": "She develops a strong dislike for the idea of decentralization",
+        "C": "She becomes fascinated by its concept and excited to learn more",
+        "D": "She remains indifferent to its existence"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Alex refer to when he says \"a certain amount of cryptocurrency\"?",
+      "options": {
+        "A": "The total value of all cryptocurrencies",
+        "B": "The reward given to miners for solving math problems",
+        "C": "The number of transactions made on the blockchain",
+        "D": "The cost of using a powerful computer to mine cryptocurrency"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about cryptocurrency?",
+      "options": {
+        "A": "The benefits of investing in Bitcoin",
+        "B": "A beginner's guide to understanding cryptocurrency",
+        "C": "How to use a cryptocurrency exchange app",
+        "D": "The risks associated with online transactions"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

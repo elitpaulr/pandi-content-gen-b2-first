@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_40",
+  "title": "Make Your Wallet and Planet Happy: The Ultimate Guide to Sustainable Shopping",
+  "topic": "technology",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember the day I realized just how much my shopping habits were impacting the planet. I was rummaging through a rack of cheap t-shirts at a fast-fashion store, mindlessly tossing items into my cart, when a friend approached me with a concerned look on her face.\n\n\"Hey, don't you think we should be more mindful about where our clothes come from?\" she asked, eyeing the prices and materials. I hesitated for a moment before shrugging it off – after all, who needs to worry about sustainability when you're just trying to stay fashionable?\n\nBut my friend's words stuck with me long after that conversation ended. As I began to dig deeper into the world of sustainable shopping and ethical consumption, I was shocked by what I discovered.\n\nFirstly, fast fashion is a leading contributor to greenhouse gas emissions – not just because of the energy required for transportation, but also due to the massive amounts of waste generated from cheap, disposable clothing. It's estimated that an average American generates 82 pounds of textile waste per year!\n\nI started by making small changes in my daily life. I began buying second-hand clothes and swapping items with friends instead of constantly purchasing new ones. This not only reduced my carbon footprint but also helped me develop a more intentional approach to fashion – I started thinking about the quality, durability, and versatility of each item before buying.\n\nBut sustainable shopping goes beyond just clothing. It's about being mindful of our entire consumption habits – from food to home goods, electronics, and even toiletries. When it comes to food, for instance, I've made a conscious effort to buy local produce in season, reduce food waste by planning meals around what's already stocked in my pantry, and opt for eco-friendly packaging whenever possible.\n\nOne of the most eye-opening experiences was researching the impact of plastic water bottles on our oceans. Did you know that over 8 million tons of plastic waste enter our oceans every year? It's heartbreaking to think about the devastating effects this has on marine life – from entanglement and suffocation to ingestion and even death.\n\nThis knowledge motivated me to switch to a refillable water bottle, which not only reduces my plastic usage but also saves me money in the long run. I've also started using reusable bags for grocery shopping, opting for products with minimal or biodegradable packaging, and supporting companies that prioritize sustainability and transparency.\n\nNow, I'm not saying it's always easy – changing habits takes time and effort! But the more I learned about sustainable shopping and ethical consumption, the more I realized just how empowering it is to make conscious choices. Not only do we benefit our planet by reducing waste and conserving resources, but we also support fair labor practices, promote cultural diversity, and even save money in the long run.\n\nOf course, there are still areas where I'm working on improving – like electronics and home goods, which can be particularly challenging to shop for sustainably. But with each small step forward, I feel a sense of pride and accomplishment knowing that my choices are making a difference.\n\nAs I look around me now, I see friends and family members starting to adopt similar habits – whether it's using public transport, carpooling, or simply choosing eco-friendly products over cheap alternatives. It's no longer just about individual actions; we're part of a collective movement towards sustainability.\n\nIn the end, sustainable shopping and ethical consumption aren't about deprivation or sacrifice; they're about embracing a more mindful, intentional approach to living. By being more aware of our choices and their impact on the planet, we can create a better world for ourselves and future generations – one purchase at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated the writer to switch from buying plastic water bottles to using a refillable one?",
+      "options": {
+        "A": "The high cost of plastic water bottles",
+        "B": "The devastating effects of plastic waste on marine life",
+        "C": "A recommendation from a friend or family member",
+        "D": "The desire for a fashionable and trendy lifestyle"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word 'fast' mean in the context of fashion?",
+      "options": {
+        "A": "Slow and high-quality",
+        "B": "Cheap and made quickly",
+        "C": "Expensive and luxurious",
+        "D": "Sustainable and eco-friendly"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, how many pounds of textile waste does an average American generate per year?",
+      "options": {
+        "A": "40 pounds",
+        "B": "50 pounds",
+        "C": "82 pounds",
+        "D": "120 pounds"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The author's attitude towards fast fashion is best described as:",
+      "options": {
+        "A": "Excited about its affordability and convenience",
+        "B": "Concerned about its impact on the planet but willing to make changes",
+        "C": "Completely unaware of its negative effects",
+        "D": "Indifferent to its social and environmental consequences"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"our entire consumption habits\" refer to in the text?",
+      "options": {
+        "A": "The author's shopping habits",
+        "B": "The impact of fast fashion on the environment",
+        "C": "The author's daily life and all areas where they make purchasing decisions",
+        "D": "The effects of plastic water bottles on marine life"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable shopping?",
+      "options": {
+        "A": "The author is encouraging readers to buy cheap, fast-fashion clothing.",
+        "B": "Sustainable shopping and ethical consumption can have a positive impact on the planet and our daily lives.",
+        "C": "The author has never made any changes to their shopping habits and still buys plenty of plastic water bottles.",
+        "D": "The text only focuses on sustainable fashion and doesn't mention other areas of consumption."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

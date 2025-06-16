@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_176",
+  "title": "Working from Paradise: How Remote Jobs Are Reshaping Local Economies Abroad",
+  "topic": "business_and_work",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Chiang Mai, Thailand, I felt a sense of excitement wash over me. Not just for the warm weather or the delicious street food, but because I was about to embark on an adventure that would take me into the heart of a global phenomenon: remote work.\n\nMy journey began in this small Thai city, where I had heard tales of a thriving expat community and a vibrant startup scene. As I wandered through the narrow streets of the old town, I noticed something peculiar - every second person seemed to be typing away on their laptop from a trendy coffee shop or co-working space. It wasn't just the digital nomads who were working remotely, though; many locals had also joined the ranks, embracing the flexibility and freedom that came with it.\n\nAs I delved deeper into this world of remote work, I began to realize the profound economic impact it was having on local communities. In Chiang Mai, for example, the influx of digital nomads had created a thriving economy that catered specifically to their needs. Co-working spaces sprouted up everywhere, offering sleek facilities and high-speed internet at affordable prices. Cafes and restaurants adapted their menus to cater to the international crowd, serving everything from avocado toast to vegan smoothie bowls.\n\nBut it wasn't just about the food - the remote work revolution had also given birth to a new breed of entrepreneurs in Chiang Mai. Young Thais were setting up their own businesses, from online marketing agencies to e-commerce platforms, capitalizing on the growing demand for digital services among expats and locals alike. This influx of entrepreneurial spirit had injected a much-needed boost into the local economy, creating jobs and stimulating innovation.\n\nAs I traveled to other destinations - Bali, Mexico City, and Barcelona - I saw similar patterns emerging. Remote work was having a profound impact on local economies, from Costa Rica's eco-lodges catering to digital nomads to Spain's vibrant startup scene in Madrid. In each place, the story was slightly different, but the common thread was clear: remote work was bringing new revenue streams and opportunities for growth.\n\nBut what about the economic benefits at a national level? A study by Upwork found that the global gig economy (which includes remote workers) is projected to grow from $1.4 trillion in 2020 to $5.3 trillion by 2028. This represents a staggering increase of over 375% in just eight years, with remote work playing an increasingly significant role.\n\nOf course, not all countries are feeling the benefits equally. In some nations, such as Japan and South Korea, cultural attitudes towards work and technology have made it harder for remote work to take hold. But in many others - from Portugal's \"Non-Habitual Residence\" visa program to Estonia's e-residency scheme - governments are actively encouraging remote work, recognizing its potential to boost economic growth.\n\nAs I reflected on my journey, I realized that the economic impact of remote work goes far beyond the numbers and statistics. It's about creating new opportunities for people to live and work in places they love; it's about fostering cultural exchange and understanding; and it's about empowering individuals to take control of their careers and destinies.\n\nIn Chiang Mai's bustling streets, I saw a glimpse of this future - one where the boundaries between work and play blur, and where technology allows us to connect with each other in new and meaningful ways. It was a truly inspiring experience, and one that left me wondering: what will be the next chapter in this unfolding story of remote work?",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the economic benefits of remote work for local communities from the fact that \"young Thais were setting up their own businesses, from online marketing agencies to e-commerce platforms\" in Chiang Mai?",
+      "options": {
+        "A": "Remote work has led to a significant reduction in unemployment among locals.",
+        "B": "The influx of digital nomads has created new revenue streams and opportunities for growth in local economies.",
+        "C": "Local communities are struggling to adapt to the changing economic landscape caused by remote work.",
+        "D": "Many businesses in Chiang Mai have had to close due to the competition from online services."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"injected a much-needed boost\" mean in the context of the local economy?",
+      "options": {
+        "A": "To reduce the amount of money being spent",
+        "B": "To create jobs and stimulate innovation",
+        "C": "To reduce the number of people working remotely",
+        "D": "To increase the cost of living for locals"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what is the projected growth rate of the global gig economy from 2020 to 2028?",
+      "options": {
+        "A": "Over 200%",
+        "B": "From $1.4 trillion to $5.3 trillion",
+        "C": "An increase of over 375% in just eight years",
+        "D": "A decrease of 25% in five years"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What can be inferred about the author's attitude towards the economic impact of remote work on local communities?",
+      "options": {
+        "A": "The author is concerned that it will lead to job losses and decreased income for locals.",
+        "B": "The author believes it has had a profoundly positive impact, creating new opportunities and stimulating innovation.",
+        "C": "The author thinks it has only benefited expats and digital nomads, with little effect on the local economy.",
+        "D": "The author is neutral about its economic effects, seeing both pros and cons."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"a thriving economy that catered specifically to their needs\" refer to?",
+      "options": {
+        "A": "The city's infrastructure",
+        "B": "The local expat community and startup scene",
+        "C": "Chiang Mai's cultural heritage sites",
+        "D": "Thailand's national economic growth rate"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about the economic impact of remote work?",
+      "options": {
+        "A": "The author believes that remote work is a negative trend for local economies.",
+        "B": "The author explores how remote work is transforming local communities and contributing to national economic growth.",
+        "C": "The author argues that remote work is only beneficial for digital nomads, not locals.",
+        "D": "The author thinks that the impact of remote work on the economy will be short-lived."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_22",
+  "title": "Mastering Money Magic: Essential Skills for Young Adults to Thrive Finanially",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "As you step into adulthood, one of the most important skills to master is financial literacy. Being able to manage your money effectively can save you from stress, debt, and even bankruptcy. It's not just about earning a good salary; it's about making smart decisions with your hard-earned cash.\n\nFinancial literacy is more than just balancing your checkbook or knowing how to use a credit card. It's about understanding the ins and outs of personal finance, including saving, investing, budgeting, and managing debt. It's about being aware of the various financial tools available to you, such as insurance policies, retirement accounts, and investment options.\n\nFor young adults, financial literacy is crucial for building a stable financial future. Without it, you may find yourself living paycheck-to-paycheck, struggling to make ends meet, or even worse, drowning in debt. The good news is that financial literacy can be learned and mastered with practice and patience.\n\nSo, where do you start? Here are some practical tips to help you get started:\n\n1.  **Start by tracking your expenses**: For one month, write down every single transaction you make, including small purchases like coffee or snacks. This will give you a clear picture of where your money is going.\n2.  **Create a budget**: Based on your income and expenses, create a budget that allocates your money towards essential expenses like rent, utilities, groceries, and transportation. You can also set aside money for savings, entertainment, and debt repayment.\n3.  **Prioritize needs over wants**: Be honest with yourself about what you need versus what you want. Prioritize essential expenses over discretionary spending like dining out or buying expensive clothes.\n4.  **Automate your savings**: Set up automatic transfers from your checking account to your savings or investment accounts. This way, you'll ensure that you save a fixed amount regularly without having to think about it.\n5.  **Invest in yourself**: Consider investing in courses, workshops, or books that can help you improve your financial literacy and skills.\n\nIn addition to these practical tips, there are several financial tools available to young adults that can help them manage their finances effectively. Some of these include:\n\n*   **Mobile banking apps**: These apps allow you to track your expenses, pay bills, and transfer money easily from the comfort of your own home.\n*   **Personal finance apps**: Apps like Mint or You Need a Budget (YNAB) can help you create a budget, track your spending, and set financial goals.\n*   **Robo-advisors**: These online platforms offer low-cost investment options that allow you to invest in a diversified portfolio with minimal effort.\n\nFinancial literacy is not just about managing your money; it's also about making smart decisions about big-ticket purchases like cars or homes. When buying a car, for example, consider the total cost of ownership, including fuel, maintenance, and insurance costs. Similarly, when buying a home, consider factors like location, size, and affordability.\n\nIn conclusion, financial literacy is an essential skill for young adults to master in today's fast-paced world. By tracking your expenses, creating a budget, prioritizing needs over wants, automating your savings, investing in yourself, and using available financial tools, you can take control of your finances and build a stable financial future. Remember, financial literacy is a journey, not a destination. With patience, practice, and persistence, you'll become financially savvy and confident in no time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if young adults don't develop good financial habits from an early age?",
+      "options": {
+        "A": "They will be more likely to save for retirement",
+        "B": "They will struggle with debt and money management",
+        "C": "They will earn a higher salary than their parents",
+        "D": "They will have fewer job opportunities"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"ins and outs\" mean in the context of personal finance?",
+      "options": {
+        "A": "The details and complexities of financial transactions",
+        "B": "The external appearance or surface level of financial matters",
+        "C": "The internal workings or mechanisms of financial systems",
+        "D": "The overall trend or direction of financial changes"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one way to track expenses mentioned in the text?",
+      "options": {
+        "A": "By using a mobile banking app",
+        "B": "By writing down every single transaction for one month",
+        "C": "By creating a budget based on income and expenses",
+        "D": "By investing in courses or books on personal finance"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about the idea of young adults living paycheck-to-paycheck or drowning in debt if they don't learn financial literacy?",
+      "options": {
+        "A": "The author thinks it's a minor problem that can be easily solved",
+        "B": "The author believes it's a common and serious consequence of not having financial literacy",
+        "C": "The author suggests that it's only for those who are very poor",
+        "D": "The author thinks it's something that only happens to people in certain countries"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"your hard-earned cash\" refer to?",
+      "options": {
+        "A": "Your parents' money",
+        "B": "The money you earn from working a part-time job",
+        "C": "Your inheritance",
+        "D": "Your student loan allowance"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about financial literacy for young adults?",
+      "options": {
+        "A": "The importance of having a high salary is emphasized.",
+        "B": "Financial literacy is crucial for building a stable financial future and can be learned with practice and patience.",
+        "C": "Young adults should only focus on saving money and not worry about debt or budgeting.",
+        "D": "Using mobile banking apps is the key to managing finances effectively."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

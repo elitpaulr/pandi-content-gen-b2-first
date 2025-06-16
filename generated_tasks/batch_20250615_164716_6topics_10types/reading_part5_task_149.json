@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_149",
+  "title": "Mastering Your Money on the Move: A Digital Nomad's Budget Guide",
+  "topic": "technology",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "As a digital nomad, navigating the world's most beautiful destinations while working remotely can be a dream come true. However, maintaining a stable financial situation while traveling is not always as easy as it sounds. Budgeting for digital nomads requires careful planning, discipline, and a clear understanding of one's expenses.\n\nThe first step in creating an effective budget is to track your income and expenses accurately. Digital nomads often have variable incomes due to factors like freelance work or online business fluctuations. To account for this unpredictability, it's essential to set aside a percentage of each payment into a savings fund. This will provide a cushion against any financial shocks and ensure that you can maintain your lifestyle even during slow months.\n\nNext, categorize your expenses into needs versus wants. Essentials like accommodation, food, and healthcare should be prioritized first. Non-essential items such as dining out, entertainment, or travel souvenirs can be allocated a smaller portion of the budget. Be realistic about what you need to spend on each category, and don't underestimate the costs associated with living in foreign countries.\n\nWhen it comes to accommodation, digital nomads often face unique challenges. From coworking spaces to Airbnb apartments, finding affordable housing that meets your work requirements can be time-consuming. Research local options thoroughly before committing to a place, considering factors like internet speed, noise levels, and proximity to public transportation. Be prepared to spend around $800-$1,200 per month on accommodation in popular destinations.\n\nFood expenses are another critical component of digital nomads' budgets. Eating out regularly can quickly add up, so it's crucial to find affordable local eateries or cook your own meals when possible. Some popular options for budget-friendly food include street vendors, markets, or meal kits delivered directly to your doorstep. Plan to allocate around $300-$500 per month for groceries and eating out.\n\nTransportation costs can vary greatly depending on the location and mode of travel. For short-term stays, consider renting a bike or scooter instead of a car. In cities with reliable public transportation systems, opt for buses or trains over taxis or ride-sharing services. When traveling to new destinations, research affordable transportation options in advance, such as budget airlines or group tours.\n\nDigital nomads often have the flexibility to choose their own health insurance plans. Research local providers and consider investing in a travel medical insurance policy that covers unexpected medical emergencies. This will give you peace of mind while exploring foreign countries without breaking the bank.\n\nTo make budgeting more manageable, set up automatic transfers from your checking account to separate savings and expense accounts. Use budgeting apps like Mint or Personal Capital to track your spending and stay on top of your finances in real-time. Regularly review and adjust your budget as needed to ensure that you're meeting your financial goals.\n\nBudgeting for digital nomads requires a delicate balance between enjoying the freedom of travel and maintaining a stable financial situation. By categorizing expenses, tracking income, and setting realistic budgets, you can enjoy the benefits of remote work while minimizing financial stress. Whether it's exploring bustling cities or relaxing on tropical beaches, your ability to adapt and prioritize your finances will be key to a successful digital nomad lifestyle.\n\nIn conclusion, digital nomads need to approach budgeting with a clear understanding of their expenses and income. By tracking spending, categorizing needs versus wants, and setting realistic budgets, they can enjoy the freedom of remote work while maintaining financial stability. With careful planning and discipline, digital nomads can navigate even the most challenging destinations without sacrificing their lifestyle or sanity.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to a digital nomad's finances if they don't set aside a percentage of each payment into a savings fund?",
+      "options": {
+        "A": "They will be forced to cut back on essential expenses.",
+        "B": "They may struggle to afford living costs during slow months.",
+        "C": "Their income will increase significantly due to freelance work or online business fluctuations.",
+        "D": "They can rely solely on their accommodation budget for financial stability."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"account for\" something in a budget?",
+      "options": {
+        "A": "To ignore or leave out",
+        "B": "To set aside money as a precaution against unexpected expenses",
+        "C": "To increase income by taking on more freelance work",
+        "D": "To reduce expenses by cutting back on non-essential items"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of each payment should a digital nomad set aside into a savings fund to account for unpredictability?",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "20%",
+        "D": "30%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards budgeting for digital nomads?",
+      "options": {
+        "A": "It's a complicated process that requires too much time and effort.",
+        "B": "It's essential to enjoy the freedom of travel, but also be responsible with finances.",
+        "C": "Budgeting is not necessary for digital nomads as they can always find ways to afford things.",
+        "D": "The key to successful budgeting is being extremely frugal and sacrificing all non-essential expenses."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who is described as having variable incomes due to factors like freelance work or online business fluctuations?",
+      "options": {
+        "A": "The writer of the text",
+        "B": "Digital nomads often have variable incomes due to factors like freelance work or online business fluctuations.",
+        "C": "People who work remotely in foreign countries",
+        "D": "Those who travel and work abroad"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about budgeting for digital nomads?",
+      "options": {
+        "A": "To provide a comprehensive guide to finding affordable accommodation as a digital nomad",
+        "B": "To explain how digital nomads can enjoy financial stability while traveling and working remotely",
+        "C": "To introduce new budgeting apps specifically designed for digital nomads",
+        "D": "To discuss the importance of health insurance for remote workers"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

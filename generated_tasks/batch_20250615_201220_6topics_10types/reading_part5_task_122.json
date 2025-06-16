@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_122",
+  "title": "Living Abroad on a Shoestring: Budgeting Secrets for Digital Nomads",
+  "topic": "technology",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**Living Abroad on a Shoestring**\n\nAs a digital nomad, you've traded in the comforts of home for a life of freedom and flexibility on the road. But with great power comes great responsibility – namely, managing your finances to make sure you can keep living that dream lifestyle.\n\nBudgeting as a digital nomad is not for the faint of heart. With constantly changing exchange rates, variable costs, and an endless list of tempting travel opportunities, it's easy to get caught off guard by unexpected expenses. But with some planning, discipline, and expertise, you can stay on top of your finances and keep exploring.\n\n**Know Your Numbers**\n\nBefore you start budgeting, take a hard look at your income and expenses. Digital nomads often work remotely as freelancers or consultants, which means their income can be unpredictable. To get a clear picture of your financial situation, track every transaction for three months to see where your money is going.\n\nAccording to a survey by Remote Year, 71% of digital nomads reported feeling financially stressed at some point during their travels. That's why it's crucial to create a budget that accounts for variable income and expenses.\n\n**The 50/30/20 Rule**\n\nTo make budgeting easier, try using the 50/30/20 rule: allocate 50% of your income towards necessary expenses like rent, food, and healthcare; 30% towards discretionary spending like travel and entertainment; and 20% towards saving and debt repayment.\n\nThis rule is a good starting point, but feel free to adjust it based on your individual needs. For example, if you're living in a country with high costs of living, you may need to allocate more money towards rent and food.\n\n**Tracking Your Expenses**\n\nThere are many apps and tools available that can help you track your expenses and stay on top of your finances. Some popular options include:\n\n* Mint: A comprehensive budgeting app that connects to your bank accounts and credit cards\n* Personal Capital: A financial management tool that helps you track your income and expenses, investments, and debts\n* Splitwise: An expense tracking app that's perfect for splitting bills with travel companions\n\nThese tools can help you stay organized and make informed decisions about how to allocate your money.\n\n**Tips from the Experts**\n\nWe spoke with several digital nomads who have mastered the art of budgeting on the road. Here are some tips from their experiences:\n\n* \"I always try to rent apartments outside of city centers,\" says Emily Chen, a freelance writer based in Chiang Mai. \"It's cheaper and I get more space for my money.\"\n* \"I prioritize saving over spending,\" adds Alex Lee, a digital marketing consultant who travels the world with his partner. \"We set aside 20% of our income each month towards savings and investments.\"\n* \"Don't be afraid to splurge every now and then,\" advises Sarah Taylor, a travel blogger based in Barcelona. \"It's okay to treat yourself – just make sure you have a plan for how you'll pay for it later.\"\n\n**Conclusion**\n\nBudgeting as a digital nomad requires discipline, flexibility, and a willingness to adapt to changing circumstances. By tracking your expenses, allocating your income wisely, and using the right tools and resources, you can stay on top of your finances and keep exploring the world without worrying about money.\n\nAs Emily Chen puts it, \"Budgeting is not about deprivation – it's about making conscious choices that align with your values and goals.\" With this mindset, you'll be able to live abroad on a shoestring budget and still enjoy all the perks of the digital nomad lifestyle.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if a digital nomad doesn't plan their finances carefully?",
+      "options": {
+        "A": "They will struggle to find affordable accommodation.",
+        "B": "Their income will become unpredictable and difficult to manage.",
+        "C": "They will be able to travel more frequently without worrying about expenses.",
+        "D": "They will never experience financial stress while traveling."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"variable costs\" mean in the context of managing finances as a digital nomad?",
+      "options": {
+        "A": "A fixed expense that changes over time",
+        "B": "An unpredictable cost that can fluctuate depending on circumstances",
+        "C": "A regular payment that is paid at the same time every month",
+        "D": "A one-time expense that has already been paid for"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a survey by Remote Year, what percentage of digital nomads reported feeling financially stressed at some point during their travels?",
+      "options": {
+        "A": "40%",
+        "B": "60%",
+        "C": "71%",
+        "D": "80%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards budgeting as a digital nomad?",
+      "options": {
+        "A": "It's a complicated process that requires too much effort",
+        "B": "It's essential for living the digital nomad lifestyle and can be managed with discipline and planning",
+        "C": "It's not necessary, as most expenses can be covered by credit cards",
+        "D": "It's only for experienced travelers who know how to navigate complex financial situations"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Emily Chen suggest is cheaper than renting apartments in city centers?",
+      "options": {
+        "A": "Renting apartments in suburbs",
+        "B": "Renting apartments outside of city centers",
+        "C": "Sharing a room with other travelers",
+        "D": "Staying in hostels"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about budgeting for digital nomads?",
+      "options": {
+        "A": "The text provides tips on how to save money while traveling.",
+        "B": "Budgeting as a digital nomad requires discipline, flexibility, and a willingness to adapt to changing circumstances.",
+        "C": "Digital nomads should always try to live in city centers to get more space for their money.",
+        "D": "The 50/30/20 rule is the only way to budget successfully as a digital nomad."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

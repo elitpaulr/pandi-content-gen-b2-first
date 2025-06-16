@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_41",
+  "title": "Fuel Your Fitness: Simple Nutrition Tips for Amateur Athletes",
+  "topic": "health_and_fitness",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**Fuel Your Body, Fuel Your Performance**\n\nAs an amateur athlete, you know that training hard is just half the battle. What you put into your body before, during, and after exercise can make all the difference in your performance on the field, track, or court. Sports nutrition is a crucial aspect of any athlete's training regimen, but it can be overwhelming to navigate the complex world of protein powders, energy bars, and hydration tablets.\n\n**Understand Your Needs**\n\nBefore you start loading up on supplements, take some time to understand your nutritional needs as an amateur athlete. The first step is to determine your caloric intake. Most athletes require more calories than non-athletes due to their increased energy expenditure. Aim for a daily caloric intake that is 15-20% above your maintenance level.\n\nNext, focus on macronutrients: carbohydrates, protein, and fat. Carbohydrates are the primary source of fuel for high-intensity activities like sprinting or jumping. Aim for complex carbs such as whole grains, fruits, and vegetables. Protein is essential for muscle repair and growth; aim for 1.2-1.6 grams per kilogram of body weight from sources like lean meats, fish, eggs, and dairy.\n\n**Timing is Everything**\n\nProper nutrition timing can make a significant difference in your performance. Here are some general guidelines to keep in mind:\n\n*   **Pre-workout**: Eat a balanced meal 1-3 hours before exercise that includes complex carbs and protein.\n*   **During exercise**: Consume easily digestible carbohydrates like sports drinks or energy gels to maintain energy levels.\n*   **Post-workout**: Within 30-60 minutes after exercise, consume a mix of carbohydrates and protein to aid in muscle recovery.\n\n**Hydrate, Hydrate, Hydrate**\n\nProper hydration is essential for athletic performance. Aim to drink at least 8-10 glasses of water per day, and more if you're engaging in high-intensity activities or exercising in hot weather.\n\n**Supplements: Use Them Wisely**\n\nWhile supplements can be helpful in filling nutritional gaps, use them judiciously. Here are some popular sports nutrition supplements:\n\n*   **Protein powder**: Convenient source of protein to support muscle growth and repair.\n*   **Creatine**: Increases strength and endurance by providing energy to muscles.\n*   **Beta-alanine**: Reduces fatigue and improves high-intensity performance.\n\nHowever, it's essential to consult with a healthcare professional or registered dietitian before adding any supplements to your routine.\n\n**Conclusion**\n\nSports nutrition is not rocket science, but it does require some knowledge and planning. By understanding your nutritional needs, timing your meals correctly, staying hydrated, and using supplements wisely, you'll be well on your way to optimizing your performance as an amateur athlete. Remember, a balanced diet is the foundation of any successful training regimen.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's opinion on supplements from the text?",
+      "options": {
+        "A": "The author thinks that supplements are essential for all athletes.",
+        "B": "Supplements should only be used by professional athletes, not amateur ones.",
+        "C": "While supplements can be helpful, they should be used judiciously and with proper guidance.",
+        "D": "The author advises against using any supplements at all."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What do carbohydrates serve as for high-intensity activities like sprinting or jumping?",
+      "options": {
+        "A": "A source of energy and repair",
+        "B": "The primary source of fuel",
+        "C": "A way to maintain hydration levels",
+        "D": "Essential for muscle growth and strength"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage above maintenance level should an amateur athlete aim for their daily caloric intake?",
+      "options": {
+        "A": "10-15%",
+        "B": "15-20%",
+        "C": "25-30%",
+        "D": "35-40%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What can be inferred about the author's attitude towards sports nutrition for amateur athletes?",
+      "options": {
+        "A": "The author believes that it's too complicated and only experts should handle it.",
+        "B": "The author thinks that a balanced diet is key to optimizing performance, but also acknowledges the importance of supplements in filling nutritional gaps.",
+        "C": "The author advises against consuming any supplements at all.",
+        "D": "The author considers sports nutrition as \"rocket science\" that requires no effort or planning."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"1-3 hours before exercise\" refer to in the text?",
+      "options": {
+        "A": "A time frame for consuming supplements",
+        "B": "The recommended amount of water to drink per day",
+        "C": "The timing for a balanced meal before exercising",
+        "D": "The daily caloric intake level for amateur athletes"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What should an amateur athlete focus on first when it comes to sports nutrition?",
+      "options": {
+        "A": "Understanding their nutritional needs and timing meals correctly",
+        "B": "Loading up on supplements without consulting a healthcare professional",
+        "C": "Focusing solely on high-calorie intake for energy expenditure",
+        "D": "Ignoring proper hydration altogether"
+      },
+      "correct_answer": "A",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

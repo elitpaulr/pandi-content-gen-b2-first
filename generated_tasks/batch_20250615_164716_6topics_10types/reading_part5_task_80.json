@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_80",
+  "title": "How to Build Multiple Income Streams Without Quitting Your Job",
+  "topic": "general",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "**The Rise of Side Hustles and Passive Income**\n\nIn today's fast-paced work environment, the traditional nine-to-five job is no longer the only option for financial stability and success. The growing trend of side hustles and passive income has revolutionized the way people earn a living, providing a sense of freedom and flexibility that was once unimaginable.\n\nFor many, the concept of a side hustle conjures up images of freelancing or part-time work, but it's so much more than that. A side hustle is any additional income-generating activity that an individual pursues outside of their primary job. It could be anything from selling handmade crafts online to driving for a ride-sharing service, and everything in between.\n\nThe benefits of having a side hustle are numerous. Not only can it provide a much-needed financial boost during times of economic uncertainty, but it also offers the opportunity to explore new passions and interests outside of one's primary career. For instance, someone who works as an accountant might start a successful photography business on the side, allowing them to express their creativity and earn extra income.\n\nPassive income, on the other hand, is a game-changer for those looking to break free from the shackles of traditional employment. Passive income refers to earnings that require little to no effort or maintenance once an initial investment has been made. Examples include dividend-paying stocks, rental properties, and online courses.\n\nOne of the most significant advantages of passive income is its ability to generate wealth over time without requiring constant attention. Imagine waking up each morning knowing that your investments are working for you, generating a steady stream of income while you focus on other pursuits.\n\nSo, how can individuals get started with side hustles and passive income? The first step is to identify one's strengths and interests. What skills or talents do you possess that could be monetized? Are you an expert in marketing, writing, or design? Consider offering your services as a freelancer or starting a blog to showcase your expertise.\n\nAnother option is to explore online platforms that connect individuals with side hustles. Websites like Upwork, Fiverr, and TaskRabbit offer a range of opportunities for those looking to earn extra income on their own terms.\n\nWhen it comes to passive income, the possibilities are endless. Investing in a high-yield savings account or a certificate of deposit (CD) can provide a low-risk way to generate interest earnings. Alternatively, investing in real estate investment trusts (REITs) or dividend-paying stocks can offer a more substantial return on investment.\n\nSome popular side hustles include:\n\n*   **Online tutoring**: If you have expertise in a particular subject, consider offering online tutoring services.\n*   **Selling products online**: Utilize platforms like Amazon FBA, Etsy, or eBay to sell handmade or drop-shipped products.\n*   **Ride-sharing or food delivery**: Sign up with companies like Uber, Lyft, DoorDash, or Postmates to earn money by driving or delivering food.\n\nTo build a successful side hustle, it's essential to be consistent and patient. Start small, focus on providing excellent service, and continuously adapt to changes in the market. As your business grows, so will your earning potential.\n\nPassive income strategies also require patience and dedication. Investing in stocks or real estate requires research and planning, but can provide a significant return on investment over time.\n\nIn conclusion, side hustles and passive income have revolutionized the way people earn a living, providing flexibility, freedom, and financial stability. Whether you're looking to supplement your primary income or build a full-time business, there are countless opportunities available. By identifying your strengths, exploring online platforms, and investing wisely, you can unlock the secrets of side hustles and passive income.\n\n**References:**\n\n*   **Upwork**: A platform connecting freelancers with businesses.\n*   **Fiverr**: A marketplace for offering services starting at $5 per task.\n*   **TaskRabbit**: A platform for completing small tasks or errands.\n*   **The Balance**: A website providing information on personal finance and investing.\n\n**Word Count: 660**",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if someone invests wisely in a passive income strategy?",
+      "options": {
+        "A": "They will earn a significant return on investment immediately.",
+        "B": "Their earning potential will increase without additional effort.",
+        "C": "They will be able to generate wealth over time with minimal maintenance.",
+        "D": "They will lose all their initial investment."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is an example of a side hustle mentioned in the text that involves driving?",
+      "options": {
+        "A": "Creating online courses",
+        "B": "Selling handmade crafts online",
+        "C": "Driving for a ride-sharing service",
+        "D": "Investing in real estate investment trusts (REITs)"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the author's attitude towards the traditional nine-to-five job?",
+      "options": {
+        "A": "The author is enthusiastic about the idea of sticking to a traditional nine-to-five job.",
+        "B": "The author views the traditional nine-to-five job as restrictive and outdated.",
+        "C": "The author believes that the traditional nine-to-five job is still the best option for financial stability and success.",
+        "D": "The author thinks that the traditional nine-to-five job has no place in modern society."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the pronoun \"it\" refer to in the following sentence?",
+      "options": {
+        "A": "A side hustle",
+        "B": "The financial boost",
+        "C": "New passions and interests",
+        "D": "Economic uncertainty"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the text about side hustles and passive income?",
+      "options": {
+        "A": "The benefits of traditional employment are being replaced by side hustles and passive income.",
+        "B": "Side hustles and passive income offer a way to earn extra money outside of one's primary job, providing financial stability and flexibility.",
+        "C": "Passive income is a more reliable source of wealth than side hustles.",
+        "D": "Side hustles and passive income are only suitable for those with specialized skills or knowledge."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

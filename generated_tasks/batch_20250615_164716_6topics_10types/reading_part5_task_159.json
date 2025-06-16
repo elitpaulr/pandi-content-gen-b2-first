@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_159",
+  "title": "Remote Work Revolution: How Working from Home Is Changing the Economy Forever",
+  "topic": "business_and_work",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "The sun had just begun to set over the bustling streets of Manhattan when Rachel settled into her cozy home office, laptop open in front of her. She was one of the millions of Americans who had made the switch to remote work in recent years, and she couldn't imagine going back to the daily commute.\n\nAs a marketing specialist for a major tech firm, Rachel's job required her to be highly productive and available 24/7. But with the flexibility that came with working from home, she was able to balance her career and personal life like never before. She could take breaks whenever she wanted, cook healthy meals, and even squeeze in a few yoga sessions during the day.\n\nBut Rachel's experience wasn't just about personal satisfaction – it also had a significant impact on the economy. According to a recent study by Gallup, remote work can boost economic growth by up to 8%, simply by allowing employees like Rachel to be more productive and efficient.\n\nAs she scrolled through her emails, Rachel's mind wandered back to her previous job at a downtown office building. She remembered the endless hours spent stuck in traffic, the grueling commutes, and the constant distractions from coworkers. It was no wonder that many companies were now turning to remote work as a way to cut costs and improve employee morale.\n\nBut what did this shift really mean for the economy? For one thing, it reduced the need for expensive office space – a major cost savings for businesses of all sizes. According to a report by Global Workplace Analytics, every remote worker can save their employer an average of $11,000 per year in real estate costs alone.\n\nRachel's own company had seen significant savings since making the switch to remote work. With fewer employees crowding into offices, they were able to reduce their overhead expenses and invest more in their employees' growth and development. As a result, productivity soared – and so did profits.\n\nBut the economic benefits of remote work didn't stop there. By allowing employees to live and work where they wanted, companies like Rachel's were also contributing to the growth of local economies. According to a study by Upwork, 63% of companies reported that remote work had helped them find top talent from all over the world – talent that might have otherwise been lost to other cities or countries.\n\nAs Rachel wrapped up her work for the day and shut down her laptop, she felt grateful for the flexibility and freedom that came with remote work. And as she looked out at the bustling streets of Manhattan, now bathed in golden light, she knew that she was part of a larger movement – one that was changing the face of business forever.\n\nBack in her office, Rachel's boss, Alex, was reviewing the latest financials and beaming with pride. \"We've never been more profitable,\" he said to his team, \"and it's all thanks to our decision to go remote.\" As they high-fived and celebrated, Alex couldn't help but wonder what other innovations would emerge from this new era of work.\n\nAnd as Rachel packed up her things and headed out for a well-deserved dinner, she knew that she was part of something bigger than just a job – she was part of a revolution that was rewriting the rules of business, one remote worker at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what is likely to happen to office space costs for companies that adopt remote work?",
+      "options": {
+        "A": "They will increase by 10% due to higher rents",
+        "B": "They will remain the same as before",
+        "C": "They can save an average of $11,000 per year in real estate costs alone",
+        "D": "They will need to invest more in new office buildings"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for a company to have \"overhead expenses\"?",
+      "options": {
+        "A": "The total amount spent on employee salaries and benefits",
+        "B": "The cost savings from reducing office space and commuting costs",
+        "C": "The profit made by selling products or services to customers",
+        "D": "The time and effort required to complete a task or project"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Global Workplace Analytics, how much can each remote worker save their employer per year in real estate costs?",
+      "options": {
+        "A": "$5,000",
+        "B": "$10,000",
+        "C": "$11,000",
+        "D": "$15,000"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to Rachel, what is the main reason why companies are turning to remote work?",
+      "options": {
+        "A": "To reduce the number of employees they need to hire",
+        "B": "To improve employee morale and cut costs on office space",
+        "C": "To increase their carbon footprint and reliance on traditional transportation",
+        "D": "To make it easier for employees to travel abroad"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What did Rachel's company save an average of per year in real estate costs since making the switch to remote work?",
+      "options": {
+        "A": "$5,000",
+        "B": "$10,000",
+        "C": "$11,000",
+        "D": "$20,000"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about Rachel and her company's experience with remote work?",
+      "options": {
+        "A": "Remote work is a way for employees to be more productive and efficient.",
+        "B": "The shift to remote work has significant economic benefits, including increased productivity and growth in local economies.",
+        "C": "Working from home allows people to live anywhere they want, but it can also lead to social isolation.",
+        "D": "Companies are turning to remote work as a way to reduce their environmental impact."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

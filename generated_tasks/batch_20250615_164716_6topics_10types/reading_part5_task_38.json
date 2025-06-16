@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_38",
+  "title": "Making Every Purchase Count: The Power of Sustainable Shopping",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "**The Conscious Consumer**\n\nLena stood in front of her overflowing closet, staring at the sea of clothes that seemed to have a life of its own. She had always been a shopaholic, never thinking twice about buying whatever caught her eye. But lately, she'd started to feel a pang of guilt every time she tossed another article into the trash or watched yet another shipment arrive on her doorstep.\n\n\"What's wrong with me?\" Lena whispered to herself, running a hand over the soft fabric of a silk blouse that still had its tags attached.\n\nHer friend Rachel walked into the room, raising an eyebrow as she took in the clutter. \"Just getting ready for a big sale, I presume?\"\n\nLena shook her head, feeling a bit embarrassed. \"Actually, I've been thinking about it. All this stuff...it's just consuming me.\"\n\nRachel nodded thoughtfully. \"I get what you mean. We're constantly bombarded with messages telling us we need the latest and greatest. But at what cost? The environment, our wallets...our sense of self-worth?\"\n\nLena felt a spark of recognition ignite within her. \"Exactly! I've started to realize that my purchases are not just about me – they're about the people who made them, the resources used to create them, and the impact on the planet.\"\n\nRachel smiled knowingly. \"That's where sustainable shopping comes in. It's not just about buying organic cotton or recycling your water bottle (although those things are important too). It's about thinking critically about what you buy, why you buy it, and how it affects others.\"\n\nAs they sat down to discuss Lena's newfound awareness, Rachel pulled out her phone and started scrolling through an app called ThredUp. \"This is one of my favorite resources for sustainable shopping. You can sell or swap gently used clothes, reducing waste and finding unique pieces at the same time.\"\n\nLena's eyes widened as she browsed through the platform, amazed by the variety of options. \"Wow, this is incredible! I had no idea there were so many ways to shop second-hand.\"\n\nRachel nodded enthusiastically. \"And it's not just about thrift stores anymore. There are tons of online platforms and local boutiques that specialize in sustainable fashion. You can even rent clothes for special occasions or buy pieces made from repurposed materials!\"\n\nTheir conversation continued, delving into topics like fair trade practices, supply chain transparency, and the benefits of minimalism. Lena felt her mind expanding with new ideas and perspectives.\n\nAs they wrapped up their discussion, Rachel handed Lena a small notebook and pen. \"Make a promise to yourself today: to start thinking more consciously about your purchases. Research brands that align with your values, explore alternative shopping options, and see where it takes you.\"\n\nLena took the notebook, feeling a sense of determination wash over her. She began jotting down notes and ideas, eager to transform her shopping habits.\n\nAs she looked up at Rachel, a newfound appreciation for their conversation was clear on her face. \"Thanks for opening my eyes to this, Rach. I feel like I've been living in a bubble.\"\n\nRachel smiled warmly. \"We all start somewhere, Lena. But now that you're aware, it's time to make a change.\"\n\nTogether, they high-fived and vowed to spread the word about sustainable shopping and ethical consumption – one conscious consumer at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to Rachel, what is an important aspect of thinking critically about purchases?",
+      "options": {
+        "A": "The price tag",
+        "B": "The brand's reputation for fair trade practices",
+        "C": "The amount of packaging involved",
+        "D": "The trendiness of the item"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"bombard\" mean in this context?",
+      "options": {
+        "A": "To ignore or dismiss something",
+        "B": "To surround someone with constant messages or demands",
+        "C": "To make a loud noise or disturbance",
+        "D": "To buy or purchase something"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the name of the app that Rachel uses for sustainable shopping?",
+      "options": {
+        "A": "ThredUp",
+        "B": "eBay",
+        "C": "Depop",
+        "D": "Poshmark"
+      },
+      "correct_answer": "A",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Rachel's attitude towards Lena's previous shopping habits?",
+      "options": {
+        "A": "She is impressed by Lena's ability to afford so many clothes.",
+        "B": "She thinks Lena's behavior is wasteful and unsustainable.",
+        "C": "She is jealous of Lena's extensive wardrobe.",
+        "D": "She doesn't think it's a big deal that Lena buys so much stuff."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Rachel mean by \"the people who made them\" in this conversation?",
+      "options": {
+        "A": "The environmental activists who campaign for sustainability",
+        "B": "The designers, manufacturers, and workers involved in making her clothes",
+        "C": "The other shopaholics who share Lena's passion for fashion",
+        "D": "The owners of the thrift stores where Lena buys second-hand clothes"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text?",
+      "options": {
+        "A": "Lena's struggle with shopaholism leads her to discover the benefits of minimalism.",
+        "B": "The author discusses various methods for sustainable shopping and their impact on the environment.",
+        "C": "Rachel introduces Lena to a new concept called \"conscientious consumption\" that focuses on self-awareness.",
+        "D": "Lena's transformation from a shopaholic to a conscious consumer inspires others to make similar changes."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

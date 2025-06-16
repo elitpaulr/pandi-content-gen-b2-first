@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_04",
+  "title": "Money Smarts at 20: How to Avoid Financial Fiascos Forever",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**The Financial Cliff: Why Young Adults Need to Get Smart About Money**\n\nAs we navigate the complexities of modern life, one issue stands out as a pressing concern for many young adults: financial literacy. With the rising cost of living, increasing student debt, and uncertain job markets, it's no wonder that many in this age group are struggling to get on top of their finances.\n\nBut what exactly is financial literacy? In simple terms, it refers to the ability to make informed decisions about money management, budgeting, and investing. It involves understanding how credit works, how to build a savings habit, and how to avoid debt traps like payday loans and high-interest credit cards.\n\nFor many young adults, financial literacy is still a distant concept. A recent survey found that nearly 60% of those aged 18-24 have little or no knowledge about basic personal finance concepts such as compound interest, risk management, and retirement planning. This lack of understanding can lead to costly mistakes, from overspending on unnecessary expenses to failing to take advantage of employer-matched retirement plans.\n\nSo, where do young adults start? The good news is that there are many resources available to help. Online platforms like NerdWallet, Credit Karma, and Dave Ramsey offer a wealth of free information and tools on everything from budgeting and saving to investing and debt repayment.\n\nFor those who prefer hands-on learning, financial education workshops and seminars are becoming increasingly popular. These events bring together experts in the field to share their knowledge and provide practical advice on topics such as credit scoring, student loan management, and long-term investing.\n\nIn addition to these resources, there's also a growing trend towards peer-to-peer learning. Online communities like Reddit's r/personalfinance forum offer a safe space for young adults to ask questions, share experiences, and learn from one another. These networks are particularly valuable in today's digital age, where social media platforms can also be used to spread misinformation about personal finance.\n\nBut what really gets results is taking action. According to a study by the National Endowment for Financial Education (NEFE), young adults who engage in hands-on financial activities – such as creating a budget or paying off debt – are more likely to develop long-term financial stability and security.\n\nOne young adult who's taken this approach seriously is Sarah, a 25-year-old marketing professional. \"I used to be terrible with money,\" she admits. \"But after learning about the importance of saving and investing, I started making changes. Now I set aside 20% of my income each month and have even started contributing to a retirement fund.\"\n\nSarah's experience highlights the power of financial literacy in shaping young adults' lives. By taking control of their finances, they can enjoy greater peace of mind, reduce stress, and achieve long-term goals.\n\nOf course, there are also challenges ahead. As we've seen from recent reports on student loan debt and income inequality, the financial landscape is becoming increasingly complex. Young adults need to be aware of these issues and how they impact their own financial futures.\n\nTo overcome these obstacles, young adults must prioritize financial education. This means not only learning about personal finance but also staying up-to-date with market trends and economic changes. By doing so, they'll be better equipped to navigate the ups and downs of life and make informed decisions about their money.\n\nIn conclusion, financial literacy is a vital skill for young adults in today's economy. By combining online resources, peer-to-peer learning, and hands-on activities, they can develop the knowledge and confidence needed to manage their finances effectively. As Sarah's story shows, it's never too late to start making progress – and with persistence and dedication, anyone can build a strong financial foundation for the future.\n\n**Sources:**\n\n* National Endowment for Financial Education (NEFE) study on financial education and long-term stability\n* NerdWallet survey on personal finance knowledge among young adults\n* Dave Ramsey website and resources on financial literacy",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Sarah's financial situation before she started learning about saving and investing?",
+      "options": {
+        "A": "She had a lot of savings but struggled to invest wisely.",
+        "B": "She was heavily indebted and struggling to make ends meet.",
+        "C": "She had a good understanding of personal finance concepts, but lacked motivation to take action.",
+        "D": "She had no knowledge of compound interest or risk management."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to be \"in a debt trap\" according to the text?",
+      "options": {
+        "A": "A situation where you have too much money saved up",
+        "B": "A situation where you are unable to pay off your debts and are being charged high interest rates",
+        "C": "A situation where you have no debt at all",
+        "D": "A situation where you are investing in stocks"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of 18-24 year olds have little or no knowledge about basic personal finance concepts according to a recent survey?",
+      "options": {
+        "A": "40%",
+        "B": "Nearly 60%",
+        "C": "80%",
+        "D": "90%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the lack of financial knowledge among young adults?",
+      "options": {
+        "A": "The author believes that it's a deliberate choice not to learn about finances.",
+        "B": "The author thinks that young adults are simply not interested in learning about personal finance.",
+        "C": "The author views the lack of financial literacy as a pressing concern and a serious issue.",
+        "D": "The author doesn't think that financial education is necessary for young adults."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "According to Sarah's experience, what percentage of her income does she set aside each month for saving?",
+      "options": {
+        "A": "10%",
+        "B": "15%",
+        "C": "20%",
+        "D": "30%"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about financial literacy for young adults?",
+      "options": {
+        "A": "The importance of saving money for retirement as soon as possible.",
+        "B": "Financial literacy is a vital skill that can help young adults manage their finances effectively and achieve long-term goals.",
+        "C": "Young adults should avoid using credit cards and payday loans at all costs.",
+        "D": "Online resources are the only way to learn about personal finance."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

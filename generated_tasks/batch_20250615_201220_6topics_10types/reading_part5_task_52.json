@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_52",
+  "title": "The Kind Consumer Revolution: How Your Wallet Can Change the World",
+  "topic": "technology",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "Sustainable Shopping and Ethical Consumption: Making a Difference in Our Daily Lives\n\nIn today's fast-paced world, our shopping habits have become more convenient than ever before. With just a few clicks on our smartphones or a quick trip to the nearest mall, we can acquire almost anything we need or want. However, this ease of access has also led to a culture of excess and waste, where many of us are contributing to the destruction of our planet without even realizing it.\n\nThe truth is that the fashion industry alone produces over 100 billion units of clothing every year, with most garments being worn only a handful of times before being discarded. The textile industry's carbon footprint is staggering, and the environmental impact of fast fashion is undeniable. Similarly, the production and packaging of consumer goods have become increasingly unsustainable, contributing to pollution, deforestation, and climate change.\n\nSo, what can we do to make a positive change in our daily lives? Sustainable shopping and ethical consumption are not just buzzwords; they are essential practices that require our attention and commitment. By making conscious choices about the products we buy, use, and discard, we can significantly reduce our environmental footprint and promote more responsible consumerism.\n\nOne of the simplest ways to start is by adopting a \"buy less\" approach. This doesn't mean depriving ourselves of the things we need or love; rather, it's about being more intentional with our purchases. Before buying something new, ask yourself if you really need it, can you afford it, and what will happen to it when you're done using it? This mindset shift can help us avoid impulse buys and reduce waste.\n\nAnother key aspect of sustainable shopping is choosing products made from environmentally friendly materials and produced in a responsible manner. Look for brands that use organic cotton, recycled materials, or sustainably sourced wood. Be mindful of the packaging too – minimalism is often the best approach. You can also opt for second-hand or vintage items, which not only reduce waste but also give old items new life.\n\nIn addition to individual actions, there are many ways to promote sustainable shopping and consumption on a larger scale. Supporting local businesses and artisans can help keep money in our communities and encourage more responsible production practices. Shopping at thrift stores or consignment shops can also reduce the demand for fast fashion and encourage reuse.\n\nEthical consumption extends beyond environmental concerns to social responsibility as well. Many companies, especially those in the fashion industry, have been criticized for their labor practices, worker exploitation, and lack of transparency. Researching brands and understanding their values and policies is essential before making a purchase.\n\nOne way to make informed choices is by using tools like Good On You's brand ratings or Transparency Lab's supply chain analysis. These resources provide valuable insights into a company's ethics and sustainability record, helping you make more responsible decisions.\n\nIncorporating sustainable shopping and ethical consumption into our daily lives may require some adjustments, but the benefits are undeniable. By adopting these practices, we can contribute to a healthier planet, support fair labor standards, and promote more mindful consumerism.\n\nUltimately, it's about choosing what matters most – the convenience of cheap, disposable products or the value of buying better, doing good, and preserving our planet for future generations. The choice is ours; let's make it count.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude towards fast fashion?",
+      "options": {
+        "A": "They think it is a necessary evil in today's society.",
+        "B": "They believe it has significant environmental and social impacts.",
+        "C": "They consider it a harmless way to keep up with the latest trends.",
+        "D": "They think it is only a problem for wealthy consumers."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"buzzwords\" mean in this context?",
+      "options": {
+        "A": "Words or phrases that are often used to sound impressive but have little meaning",
+        "B": "Terms that are widely accepted and commonly used in a particular field",
+        "C": "Expressions that are associated with a specific ideology or movement",
+        "D": "Phrases that are considered outdated or no longer relevant"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, how many units of clothing are produced by the fashion industry every year?",
+      "options": {
+        "A": "10 billion",
+        "B": "50 billion",
+        "C": "100 billion",
+        "D": "200 billion"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does \"the textile industry's carbon footprint\" refer to in the text?",
+      "options": {
+        "A": "The amount of waste produced by the fashion industry",
+        "B": "The environmental impact of fast fashion on the planet",
+        "C": "The number of garments worn only a handful of times before being discarded",
+        "D": "The production and packaging of consumer goods contributing to pollution, deforestation, and climate change"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "To persuade readers to buy more products from local businesses.",
+        "B": "To highlight the importance of making conscious choices about our daily purchases.",
+        "C": "To discuss the environmental impact of fast fashion and consumer goods.",
+        "D": "To promote a \"buy now, pay later\" approach to shopping."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

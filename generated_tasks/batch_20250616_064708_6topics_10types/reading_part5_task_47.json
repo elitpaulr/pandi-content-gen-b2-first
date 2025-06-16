@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_47",
+  "title": "Fuel Your Fitness: Essential Nutrition Tips for Amateur Athletes",
+  "topic": "health_and_fitness",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "As an amateur athlete, you're likely aware of the importance of proper training and conditioning to achieve your goals. However, what many overlook is the equally crucial aspect of sports nutrition. Adequate fueling can make a significant difference in performance, recovery, and overall health.\n\nSports nutrition is not just about consuming energy bars or protein shakes; it's about understanding how food affects your body during exercise. When you engage in physical activity, your muscles break down and require nutrients to repair and rebuild. A well-planned diet provides the necessary building blocks for muscle growth and repair.\n\nCarbohydrates are often misunderstood as being solely for weight gain. However, they play a vital role in providing energy for high-intensity activities like sprinting or jumping. Aim to consume complex carbohydrates such as whole grains, fruits, and vegetables, which provide sustained energy release. Simple sugars like white bread or sugary snacks can lead to an energy crash.\n\nProtein is essential for muscle repair and growth. However, it's not just about consuming large amounts of protein powder. Lean meats, fish, eggs, dairy products, and legumes are all excellent sources of protein. Aim to consume 1-1.2 grams of protein per kilogram of body weight daily.\n\nHealthy fats like nuts, seeds, avocados, and olive oil support energy production and overall health. Include them in your diet to ensure optimal performance.\n\nHydration is often overlooked but plays a critical role in exercise performance. Aim to drink at least eight glasses of water daily, and consume electrolyte-rich beverages during or after intense activities.\n\nTiming of meals is also important. Aim to eat a balanced meal 1-3 hours before exercise, consisting of complex carbohydrates, lean protein, and healthy fats. This allows for efficient energy release and prevents digestive discomfort.\n\nPost-workout nutrition is equally essential. Consume a mix of carbohydrates and protein within 30-60 minutes after exercise to aid in muscle recovery and replenish energy stores.\n\nCommon mistakes amateur athletes make include:\n\n*   Inadequate hydration leading to fatigue, cramping, or decreased performance\n*   Consuming high amounts of simple sugars for quick energy, which can lead to an energy crash\n*   Neglecting protein intake, resulting in poor muscle repair and growth\n\nTo optimize your sports nutrition, consider the following tips:\n\n*   Keep a food diary to track your eating habits and identify areas for improvement\n*   Consult with a registered dietitian or qualified healthcare professional for personalized advice\n*   Experiment with different foods and recipes to find what works best for you\n*   Pay attention to portion sizes and avoid overeating\n\nIn conclusion, sports nutrition is not a one-size-fits-all approach. By understanding your individual needs and making informed choices, you can optimize your performance, recovery, and overall health. Remember, proper fueling is key to achieving your athletic goals.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if an amateur athlete neglects protein intake?",
+      "options": {
+        "A": "They will experience a significant decrease in muscle mass.",
+        "B": "Poor muscle repair and growth will result, but overall health will remain unaffected.",
+        "C": "Their athletic performance will improve due to increased energy levels.",
+        "D": "They will experience fatigue, but it won't affect their long-term goals."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What do carbohydrates provide during high-intensity activities such as sprinting or jumping?",
+      "options": {
+        "A": "Energy for low-intensity activities",
+        "B": "Sustained energy release and energy crash prevention",
+        "C": "Only weight gain",
+        "D": "Muscle repair and growth"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the recommended daily intake of protein for amateur athletes?",
+      "options": {
+        "A": "0.5-1 gram per kilogram of body weight",
+        "B": "1-1.2 grams per kilogram of body weight",
+        "C": "1.5-2 grams per kilogram of body weight",
+        "D": "2-3 grams per kilogram of body weight"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is a common mistake amateur athletes make regarding sports nutrition?",
+      "options": {
+        "A": "They consume too much protein powder.",
+        "B": "They neglect hydration leading to fatigue and poor performance.",
+        "C": "They only eat complex carbohydrates for energy.",
+        "D": "They do not consult with a registered dietitian for personalized advice."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What do \"complex carbohydrates\" refer to in the text?",
+      "options": {
+        "A": "Lean meats",
+        "B": "Whole grains, fruits, and vegetables",
+        "C": "Protein powder",
+        "D": "Healthy fats like nuts and seeds"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sports nutrition for amateur athletes?",
+      "options": {
+        "A": "To provide a detailed guide to creating a personalized diet plan",
+        "B": "The importance of hydration and timing of meals in exercise performance",
+        "C": "Sports nutrition is not just about consuming energy bars or protein shakes, but about understanding how food affects the body during exercise",
+        "D": "To discuss common mistakes amateur athletes make in their sports nutrition"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

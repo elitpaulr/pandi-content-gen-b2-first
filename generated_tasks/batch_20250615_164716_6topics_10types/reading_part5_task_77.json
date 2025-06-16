@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_77",
+  "title": "The Secret Lives of Hustlers: How to Make Money While You Sleep",
+  "topic": "general",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "The Rise of Side Hustles and Passive Income: A Cultural Shift\n\nIn recent years, the concept of traditional employment has been turned on its head. With the rise of the gig economy and digital advancements, people are seeking ways to supplement their income and achieve financial freedom. The terms \"side hustles\" and \"passive income\" have become increasingly popular, symbolizing a cultural shift towards entrepreneurship, flexibility, and independence.\n\nSide hustles, or part-time jobs that individuals take on in addition to their primary occupation, have become an integral part of modern life. Platforms such as Uber, Airbnb, and Upwork have made it easier for people to monetize their skills and assets. According to a report by Bankrate, 44% of Americans now have a side hustle, with the average earnings being around $5,000 per year. This trend is not limited to the United States; countries such as Australia and Canada are also witnessing a significant growth in side hustles.\n\nPassive income, on the other hand, has become a holy grail for many. It refers to earning money without actively working for it, through investments or creative endeavors that generate revenue over time. Examples include dividend-paying stocks, real estate investment trusts (REITs), and online courses. The idea of passive income is attractive because it offers financial security and freedom from the drudgery of a 9-to-5 job.\n\nThe cultural significance of side hustles and passive income lies in their ability to empower individuals. In an era where economic uncertainty and job insecurity are on the rise, these concepts offer a sense of control and agency. By diversifying their income streams, people can reduce their reliance on a single source of income and build resilience against financial shocks.\n\nMoreover, side hustles and passive income have democratized opportunities for entrepreneurship and creativity. With the rise of e-commerce and digital platforms, anyone with an idea or talent can now reach a global audience. This has led to the emergence of new business models, such as influencer marketing and affiliate marketing, which rely on building personal brands and networks.\n\nHowever, there are also concerns surrounding side hustles and passive income. Critics argue that these concepts perpetuate overwork and burnout, as individuals feel pressure to constantly create and produce content or manage multiple income streams. The blurring of boundaries between work and personal life can lead to exhaustion and decreased well-being.\n\nAdditionally, the notion of passive income can be misleading. While investments such as dividend-paying stocks or REITs may generate revenue without requiring direct labor, they often come with risks and fees associated with management and maintenance. Furthermore, the idea that one can create a passive income stream overnight is unrealistic; building wealth typically requires time, effort, and patience.\n\nIn conclusion, side hustles and passive income have become integral to modern culture, symbolizing a desire for flexibility, entrepreneurship, and financial freedom. While they offer empowerment and opportunities for creativity, they also come with risks and challenges that must be acknowledged. As we navigate the complexities of our rapidly changing economy, it is essential to approach these concepts with a nuanced perspective, recognizing both their potential benefits and limitations.\n\nUltimately, side hustles and passive income represent a cultural shift towards self-reliance and innovation. By embracing this trend and cultivating a growth mindset, individuals can unlock new opportunities for financial stability and personal fulfillment.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what is a potential drawback of having multiple side hustles?",
+      "options": {
+        "A": "It increases one's chance of meeting new people",
+        "B": "It leads to overwork and burnout due to constant pressure to create content or manage income streams",
+        "C": "It allows individuals to focus on just one skill or talent",
+        "D": "It reduces the risk of job insecurity"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"monetize\" something in the context of side hustles?",
+      "options": {
+        "A": "To sell something at a low price",
+        "B": "To use one's skills or assets to earn money",
+        "C": "To reduce one's expenses and save more",
+        "D": "To invest in a business with little risk"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of Americans now have a side hustle, according to a report by Bankrate?",
+      "options": {
+        "A": "30%",
+        "B": "40%",
+        "C": "44%",
+        "D": "50%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the idea of creating a passive income stream overnight?",
+      "options": {
+        "A": "The author thinks it's a realistic goal that requires minimal effort.",
+        "B": "The author believes it's an unrealistic expectation that can lead to financial problems.",
+        "C": "The author views it as a simple way to make money without any risks or challenges.",
+        "D": "The author thinks it's the key to achieving financial freedom and success."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the text about side hustles and passive income?",
+      "options": {
+        "A": "The concept of traditional employment is no longer relevant in modern society.",
+        "B": "Side hustles and passive income have become essential for achieving financial freedom and security.",
+        "C": "The rise of digital platforms has made it easier for people to get a full-time job.",
+        "D": "Entrepreneurship and creativity are the only ways to succeed financially."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

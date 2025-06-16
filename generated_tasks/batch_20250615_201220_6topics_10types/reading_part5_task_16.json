@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_16",
+  "title": "Crash Course in Cash: How Young Adults Can Master Money Management",
+  "topic": "general",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "Financial literacy has become an essential skill for young adults to navigate the complexities of modern life. With increasing expectations of independence, career success, and financial stability, it's surprising that many young people are still not equipped with basic knowledge about personal finance.\n\nAs a society, we often assume that financial education is only relevant for those who aspire to be entrepreneurs or high-net-worth individuals. However, this narrow perspective neglects the reality that most young adults will never own a business or accumulate significant wealth through investments alone. They will, however, need to manage their day-to-day expenses, pay off debts, and plan for long-term goals such as buying a home or retirement.\n\nThe consequences of financial illiteracy among young people are far-reaching. A study by the Financial Industry Regulatory Authority (FINRA) found that nearly 60% of millennials do not have an emergency fund in place, while over 40% live paycheck to paycheck. These statistics paint a disturbing picture: many young adults lack the basic skills to manage their finances effectively, leaving them vulnerable to debt traps and financial insecurity.\n\nSo, what exactly does it mean to be financially literate? It involves having a clear understanding of fundamental concepts such as budgeting, saving, investing, and debt management. Young people need to learn how to create and stick to budgets, prioritize needs over wants, and make informed decisions about spending habits. They also require knowledge on different types of savings vehicles, such as 401(k)s, IRAs, or Roth IRAs, and how to invest in low-cost index funds.\n\nBut financial literacy is not just a matter of accumulating knowledge – it's also about developing good habits and mindsets. Young adults need to be able to distinguish between needs and wants, recognize the importance of saving for long-term goals, and develop discipline when managing their finances. This involves avoiding lifestyle inflation, where increased income leads to greater spending rather than savings.\n\nMoreover, financial literacy is closely tied to social mobility. Those who possess this skill are more likely to break free from cycles of poverty or economic stagnation. A study by the Federal Reserve found that individuals with higher levels of financial knowledge tend to earn higher incomes and accumulate more wealth over time.\n\nHowever, there's a catch: financial education is often not provided in schools or at home. Many young people rely on their parents or online resources for guidance, which can be patchy or inadequate. This highlights the need for accessible and comprehensive financial literacy programs that cater specifically to young adults' needs.\n\nSome organizations have taken steps to address this gap by creating interactive workshops, webinars, and online courses. These initiatives help bridge the knowledge gap and provide practical tools for young people to manage their finances effectively. Moreover, advocacy groups are pushing for greater emphasis on financial education in schools and workplaces.\n\nUltimately, financial literacy is not just a personal responsibility but also a societal one. As a culture, we must recognize that financial illiteracy can have far-reaching consequences beyond individual families. By promoting financial education and providing young people with the skills they need to succeed, we can create a more equitable and prosperous society for all.\n\nIn conclusion, financial literacy is no longer an optional skill but a vital one for young adults navigating modern life. It requires not only knowledge of basic concepts but also habits and mindsets that promote long-term stability and security. As a society, it's essential to provide accessible education and resources to equip the next generation with the skills they need to thrive financially.\n\nThe journey to financial literacy begins early, during adolescence or even childhood. Young people should be introduced to fundamental concepts through interactive learning experiences that make personal finance engaging and fun. This sets them up for success in managing their finances effectively throughout their lives.\n\nIt's time for us to rethink our approach to financial education and recognize its critical role in shaping the future of young adults. By doing so, we can create a society where everyone has access to the knowledge and skills needed to achieve financial stability, security, and prosperity.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what percentage of millennials do not have an emergency fund in place?",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "60%",
+        "D": "Over 70%"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"lifestyle inflation\" mean in this text?",
+      "options": {
+        "A": "A situation where people spend more money on luxuries as their income increases",
+        "B": "A practice of saving a fixed amount each month, regardless of income changes",
+        "C": "A way of investing money in low-cost index funds",
+        "D": "A type of savings vehicle, such as a 401(k) or IRA"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the study by the Financial Industry Regulatory Authority (FINRA), what percentage of millennials do not have an emergency fund in place?",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "50%",
+        "D": "60%"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards financial education being provided in schools?",
+      "options": {
+        "A": "The author believes that financial education should be optional for students.",
+        "B": "The author thinks that financial education is a crucial part of school curriculum.",
+        "C": "The author suggests that financial education can be learned from parents or online resources alone.",
+        "D": "The author criticizes schools for not including financial education in their curricula."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "According to the study by the Financial Industry Regulatory Authority (FINRA), what percentage of millennials do not have an emergency fund in place?",
+      "options": {
+        "A": "20%",
+        "B": "Nearly 60%",
+        "C": "Over 30%",
+        "D": "Less than 10%"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about financial literacy for young adults?",
+      "options": {
+        "A": "Financial education should only be provided through schools",
+        "B": "Financial literacy is a vital skill that requires knowledge, habits, and mindsets to manage finances effectively",
+        "C": "Young people who are financially literate will automatically earn higher incomes",
+        "D": "Financial illiteracy among young people has no significant consequences"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

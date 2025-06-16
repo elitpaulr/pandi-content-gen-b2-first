@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_33",
+  "title": "Shop Smart, Save the Planet: The Future of Sustainable Shopping",
+  "topic": "technology",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Power of Sustainable Shopping**\n\nIn recent years, consumers have become increasingly aware of the impact their purchasing decisions can have on the environment and society as a whole. As a result, there has been a growing trend towards sustainable shopping and ethical consumption. But what does this mean, exactly?\n\nFor many people, sustainable shopping is about making conscious choices when it comes to buying everyday items such as food, clothing, and household goods. It's about choosing products that are made with minimal environmental impact, sourced responsibly, and produced fairly.\n\nBut the benefits of sustainable shopping go far beyond just the environment. By supporting companies that prioritize sustainability and ethics, consumers can help drive positive change in industries ranging from fashion to agriculture to technology.\n\n**The Dark Side of Fast Fashion**\n\nOne area where sustainable shopping is particularly crucial is in the fashion industry. The production and distribution of fast fashion has a devastating impact on the environment, with millions of tons of waste generated each year. In fact, according to a report by the Ellen MacArthur Foundation, the fashion industry is responsible for around 10% of global greenhouse gas emissions.\n\nThis is because fast fashion encourages a culture of disposability, where clothes are worn once or twice and then discarded. This not only contributes to waste and pollution but also perpetuates the exploitation of workers in sweatshops and factories around the world.\n\n**The Rise of Sustainable Fashion**\n\nHowever, there is hope on the horizon. A growing number of consumers are turning away from fast fashion and towards sustainable alternatives. Brands such as Patagonia and Reformation are leading the way with their commitment to environmentally-friendly materials, production methods, and supply chains.\n\nAnd it's not just about what we wear – our food choices can also have a significant impact on the environment. Sustainable shopping in this area means choosing locally-sourced produce, buying organic when possible, and reducing food waste by planning meals and using up leftovers.\n\n**The Power of Choice**\n\nSo what can consumers do to make sustainable shopping a reality? Firstly, it's about being aware of the products we're buying and making informed choices. This might involve researching brands online, checking labels for certifications such as Fairtrade or Organic, and asking questions at stores.\n\nBut sustainable shopping is not just about individual choice – it's also about creating systemic change. By supporting companies that prioritize sustainability and ethics, consumers can help drive positive change in industries and create a more equitable and environmentally-friendly economy.\n\n**A Growing Movement**\n\nAccording to a recent survey by Nielsen, 75% of millennials are willing to pay more for sustainable products. And with the rise of social media, it's easier than ever for consumers to share their values and influence others.\n\nAs consumers become increasingly aware of the impact of their purchasing decisions, we can expect to see a growing movement towards sustainability and ethics in all areas of consumption. It's an exciting time to be alive – and one that offers endless opportunities for positive change.\n\n**Putting Your Money Where Your Heart Is**\n\nSo what does sustainable shopping mean for you? For Sarah Johnson, a 30-year-old marketing manager from New York, it means choosing products that align with her values.\n\n\"For me, sustainable shopping is about making choices that reflect my values and priorities,\" she says. \"I try to buy second-hand whenever possible, choose locally-sourced produce, and support brands that prioritize sustainability and ethics.\"\n\nFor Sarah, the benefits of sustainable shopping go far beyond just saving money or reducing waste – it's about being part of a growing movement towards positive change.\n\n\"It feels good to know that I'm contributing to a more equitable and environmentally-friendly economy,\" she says. \"And who knows? Maybe one day we'll look back on this era as the start of a new chapter in human history – one where sustainability and ethics become the norm.\"\n\nAs Sarah's words suggest, sustainable shopping is not just about what we buy – it's about who we are and what we value. By making conscious choices when it comes to consumption, we can help drive positive change in industries and create a more equitable and environmentally-friendly economy for all.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if consumers continue to support companies that prioritize sustainability and ethics?",
+      "options": {
+        "A": "The environment will suffer as a result of increased production and consumption.",
+        "B": "Positive change in industries ranging from fashion to agriculture to technology will be driven, leading to a more equitable and environmentally-friendly economy.",
+        "C": "The demand for sustainable products will decrease due to the rise of cheap, unsustainable alternatives.",
+        "D": "Consumers will become less aware of the impact of their purchasing decisions on the environment and society."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"sourced responsibly\" mainly refer to in the context of sustainable shopping?",
+      "options": {
+        "A": "The use of environmentally-friendly materials",
+        "B": "Ensuring that products are made with minimal environmental impact",
+        "C": "Obtaining raw materials from suppliers who follow fair labor practices and respect human rights",
+        "D": "Buying products at a lower price"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a report by the Ellen MacArthur Foundation, what percentage of global greenhouse gas emissions is attributed to the fashion industry?",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does sustainable shopping mean to Sarah Johnson?",
+      "options": {
+        "A": "It's just about saving money on everyday items.",
+        "B": "It's about making choices that reflect her values and priorities.",
+        "C": "It's only relevant to the fashion industry.",
+        "D": "It's not important unless it affects her directly."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who does Sarah Johnson say she is contributing to by choosing sustainable products?",
+      "options": {
+        "A": "Her community",
+        "B": "A growing movement towards sustainability and ethics",
+        "C": "The environment",
+        "D": "Her own family"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable shopping?",
+      "options": {
+        "A": "Sustainable shopping is only about saving money on everyday items.",
+        "B": "The benefits of sustainable shopping go far beyond just the environment, to also include social and economic change.",
+        "C": "Fast fashion has no impact on the environment and is a harmless industry practice.",
+        "D": "Sustainable shopping is only for rich people who can afford to buy expensive eco-friendly products."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

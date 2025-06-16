@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_02",
+  "title": "Thrill Seekers Put Lives on Line in Pursuit of Adrenaline Rush",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**Thrill Seekers: The Allure of Extreme Sports**\n\nIn recent years, the world of extreme sports has gained immense popularity, with enthusiasts from all over the globe participating in activities that push their limits to the edge. From skydiving and bungee jumping to rock climbing and big wave surfing, these adrenaline-pumping pursuits have become a way of life for many thrill-seekers.\n\nBut what drives individuals to take on such risks? Is it the need for excitement, the desire for social status, or something more profound? To understand this phenomenon, we spoke with several extreme sports enthusiasts who shared their personal stories and motivations.\n\nTake, for instance, 25-year-old Alex, a professional base jumper from California. For him, the thrill of flying through the air is not just about the rush; it's also about the sense of freedom and connection with nature. \"When I'm in free fall, there's no thought, no worry – just the present moment,\" he explains.\n\nOn the other hand, 30-year-old Rachel, a seasoned rock climber from Colorado, views her sport as a way to challenge herself physically and mentally. \"Climbing helps me build confidence and pushes me out of my comfort zone,\" she says. \"It's not about being fearless; it's about being willing to take calculated risks.\"\n\nWhile some may see extreme sports as reckless or irresponsible, proponents argue that they promote a sense of discipline, self-awareness, and respect for one's limits. These activities require focus, concentration, and strategy – skills that can benefit participants in all areas of life.\n\nMoreover, the camaraderie and community aspect of extreme sports should not be underestimated. Enthusiasts often form close bonds with fellow thrill-seekers, creating a support network that is both motivating and reassuring. \"When you're pushing yourself to new heights (literally!), it's comforting to know you have people who understand what you're going through,\" says Alex.\n\nHowever, the risks associated with extreme sports are undeniable. Injuries, fatalities, and equipment failures can occur even with proper training and precautions. While some argue that the rewards outweigh the risks, others contend that the dangers are simply too great.\n\nDr. Maria Rodriguez, a leading expert in adventure psychology, notes that the allure of extreme sports often lies in their ability to create a sense of euphoria or \"flow state.\" This psychological phenomenon can lead individuals to overlook potential hazards and push themselves beyond safe limits. \"The thrill-seeking brain is wired to respond to novelty and excitement,\" she explains. \"But this doesn't mean we should ignore the risks or downplay their significance.\"\n\nAs the extreme sports industry continues to grow, so do concerns about safety regulations, insurance, and liability. Event organizers, manufacturers, and sponsors must balance the need for thrill with the duty to protect participants.\n\nUltimately, the world of extreme sports raises essential questions about risk-taking, responsibility, and human nature. While some may view these activities as reckless or irresponsible, others see them as a natural extension of our innate desire for excitement and self-discovery.\n\nAs Rachel, the rock climber, puts it: \"When you're willing to take risks, you open yourself up to incredible experiences – and sometimes, that's exactly what we need to grow and learn.\" Whether one is an extreme sports enthusiast or simply a curious observer, there's no denying the allure of these activities – and the lessons they teach us about ourselves.\n\n**Statistics:**\n\n* According to a recent survey, 1 in 5 Americans has participated in an extreme sport at least once.\n* The global extreme sports market is projected to reach $20 billion by 2025.\n* Over 2 million people die each year due to accidents related to outdoor activities and adventure tourism.\n\n**Sources:**\n\n* \"The Psychology of Adventure\" (Dr. Maria Rodriguez)\n* \"Thrill Seekers\" (National Geographic)\n* \"Extreme Sports Market Report\" (IBISWorld)",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Dr. Maria Rodriguez's opinion on the relationship between extreme sports and risk-taking?",
+      "options": {
+        "A": "She believes that thrill-seekers are naturally more cautious than others.",
+        "B": "She thinks that the rewards of extreme sports outweigh the risks, but acknowledges the dangers.",
+        "C": "She claims that participating in extreme sports is essential for personal growth and development.",
+        "D": "She argues that all individuals who engage in extreme sports will eventually develop a fear of risk."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for an activity to be in a \"flow state\"?",
+      "options": {
+        "A": "To be completely focused on the present moment, without any distractions or worries",
+        "B": "To take unnecessary risks and ignore potential hazards",
+        "C": "To engage in repetitive movements that become automatic over time",
+        "D": "To experience intense fear or anxiety while participating in an activity"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Dr. Maria Rodriguez, what drives individuals to participate in extreme sports?",
+      "options": {
+        "A": "The need for social status",
+        "B": "The desire for excitement and novelty",
+        "C": "The thrill of flying through the air",
+        "D": "The pursuit of wealth and material possessions"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards extreme sports enthusiasts who take risks?",
+      "options": {
+        "A": "The author views them as reckless and irresponsible.",
+        "B": "The author believes that their desire for excitement and self-discovery is a natural human instinct.",
+        "C": "The author thinks that they are motivated solely by a need for social status.",
+        "D": "The author sees them as a threat to public safety."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea or purpose of this text about extreme sports?",
+      "options": {
+        "A": "To warn people about the dangers and risks associated with participating in extreme sports",
+        "B": "To promote a new sport as a way to stay healthy and fit",
+        "C": "To explore the reasons why individuals engage in extreme sports and what they can learn from these experiences",
+        "D": "To describe a specific event or competition in the world of extreme sports"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

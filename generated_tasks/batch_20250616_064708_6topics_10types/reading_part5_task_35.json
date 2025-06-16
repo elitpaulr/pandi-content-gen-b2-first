@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_35",
+  "title": "Sweat Your Way to a Healthier Mind in Minutes a Day!",
+  "topic": "health_and_fitness",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "Exercise is often associated with physical fitness and weight management, but its impact extends far beyond the realm of physical health. A growing body of research has revealed that regular exercise can have a profound impact on our mental wellbeing, reducing stress, anxiety, and depression while boosting mood and cognitive function.\n\nOne of the key ways in which exercise benefits our mental health is by releasing endorphins, often referred to as \"feel-good\" hormones. Endorphins are natural chemicals produced by the body that act as painkillers and mood elevators, promoting a sense of relaxation and well-being. When we engage in physical activity, such as running or swimming, endorphins are released into the bloodstream, helping to reduce stress and anxiety while improving our overall mood.\n\nExercise has also been shown to have a profound impact on cognitive function, particularly in older adults. Studies have found that regular exercise can slow down age-related decline in cognitive abilities, including memory, attention, and processing speed. This is likely due to the increased blood flow and oxygenation of the brain that occurs during physical activity.\n\nIn addition to its physical benefits, exercise has been shown to be a highly effective treatment for anxiety and depression. Research has found that regular exercise can reduce symptoms of both conditions by promoting changes in brain structure and function. For example, studies have shown that exercise can increase the production of neurotrophic factors, which are chemicals that promote the growth and survival of neurons.\n\nThe benefits of exercise on mental health are not limited to individuals with anxiety or depression. Research has found that regular physical activity can also improve mood and reduce stress in healthy individuals. A study published in the Journal of Sports Sciences found that just 30 minutes of moderate-intensity exercise per day was enough to significantly improve mood and reduce symptoms of stress.\n\nSo, how can we harness the mental health benefits of exercise? The good news is that it doesn't have to be intense or time-consuming. Studies have shown that even small amounts of physical activity, such as a 10-minute walk, can have significant benefits for our mental wellbeing.\n\nIn addition to incorporating regular exercise into our daily routine, there are several other ways to maximize the mental health benefits of physical activity. For example, exercising outdoors has been shown to be particularly beneficial, as it allows us to connect with nature and reap the added benefits of vitamin D and exposure to natural light.\n\nFinally, it's worth noting that while exercise is a highly effective treatment for anxiety and depression, it should not be used in place of traditional medical treatment. Instead, it can be used as a complementary therapy to enhance the effectiveness of other treatments.\n\nIn conclusion, the mental health benefits of exercise are undeniable. By incorporating regular physical activity into our daily routine, we can reduce stress, anxiety, and depression while improving our mood and cognitive function. Whether we're looking to boost our mood or simply improve our overall wellbeing, exercise is a simple yet effective solution that's within everyone's reach.\n\nAs the scientific evidence continues to grow, it's clear that exercise should be considered an essential component of any mental health treatment plan. By harnessing the power of physical activity, we can take control of our mental wellbeing and promote long-term health and happiness.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to symptoms of anxiety and depression if someone stops exercising regularly?",
+      "options": {
+        "A": "They will remain unchanged",
+        "B": "They will worsen",
+        "C": "They will improve or disappear",
+        "D": "There will be no effect on their mental health"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"neurotrophic\" primarily refer to in the context of brain chemicals?",
+      "options": {
+        "A": "The ability of a chemical to reduce stress",
+        "B": "Chemicals that promote the growth and survival of neurons",
+        "C": "The production of painkillers by the body",
+        "D": "Hormones that elevate mood"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one way that regular exercise has been shown to benefit cognitive function, particularly in older adults?",
+      "options": {
+        "A": "It increases muscle mass",
+        "B": "It slows down age-related decline in cognitive abilities, including memory, attention, and processing speed",
+        "C": "It reduces symptoms of anxiety and depression",
+        "D": "It promotes changes in brain structure and function"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the use of exercise as a complementary therapy for anxiety and depression?",
+      "options": {
+        "A": "The author believes that exercise should only be used as a last resort when other treatments have failed.",
+        "B": "The author thinks that exercise can be an effective way to enhance the effectiveness of traditional medical treatment.",
+        "C": "The author is skeptical about the benefits of exercise on mental health.",
+        "D": "The author advises against using exercise at all in the treatment of anxiety and depression."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What do \"endorphins\" refer to in the text?",
+      "options": {
+        "A": "A type of medication used to treat depression",
+        "B": "Natural chemicals produced by the body that act as painkillers and mood elevators",
+        "C": "A new form of exercise that is being researched for its mental health benefits",
+        "D": "A type of vitamin that is essential for brain function"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this text?",
+      "options": {
+        "A": "To describe the benefits of outdoor exercise",
+        "B": "To explain how exercise reduces stress and anxiety",
+        "C": "To argue that exercise should be a primary treatment for mental health conditions",
+        "D": "To summarize the scientific evidence supporting the link between exercise and mental wellbeing"
+      },
+      "correct_answer": "D",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "health_wellness"
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_60",
+  "title": "Unravel the Truth: Sustainable Fashion That's Good for You and Planet",
+  "topic": "technology",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "**The Sustainable Revolution: How to Make Fashion Last**\n\nIn an era where fast fashion has become the norm, it's easy to get caught up in the cycle of buying, wearing, and discarding clothes without a second thought. However, this mindless consumption has devastating consequences for our planet. The fashion industry is one of the largest polluters in the world, responsible for 10% of global greenhouse gas emissions. It's time to rethink our relationship with fashion and adopt more sustainable practices.\n\nSo, what exactly does sustainable fashion mean? At its core, it's about creating a system where clothes are designed, produced, distributed, consumed, and disposed of in ways that minimize harm to the environment, society, and human well-being. This includes reducing waste, conserving resources, using eco-friendly materials, and promoting fair labor practices.\n\nOne of the most significant impacts of fast fashion is its contribution to textile waste. The average American generates 82 pounds of textile waste per year, with the majority ending up in landfills or incinerators. To put this into perspective, if we were to compost all our clothing at the end of their life cycle, it would reduce greenhouse gas emissions by 26%. So, what can you do to reduce your own fashion footprint?\n\n**Buy Less, Buy Better**\n\nThe first step towards sustainable fashion is to adopt a \"buy less\" mentality. This means being more thoughtful about the clothes you purchase and investing in higher-quality items that will last longer. When shopping, look for clothes made from natural fibers like cotton, silk, or wool, which biodegrade easily and don't contribute to microplastic pollution.\n\nAnother key aspect of sustainable fashion is buying second-hand. Thrift stores, consignment shops, and online marketplaces are treasure troves for unique, pre-loved pieces that can breathe new life into your wardrobe without contributing to fast fashion's environmental damage.\n\n**Care for Your Clothes**\n\nOnce you've acquired a few high-quality, sustainable pieces, it's essential to care for them properly. Avoid over-washing or using harsh detergents, which can damage fabrics and contribute to microplastic pollution in waterways. When washing, use cold water and eco-friendly detergents that are gentle on the environment.\n\n**Rent, Share, Swap**\n\nIn addition to buying second-hand, consider alternative consumption models like clothing rental services or swap meetups with friends. These approaches not only reduce waste but also promote social connections and a sense of community around fashion.\n\n**The Power of Influence**\n\nAs consumers, we have the power to shape the fashion industry's direction. By choosing sustainable brands that prioritize environmental responsibility, fair labor practices, and transparency, you're sending a message that these values matter. Look for certifications like GOTS (Global Organic Textile Standard) or Oeko-Tex, which ensure that textiles meet rigorous sustainability standards.\n\n**Making Change**\n\nImplementing sustainable fashion practices requires patience, self-awareness, and a willingness to challenge the status quo. It's not about completely overhauling your wardrobe overnight but rather adopting small changes that add up over time. By being more mindful of our consumption habits, we can create a ripple effect that inspires others to join the movement.\n\nAs consumers, it's essential to acknowledge the impact of our choices on the environment and society. Sustainable fashion is not just about saving the planet; it's also about preserving human well-being and promoting fair labor practices. By embracing these values, you'll be part of a revolution that redefines the way we think about fashion – one where clothes are treasured for their quality, durability, and emotional value, rather than being discarded like yesterday's trash.\n\nBy adopting sustainable fashion practices, you're not only reducing your environmental footprint but also contributing to a more equitable and just industry. So, take the first step today by choosing a few high-quality, eco-friendly pieces that will become your new wardrobe staples. Together, we can create a more beautiful, conscious future for fashion – one where clothes are loved, worn, and cherished, not wasted.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does it mean to \"biodegrade easily\" according to the text?",
+      "options": {
+        "A": "To produce microplastic pollution",
+        "B": "To last forever without getting worn out",
+        "C": "To break down quickly into harmless natural substances",
+        "D": "To be made from synthetic materials only"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What percentage of global greenhouse gas emissions is attributed to the fashion industry?",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the author's opinion on the current state of fast fashion?",
+      "options": {
+        "A": "It has no significant impact on the environment.",
+        "B": "It's a necessary part of modern life.",
+        "C": "It's a devastating contributor to global greenhouse gas emissions and environmental degradation.",
+        "D": "It's only bad for human well-being, not the environment."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the phrase \"yesterday's trash\" refer to in the text?",
+      "options": {
+        "A": "The fast-paced nature of modern fashion",
+        "B": "Clothes that are no longer worn or useful",
+        "C": "Sustainable fashion practices",
+        "D": "The importance of recycling old clothes"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the article about sustainable fashion?",
+      "options": {
+        "A": "The fashion industry should prioritize fast fashion to meet growing consumer demands.",
+        "B": "Sustainable fashion practices can help reduce greenhouse gas emissions and promote fair labor practices.",
+        "C": "Buying expensive designer clothes is the key to sustainable fashion.",
+        "D": "Consumers have no responsibility in addressing the environmental impact of the fashion industry."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

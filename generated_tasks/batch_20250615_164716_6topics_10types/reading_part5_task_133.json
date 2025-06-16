@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_133",
+  "title": "Surviving on Sunshine: The Digital Nomad's Guide to Budget Bliss",
+  "topic": "technology",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "As the world becomes increasingly interconnected, the traditional 9-to-5 office job is slowly giving way to a more mobile lifestyle. Digital nomadism has become a popular trend among young professionals who crave adventure, flexibility, and freedom. However, this new way of living comes with its own set of financial challenges. Budgeting for digital nomads requires a unique approach that takes into account the constant flux of location, income, and expenses.\n\nOne of the biggest hurdles digital nomads face is managing their finances across multiple currencies and countries. Traditional banking systems often charge high fees for international transactions, making it difficult to keep track of one's money. To overcome this obstacle, many digital nomads turn to alternative financial tools such as transfer services like TransferWise or Revolut. These platforms offer competitive exchange rates, low fees, and easy-to-use interfaces that allow users to manage their finances on the go.\n\nAnother key aspect of budgeting for digital nomads is accounting for variable income streams. Unlike traditional employees who receive a steady paycheck every month, freelancers and remote workers often experience fluctuations in income due to factors such as project completion dates or client payment schedules. To ensure financial stability, it's essential to maintain an emergency fund that can cover at least 3-6 months of living expenses. This safety net will help digital nomads weather any unexpected dips in income.\n\nIn addition to managing variable income, digital nomads must also contend with the costs associated with traveling and living abroad. Accommodation, food, transportation, and healthcare expenses can quickly add up, making it challenging to stick to a budget. To minimize these costs, many digital nomads opt for affordable accommodation options such as hostels or Airbnb apartments. They also plan their trips carefully, researching destinations that offer free or low-cost activities, and taking advantage of local cuisine and transportation options.\n\nOne of the most significant expenses for digital nomads is often health insurance. Without access to employer-sponsored coverage, many remote workers must seek out individual plans that can be expensive and complex to navigate. To mitigate this cost, some digital nomads turn to travel insurance policies that offer medical coverage while abroad. These policies typically provide 24/7 emergency assistance and can help cover unexpected medical expenses.\n\nAnother essential aspect of budgeting for digital nomads is taxes. As a remote worker, one's tax obligations may vary depending on their nationality, residency status, and income source. To avoid any potential tax liabilities, it's crucial to understand the tax laws in each country visited or lived in. Many digital nomads opt for professional tax services that can help navigate these complexities.\n\nIn conclusion, budgeting for digital nomads requires a unique blend of financial planning, adaptability, and resourcefulness. By leveraging alternative financial tools, maintaining an emergency fund, accounting for variable income streams, and minimizing travel expenses, digital nomads can maintain their financial stability while exploring the world. With the right approach to budgeting, digital nomads can enjoy the freedom and flexibility that comes with this lifestyle, without compromising their financial security.\n\nBy embracing a flexible and adaptable mindset, digital nomads can navigate the complex web of financial challenges that come with remote work. As more people adopt this lifestyle, it's essential to recognize the importance of effective budgeting in supporting the well-being and success of digital nomads. By doing so, we can ensure that this growing community of remote workers continues to thrive and flourish, both financially and personally.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to a digital nomad's finances if they don't maintain an emergency fund while experiencing fluctuations in income?",
+      "options": {
+        "A": "They will have more money available for travel and leisure expenses.",
+        "B": "Their financial stability will be severely compromised, making it difficult to cover living expenses.",
+        "C": "They will need to take on debt to cover unexpected expenses.",
+        "D": "Their variable income streams will automatically balance out their finances."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"contend\" mean in this context?",
+      "options": {
+        "A": "To agree with something",
+        "B": "To struggle or have difficulty with something",
+        "C": "To ignore a problem or issue",
+        "D": "To enjoy a particular situation"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of living expenses should a digital nomad's emergency fund cover?",
+      "options": {
+        "A": "1-2 months",
+        "B": "3-6 months",
+        "C": "6-12 months",
+        "D": "1 year"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards the financial challenges faced by digital nomads?",
+      "options": {
+        "A": "The author thinks that these challenges are minor and easily overcome.",
+        "B": "The author believes that budgeting for digital nomads requires a unique approach that takes into account their special circumstances.",
+        "C": "The author considers financial planning to be a straightforward process with no room for error.",
+        "D": "The author thinks that the difficulties faced by digital nomads are solely due to their own lack of financial discipline."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What do \"these platforms\" refer to in the text?",
+      "options": {
+        "A": "The author's own financial tools",
+        "B": "Alternative financial tools such as transfer services like TransferWise or Revolut",
+        "C": "Traditional banking systems",
+        "D": "The emergency fund mentioned later in the text"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of the text about budgeting for digital nomads?",
+      "options": {
+        "A": "To describe the benefits of a mobile lifestyle",
+        "B": "To explain how to manage finances effectively while living abroad",
+        "C": "To discuss the challenges and opportunities of remote work for young professionals",
+        "D": "To provide tips on how to save money as a digital nomad"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

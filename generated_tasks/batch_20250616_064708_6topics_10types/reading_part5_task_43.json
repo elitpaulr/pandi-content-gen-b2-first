@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_43",
+  "title": "Fuel Your Fitness: Essential Nutrition Tips for Amateur Athletes",
+  "topic": "health_and_fitness",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she laced up her running shoes, Emily couldn't help but feel a sense of excitement wash over her. She was training for her first marathon, and the thought of crossing that finish line was all-consuming. But as she hit the pavement, she knew she couldn't just rely on sheer determination to get her there. Her body needed fuel, and that's where sports nutrition came in.\n\nEmily had always been a bit of a novice when it came to what she ate before, during, and after her runs. She'd grab whatever was convenient – a granola bar here, a banana there – but she knew she wasn't getting the most out of her training. Her coach, Rachel, had been drilling it into her head that proper nutrition was key to performance.\n\n\"Think about it like this,\" Rachel said during one of their pre-run briefings. \"You're not just running on legs and lungs; you're also fueling your brain. If you don't give your body the right foods at the right time, you'll be flagging in no time.\"\n\nEmily had taken note, but she still felt overwhelmed by the sheer amount of information out there. What did it even mean to \"fuel her body\"? Should she be eating protein shakes and energy bars like some sort of athlete-obsessed superhuman?\n\nRachel chuckled when Emily asked her that very question. \"Listen, I'm not saying you need to go out and buy a whole new kitchen full of supplements,\" she said. \"Just focus on making small changes to your diet that'll make a big impact.\"\n\nSo Emily started by tracking what she ate for a week. She downloaded an app to log her meals, and was surprised at how often she'd reach for sugary snacks or caffeine-laden drinks when she should be opting for complex carbs, lean proteins, and healthy fats.\n\n\"Ah-ha!\" Rachel exclaimed when Emily shared her findings with her. \"See? I told you it wasn't rocket science. Now let's talk about timing.\"\n\nTiming was everything in sports nutrition, it seemed. The general rule of thumb was to eat a balanced meal 2-3 hours before running, and then refuel within 30 minutes of finishing up your workout. This allowed for maximum energy production and recovery.\n\nFor Emily, this meant switching out her pre-run breakfast from a bowl of sugary cereal to whole-grain toast with avocado and eggs. And after her long runs on Sundays? She'd opt for a post-workout smoothie packed with protein powder, frozen berries, and almond milk.\n\nIt wasn't easy – there were plenty of days when Emily wanted to grab a bagel with cream cheese or skip the healthy stuff altogether. But Rachel's advice stuck with her: \"Your body is like a machine, Emily. Give it the right fuel, and it'll reward you with incredible performances.\"\n\nAnd perform she did. Over the next few weeks, Emily noticed a marked improvement in her endurance – no more bonking mid-run, no more exhaustion after those long Sunday sessions. She felt lighter, faster, and stronger.\n\nOf course, there were still hiccups along the way. Emily's stomach would occasionally protest at some new food choice, or she'd get caught up in the excitement of a particularly tough workout and forget to refuel on time. But with Rachel's guidance and her own growing knowledge of sports nutrition, she learned to adapt.\n\nBy the time marathon day rolled around, Emily felt confident – not just about crossing that finish line, but also about what was fueling her body along the way. She knew exactly how much complex carb goodness she needed before the start, and exactly which recovery snacks would help her bounce back after those 26.2 miles.\n\nAs she took off with thousands of other runners, Emily felt a sense of pride knowing that she'd done it – not just trained for months on end, but also taken care of herself in the process. And when she finally crossed that finish line, exhausted and exhilarated, she knew every step had been worth it.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was Emily's biggest mistake with her pre-run nutrition before she started working with Rachel?",
+      "options": {
+        "A": "She didn't eat anything at all",
+        "B": "She relied solely on sugary snacks and caffeine-laden drinks",
+        "C": "She only ate protein shakes and energy bars",
+        "D": "She followed a balanced meal plan that included complex carbs, lean proteins, and healthy fats"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Rachel mean by saying \"You're not just running on legs and lungs; you're also fueling your brain\"?",
+      "options": {
+        "A": "She is referring to the physical strength of the muscles used for running",
+        "B": "She means that the brain needs energy to work efficiently during exercise",
+        "C": "She is explaining how important it is to have a strong cardiovascular system",
+        "D": "She is talking about the importance of breathing properly while running"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Rachel's advice, how often should Emily eat a balanced meal before running?",
+      "options": {
+        "A": "Immediately before starting her run",
+        "B": "2-3 hours before running",
+        "C": "During her run",
+        "D": "After finishing her workout"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Emily's attitude towards sports nutrition before starting her marathon training?",
+      "options": {
+        "A": "She thinks it's a waste of time and money.",
+        "B": "She's excited to learn more about it because she knows it will improve her performance.",
+        "C": "She believes it's just for professional athletes, not amateur runners like herself.",
+        "D": "She's skeptical but willing to try new things if they'll help her reach her goal."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Rachel mean by \"fuel her body\" when Emily asks about this during their pre-run briefing?",
+      "options": {
+        "A": "The energy from sunlight",
+        "B": "The food and drinks that give athletes like Emily energy to run",
+        "C": "The power of a good coach's advice",
+        "D": "The benefits of wearing the right running shoes"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about Emily's experience with sports nutrition?",
+      "options": {
+        "A": "Emily discovers the importance of proper hydration for her marathon training.",
+        "B": "By making small changes to her diet, Emily improves her endurance and prepares for a successful marathon.",
+        "C": "Emily learns that sports nutrition involves buying expensive supplements and protein shakes.",
+        "D": "Rachel, Emily's coach, is the one who benefits from Emily's improved performance in the marathon."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

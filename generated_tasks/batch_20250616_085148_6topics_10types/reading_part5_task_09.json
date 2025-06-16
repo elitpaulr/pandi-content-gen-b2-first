@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_09",
+  "title": "Embracing the Green Path: Sustainable Travel Adventures Revealed",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Costa Rica, the humid air enveloped me like a warm hug. The lush green canopy of the rainforest stretched out before me, a vibrant tapestry of life teeming with every color and sound imaginable. I had come to this tropical paradise not just to soak up the sun on its stunning beaches or hike through its majestic mountains, but to experience something far more profound: sustainable travel.\n\nFor too long, tourism has been synonymous with environmental degradation, cultural insensitivity, and exploitation of local communities. But Costa Rica is a beacon of hope, a shining example of what can be achieved when travelers and locals work together towards a common goal: preserving the planet's precious natural resources for future generations.\n\nAs I made my way to my eco-lodge, nestled deep in the jungle, I was struck by the tranquility that enveloped me. The lodge itself was a marvel of sustainable design, crafted from reclaimed wood and powered entirely by solar energy. My room was a cozy little haven, complete with a private balcony overlooking the forest and a shower that seemed to rain down water like a gentle mist.\n\nBut it wasn't just the accommodations that impressed – it was the entire ethos of the lodge itself. Every aspect of my stay was designed to minimize waste, conserve resources, and promote harmony with nature. From the locally-sourced meals to the guided hikes led by knowledgeable rangers, every detail seemed to whisper a message of respect for this fragile ecosystem.\n\nAs I wandered through the jungle, marveling at the towering trees and colorful birds, I began to grasp the true meaning of sustainable travel. It's not just about visiting places that claim to be \"eco-friendly\" – it's about immersing yourself in a culture that reveres the natural world as sacred. In Costa Rica, this means learning about the indigenous communities that have lived in harmony with the forest for centuries, and supporting initiatives that protect their lands and traditions.\n\nOne of the most memorable experiences of my trip was visiting a local family's farm, where I learned about organic farming practices and helped harvest fresh produce. The farmer, Don Pedro, welcomed me with open arms and shared stories of his ancestors' struggles to preserve their land. As we worked together in the fields, sweat dripping from our brows, I felt a deep connection to this soil and these people.\n\nEco-tourism is not just about trekking through national parks or spotting exotic wildlife – it's about engaging with local communities and fostering mutual understanding. By choosing responsible tour operators and lodges that prioritize sustainability, travelers can make a real difference in the lives of those they meet.\n\nAs I reflected on my journey through Costa Rica, I realized that sustainable travel is not just a choice – it's an obligation. We owe it to ourselves, our children, and future generations to explore this incredible planet with reverence and respect. By embracing eco-tourism, we can create a ripple effect of positive change, inspiring others to join us on this journey towards a more compassionate and environmentally conscious way of traveling.\n\nAs I boarded the plane to leave Costa Rica, I felt a sense of gratitude for the unforgettable experiences and connections I'd made along the way. The rainforest still echoes in my mind – its vibrant colors, lush textures, and ancient rhythms. And as I looked out at the clouds below, I knew that this journey had changed me forever, planting seeds of sustainability and compassion that will continue to grow with each passing day.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Don Pedro's approach to farming?",
+      "options": {
+        "A": "He uses synthetic fertilizers and pesticides.",
+        "B": "He is an experienced farmer who has been working on his land for many years.",
+        "C": "He prioritizes traditional practices over modern methods.",
+        "D": "He sells his produce only locally."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"enveloped\" mean in the context of the text?",
+      "options": {
+        "A": "To suddenly appear or become visible",
+        "B": "To be surrounded by something, often making it difficult to see or breathe",
+        "C": "To move quickly and quietly through a place",
+        "D": "To leave or depart from somewhere"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What was used to power the eco-lodge during my stay?",
+      "options": {
+        "A": "Diesel generators",
+        "B": "Solar energy",
+        "C": "Wind turbines",
+        "D": "Hydroelectric power"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards the idea of just \"visiting places that claim to be 'eco-friendly'\"?",
+      "options": {
+        "A": "It's a good starting point for sustainable travel",
+        "B": "It's superficial and doesn't truly promote sustainability",
+        "C": "It's an outdated concept that has no place in modern tourism",
+        "D": "It's not worth the effort, as it won't make a real difference"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"it\" refer to in the sentence: \"The rainforest still echoes in my mind – its vibrant colors, lush textures, and ancient rhythms\"?",
+      "options": {
+        "A": "The lodge itself",
+        "B": "The experience of sustainable travel",
+        "C": "The rainforest",
+        "D": "The author's memories of Costa Rica"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of the author's trip to Costa Rica?",
+      "options": {
+        "A": "To explore the country's stunning beaches and national parks",
+        "B": "To experience sustainable travel and promote eco-tourism",
+        "C": "To learn about organic farming practices and support local communities",
+        "D": "To hike through the rainforest and spot exotic wildlife"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "travel_adventure"
+}

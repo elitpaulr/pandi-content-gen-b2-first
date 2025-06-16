@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_103",
+  "title": "Unlocking the Secrets of Cryptocurrency: A Beginner's Guide to Blockchain",
+  "topic": "general",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "**The Rise of Cryptocurrency: A Beginner's Guide**\n\nIn recent years, cryptocurrency has become a buzzword in the financial world, with many people wondering what all the fuss is about. As a beginner, you may be feeling overwhelmed by the terminology and concepts surrounding this new form of money. But don't worry, we're here to break it down for you in simple terms.\n\n**What is Cryptocurrency?**\n\nCryptocurrency is a digital or virtual currency that uses cryptography (secret codes) for secure financial transactions. It's decentralized, meaning that it's not controlled by any government or institution, and it operates independently of traditional banking systems. The most well-known cryptocurrency is Bitcoin, but there are many others, such as Ethereum, Litecoin, and Monero.\n\n**How Does Cryptocurrency Work?**\n\nCryptocurrency works on a peer-to-peer network, where transactions are recorded on a public ledger called the blockchain. This blockchain is maintained by a network of computers around the world, rather than a central authority. When you want to send cryptocurrency to someone else, you use your private key (a secret code) to unlock your digital wallet and authorize the transaction. The transaction is then broadcast to the network, where it's verified by specialized computers called miners.\n\n**What are the Benefits of Cryptocurrency?**\n\nSo why should you care about cryptocurrency? For one thing, it offers a high degree of security and anonymity, as transactions are encrypted and recorded on a public ledger that can't be altered. This makes it difficult for hackers to steal your money or track your activities. Additionally, cryptocurrency allows for fast and global transactions, without the need for intermediaries like banks.\n\n**How Can You Get Started with Cryptocurrency?**\n\nGetting started with cryptocurrency is easier than you might think. First, you'll need to choose a digital wallet, which can be thought of as an online bank account that stores your cryptocurrency. Some popular options include Coinbase and Binance. Next, you'll need to purchase some cryptocurrency using real money, which you can do through your chosen exchange.\n\n**What are the Risks of Cryptocurrency?**\n\nAs with any investment, there are risks involved with cryptocurrency. The value of cryptocurrency can fluctuate rapidly, so be prepared for ups and downs. Additionally, cryptocurrency exchanges have been hacked in the past, resulting in significant losses for investors. This is why it's essential to do your research and choose a reputable exchange.\n\n**The Future of Cryptocurrency**\n\nDespite its volatility, cryptocurrency has many potential uses and benefits. It could revolutionize the way we transfer money across borders, making international transactions faster and cheaper. It could also enable new forms of commerce, such as decentralized applications (dApps) that run on blockchain technology.\n\n**Conclusion**\n\nCryptocurrency may seem like a complex and confusing topic at first, but it's actually quite simple once you understand the basics. With its high degree of security, anonymity, and global reach, cryptocurrency has the potential to disrupt traditional financial systems. Whether or not you decide to invest in cryptocurrency is up to you, but now that you know the basics, you'll be better equipped to make an informed decision.\n\nIn conclusion, cryptocurrency is a rapidly evolving field that offers many exciting possibilities for the future of finance. While there are risks involved, the benefits and potential uses of cryptocurrency make it an essential topic for anyone interested in technology, economics, or personal finance.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude towards cryptocurrency?",
+      "options": {
+        "A": "They think it's a complex and confusing concept that should only be used by experts.",
+        "B": "They believe it has the potential to disrupt traditional financial systems.",
+        "C": "They are neutral and do not have an opinion on its benefits or drawbacks.",
+        "D": "They think it's a passing fad with no real-world applications."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"decentralized\" mean in this context?",
+      "options": {
+        "A": "Controlled by a single government",
+        "B": "Regulated by traditional banking systems",
+        "C": "Maintained by a network of computers around the world without central authority",
+        "D": "Owned and managed by a private company"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What maintains the public ledger called the blockchain?",
+      "options": {
+        "A": "A central authority",
+        "B": "A network of computers around the world",
+        "C": "A single expert programmer",
+        "D": "The government"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards investing in cryptocurrency?",
+      "options": {
+        "A": "The author thinks it's a high-risk investment that should be avoided.",
+        "B": "The author believes that investing in cryptocurrency is essential for anyone interested in technology and economics.",
+        "C": "The author considers cryptocurrency to be a complex and confusing topic, but has some potential uses.",
+        "D": "The author thinks that investing in cryptocurrency is only suitable for experienced investors."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"your private key\" refer to in the text?",
+      "options": {
+        "A": "A secret code that unlocks a physical wallet",
+        "B": "A unique digital address for your online transactions",
+        "C": "A secret code that unlocks your digital wallet and authorizes transactions",
+        "D": "A network of computers that verify cryptocurrency transactions"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about cryptocurrency?",
+      "options": {
+        "A": "To explain how to invest in cryptocurrency",
+        "B": "To discuss the benefits and risks of using cryptocurrency for financial transactions",
+        "C": "To introduce readers to the basics of cryptography and coding",
+        "D": "To describe the history of cryptocurrency from its origins to the present day"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

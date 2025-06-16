@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_62",
+  "title": "Turn Your Spare Time into Money: 10 Profitable Side Hustles",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Secret to Financial Freedom: Side Hustles and Passive Income**\n\nAre you tired of living paycheck to paycheck? Do you dream of having financial freedom and security? You're not alone. Millions of people around the world are seeking ways to supplement their income and create a safety net for themselves.\n\nIn recent years, side hustles have become increasingly popular as a way to earn extra money outside of a primary job. But what exactly is a side hustle, and how can it help you achieve financial freedom? In this article, we'll explore the world of side hustles and passive income, and provide expert tips on how to get started.\n\n**What are Side Hustles?**\n\nA side hustle is any activity or business that generates income outside of your primary job. It's a way to monetize your skills, talents, and interests, and can range from freelancing or consulting to selling products online or renting out a spare room on Airbnb.\n\n\"Side hustles have become a necessity in today's economy,\" says David Bach, author of \"The Automatic Millionaire\". \"With the rise of the gig economy, people are looking for ways to earn extra money and achieve financial freedom.\"\n\n**Benefits of Side Hustles**\n\nSo why should you consider starting a side hustle? Here are just a few benefits:\n\n* **Extra income**: A side hustle can provide a much-needed boost to your primary income, helping you pay off debt, save for the future, or simply enjoy some extra spending money.\n* **Skill development**: Starting a side hustle requires you to develop new skills and expertise, which can be transferable to your primary job or other areas of your life.\n* **Freedom and flexibility**: A side hustle can give you the freedom to work on your own terms, whether that means working from home, traveling, or pursuing your passions.\n\n**Passive Income: The Holy Grail**\n\nBut what about passive income? How does it fit into the world of side hustles?\n\nPassive income is money earned without actively trading time for dollars. It's a way to create wealth and achieve financial freedom, even while you sleep. Examples of passive income include:\n\n* **Dividend-paying stocks**: Many companies pay out dividends to shareholders, providing a regular stream of passive income.\n* **Rentals**: Renting out a spare room on Airbnb or investing in real estate can provide a steady flow of passive income.\n* **Online courses and ebooks**: Creating and selling online courses or ebooks can generate passive income through sales and royalties.\n\n**Getting Started with Side Hustles**\n\nSo how do you get started with side hustles? Here are some expert tips:\n\n* **Identify your skills**: Start by identifying your strengths, skills, and interests. What are you good at? What do you enjoy doing?\n* **Research opportunities**: Research different types of side hustles and identify the ones that align with your skills and interests.\n* **Take action**: Don't be afraid to take action and start small. Whether it's freelancing, selling products online, or renting out a spare room, get started today.\n\nIn conclusion, side hustles and passive income are powerful tools for achieving financial freedom and security. By identifying your strengths, researching opportunities, and taking action, you can create a safety net for yourself and achieve the financial stability you've always dreamed of. So why wait? Start building your side hustle empire today!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to people who are living paycheck to paycheck if they start earning passive income?",
+      "options": {
+        "A": "They will stop needing a primary job",
+        "B": "They will have more time and freedom to pursue their interests",
+        "C": "Their financial struggles will be alleviated, allowing them to save money and pay off debt",
+        "D": "They will become less motivated to work and therefore earn less"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"monetize\" mean in the context of this article?",
+      "options": {
+        "A": "To spend money on something",
+        "B": "To earn money from something",
+        "C": "To decrease the price of something",
+        "D": "To increase the number of things you have"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is an example of passive income mentioned in the article as being generated through sales and royalties?",
+      "options": {
+        "A": "Renting out a spare room on Airbnb",
+        "B": "Creating and selling online courses or ebooks",
+        "C": "Dividend-paying stocks",
+        "D": "Freelancing or consulting"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards achieving financial freedom?",
+      "options": {
+        "A": "It is an unrealistic goal for most people.",
+        "B": "It requires hard work and dedication, but it's achievable with the right mindset.",
+        "C": "Financial freedom is only available to those who are already wealthy.",
+        "D": "Side hustles and passive income are scams that don't deliver on their promises."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the gig economy\" refer to?",
+      "options": {
+        "A": "A new system where people work remotely from their homes",
+        "B": "A global economy where people earn extra money outside of their primary jobs",
+        "C": "A type of online business that generates passive income",
+        "D": "The rise of part-time and temporary employment"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this article about side hustles and passive income?",
+      "options": {
+        "A": "To explain how to create a successful business using online platforms",
+        "B": "To discuss the benefits and importance of having multiple sources of income for financial freedom",
+        "C": "To provide tips on investing in stocks and real estate as a way to earn passive income",
+        "D": "To introduce readers to the concept of freelancing and consulting"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

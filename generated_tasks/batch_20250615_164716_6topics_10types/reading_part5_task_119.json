@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_119",
+  "title": "Unlocking the World of Cryptocurrency: A Beginner's Guide to Digital Money",
+  "topic": "general",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "**Unlocking the World of Cryptocurrency: A Beginner's Guide**\n\nIn recent years, cryptocurrency has become a buzzword in the financial world, with many people eager to learn more about this new phenomenon. But what exactly is cryptocurrency, and how does it work? If you're just starting out on your journey into the world of crypto, don't worry – we've got you covered.\n\n**What is Cryptocurrency?**\n\nAt its core, cryptocurrency is a digital or virtual currency that uses cryptography (the science of secure communication) to secure and verify transactions. Unlike traditional currencies, which are issued by central banks and regulated by governments, cryptocurrencies are decentralized, meaning that they're not controlled by any single entity. This makes them appealing to those who value independence and autonomy.\n\n**How Does Cryptocurrency Work?**\n\nCryptocurrencies use a technology called blockchain, which is essentially a digital ledger that records all transactions made with the currency. When a transaction is made, it's verified by nodes on the network (think of these as computers that are connected to the internet) and then added to the blockchain. This creates a permanent record of the transaction, making it secure and transparent.\n\nFor example, let's say you want to send some Bitcoin (one of the most well-known cryptocurrencies) to a friend. You'd first need to create a digital wallet (which is like an online bank account for your cryptocurrency), then use the wallet to initiate the transfer. The transaction would be verified by nodes on the network and added to the blockchain, where it would remain permanently.\n\n**Types of Cryptocurrency**\n\nThere are thousands of different cryptocurrencies out there, each with its own unique features and uses. Here are a few examples:\n\n*   **Bitcoin (BTC)**: As mentioned earlier, Bitcoin is one of the most well-known cryptocurrencies. It's often used as a store of value or for investment purposes.\n*   **Ethereum (ETH)**: Ethereum is another popular cryptocurrency that also has its own programming language and virtual machine. This makes it useful for creating smart contracts (self-executing contracts with the terms of the agreement written directly into lines of code).\n*   **Altcoins**: These are alternative cryptocurrencies, such as Litecoin or Monero, which offer different features and uses to Bitcoin.\n\n**Benefits of Cryptocurrency**\n\nSo why should you care about cryptocurrency? Here are a few benefits:\n\n*   **Decentralization**: As mentioned earlier, cryptocurrencies are decentralized, meaning that they're not controlled by any single entity. This makes them appealing to those who value independence and autonomy.\n*   **Security**: Cryptocurrencies use advanced cryptography to secure transactions, making them more secure than traditional currencies.\n*   **Convenience**: With a digital wallet, you can send and receive cryptocurrencies with ease.\n\n**Getting Started with Cryptocurrency**\n\nNow that you know the basics of cryptocurrency, it's time to get started! Here are a few steps to follow:\n\n1.  **Learn More**: Keep reading about cryptocurrency – there's always more to learn!\n2.  **Choose a Wallet**: Set up a digital wallet to store and manage your cryptocurrencies.\n3.  **Buy or Mine**: Decide how you want to acquire your cryptocurrencies (either by buying them on an exchange or by mining for them yourself).\n4.  **Start Trading**: Once you have some cryptocurrency, you can start trading it with others.\n\n**Conclusion**\n\nCryptocurrency may seem complex and intimidating at first, but with this beginner's guide, you should now feel more confident in your understanding of the subject. Remember to keep learning, stay up-to-date on market trends, and always prioritize security when dealing with cryptocurrencies. Happy investing!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does the fact that thousands of different cryptocurrencies exist imply about their potential uses?",
+      "options": {
+        "A": "They all have exactly the same features",
+        "B": "Each one has its own unique features",
+        "C": "They are only used for buying and selling goods",
+        "D": "There is no difference between them and traditional currencies"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"decentralized\" mean in this context?",
+      "options": {
+        "A": "A system that is controlled by a single entity",
+        "B": "A network or organization that operates independently of central control",
+        "C": "A method used to secure and verify transactions",
+        "D": "A type of cryptocurrency that is not based on the blockchain technology"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what is used to secure and verify transactions in cryptocurrency?",
+      "options": {
+        "A": "A digital ledger called blockchain",
+        "B": "Cryptography (the science of secure communication)",
+        "C": "A central bank's regulation system",
+        "D": "The internet"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What can be inferred about the author's attitude towards cryptocurrency?",
+      "options": {
+        "A": "The author is overly critical of cryptocurrency and its potential.",
+        "B": "The author views cryptocurrency as a complex and intimidating phenomenon, but ultimately sees value in it.",
+        "C": "The author believes that cryptocurrency will soon replace traditional currencies entirely.",
+        "D": "The author thinks that cryptocurrency is just a fad with no real-world applications."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"these computers that are connected to the internet\" refer to in the text?",
+      "options": {
+        "A": "A digital wallet",
+        "B": "Nodes on the network",
+        "C": "The blockchain",
+        "D": "Cryptocurrencies"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this beginner's guide to cryptocurrency?",
+      "options": {
+        "A": "To explain how to invest in cryptocurrency",
+        "B": "To provide a comprehensive introduction to the world of cryptocurrency for those who are new to it.",
+        "C": "To compare the benefits and drawbacks of different types of cryptocurrency.",
+        "D": "To offer advice on how to mine cryptocurrencies."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_17",
+  "title": "Breaking Free from Debt: Mastering Money Skills for Young Adults",
+  "topic": "general",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "Financial literacy is an essential life skill that has become increasingly important in today's fast-paced economy. Young adults are often faced with the daunting task of managing their finances effectively, but lack the knowledge to do so. This cultural shift towards financial illiteracy has led to a generation of young people who are struggling to make ends meet.\n\nThe statistics are alarming. According to a recent study, 64% of millennials have no savings and 78% believe they will never be able to afford retirement. These numbers are a stark reminder that something is fundamentally wrong with the way we approach financial education in our schools and communities. The lack of emphasis on teaching young people about personal finance has created a culture of financial illiteracy.\n\nBut why is this the case? One reason is that financial literacy is often seen as a dry and boring subject, more suited to accountants than entrepreneurs. This perception has led to a lack of enthusiasm for teaching personal finance in schools. In fact, a recent survey found that only 18% of high school students reported taking a class on personal finance.\n\nHowever, this is not the only reason why young adults are struggling with financial literacy. The world we live in today is increasingly complex and fast-paced, making it difficult for young people to keep up with the latest developments in personal finance. With the rise of fintech companies and digital banking, the way we manage our finances has changed dramatically.\n\nSo what can be done to address this cultural shift towards financial illiteracy? One solution is to incorporate financial literacy into school curricula from an early age. This would give young people a solid foundation in personal finance, equipping them with the skills they need to navigate the complex world of money management.\n\nAnother solution is to make financial education more engaging and accessible. Traditional methods of teaching personal finance are often dry and boring, which is why many young adults tune out when it comes to learning about money. By using interactive tools and real-life examples, we can make financial education more relevant and interesting to young people.\n\nBut financial literacy is not just a personal issue; it's also a social one. When individuals lack the skills to manage their finances effectively, they are more likely to turn to debt and other high-interest financial products. This can have serious consequences for both individuals and society as a whole.\n\nIn fact, research has shown that financial stress can have a negative impact on mental health, relationships, and even physical well-being. By promoting financial literacy, we can help young adults avoid these pitfalls and achieve greater financial stability and security.\n\nSo what does the future hold for financial literacy? One thing is clear: it's time to rethink the way we approach personal finance education. We need to make financial literacy more engaging, accessible, and relevant to young people's lives. By doing so, we can empower them with the skills they need to navigate the complex world of money management.\n\nIn conclusion, financial literacy is a critical issue that affects not just individuals but also society as a whole. By incorporating personal finance education into school curricula, making it more engaging and accessible, and promoting financial literacy among young adults, we can create a culture of financial stability and security. It's time to take action and empower the next generation with the skills they need to succeed in today's economy.\n\nUltimately, financial literacy is not just about managing money; it's about achieving freedom and independence. By giving young adults the tools they need to navigate the world of personal finance, we can help them achieve their goals and live a more fulfilling life.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to be a consequence for individuals who lack financial literacy?",
+      "options": {
+        "A": "They are more likely to become entrepreneurs",
+        "B": "They are less likely to use credit cards",
+        "C": "They are more likely to turn to debt and other high-interest financial products",
+        "D": "They will have no problem saving money for retirement"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"daunting\" primarily mean in this text?",
+      "options": {
+        "A": "A difficult task that requires great enthusiasm",
+        "B": "A challenging task that is difficult to overcome",
+        "C": "A simple task that can be completed quickly",
+        "D": "A boring subject that is not engaging"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a recent study, what percentage of millennials have no savings?",
+      "options": {
+        "A": "45%",
+        "B": "64%",
+        "C": "75%",
+        "D": "90%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is one reason why financial literacy is often seen as a dry and boring subject?",
+      "options": {
+        "A": "It's because it involves complex calculations that are difficult for young people to understand",
+        "B": "It's because it's more suited to entrepreneurs than accountants",
+        "C": "It's because financial education methods have remained unchanged for decades",
+        "D": "It's because personal finance is not relevant to everyday life"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"these numbers\" refer to in the text?",
+      "options": {
+        "A": "The percentage of millennials with no savings",
+        "B": "The number of high school students taking a class on personal finance",
+        "C": "The statistics about financial illiteracy among young adults",
+        "D": "The percentage of people who believe they will never be able to afford retirement"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this text?",
+      "options": {
+        "A": "To discuss the benefits of financial literacy for individuals",
+        "B": "To describe the current state of financial education in schools and communities",
+        "C": "To argue that financial literacy is a critical issue affecting society as a whole",
+        "D": "To provide tips on how to manage personal finances effectively"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_81",
+  "title": "Unlock the Secrets to Earning Money While You Sleep",
+  "topic": "general",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "The Rise of Side Hustles and Passive Income: A Game-Changer for Modern Professionals\n\nIn today's fast-paced and ever-evolving job market, professionals are constantly seeking ways to increase their earning potential, achieve financial stability, and pursue personal fulfillment. One trend that has gained significant traction in recent years is the rise of side hustles and passive income streams. As more individuals recognize the benefits of diversifying their income sources, side hustles have become an essential tool for modern professionals looking to augment their primary income.\n\nA side hustle, by definition, is a part-time or supplementary business or project that can be pursued in addition to one's main occupation. It allows individuals to monetize their skills, expertise, and interests outside of their 9-to-5 job, creating an additional source of revenue and flexibility. According to a survey conducted by Bankrate, nearly 44 million Americans have a side hustle, with the majority (64%) citing the need for extra income as the primary reason.\n\nPassive income, on the other hand, refers to earnings that are generated without direct involvement or effort from the individual. This can include investments, royalties, dividend-paying stocks, and online business ventures that continue to generate revenue even when the owner is not actively working. Passive income offers individuals a sense of financial freedom and security, allowing them to pursue their passions without being tied to a traditional salary.\n\nThe benefits of side hustles and passive income streams are numerous. For one, they provide an opportunity for professionals to diversify their income sources, reducing reliance on a single job or industry. This can be particularly appealing in today's uncertain economic climate, where job security is no longer guaranteed. Side hustles also allow individuals to pursue their passions and interests outside of work, fostering creativity, innovation, and personal fulfillment.\n\nMoreover, side hustles can serve as a catalyst for entrepreneurship and innovation. Many successful startups have originated from side hustles or passion projects that eventually scaled into full-fledged businesses. The likes of Airbnb, Uber, and Warby Parker all began as side hustles before becoming household names.\n\nIn terms of passive income streams, individuals can explore various options, including:\n\n1. Investing in dividend-paying stocks or real estate investment trusts (REITs)\n2. Creating and selling online courses or e-books\n3. Launching a subscription-based service or membership site\n4. Developing an app or software that generates revenue through sales or subscriptions\n5. Monetizing a blog or YouTube channel through advertising, sponsorships, or affiliate marketing\n\nWhile side hustles and passive income streams offer numerous benefits, they also require dedication, hard work, and strategic planning. Individuals must be willing to invest time and effort into building their side hustle or passive income stream, often in the early stages.\n\nTo get started, professionals can begin by:\n\n1. Identifying their skills, expertise, and interests\n2. Researching potential side hustles or passive income streams that align with their strengths\n3. Developing a business plan or strategy for execution\n4. Building a support network of mentors, peers, or online communities\n\nIn conclusion, the rise of side hustles and passive income streams has transformed the way professionals approach work and finance. By diversifying their income sources, pursuing their passions, and creating sustainable revenue streams, individuals can achieve financial stability, security, and freedom. As the modern workforce continues to evolve, it's essential for professionals to adapt and leverage these trends to stay ahead of the curve.\n\nIn today's fast-paced job market, side hustles and passive income streams have become an integral part of professional development. By embracing this trend, individuals can unlock new opportunities for growth, creativity, and financial freedom, ultimately leading to a more fulfilling and successful career.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's opinion on traditional employment based on their description of side hustles and passive income streams?",
+      "options": {
+        "A": "The author believes that traditional employment is no longer relevant in today's job market.",
+        "B": "The author thinks that individuals should rely solely on their primary income for financial stability.",
+        "C": "The author sees side hustles and passive income streams as a way to supplement traditional employment, rather than replace it.",
+        "D": "The author is critical of the benefits provided by traditional employment compared to side hustles and passive income streams."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"monetize\" something?",
+      "options": {
+        "A": "To sell or exchange an item for money",
+        "B": "To turn a hobby into a full-time job",
+        "C": "To increase one's earning potential by diversifying income sources",
+        "D": "To reduce financial reliance on a single job or industry"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the Bankrate survey mentioned in the text, what percentage of Americans have a side hustle?",
+      "options": {
+        "A": "25 million",
+        "B": "30 million",
+        "C": "44 million",
+        "D": "64%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards side hustles and passive income streams?",
+      "options": {
+        "A": "They are a sign of laziness and lack of dedication.",
+        "B": "They offer individuals an opportunity for financial freedom, creativity, and innovation.",
+        "C": "They are only suitable for entrepreneurs and not for regular professionals.",
+        "D": "They are a temporary solution to economic uncertainty."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"monetize their skills, expertise, and interests\" refer to in the text?",
+      "options": {
+        "A": "The benefits of passive income streams",
+        "B": "A side hustle that generates revenue without direct involvement or effort",
+        "C": "Ways for professionals to earn extra money outside of their 9-to-5 job",
+        "D": "The need for individuals to invest time and effort into building a side hustle"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of the text about side hustles and passive income?",
+      "options": {
+        "A": "To discourage professionals from pursuing side hustles and passive income streams",
+        "B": "To explain how side hustles and passive income can improve job security",
+        "C": "To describe how individuals can create additional sources of revenue and achieve financial freedom through side hustles and passive income streams",
+        "D": "To compare the benefits and drawbacks of traditional employment versus entrepreneurship"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

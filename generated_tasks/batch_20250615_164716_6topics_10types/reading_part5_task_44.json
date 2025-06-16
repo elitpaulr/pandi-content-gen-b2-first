@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_44",
+  "title": "The Green Revolution in Your Pocket: How Sustainable Shopping Changes Everything",
+  "topic": "technology",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "The way we shop has changed significantly over the years. Gone are the days of browsing through brick-and-mortar stores, where every purchase was carefully considered before making a decision. With the rise of e-commerce and social media, shopping has become more accessible than ever, but it's also led to a culture of disposability and waste.\n\nThe consequences of our shopping habits are far-reaching. Fast fashion, for instance, has been linked to pollution, deforestation, and human rights abuses in the garment industry. The production and disposal of single-use plastics have contributed to plastic pollution in oceans and waterways. And let's not forget about the carbon footprint associated with transportation and packaging.\n\nSo, what can we do differently? Sustainable shopping and ethical consumption are not just buzzwords; they're a necessary shift towards a more responsible way of living. But where do you start?\n\nOne key aspect is to adopt a mindful approach to consumption. Before making a purchase, ask yourself these questions: Do I need this item? Will it be used regularly or will it end up in the closet? Can I find something second-hand or sustainable instead? This simple yet effective practice can help reduce impulse buying and waste.\n\nSecond-hand shopping is on the rise, and for good reason. Not only does it reduce waste, but it also promotes sustainability and creativity. Websites like ThredUp and Poshmark allow users to buy and sell gently used clothing, while apps like Depop encourage customers to resell items they no longer need. Even thrift stores are getting a makeover with modern designs and styles.\n\nFast fashion's dark side is well-documented. The industry relies on cheap labor and materials that contribute to deforestation and water pollution. But what about high-end brands? Luxury consumers often assume that these companies adhere to higher standards, but many still prioritize profit over people and the planet.\n\nFor example, a 2020 report by the Fashion Transparency Index found that only 3% of luxury fashion brands disclosed their environmental policies publicly. This lack of transparency is concerning, especially when we consider the role of influencers in promoting these brands.\n\nSo, how can you make more informed choices? Researching companies and checking for certifications like B Corp or Fair Trade are good starting points. Look for brands that prioritize sustainability, fair labor practices, and transparency. Some notable examples include Patagonia, Reformation, and Everlane, which have made significant strides in reducing waste and promoting environmental responsibility.\n\nAnother crucial aspect is to consider the impact of packaging on our planet. Single-use plastics may seem convenient, but they contribute to an estimated 8 million tons of plastic waste per year. Opting for reusable bags, containers, and water bottles can make a huge difference.\n\nBut sustainable shopping isn't just about individual actions; it's also about advocating for systemic change. Supporting policies that promote sustainability and fair labor practices is essential. Governments, corporations, and consumers must work together to create a more responsible supply chain.\n\nIn conclusion, the future of shopping is not just about buying stuff; it's about making conscious choices that benefit both people and the planet. By adopting sustainable habits, supporting ethical brands, and advocating for policy change, we can create a culture of responsibility and sustainability.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the role of influencers in promoting luxury fashion brands?",
+      "options": {
+        "A": "They are often unaware of the environmental impact of the brands they promote.",
+        "B": "They are not responsible for the sustainability practices of the brands they endorse.",
+        "C": "Many luxury fashion brands rely heavily on social media influencers to advertise their products and promote their brand values.",
+        "D": "Influencers only promote sustainable and eco-friendly products."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word \"disposability\" mean in this text?",
+      "options": {
+        "A": "A tendency to be wasteful or careless",
+        "B": "The process of getting rid of unwanted items",
+        "C": "A way of producing goods that are not durable",
+        "D": "A type of packaging used for electronic devices"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a 2020 report by the Fashion Transparency Index, what percentage of luxury fashion brands disclosed their environmental policies publicly?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "3%",
+        "D": "50%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards fast fashion?",
+      "options": {
+        "A": "The author thinks it's a harmless industry that brings jobs and growth.",
+        "B": "The author believes fast fashion has serious consequences for the environment and society.",
+        "C": "The author sees fast fashion as a necessary evil in today's consumer culture.",
+        "D": "The author thinks consumers have no responsibility to change their shopping habits."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the garment industry\" refer to in the text?",
+      "options": {
+        "A": "The fashion industry's reliance on cheap labor",
+        "B": "The consequences of fast fashion, including pollution and deforestation",
+        "C": "The production and disposal of single-use plastics",
+        "D": "The human rights abuses linked to fast fashion"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about shopping and consumption?",
+      "options": {
+        "A": "The benefits of fast fashion and single-use plastics",
+        "B": "The importance of individual actions in promoting sustainable shopping",
+        "C": "The need for systemic change and collective responsibility to create a more sustainable supply chain",
+        "D": "The convenience of online shopping has no negative consequences"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

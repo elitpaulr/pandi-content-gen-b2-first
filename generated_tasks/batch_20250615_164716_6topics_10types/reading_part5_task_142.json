@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_142",
+  "title": "Surviving on Sunshine: Budget Hacks for Digital Nomad Life",
+  "topic": "technology",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "As a digital nomad, navigating the world while working remotely can be an exhilarating experience. The freedom to explore new destinations, immerse yourself in different cultures, and enjoy flexible work arrangements is a dream come true for many. However, this lifestyle comes with its own set of challenges, particularly when it comes to managing finances.\n\nBudgeting as a digital nomad requires a unique approach that takes into account the unpredictability of travel costs, exchange rates, and varying income streams. Without a steady paycheck or fixed expenses, it's easy to get caught up in overspending or struggling to make ends meet. But with the right mindset and strategies, you can thrive financially while living the digital nomad dream.\n\nOne of the biggest challenges for digital nomads is dealing with exchange rates. When you're constantly switching between currencies, it can be difficult to keep track of your spending and save money. A good rule of thumb is to keep some local currency on hand in each destination, as well as a credit or debit card that doesn't charge foreign transaction fees.\n\nAnother critical aspect of budgeting for digital nomads is understanding the different types of expenses that come up while traveling. Some costs, like accommodation and food, can be relatively predictable, but others, such as transportation or visa fees, can catch you off guard. To prepare for these unexpected expenses, it's essential to build an emergency fund that covers at least three months' worth of living costs.\n\nDigital nomads often work from coffee shops, co-working spaces, or even beachside cafes. These environments can be distracting and expensive, especially if you're not careful about your food and drink choices. To save money on meals, consider cooking your own food in an Airbnb or hostel with a kitchenette. You can also look for affordable dining options at local markets or street stalls.\n\nAnother significant expense for digital nomads is transportation. Flights, trains, and buses can quickly add up, especially if you're traveling frequently between destinations. To save money on travel costs, consider using budget airlines, booking flights well in advance, or opting for overnight buses instead of flights.\n\nOne of the most important aspects of budgeting as a digital nomad is finding ways to earn extra income. This could involve freelancing, teaching English online, or selling products through e-commerce platforms. By diversifying your income streams, you can reduce your reliance on any one source and stay financially stable even when traveling.\n\nFor many digital nomads, the biggest challenge is not managing their finances but rather staying organized and focused while working remotely. To overcome this hurdle, consider using project management tools like Trello or Asana to keep track of deadlines and tasks. You can also set aside dedicated workspace in your accommodation or visit co-working spaces that offer high-speed internet and comfortable work environments.\n\nUltimately, budgeting as a digital nomad requires flexibility, creativity, and discipline. By understanding your expenses, building an emergency fund, and finding ways to earn extra income, you can enjoy the freedom and adventure of this lifestyle while maintaining financial stability. Whether you're working from a bustling city or a secluded beachside town, with the right mindset and strategies, you can thrive as a digital nomad.\n\nAs you navigate the world as a digital nomad, remember that budgeting is not just about saving money but also about making conscious choices about how you spend your time and resources. By prioritizing your financial goals and staying organized, you can achieve a better work-life balance and truly enjoy the benefits of this lifestyle. So go ahead, explore new destinations, try new foods, and soak up the local culture – with a solid budget plan in place, you'll be free to live life on your own terms.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if a digital nomad doesn't have an emergency fund that covers at least three months' worth of living costs?",
+      "options": {
+        "A": "They will be able to travel more frequently without worrying about money.",
+        "B": "They may struggle to pay unexpected expenses and might go into debt.",
+        "C": "Their income from freelancing or teaching English online will increase significantly.",
+        "D": "They can afford to indulge in expensive dining options at co-working spaces."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"get caught up\" in overspending as a digital nomad?",
+      "options": {
+        "A": "To make smart financial decisions and prioritize saving money",
+        "B": "To spend more than you can afford, often impulsively",
+        "C": "To struggle with managing exchange rates and currency fluctuations",
+        "D": "To find ways to earn extra income through freelancing or online teaching"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, how long should an emergency fund for digital nomads cover?",
+      "options": {
+        "A": "One month's worth of living costs",
+        "B": "Two months' worth of living costs",
+        "C": "Three months' worth of living costs",
+        "D": "Six months' worth of living costs"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is one of the biggest challenges for digital nomads when it comes to managing finances?",
+      "options": {
+        "A": "Dealing with exchange rates and varying income streams.",
+        "B": "Staying organized and focused while working remotely.",
+        "C": "Finding affordable accommodation and food options.",
+        "D": "Building a solid emergency fund."
+      },
+      "correct_answer": "A",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"some costs, like accommodation and food\" refer to in the text?",
+      "options": {
+        "A": "The unpredictability of travel costs",
+        "B": "Varying income streams",
+        "C": "Different types of expenses that come up while traveling",
+        "D": "Exchange rates"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about budgeting for digital nomads?",
+      "options": {
+        "A": "The article focuses on the benefits of living as a digital nomad without worrying about finances.",
+        "B": "Budgeting as a digital nomad requires flexibility, creativity, and discipline to manage expenses and earn extra income.",
+        "C": "Digital nomads should only work from co-working spaces to save money.",
+        "D": "It is not necessary for digital nomads to have an emergency fund."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

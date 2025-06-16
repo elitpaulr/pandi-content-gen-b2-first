@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_146",
+  "title": "From $0 to Nomad: How to Budget Your Digital Dream Life",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I sipped my coffee on a sun-kissed balcony in Chiang Mai, Thailand, I couldn't help but feel grateful for the freedom that came with being a digital nomad. The ability to work from anywhere, immerse myself in new cultures, and live life on my own terms was a privilege I cherished deeply.\n\nBut as I gazed out at the vibrant city below, I knew that this lifestyle wasn't without its challenges. One of the most pressing concerns for digital nomads is budgeting – making ends meet while exploring exotic destinations and indulging in local experiences.\n\nI've learned that budgeting as a digital nomad requires a unique blend of discipline, flexibility, and creativity. It's not just about crunching numbers or tracking expenses; it's an art form that demands attention to detail, adaptability, and a willingness to think outside the box.\n\nTake, for instance, the concept of \"location independence.\" For many digital nomads, this means trading in the comforts of a fixed address for the freedom to roam. But with great mobility comes great financial responsibility – after all, you're no longer tied down by a mortgage or rent payment. In my case, I've opted for short-term rentals and hostels, which not only save me money but also provide opportunities to meet fellow travelers and locals.\n\nOf course, the cost of living in different countries varies greatly. Chiang Mai, where I'm currently based, is a haven for digital nomads, with affordable accommodation options, delicious street food, and a thriving expat community. But other destinations, like Tokyo or New York City, can be prohibitively expensive – at least, without some careful planning.\n\nTo navigate these expenses, I've developed a few key strategies. First, I prioritize needs over wants: instead of splurging on fancy restaurants or trendy bars, I focus on finding the best value for my money in terms of food, transportation, and accommodation. Second, I'm always on the lookout for deals and discounts – whether it's booking a hostel room at a reduced rate or scoring a free upgrade to business class (which, let me tell you, is a game-changer).\n\nBut budgeting as a digital nomad isn't just about saving money; it's also about investing in experiences. I believe that the memories we create and the connections we make are far more valuable than any material possession. So, I'm willing to splurge on activities or courses that will enrich my life – think cooking classes, language lessons, or meditation retreats.\n\nOne of the most important lessons I've learned as a digital nomad is the importance of community. Surrounding myself with like-minded individuals who share my values and passions has not only made traveling more enjoyable but also helped me stay accountable when it comes to budgeting.\n\nIn Bali, for example, I joined a group of fellow travelers who were renting a shared villa in Canggu. We cooked meals together, explored the island's hidden beaches, and supported each other through the ups and downs of our respective projects. It was an incredible experience – one that I wouldn't trade for anything.\n\nAs I reflect on my time as a digital nomad, I realize that budgeting is less about cutting costs and more about cultivating wisdom. It's about being mindful of your spending habits, embracing new experiences, and trusting in the universe to provide. With this mindset, even the most seemingly daunting expenses can become opportunities for growth and connection.\n\nAs I finish my coffee and pack up my laptop, I feel a sense of gratitude for the freedom to roam – and a sense of excitement for whatever adventures lie ahead. For digital nomads like myself, budgeting is not just about saving money; it's an art form that requires creativity, adaptability, and a willingness to live life on our own terms.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's approach to budgeting as a digital nomad?",
+      "options": {
+        "A": "The author believes that budgeting is all about cutting costs and saving money.",
+        "B": "The author prioritizes needs over wants, but also splurges on experiences that enrich their life.",
+        "C": "The author relies solely on online resources and apps to manage their finances.",
+        "D": "The author never spends more than the minimum amount required for basic expenses."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"location independence\" mean in the context of being a digital nomad?",
+      "options": {
+        "A": "The ability to work from any location without having to pay taxes.",
+        "B": "The freedom to roam and travel while still maintaining a fixed address.",
+        "C": "A lifestyle that requires constant changes of accommodation due to lack of financial stability.",
+        "D": "The need for digital nomads to constantly be connected to their home country's internet."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of accommodation has the writer opted for instead of renting or buying a fixed address?",
+      "options": {
+        "A": "A luxury hotel",
+        "B": "A short-term rental and hostel",
+        "C": "A shared villa with fellow travelers",
+        "D": "A camping site"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards budgeting as a digital nomad?",
+      "options": {
+        "A": "It's a tedious task that requires strict discipline.",
+        "B": "It's an art form that demands creativity, adaptability, and attention to detail.",
+        "C": "It's only about cutting costs and saving money.",
+        "D": "It's a necessary evil that restricts one's freedom."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"it\" refer to in the sentence \"Budgeting as a digital nomad isn't just about saving money; it's also about investing in experiences\"?",
+      "options": {
+        "A": "The freedom to roam",
+        "B": "Cultivating wisdom",
+        "C": "Saving money and investing in experiences",
+        "D": "Surrounding oneself with like-minded individuals"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text?",
+      "options": {
+        "A": "The author reflects on the challenges and benefits of being a digital nomad.",
+        "B": "Budgeting as a digital nomad requires cutting costs and tracking expenses carefully.",
+        "C": "The author's experiences as a digital nomad have taught them that budgeting is an art form.",
+        "D": "Digital nomads should always opt for short-term rentals to save money."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

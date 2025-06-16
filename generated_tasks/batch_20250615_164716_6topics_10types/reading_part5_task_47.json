@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_47",
+  "title": "The Green Revolution Hits Your Wallet: Sustainable Shopping in Style",
+  "topic": "technology",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "In recent years, there has been a growing trend towards sustainable shopping and ethical consumption. As consumers become more aware of the environmental and social impacts of their purchasing decisions, they are increasingly seeking out products that align with their values. But what does it mean to shop sustainably, and how can individuals make a positive impact on the world through their spending habits?\n\nOne key aspect of sustainable shopping is reducing waste. This can be achieved by choosing products that have minimal packaging, buying in bulk, and avoiding single-use items such as plastic bags and water bottles. Many consumers are also turning to second-hand stores and online marketplaces for gently used goods, rather than purchasing new.\n\nAnother important consideration is the environmental impact of production. Some companies prioritize sustainability by using eco-friendly materials, reducing energy consumption, and implementing recycling programs. For example, Patagonia's \"Worn Wear\" campaign encourages customers to repair and reuse their products, rather than discarding them after a single use.\n\nEthical consumption also involves considering the social implications of one's purchases. This includes supporting companies that prioritize fair labor practices, pay a living wage, and promote diversity and inclusion in the workplace. Many consumers are now choosing brands that align with their values on issues such as human rights, animal welfare, and community development.\n\nTechnology has made it easier than ever to shop sustainably and ethically. Online platforms such as ThredUp and The RealReal allow consumers to browse second-hand stores from the comfort of their own homes. Apps like Good On You rate companies based on their sustainability and social responsibility practices, making it easier for consumers to make informed choices.\n\nHowever, there are also challenges associated with sustainable shopping. For one thing, it can be more expensive than traditional consumerism. Additionally, some products may not be widely available or may have limited selection options. Moreover, the rise of fast fashion has led to a culture of disposability, making it difficult for consumers to adopt more sustainable habits.\n\nTo address these challenges, some companies are introducing innovative solutions. For example, clothing brands such as H&M and Zara now offer garment collecting services, allowing customers to bring in their old clothes and receive discounts on new purchases. Others, like Everlane, prioritize transparency by providing detailed information about the production process and materials used.\n\nUltimately, sustainable shopping and ethical consumption require a shift in mindset and behavior. It involves recognizing that our purchasing decisions have real-world consequences and making choices that align with our values. As consumers become more educated and engaged, companies will be forced to adapt and innovate in order to meet their needs.\n\nIn conclusion, the trend towards sustainable shopping and ethical consumption is not just a fleeting fad – it's a fundamental shift in the way we think about consumerism. By prioritizing sustainability and social responsibility, individuals can make a positive impact on the world and drive meaningful change in the marketplace. As consumers continue to demand more from companies, it will be interesting to see how businesses respond and adapt to meet their needs.\n\nAs we move forward, it's essential to recognize that sustainable shopping is not just about making individual choices – it's also about advocating for systemic change. By supporting policies and initiatives that promote sustainability and social responsibility, consumers can contribute to a more equitable and environmentally conscious world. As we navigate the complexities of modern consumerism, one thing is clear: our purchasing decisions have the power to shape the future.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does the author suggest is a key factor in driving companies to adapt and innovate in response to changing consumer demands?",
+      "options": {
+        "A": "The rise of fast fashion",
+        "B": "The increasing awareness among consumers of their purchasing decisions' environmental and social impacts",
+        "C": "The growing popularity of second-hand stores",
+        "D": "Government policies promoting sustainability"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for companies to \"prioritize sustainability\" in their production process?",
+      "options": {
+        "A": "They focus on increasing profits and cutting costs",
+        "B": "They use eco-friendly materials, reduce energy consumption, and implement recycling programs",
+        "C": "They ignore environmental concerns and focus on meeting demand",
+        "D": "They outsource production to countries with lax regulations"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Which clothing brand has introduced a \"Worn Wear\" campaign that encourages customers to repair and reuse their products?",
+      "options": {
+        "A": "Everlane",
+        "B": "H&M",
+        "C": "Patagonia",
+        "D": "Zara"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about companies that prioritize sustainability through their production processes?",
+      "options": {
+        "A": "The author thinks they are just trying to deceive consumers.",
+        "B": "The author views them as a step towards a more sustainable future.",
+        "C": "The author believes they are too expensive for most people.",
+        "D": "The author doubts their effectiveness in making a positive impact."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Patagonia's \"Worn Wear\" campaign encourage customers to do with their products?",
+      "options": {
+        "A": "To buy new products from other brands",
+        "B": "To repair and reuse their existing products, rather than discarding them after a single use",
+        "C": "To shop at second-hand stores and online marketplaces for gently used goods",
+        "D": "To prioritize purchasing products made from eco-friendly materials"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this text about sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "To compare different companies' approaches to sustainability",
+        "B": "To explain how technology can help consumers shop sustainably",
+        "C": "To argue that individuals have the power to drive meaningful change in consumerism through their purchasing decisions",
+        "D": "To discuss the benefits and drawbacks of buying second-hand products"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

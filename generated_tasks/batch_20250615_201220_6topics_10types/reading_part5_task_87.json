@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_87",
+  "title": "How I Made Money While Traveling Without a 9-to-5 Job",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I wandered through the bustling streets of Chiang Mai, Thailand, I stumbled upon a unique phenomenon - digital nomads from all over the world, sipping coffee and tapping away on their laptops. They were not just tourists, but entrepreneurs, innovators, and freedom-seekers, fueled by a quest for passive income.\n\nI struck up a conversation with Emily, a young woman from California who had traded her corporate job for a life of flexibility and adventure. She explained to me that she was on a mission to create multiple streams of passive income, so that she could travel the world without worrying about money. Her side hustle? Creating and selling online courses.\n\n\"I teach people how to build websites and start their own blogs,\" she said with a smile. \"It's a niche market, but it's in demand, and I can sell my courses on platforms like Udemy or Skillshare.\"\n\nAs we walked through the city, Emily pointed out various cafes and coworking spaces where digital nomads gathered to work and socialize. There was Hub53, a trendy space with high-speed internet and comfy couches; and The Coffee Club, a cozy spot with free Wi-Fi and delicious coffee.\n\nOne of the most fascinating aspects of Chiang Mai's expat community is its focus on side hustles and passive income. Everyone seemed to be working on their next big project or business idea, all while enjoying the city's laid-back atmosphere and affordable cost of living.\n\nI met Alex, a software developer from Australia who had built a successful online business selling print-on-demand t-shirts. \"It's a simple concept,\" he explained, \"but it requires a lot of upfront work to design the products and set up the marketing channels.\" Now, his designs are sold on Amazon and other platforms, generating passive income for him.\n\nAnother interesting trend I observed was the rise of affiliate marketing. Many expats were promoting travel-related products or services, such as tour packages, accommodations, or even language courses. By sharing their own experiences and recommendations, they earned a commission without having to create their own products.\n\nAs I continued my journey through Chiang Mai's digital nomad scene, I realized that the key to success lies in diversification. Emily, Alex, and many others were not relying on just one source of income; instead, they had created multiple streams of passive income, which gave them the freedom to pursue their passions without financial stress.\n\nThe city's atmosphere was palpable - a mix of creativity, innovation, and entrepreneurship that was infectious. I saw people from all walks of life, united by their quest for flexibility and independence. As I prepared to leave Chiang Mai, I felt inspired to start my own side hustle, leveraging the knowledge and skills I had acquired on this journey.\n\nIf you're looking for a destination that sparks your entrepreneurial spirit and offers opportunities for passive income, Chiang Mai is an ideal choice. With its affordable cost of living, high-speed internet, and thriving expat community, it's the perfect place to start building your business or side hustle.\n\nAs I bid farewell to Emily and Alex, I asked them about their next destinations. \"We're thinking of moving to Bali,\" said Emily, \"where we can continue our work and enjoy a more relaxed lifestyle.\" For Alex, the plan was to head to Vietnam, where he could immerse himself in the local culture and explore new business opportunities.\n\nAs I boarded my flight back home, I felt grateful for the experience. Chiang Mai had not only inspired me to create passive income streams but also shown me that with determination and hard work, anyone can achieve financial freedom and live life on their own terms.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is a common goal of digital nomads like Emily mentioned in the text?",
+      "options": {
+        "A": "To find full-time employment abroad",
+        "B": "To create multiple streams of passive income and have flexibility to travel",
+        "C": "To learn new languages and immerse themselves in local cultures",
+        "D": "To start their own brick-and-mortar businesses"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"fueled by a quest for passive income\" mean in this context?",
+      "options": {
+        "A": "She was motivated to find ways to earn money quickly.",
+        "B": "They were driven by a desire to have multiple sources of regular income without actively working for it.",
+        "C": "Emily and Alex were searching for jobs that would allow them to travel extensively.",
+        "D": "The digital nomads had given up on their corporate careers to pursue more leisurely activities."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is Emily's side hustle?",
+      "options": {
+        "A": "Selling digital products online",
+        "B": "Creating and selling online courses",
+        "C": "Building websites for clients",
+        "D": "Developing software for companies"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the concept of side hustles and passive income?",
+      "options": {
+        "A": "He thinks it's a lazy way to earn money",
+        "B": "He admires people who pursue multiple streams of passive income for financial freedom",
+        "C": "He believes it's only suitable for young people, not older individuals",
+        "D": "He considers it a waste of time in a busy city like Chiang Mai"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who did Emily say she teaches how to build websites and start their own blogs?",
+      "options": {
+        "A": "Her friends who are digital nomads",
+        "B": "People on platforms like Udemy or Skillshare",
+        "C": "Other entrepreneurs in Chiang Mai's expat community",
+        "D": "Tourists visiting the city"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text?",
+      "options": {
+        "A": "The author is a digital nomad who travels to Chiang Mai for its beautiful scenery.",
+        "B": "The city of Chiang Mai, Thailand has become a hub for entrepreneurs and freelancers seeking passive income and flexibility.",
+        "C": "The author's conversation with Emily about online courses is the only example of how to create passive income in this text.",
+        "D": "The text is about the challenges faced by digital nomads while working on their side hustles."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_33",
+  "title": "The Conscious Consumer: How to Shop Your Values without Breaking the Bank",
+  "topic": "technology",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Power of Your Purchase: How Sustainable Shopping is Changing the Game**\n\nAs consumers, we've long been told that our purchasing decisions have no real impact on the world around us. But nothing could be further from the truth. The way we shop has a profound effect on the environment, on communities, and on the people who make the products we buy.\n\nIn recent years, there's been a growing awareness of the need for sustainable shopping and ethical consumption. And it's not just about buying organic or local – although those are great places to start. It's about understanding where your money is going and making choices that align with your values.\n\nOne of the biggest issues facing our planet today is waste. From plastic bags to disposable water bottles, we're generating an astonishing amount of trash every year. And much of it ends up in landfills or oceans, harming marine life and contributing to climate change. But there are steps you can take to reduce your own impact.\n\nStart by thinking about the products you buy on a daily basis. Do you really need that new phone or gadget? Can you find a more sustainable alternative for the things you already have? For example, instead of buying bottled water, try using a reusable filter at home and carrying a refillable bottle with you when you're out.\n\nAnother key area to focus on is clothing. The fashion industry is one of the largest polluters in the world, from the production process itself to the disposal of unwanted items. But there are ways to shop more sustainably. Look for brands that prioritize sustainability, use eco-friendly materials, and offer take-back programs for old clothes.\n\nOf course, not all sustainable shopping is created equal. Some companies may greenwash their products or claim to be more sustainable than they actually are. So how can you know what's really going on?\n\n**The Truth Behind the Labels**\n\nOne way to make informed choices is by looking for certifications and labels that indicate a product meets certain sustainability standards. For example, the Fair Trade label ensures that farmers receive fair prices for their crops and work in safe conditions.\n\nAnother key certification is Oeko-Tex, which guarantees that textiles meet strict safety standards for chemicals and other substances. These labels can give you peace of mind when shopping online or in stores.\n\nBut even with certifications, it's still important to do your research and read reviews from other customers. Look for companies that prioritize transparency and accountability – these are often the ones who will go the extra mile to ensure their products meet high sustainability standards.\n\n**The Power of Your Dollar**\n\nSo what can you do to make a real difference? Start by supporting brands that share your values. When you shop with companies that prioritize sustainability, you're sending a clear message about what matters most to you as a consumer.\n\nAnd don't forget the power of your dollar in local communities. By shopping at independent boutiques or farmers' markets, you can help support small businesses and keep money within your community.\n\nAs we move forward into an uncertain future, it's clear that sustainable shopping and ethical consumption will only continue to grow in importance. By making conscious choices about what we buy and how we live, we can create a more just and environmentally-friendly world – one purchase at a time.\n\n**Take Action Today**\n\n* Look for certifications like Fair Trade or Oeko-Tex when shopping online or in stores.\n* Research companies that prioritize sustainability and transparency.\n* Support local businesses and communities by shopping at independent boutiques or farmers' markets.\n* Reduce your waste by buying reusable products and avoiding single-use plastics.\n* Consider investing in second-hand clothing or swapping clothes with friends to reduce the need for new purchases.\n\nBy taking these simple steps, you can join a global movement of consumers who are using their purchasing power to drive positive change. Together, we can make a real difference – one purchase at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about companies that prioritize transparency and accountability?",
+      "options": {
+        "A": "They often use misleading advertising to promote their products",
+        "B": "They are likely to have certifications like Fair Trade or Oeko-Tex",
+        "C": "They go the extra mile to ensure their products meet high sustainability standards",
+        "D": "They only sell online and do not have physical stores"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"greenwash\" mean in this text?",
+      "options": {
+        "A": "To use eco-friendly materials",
+        "B": "To claim that a product is more sustainable than it actually is",
+        "C": "To reduce waste by buying reusable products",
+        "D": "To support local businesses and communities"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is guaranteed by the Oeko-Tex certification?",
+      "options": {
+        "A": "That products meet strict safety standards for chemicals and other substances",
+        "B": "That companies pay their employees higher wages",
+        "C": "That farmers receive fair prices for their crops",
+        "D": "That products are made from 100% organic materials"
+      },
+      "correct_answer": "A",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards companies that prioritize sustainability but may not actually be sustainable?",
+      "options": {
+        "A": "The author thinks these companies are doing enough and should be praised for their efforts.",
+        "B": "The author believes these companies are misleading consumers by pretending to be more sustainable than they are.",
+        "C": "The author thinks these companies are a necessary step towards making the world more sustainable.",
+        "D": "The author is indifferent to the issue of greenwashing in companies that claim to be sustainable."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the people who make the products we buy\" refer to?",
+      "options": {
+        "A": "The manufacturers of sustainable products",
+        "B": "The farmers who produce organic food",
+        "C": "The consumers themselves and the producers of goods they purchase",
+        "D": "The companies that prioritize sustainability and transparency"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "The fashion industry is the largest polluter in the world.",
+        "B": "Making conscious purchasing decisions can create a more just and environmentally-friendly world.",
+        "C": "Buying organic or local products is the only way to shop sustainably.",
+        "D": "Sustainable shopping has no impact on the environment."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

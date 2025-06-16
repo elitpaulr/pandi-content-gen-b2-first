@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_57",
+  "title": "Sustainable Souvenirs: How to Shop Kindly on Your Travels",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I wandered through the bustling streets of Tokyo's Shimokitazawa district, I stumbled upon a small, unassuming shop that caught my eye. The sign above the door read \"Eco-Collective,\" and the window display boasted an array of colorful fabrics, artisanal soaps, and handcrafted jewelry. I pushed open the door and was immediately enveloped in the warm scent of essential oils and the gentle hum of conversation.\n\n Inside, I met Emiko, the shop's owner, who greeted me with a bright smile and introduced herself as a passionate advocate for sustainable shopping and ethical consumption. As we chatted, she showed me around the store, pointing out the various products on offer. There were hand-dyed scarves made from repurposed fabrics, natural soaps crafted from locally sourced ingredients, and intricately designed jewelry created by artisans who worked directly with her.\n\nEmiko explained that Eco-Collective was more than just a shop – it was a movement. A movement to shift the way we consume, to prioritize people and planet over profit. As I explored the store, I began to see the world through Emiko's eyes. Everywhere I looked, I saw opportunities for change.\n\nIn Tokyo's trendy Harajuku district, I stumbled upon a vibrant street food market where vendors were selling everything from fresh fruit to handmade clothing. But what caught my attention was the small stall tucked away in a corner, run by a young woman named Yuna. Her stall offered a range of second-hand clothing and accessories, all carefully curated from local thrift stores and markets.\n\nYuna told me that her goal was to challenge the fast fashion industry's throwaway culture and promote sustainable consumption instead. As I browsed through her wares, I noticed that each item had been lovingly restored or repurposed in some way – a vintage dress transformed into a unique piece of art, a pair of worn-out jeans reimagined as a handbag.\n\nAs the sun began to set over Tokyo's neon-lit skyline, I made my way to the city's oldest market, Ameya Yokocho. This bustling marketplace was a treasure trove of everything from vintage clothing to handmade crafts. But what struck me most was the sense of community that permeated every stall and vendor.\n\nEach merchant had their own story to tell – about sourcing materials locally, supporting small-scale farmers, or working with artisans who shared their values. As I wandered through the stalls, listening to these stories and marveling at the wares on offer, I felt a deep connection to this community of like-minded individuals.\n\nAs I reflect on my time in Tokyo, I realize that sustainable shopping and ethical consumption are not just about making conscious choices – they're about being part of something bigger. A movement that seeks to redefine the way we live, work, and consume. From Emiko's Eco-Collective to Yuna's second-hand stall and the vibrant vendors at Ameya Yokocho, I saw a city that was redefining the boundaries of commerce and creativity.\n\nIn Tokyo, sustainability is not just a buzzword – it's a way of life. And as a traveler, witnessing this shift firsthand has left me inspired to make changes in my own life back home. Whether it's seeking out second-hand clothing, supporting local artisans, or simply being more mindful of the impact of my purchases, I know that I have been part of something special.\n\nAs I prepare to leave Tokyo and return to my own world, I am filled with a sense of hope and optimism. For in this city of neon lights and bustling streets, I discovered that even the smallest actions can add up to make a big difference. And as I look out at the city skyline, I know that I will carry the lessons of Tokyo with me always – lessons about community, creativity, and the power of sustainable shopping and ethical consumption.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what was Yuna's goal for her second-hand stall in Harajuku?",
+      "options": {
+        "A": "To sell vintage clothing at a lower price than similar items elsewhere",
+        "B": "To challenge the fast fashion industry's throwaway culture and promote sustainable consumption instead",
+        "C": "To create handmade accessories using locally sourced materials",
+        "D": "To support local artisans who shared her values"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Emiko mean when she says Eco-Collective is \"more than just a shop\"?",
+      "options": {
+        "A": "A place where people go to buy cheap products",
+        "B": "A movement that aims to shift the way we consume",
+        "C": "A store that sells only second-hand clothing",
+        "D": "A shop that specializes in selling handmade crafts"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of fabric was used to make the hand-dyed scarves at Emiko's Eco-Collective?",
+      "options": {
+        "A": "New cotton",
+        "B": "Repurposed fabrics",
+        "C": "Synthetic materials",
+        "D": "Organic wool"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the people involved in sustainable shopping and ethical consumption in Tokyo?",
+      "options": {
+        "A": "They are portrayed as being overly critical",
+        "B": "They are shown to be passionate and driven by a desire to make a positive change",
+        "C": "They are depicted as being simply trying to make a profit",
+        "D": "They are shown to be apathetic and uninterested"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Emiko's statement \"Eco-Collective was more than just a shop – it was a movement\" refer to?",
+      "options": {
+        "A": "A store selling eco-friendly products",
+        "B": "A community of like-minded individuals working together for sustainable shopping and ethical consumption",
+        "C": "A project focused on reducing waste in Tokyo's Shimokitazawa district",
+        "D": "A local initiative promoting the use of essential oils in cleaning products"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text?",
+      "options": {
+        "A": "The author compares the benefits of traditional shopping versus online shopping.",
+        "B": "The author explores the concept of sustainable shopping and its impact on society.",
+        "C": "The author reflects on his experiences traveling through Japan, but doesn't mention sustainability at all.",
+        "D": "The author argues that Tokyo is a city where people only care about making money."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

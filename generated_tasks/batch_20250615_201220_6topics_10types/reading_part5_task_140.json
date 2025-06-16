@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_140",
+  "title": "Master Your Money: Essential Budgeting Tips for Digital Nomad Life",
+  "topic": "technology",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "As the world becomes increasingly connected through technology, the concept of work has undergone a significant shift. Digital nomadism, or the practice of working remotely from various locations around the globe, has become an attractive lifestyle choice for many professionals. However, navigating finances as a digital nomad can be complex and requires careful budgeting.\n\nAccording to a recent survey, over 4.8 million people identify as digital nomads, with this number expected to rise exponentially in the coming years. As more individuals choose this lifestyle, they face unique financial challenges that traditional employees do not encounter. For instance, managing currency fluctuations, navigating unfamiliar tax laws, and maintaining a stable income stream become significant concerns.\n\nOne of the primary considerations for digital nomads is exchange rates. With frequent travel to multiple countries, it can be difficult to keep track of local currencies and their fluctuating values. A sudden drop in value could lead to unexpected expenses or even financial instability. To mitigate this risk, digital nomads should consider maintaining a centralized account that allows for easy access to funds across borders.\n\nAnother crucial aspect is taxation. As a digital nomad, one's tax obligations can become increasingly complicated due to residency status and income sources. It's essential to research the specific tax laws of each country visited and understand how they will impact an individual's financial situation. Some countries offer beneficial tax arrangements for remote workers, such as Portugal's \"non-habitual residence\" regime, which provides a flat 20% tax rate on income.\n\nBudgeting also involves managing healthcare costs. Digital nomads often lack access to traditional employer-provided health insurance plans and may need to purchase separate coverage or rely on travel insurance. Researching affordable options that cover international medical expenses is crucial for maintaining peace of mind while traveling.\n\nDigital nomads should also be mindful of their bank fees when conducting financial transactions abroad. These costs can quickly add up, especially if using multiple ATMs or converting currencies frequently. Choosing a bank with low fees and a robust online platform can make managing finances significantly easier.\n\nTo effectively manage these complexities, digital nomads can consider implementing the following strategies:\n\n1.  **Create a centralized account**: Utilize an international bank account that offers seamless cross-border transactions and competitive exchange rates.\n2.  **Automate savings**: Set up automatic transfers to maintain a stable emergency fund and ensure consistent savings.\n3.  **Track expenses**: Use budgeting apps or spreadsheets to monitor spending, ensuring transparency and accountability.\n4.  **Consult financial experts**: Seek guidance from professionals with experience in international finance to navigate specific challenges.\n\nDigital nomadism offers unparalleled opportunities for personal growth and exploration. However, it also requires careful financial planning to avoid common pitfalls. By understanding the unique budgeting needs of this lifestyle and implementing effective strategies, individuals can successfully navigate the complexities of international finances and enjoy the benefits of a location-independent career.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if a digital nomad does not research tax laws in each country they visit?",
+      "options": {
+        "A": "They will automatically qualify for beneficial tax arrangements",
+        "B": "They may face unexpected tax bills or penalties",
+        "C": "Their income will be exempt from taxation altogether",
+        "D": "They will be able to negotiate lower tax rates with local authorities"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"non-habitual residence\" regime refer to in the context of digital nomadism?",
+      "options": {
+        "A": "A type of visa that allows individuals to live and work abroad",
+        "B": "A tax arrangement offered by some countries to remote workers, providing a flat rate on income",
+        "C": "A requirement for digital nomads to obtain health insurance in each country they visit",
+        "D": "An international bank account with low fees and competitive exchange rates"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what percentage tax rate is offered by Portugal's \"non-habitual residence\" regime?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards digital nomadism?",
+      "options": {
+        "A": "The author views digital nomadism as a purely negative lifestyle choice.",
+        "B": "The author believes that digital nomads face unnecessary financial complexities due to their lifestyle choice.",
+        "C": "The author thinks that digital nomadism offers unparalleled opportunities for personal growth and exploration, but requires careful financial planning.",
+        "D": "The author advises against digital nomadism altogether due to its many drawbacks."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"this number expected to rise exponentially in the coming years\" refer to?",
+      "options": {
+        "A": "The number of digital nomads with employer-provided health insurance",
+        "B": "The number of digital nomads identifying as such, according to a recent survey",
+        "C": "The number of countries offering beneficial tax arrangements for remote workers",
+        "D": "The amount of money spent on healthcare costs by digital nomads"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about digital nomadism and budgeting?",
+      "options": {
+        "A": "Digital nomads should prioritize exploring new countries over managing their finances.",
+        "B": "Effective budgeting and financial planning are essential for successfully navigating the lifestyle of a digital nomad.",
+        "C": "The benefits of digital nomadism outweigh the challenges of managing international finances.",
+        "D": "Individuals who choose to be digital nomads will automatically have all their financial needs met."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

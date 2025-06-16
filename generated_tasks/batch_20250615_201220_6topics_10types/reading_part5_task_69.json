@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_69",
+  "title": "7 Secrets to Earning Money While You Sleep: Side Hustle Mastery",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her coffee, Emily stared blankly at the wall, trying to muster up some inspiration for her next move. She was tired of the monotonous 9-to-5 routine that seemed to suck the life out of her. Her friends were all talking about side hustles and passive income, but she had no idea where to start.\n\n\"Girl, you need to get with the times,\" her best friend Rachel said, plopping down beside her on the couch. \"Side hustles are not just for broke college students anymore.\"\n\nEmily raised an eyebrow. \"What do you mean?\"\n\nRachel launched into a passionate speech about the benefits of having multiple streams of income. \"Think about it, Emily. With a side hustle and some passive income, you can travel whenever you want, quit your job if you hate it, or simply have more money to spend on the things that bring you joy.\"\n\nEmily's ears perked up at this. She had always dreamed of traveling the world, but her current salary wouldn't even cover a fraction of her expenses.\n\nRachel handed her a laptop and pointed to a spreadsheet on the screen. \"This is a list of some popular side hustles. See if any of these spark your interest.\"\n\nEmily scanned the page, her eyes widening as she read through the options: freelance writing, dog walking, tutoring, selling handmade goods online... The possibilities seemed endless.\n\nBut how did one even get started with all this? Emily asked Rachel for clarification on some of the terms she didn't understand. \"Passive income\" was a concept that still eluded her - what exactly did it mean to have money come in without actually having to work?\n\nRachel smiled knowingly. \"Think of it like renting out your spare room on Airbnb. You set everything up, take care of the guests, and then collect the rent without lifting a finger.\"\n\nEmily nodded slowly as the concept began to sink in. This was what she needed - something that would allow her to earn money while still having time for herself.\n\nWith newfound determination, Emily started researching some of the side hustles on Rachel's list. She signed up with a freelance writing platform and began scouring job postings online. She even set up an account on Etsy to sell some handmade candles she had been experimenting with in her spare time.\n\nThe next few weeks flew by as Emily delved headfirst into her new side hustle. It wasn't always easy, of course - there were long hours spent writing articles and tending to clients' needs - but the sense of fulfillment she got from knowing that this was a choice she had made, not just a necessity, was incredibly empowering.\n\nAs for passive income, Emily started by investing in a dividend-paying index fund. It wasn't much, but it was something. And with each passing month, her investment grew, generating a small but steady stream of income without requiring any effort on her part.\n\nA few months later, when Emily quit her job to travel the world (something she had been dreaming about for years), she knew that she owed it all to her side hustle and passive income. It wasn't just about having money; it was about being free.\n\nShe looked out at the breathtaking view from her hostel window, feeling a sense of peace wash over her. \"Thanks, Rachel,\" she said with a smile, knowing that her friend had been right all along.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated Emily to start looking for side hustles and exploring the concept of passive income?",
+      "options": {
+        "A": "She was unhappy with her job and wanted more money",
+        "B": "Her best friend Rachel introduced her to the idea and inspired her to take action",
+        "C": "She had always dreamed of traveling the world, but thought it was impossible on her current salary",
+        "D": "She was struggling financially due to unexpected expenses"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to have \"passive income\"?",
+      "options": {
+        "A": "It means earning money by working long hours and putting in extra effort.",
+        "B": "It refers to income that is generated without requiring active work or involvement, allowing you to earn money while focusing on other things.",
+        "C": "It's a type of loan where you borrow money from someone else to start a business.",
+        "D": "It means saving money in a bank account and waiting for it to grow."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What did Emily do to start earning passive income?",
+      "options": {
+        "A": "She signed up for freelance writing jobs on a platform",
+        "B": "She invested in a dividend-paying index fund",
+        "C": "She rented out her spare room on Airbnb",
+        "D": "She started selling handmade candles on Etsy"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Emily's attitude towards the idea of side hustles and passive income when Rachel first introduces it to her?",
+      "options": {
+        "A": "She is enthusiastic about the possibilities but skeptical of its feasibility.",
+        "B": "She dismisses the idea as something only \"broke college students\" do.",
+        "C": "She is initially uninterested, but eventually becomes passionate about the potential benefits.",
+        "D": "She thinks it's a waste of time and not worth pursuing."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Emily think about when she hears Rachel mention \"passive income\"?",
+      "options": {
+        "A": "She thinks it's a way to get out of work altogether.",
+        "B": "She wonders what it means and asks Rachel for clarification.",
+        "C": "She believes it's something only rich people can have.",
+        "D": "She is skeptical that it's really possible."
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about Emily and her journey to financial freedom?",
+      "options": {
+        "A": "Emily struggles to find motivation for her 9-to-5 job and eventually finds happiness through her work.",
+        "B": "Emily discovers that having multiple streams of income, including side hustles and passive income, allows her to pursue her dreams and be financially independent.",
+        "C": "Emily decides to quit her job and travel the world, but realizes she needs a better financial plan first.",
+        "D": "Emily's friend Rachel is portrayed as the main character who convinces Emily to start a side hustle."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

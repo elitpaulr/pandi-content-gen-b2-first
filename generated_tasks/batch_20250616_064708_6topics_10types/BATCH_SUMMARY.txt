@@ -1,0 +1,232 @@
+BATCH GENERATION SUMMARY
+========================
+
+Generated: 2025-06-16 09:25:54
+Batch Folder: batch_20250616_064708_6topics_10types
+Model: llama3.1:8b
+
+GENERATION PARAMETERS:
+---------------------
+Topics: 6
+Text Types: 10
+Tasks per Topic: 1
+Custom Instructions: None
+
+TOPICS PROCESSED:
+----------------
+• extreme sports and risk-taking
+• fitness trends for busy professionals
+• team sports vs individual activities
+• mental health benefits of exercise
+• sports nutrition for amateur athletes
+• adventure sports psychology and motivation
+
+TEXT TYPES:
+----------
+• magazine_article
+• newspaper_article
+• novel_extract
+• blog_post
+• science_article
+• cultural_review
+• professional_feature
+• lifestyle_feature
+• travel_writing
+• educational_feature
+
+RESULTS:
+--------
+Total Tasks Generated: 60
+Success Rate: 60/60 (100.0%)
+
+GENERATED TASKS:
+---------------
+ 1. reading_part5_task_01 - Thrill Seekers Unite: The Ultimate Guide to Living on the Edge
+    Topic: general | Type: magazine_article | Words: 574
+ 2. reading_part5_task_02 - Thrill Seekers Put Lives on Line in Pursuit of Adrenaline Rush
+    Topic: general | Type: newspaper_article | Words: 624
+ 3. reading_part5_task_03 - Thrill-Seekers and Daredevils: The Psychology of Extreme Risk-Takers
+    Topic: general | Type: novel_extract | Words: 631
+ 4. reading_part5_task_04 - Thrill Seekers Unite! The Brave World of Extreme Sports Enthusiasts
+    Topic: general | Type: blog_post | Words: 542
+ 5. reading_part5_task_05 - Can Your Brain Handle the Crash? The Science of Extreme Sports Addiction
+    Topic: general | Type: science_article | Words: 506
+ 6. reading_part5_task_06 - Thrill-Seekers Unleashed: The Cult of Extreme Sports and Its Global Frenzy
+    Topic: general | Type: cultural_review | Words: 677
+ 7. reading_part5_task_07 - Thrill-Seekers Unite: Understanding the Psychology of Extreme Sports and Risk-Taking Behavior
+    Topic: general | Type: professional_feature | Words: 526
+ 8. reading_part5_task_08 - Thrill Seekers Unite: The Ultimate Guide to Living on the Edge
+    Topic: general | Type: lifestyle_feature | Words: 593
+ 9. reading_part5_task_09 - Thrill Seekers Unite: Exploring the World's Most Daring Adventure Destinations
+    Topic: general | Type: travel_writing | Words: 695
+10. reading_part5_task_10 - Thrill-Seekers Beware: The Highs and Lows of Extreme Sports Addiction
+    Topic: general | Type: educational_feature | Words: 550
+11. reading_part5_task_11 - Sweatproof Your Schedule: Fitness Trends That Work for Busy Lives
+    Topic: health_and_fitness | Type: magazine_article | Words: 621
+12. reading_part5_task_12 - Squeezing in Sweat: Fitness Tips for the Time-Poor Professional
+    Topic: health_and_fitness | Type: newspaper_article | Words: 568
+13. reading_part5_task_13 - Get Fit in 15 Minutes a Day Without Losing Your Mind
+    Topic: health_and_fitness | Type: novel_extract | Words: 588
+14. reading_part5_task_14 - Fitness on the Go: How Busy Professionals Can Stay Fit in Minutes
+    Topic: health_and_fitness | Type: blog_post | Words: 713
+15. reading_part5_task_15 - Fit in 30 Minutes: Unlocking High-Energy Workouts for Busy Lives
+    Topic: health_and_fitness | Type: science_article | Words: 649
+16. reading_part5_task_16 - Sweat, Stress, and Success: How Busy Professionals Stay Fit
+    Topic: health_and_fitness | Type: cultural_review | Words: 598
+17. reading_part5_task_17 - Fitness Hacks for the Time-Starved: Stay Fit Without Losing Your Mind
+    Topic: health_and_fitness | Type: professional_feature | Words: 611
+18. reading_part5_task_18 - Squeezing in Sweat: Fitness Hacks for the Busy Office Warrior
+    Topic: health_and_fitness | Type: lifestyle_feature | Words: 540
+19. reading_part5_task_19 - Sweat in Style: Uncovering Fitness Secrets of Global City Dwellers
+    Topic: health_and_fitness | Type: travel_writing | Words: 584
+20. reading_part5_task_20 - Squeezing Fitness into Your Crazy Busy Schedule
+    Topic: health_and_fitness | Type: educational_feature | Words: 521
+21. reading_part5_task_21 - Team Up or Go Solo: Which Sports Style is Right for You?
+    Topic: general | Type: magazine_article | Words: 601
+22. reading_part5_task_22 - Teamwork or Solo Success: Which Sports Style Reigns Supreme?
+    Topic: general | Type: newspaper_article | Words: 598
+23. reading_part5_task_23 - Team Sports vs Individual Activities: Which Builds Stronger Champions?
+    Topic: general | Type: novel_extract | Words: 688
+24. reading_part5_task_24 - Which Team Player Are You? Sports for Solo Stars or Squad Goals?
+    Topic: general | Type: blog_post | Words: 559
+25. reading_part5_task_25 - Why Team Sports Can Boost Your Brain More Than Solo Activities
+    Topic: general | Type: science_article | Words: 572
+26. reading_part5_task_26 - Team Spirit vs Solo Struggle: Which Wins Out in Modern Culture?
+    Topic: general | Type: cultural_review | Words: 553
+27. reading_part5_task_27 - Playing Together or Alone: Which Sports Style is Best for You?
+    Topic: general | Type: professional_feature | Words: 623
+28. reading_part5_task_28 - Will You Thrive in a Team or Alone? The Great Sports Debate!
+    Topic: general | Type: lifestyle_feature | Words: 511
+29. reading_part5_task_29 - Playing With Others: Exploring Team Sports in Foreign Cities
+    Topic: general | Type: travel_writing | Words: 527
+30. reading_part5_task_30 - Team Sports or Solo Stars? The Battle of Social and Solo Pursuits
+    Topic: general | Type: educational_feature | Words: 571
+31. reading_part5_task_31 - Sweat Your Way to Happiness: How Exercise Boosts Mental Health
+    Topic: health_and_fitness | Type: magazine_article | Words: 583
+32. reading_part5_task_32 - Get Moving, Stay Sane: How Exercise Can Transform Your Mental Health
+    Topic: health_and_fitness | Type: newspaper_article | Words: 725
+33. reading_part5_task_33 - Move Your Body, Heal Your Mind: The Surprising Power of Exercise
+    Topic: health_and_fitness | Type: novel_extract | Words: 501
+34. reading_part5_task_34 - Get Fit, Feel Great: Unlocking Mental Health Benefits Through Exercise
+    Topic: health_and_fitness | Type: blog_post | Words: 669
+35. reading_part5_task_35 - Sweat Your Way to a Healthier Mind in Minutes a Day!
+    Topic: health_and_fitness | Type: science_article | Words: 554
+36. reading_part5_task_36 - Sweat Your Blues Away: How Exercise Heals a Troubled Mind
+    Topic: health_and_fitness | Type: cultural_review | Words: 572
+37. reading_part5_task_37 - Get Moving to Melt Away Mental Stress and Boost Your Mood Naturally
+    Topic: health_and_fitness | Type: professional_feature | Words: 590
+38. reading_part5_task_38 - Get Fit, Feel Better: How Exercise Can Heal Your Mind
+    Topic: health_and_fitness | Type: lifestyle_feature | Words: 594
+39. reading_part5_task_39 - Finding Inner Peace on the Road: How Exercise Heals Your Mind
+    Topic: health_and_fitness | Type: travel_writing | Words: 690
+40. reading_part5_task_40 - Boost Your Mood: How Exercise Can Transform Your Mental Health
+    Topic: health_and_fitness | Type: educational_feature | Words: 614
+41. reading_part5_task_41 - Fuel Your Fitness: Simple Nutrition Tips for Amateur Athletes
+    Topic: health_and_fitness | Type: magazine_article | Words: 429
+42. reading_part5_task_42 - Eat to Win: Unlock Your Full Potential as an Amateur Athlete
+    Topic: health_and_fitness | Type: newspaper_article | Words: 621
+43. reading_part5_task_43 - Fuel Your Fitness: Essential Nutrition Tips for Amateur Athletes
+    Topic: health_and_fitness | Type: novel_extract | Words: 667
+44. reading_part5_task_44 - Fuel Your Fitness: Top Nutrition Tips for Amateur Athletes
+    Topic: health_and_fitness | Type: blog_post | Words: 742
+45. reading_part5_task_45 - Fuel Your Fitness: Unlock the Power of Proper Sports Nutrition
+    Topic: health_and_fitness | Type: science_article | Words: 543
+46. reading_part5_task_46 - Fueling Your Fitness: How Amateur Athletes Can Eat to Win
+    Topic: health_and_fitness | Type: cultural_review | Words: 668
+47. reading_part5_task_47 - Fuel Your Fitness: Essential Nutrition Tips for Amateur Athletes
+    Topic: health_and_fitness | Type: professional_feature | Words: 456
+48. reading_part5_task_48 - Fuel Your Fitness: Unlock the Secret to Better Performance Now!
+    Topic: health_and_fitness | Type: lifestyle_feature | Words: 632
+49. reading_part5_task_49 - Fueling My Fitness Fix: Sports Nutrition in Paradise Found
+    Topic: health_and_fitness | Type: travel_writing | Words: 634
+50. reading_part5_task_50 - Fuel Your Performance: Boost Energy & Endurance in Sports
+    Topic: health_and_fitness | Type: educational_feature | Words: 654
+51. reading_part5_task_51 - Conquer Your Fears: The Mental Edge of Extreme Athletes Revealed
+    Topic: general | Type: magazine_article | Words: 632
+52. reading_part5_task_52 - Peak Performance: Unleashing the Mental Toughness of Extreme Athletes
+    Topic: general | Type: newspaper_article | Words: 616
+53. reading_part5_task_53 - Unleash Your Inner Warrior: The Secret to Thriving in Adventure Sports
+    Topic: general | Type: novel_extract | Words: 607
+54. reading_part5_task_54 - Conquer Your Fears: The Mental Secrets of Top Adventure Athletes Revealed
+    Topic: general | Type: blog_post | Words: 583
+55. reading_part5_task_55 - Peak Performance: Unleashing the Mindset of Extreme Athletes
+    Topic: general | Type: science_article | Words: 736
+56. reading_part5_task_56 - Peak Performance Secrets from the World's Most Fearless Athletes Revealed
+    Topic: general | Type: cultural_review | Words: 600
+57. reading_part5_task_57 - Unleashing Peak Performance in Adventure Sports: The Mindset Advantage
+    Topic: general | Type: professional_feature | Words: 580
+58. reading_part5_task_58 - Unleash Your Inner Warrior: Conquering Fear on and Off the Mountain
+    Topic: general | Type: lifestyle_feature | Words: 626
+59. reading_part5_task_59 - Beyond Fear, Beyond Limits: Conquering the Mind in Wild Places
+    Topic: general | Type: travel_writing | Words: 631
+60. reading_part5_task_60 - Conquering Fear and Thriving Under Pressure in Adventure Sports!
+    Topic: general | Type: educational_feature | Words: 668
+
+TASK CATEGORIES:
+---------------
+• General: 30 tasks
+• Health Wellness: 20 tasks
+• Travel Adventure: 10 tasks
+
+FILES IN BATCH:
+--------------
+• reading_part5_task_01.json (7,887 bytes)
+• reading_part5_task_02.json (7,481 bytes)
+• reading_part5_task_03.json (6,875 bytes)
+• reading_part5_task_04.json (6,678 bytes)
+• reading_part5_task_05.json (7,209 bytes)
+• reading_part5_task_06.json (7,815 bytes)
+• reading_part5_task_07.json (7,155 bytes)
+• reading_part5_task_08.json (7,488 bytes)
+• reading_part5_task_09.json (7,549 bytes)
+• reading_part5_task_10.json (7,363 bytes)
+• reading_part5_task_11.json (7,494 bytes)
+• reading_part5_task_12.json (7,519 bytes)
+• reading_part5_task_13.json (7,056 bytes)
+• reading_part5_task_14.json (7,565 bytes)
+• reading_part5_task_15.json (8,215 bytes)
+• reading_part5_task_16.json (7,057 bytes)
+• reading_part5_task_17.json (7,760 bytes)
+• reading_part5_task_18.json (7,382 bytes)
+• reading_part5_task_19.json (7,188 bytes)
+• reading_part5_task_20.json (7,006 bytes)
+• reading_part5_task_21.json (7,394 bytes)
+• reading_part5_task_22.json (7,320 bytes)
+• reading_part5_task_23.json (7,855 bytes)
+• reading_part5_task_24.json (7,456 bytes)
+• reading_part5_task_25.json (7,751 bytes)
+• reading_part5_task_26.json (7,648 bytes)
+• reading_part5_task_27.json (7,460 bytes)
+• reading_part5_task_28.json (7,752 bytes)
+• reading_part5_task_29.json (7,387 bytes)
+• reading_part5_task_30.json (7,545 bytes)
+• reading_part5_task_31.json (7,061 bytes)
+• reading_part5_task_32.json (8,211 bytes)
+• reading_part5_task_33.json (6,452 bytes)
+• reading_part5_task_34.json (7,603 bytes)
+• reading_part5_task_35.json (7,324 bytes)
+• reading_part5_task_36.json (7,907 bytes)
+• reading_part5_task_37.json (7,750 bytes)
+• reading_part5_task_38.json (7,666 bytes)
+• reading_part5_task_39.json (7,432 bytes)
+• reading_part5_task_40.json (8,362 bytes)
+• reading_part5_task_41.json (6,482 bytes)
+• reading_part5_task_42.json (7,719 bytes)
+• reading_part5_task_43.json (7,691 bytes)
+• reading_part5_task_44.json (7,762 bytes)
+• reading_part5_task_45.json (7,457 bytes)
+• reading_part5_task_46.json (8,503 bytes)
+• reading_part5_task_47.json (6,571 bytes)
+• reading_part5_task_48.json (7,775 bytes)
+• reading_part5_task_49.json (7,715 bytes)
+• reading_part5_task_50.json (7,844 bytes)
+• reading_part5_task_51.json (8,524 bytes)
+• reading_part5_task_52.json (7,572 bytes)
+• reading_part5_task_53.json (7,522 bytes)
+• reading_part5_task_54.json (7,240 bytes)
+• reading_part5_task_55.json (9,020 bytes)
+• reading_part5_task_56.json (7,964 bytes)
+• reading_part5_task_57.json (7,613 bytes)
+• reading_part5_task_58.json (7,698 bytes)
+• reading_part5_task_59.json (7,633 bytes)
+• reading_part5_task_60.json (8,261 bytes)

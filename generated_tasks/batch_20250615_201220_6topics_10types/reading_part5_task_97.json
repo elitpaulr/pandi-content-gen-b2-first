@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_97",
+  "title": "Unlocking the World of Cryptocurrency: A Beginner's Guide to Digital Wealth",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her cappuccino, Emily stared at her phone, bewildered by the complex jargon on her friend's social media post. \"What's this fuss all about?\" she wondered. Her friend, Alex, a tech-savvy enthusiast, had been raving about cryptocurrency for months now. Emily had tried to grasp the concept but ended up more confused than enlightened.\n\n\"Hey, Alex! I don't get it,\" Emily said as her friend walked into the coffee shop. \"You're always talking about Bitcoin and Ethereum, but what's the point?\"\n\nAlex grinned, anticipating this moment. \"Ah, finally! Someone willing to learn!\" he exclaimed, settling into the chair across from Emily.\n\n\"Cryptocurrency is digital money, just like the dollars in your wallet,\" Alex began, his eyes sparkling with excitement. \"But instead of being printed and distributed by governments, it's created online through complex math problems.\"\n\nEmily raised an eyebrow. \"Math problems? How does that work?\"\n\nAlex pulled out his phone and opened a browser on the Ethereum website. \"These websites use something called blockchain technology to record transactions. It's like a digital ledger that keeps track of every single transaction ever made with a particular currency.\"\n\nHe clicked through to a webpage, where Emily saw a long list of numbers and codes. \"See this? This is the blockchain for Bitcoin. Every time someone sends or receives Bitcoin, it gets recorded here. The math problems are what secure these transactions – they're essentially a digital puzzle that must be solved before the transaction can go through.\"\n\nEmily's eyes widened as she took in the concept. \"So, it's like a game?\"\n\nAlex chuckled. \"Not exactly, but yes, there is an element of competition involved. Miners, or super-powerful computers, compete to solve these math problems first and get rewarded with new coins. It's like finding digital gold!\"\n\nAs they delved deeper into the world of cryptocurrency, Emily began to grasp the basics. Alex explained how different types of cryptocurrencies existed – some were designed for fast transactions (like Ripple), while others focused on security (like Monero). He even introduced her to decentralized finance (DeFi) – a concept that allowed users to lend and borrow funds without the need for traditional banks.\n\nAs they sipped their coffee, Emily started to feel more confident. \"I think I get it now,\" she said, smiling at Alex. \"It's like digital cash, but with its own rules and ecosystem.\"\n\nAlex grinned back. \"Exactly! And the best part is, anyone can participate – no matter where you live or how much money you have.\"\n\nTheir conversation was interrupted by a notification on Emily's phone. She glanced down to see an email from her bank, warning about a potential phishing scam targeting cryptocurrency users.\n\n\"Hey, Alex? I think this might be what I needed to understand the risks,\" Emily said, handing him the phone.\n\nAlex's expression turned serious. \"Yeah, scammers love preying on people who don't know the ropes. But with some basic knowledge and caution, you can avoid falling victim.\"\n\nAs they finished their drinks and parted ways, Emily felt a newfound appreciation for the world of cryptocurrency. It was complex, but not impenetrable – with the right guidance, anyone could navigate its digital waters.\n\nBack at home, Emily sat down to research further, her mind buzzing with questions about blockchains and decentralized finance. She realized that this was just the beginning of an exciting journey into the uncharted territories of cryptocurrency.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Alex's approach to teaching Emily about cryptocurrency?",
+      "options": {
+        "A": "He uses complicated technical terms from the start, making it difficult for her to understand.",
+        "B": "He tries to explain everything in simple language and avoids using jargon.",
+        "C": "He focuses on the risks and dangers of investing in cryptocurrency, warning Emily about potential scams.",
+        "D": "He encourages her to think critically about the concept, rather than just explaining it to her."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Alex mean by \"digital puzzle\" when explaining how transactions are secured?",
+      "options": {
+        "A": "A problem that requires a lot of money to solve",
+        "B": "A complex math problem that must be solved before a transaction can go through",
+        "C": "A type of cryptocurrency that is only available online",
+        "D": "A way to hack into someone's account and steal their coins"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of transactions does a blockchain record?",
+      "options": {
+        "A": "Only purchases made online",
+        "B": "Every single transaction ever made with a particular currency",
+        "C": "Transactions involving traditional banks only",
+        "D": "Financial transactions over $100,000"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Alex's attitude towards people who don't understand cryptocurrency?",
+      "options": {
+        "A": "He thinks they are lazy and need to try harder.",
+        "B": "He is patient and encouraging, happy to explain it to them.",
+        "C": "He believes they are too old-fashioned for this new technology.",
+        "D": "He thinks they are stupid for not understanding something so simple."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Alex use his phone to open when explaining blockchain technology to Emily?",
+      "options": {
+        "A": "A social media platform",
+        "B": "The Ethereum website",
+        "C": "A banking app",
+        "D": "A cryptocurrency exchange"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the conversation between Emily and Alex about cryptocurrency?",
+      "options": {
+        "A": "The risks associated with investing in cryptocurrency are discussed.",
+        "B": "Emily learns how to buy and sell cryptocurrencies like Bitcoin and Ethereum.",
+        "C": "Emily discovers that cryptocurrency is a digital form of money, created online through complex math problems.",
+        "D": "Alex tries to convince Emily to invest all her savings into cryptocurrency."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

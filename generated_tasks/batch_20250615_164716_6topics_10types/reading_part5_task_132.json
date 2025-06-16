@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_132",
+  "title": "Mastering Your Money on the Move: Budgeting Secrets for Digital Nomads",
+  "topic": "technology",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I'll be honest – when I first started my journey as a digital nomad, I had no idea how to manage my finances on the go. I thought it would all magically work itself out, but the truth is, it takes some serious planning and discipline to stay on top of your money while traveling the world.\n\nMy first few months were a blur of excitement and overspending. I was constantly trying new restaurants, taking taxis, and booking last-minute flights – without thinking twice about the cost. It wasn't until I hit rock bottom (literally, in my bank account) that I realized I needed to take control of my finances.\n\nThat's when I started researching budgeting tips for digital nomads, and let me tell you, it was a game-changer. I learned how to prioritize my spending, cut back on unnecessary expenses, and even make some extra cash along the way.\n\nOne of the most important things I discovered is that your location plays a huge role in your expenses. For example, cities like Tokyo or New York can be ridiculously expensive, while places like Chiang Mai or Medellín are much more affordable. So, it's crucial to research the cost of living in different destinations before planning your trip.\n\nAnother key factor is your lifestyle. As a digital nomad, you have the freedom to create your own schedule and work from anywhere – but this also means you need to be mindful of your expenses. If you're someone who loves eating out or taking taxis, you'll quickly rack up a hefty bill. On the other hand, if you're more into cooking your own meals or using public transportation, you can save a significant amount.\n\nFor me, the biggest challenge was finding ways to earn extra money while traveling. I started by freelancing in my field (writing), which allowed me to work remotely and set my own rates. This not only boosted my income but also gave me a sense of purpose while exploring new places.\n\nAnother way I've made extra cash is through online gig economy platforms like Upwork or Fiverr. These sites connect you with clients who need help with various tasks, from data entry to social media management. It's not always lucrative, but it's a flexible way to earn some money on the side.\n\nNow that I've been doing this for a while, I can confidently say that budgeting is an art – and one that requires constant practice. Here are a few tips that have worked for me:\n\n* Set aside 30% of your income for savings (yes, it's hard, but trust me, you'll thank yourself later).\n* Use the 50/30/20 rule: 50% for necessities like rent and food, 30% for discretionary spending (travel, entertainment), and 20% for saving and debt repayment.\n* Track your expenses using an app or spreadsheet – it's eye-opening to see where your money is going!\n* Be mindful of exchange rates when converting currencies – you don't want to lose a chunk of your cash due to poor timing.\n\nOf course, budgeting for digital nomads isn't always easy. There are days when I feel like giving up and splurging on a fancy dinner or expensive souvenir. But the truth is, being responsible with my finances has given me the freedom to explore this amazing world – without worrying about money.\n\nIf you're just starting out as a digital nomad, don't be discouraged by the initial struggles. Remember that budgeting is a skill that takes time and practice to develop. With patience, persistence, and a willingness to learn, you can join the ranks of the financially savvy digital nomads who are living their dream – one destination at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was likely the author's reason for feeling \"rock bottom\" in their bank account?",
+      "options": {
+        "A": "They had been saving money too quickly",
+        "B": "They had spent all their money on unnecessary expenses without thinking about the cost",
+        "C": "They were struggling to find work as a digital nomad",
+        "D": "They had encountered unexpected travel costs"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for something to \"take control\" in this context?",
+      "options": {
+        "A": "To lose track of one's finances",
+        "B": "To have complete power over one's money and expenses",
+        "C": "To be constantly worried about running out of money",
+        "D": "To let someone else manage one's finances"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How much of your income should you set aside for savings as suggested by the author?",
+      "options": {
+        "A": "20%",
+        "B": "30%",
+        "C": "50%",
+        "D": "75%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about budgeting for digital nomads?",
+      "options": {
+        "A": "It's a skill that anyone can master with ease.",
+        "B": "It's an art that requires constant practice and discipline.",
+        "C": "It's not necessary, especially if you're young or on a tight budget.",
+        "D": "It's only important when traveling to expensive cities like Tokyo or New York."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"it\" refer to in the sentence \"It takes some serious planning and discipline to stay on top of your money while traveling the world\"?",
+      "options": {
+        "A": "The excitement of traveling",
+        "B": "Managing finances as a digital nomad",
+        "C": "Staying in good physical health",
+        "D": "Finding affordable accommodations"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about budgeting for digital nomads?",
+      "options": {
+        "A": "The author shares their personal struggles with managing finances as a digital nomad.",
+        "B": "The article provides an overview of popular destinations for digital nomads, including Tokyo and Chiang Mai.",
+        "C": "The key to successful budgeting as a digital nomad is finding ways to earn extra money while traveling.",
+        "D": "Budgeting requires discipline and planning, but it's essential for enjoying the freedom of being a digital nomad."
+      },
+      "correct_answer": "D",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

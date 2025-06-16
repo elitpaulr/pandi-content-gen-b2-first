@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_145",
+  "title": "Living Abroad on a Shoestring: Budget Hacks for Digital Nomads",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I sat on the bustling streets of Chiang Mai, sipping on a cold glass of Singha beer, I couldn't help but think about the financial reality that comes with being a digital nomad. The freedom to roam and work from anywhere in the world is exhilarating, but it also requires careful budgeting to avoid financial pitfalls.\n\nFor those who have made the leap into this lifestyle, you know that living on a shoestring can be both liberating and stressful. But for those just starting out, navigating the world of digital nomad budgets can seem like a daunting task. Where do you even begin?\n\nFirst things first, let's talk about income. As a digital nomad, your salary may not come with traditional benefits or job security, but it also means you have the flexibility to choose when and where you work. If you're freelancing or running an online business, you'll need to estimate your monthly expenses and factor in taxes, which can be as high as 25% in some countries.\n\nNext up is accommodation. Chiang Mai, with its affordable rent and coworking spaces, is a popular choice among digital nomads. But other destinations like Bali, Lisbon, or Medellin also offer a great balance of cost and quality of life. Researching neighborhoods, comparing prices on websites like Nomad List or HousingAnywhere, and considering shared accommodations can help you find the best value for your buck.\n\nFood is another essential expense to consider. Eating out in Thailand might be cheap, but if you're fueling up on street food three times a day, it can add up quickly. A more cost-effective approach is to opt for mid-range restaurants or cook some meals yourself. Markets like Chiang Mai's Walking Street are great places to find fresh produce and affordable ingredients.\n\nTransportation costs can be another surprise for digital nomads. While it's tempting to rent a car in destinations with limited public transport, consider the long-term benefits of using bicycles, scooters, or even walking. In cities like Hanoi or Ho Chi Minh City, a 10-dollar scooter ride can get you anywhere.\n\nHealthcare is also an essential consideration for digital nomads. While some countries have universal healthcare systems, others require private insurance. Researching local medical facilities and investing in travel insurance that covers unexpected medical expenses will give you peace of mind.\n\nTo make the most of your budget, consider implementing a 50/30/20 rule: 50% of your income goes towards necessary expenses like rent and food, 30% towards discretionary spending like entertainment or travel, and 20% towards saving and emergency funds. This simple framework will help you prioritize your spending and avoid overspending.\n\nAs I reflect on my own digital nomad journey, I realize that budgeting is an ongoing process that requires flexibility and adaptability. Whether it's negotiating rent in a new city or finding ways to reduce household expenses, being mindful of your finances can be both liberating and empowering.\n\nFor those just starting out, remember that budgeting for digital nomads is not a one-size-fits-all approach. It takes time, research, and experimentation to find the right balance between lifestyle and financial security. But with patience, persistence, and a willingness to learn, you'll be well on your way to navigating the world of digital nomad budgets.\n\nAs I finish this article in a cozy Chiang Mai cafe, surrounded by fellow digital nomads sipping coffee and tapping away at their laptops, I'm reminded that budgeting is just one aspect of our lifestyle. It's about living life on our own terms, exploring new destinations, and experiencing the beauty of cultural immersion.\n\nAs I look around this bustling cafe, I see a community of like-minded individuals who are redefining what it means to work and travel. And as we sip our coffee, share stories, and budget for the next adventure, I'm reminded that being a digital nomad is not just about numbers and spreadsheets – it's about embracing the freedom to roam, explore, and live life on our own terms.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does the author suggest is a key factor in successfully navigating the world of digital nomad budgets?",
+      "options": {
+        "A": "A one-size-fits-all approach that prioritizes saving over spending",
+        "B": "The importance of research and experimentation to find a balance between lifestyle and financial security",
+        "C": "The need for a detailed spreadsheet to track every single expense",
+        "D": "That budgeting is not relevant to the digital nomad lifestyle"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"living on a shoestring\" mean in this context?",
+      "options": {
+        "A": "Having a very high income",
+        "B": "Managing one's finances carefully to avoid financial problems",
+        "C": "Living in a luxurious and expensive way",
+        "D": "Traveling extensively without worrying about money"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of income should go towards necessary expenses like rent and food according to the 50/30/20 rule?",
+      "options": {
+        "A": "40%",
+        "B": "45%",
+        "C": "50%",
+        "D": "55%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the author, what does budgeting for digital nomads require?",
+      "options": {
+        "A": "Just a few simple calculations",
+        "B": "Flexibility and adaptability",
+        "C": "A lot of experience and expertise",
+        "D": "Only traditional benefits or job security"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"living on a shoestring\" refer to?",
+      "options": {
+        "A": "A type of accommodation where digital nomads share rooms with other travelers",
+        "B": "The financial reality that comes with being a digital nomad",
+        "C": "A lifestyle where one prioritizes saving and emergency funds over discretionary spending",
+        "D": "A common practice among freelancers or online business owners to estimate their monthly expenses"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about budgeting for digital nomads?",
+      "options": {
+        "A": "The article provides a step-by-step guide on how to create a budget as a digital nomad.",
+        "B": "Budgeting is an essential aspect of being a digital nomad, and requires flexibility and adaptability.",
+        "C": "Digital nomads should only work remotely in countries with low cost of living.",
+        "D": "The 50/30/20 rule is the best way for digital nomads to manage their finances."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

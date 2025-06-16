@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_157",
+  "title": "The Remote Revolution: How Working from Home Changes Everything",
+  "topic": "business_and_work",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her morning coffee, Emily gazed out at the sprawling cityscape from her cozy home office. It was a typical Monday morning, but one that felt worlds away from the traditional nine-to-five routine of her pre-pandemic days. The COVID-19 lockdown had forced companies to adapt, and remote work had become the new normal.\n\nEmily's company, TechCorp, had initially been hesitant about the shift. But as they navigated the challenges of remote collaboration, they began to see the benefits. Productivity soared, with employees working longer hours without the distractions of a bustling office environment. Commutes were eliminated, reducing traffic congestion and carbon emissions.\n\nBut as Emily delved into her work, she couldn't help but wonder about the broader economic impact of this seismic shift. Would remote work be a blessing or a curse for local economies?\n\nShe dialed up her friend and colleague, Rachel, who worked in marketing at TechCorp's downtown office. \"Hey, Rach, I've been thinking... with all these people working from home, what happens to the city's economy?\" Emily asked.\n\nRachel chimed in, \"I know what you mean! Our coffee shop sales are down by 30% since we started remote work. And don't even get me started on lunch breaks – no more grabbing a sandwich at that cute café near the office.\"\n\nEmily chuckled. \"Yeah, I've noticed that too. But it's not just about food and drinks. What about all those people who used to commute downtown? How are they spending their time now?\"\n\nRachel mused, \"I think some of them are starting their own businesses – freelancing or consulting. Others might be taking online courses or pursuing hobbies. It's a weird thing, but I feel like people are more creative and entrepreneurial when they're not tied to an office.\"\n\nEmily nodded, intrigued by Rachel's insight. She began researching the data, pouring over reports from the Bureau of Labor Statistics and the National Association of Realtors.\n\nAccording to these sources, remote work was indeed having a ripple effect on local economies. Office spaces were sitting vacant, forcing landlords to adapt or face financial losses. On the other hand, cities with strong remote-work cultures – like Denver and Seattle – saw an influx of young professionals, driving up property values and stimulating economic growth.\n\nEmily's eyes widened as she read about a study by Upwork, which estimated that 63% of companies worldwide would allow employees to work remotely full-time. This shift was expected to create over 25 million new jobs globally, many in the tech sector.\n\nAs she continued reading, Emily realized that remote work wasn't just about individual convenience; it had far-reaching implications for urban planning and economic development. Cities were rethinking their zoning regulations, incorporating more coworking spaces and flexible office layouts.\n\nShe put down her laptop and gazed out at the city again. The pandemic might have forced companies to adapt, but in doing so, they'd opened up new possibilities – not just for employees like Emily, but for entire cities.\n\nAs she sipped her coffee, now lukewarm, Emily felt a sense of optimism wash over her. The economic impact of remote work was complex and multifaceted, but one thing was certain: the old rules no longer applied. Cities would have to adapt, innovate, or risk being left behind in this brave new world of virtual collaboration.\n\nAnd for Emily, that thought was as exhilarating as it was unsettling – a reminder that even in uncertain times, change could bring opportunity and growth.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the people who used to commute downtown for work but now work remotely?",
+      "options": {
+        "A": "They have stopped spending money on transportation altogether",
+        "B": "Many of them are starting their own businesses or taking online courses",
+        "C": "They are now working longer hours and earning lower salaries",
+        "D": "They are no longer contributing to local economies"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word \"seismic\" mean in the context of this text?",
+      "options": {
+        "A": "Extremely small or insignificant",
+        "B": "Having a major impact or effect",
+        "C": "Relating to the study of earthquakes",
+        "D": "Describing a slow and gradual change"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what percentage of companies worldwide are expected to allow employees to work remotely full-time?",
+      "options": {
+        "A": "50%",
+        "B": "63%",
+        "C": "75%",
+        "D": "80%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is Emily's attitude towards the economic impact of remote work on cities?",
+      "options": {
+        "A": "She is worried about its negative effects on local economies.",
+        "B": "She is optimistic about its potential to drive urban innovation and growth.",
+        "C": "She is skeptical about its benefits but acknowledges its inevitability.",
+        "D": "She thinks it will lead to widespread job losses in the service sector."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"that cute café near the office\" refer to in the text?",
+      "options": {
+        "A": "A coffee shop located in TechCorp's downtown office",
+        "B": "A restaurant where Emily used to have lunch with Rachel",
+        "C": "A coffee shop that is now struggling due to remote work",
+        "D": "A café that Rachel owns and manages"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of the text about the economic impact of remote work?",
+      "options": {
+        "A": "To explain how remote work affects employees' productivity and well-being",
+        "B": "To discuss the potential benefits and drawbacks of remote work on local economies",
+        "C": "To describe the challenges faced by companies in adapting to remote work during the pandemic",
+        "D": "To analyze the impact of remote work on urban planning and economic development"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

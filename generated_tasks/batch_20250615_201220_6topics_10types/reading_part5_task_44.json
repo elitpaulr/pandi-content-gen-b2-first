@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_44",
+  "title": "The Hidden Cost of That Cute T-Shirt: Uncovering the Dark Side of Fast Fashion",
+  "topic": "technology",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "Sustainable Shopping and Ethical Consumption: The Future of Retail\n\nAs consumers, we have the power to shape the world around us through our purchasing decisions. But are we making the most of this power? The truth is, many of us are still unaware of the impact that our shopping habits can have on the environment, society, and our own well-being. However, there's a growing movement towards sustainable shopping and ethical consumption, and it's time to join in.\n\nSo, what exactly does sustainability mean in the context of shopping? In simple terms, it refers to reducing our environmental footprint through responsible production, distribution, and consumption practices. This can involve buying locally sourced products, choosing items made from recycled materials, or opting for second-hand items rather than new ones. Sounds easy enough, right?\n\nThe problem is that many of us don't realize the extent to which our shopping habits contribute to waste, pollution, and social injustice. Take fast fashion, for example. The textile industry is one of the largest polluters in the world, with millions of tons of clothing ending up in landfills each year. And it's not just about the clothes themselves – the production process involves massive amounts of water, energy, and chemicals.\n\nBut there are alternatives. Many brands now offer sustainable fashion options made from eco-friendly materials like organic cotton or recycled polyester. Some even use innovative techniques like 3D printing to reduce waste and excess fabric. Online platforms like ThredUp and Poshmark make it easy to buy and sell second-hand clothing, reducing the demand for new, resource-intensive garments.\n\nFood shopping is another area where we can make a difference. Supermarkets are shifting their focus towards sustainable produce, with many now stocking locally sourced, organic fruits and vegetables. Some even offer \"ugly\" or imperfect produce at lower prices to reduce food waste. And let's not forget about the growing trend of plant-based eating – reducing meat consumption is one of the most effective ways to decrease our carbon footprint.\n\nBut it's not just about what we buy; it's also about who we support. Companies that prioritize sustainability often have better working conditions, fair labor practices, and community engagement. So, look for certifications like Fairtrade or B Corp, which ensure that producers meet certain social and environmental standards.\n\nOf course, making sustainable shopping choices can be more expensive upfront. But think of it as an investment in your future – a cleaner environment, healthier communities, and a more equitable society are all benefits that will pay dividends for years to come. Plus, many brands offer discounts or promotions for customers who opt for sustainable products.\n\nSo how can you start making changes? Start by assessing your current shopping habits and identifying areas where you can make improvements. Look into local options like farmers' markets or community-supported agriculture programs. Try second-hand shopping or rent clothes through services like Rent the Runway. And don't be afraid to ask brands about their sustainability practices – if they can't provide transparency, it may be time to look elsewhere.\n\nThe shift towards sustainable shopping and ethical consumption is underway, but we still have a long way to go. By making informed choices and supporting companies that prioritize people and planet, we can create a more just and environmentally conscious world. The power is in our hands – let's use it.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivates many consumers to make sustainable shopping choices?",
+      "options": {
+        "A": "To save money on their weekly shopping bills",
+        "B": "To contribute to a cleaner environment, healthier communities, and a more equitable society",
+        "C": "To keep up with the latest fashion trends",
+        "D": "Because they are forced by law to do so"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"responsible production\" mean in the context of sustainable shopping?",
+      "options": {
+        "A": "Buying products made from non-renewable resources",
+        "B": "Reducing waste and pollution through careful planning and practices",
+        "C": "Prioritizing fast fashion and trendy items",
+        "D": "Ignoring environmental concerns for cheaper options"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of the textile industry's pollution comes from the production process?",
+      "options": {
+        "A": "20%",
+        "B": "50%",
+        "C": "70%",
+        "D": "90%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about making sustainable shopping choices?",
+      "options": {
+        "A": "It's a waste of time and money.",
+        "B": "It requires no effort or change to one's current habits.",
+        "C": "It's an investment in our future, with benefits that will pay dividends for years to come.",
+        "D": "It's only for rich people who can afford it."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the text about sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "We should only shop at second-hand stores to reduce waste.",
+        "B": "As consumers, we have the power to shape the world through our purchasing decisions and make a positive impact on the environment, society, and ourselves.",
+        "C": "Buying locally sourced products is the most effective way to reduce carbon footprint.",
+        "D": "Sustainable shopping choices are always more expensive than regular shopping."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

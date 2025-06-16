@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_124",
+  "title": "Living Abroad on a Shoestring: Tips for Digital Nomad Budgeting",
+  "topic": "technology",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "The Digital Nomad's Guide to Budgeting on the Go\n\nAs the world becomes increasingly connected, more and more people are ditching traditional 9-to-5 jobs in favor of a life of travel and remote work. Digital nomads, as they're known, have the freedom to roam wherever they please while still earning a living. But with this flexibility comes a unique set of financial challenges.\n\nFor digital nomads, budgeting is more than just saving for retirement or paying off debt – it's about making ends meet on the road. With constantly changing locations and unpredictable income streams, managing finances can be a daunting task. Yet, with some planning and discipline, even the most seasoned digital nomad can stay on top of their spending.\n\nOne of the biggest expenses for digital nomads is accommodation. From pricey hostels to luxury Airbnb apartments, costs vary greatly depending on location and lifestyle. According to a recent survey by Nomad List, the average monthly rent for a one-bedroom apartment in popular destinations like Chiang Mai, Thailand, and Medellín, Colombia, can range from $300 to over $1,000.\n\nTo keep costs down, digital nomads often opt for shared accommodation or house-sitting opportunities. Websites like Couchsurfing and TrustedHousesitters offer affordable alternatives to traditional hotels and apartments. In exchange for free lodging, hosts may ask for help with household chores or pet care – a win-win for both parties.\n\nAnother significant expense for digital nomads is food and transportation. Eating out can be expensive in tourist areas, while cooking meals at home can save money but require access to kitchen facilities. Some cities, like Tokyo and Hong Kong, have limited kitchen space available, making meal planning crucial.\n\nTo navigate these expenses, digital nomads often use budgeting apps like Mint or You Need a Budget (YNAB). These tools allow users to track income and expenses, set financial goals, and receive alerts when spending exceeds predetermined limits. Some apps even offer features specifically designed for travelers, such as foreign exchange rate tracking and bill-splitting.\n\nFor those who prefer a more analog approach, spreadsheet templates and paper planners can be just as effective. Digital nomad communities on social media platforms like Facebook and Reddit often share their own budgeting templates and tips, making it easier to find what works best.\n\nOf course, budgeting for digital nomads isn't just about tracking expenses – it's also about planning for the future. With constantly changing locations and income streams, saving for emergencies or long-term goals can be tricky. Some digital nomads set aside a portion of their income each month in a separate savings account, while others invest in a portable, high-yield savings product like a travel-friendly bank account.\n\nTo make budgeting easier, consider the 50/30/20 rule: allocate 50% of income towards necessary expenses (housing, food, transportation), 30% towards discretionary spending (travel, entertainment), and 20% towards saving and debt repayment. This framework helps digital nomads prioritize needs over wants and ensure that essential expenses are covered.\n\nIn conclusion, budgeting for digital nomads requires a combination of planning, discipline, and flexibility. By understanding the unique financial challenges of life on the road and using the right tools and strategies, even the most seasoned traveler can stay on top of their finances. Whether you're a seasoned pro or just starting out, with the right mindset and approach, budgeting as a digital nomad becomes manageable – allowing you to focus on what really matters: exploring new destinations, meeting fellow travelers, and experiencing all that the world has to offer.\n\nAs one experienced digital nomad shared in an interview, \"The key is being adaptable and open-minded. Budgeting for me means constantly reassessing my priorities and making adjustments as needed.\" By embracing this mindset and staying informed about financial best practices, even the most unpredictable of income streams can be managed with ease – leaving you free to pursue your passion for travel and exploration.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if a digital nomad doesn't adjust their budget as their priorities change while traveling?",
+      "options": {
+        "A": "Their expenses will increase significantly",
+        "B": "They will have to cut back on non-essential spending",
+        "C": "They will struggle to make ends meet and may go into debt",
+        "D": "They won't be able to afford luxurious accommodations"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"predetermined limits\" mean in the context of budgeting apps like Mint or You Need a Budget (YNAB)?",
+      "options": {
+        "A": "A set amount that users must spend within each day",
+        "B": "A maximum amount that can be spent on specific categories, such as food or entertainment",
+        "C": "A minimum amount that users must save each month",
+        "D": "A fixed rate for exchange currency conversion"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of income should digital nomads allocate towards saving and debt repayment?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "50%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the author, what is the key to budgeting successfully as a digital nomad?",
+      "options": {
+        "A": "It's all about following a strict budget plan from day one",
+        "B": "Being adaptable and open-minded, and constantly reassessing priorities",
+        "C": "Having a large emergency fund before traveling abroad",
+        "D": "Using only online tools and apps for tracking expenses"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "According to a recent survey by Nomad List, what is the average monthly rent for a one-bedroom apartment in popular destinations like Chiang Mai, Thailand, and Medellín, Colombia?",
+      "options": {
+        "A": "$500",
+        "B": "$300 to over $1,000",
+        "C": "$2,000",
+        "D": "$5,000"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about budgeting for digital nomads?",
+      "options": {
+        "A": "The text focuses on the benefits of being a digital nomad, including increased freedom and flexibility.",
+        "B": "Budgeting for digital nomads requires a combination of planning, discipline, and flexibility to manage unique financial challenges.",
+        "C": "Digital nomads should prioritize saving money by cutting back on unnecessary expenses and finding affordable accommodation.",
+        "D": "The text provides tips on how to make money while traveling as a digital nomad."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

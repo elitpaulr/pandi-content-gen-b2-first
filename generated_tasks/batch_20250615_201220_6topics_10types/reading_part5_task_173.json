@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_173",
+  "title": "Remote Control: How Working from Home is Changing Your Wallet Forever",
+  "topic": "business_and_work",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "The Rise of Remote Work: How It's Changing the Way We Live and Work\n\nAs we navigate the new normal of our post-pandemic world, one thing is clear: remote work is here to stay. Gone are the days of commuting to an office cubicle; instead, we're trading in our suits for sweatpants and our daily grind for a more flexible lifestyle. But what's the economic impact of this shift? Is it a game-changer or a recipe for disaster?\n\nOn one hand, remote work has brought about a seismic shift in productivity. Without the distractions of office chatter and watercooler breaks, many employees are finding they can get more done from home. A study by Stanford University found that remote workers were 13% more productive than their office-based counterparts. And with the rise of digital communication tools like Zoom and Slack, collaboration is easier than ever.\n\nBut what about the economic impact on businesses? The answer lies in cost savings. No longer do companies need to shell out for rent, utilities, and equipment for a central office space. This translates to significant savings – estimates suggest that remote workers can save employers up to $11,000 per year per employee. And with more flexible work arrangements comes a wider talent pool; businesses are no longer limited by geographical location when searching for top talent.\n\nBut it's not all sunshine and rainbows. Remote work also brings its own set of challenges. Without face-to-face interaction, employees can feel disconnected from their teams and struggle to build relationships. This can lead to decreased job satisfaction and higher turnover rates – a costly proposition for businesses.\n\nFor some industries, remote work is a lifeline. Take the gig economy, for example. With companies like Uber and Airbnb leading the charge, workers are increasingly turning to freelance or contract work as their primary source of income. According to data from Upwork, 63% of companies now rely on freelancers to get work done – up from just 31% in 2014.\n\nBut what about the economic impact on individuals? With more people working remotely, there's a shift towards consumer spending patterns too. Gone are the days of pricey lunches and coffee breaks; with remote workers often forgoing the office grind, they're saving money that would've otherwise been spent on commutes and work-related expenses.\n\nOf course, not everyone is reaping the benefits of remote work. Those in lower-income brackets may struggle to access reliable internet or workspace, limiting their ability to participate in the digital economy. And with more people working from home, there's a growing concern about social isolation – a silent epidemic that can have serious economic implications.\n\nSo what does the future hold for remote work? As businesses continue to navigate this new landscape, it's clear that flexibility and adaptability will be key. Companies are already investing in digital tools that enable seamless communication and collaboration – from virtual reality platforms to AI-powered project management software.\n\nFor individuals, the shift towards remote work brings a wealth of opportunities. With more flexible schedules comes a greater ability to balance work and personal life. And with the rise of the gig economy, workers have never had more control over their careers. Whether it's freelancing or starting your own business, the possibilities are endless.\n\nAs we continue on this journey towards remote work dominance, one thing is clear: the economic impact will be far-reaching. But by embracing flexibility and adapting to the changing landscape, businesses and individuals alike can reap the rewards of a more productive, more connected – and more prosperous – world.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what percentage of companies now rely on freelancers to get work done?",
+      "options": {
+        "A": "31%",
+        "B": "51%",
+        "C": "63%",
+        "D": "75%"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"seismic shift\" mean in this context?",
+      "options": {
+        "A": "A sudden change that has a significant impact on many areas",
+        "B": "A gradual change that occurs over a long period of time",
+        "C": "A change that is limited to a specific industry or company",
+        "D": "A change that is unrelated to economic factors"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage increase in productivity was found in employees working remotely compared to those in an office setting?",
+      "options": {
+        "A": "10%",
+        "B": "13%",
+        "C": "17%",
+        "D": "20%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the economic benefits of remote work for companies?",
+      "options": {
+        "A": "The author believes that remote work will ultimately lead to significant job losses.",
+        "B": "The author thinks that remote work is a recipe for disaster, but acknowledges some cost savings.",
+        "C": "The author considers the economic impact of remote work on businesses to be a game-changer, with significant cost savings and opportunities for growth.",
+        "D": "The author is neutral about the economic benefits of remote work, but highlights its challenges."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"office grind\" refer to in this text?",
+      "options": {
+        "A": "The daily routine of office workers",
+        "B": "A type of equipment used in offices",
+        "C": "The cost savings from remote work for employers",
+        "D": "A virtual platform used for communication and collaboration"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about remote work?",
+      "options": {
+        "A": "Remote work will lead to widespread unemployment.",
+        "B": "The economic impact of remote work will be significant, with both benefits and drawbacks.",
+        "C": "Remote work is a temporary solution that will eventually become outdated.",
+        "D": "Remote work is only suitable for high-income earners."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

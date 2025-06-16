@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_13",
+  "title": "Green Thumbs Unite! How Urban Gardens Bring Neighborhoods Together",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she pushed open the creaky gate, Lena felt a sense of pride wash over her. This was more than just a garden – it was a community hub, a place where people from all walks of life came together to grow their own food and build relationships.\n\nLena had been involved with Green Spaces for three years now, ever since she'd moved into the neighborhood and discovered this hidden gem tucked away between a row of rundown warehouses. It was her favorite spot in the city – a tranquil oasis amidst the steel and concrete jungle.\n\nShe made her way through the garden, nodding to familiar faces as she went. There was Maria, tending to her prize-winning tomatoes; Jake, expertly pruning his succulent collection; and little Sofia, busy watering her family's plots with a miniature watering can. Everyone had their own space here – be it a few square feet or an entire bed – where they could grow whatever they liked.\n\n\"What's new?\" Lena asked Maria, dropping down beside her on the bench.\n\n\"Not much,\" Maria replied, wiping sweat from her forehead with the back of her hand. \"Just trying to get these tomatoes ripened up before the frost hits.\"\n\nLena examined the plants carefully. \"You're going to have a bumper crop this year, I can tell.\"\n\nMaria smiled. \"Thanks to you and your crew for all the help we got last spring.\"\n\nThe garden was more than just a bunch of individual plots – it was an ecosystem. People helped each other out, shared tools and expertise, and worked together to make sure everyone's harvests were bountiful.\n\nAs Lena continued her rounds, she came across a group of kids clustered around the community table. They were engaged in an animated conversation with Rachel, one of the garden's founders, about everything from composting to companion planting.\n\n\"This is what it's all about,\" Rachel said, beaming at Lena over the rim of her glasses. \"Not just growing food – but building relationships and fostering a sense of community.\"\n\nLena nodded vigorously. \"Couldn't agree more.\"\n\nAs she continued on her way, Lena noticed something new: a small wooden sign had been erected near the entrance, emblazoned with the words \"Green Spaces Community Garden\" in bold letters.\n\n\"What's this?\" Lena asked Rachel, pointing to the sign.\n\nRachel smiled wryly. \"Just a bit of bureaucracy we couldn't avoid any longer. We're now officially recognized as a community space.\"\n\nLena's eyes widened. \"That's huge! What does it mean for us?\"\n\n\"Well,\" Rachel said, her voice measured, \"it means we'll have to follow some new rules and regulations – but it also means we get more funding, more resources... and more opportunities to grow and expand our programs.\"\n\nAs Lena digested the news, she couldn't help but feel a sense of excitement. Green Spaces was already an incredible resource for their community – but with this official recognition, who knew what the future might hold? Maybe one day, they'd be able to create more gardens like this, spreading green spaces throughout the city.\n\nAs she walked back through the garden, Lena felt grateful for all that this place had given her. It was more than just a patch of land – it was a symbol of hope and resilience in the face of urban decay.\n\n\"Hey,\" Maria called out to her as she passed by. \"Lena? You might want to take a look at this.\"\n\nLena followed Maria's gaze to a small plot tucked away near the back fence, where a group of city volunteers had been working tirelessly for weeks. And what they'd created was nothing short of breathtaking.\n\nA vibrant mural covered the entire wall – a swirling mix of colors and textures that seemed to pulse with life. Lena approached it slowly, her heart swelling with emotion as she took in the words etched across the top: \"Green Spaces: Growing Community One Seed at a Time.\"\n\nAs she turned back to Maria, tears pricked at the corners of her eyes.\n\n\"This is incredible,\" Lena whispered.\n\nMaria smiled softly. \"We did it, Lena. We built something truly special here.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Rachel's attitude towards bureaucracy and official recognition?",
+      "options": {
+        "A": "She was disappointed that they had to follow new rules and regulations.",
+        "B": "She saw it as an opportunity for growth and expansion.",
+        "C": "She thought it would disrupt the community's relationships and interactions.",
+        "D": "She didn't think it would make a significant difference to their daily activities."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"steel and concrete jungle\" most likely refer to in this text?",
+      "options": {
+        "A": "A dense forest of trees",
+        "B": "A place where animals live and hunt",
+        "C": "An urban area with tall buildings and heavy industry",
+        "D": "A natural park or wildlife reserve"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many years had Lena been involved with Green Spaces?",
+      "options": {
+        "A": "One year",
+        "B": "Two years",
+        "C": "Three years",
+        "D": "Five years"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Lena feel when she sees the mural that has been created by the city volunteers?",
+      "options": {
+        "A": "Disappointment",
+        "B": "Excitement and gratitude",
+        "C": "Boredom",
+        "D": "Frustration"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Rachel refer to when she says 'this' in the sentence \"This is what it's all about\"?",
+      "options": {
+        "A": "The garden's individual plots",
+        "B": "The sense of community and relationships being built among gardeners",
+        "C": "The tools and equipment provided by Green Spaces",
+        "D": "The kids clustered around the community table"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about Green Spaces community garden?",
+      "options": {
+        "A": "The garden is a place where people come to escape the city's pollution.",
+        "B": "The garden is more than just a collection of individual plots, but an ecosystem that fosters community and cooperation.",
+        "C": "Lena is new to the neighborhood and discovers Green Spaces for the first time.",
+        "D": "The garden's official recognition as a community space means it will be torn down to make way for new development."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

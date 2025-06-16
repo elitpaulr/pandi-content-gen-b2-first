@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_61",
+  "title": "Unlock Your Wealth: The Ultimate Side Hustle Guide to Passive Income Freedom",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Side Hustle Revolution**\n\nIn today's fast-paced world, making ends meet can be a daunting task. With the cost of living on the rise and wages stagnating, many people are turning to side hustles as a way to supplement their income. But it's not just about earning extra money – it's about creating a safety net, achieving financial freedom, and pursuing one's passions.\n\n**What is a Side Hustle?**\n\nA side hustle is any activity that generates additional income outside of your primary job or career. It can be anything from freelancing to selling products online, driving for Uber, or even renting out a spare room on Airbnb. The key is to find something you enjoy and can dedicate time to, without sacrificing too much of your main income.\n\n**Benefits of Side Hustles**\n\nSo why are side hustles so popular? For one, they offer a way to diversify your income streams, reducing financial risk and increasing stability. They also provide an opportunity to explore new interests, develop skills, and build confidence. And let's not forget about the potential for passive income – money that comes in without requiring direct effort.\n\n**Passive Income: The Holy Grail**\n\nPassive income is often seen as the holy grail of financial freedom. It's the dream of earning money while you sleep, travel, or simply live your life without worrying about the next paycheck. And it's not just for the rich and famous – anyone can create passive income streams with a little creativity and effort.\n\nOne example of passive income is dividend-paying stocks. By investing in established companies with a history of paying dividends, you can earn regular payouts without needing to actively work for them. Another option is real estate investment trusts (REITs), which allow individuals to invest in property without directly managing it.\n\n**Creating Passive Income Streams**\n\nSo how do you create passive income streams? Here are a few ideas:\n\n* Write and publish an ebook or online course, selling it through platforms like Amazon Kindle Direct Publishing or Udemy.\n* Create a mobile app or game that generates revenue through in-app purchases or advertising.\n* Invest in peer-to-peer lending platforms, such as Lending Club or Prosper, which allow you to lend money to individuals or small businesses.\n* Develop an online community or forum, generating income through membership fees or advertising.\n\n**Expert Insights**\n\nWe spoke with financial expert David Bach, author of \"The Automatic Millionaire,\" about the importance of side hustles and passive income. \"Side hustles are not just a way to make extra money – they're a way to create multiple streams of income, reduce financial risk, and increase freedom,\" he says.\n\n**Conclusion**\n\nIn conclusion, side hustles and passive income are no longer the exclusive domain of entrepreneurs and investors. They're available to anyone willing to put in the effort and creativity required to build a side hustle empire. Whether you're looking to supplement your main income or achieve financial independence, there's never been a better time to explore these opportunities.\n\n**Take Action**\n\nSo what's holding you back? Identify your passions and interests, and start brainstorming ideas for a side hustle or passive income stream. Don't be afraid to try new things – it's okay to fail, as long as you learn from the experience. With dedication and persistence, you can turn your financial dreams into reality.\n\n**Final Thoughts**\n\nCreating multiple streams of income is not just about money; it's about freedom. It's about being able to pursue your passions without worrying about the next paycheck. So why wait? Start building your side hustle empire today, and watch as your financial future becomes brighter than ever before.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to someone who starts a successful side hustle and invests their earnings wisely?",
+      "options": {
+        "A": "They will continue to work long hours at their main job.",
+        "B": "They will have more freedom to pursue their passions without financial worries.",
+        "C": "They will struggle to manage the extra money and spend it all on luxuries.",
+        "D": "They will lose interest in their side hustle after a few months."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"diversify\" mean in the context of income streams?",
+      "options": {
+        "A": "To reduce the number of things you have to do",
+        "B": "To make more money from a single source",
+        "C": "To reduce financial risk by having multiple sources of income",
+        "D": "To increase your working hours"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what is one example of passive income?",
+      "options": {
+        "A": "Investing in real estate",
+        "B": "Buying a dividend-paying stock",
+        "C": "Creating an online course on Udemy",
+        "D": "Lending money through a peer-to-peer lending platform"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards passive income?",
+      "options": {
+        "A": "It is a get-rich-quick scheme that only the wealthy can afford.",
+        "B": "It is a reliable way to achieve financial freedom and stability.",
+        "C": "It is a waste of time, as it requires too much effort for little reward.",
+        "D": "It is a scam that promises more than it delivers."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"diversify your income streams\" refer to in the text?",
+      "options": {
+        "A": "The idea of having multiple sources of passive income",
+        "B": "The concept of reducing financial risk by earning extra money outside of one's primary job",
+        "C": "The process of creating a side hustle empire",
+        "D": "The act of investing in dividend-paying stocks"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this article about side hustles and passive income?",
+      "options": {
+        "A": "To explain how to invest in dividend-paying stocks",
+        "B": "To encourage readers to create multiple streams of income for financial freedom",
+        "C": "To discuss the benefits of freelancing as a primary career path",
+        "D": "To provide tips on how to save money on household expenses"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_19",
+  "title": "Mastering Money 101: Essential Financial Skills for Young Professionals",
+  "topic": "general",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "As young adults enter the workforce, they are often faced with a multitude of new responsibilities and challenges. One of the most critical aspects of their financial lives is their ability to manage their money effectively. Financial literacy, or the knowledge and skills necessary to make informed decisions about personal finances, has become an essential skill for success in today's economy.\n\nAccording to a recent survey by the National Endowment for Financial Education (NEFE), nearly 75% of young adults do not have a clear understanding of basic financial concepts such as budgeting, saving, and investing. This lack of knowledge can lead to poor financial decisions, high levels of debt, and a decreased quality of life.\n\nSo, what are the key components of financial literacy for young adults? First and foremost, it is essential to understand the importance of budgeting. A budget is not just a tool for tracking expenses, but also a framework for achieving long-term financial goals. By creating a budget that accounts for income, expenses, and savings, young adults can make informed decisions about how to allocate their resources.\n\nAnother critical aspect of financial literacy is understanding different types of debt. Credit card debt, student loans, and mortgages are just a few examples of the various forms of debt that young adults may encounter. It's essential to understand the interest rates associated with each type of debt, as well as the potential consequences of defaulting on payments.\n\nSaving for retirement is also an important aspect of financial literacy. Young adults often underestimate the importance of starting early when it comes to saving for long-term goals such as retirement. However, even small amounts saved regularly can add up over time. For example, if a young adult contributes just $100 per month to a 401(k) plan starting at age 22, they could potentially accumulate over $200,000 by the time they reach age 65.\n\nInvesting is another key component of financial literacy. While it may seem intimidating, investing can be a simple and effective way to grow wealth over time. By taking advantage of compound interest and diversifying their portfolio, young adults can reduce risk and increase returns on investment.\n\nIn addition to these core components, there are several other aspects of financial literacy that young adults should be aware of. These include understanding credit scores, managing taxes, and navigating the complex world of insurance products such as health, life, and disability coverage.\n\nFortunately, there are many resources available to help young adults improve their financial literacy. Many colleges and universities offer courses or workshops on personal finance, while organizations such as the Financial Industry Regulatory Authority (FINRA) provide online resources and educational materials.\n\nIn conclusion, financial literacy is a critical skill for success in today's economy. By understanding basic concepts such as budgeting, debt management, saving for retirement, investing, and navigating complex financial products, young adults can make informed decisions about their money and achieve long-term financial stability. As the landscape of personal finance continues to evolve, it's essential that young adults stay ahead of the curve by staying informed and seeking guidance from trusted resources.\n\nUltimately, developing a strong foundation in financial literacy will pay dividends for years to come. By making smart choices about spending, saving, and investing, young adults can build a secure financial future and achieve their goals with confidence.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what percentage of young adults do not have a clear understanding of basic financial concepts such as budgeting, saving, and investing?",
+      "options": {
+        "A": "25%",
+        "B": "Nearly 50%",
+        "C": "Nearly 75%",
+        "D": "Almost 90%"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean that a budget is not just a tool for tracking expenses, but also a framework for achieving long-term financial goals?",
+      "options": {
+        "A": "A budget helps people save money for unexpected events.",
+        "B": "A budget provides a structure to plan and manage one's finances effectively over time.",
+        "C": "A budget only applies to short-term financial needs.",
+        "D": "A budget is unnecessary if you have a high income."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the survey by the National Endowment for Financial Education (NEFE), what percentage of young adults do not have a clear understanding of basic financial concepts such as budgeting, saving, and investing?",
+      "options": {
+        "A": "25%",
+        "B": "50%",
+        "C": "Nearly 75%",
+        "D": "Over 90%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards young adults who lack financial knowledge?",
+      "options": {
+        "A": "The author is sympathetic towards them and believes they are unlucky.",
+        "B": "The author thinks that a significant number of young adults lack financial knowledge and it has negative consequences for their lives.",
+        "C": "The author blames parents or teachers for not teaching young adults about personal finance.",
+        "D": "The author thinks that young adults who lack financial knowledge are lazy and irresponsible."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text?",
+      "options": {
+        "A": "The benefits of having a high credit score for young adults",
+        "B": "Financial literacy is an essential skill for success in today's economy",
+        "C": "Young adults should focus on saving money and avoiding debt",
+        "D": "Investing in stocks and bonds is the key to financial stability"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

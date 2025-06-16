@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_45",
+  "title": "The Hidden Cost of Your Shopping Habits Revealed: Sustainable Living Starts Here",
+  "topic": "technology",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "The world of consumerism is changing rapidly. Gone are the days when buying cheap clothes and electronics was considered a status symbol. Today, consumers are becoming increasingly aware of the impact their purchasing decisions have on the environment and society.\n\nSustainable shopping and ethical consumption are no longer niche terms confined to eco-warriors and activists; they're mainstream concerns that everyone from busy professionals to stay-at-home parents is discussing. And for good reason – our buying habits contribute significantly to greenhouse gas emissions, deforestation, pollution, and exploitation of workers worldwide.\n\nOne major culprit behind the environmental degradation is fast fashion. The rapid production and disposal of cheap clothing has led to an estimated 12.8% annual growth in global textile waste. This staggering statistic is a result of consumers' desire for trendy clothes at affordable prices. However, what's often overlooked is the labor exploitation that occurs behind the scenes.\n\nMany garment workers are subjected to poor working conditions, long hours, and low wages. Brands like H&M and Zara have faced criticism for their role in perpetuating these issues through their business models. To combat this, some companies are adopting more sustainable practices such as using organic cotton, reducing water waste, and implementing fair labor standards.\n\nAnother area where consumers can make a difference is food shopping. The production and transportation of meat, especially beef, have significant environmental impacts due to deforestation, greenhouse gas emissions, and water pollution. Plant-based diets are gaining popularity worldwide, with many restaurants now offering vegan options.\n\nHowever, choosing sustainable food isn't just about dietary preferences; it's also about supporting local farmers and reducing carbon footprints associated with transportation. Online platforms like Thoma and Local Harvest help consumers connect directly with local producers, cutting out middlemen and ensuring fair prices for both parties.\n\nClothing and food are just two examples of the many areas where sustainable shopping can make a difference. When it comes to electronics, concerns about e-waste and energy consumption are growing. To combat this, companies like Fairphone are designing phones with recyclable materials, longer battery life, and more transparent supply chains.\n\nAnother significant aspect of sustainable shopping is the importance of buying second-hand. ThredUp's innovative \"reverse logistics\" system allows consumers to sell gently used clothing online, reducing waste and giving old items a new life.\n\nIn addition to individual actions, governments can play a crucial role in promoting sustainability through policy changes and regulations. For instance, Norway has implemented a deposit-refund system for plastic bottles, resulting in a significant reduction of litter.\n\nWhile progress is being made, there's still much work to be done. Sustainable shopping and ethical consumption require collective effort from consumers, businesses, and governments alike. By making informed purchasing decisions and supporting companies that prioritize sustainability, we can create a more environmentally conscious society.\n\nIt's also worth noting that sustainable shopping doesn't have to break the bank. Thrift stores like Goodwill and charity shops offer affordable options for second-hand clothing and household items. Online marketplaces like eBay and Craigslist provide platforms for consumers to buy and sell used goods, reducing waste and promoting reuse.\n\nIn conclusion, sustainable shopping and ethical consumption are no longer just idealistic concepts but mainstream concerns that demand attention from individuals and institutions alike. By adopting more environmentally friendly practices and supporting companies committed to sustainability, we can create a better future for both people and the planet.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to the environmental impact of fashion if consumers continue to prioritize cheap trendy clothing over sustainable options?",
+      "options": {
+        "A": "It will remain unchanged as consumers are becoming more aware of the issue.",
+        "B": "The production and disposal of fast fashion will decrease significantly.",
+        "C": "Greenhouse gas emissions, deforestation, and pollution associated with the textile industry will increase dramatically.",
+        "D": "The demand for sustainable fashion will rise, leading to a reduction in environmental degradation."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the term \"reverse logistics\" refer to in the context of ThredUp's online system?",
+      "options": {
+        "A": "The process of transporting goods from manufacturers to customers",
+        "B": "A method of reducing waste by selling gently used clothing online",
+        "C": "A way of tracking the supply chain and origin of products",
+        "D": "An approach to designing sustainable packaging materials"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of annual global textile waste is estimated to be due to fast fashion?",
+      "options": {
+        "A": "8%",
+        "B": "12.8%",
+        "C": "15.6%",
+        "D": "20%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards consumers who prioritize cheap prices over sustainability?",
+      "options": {
+        "A": "The author believes that these consumers are selfish and irresponsible.",
+        "B": "The author thinks that they are simply unaware of the consequences of their actions.",
+        "C": "The author has no opinion on this matter, it's just a neutral observation.",
+        "D": "The author understands that they face difficult choices between affordability and environmental concerns."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"behind the scenes\" refer to in this text?",
+      "options": {
+        "A": "The production of sustainable clothing",
+        "B": "The labor exploitation that occurs in garment factories",
+        "C": "The impact of fast fashion on the environment",
+        "D": "The benefits of buying second-hand clothes"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable shopping?",
+      "options": {
+        "A": "The benefits of buying second-hand clothing are not significant enough to make a difference.",
+        "B": "Sustainable shopping and ethical consumption require collective effort from consumers, businesses, and governments to create a more environmentally conscious society.",
+        "C": "Fast fashion is the only area where sustainable practices can be adopted in the textile industry.",
+        "D": "Governments have no role to play in promoting sustainability through policy changes."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

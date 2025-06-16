@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_57",
+  "title": "Uncovering Hidden Gems: Shopping with a Conscience Around the World",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I wandered through the bustling streets of Tokyo's Shimokitazawa neighborhood, I stumbled upon a small, unassuming shop tucked away between a vintage clothing store and a artisanal bakery. The sign above the door read \"Kokoro,\" which roughly translates to \"heart\" or \"soul.\" It was here that I encountered the concept of sustainable shopping in all its glory.\n\nInside Kokoro, rows of neatly stacked shelves showcased an array of beautifully crafted items: handmade soaps, intricately woven baskets, and hand-painted ceramics. Each piece seemed imbued with a sense of love and care, as if it had been carefully nurtured from start to finish. The store's owner, Yuna, greeted me warmly and explained that everything sold within her walls was sourced from local artisans and makers who adhered to the highest standards of environmental responsibility.\n\nI spent hours browsing Kokoro's offerings, chatting with Yuna about the importance of sustainable shopping in Japan. She told me about the country's growing obsession with \"mottainai,\" a concept that roughly translates to \"don't waste.\" This philosophy has inspired a wave of innovative entrepreneurs who strive to reduce waste and promote eco-friendly practices throughout their supply chains.\n\nAs I continued my journey, I found myself drawn to the vibrant markets of Hanoi, Vietnam. The streets were awash with color and sound, as vendors hawked everything from fresh produce to handmade crafts. Amidst this chaos, I spotted a small stall tucked away in a quiet corner, run by a young woman named Linh.\n\nLinh's stall was dedicated to zero-waste shopping, where customers could bring their own containers for refillable goods like rice, grains, and spices. The store was a testament to the growing awareness of environmental issues among Vietnamese consumers. I watched as shoppers carefully selected items, mindful of packaging waste and carbon footprints.\n\nLater that evening, I attended a workshop on sustainable fashion at a local community center in Chiang Mai, Thailand. The instructor, a passionate advocate for eco-friendly textiles, led us through a series of hands-on activities designed to promote mindful consumption. We learned about the environmental impact of fast fashion, as well as simple tips for reducing waste and choosing sustainable fabrics.\n\nAs I reflected on my experiences throughout Asia, it became clear that sustainable shopping was not just a trend, but a cultural imperative. People were no longer content with simply buying and discarding; they were seeking out products that not only nourished their bodies but also respected the planet.\n\nFrom Tokyo's boutique shops to Hanoi's bustling markets, I witnessed a profound shift in consumer behavior. Individuals were taking responsibility for their environmental footprint, opting instead for goods made from locally sourced materials by artisans who shared their values. In this new era of sustainable shopping, consumers were no longer mere buyers; they had become co-creators, working alongside makers to craft products that harmonized with the natural world.\n\nIn a world where consumption has become an art form, it is refreshing to see people embracing the beauty of simplicity and sustainability. As I concluded my journey through Asia's sustainable shopping scene, I couldn't help but feel a sense of hope for our collective future. By choosing conscious consumption over mindless buying, we can create a world that not only sustains us but also thrives alongside us.\n\nAs Yuna from Kokoro would say, \"Sustainable shopping is not just about the products; it's about the people and the planet.\" In this spirit of interconnectedness, I left Asia with a renewed sense of purpose, knowing that every purchase holds the power to shape our world for generations to come.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude towards fast fashion?",
+      "options": {
+        "A": "The author sees it as a necessary evil in modern life",
+        "B": "The author believes it is harming the planet and is no longer sustainable",
+        "C": "The author thinks it is too expensive for ordinary people",
+        "D": "The author has given up on trying to change the industry"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"mottainai\" roughly translate to?",
+      "options": {
+        "A": "A way of life that prioritizes material wealth",
+        "B": "Don't waste",
+        "C": "A philosophical approach to consumerism",
+        "D": "A method for reducing carbon emissions"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the meaning of \"mottainai\" according to Yuna from Kokoro?",
+      "options": {
+        "A": "It roughly translates to \"no waste\"",
+        "B": "It roughly translates to \"don't waste\"",
+        "C": "It means \"eco-friendly practices\"",
+        "D": "It refers to a type of sustainable fabric"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the concept of sustainable shopping?",
+      "options": {
+        "A": "It is a necessary evil in today's consumerist society.",
+        "B": "It is a cultural imperative that brings people and planet together.",
+        "C": "It is a luxury only affordable to wealthy individuals.",
+        "D": "It is a fleeting trend that will soon lose its popularity."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who told the narrator about Japan's concept of \"mottainai\"?",
+      "options": {
+        "A": "The owner of Kokoro",
+        "B": "Linh from Hanoi's market stall",
+        "C": "Yuna from Kokoro and her friends",
+        "D": "A local community center instructor in Chiang Mai"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text?",
+      "options": {
+        "A": "The author visited several Asian cities to experience different types of shopping.",
+        "B": "Sustainable shopping is a trend that has become popular among consumers worldwide.",
+        "C": "Individuals are taking responsibility for their environmental footprint and opting for goods made from locally sourced materials.",
+        "D": "The author is advocating for a complete rejection of modern consumerism."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

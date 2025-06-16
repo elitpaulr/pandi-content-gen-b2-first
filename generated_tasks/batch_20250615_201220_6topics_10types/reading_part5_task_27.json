@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_27",
+  "title": "From Backpack to Bank Account: Mastering Money on the Move",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Tokyo, I was struck by the vibrant streets of Shibuya, where neon lights illuminated the crowds of young people streaming through the famous scramble crossing. It was a city that pulsed with energy and opportunity, but it was also a place where financial mistakes could be costly. As a traveler seeking to understand the importance of financial literacy for young adults, I knew that Tokyo would be an excellent destination.\n\nMy first stop was the Tokyo Stock Exchange, where I met with a group of young traders who were learning the ins and outs of investing in the Japanese market. They were eager students, devouring every piece of advice their instructors had to offer. As we walked through the exchange's bustling halls, they explained to me that financial literacy was not just about making smart investment decisions – it was also about understanding the risks involved.\n\n\"Here, in Japan,\" one of them said, \"we have a saying: 'Zen-shin-ryoku' – the three virtues of finance. The first is 'Zen', or savings – setting aside money for emergencies and long-term goals. The second is 'Shin', or income – generating multiple streams of revenue to achieve financial stability. And the third is 'Ryoku', or risk management – understanding how to navigate the ups and downs of the market.\"\n\nAs we walked through the city, I noticed that many young people were struggling with debt. Credit card companies seemed to be ubiquitous, with their bright advertisements and tempting promotions. But beneath the surface, I saw a culture of overspending and financial recklessness.\n\nIn response, there was a growing movement in Tokyo towards financial literacy. Non-profit organizations like the Japan Association for Financial Literacy were working tirelessly to educate young people about the importance of saving, investing, and managing debt. They offered workshops, online courses, and even video games designed to teach financial skills in an engaging way.\n\nI visited one such organization, where I met with a group of volunteers who were developing a curriculum on personal finance for high school students. Their goal was not just to equip young people with knowledge about money management – but also to empower them with the confidence and self-discipline needed to make smart financial decisions.\n\nAs I continued my travels, I began to notice that the importance of financial literacy was not unique to Tokyo or Japan. In cities all over the world – from New York to London, Mumbai to Mexico City – young people were struggling to navigate the complexities of modern finance.\n\nBut in each place, I also saw a growing recognition of the need for financial education. Whether through community centers, online platforms, or even social media influencers, there was a sense that young adults needed guidance on how to manage their finances effectively.\n\nAs I boarded my flight back home, I reflected on what I had learned in Tokyo. Financial literacy is not just about money – it's about power, independence, and security. It's about being able to make choices that align with one's values and goals. And it's about developing the skills and confidence needed to navigate the ever-changing landscape of modern finance.\n\nWhether you're a young adult navigating the streets of Tokyo or a student in a small town somewhere else in the world, I hope this journey has inspired you to take control of your finances. As you set out on your own path, remember that financial literacy is not just a tool – it's a passport to a brighter future.\n\nIn the words of one young trader I met in Tokyo: \"Financial literacy is like learning a new language – once you grasp the basics, you can communicate with anyone, anywhere in the world. And when it comes to money, being able to speak the language means you'll be empowered to make smart decisions and achieve your dreams.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what was the main reason why young people in Tokyo were struggling with debt?",
+      "options": {
+        "A": "They did not have enough savings",
+        "B": "They were overspending and had no knowledge of financial management",
+        "C": "The cost of living in Tokyo was too high",
+        "D": "Credit card companies were taking advantage of them"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word \"Zen\" mean in the context of financial literacy?",
+      "options": {
+        "A": "To borrow money from a bank",
+        "B": "To save money for emergencies and long-term goals",
+        "C": "To invest in stocks and shares",
+        "D": "To manage debt and credit card balances"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a young trader I met at the Tokyo Stock Exchange, what does 'Zen-shin-ryoku' mean?",
+      "options": {
+        "A": "It refers to the art of making smart investment decisions",
+        "B": "It stands for the three virtues of finance: savings, income, and risk management",
+        "C": "It is a Japanese phrase that means \"financial freedom\"",
+        "D": "It is an abbreviation for a popular financial literacy program"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards young people's financial literacy in Tokyo?",
+      "options": {
+        "A": "The author believes that young people are naturally financially responsible and only need guidance on specific investments.",
+        "B": "The author thinks that financial literacy is essential for young adults to achieve independence, security, and power over their finances.",
+        "C": "The author views the struggle with debt among young people as a minor issue that will resolve itself with time.",
+        "D": "The author believes that financial education is not necessary because young people learn everything they need to know from their parents."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main purpose of this text about financial literacy for young adults?",
+      "options": {
+        "A": "To provide a detailed guide on how to invest in the Japanese market",
+        "B": "To explain the importance of financial literacy and its benefits for young people",
+        "C": "To describe the author's personal experiences with credit card debt in Tokyo",
+        "D": "To introduce a new video game designed to teach financial skills"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

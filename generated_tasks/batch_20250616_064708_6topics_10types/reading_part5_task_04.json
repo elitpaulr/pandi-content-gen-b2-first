@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_04",
+  "title": "Thrill Seekers Unite! The Brave World of Extreme Sports Enthusiasts",
+  "topic": "general",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember the rush I felt when I first tried skydiving. My heart was pounding in my chest as I stood at the open door of the plane, the wind whipping through my hair, and my instructor's reassuring voice whispering in my ear. It was exhilarating, but also terrifying – a perfect blend of fear and excitement that kept me coming back for more.\n\nAs someone who loves extreme sports, I've always been drawn to activities that push me to my limits. Whether it's bungee jumping off a bridge, rock climbing up a sheer cliff face, or white water rafting through treacherous rapids, I thrive on the adrenaline-fueled rush of taking risks. And yet, as much as I crave this sense of excitement, I also know that risk-taking is not for everyone.\n\nWhen I think about why I'm so drawn to extreme sports, I realize it's because they allow me to tap into a deep-seated desire for freedom and self-discovery. There's something primal about facing your fears head-on and emerging victorious on the other side. Whether it's overcoming a physical obstacle or pushing past a mental block, the sense of accomplishment is incredibly empowering.\n\nOf course, with great risk comes great reward – but also great danger. As I've learned from my own experiences, there are risks associated with every extreme sport. Injuries can happen, and even with proper training and equipment, accidents can still occur. But for me, the thrill of taking a leap of faith is worth it.\n\nOne of my closest friends is an avid base jumper – someone who leaps off tall structures (like buildings or bridges) attached to a parachute. I've watched him jump from a 300-foot cliff, and while it's terrifying, he does it with such confidence and finesse that it's almost mesmerizing. But I've also seen the risks firsthand: last year, his instructor's parachute malfunctioned during a jump, and they barely made it back to solid ground.\n\nDespite these close calls, my friend continues to pursue base jumping, driven by an insatiable passion for the sport. And while I admire his dedication, I have to admit that I'm not quite ready to take on the same level of risk – at least, not yet. For me, it's about finding a balance between pushing myself to new heights and staying safe.\n\nAs I reflect on my own experiences with extreme sports, I realize that there's more to risk-taking than just physical danger. There's also an emotional component – facing fears, building confidence, and developing resilience. When we take risks, we challenge ourselves in ways that can be transformative.\n\nOf course, not everyone will share my enthusiasm for extreme sports. Some people prefer more low-key activities or find the thought of taking risks too daunting. And that's okay – there are plenty of other ways to live life on the edge without jumping off a cliff (literally). The key is finding what works for you and pushing yourself in a way that feels authentic.\n\nFor me, extreme sports will always be a part of who I am – but it's not about trying to replicate the experiences of others. Rather, it's about embracing my own unique relationship with risk-taking and living life on my own terms.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the writer's attitude towards their friend who is an avid base jumper?",
+      "options": {
+        "A": "The writer thinks his friend is foolish to continue pursuing the sport after a close call.",
+        "B": "The writer admires his friend's passion and dedication, but prefers a safer approach.",
+        "C": "The writer believes that base jumping is too extreme for anyone to participate in, regardless of experience or training.",
+        "D": "The writer feels threatened by his friend's expertise in base jumping."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"sheer\" mean in this context?",
+      "options": {
+        "A": "extremely steep or vertical",
+        "B": "completely flat or horizontal",
+        "C": "slightly sloping or gentle",
+        "D": "totally smooth or featureless"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How high is the cliff from which the writer's friend has jumped while base jumping?",
+      "options": {
+        "A": "200 feet",
+        "B": "300 feet",
+        "C": "500 feet",
+        "D": "1,000 feet"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think is the most important aspect of taking risks in extreme sports?",
+      "options": {
+        "A": "It's only for thrill-seekers who crave physical danger",
+        "B": "It's about facing fears, building confidence, and developing resilience",
+        "C": "It's all about trying to replicate the experiences of others",
+        "D": "It's not worth it because injuries can happen"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"it\" refer to in this sentence?",
+      "options": {
+        "A": "The fear and excitement that I felt when I first tried skydiving",
+        "B": "My heart pounding in my chest as I stood at the open door of the plane",
+        "C": "The thrill of taking a leap of faith",
+        "D": "My desire for freedom and self-discovery"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this text?",
+      "options": {
+        "A": "The author warns readers against participating in extreme sports due to their risks.",
+        "B": "The author explains why people should try extreme sports as a way to live life on the edge.",
+        "C": "The author reflects on their own experiences with extreme sports and explores the emotional benefits of risk-taking.",
+        "D": "The author argues that extreme sports are only for thrill-seekers."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

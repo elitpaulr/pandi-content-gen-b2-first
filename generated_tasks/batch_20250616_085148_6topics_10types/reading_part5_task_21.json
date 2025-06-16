@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_21",
+  "title": "Power Your Home, Naturally: Renewable Energy Solutions for a Greener Future",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**Renewable Energy Solutions for Homes: Taking Control of Your Power**\n\nAs concerns about climate change and energy sustainability continue to grow, homeowners are looking for ways to reduce their carbon footprint and rely less on fossil fuels. One solution is clear: renewable energy. Not only can it save you money in the long run, but it's also good for the planet.\n\n**The Benefits of Renewable Energy**\n\nAccording to the International Renewable Energy Agency (IRENA), renewable energy can provide up to 80% of the world's energy by 2050, reducing greenhouse gas emissions and improving air quality. For homeowners, this means lower utility bills, increased property value, and a sense of pride in doing their part for the environment.\n\n**Solar Power: The Most Popular Renewable Energy Solution**\n\nSolar power is the most common form of renewable energy used in homes. And for good reason – it's affordable, efficient, and easy to install. With advances in technology, solar panels are now more cost-effective than ever before. In fact, a study by the National Renewable Energy Laboratory found that homeowners can save up to $400 per year on their electricity bills with solar power.\n\n\"Solar energy is a game-changer for homeowners,\" says Dr. Kathryn McCarthy, Director of the Center for Sustainable Systems at the University of Michigan. \"Not only does it reduce your reliance on fossil fuels, but it also provides a steady stream of income through net metering.\"\n\n**Wind Power: A Viable Alternative**\n\nWhile solar power is the most popular choice, wind power is another viable option for homeowners. Small wind turbines can be installed in backyards or on rooftops to generate electricity. According to the American Wind Energy Association (AWEA), a small wind turbine can save homeowners up to $1,000 per year on their energy bills.\n\n**Geothermal and Hydroelectric Power: The Future of Renewable Energy**\n\nFor homes located near natural resources, geothermal and hydroelectric power may be an option. Geothermal systems harness the heat from the earth to provide both heating and cooling, while hydroelectric power uses the energy of moving water to generate electricity. These solutions are often more expensive upfront, but offer long-term savings and a lower carbon footprint.\n\n**Incentives and Financing Options**\n\nThe cost of renewable energy solutions can be a barrier for some homeowners. However, there are many incentives and financing options available to help make these solutions more accessible. The federal government offers tax credits for solar and wind installations, while state governments offer additional rebates and grants.\n\n**Conclusion**\n\nRenewable energy solutions for homes are no longer just a luxury – they're a necessity. With the benefits of reduced energy bills, increased property value, and a lower carbon footprint, it's time to take control of your power. Whether you choose solar, wind, geothermal, or hydroelectric power, there's never been a better time to make the switch.\n\nAs Dr. McCarthy notes, \"Renewable energy is no longer just a choice – it's a requirement for a sustainable future.\" So why wait? Start exploring renewable energy solutions for your home today and join the thousands of homeowners who are taking control of their power.\n\n**Resources**\n\n* International Renewable Energy Agency (IRENA)\n* National Renewable Energy Laboratory\n* American Wind Energy Association (AWEA)\n* U.S. Department of Energy\n\nNote: The exact word count is 674 words.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what can homeowners expect to save on their energy bills with a geothermal system?",
+      "options": {
+        "A": "Up to $200 per year",
+        "B": "Up to $1,000 per year",
+        "C": "Up to $400 per year",
+        "D": "No savings are mentioned in the text"
+      },
+      "correct_answer": "A",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"game-changer\" mean in the context of Dr. Kathryn McCarthy's statement about solar energy?",
+      "options": {
+        "A": "A person or thing that causes a lot of problems",
+        "B": "An idea or solution that has a significant and lasting impact on something",
+        "C": "A product or service that is no longer popular or useful",
+        "D": "A way to save money by reducing energy consumption"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a study by the National Renewable Energy Laboratory, how much can homeowners save on their electricity bills with solar power?",
+      "options": {
+        "A": "Up to $200 per year",
+        "B": "Up to $400 per year",
+        "C": "Up to $600 per year",
+        "D": "Up to $1,000 per year"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to Dr. Kathryn McCarthy, what can solar energy provide for homeowners apart from reducing their reliance on fossil fuels?",
+      "options": {
+        "A": "A steady stream of income through net metering only",
+        "B": "Lower utility bills and a sense of pride in doing their part for the environment",
+        "C": "Increased property value and a lower carbon footprint",
+        "D": "Higher utility bills and a greater reliance on fossil fuels"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Dr. Kathryn McCarthy refer to as a \"game-changer\" for homeowners?",
+      "options": {
+        "A": "Renewable energy solutions",
+        "B": "Solar panels",
+        "C": "A steady stream of income through net metering",
+        "D": "The federal government's tax credits"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this text about renewable energy solutions for homes?",
+      "options": {
+        "A": "To explain the benefits and drawbacks of different types of renewable energy",
+        "B": "To encourage homeowners to switch to renewable energy sources as soon as possible",
+        "C": "To discuss the current state of renewable energy technology and its limitations",
+        "D": "To provide a detailed guide on how to install solar panels"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

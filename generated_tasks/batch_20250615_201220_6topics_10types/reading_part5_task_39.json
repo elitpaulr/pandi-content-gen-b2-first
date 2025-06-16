@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_39",
+  "title": "Can You Shop Your Way to Saving the Planet?",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "Lena wandered through the crowded market, her eyes scanning the stalls for the perfect find. She had been searching for weeks, but nothing seemed to fit her criteria – fair trade, organic, locally sourced. As she passed by a vendor selling brightly colored scarves, a young woman with a determined look on her face approached her.\n\n\"Excuse me,\" the woman said, \"I couldn't help but notice you're looking for something special. I have just the thing.\" She held out a delicate silver necklace adorned with a small, hand-carved wooden pendant.\n\nLena raised an eyebrow. \"Where's this from?\"\n\nThe vendor smiled proudly. \"It was made by a local artisan in our community. The wood is sustainably sourced, and she gets paid a fair wage for her work.\"\n\nLena hesitated, weighing the pros and cons. On one hand, it was beautiful, and the story behind it was compelling. On the other, she wasn't sure if it truly met her standards.\n\n\"I'm looking for something that not only looks good but also does some good,\" Lena said finally. \"Do you know anything about the company that imports these?\"\n\nThe vendor's smile faltered for a moment before she regained her composure. \"I... I don't know much, to be honest.\"\n\nLena felt a pang of disappointment. She had been so excited about the prospect of supporting local artisans and sustainable practices.\n\nAs she continued her search, Lena couldn't shake off the feeling that something wasn't quite right. She remembered a lecture she had attended on sustainable shopping, where the speaker emphasized the importance of not just looking at the product itself but also its entire supply chain.\n\nLena's thoughts were interrupted by a gentle voice behind her. \"Hi, I see you're browsing through our stall.\" A middle-aged woman with kind eyes and a warm smile gestured to a nearby display of handmade soap and candles.\n\n\"Hi,\" Lena replied, intrigued. \"Your products look beautiful, but what about the packaging? Is it recyclable?\"\n\nThe woman nodded enthusiastically. \"We use biodegradable materials whenever possible and minimize waste in our production process.\"\n\nLena's eyes widened as she scanned the stall more closely. \"This is amazing! I've been searching for sustainable cleaning products that are also cruelty-free.\"\n\nThe woman beamed with pride. \"We're a small, family-owned business, but we strive to do things differently. We source our ingredients locally and work closely with our suppliers to ensure fair labor practices.\"\n\nLena felt a sense of relief wash over her as she realized the woman was being completely transparent about their processes.\n\nAs she made her purchase and prepared to leave, Lena couldn't help but think about the contrast between this stall and the one selling scarves earlier. The latter seemed to be more concerned with appearance than substance.\n\n\"Thank you so much,\" Lena said, handing over a generous tip. \"It's people like you who make sustainable shopping worth it.\"\n\nThe woman smiled back at her, her eyes shining with gratitude. \"You're welcome. We need more customers like you – ones who care about the impact of their purchases.\"\n\nLena walked away from the market feeling empowered and inspired. She realized that sustainable shopping wasn't just about buying a product; it was about supporting systems and practices that aligned with her values.\n\nAs she made her way home, Lena couldn't wait to share her findings with her friends and family. She knew they would be interested in learning more about the world of sustainable shopping – where every purchase had the potential to create positive change.\n\nOver the next few weeks, Lena delved deeper into the world of sustainable shopping. She discovered online platforms that connected consumers directly with producers, reducing the need for intermediaries and ensuring fair trade practices.\n\nShe met with local farmers who were pioneering regenerative agriculture methods, working tirelessly to restore soil health and biodiversity.\n\nAnd she joined a community of like-minded individuals who shared tips and resources on how to live more sustainably – from zero-waste living to second-hand shopping.\n\nLena's journey had been nothing short of transformative. She had discovered that sustainable shopping wasn't just about making individual choices; it was about being part of a larger movement towards a more equitable, environmentally conscious world.\n\nAnd as she looked out at the vibrant market stalls now filled with customers who shared her values, Lena felt a sense of hope and belonging. She knew that together, they could create a brighter future – one purchase at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Lena's opinion on supporting local artisans?",
+      "options": {
+        "A": "She thinks it is always better to support big companies than small local businesses.",
+        "B": "She values the importance of fair trade and sustainable practices, but may not always prioritize them over aesthetics.",
+        "C": "She believes that buying products from local artisans is a guarantee that they meet her high standards for sustainability.",
+        "D": "She has no interest in supporting local artisans or any other type of business."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for something to be \"biodegradable\"?",
+      "options": {
+        "A": "It can only be recycled",
+        "B": "It is made from non-organic materials",
+        "C": "It breaks down naturally and returns to its original state without harming the environment",
+        "D": "It must be imported from another country"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Where did the vendor selling scarves get the wood for the wooden pendant?",
+      "options": {
+        "A": "From a local forest",
+        "B": "From a sustainable source in her community",
+        "C": "From an online supplier",
+        "D": "From a big-box store"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What can be inferred about Lena's attitude towards sustainable shopping?",
+      "options": {
+        "A": "She is sceptical about its benefits and doubts its effectiveness.",
+        "B": "She values transparency and fair practices above all else.",
+        "C": "She prioritizes style over substance when making purchasing decisions.",
+        "D": "She believes sustainable shopping is a waste of time and resources."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who does the vendor selling scarves describe as making the wooden pendant on the silver necklace?",
+      "options": {
+        "A": "The woman who is speaking to Lena about the scarf",
+        "B": "A local artisan in our community",
+        "C": "The company that imports these necklaces",
+        "D": "The speaker at the lecture Lena attended on sustainable shopping"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about Lena's experience with sustainable shopping?",
+      "options": {
+        "A": "The importance of fair trade practices in global supply chains",
+        "B": "How individual choices can create positive change and support a more equitable world",
+        "C": "The difficulties and challenges faced by consumers when trying to make sustainable purchasing decisions",
+        "D": "The benefits of buying local products, but the drawbacks of supporting small businesses"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

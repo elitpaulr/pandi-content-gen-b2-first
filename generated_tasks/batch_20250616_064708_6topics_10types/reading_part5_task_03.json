@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_03",
+  "title": "Thrill-Seekers and Daredevils: The Psychology of Extreme Risk-Takers",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "The sun was setting over the mountain range as Alex laced up his climbing boots, his eyes fixed on the towering rock face before him. He had been training for months, but this was his first attempt at a truly extreme climb – one that would push him to his limits and test his resolve.\n\n\"What's your limit, Alex?\" his partner, Rachel, asked as she handed him a water bottle. \"You know we can't get the rescue team here in time if you mess up.\"\n\nAlex flashed her a reassuring smile, but he knew what she was talking about. This climb was notorious for its sheer drops and treacherous overhangs. One misstep could be fatal.\n\n\"I've been over this route a hundred times,\" he said, trying to sound confident. \"I know every handhold, every foothold. I can do this.\"\n\nRachel raised an eyebrow but didn't press the issue. She knew Alex well enough to recognize the look in his eyes – a mixture of determination and fear.\n\nAs they began their ascent, the air grew thinner and the wind picked up. The rock face loomed above them, its granite surface slick with dew. Alex concentrated on each step, his focus laser-sharp as he navigated the treacherous terrain.\n\nExtreme sports had become an integral part of Alex's life. He'd started with skydiving, then moved on to bungee jumping and white-water rafting. But this – rock climbing – was something different. It required a combination of physical strength, mental toughness, and sheer recklessness.\n\n\"What drives you, Alex?\" Rachel asked as they paused for a breather at the first ledge. \"You know the risks are higher than ever with this climb.\"\n\nAlex shrugged, taking a swig of water from his bottle. \"I guess I just love pushing myself to see how far I can go. It's like a rush – a mix of fear and exhilaration that gets me pumped up for life.\"\n\nRachel nodded thoughtfully. She knew Alex well enough to recognize the underlying fear beneath his bravado.\n\n\"It's not just about the thrill, though,\" she said gently. \"It's also about facing your fears head-on. What scares you most is what makes this sport so addictive – that moment when you're on the edge and anything can go wrong.\"\n\nAlex smiled wryly. Rachel had a point. He did have a tendency to seek out extreme experiences, partly as a way of coping with his own anxiety.\n\nAs they continued their ascent, the sun dipped below the horizon, casting long shadows across the mountain face. The air grew colder, and Alex's fingers began to numb from the chill. But he refused to give up – not now that they were so close to the top.\n\nWith a final burst of energy, he hauled himself over the last ledge, landing awkwardly on his feet. Rachel joined him a few moments later, grinning triumphantly.\n\n\"That was insane,\" she said, shaking her head in awe.\n\nAlex grinned back at her, feeling an exhilarating rush wash over him. This was what it meant to live life on the edge – where every step forward was a leap of faith into the unknown.\n\nAs they began their descent, Alex knew he'd be back for more – drawn by the siren call of the extreme sports world. It wasn't just about the thrill; it was about facing his fears and pushing himself to new limits. The rush never wore off – not as long as there were mountains to climb, rivers to raft, or waves to surf.\n\nHe glanced over at Rachel, who was gazing out at the breathtaking view below them.\n\n\"You know,\" he said quietly, \"I think I'll keep doing this until my dying breath.\"\n\nRachel turned to him with a knowing smile. \"Me too, Alex. Me too.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Alex's attitude towards taking risks?",
+      "options": {
+        "A": "He is extremely cautious and only takes calculated risks.",
+        "B": "He enjoys pushing himself to his limits, but acknowledges the potential dangers involved.",
+        "C": "He often prioritizes winning over safety, which has led him into trouble in the past.",
+        "D": "He believes that taking risks is a necessary evil for success."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"recklessness\" mean in this text?",
+      "options": {
+        "A": "A lack of attention to detail",
+        "B": "Careless and willing to take unnecessary risks",
+        "C": "The ability to face one's fears head-on",
+        "D": "Physical strength and mental toughness"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many times has Alex gone over the route of the climb before attempting it?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "100",
+        "D": "50"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Alex say is the main reason why he participates in extreme sports?",
+      "options": {
+        "A": "To prove himself to others",
+        "B": "To face his fears and push himself to new limits",
+        "C": "To escape from reality and forget about his problems",
+        "D": "To become a professional athlete and earn money"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase 'the thrill' refer to in this text?",
+      "options": {
+        "A": "The rush of adrenaline that Alex experiences during extreme sports",
+        "B": "The physical strength and mental toughness required for rock climbing",
+        "C": "The moment when Alex is on the edge and anything can go wrong",
+        "D": "The danger and risk associated with extreme sports"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What drives Alex's passion for extreme sports?",
+      "options": {
+        "A": "He loves the social aspect of these activities",
+        "B": "He wants to prove himself to others as brave and strong",
+        "C": "He enjoys pushing his physical and mental limits, facing his fears, and experiencing a rush of fear and exhilaration",
+        "D": "He is trying to overcome a traumatic experience from his past"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_114",
+  "title": "Unlock Your Future Riches: A Beginner's Guide to Cryptocurrency",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "The world of cryptocurrency has been shrouded in mystery for far too long. Many people are hesitant to dip their toes into this uncharted territory, fearing that they'll be swept away by the waves of complexity. But fear not, dear reader! Today we're going to demystify the world of crypto and provide you with a beginner's guide to getting started.\n\nFirst things first: what exactly is cryptocurrency? Simply put, it's a digital or virtual currency that uses cryptography for security and is decentralized, meaning it's not controlled by any government or financial institution. Think of it like cash, but instead of being physical, it exists only in the digital realm.\n\nOne of the most popular types of cryptocurrency is Bitcoin (BTC). Launched in 2009 by an individual (or group) using the pseudonym Satoshi Nakamoto, BTC is often seen as the pioneer of cryptocurrencies. But don't let its age fool you – this digital currency has come a long way since its humble beginnings.\n\nSo, how do you get started with cryptocurrency? The first step is to choose a reputable exchange where you can buy and sell your coins. Some popular options include Coinbase, Binance, and Kraken. These platforms allow you to purchase BTC and other cryptocurrencies using fiat currency (your local currency).\n\nOnce you've set up an account on an exchange, it's time to learn about wallets. A wallet is like a digital safe that stores your cryptocurrency – just like how you'd keep cash in a physical wallet. There are two types of wallets: hot and cold. Hot wallets connect directly to the internet (like mobile or desktop apps) while cold wallets store offline (like USB drives).\n\nWhen it comes to investing, there's no one-size-fits-all approach. Some people prefer the thrill of day-trading, buying and selling coins in a matter of minutes. Others take a more long-term view, holding onto their investments for months or even years.\n\nTo help you get started, here are some practical tips:\n\n1.  **Educate yourself**: Before diving head-first into crypto, take some time to learn the basics. Websites like CoinDesk and CryptoSlate offer excellent resources on everything from trading strategies to regulatory updates.\n2.  **Start small**: Don't be tempted to invest your entire life savings in cryptocurrency just yet. Start with a small amount – say $100 or so – and see how it goes.\n3.  **Diversify your portfolio**: Spread your investments across multiple coins, rather than putting all your eggs in one basket. This way, if the value of one coin plummets, others may still be doing well.\n\nAs with any investment, there are risks involved with cryptocurrency. The market can be volatile, and prices can fluctuate wildly from day to day. But don't let fear hold you back – it's precisely this unpredictability that makes crypto so alluring for many investors.\n\nIn conclusion, getting started with cryptocurrency doesn't have to be daunting. With a little bit of knowledge and some practical tips under your belt, you'll be well on your way to becoming a crypto pro in no time. So go ahead, take the plunge – who knows what hidden treasures await you in this brave new world?\n\nOne final thought: if you're interested in trying your hand at cryptocurrency but aren't sure where to start, consider joining online communities or forums dedicated to crypto enthusiasts. These groups offer invaluable advice from experienced investors and can help you navigate the complex landscape of digital currencies.\n\nWe've just scratched the surface of this vast and exciting world – and there's so much more to explore!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to a person who invests their entire life savings in cryptocurrency?",
+      "options": {
+        "A": "They will definitely lose all their money",
+        "B": "Their investment will be protected by the government",
+        "C": "The value of their coins may fluctuate, but they can always sell them for a profit",
+        "D": "They will gain a lot of experience and become an expert in crypto"
+      },
+      "correct_answer": "A",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"uncharted territory\" mean in the context of cryptocurrency?",
+      "options": {
+        "A": "A place where people have already been before",
+        "B": "An area that is not well understood or explored",
+        "C": "A region with a high level of security and stability",
+        "D": "A location where only experts are allowed to go"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Which cryptocurrency is often seen as the pioneer of cryptocurrencies?",
+      "options": {
+        "A": "Ethereum (ETH)",
+        "B": "Bitcoin (BTC)",
+        "C": "Litecoin (LTC)",
+        "D": "Ripple (XRP)"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about the cryptocurrency market being unpredictable?",
+      "options": {
+        "A": "It's completely stable and reliable",
+        "B": "It's a thrilling adventure that requires bravery",
+        "C": "It's a source of fear and anxiety for beginners",
+        "D": "It's too complex to understand"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"putting all your eggs in one basket\" refer to in the text?",
+      "options": {
+        "A": "Investing too little money in cryptocurrency",
+        "B": "Diversifying a portfolio by investing in multiple cryptocurrencies",
+        "C": "Buying and selling coins quickly, like day-trading",
+        "D": "Keeping all of one's life savings invested in cryptocurrency"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this text about cryptocurrency for beginners?",
+      "options": {
+        "A": "To explain the technical details of cryptocurrency",
+        "B": "To provide a beginner's guide on how to get started with cryptocurrency",
+        "C": "To warn readers about the risks and dangers of investing in cryptocurrency",
+        "D": "To compare different types of cryptocurrencies and their features"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

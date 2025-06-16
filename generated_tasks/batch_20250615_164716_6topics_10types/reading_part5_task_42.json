@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_42",
+  "title": "The Green Revolution Starts Here: Easy Ways to Save the Planet",
+  "topic": "technology",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember the day I realized how much my shopping habits were affecting the planet. I was browsing through a trendy online store, adding items to my cart left and right, when I stumbled upon an article about the environmental impact of fast fashion. It was a wake-up call – I had been contributing to the staggering 12% of global greenhouse gas emissions that come from textile production.\n\nAt first, I felt overwhelmed by the thought of changing my shopping habits. But as I delved deeper into the world of sustainable shopping and ethical consumption, I discovered a sense of purpose and passion. It's not just about making a few tweaks to our daily routines; it's about creating a more conscious and responsible relationship with the products we buy.\n\nOne of the simplest ways to start is by adopting a \"buy less\" mindset. This means being mindful of our needs versus wants, and avoiding impulse purchases. I've found that taking time to think about whether I really need an item helps me avoid buying things that will eventually end up in the landfill. I also try to focus on investing in higher-quality, timeless pieces rather than fast fashion's trendy but disposable designs.\n\nAnother crucial aspect of sustainable shopping is considering the social and environmental implications of our purchases. Take clothing made from synthetic materials like polyester and nylon, for example – these fabrics are often produced using non-renewable resources and contribute significantly to microplastic pollution in our oceans. Opting for natural fibers like cotton, bamboo, or Tencel instead can make a big difference.\n\nBut it's not just about the products themselves; it's also about how they're made and who makes them. I've started paying attention to certifications like Fair Trade and Organic, which ensure that farmers and workers are treated fairly and work in safe conditions. These labels may cost a bit more upfront, but I believe they're worth it for the positive impact on people and the planet.\n\nOf course, sustainable shopping isn't just about individual choices – it's also about supporting larger systems change. That's why I'm so excited about the growth of second-hand shopping and clothing rentals. These models not only reduce waste but also promote sharing and collaboration rather than ownership and consumption.\n\nOne of my favorite ways to incorporate sustainable shopping into my daily routine is through online platforms like ThredUp or Rent the Runway. Not only do these sites offer a vast selection of gently used items, but they also handle returns and shipping logistics seamlessly. I've even started swapping clothes with friends and family members – it's a great way to refresh our wardrobes without buying new.\n\nAs I continue on this journey of sustainable shopping and ethical consumption, I'm constantly learning and discovering new ways to make a positive impact. From shopping local farmers' markets to supporting companies that prioritize transparency and accountability, every choice counts.\n\nIt's not always easy – there are still days when I catch myself reaching for fast fashion or indulging in impulse buys. But the more I learn about the world of sustainable shopping, the more I'm inspired by the possibilities. By making conscious choices and advocating for systemic change, we can create a future where our consumption is not just sustainable but also regenerative.\n\nFor those just starting out on this journey, my advice would be to start small and experiment with different approaches until you find what works best for you. It's about finding that sweet spot between convenience, cost, and impact – and being patient with yourself as you navigate the complexities of a more mindful consumer culture.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's shopping habits before she changed her approach to sustainable shopping?",
+      "options": {
+        "A": "She had always prioritized buying second-hand clothing",
+        "B": "She was already aware of the environmental impact of fast fashion and made conscious choices accordingly",
+        "C": "She often bought clothes without considering their social or environmental implications",
+        "D": "She exclusively shopped at local farmers' markets"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"buy less\" mindset mean in this context?",
+      "options": {
+        "A": "A tendency to buy only expensive items",
+        "B": "A way of thinking that involves buying high-quality, timeless products instead of cheap, trendy ones",
+        "C": "A habit of purchasing everything on sale or discounted",
+        "D": "A complete avoidance of shopping and consumerism"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of global greenhouse gas emissions comes from textile production?",
+      "options": {
+        "A": "6%",
+        "B": "12%",
+        "C": "18%",
+        "D": "22%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think is the biggest challenge to adopting sustainable shopping habits?",
+      "options": {
+        "A": "The high cost of eco-friendly products",
+        "B": "Overcoming an initial feeling of overwhelm and guilt",
+        "C": "Difficulty finding trendy and fashionable clothing that is also sustainable",
+        "D": "Lack of time to research the environmental impact of every purchase"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the staggering 12% of global greenhouse gas emissions\" refer to?",
+      "options": {
+        "A": "The amount of carbon dioxide released by vehicles on the road",
+        "B": "The environmental impact of fast fashion and textile production",
+        "C": "The number of people who consume meat as part of their diet",
+        "D": "The volume of plastic waste in our oceans"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this text?",
+      "options": {
+        "A": "To provide tips on how to reduce greenhouse gas emissions",
+        "B": "To explore the benefits of adopting sustainable shopping habits and making conscious consumer choices",
+        "C": "To compare the environmental impact of different types of clothing materials",
+        "D": "To review the history of fast fashion and its effects on the planet"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

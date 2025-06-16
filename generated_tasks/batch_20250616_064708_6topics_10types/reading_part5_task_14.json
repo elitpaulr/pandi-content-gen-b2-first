@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_14",
+  "title": "Fitness on the Go: How Busy Professionals Can Stay Fit in Minutes",
+  "topic": "health_and_fitness",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "As I sit here typing away on my laptop, sipping on yet another cup of coffee, I'm reminded of the irony that is modern life. We're busier than ever before, with packed schedules and endless to-do lists. But amidst all this chaos, it's easy to let our fitness routines fall by the wayside.\n\nI know I'm not alone in feeling like a hamster on a wheel - constantly running but getting nowhere fast. And yet, despite our best intentions, we often sacrifice our health and wellbeing for the sake of productivity. Or do we?\n\nRecently, I've been exploring some of the latest fitness trends that are designed specifically with busy professionals like us in mind. From high-intensity interval training (HIIT) to mobile apps that track your every move, there's never been a better time to get fit on-the-go.\n\nOne trend that's really caught my attention is the rise of \"micro-workouts\". Gone are the days of dedicating hours to the gym - now, we're talking about squeezing in 10-minute bursts of exercise wherever and whenever possible. And I have to say, it's a game-changer.\n\nI recently tried out a micro-workout app that promised to give me a full-body workout in just 10 minutes. Sounds too good to be true? Trust me, it's not. The app took me through a series of quick, intense exercises - from burpees to squats and lunges. And despite my initial reservations (hello, I'm not exactly the fitness type!), I found myself getting hooked.\n\nThe benefits were clear: not only was I fitting in exercise that I wouldn't have had time for otherwise, but I was also saving money on gym memberships and avoiding the dreaded \"gym anxiety\" that often comes with working out in a group setting. And let's be real - who doesn't love the feeling of being able to tick off a whole hour of exercise from their schedule?\n\nOf course, not everyone is sold on micro-workouts. Some argue that they're too short to be effective, or that they don't provide enough challenge for those looking to push themselves further. And I get it - as someone who's always on the lookout for new ways to stay active, I was initially skeptical myself.\n\nBut here's the thing: while micro-workouts may not be suitable for everyone, they're a great starting point for those of us who are just getting back into exercise (or trying to get started in the first place). And with so many different types of workouts and apps available, it's easy to find something that suits your style and schedule.\n\nAnother trend that's really resonating with me is the rise of \"mindful movement\". Gone are the days of pounding the pavement or pushing ourselves through grueling strength training sessions. Now, we're talking about exercise as a way to connect with our bodies and calm our minds.\n\nI recently tried out a yoga class that focused specifically on mindful movement - and I was blown away by how transformative it was. Not only did I feel more relaxed and centered after just one session, but I also noticed a significant reduction in stress levels over the course of the week.\n\nOf course, as someone who's always on-the-go, it can be tough to prioritize self-care (let alone find time for yoga!). But here's the thing: mindful movement isn't just about finding time for exercise - it's about incorporating mindfulness into every aspect of your life.\n\nSo how do you make mindful movement a part of your daily routine? For me, it's all about starting small. Whether it's taking a few deep breaths before a meeting or stepping outside for some fresh air during lunch, I've found that even the smallest moments of mindfulness can make a big difference.\n\nAs busy professionals, we often put our own needs last - but it's time to turn that around. By prioritizing fitness and wellbeing, we're not just improving our physical health - we're also boosting our mental resilience and productivity.\n\nSo go ahead, take a deep breath (or three). Get moving - even if it's just for 10 minutes. And remember: fitness doesn't have to be a chore - it can be a chance to connect with your body, calm your mind, and start living the life you truly want.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the author, what is one of the benefits of micro-workouts?",
+      "options": {
+        "A": "They are more cost-effective than traditional gym memberships",
+        "B": "They can be done anywhere, without any special equipment",
+        "C": "They allow individuals to fit in exercise that they wouldn't have had time for otherwise",
+        "D": "They are only suitable for people who already regularly engage in strenuous physical activity"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the author mean by \"gym anxiety\" in this context?",
+      "options": {
+        "A": "Fear of getting injured while working out",
+        "B": "Anxiety about not being able to afford a gym membership",
+        "C": "Apprehension about exercising in front of others in a group setting",
+        "D": "Dislike for the smell of sweat and towels at the gym"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, how many minutes is a typical \"micro-workout\"?",
+      "options": {
+        "A": "30",
+        "B": "10",
+        "C": "20",
+        "D": "5"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The author of this text seems to think that micro-workouts are a good option for busy professionals because they are _______________________.",
+      "options": {
+        "A": "too long",
+        "B": "too expensive",
+        "C": "a great way to fit exercise into their busy schedules",
+        "D": "only suitable for athletes"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"it\" refer to in this sentence?",
+      "options": {
+        "A": "The micro-workout app",
+        "B": "The gym membership",
+        "C": "The series of quick exercises on the micro-workout app",
+        "D": "The feeling of being able to tick off a whole hour of exercise from one's schedule"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the article about fitness trends for busy professionals?",
+      "options": {
+        "A": "The author recommends sticking to traditional gym routines and avoiding new fitness trends.",
+        "B": "Busy professionals can easily fit exercise into their schedules using various mobile apps and micro-workouts.",
+        "C": "Fitness and wellbeing are no longer important priorities for modern professionals.",
+        "D": "New fitness trends such as micro-workouts and mindful movement are too short or ineffective."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "health_wellness"
+}

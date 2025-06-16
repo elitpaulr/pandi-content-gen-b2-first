@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_74",
+  "title": "Unlocking Wealth Without Work: The Science of Side Hustles",
+  "topic": "general",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "The Side Hustle Revolution: How Passive Income is Changing the Game\n\nIn recent years, the concept of a \"side hustle\" has become increasingly popular. For those who may be unfamiliar, a side hustle refers to any part-time business or venture that one pursues in addition to their primary source of income. This can range from freelance writing and graphic design to dog walking and house sitting. The idea behind a side hustle is simple: earn some extra money on the side to supplement your main income.\n\nBut why are side hustles becoming so popular? One reason is the growing desire for financial freedom. With the rise of gig economy jobs and unpredictable salaries, many people are looking for ways to secure their financial futures. By generating additional income through a side hustle, individuals can build up savings, pay off debt, or even retire early.\n\nHowever, not all side hustles are created equal. Some require a significant amount of time and effort, leaving little room for relaxation or personal pursuits. That's where passive income comes in – the holy grail of earning money without actively working for it.\n\nPassive income refers to earnings that are generated through investments, such as stocks, real estate, or peer-to-peer lending. These types of investments typically require an initial outlay of time and money, but once set up, they can continue to generate income with minimal maintenance.\n\nOne popular example of passive income is dividend-paying stocks. By investing in companies that pay dividends, individuals can earn a regular stream of income without having to put in much work. For instance, if you invest $1,000 in a stock that pays 4% annual dividends, you'll receive $40 per year – no strings attached.\n\nAnother example of passive income is creating and selling online courses or ebooks. By producing high-quality content on a topic you're knowledgeable about, you can sell it through platforms like Udemy or Amazon Kindle Direct Publishing. Once created, these digital products can be sold multiple times without requiring any additional work from you.\n\nReal estate investing is another popular way to generate passive income. By renting out a property on Airbnb or investing in a real estate investment trust (REIT), individuals can earn rental income or dividends without directly managing the property.\n\nWhile side hustles and passive income may seem like mutually exclusive concepts, they're actually closely related. Many successful entrepreneurs start by building a side hustle that eventually generates enough revenue to invest in more lucrative opportunities. For example, a freelance writer might use their earnings to invest in dividend-paying stocks or create an online course on writing.\n\nTo get started with passive income, there are several key steps to follow:\n\n1. Identify your strengths and interests: What skills do you have that can be monetized? What topics are you knowledgeable about?\n2. Research investment options: Look into different types of investments, such as stocks, real estate, or peer-to-peer lending.\n3. Create a budget: Determine how much money you can realistically invest in passive income opportunities.\n4. Start small: Don't try to tackle too many projects at once. Begin with one or two investments and gradually build up your portfolio.\n\nIn conclusion, side hustles and passive income are changing the way we think about work and money. By generating additional income through a side hustle or investing in passive income opportunities, individuals can achieve financial freedom and security. Whether you're looking to pay off debt, retire early, or simply enjoy more free time, the possibilities are endless.\n\nAs the side hustle revolution continues to gain momentum, it's clear that the future of work is becoming increasingly flexible. With the rise of digital platforms and online tools, anyone can start a side hustle or invest in passive income opportunities – no matter their background or skill level. So why not take the leap and join the ranks of the financially free? The world is waiting for you.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivates many people to pursue side hustles?",
+      "options": {
+        "A": "They want to have more free time",
+        "B": "They are looking for ways to secure their financial futures and achieve financial freedom",
+        "C": "They enjoy working long hours without a regular income",
+        "D": "They want to retire early but don't know how to plan financially"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"monetized\" mean in the context of this text?",
+      "options": {
+        "A": "To sell a product or service at a loss",
+        "B": "To earn money from something, especially by using one's skills or expertise",
+        "C": "To invest a large sum of money in a venture",
+        "D": "To stop working on a project due to lack of interest"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of investment typically requires an initial outlay of time and money but can continue to generate income with minimal maintenance?",
+      "options": {
+        "A": "Peer-to-peer lending",
+        "B": "Dividend-paying stocks",
+        "C": "Real estate investing",
+        "D": "Creating and selling online courses or ebooks"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards people who want to achieve financial freedom through side hustles and passive income?",
+      "options": {
+        "A": "The author thinks it's a get-rich-quick scheme and most people will fail.",
+        "B": "The author believes that achieving financial freedom through side hustles and passive income requires hard work and dedication.",
+        "C": "The author is skeptical about the idea of generating additional income without actively working for it.",
+        "D": "The author encourages readers to take risks and invest in themselves to achieve financial independence."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the holy grail\" refer to in this text?",
+      "options": {
+        "A": "A popular example of passive income",
+        "B": "The ultimate goal of generating financial freedom",
+        "C": "A type of investment that requires a significant amount of time and effort",
+        "D": "An initial outlay of money required for investments"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea behind the increasing popularity of side hustles?",
+      "options": {
+        "A": "To reduce work hours and increase leisure time",
+        "B": "To generate additional income through part-time businesses or ventures",
+        "C": "To invest in passive income opportunities for financial freedom",
+        "D": "To create a full-time business that replaces primary income"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

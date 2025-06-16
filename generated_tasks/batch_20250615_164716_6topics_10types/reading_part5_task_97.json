@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_97",
+  "title": "Unlocking the Secrets of Cryptocurrency: A Beginner's Guide Inside",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sat in front of her computer, Emily's eyes widened as she scrolled through the news feed on her phone. Bitcoin had just hit an all-time high, and she couldn't believe the headlines screaming about its astronomical value. She had heard of cryptocurrency before, but never really understood what it was or how it worked.\n\n\"Hey, kiddo!\" her friend Rachel called out from across the room. \"You hear about bitcoin? It's like, crazy valuable now!\"\n\nEmily nodded enthusiastically. \"Yeah, I just saw the news! What is it, anyway?\"\n\nRachel grinned mischievously. \"Well, let me tell you. Cryptocurrency is a digital or virtual currency that uses cryptography – basically, secret codes – for secure financial transactions.\"\n\nEmily raised an eyebrow. \"Secret codes? Like, how does that work?\"\n\nRachel leaned in, eyes sparkling with excitement. \"Okay, so imagine you're sending money to your friend online. With traditional methods, like PayPal or credit cards, the transaction goes through a middleman – the bank. But with cryptocurrency, the transaction is direct between you and the recipient.\"\n\nEmily's eyes widened as Rachel continued. \"The 'secret codes' are actually complex algorithms that verify transactions and control the creation of new units of currency. It's decentralized, meaning it's not controlled by any government or institution.\"\n\nAs Emily listened intently, Rachel explained how cryptocurrency was created through a process called mining. \"Miners use powerful computers to solve complex math problems, which helps to validate transactions and create new coins,\" she said.\n\nEmily's mind whirled with questions. \"But wait – isn't it like, super complicated? And what about security?\"\n\nRachel chuckled reassuringly. \"It is pretty technical, I won't lie. But the cryptography involved is incredibly secure. Transactions are recorded on a public ledger called a blockchain, which prevents tampering or alteration.\"\n\nEmily's eyes lit up as she grasped the concept. \"Oh, so it's like a digital accounting book!\"\n\nRachel laughed. \"Exactly! And because it's decentralized, anyone with an internet connection can access and verify transactions on the blockchain.\"\n\nAs they delved deeper into the world of cryptocurrency, Emily discovered that there were many types – not just bitcoin. \"You've got Ethereum, Litecoin, Monero...the list goes on,\" Rachel said.\n\nEmily's curiosity grew as she began to understand the underlying principles. She started to see why people were so passionate about cryptocurrency – it was like a digital revolution, pushing the boundaries of traditional finance and giving individuals more control over their money.\n\nAs they wrapped up their conversation, Emily felt a sense of excitement wash over her. \"Rachel, I think I get it now,\" she said, beaming. \"It's not just about getting rich quick – it's about being part of something new and innovative.\"\n\nRachel grinned back at her friend. \"Exactly! And the best part is, anyone can join in on the action. You don't need to be a tech genius or an investor to get started with cryptocurrency.\"\n\nAs Emily closed her laptop and leaned back in her chair, she felt a sense of accomplishment. She had taken the first step into the world of cryptocurrency – and it was only the beginning.\n\nIn fact, according to Rachel, the best way to learn about cryptocurrency was to dive right in and start using it. \"You can buy small amounts of currency with real money, like dollars or euros,\" she explained. \"It's called a 'wallet,' and you can store your coins there.\"\n\nEmily nodded enthusiastically as she opened her laptop again. She had always been hesitant to try new things online, but something about cryptocurrency felt different – it was like being part of a community that was pushing the boundaries of what was possible.\n\nAs she began to explore the world of cryptocurrency, Emily realized that it wasn't just about money or finance – it was about innovation and disruption. And for her, that was incredibly exciting.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to Rachel, what is the best way to learn about cryptocurrency?",
+      "options": {
+        "A": "Reading books on the subject",
+        "B": "Attending lectures by experts",
+        "C": "Diving right in and starting to use it",
+        "D": "Joining a online forum discussion group"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Rachel mean by \"decentralized\" when explaining how cryptocurrency works?",
+      "options": {
+        "A": "It is controlled by a single government or institution",
+        "B": "Transactions are recorded on a public ledger called a blockchain",
+        "C": "The process of creating new units of currency is handled by a central authority",
+        "D": "The 'secret codes' used for secure financial transactions are stored in a single location"
+      },
+      "correct_answer": "D",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is used to verify transactions and control the creation of new units of currency in cryptocurrency?",
+      "options": {
+        "A": "A middleman",
+        "B": "Complex algorithms",
+        "C": "Traditional methods like PayPal or credit cards",
+        "D": "Governments or institutions"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author's attitude towards cryptocurrency suggest?",
+      "options": {
+        "A": "She thinks it's a fad that will soon disappear.",
+        "B": "She is enthusiastic and sees it as a digital revolution that can benefit individuals.",
+        "C": "She believes it's too complicated for ordinary people to understand.",
+        "D": "She thinks it's only useful for tech-savvy investors."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Rachel refer to when she says \"the transaction goes through a middleman – the bank\"?",
+      "options": {
+        "A": "A website where people can buy cryptocurrency",
+        "B": "The process of solving complex math problems to validate transactions",
+        "C": "A traditional method of sending money online, such as PayPal or credit cards",
+        "D": "A type of digital currency, like Bitcoin or Ethereum"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text?",
+      "options": {
+        "A": "The benefits of investing in cryptocurrency",
+        "B": "A beginner's guide to understanding how cryptocurrency works",
+        "C": "The history and evolution of bitcoin",
+        "D": "How to make a profit from online trading"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_88",
+  "title": "10 Side Hustles That Can Make You Rich While You Sleep",
+  "topic": "general",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "**Unlocking Financial Freedom: The Power of Side Hustles and Passive Income**\n\nIn today's fast-paced world, making ends meet can be a daunting task. Many people struggle to balance their full-time jobs with the expenses of everyday life. However, there is a way to break free from financial stress and build wealth without sacrificing too much time or energy: side hustles and passive income.\n\n**What are Side Hustles?**\n\nA side hustle is a part-time job or business that you start in addition to your primary source of income. It's an opportunity to earn extra money, pursue your passions, and develop new skills. With the rise of the gig economy, there are countless ways to monetize your time, from freelancing on platforms like Upwork or Fiverr, to driving for Uber or Lyft.\n\n**The Benefits of Side Hustles**\n\nSide hustles offer numerous benefits, including:\n\n* Extra income: Supplementing your primary income can help you pay off debt, build savings, and achieve financial goals.\n* Skill development: Pursuing a side hustle requires learning new skills, which can enhance your career prospects and earning potential.\n* Flexibility: Side hustles often provide flexible scheduling, allowing you to balance work and personal responsibilities.\n\n**What is Passive Income?**\n\nPassive income is earnings that require little to no active effort to maintain. It's the ultimate goal of many entrepreneurs and investors: generating wealth without sacrificing too much time or energy. Examples of passive income streams include:\n\n* Dividend-paying stocks\n* Real estate investment trusts (REITs)\n* Peer-to-peer lending\n* Affiliate marketing\n\n**The Power of Passive Income**\n\nPassive income has revolutionized the way people think about money and wealth. By investing in assets that generate passive income, individuals can build a financial safety net and achieve long-term goals without sacrificing too much time or effort.\n\nFor example, let's say you invest $1,000 in a dividend-paying stock with an average annual return of 5%. Over the next year, you'll earn approximately $50 in dividends. As the investment grows, so do your passive income earnings. This creates a snowball effect, where your wealth compounds over time.\n\n**Building a Passive Income Portfolio**\n\nCreating a passive income portfolio requires careful planning and research. Here are some steps to get started:\n\n1. **Diversify**: Spread your investments across different asset classes, such as stocks, bonds, real estate, or commodities.\n2. **Research**: Understand the fees associated with each investment and choose low-cost options whenever possible.\n3. **Set goals**: Define your financial objectives and adjust your portfolio accordingly.\n\n**Conclusion**\n\nSide hustles and passive income offer a powerful combination for achieving financial freedom. By starting a side hustle, you can earn extra money, develop new skills, and build wealth. Meanwhile, investing in passive income streams can help you grow your wealth over time without sacrificing too much time or effort.\n\nRemember, building a successful side hustle or passive income portfolio takes time and patience. However, with the right mindset and strategy, anyone can unlock financial freedom and achieve their goals. So why wait? Start exploring side hustles and passive income opportunities today!\n\n**Take Action**\n\n* Identify your passions and interests to find potential side hustles.\n* Research passive income streams that align with your financial goals.\n* Start small and gradually build your portfolio over time.\n\nBy embracing the power of side hustles and passive income, you can take control of your finances and achieve a more fulfilling life.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to someone's wealth if they invest $1,000 in a dividend-paying stock with an average annual return of 5%?",
+      "options": {
+        "A": "Their wealth will decrease by approximately $50 per year.",
+        "B": "Their passive income earnings will remain constant at $50 per year.",
+        "C": "Their investment will grow, and their passive income earnings will increase.",
+        "D": "They will need to invest more money to maintain the same level of passive income."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"snowball effect\" mean in this context?",
+      "options": {
+        "A": "A sudden increase in expenses",
+        "B": "A gradual growth in wealth over time",
+        "C": "A reduction in debt",
+        "D": "An increase in financial stress"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is an example of a passive income stream mentioned in the text?",
+      "options": {
+        "A": "Renting out a spare room on Airbnb",
+        "B": "Investing in dividend-paying stocks",
+        "C": "Selling handmade crafts online through Etsy",
+        "D": "Working as a freelance graphic designer on Fiverr"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards achieving financial freedom through side hustles and passive income?",
+      "options": {
+        "A": "It requires a lot of time and effort.",
+        "B": "It's a reliable way to build wealth without sacrificing too much time or energy.",
+        "C": "It's only suitable for young people with no financial responsibilities.",
+        "D": "It's not worth the risk and can lead to financial losses."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun 'it' refer to in the following sentence?",
+      "options": {
+        "A": "The gig economy",
+        "B": "Your primary source of income",
+        "C": "Side hustles and passive income",
+        "D": "Financial freedom"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of the text about side hustles and passive income?",
+      "options": {
+        "A": "To describe various types of investments for generating passive income",
+        "B": "To explain how to create a successful side hustle and achieve financial freedom",
+        "C": "To discuss the benefits of diversifying one's investments in a portfolio",
+        "D": "To show that making ends meet can be a daunting task and provide solutions to break free from financial stress"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

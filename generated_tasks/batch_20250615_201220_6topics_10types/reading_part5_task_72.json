@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_72",
+  "title": "Unlock Your Financial Freedom: Top Side Hustles for Passive Income",
+  "topic": "general",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember when I first started exploring the world of side hustles and passive income. At that time, I was stuck in a 9-to-5 job with barely enough money to cover my expenses, let alone save for the future. But something sparked within me – the desire to break free from the monotony of daily work and create a life where I had more freedom and financial security.\n\nFast forward to today, I've discovered that side hustles and passive income are not just buzzwords or pipe dreams, but a reality that anyone can achieve with dedication and hard work. And it's not just about making extra money; it's about building multiple streams of income that can sustain you through life's ups and downs.\n\nSo what exactly are side hustles? In my opinion, they're anything that brings in extra cash outside of your main job. They could be freelancing, selling products online, driving for a ride-sharing service, or even renting out a spare room on Airbnb. The possibilities are endless! And the best part is, you can do them at any time and from anywhere – as long as you have a laptop and an internet connection.\n\nOne of my favorite side hustles is writing articles for clients online. I discovered this opportunity through Upwork, a platform that connects freelancers with businesses looking for talent. It's been a game-changer for me, not just financially but also creatively. Not only do I get to write about topics I'm passionate about, but I also have the flexibility to choose when and how much I work.\n\nOf course, side hustles are great, but they're not always passive income-generating machines. That's where the concept of passive income comes in – the idea that your money works for you while you sleep (or travel, or relax, or do whatever you want). Passive income can take many forms: investments, dividend-paying stocks, peer-to-peer lending, and even creating an online course or ebook.\n\nOne example of a passive income stream I've built is through affiliate marketing. Essentially, I promote products or services from other companies on my website or social media channels in exchange for a commission when someone buys them. It's not a get-rich-quick scheme, but it has been surprisingly lucrative over time – especially since I can reach thousands of potential customers with just one blog post.\n\nBut what about the naysayers who claim that building passive income is too hard or requires too much upfront work? I understand their concerns. In reality, creating successful passive income streams does require effort and patience. However, it's worth noting that many popular side hustles today are based on platforms and tools that make things easier for us – like website builders, social media automation software, and online marketplaces.\n\nTo give you a better idea of the potential, let me share some numbers: I've been experimenting with Amazon Kindle Direct Publishing (KDP), which allows authors to self-publish ebooks directly to Amazon. One ebook I published last year generated over $1,000 in sales within its first month – all while I was traveling in Europe and didn't have to lift a finger.\n\nOf course, the key is to start small and be consistent. You don't need to create a million-dollar product or build a massive following on social media overnight. What's more important is to take that first step and experiment with different side hustles until you find what works for you.\n\nLooking back, I realize now that breaking free from the monotony of daily work wasn't just about making more money; it was also about building a life where I could pursue my passions without being tied down. And for anyone who's feeling stuck or wanting to break free from financial stress, I say: don't be afraid to try something new – whether it's freelancing, investing in stocks, or creating an online course.\n\nThe world of side hustles and passive income is vast and exciting, full of endless possibilities waiting to be explored. Who knows what lies ahead?",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated the writer to start exploring the world of side hustles and passive income?",
+      "options": {
+        "A": "He wanted to save money for retirement.",
+        "B": "He was stuck in a 9-to-5 job with barely enough money to cover his expenses.",
+        "C": "He was looking for a way to spend more time at home.",
+        "D": "He had too much free time on his hands."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the author mean by \"break free from the monotony of daily work\"?",
+      "options": {
+        "A": "To leave a job that pays well but has little personal satisfaction",
+        "B": "To escape the routine and structure of a traditional 9-to-5 job",
+        "C": "To stop working altogether and rely on others for financial support",
+        "D": "To switch to a job with more flexible hours but less responsibility"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What platform did I use to find a writing opportunity as a freelancer?",
+      "options": {
+        "A": "Upwork",
+        "B": "Fiverr",
+        "C": "Freelancer",
+        "D": "LinkedIn"
+      },
+      "correct_answer": "A",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards building passive income streams?",
+      "options": {
+        "A": "It requires no effort or patience",
+        "B": "It is a difficult and time-consuming process that only suits experienced individuals",
+        "C": "It demands dedication and hard work, but can be achieved by anyone with persistence",
+        "D": "It is a get-rich-quick scheme that brings instant wealth"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"the idea that your money works for you while you sleep\" refer to?",
+      "options": {
+        "A": "A common myth about side hustles",
+        "B": "The concept of passive income",
+        "C": "A type of investment strategy",
+        "D": "A goal of achieving financial freedom"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about the author's experiences with side hustles and passive income?",
+      "options": {
+        "A": "The author provides a step-by-step guide on how to create successful passive income streams.",
+        "B": "The author shares his journey from being financially stressed to achieving financial freedom through side hustles and passive income.",
+        "C": "The author criticizes the concept of passive income as unrealistic for most people.",
+        "D": "The author focuses solely on investing in stocks as a way to achieve passive income."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

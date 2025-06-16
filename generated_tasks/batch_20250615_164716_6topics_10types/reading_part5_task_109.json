@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_109",
+  "title": "Unlocking the World of Cryptocurrency: A Beginner's Step-by-Step Guide",
+  "topic": "general",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "As technology continues to advance at an unprecedented pace, new innovations are emerging that are changing the way we live, work, and interact with one another. One of these innovations is cryptocurrency, a digital or virtual currency that uses cryptography for security and is decentralized, meaning it's not controlled by any government or financial institution.\n\nFor those who are unfamiliar with cryptocurrency, the concept can seem daunting and even intimidating. However, it's easier to understand than you might think, and with a little knowledge, anyone can get started. In this article, we'll take a closer look at what cryptocurrency is, how it works, and why it's becoming increasingly popular.\n\nAt its core, cryptocurrency is a digital or virtual currency that uses cryptography for security and is decentralized, meaning it's not controlled by any government or financial institution. The most well-known type of cryptocurrency is Bitcoin, which was first introduced in 2009 by an individual or group using the pseudonym Satoshi Nakamoto. Since then, numerous other types of cryptocurrencies have emerged, including Ethereum, Litecoin, and Monero, to name just a few.\n\nSo how does cryptocurrency work? It's actually quite simple. When you want to send money to someone using cryptocurrency, you create a unique code called a \"private key.\" This private key is used to unlock your digital wallet, which stores all of your cryptocurrencies. You can then use the private key to transfer funds to another person's digital wallet.\n\nOne of the most significant advantages of cryptocurrency is its security. Because it uses cryptography for security, transactions are virtually impossible to hack or counterfeit. Additionally, because cryptocurrency is decentralized, there's no need for a third-party intermediary like a bank to facilitate transactions. This not only saves time but also reduces fees associated with traditional payment methods.\n\nAnother benefit of cryptocurrency is its global reach. Unlike traditional currencies, which are often tied to specific countries or regions, cryptocurrency can be sent and received anywhere in the world where an internet connection exists. This makes it an ideal option for international businesses and individuals who need to make cross-border payments.\n\nBut what about the value of cryptocurrency? Like traditional currencies, the value of cryptocurrency can fluctuate over time. However, unlike traditional currencies, which are often pegged to a specific commodity or currency, the value of cryptocurrency is determined by supply and demand in the market. This means that the value of cryptocurrency can be highly volatile.\n\nDespite the potential risks associated with investing in cryptocurrency, many people are finding it to be a lucrative opportunity. Some investors are using cryptocurrency as a way to diversify their portfolios and reduce their reliance on traditional assets like stocks or real estate. Others are using cryptocurrency as a way to send money to family members or friends who live abroad.\n\nAs the popularity of cryptocurrency continues to grow, more and more businesses are starting to accept it as payment. In fact, some companies are even offering employees the option to receive part or all of their salary in cryptocurrency. This is not only a way for employees to benefit from the potential gains of cryptocurrency but also a way for employers to attract top talent and stay ahead of the curve.\n\nIn conclusion, cryptocurrency may seem like a complex and intimidating concept at first, but it's actually quite simple to understand. With its security, global reach, and potential for investment returns, it's no wonder why more and more people are turning to cryptocurrency as a way to send money, make investments, or even receive their salary.\n\nWhether you're an individual looking to invest in cryptocurrency or a business owner considering accepting it as payment, there's never been a better time to learn about this exciting new innovation. So take the first step today and discover the world of cryptocurrency for yourself.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the use of cryptocurrency by businesses that are starting to accept it as payment?",
+      "options": {
+        "A": "It is mainly used by small businesses due to its low cost.",
+        "B": "It is becoming a standard practice for all companies to offer employees the option to receive part or all of their salary in cryptocurrency.",
+        "C": "Some companies are offering employees the option to receive part or all of their salary in cryptocurrency to attract top talent and stay ahead of the competition.",
+        "D": "It is only used by businesses that have international clients."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"decentralized\" mean in the context of cryptocurrency?",
+      "options": {
+        "A": "Controlled by a single government or financial institution",
+        "B": "Regulated by a third-party intermediary like a bank",
+        "C": "Not controlled by any government or financial institution",
+        "D": "Limited to use within specific countries or regions"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is used to unlock your digital wallet in order to transfer funds with cryptocurrency?",
+      "options": {
+        "A": "A public key",
+        "B": "A private key",
+        "C": "Your username and password",
+        "D": "A credit card number"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards people who are unfamiliar with cryptocurrency?",
+      "options": {
+        "A": "The author thinks that they are too stupid to understand it.",
+        "B": "The author believes that they will quickly grasp the concept once they learn about it.",
+        "C": "The author thinks that they are not interested in learning about it.",
+        "D": "The author considers them to be experts in financial matters."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who is credited with introducing Bitcoin, the most well-known type of cryptocurrency?",
+      "options": {
+        "A": "A team of experts from a leading financial institution",
+        "B": "An individual or group using the pseudonym Satoshi Nakamoto",
+        "C": "The founder of Ethereum",
+        "D": "A government official tasked with developing new currencies"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this article about cryptocurrency?",
+      "options": {
+        "A": "To explain how to invest in cryptocurrency",
+        "B": "To introduce readers to the concept of cryptocurrency and its benefits",
+        "C": "To discuss the potential risks associated with using cryptocurrency",
+        "D": "To compare the advantages and disadvantages of traditional currencies and cryptocurrencies"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

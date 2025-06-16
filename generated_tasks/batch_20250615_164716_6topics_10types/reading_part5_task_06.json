@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_06",
+  "title": "Money Savvy from 18 to Success: The Financial Guide You Need Now!",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**Financial Literacy: A Must-Have Skill for Young Adults**\n\nAs the world becomes increasingly complex, one thing remains constant – money. Whether you're living paycheck to paycheck or trying to save for a big purchase, financial literacy is essential for navigating the ups and downs of adulthood. However, many young adults lack this crucial skill, leaving them vulnerable to financial pitfalls.\n\nA recent survey conducted by a leading financial institution revealed that nearly 60% of millennials (born between 1981 and 1996) have no idea how to manage their finances effectively. This staggering statistic highlights the need for better financial education in schools and beyond.\n\nSo, what is financial literacy? In simple terms, it's the ability to make informed decisions about money management, investing, and saving. It involves understanding basic concepts like budgeting, credit scores, and compound interest. Financial literacy also encompasses smart spending habits, avoiding debt traps, and creating a safety net for unexpected expenses.\n\nFor young adults, developing financial literacy is more than just a necessity – it's a matter of survival in today's economy. With increasing student loans, rent prices, and living costs, many struggle to make ends meet. A recent report found that over 40% of young adults in the United States are carrying some form of debt. This can lead to financial stress, anxiety, and even mental health issues.\n\nSo, how do you become financially literate? The good news is that it's not rocket science. Start by setting clear financial goals – whether it's saving for a down payment on a house or paying off student loans. Next, track your expenses using a budgeting app or spreadsheet to identify areas where you can cut back.\n\nUnderstanding credit scores is also crucial. A good credit score can help you secure lower interest rates on loans and credit cards, while a bad one can lead to higher fees and penalties. Make timely payments, keep credit utilization low, and avoid applying for multiple credit products in a short period.\n\nInvesting wisely is another essential aspect of financial literacy. Compound interest works in your favor when you save regularly, but it can also be a double-edged sword if you're not careful. Be cautious of get-rich-quick schemes and focus on long-term growth.\n\nOnline resources are plentiful for those looking to improve their financial knowledge. Websites like NerdWallet, The Balance, and Investopedia offer comprehensive guides, calculators, and expert advice. Mobile apps like Mint, You Need a Budget (YNAB), and Personal Capital help you track expenses, create budgets, and set financial goals.\n\nFinancial literacy is not just about money – it's also about independence and confidence. By taking control of your finances, you're empowered to make informed decisions about your life. This includes being able to prioritize needs over wants, avoid unnecessary expenses, and plan for the future.\n\nIn conclusion, financial literacy is a vital skill that young adults cannot afford to ignore. By understanding basic concepts, setting clear goals, and avoiding debt traps, you'll be well on your way to achieving financial stability and security. As one expert notes, \"Financial literacy is not just about money – it's about freedom.\"\n\nSo, take the first step today and start building a brighter financial future for yourself. Your wallet (and mental health) will thank you.\n\n**About the Author:** Sarah Johnson is a financial journalist with over five years of experience writing on personal finance, investing, and entrepreneurship. She holds a degree in Economics from New York University and has contributed to several leading publications.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what percentage of millennials have no idea how to manage their finances effectively?",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "60%",
+        "D": "80%"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"compound interest\" mean in the context of saving money?",
+      "options": {
+        "A": "A type of loan that charges high fees and penalties",
+        "B": "The ability to save a fixed amount regularly and earn extra money over time",
+        "C": "A way of investing in stocks or bonds to generate quick returns",
+        "D": "A bank charge for overdrafts or late payments"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of millennials have no idea how to manage their finances effectively?",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "Nearly 60%",
+        "D": "Over 80%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what does the author think is the main benefit of financial literacy for young adults?",
+      "options": {
+        "A": "It will give them more money to spend on luxuries",
+        "B": "It will help them make informed decisions about their life and achieve independence",
+        "C": "It will only reduce their student loans",
+        "D": "It is not necessary in today's economy"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"financial literacy\" encompass, according to the text?",
+      "options": {
+        "A": "Understanding basic concepts like budgeting and credit scores",
+        "B": "Smart spending habits, avoiding debt traps, and creating a safety net for unexpected expenses",
+        "C": "Making timely payments and keeping credit utilization low",
+        "D": "Prioritizing needs over wants and planning for the future"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about financial literacy for young adults?",
+      "options": {
+        "A": "Financial literacy is only necessary for those who are struggling financially.",
+        "B": "Developing financial literacy is a crucial skill that can help young adults achieve independence and confidence.",
+        "C": "Young adults should avoid managing their finances altogether to reduce stress and anxiety.",
+        "D": "Financial literacy is not important for millennials, as they will always have a steady income."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

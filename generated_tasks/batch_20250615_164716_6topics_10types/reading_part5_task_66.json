@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_66",
+  "title": "Make Money While You Sleep: Unlocking the Secrets of Passive Income",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "Side Hustles and Passive Income: The Secret to Financial Freedom?\n\nFor many people, the idea of having extra money beyond their regular paycheck is a dream come true. But what if you could have that financial freedom without having to work extra hours or sacrifice your precious free time? Enter the world of side hustles and passive income.\n\nA side hustle is essentially an additional job or business that you start outside of your main career. It can be anything from freelancing, selling products online, driving for a ride-sharing service, or even renting out a spare room on Airbnb. The idea behind a side hustle is to earn extra money in your free time, which can then be used to pay off debt, save for the future, or simply enjoy some well-deserved relaxation.\n\nPassive income, on the other hand, is earnings that require little to no effort to maintain once they're set up. Think of it as a steady stream of money that keeps flowing in without you having to lift a finger. Examples of passive income include renting out property, investing in dividend-paying stocks, or creating and selling digital products.\n\nSo why are side hustles and passive income so important? For one thing, they can provide an emergency fund or a safety net for unexpected expenses. With the rising cost of living and decreasing job security, having some extra money on hand can be a lifesaver.\n\nBut beyond just financial stability, side hustles and passive income can also bring a sense of purpose and fulfillment. Many people who start a side hustle do so because they're passionate about something outside of their main career. For example, a software engineer might moonlight as a photographer or a writer might sell handmade crafts online.\n\nOne of the biggest benefits of side hustles is that they can be tailored to your interests and skills. So whether you're a creative type or a numbers whiz, there's likely a side hustle out there for you.\n\nTake Sarah, for instance, who started selling her hand-knitted scarves on Etsy while working full-time as an accountant. With the help of some online tutorials and a few hundred dollars in startup costs, she was able to turn her hobby into a profitable business that now earns her thousands of dollars per month.\n\nOr consider Tom, a software engineer who started creating and selling online courses teaching programming skills. After investing just a few hours of his time upfront, he's been earning a steady stream of passive income from course sales without having to lift a finger.\n\nOf course, there are also some potential pitfalls to consider when it comes to side hustles and passive income. For one thing, they can be time-consuming to set up and require a significant investment of money or effort upfront.\n\nAdditionally, there's always the risk that your side hustle might not take off as planned, leaving you with a financial loss rather than a gain. And then there are the tax implications – which can be complex and confusing, especially for those who aren't familiar with them.\n\nDespite these potential risks, many experts believe that having multiple streams of income is key to achieving long-term financial stability and security. By diversifying your income streams through side hustles and passive income, you'll not only reduce your reliance on any one job or source of income but also increase your chances of achieving true financial freedom.\n\nAs Tom puts it, \"Having a side hustle has been a game-changer for me. Not only have I been able to pay off debt and save for the future, but I've also gained a sense of purpose and fulfillment that's hard to find in my main career.\"\n\nWith the rise of the gig economy and increasing demand for digital products, there's never been a better time to explore side hustles and passive income. Whether you're looking to supplement your income or achieve true financial freedom, the possibilities are endless – and with a little creativity and effort, you can start building multiple streams of income today.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is one of the main reasons why people who start side hustles might not have achieved their desired outcome?",
+      "options": {
+        "A": "They didn't invest enough time or money upfront",
+        "B": "Their side hustle wasn't tailored to their interests and skills",
+        "C": "The tax implications were too complex to understand",
+        "D": "Their side hustle didn't take off as planned, leaving them with a financial loss"
+      },
+      "correct_answer": "D",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"diversifying\" mean in this context?",
+      "options": {
+        "A": "To reduce the number of different sources of income",
+        "B": "To increase the amount of money earned from one source",
+        "C": "To spread your income across multiple streams to reduce reliance on any one job or source",
+        "D": "To earn a higher salary from your main career"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what is an example of passive income?",
+      "options": {
+        "A": "Renting out a spare room on Airbnb",
+        "B": "Investing in dividend-paying stocks",
+        "C": "Working as a freelance writer",
+        "D": "Selling products online through a ride-sharing service"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards side hustles and passive income as a means to achieve financial stability?",
+      "options": {
+        "A": "They seem too good to be true and are often associated with scams.",
+        "B": "They can provide an opportunity for people to earn extra money without having to sacrifice their free time.",
+        "C": "They are only suitable for wealthy individuals who have already achieved financial success.",
+        "D": "They are a waste of time and effort, as they rarely generate any significant income."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Tom refer to as \"a game-changer\" for him?",
+      "options": {
+        "A": "His main career",
+        "B": "Having extra money beyond his regular paycheck",
+        "C": "Having a side hustle and earning passive income",
+        "D": "Renting out a spare room on Airbnb"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about side hustles and passive income?",
+      "options": {
+        "A": "Side hustles and passive income are only suitable for people who want to earn extra money quickly.",
+        "B": "Having multiple streams of income through side hustles and passive income can lead to long-term financial stability and security.",
+        "C": "The text focuses on the negative aspects of starting a side hustle, such as time-consuming setup and potential financial loss.",
+        "D": "Side hustles are only for people who have an extra room in their house to rent out."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_49",
+  "title": "Fueling My Fitness Fix: Sports Nutrition in Paradise Found",
+  "topic": "health_and_fitness",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Tokyo, I couldn't help but feel a rush of excitement. Not just because of the vibrant city's neon lights and bustling streets, but also because I was on a mission to uncover the secrets of sports nutrition for amateur athletes. For weeks, I had been researching the best practices and products to fuel performance, and I was eager to put them into action.\n\nMy first stop was the famous Tsukiji Outer Market, where I met with a renowned sports dietitian named Yumi. Over steaming bowls of ramen, she shared with me the intricacies of carb loading and its importance for endurance athletes like marathon runners. \"The key is to eat complex carbs two to three days before competition,\" she explained, her hands gesturing animatedly as she spoke.\n\nAs we navigated the crowded stalls, I was struck by the sheer variety of options available to fuel performance. From traditional Japanese rice and noodles to Western-style energy bars and protein powders, there seemed to be no shortage of choices for the modern athlete. Yumi pointed out a stall selling bespoke sports smoothies made with locally-sourced ingredients like green tea and yuzu fruit.\n\nThe next day, I found myself at the Tokyo University of Science, where Dr. Nakamura was kind enough to share his expertise on protein supplementation. As we sat in his laboratory, surrounded by rows of beakers and test tubes, he explained that \"the best protein for athletes is one that's easily absorbed by the body.\" He recommended a combination of whey and casein protein, citing studies that showed improved muscle recovery and growth.\n\nAs I traveled through Japan, I began to notice a cultural obsession with sports nutrition. From the elaborate meal plans prepared for top athletes to the shelves upon shelves of specialized supplements at health food stores, it was clear that this was a nation deeply invested in performance fueling. And yet, as I spoke with amateur athletes and coaches alike, I sensed a growing concern about the impact of modern diets on mental and physical well-being.\n\nIn a small café near the Shibuya Crossing, I met a young distance runner named Kenji who shared with me his struggles with disordered eating. \"I used to think that if I just ate less, I'd be faster,\" he admitted, his voice barely above a whisper. But after months of restrictive dieting and intense training, Kenji had begun to experience debilitating stomach cramps, fatigue, and anxiety.\n\nAs I listened to Kenji's story, I couldn't help but feel a sense of unease about the sports nutrition industry's emphasis on quick fixes and magic bullet supplements. Was it possible that in our quest for competitive edge, we were sacrificing our very health? Yumi's words echoed in my mind: \"The best fuel is one that nourishes both body and soul.\"\n\nIn the end, my journey through Japan taught me a valuable lesson about sports nutrition for amateur athletes: that true performance comes not from fancy products or fad diets, but from a deep understanding of our individual needs and limitations. Whether we're training for a marathon or simply trying to live a healthier lifestyle, it's time to put aside the quick fixes and focus on building strong, balanced bodies – both inside and out.\n\nAs I boarded my flight back home, I felt grateful for the experiences and insights I had gained in Tokyo. The city may be famous for its neon lights and bustling streets, but it was the quiet moments with athletes like Kenji that truly left an impression on me. As I gazed out at the clouds drifting lazily across the sky, I knew that my journey was far from over – and that sports nutrition would remain a vital part of my travels for years to come.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Yumi's approach to carb loading based on her explanation to the writer?",
+      "options": {
+        "A": "She recommends eating complex carbs only on the day of competition.",
+        "B": "The key is to eat simple carbs two to three days before competition.",
+        "C": "She emphasizes the importance of individualizing carb intake for each athlete.",
+        "D": "The best time to consume complex carbs is immediately after exercise."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Yumi mean by \"the best fuel is one that nourishes both body and soul\"?",
+      "options": {
+        "A": "The most expensive energy bar available on the market",
+        "B": "A balanced diet that takes into account physical and mental well-being",
+        "C": "A specific type of protein powder recommended for athletes",
+        "D": "A meal plan consisting only of Japanese traditional dishes"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Yumi, what is the key to carb loading for endurance athletes like marathon runners?",
+      "options": {
+        "A": "To eat simple carbs one day before competition",
+        "B": "To eat complex carbs two to three days before competition",
+        "C": "To avoid eating carbohydrates altogether during training",
+        "D": "To consume protein shakes with every meal"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author's attitude towards the sports nutrition industry suggest about its practices?",
+      "options": {
+        "A": "They are too focused on individual results, rather than overall well-being.",
+        "B": "They prioritize quick fixes over long-term health benefits.",
+        "C": "They provide adequate guidance for amateur athletes to fuel their performance.",
+        "D": "They have a positive impact on mental and physical health."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Yumi's phrase \"The best fuel is one that nourishes both body and soul\" refer to?",
+      "options": {
+        "A": "Her own personal experience with restrictive dieting",
+        "B": "The importance of eating complex carbs two to three days before competition",
+        "C": "The impact of modern diets on mental and physical well-being",
+        "D": "The relationship between sports nutrition and overall health and wellness"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the author's account of their trip to Japan?",
+      "options": {
+        "A": "The author discovers new products and practices in Japanese sports nutrition.",
+        "B": "Amateur athletes should focus on traditional diets and avoid modern supplements.",
+        "C": "Sports nutrition plays a crucial role in achieving competitive edge, but also has negative consequences for mental and physical well-being if not balanced correctly.",
+        "D": "The author's journey to Japan is about the cultural aspects of Japanese food."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

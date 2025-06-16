@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_09",
+  "title": "Thrill Seekers Unite: Exploring the World's Most Daring Adventure Destinations",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stood at the edge of the Grand Canyon, gazing out at the endless expanse of rugged terrain below, I couldn't help but feel a thrill of excitement coursing through my veins. I was about to embark on one of the most extreme sports adventures of my life: BASE jumping.\n\nFor those who don't know, BASE jumping involves leaping from a fixed structure (building, antenna, span, or earth) with a parachute, and it's an activity that requires both skill and sheer courage. As I geared up alongside a group of seasoned jumpers, I couldn't help but feel a twinge of nervousness. What was I getting myself into?\n\nThe day began at dawn, as we made our way to the designated launch site near the Colorado River. The air was crisp, with a hint of humidity that hinted at the storms brewing in the distance. Our instructor, a grizzled veteran with over 1,000 jumps under his belt, gave us a quick rundown on safety procedures and emergency protocols.\n\nAs we stood at the edge of the cliff, the wind whipping our faces, I felt my heart racing like a jackhammer. This was it – the moment of truth. With a deep breath, I nodded to my instructor, and together we launched ourselves off the edge of the canyon.\n\nThe freefall was exhilarating, with the ground rushing up to meet me at an alarming rate. But before I knew it, my parachute deployed, and I found myself suspended in mid-air, taking in the breathtaking panorama below. The Grand Canyon stretched out like a vast, geological artwork, with towering plateaus and deep gorges carved by the relentless force of water.\n\nAs I floated gently towards the ground, I couldn't help but feel a sense of awe at the sheer beauty of this natural wonder. And yet, as I reflected on my experience, I realized that it was more than just a thrill ride – it was an exercise in risk-taking.\n\nBASE jumping requires you to confront your deepest fears and push beyond the boundaries of what's considered \"safe.\" It demands trust in oneself and others, and a willingness to surrender to the unknown. In this sense, it's not unlike traveling itself – both involve embracing uncertainty and trusting that things will work out for the best.\n\nAs I made my way back to our campsite, I couldn't help but think of other extreme sports enthusiasts who had pushed their limits in the pursuit of adventure. From skydivers and rock climbers to big wave surfers and deep-sea divers, each one has faced – and overcome – their own unique set of challenges.\n\nOne thing that struck me about these individuals was their sense of community. Despite the risks they take, they're united by a shared passion for exploration and a desire to push beyond the limits of human potential. It's an attitude that I've encountered in many corners of the world – from the fearless mountain climbers of Nepal to the free-spirited surfers of Bali.\n\nOf course, there are also those who would caution against such activities – citing the risks as too great and the rewards as insufficient. But for me, it's precisely this sense of risk-taking that makes extreme sports so compelling. It's not just about the thrill of adventure; it's about confronting our deepest fears and emerging stronger on the other side.\n\nAs I settled into my campsite that night, watching the stars twinkle overhead, I felt grateful for the experience – and a little wiser for having faced my own limits head-on. Whether you're an adrenaline junkie or just someone who appreciates the beauty of nature, there's something to be said for stepping out of your comfort zone and embracing the unknown.\n\nIn the end, it was less about the destination than the journey itself – the people I met along the way, the lessons I learned, and the memories I created. As I drifted off to sleep, lulled by the sound of crickets and the stars shining brightly above, I knew that this experience would stay with me forever – a reminder of the power of risk-taking and the limits of human potential.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was the author's main motivation for trying BASE jumping?",
+      "options": {
+        "A": "To escape the stress of everyday life",
+        "B": "To confront their deepest fears and push beyond their comfort zone",
+        "C": "To experience the thrill of adventure without taking any risks",
+        "D": "To impress their friends with a daredevil stunt"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"embracing uncertainty\" mean in this context?",
+      "options": {
+        "A": "To have complete control over every situation",
+        "B": "To trust that things will work out for the best, even when you don't know what's going to happen",
+        "C": "To avoid taking risks and play it safe",
+        "D": "To ignore the advice of experienced people"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many jumps did our instructor have under his belt?",
+      "options": {
+        "A": "500",
+        "B": "1,000",
+        "C": "2,000",
+        "D": "5,000"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the author, what is the main reason why extreme sports are so compelling?",
+      "options": {
+        "A": "The thrill of adventure is not enough; it's also about pushing oneself beyond physical limitations.",
+        "B": "Extreme sports are only for those who want to show off and gain attention from others.",
+        "C": "It's all about the sense of community and shared passion among extreme sports enthusiasts.",
+        "D": "The main reason is that they allow people to confront their deepest fears and emerge stronger on the other side."
+      },
+      "correct_answer": "D",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun \"it\" refer to in the sentence \"It's not just about the thrill of adventure; it's about confronting our deepest fears and emerging stronger on the other side.\"",
+      "options": {
+        "A": "The experience of BASE jumping",
+        "B": "The sense of risk-taking involved in extreme sports",
+        "C": "The rewards of pushing beyond one's limits",
+        "D": "The risks associated with certain activities"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of the text about the author's BASE jumping experience?",
+      "options": {
+        "A": "To describe the technical aspects of BASE jumping",
+        "B": "To compare the thrill of extreme sports with traveling",
+        "C": "To explore the risks and rewards of taking part in adventure activities",
+        "D": "To argue that extreme sports are not worth the risk"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_83",
+  "title": "Unlock Your Freedom: How to Build Multiple Income Streams in Just 30 Days",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "The Art of Side Hustling: Unlocking Passive Income for a Better Life\n\nIn today's fast-paced world, people are constantly seeking ways to improve their financial stability and achieve a better work-life balance. One effective strategy that has gained popularity in recent years is side hustling – making extra money outside of your primary job through various activities, products, or services. When done right, side hustles can not only supplement your income but also create passive streams of revenue that continue to generate earnings even when you're not actively working on them.\n\nThe concept of passive income may seem elusive, but it's more accessible than you think. Imagine waking up each morning knowing that your hard work has earned you a steady flow of money without requiring your direct involvement. This is the promise of side hustling, where you create systems and processes that generate income with minimal effort required from you.\n\nOne popular way to start side hustling is by leveraging online platforms. Websites like Upwork, Freelancer, and Fiverr offer opportunities to monetize your skills in areas such as writing, graphic design, web development, or social media management. You can also create and sell digital products on platforms like Gumroad or Etsy, which allow you to reach a global audience.\n\nAnother lucrative side hustle is renting out a spare room on Airbnb or investing in real estate investment trusts (REITs). This not only generates passive income but also provides an opportunity for tax benefits. For example, the mortgage interest and property taxes paid can be deducted from your taxable income.\n\nHowever, creating successful side hustles requires more than just a good idea; it demands dedication, creativity, and perseverance. To get started, consider the following steps:\n\n1.  **Identify Your Strengths**: Reflect on your skills, expertise, and experience to determine what you can offer as a service or product.\n2.  **Conduct Market Research**: Understand your target audience's needs and preferences to create something that resonates with them.\n3.  **Develop a Business Plan**: Outline your goals, strategies, and financial projections to ensure you're on track to achieving success.\n\nOnce you've set up your side hustle, it's essential to focus on building systems for generating passive income. This can involve investing in assets such as dividend-paying stocks, real estate crowdfunding platforms, or peer-to-peer lending services.\n\nWhile some people view side hustling as a way to escape the monotony of their primary job, others see it as an opportunity to pursue their passions and create something meaningful. By diversifying your income streams and building systems for passive income generation, you can achieve financial security and live life on your own terms.\n\nIn conclusion, side hustles offer a flexible and empowering way to earn extra money and build wealth over time. By identifying your strengths, conducting market research, developing a business plan, and focusing on building passive income systems, you can unlock the full potential of side hustling and start living the life you deserve.\n\nIn today's world, it's not about having just one source of income; it's about creating multiple streams that work together to achieve financial freedom. By embracing the art of side hustling and leveraging passive income strategies, you'll be well on your way to securing a brighter financial future for yourself and your loved ones.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is one key difference between investing in real estate investment trusts (REITs) and creating digital products on platforms like Gumroad or Etsy?",
+      "options": {
+        "A": "REITs require more initial capital, but offer higher returns over time.",
+        "B": "REITs are a way to monetize physical skills, whereas digital products are for non-physical skills.",
+        "C": "Investing in REITs generates passive income through rental properties, whereas creating digital products on platforms like Gumroad or Etsy requires active involvement from the creator.",
+        "D": "REITs allow for tax benefits, but do not provide an opportunity to build a personal brand."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"monetize\" mean in the context of online platforms mentioned in the text?",
+      "options": {
+        "A": "To reduce costs",
+        "B": "To make money from something, especially by using it to sell or advertise products or services",
+        "C": "To increase prices",
+        "D": "To stop using a service or product"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one popular online platform for selling digital products?",
+      "options": {
+        "A": "Upwork",
+        "B": "Gumroad",
+        "C": "Freelancer",
+        "D": "Etsy"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards creating multiple streams of income?",
+      "options": {
+        "A": "It's a risk that can lead to financial instability",
+        "B": "It's a necessary step towards achieving true financial freedom",
+        "C": "It's only suitable for experienced business owners",
+        "D": "It's a waste of time and effort"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"your hard work\" refer to in the text?",
+      "options": {
+        "A": "Your primary job",
+        "B": "The side hustles you create",
+        "C": "The skills you have that can be monetized on online platforms",
+        "D": "The mortgage interest and property taxes paid when renting out a spare room on Airbnb"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this text about side hustles and passive income?",
+      "options": {
+        "A": "To inform readers about the benefits of having a single, stable source of income.",
+        "B": "To provide readers with practical tips on how to create multiple streams of passive income through various side hustling activities.",
+        "C": "To encourage readers to abandon their primary jobs in favor of full-time side hustling.",
+        "D": "To explain why traditional employment is no longer necessary for financial security."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

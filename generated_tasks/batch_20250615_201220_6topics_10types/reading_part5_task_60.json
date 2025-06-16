@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_60",
+  "title": "Make Your Money Matter: The Ultimate Guide to Sustainable Shopping",
+  "topic": "technology",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "Sustainable Shopping and Ethical Consumption: The Future of Consumerism\n\nAs consumers, we are constantly bombarded with advertisements and marketing campaigns urging us to buy, buy, buy. But have you ever stopped to think about the impact of your purchasing decisions on the environment and society? Sustainable shopping and ethical consumption are no longer just buzzwords – they're a necessity for creating a more equitable and environmentally conscious world.\n\nSo, what exactly is sustainable shopping and ethical consumption? Simply put, it's about making choices that minimize harm to people and the planet. This can include choosing products made from renewable resources, supporting fair trade practices, reducing waste, and buying second-hand or recycled items. It's also about being mindful of the social and environmental implications of our purchasing decisions.\n\nOne of the biggest challenges facing consumers today is the sheer volume of information available on sustainable shopping. With so many eco-labels, certifications, and marketing claims vying for our attention, it can be overwhelming to know what to believe. But here's a simple rule of thumb: if an item or product seems too good (or cheap) to be true, it probably is.\n\nLet's start with some basics. When shopping for food, choose locally sourced products whenever possible. Not only do they tend to have lower carbon emissions from transportation, but you're also supporting local farmers and communities. Opt for seasonal produce – not only will it taste better, but you'll also be reducing the demand for out-of-season, resource-intensive farming practices.\n\nWhen it comes to clothing, consider buying second-hand or investing in timeless, high-quality pieces made from sustainable materials. The fashion industry is one of the largest polluters on the planet, with textile waste and water pollution being major concerns. By choosing sustainable fabrics like organic cotton, recycled polyester, or plant-based alternatives, you're reducing your carbon footprint and supporting more environmentally friendly production methods.\n\nOf course, not all eco-friendly products are created equal. Look for certifications like Fairtrade, Organic, or Bluesign – these ensure that producers have met rigorous standards for fair labor practices, environmental sustainability, and human rights. And don't be afraid to question manufacturers about their supply chain and sourcing practices.\n\nBut sustainable shopping isn't just about individual choices; it's also about systemic change. We need to hold companies accountable for their impact on the environment and society. This can involve advocating for policy changes, supporting organizations that promote sustainable practices, or simply using your consumer dollars to vote with your values.\n\nSo, what are some practical tips for incorporating sustainable shopping into your daily life? Here are a few:\n\n* Plan your meals around seasonal produce and buy in bulk\n* Invest in high-quality, timeless pieces rather than fast fashion\n* Choose products made from renewable resources or recycled materials\n* Support local farmers and artisans\n* Avoid single-use plastics and opt for reusable bags, containers, and water bottles\n\nIn conclusion, sustainable shopping and ethical consumption are not just trends – they're a necessity for creating a more equitable and environmentally conscious world. By making informed choices, supporting companies that share our values, and advocating for systemic change, we can create a better future for all. So next time you're at the store or online, remember: your purchasing power is a powerful tool for positive change.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's opinion on the fashion industry?",
+      "options": {
+        "A": "The author sees it as one of the most environmentally friendly industries.",
+        "B": "The author believes that individual choices are more important than systemic change.",
+        "C": "The author views the fashion industry as a major polluter that needs to be held accountable for its impact.",
+        "D": "The author thinks that sustainable fabrics are only available in high-end clothing."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"rigorous standards\" mean in this context?",
+      "options": {
+        "A": "Very strict rules that must be followed",
+        "B": "Relaxed guidelines that can be easily met",
+        "C": "Slightly stricter than usual regulations",
+        "D": "Completely new and experimental methods to try"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what percentage of greenhouse gas emissions is attributed to the fashion industry?",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "50%",
+        "D": "60%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about consumers who prioritize cheap products over sustainability?",
+      "options": {
+        "A": "They are naive and don't understand the impact of their choices.",
+        "B": "They are making responsible decisions that benefit society and the environment.",
+        "C": "They are being manipulated by advertising campaigns and need to be more mindful of their purchasing power.",
+        "D": "They are simply trying to save money, which is a natural human instinct."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"your consumer dollars\" refer to in this text?",
+      "options": {
+        "A": "The amount of money spent on advertising",
+        "B": "The amount of money used to vote with one's values",
+        "C": "The cost of sustainable products compared to non-sustainable ones",
+        "D": "The profit made by companies that promote fair trade practices"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "The article suggests that consumers should only buy products made from renewable resources.",
+        "B": "Sustainable shopping and ethical consumption are necessary to create a more equitable and environmentally conscious world.",
+        "C": "The fashion industry is not responsible for pollution, so consumers do not need to make changes.",
+        "D": "Consumers can ignore eco-labels and certifications when making purchasing decisions."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

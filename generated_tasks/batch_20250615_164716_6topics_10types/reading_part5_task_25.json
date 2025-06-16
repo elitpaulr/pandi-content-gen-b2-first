@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_25",
+  "title": "Money Matters on the Move: Navigating Finances Abroad as a Young Adult",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Tokyo, I felt like I was embarking on a journey not just to a foreign land, but also to a new world of understanding. My destination was Financial Literacy City, a place where young adults could learn the skills they needed to navigate the complex landscape of money management.\n\nFrom the moment I arrived, I was struck by the vibrant streets and bustling markets that seemed to pulse with energy. Everywhere I looked, I saw signs pointing me in the direction of financial knowledge: \"Learn to Budget,\" \"Invest in Your Future,\" and \"Understand Credit Scores.\" It was as if the city itself was urging me to take control of my finances.\n\nMy first stop was the Museum of Money Management, where I met a knowledgeable guide named Ken. Over steaming cups of green tea, he explained that financial literacy is like learning a new language – it takes time and practice, but with patience and persistence, anyone can become proficient. We walked through exhibits showcasing the different stages of life, from saving for college to planning for retirement.\n\nOne display caught my eye: a mock-up of a young adult's wallet, overflowing with credit card offers, loan applications, and bank statements. Ken pointed out that this was a common sight in many countries, where young people are bombarded with financial products and services that promise quick fixes but often lead to debt and financial stress.\n\nAs we explored the city, I began to notice how Financial Literacy City was woven into everyday life. At a local café, I overheard a group of students discussing their financial goals and strategies for achieving them. One young woman explained how she had started saving 10% of her income by cutting back on unnecessary expenses, such as eating out or subscription services.\n\nLater that day, I attended a workshop on investing, where a speaker explained the basics of stocks and bonds in clear, accessible terms. The audience was engaged and curious, asking questions about risk management and diversification. It struck me that these young adults were not just learning about finance – they were building a foundation for long-term security.\n\nAs the sun began to set, I wandered through the city's central park, where I stumbled upon a group of students playing a game called \"Financial Scavenger Hunt.\" Their task was to find and identify different financial products and services in the city, such as ATMs, credit unions, or investment firms. It was a fun and interactive way to learn about the many options available for managing one's finances.\n\nAs I prepared to leave Financial Literacy City, I felt a sense of pride and accomplishment. These young adults had taken the first steps on their financial journeys, equipping themselves with the knowledge and skills they needed to navigate the complex world of money management. As I boarded the plane to return home, I realized that this city was not just a destination – it was a mindset.\n\nWith its vibrant streets, engaging exhibits, and enthusiastic residents, Financial Literacy City had become a place where young adults could come to learn, grow, and take control of their finances. And as I looked out the window at the clouds passing by, I knew that this city would stay with me long after my journey ended – a reminder of the power of financial literacy to transform lives and open doors to new possibilities.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Ken's attitude towards learning financial literacy?",
+      "options": {
+        "A": "He thinks it's only for people who are already financially successful.",
+        "B": "He believes that anyone, regardless of experience or background, can learn and become proficient with practice and patience.",
+        "C": "He has given up trying to teach others due to their lack of interest.",
+        "D": "He only teaches older adults how to manage their finances."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What percentage of her income did the young woman explain she had started saving by cutting back on unnecessary expenses?",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What can be inferred about the author's attitude towards Financial Literacy City?",
+      "options": {
+        "A": "The author finds it boring and unengaging.",
+        "B": "The author is impressed by the city's interactive approach to financial education.",
+        "C": "The author believes that the city is only for people with a lot of money.",
+        "D": "The author thinks that the city is too focused on short-term gains."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "Who was Ken, according to the text?",
+      "options": {
+        "A": "A young woman from Tokyo who started saving 10% of her income",
+        "B": "The knowledgeable guide at the Museum of Money Management",
+        "C": "A speaker at a workshop on investing",
+        "D": "One of the students playing \"Financial Scavenger Hunt\""
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the text about Financial Literacy City?",
+      "options": {
+        "A": "The city is a place where young adults can learn how to make quick profits from investing.",
+        "B": "The city is a destination where young adults can gain the knowledge and skills needed to manage their finances effectively.",
+        "C": "The city is a warning about the dangers of debt and financial stress for young people.",
+        "D": "The city is a game where participants try to accumulate as much wealth as possible in a short time."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

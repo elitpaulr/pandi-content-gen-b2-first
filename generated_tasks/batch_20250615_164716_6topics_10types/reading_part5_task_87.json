@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_87",
+  "title": "Monetizing My Wanderlust: How I Earned Money on the Road",
+  "topic": "general",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I wandered through the bustling streets of Chiang Mai, Thailand, I stumbled upon a hidden gem – a community of digital nomads who had traded in their corporate careers for a life of freedom and flexibility. Among them were individuals who had discovered the secret to financial independence: side hustles and passive income.\n\nI sat down with a young entrepreneur named Alex, who had turned his passion for photography into a lucrative online business. With a keen eye for detail and a knack for marketing, he had built a brand that attracted clients from around the world. But what struck me was not just his entrepreneurial spirit, but also his ability to create a stream of passive income.\n\n\"Passive income is like having a tree that bears fruit without you having to water it every day,\" Alex explained over a cup of coffee at a local café. \"It's the gift that keeps on giving, allowing you to live life on your own terms.\"\n\nAs I listened to his story, I realized that side hustles and passive income were not just concepts, but living, breathing entities that had transformed lives in this vibrant city. From e-commerce entrepreneurs selling products online to affiliate marketers promoting digital courses, the possibilities seemed endless.\n\nI ventured further into the city, exploring the various coworking spaces and coffee shops where digital nomads congregated. Everywhere I looked, I saw individuals working on their side hustles – writing blog posts, designing websites, or filming videos. The energy was palpable, a mix of creativity, innovation, and determination.\n\nAs I observed this community, I began to notice patterns. Many of these entrepreneurs had started with small, incremental steps – creating a blog, offering services on freelance platforms, or selling products on eBay. But it wasn't just about generating income; it was also about building something sustainable that could scale over time.\n\nOne of the most fascinating aspects of this community was their emphasis on diversification. Rather than putting all their eggs in one basket, they were creating multiple streams of income that worked together to support their lifestyle. It was like having a portfolio of investments, each one generating returns without requiring constant attention.\n\nI met a woman named Maya, who had turned her passion for teaching into an online course business. With a team of freelancers helping her with content creation and marketing, she was now earning a six-figure income while working just a few hours a week. \"It's not just about the money,\" she said with a smile. \"It's about living a life that truly reflects my values.\"\n\nAs I continued to explore Chiang Mai, I began to see side hustles and passive income as more than just financial strategies – they were doorways to freedom, creativity, and purpose. They allowed individuals to pursue their passions without worrying about the bills piling up.\n\nIn this city of digital nomads, I saw a community that was not just building businesses, but also building lives. And it was clear that with side hustles and passive income, the possibilities were endless – limited only by one's imagination and willingness to take action.\n\nAs I prepared to leave Chiang Mai, I realized that this experience had taught me more than just the mechanics of entrepreneurship. It had shown me the power of community, creativity, and determination. And as I looked out at the bustling streets, I knew that no matter where my travels took me next, the lessons of this city would stay with me forever – a reminder to always pursue my passions, create multiple streams of income, and never stop exploring.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the community of digital nomads in Chiang Mai?",
+      "options": {
+        "A": "They are mostly motivated by financial gain.",
+        "B": "Many members have abandoned their corporate careers to pursue more creative and meaningful work.",
+        "C": "The city's coworking spaces and coffee shops are primarily used for socializing.",
+        "D": "Side hustles and passive income are not relevant to the lives of digital nomads in Chiang Mai."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Alex mean by \"a tree that bears fruit without you having to water it every day\" when describing passive income?",
+      "options": {
+        "A": "A type of investment that requires constant attention",
+        "B": "Income earned without any effort or maintenance required",
+        "C": "A business opportunity that is only available in certain locations",
+        "D": "A financial strategy that involves taking on a lot of debt"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What did Alex compare passive income to?",
+      "options": {
+        "A": "A garden that requires regular watering",
+        "B": "A tree that bears fruit without daily maintenance",
+        "C": "A machine that needs constant repair",
+        "D": "A bank account with a fixed interest rate"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to Alex, what is the benefit of having passive income?",
+      "options": {
+        "A": "It's a way to show off one's wealth and status.",
+        "B": "It's like having a tree that bears fruit without you having to water it every day.",
+        "C": "It's only for people who are already rich and successful.",
+        "D": "It's not worth the effort, as it requires too much work."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the author's experience in Chiang Mai?",
+      "options": {
+        "A": "The city has a thriving corporate job market.",
+        "B": "Side hustles and passive income can lead to financial freedom and flexibility.",
+        "C": "Digital nomads are mostly retired people who travel the world.",
+        "D": "Entrepreneurship is only suitable for young people with technical skills."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_23",
+  "title": "Mastering Money on Your Own Terms: Smart Finance for Young Adults",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "As a young adult, managing your finances can be overwhelming. From navigating student loans to building an emergency fund, it's easy to feel like you're drowning in debt. But financial literacy is not just about numbers; it's about taking control of your life.\n\nGrowing up, many of us were never taught how to manage money effectively. Our parents might have handed us a debit card and said \"go ahead,\" but they didn't teach us the importance of budgeting or saving. As a result, we often make financial mistakes that can haunt us for years to come. But it's never too late to learn.\n\nOne of the biggest misconceptions about personal finance is that it's boring. In reality, understanding how money works is empowering – it gives you the freedom to pursue your passions and make choices that align with your values. When you're financially literate, you can stop worrying about making ends meet and start focusing on what truly matters.\n\nSo where do you start? Begin by tracking your expenses. This might seem simple, but it's a crucial step in understanding where your money is going. For one month, write down every single transaction – from coffee to car payments. You'll be surprised at how quickly those little purchases add up.\n\nNext, prioritize needs over wants. Paying off high-interest debt and building an emergency fund should take precedence over buying that new video game or dining out every weekend. Consider using the 50/30/20 rule: allocate 50% of your income towards necessities (rent, utilities, groceries), 30% towards discretionary spending (entertainment, hobbies), and 20% towards saving and debt repayment.\n\nInvesting is another area where many young adults struggle. It's easy to get caught up in the hype of cryptocurrency or penny stocks, but these investments often come with high risks and low rewards. Instead, consider starting a retirement account – such as a Roth IRA or a 401(k) – and take advantage of compound interest.\n\nBudgeting apps like Mint or You Need a Budget (YNAB) can also be incredibly helpful in managing your finances. These tools allow you to track expenses, set financial goals, and receive notifications when you're spending too much in one area. Plus, they often offer expert advice and personalized recommendations based on your income and spending habits.\n\nAnother key aspect of financial literacy is credit scores. Your credit score determines how easily you can get a loan or credit card, and it's calculated based on factors such as payment history, credit utilization, and length of credit history. To build a strong credit score, make timely payments, keep credit utilization below 30%, and avoid applying for too many credit cards in a short period.\n\nFinally, don't be afraid to seek advice from financial experts – or your parents. They may have more experience than you think! Consider taking a personal finance course or attending workshops on budgeting and investing. You can also join online communities or forums where people share their own experiences and tips for managing money.\n\nIn conclusion, becoming financially literate takes time and effort, but it's worth it. By tracking your expenses, prioritizing needs over wants, and investing wisely, you'll be well on your way to achieving financial freedom. Remember that personal finance is not just about numbers – it's about taking control of your life and pursuing your passions without worrying about money.\n\nAs a young adult, managing your finances can seem daunting, but with the right tools and mindset, you can overcome any obstacle. By prioritizing needs over wants, investing wisely, and seeking advice from experts, you'll be well on your way to achieving financial freedom. And who knows? You may just find that being financially literate brings a sense of peace and empowerment that's hard to find elsewhere.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's opinion on using budgeting apps like Mint or YNAB?",
+      "options": {
+        "A": "The author thinks they are unnecessary for young adults who have some basic financial knowledge",
+        "B": "The author considers them to be essential tools for managing finances, especially for those with complex financial situations",
+        "C": "The author believes that relying solely on budgeting apps can lead to a lack of personal financial responsibility",
+        "D": "The author thinks they are only suitable for people with very high incomes"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for something to be \"empowering\" in this text?",
+      "options": {
+        "A": "To make you feel sad or hopeless",
+        "B": "To give you the freedom to make choices that align with your values",
+        "C": "To increase your spending power",
+        "D": "To reduce your financial worries"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of income should be allocated towards saving and debt repayment, according to the 50/30/20 rule?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "40%",
+        "D": "60%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards personal finance being considered \"boring\"?",
+      "options": {
+        "A": "It's an exciting topic that everyone should be interested in",
+        "B": "It's not boring at all; understanding how money works can be very empowering",
+        "C": "It's a necessary evil that no one likes to talk about",
+        "D": "It's a complex subject that only experts understand"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"from coffee to car payments\" refer to in the text?",
+      "options": {
+        "A": "The writer's own expenses",
+        "B": "Examples of small purchases that can add up quickly",
+        "C": "Types of investments for young adults",
+        "D": "Factors used to calculate credit scores"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about financial literacy for young adults?",
+      "options": {
+        "A": "It highlights the importance of investing in cryptocurrency.",
+        "B": "Becoming financially literate takes time and effort, but it's worth it.",
+        "C": "Financial literacy is only necessary for those who want to be rich quickly.",
+        "D": "Young adults should not bother learning how to manage their finances."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

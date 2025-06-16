@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_20",
+  "title": "Mastering Money 101: A Guide to Smart Financial Decisions for Young Adults",
+  "topic": "general",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "As young adults enter the workforce, they often find themselves bombarded with financial decisions that can have long-lasting impacts on their lives. From saving for retirement to managing student loans, navigating the world of personal finance can be overwhelming. However, developing financial literacy is crucial for achieving financial stability and security.\n\nOne key aspect of financial literacy is understanding the importance of credit scores. Many young adults are unaware of how credit scores work or the impact they have on their ability to secure loans or credit cards. Credit scores are calculated based on an individual's payment history, credit utilization, and length of credit history. A high credit score can result in lower interest rates and better loan terms, while a low score can lead to higher costs and reduced financial flexibility.\n\nAnother crucial aspect of financial literacy is budgeting. Many young adults struggle with managing their finances effectively, often relying on short-term fixes such as payday loans or credit card debt. However, developing a comprehensive budget that accounts for income, expenses, savings, and debt repayment is essential for achieving long-term financial goals. By prioritizing needs over wants and allocating funds accordingly, individuals can create a sustainable financial foundation.\n\nInvesting is also an essential component of financial literacy. With the rise of robo-advisors and mobile trading platforms, investing has become more accessible than ever before. However, many young adults are hesitant to invest due to concerns about market volatility or lack of knowledge. In reality, starting small with a diversified portfolio can be a low-risk way to build wealth over time.\n\nRetirement planning is another critical aspect of financial literacy that is often overlooked by young adults. With the average person living into their 80s and 90s, saving for retirement is no longer just about securing one's golden years – it's also about ensuring financial stability during potential health crises or caregiving responsibilities. By starting early and taking advantage of employer-matched retirement accounts such as 401(k)s or IRAs, individuals can build a substantial nest egg over time.\n\nTo develop financial literacy, young adults can take several steps. Firstly, seeking guidance from a financial advisor or planner can provide valuable insights and tailored advice. Secondly, leveraging online resources and educational tools, such as budgeting apps and investment platforms, can help individuals stay on top of their finances. Lastly, engaging in open discussions with family members or mentors about personal finance can foster a deeper understanding of money management.\n\nIn addition to individual efforts, employers can also play a significant role in promoting financial literacy among young adults. By offering workplace benefits such as retirement planning sessions or employee assistance programs for managing debt and credit scores, companies can provide valuable support and resources for employees navigating the complexities of personal finance.\n\nUltimately, developing financial literacy is an ongoing process that requires patience, dedication, and persistence. By prioritizing education, taking advantage of available resources, and making informed decisions about money management, young adults can establish a strong foundation for achieving long-term financial stability and security.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if many young adults continue to rely on short-term fixes such as payday loans or credit card debt?",
+      "options": {
+        "A": "They will be able to achieve their long-term financial goals more quickly.",
+        "B": "They will struggle with managing their finances effectively and face higher costs in the future.",
+        "C": "They will not be affected by market volatility due to their lack of knowledge about investing.",
+        "D": "They will have better credit scores as a result of using these short-term fixes."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to have \"credit utilization\" in relation to credit scores?",
+      "options": {
+        "A": "The total amount of money owed on loans or credit cards",
+        "B": "The percentage of available credit being used by an individual",
+        "C": "A specific type of loan that requires regular payments",
+        "D": "A financial advisor's fee for managing someone's finances"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one key factor that affects an individual's credit score?",
+      "options": {
+        "A": "Income level",
+        "B": "Credit utilization and payment history",
+        "C": "Length of employment",
+        "D": "Age of applicant"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards credit scores in relation to financial literacy?",
+      "options": {
+        "A": "The author believes that credit scores are unnecessary for achieving financial stability.",
+        "B": "The author thinks that understanding credit scores is crucial for making informed financial decisions.",
+        "C": "The author views credit scores as a minor aspect of personal finance, only relevant to those with poor financial habits.",
+        "D": "The author recommends ignoring credit scores in favor of more \"traditional\" methods of managing finances."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea or purpose of this text?",
+      "options": {
+        "A": "To provide tips on how to invest in the stock market",
+        "B": "To help young adults understand the importance of credit scores and develop financial literacy",
+        "C": "To discuss the benefits of seeking guidance from a financial advisor",
+        "D": "To argue that employers have no responsibility in promoting financial literacy among employees"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

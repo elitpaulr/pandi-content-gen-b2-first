@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_05",
+  "title": "Mastering Money: The Essential Guide to Financial Freedom for Young Adults",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "Financial Literacy: The Missing Link in Young Adults' Lives\n\nFor many young adults, entering the workforce can be a daunting experience. Besides navigating office politics and meeting deadlines, one of the most significant challenges they face is managing their finances effectively. A recent survey conducted by the National Endowment for Financial Education revealed that nearly 75% of millennials lack basic knowledge about personal finance, including budgeting, saving, and investing.\n\nThis dearth of financial literacy can have severe consequences for young adults. High-interest debt, unexpected expenses, and a general feeling of uncertainty about their financial futures are just some of the outcomes of poor money management. Moreover, research has shown that financial stress can negatively impact mental health, relationships, and overall well-being.\n\nSo, what exactly is financial literacy? It encompasses an understanding of basic financial concepts such as budgeting, saving, investing, and managing debt. Young adults need to learn how to create a realistic budget, prioritize expenses, and make informed decisions about spending. They must also grasp the importance of emergency funds, credit scores, and long-term investments.\n\nUnfortunately, many young adults do not receive adequate education on personal finance in school. According to a report by the Financial Industry Regulatory Authority (FINRA), only 14% of high school students have taken a course that covers basic financial concepts. This lack of formal instruction can lead to a \"trial-and-error\" approach to managing finances, which often ends in costly mistakes.\n\nHowever, there are steps young adults can take to improve their financial literacy. One effective way is through online resources and educational platforms. Websites such as NerdWallet, The Balance, and Dave Ramsey offer a wealth of information on budgeting, saving, and investing. Mobile apps like Mint and You Need a Budget (YNAB) provide personalized guidance on managing expenses and tracking spending.\n\nAnother approach is to seek advice from financial professionals or mentors who can offer hands-on guidance. Many community banks and credit unions offer free workshops and seminars on personal finance for young adults. Online forums and social media groups dedicated to financial literacy can also connect individuals with similar goals and aspirations.\n\nSome successful examples of financial literacy initiatives include programs such as the National Endowment for Financial Education's (NEFE) High School Financial Planning Program, which provides curriculum and resources for teachers to incorporate financial education into their classrooms. Another initiative is the FINRA Foundation's Investor Protection Trust (IPT), which offers grants to organizations promoting investor education.\n\nYoung adults can also take advantage of tax-advantaged savings vehicles such as 401(k)s or IRAs. These tools enable individuals to set aside money for retirement and other long-term goals, with potential tax benefits. Additionally, many employers offer matching contributions to employee retirement accounts, which can significantly boost savings over time.\n\nIn conclusion, financial literacy is a critical component of young adults' lives. While formal education may not cover the basics of personal finance, there are numerous resources available to help bridge this knowledge gap. By taking control of their finances and seeking guidance from experts, young adults can avoid costly mistakes and build a stable foundation for their financial futures.\n\nAs one expert notes, \"Financial literacy is not just about numbers; it's about making informed decisions that impact your life.\" With the right tools and support, young adults can develop a strong understanding of personal finance and achieve greater peace of mind as they navigate the challenges of adulthood.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if many young adults continue to lack basic knowledge about personal finance?",
+      "options": {
+        "A": "They will be able to manage their finances effectively",
+        "B": "Their financial stress will negatively impact their mental health and relationships",
+        "C": "They will have more time to focus on their careers",
+        "D": "They will be less likely to make costly mistakes"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"dearth of financial literacy\" mean in this text?",
+      "options": {
+        "A": "A lack of basic knowledge about managing debt",
+        "B": "A general feeling of uncertainty about one's financial future",
+        "C": "A scarcity or shortage of financial education resources",
+        "D": "A high level of financial expertise among young adults"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the author, what is a major consequence of poor money management for young adults?",
+      "options": {
+        "A": "It only affects their mental health.",
+        "B": "It leads to high-interest debt and unexpected expenses.",
+        "C": "It has no impact on their relationships or overall well-being.",
+        "D": "It only affects their financial futures in the short term."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does \"they\" refer to in the sentence: \"High-interest debt, unexpected expenses, and a general feeling of uncertainty about their financial futures are just some of the outcomes of poor money management.\"",
+      "options": {
+        "A": "The researcher who conducted the survey",
+        "B": "Young adults who lack basic knowledge about personal finance",
+        "C": "People who have not learned how to create a realistic budget",
+        "D": "Financial experts who provide guidance on managing finances"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the article about financial literacy for young adults?",
+      "options": {
+        "A": "Financial literacy is only necessary for people who want to be rich.",
+        "B": "Young adults need to take control of their finances and seek guidance from experts to avoid costly mistakes.",
+        "C": "The school system is fully equipped to teach students about personal finance.",
+        "D": "Financial literacy has no impact on mental health, relationships, or overall well-being."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

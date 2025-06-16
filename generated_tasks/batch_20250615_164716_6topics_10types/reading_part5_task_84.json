@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_84",
+  "title": "Escape Your 9-to-5: How to Create Passive Income Freedom",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "The modern concept of making money has undergone a significant transformation in recent years. Gone are the days when a single job was enough to sustain a family's needs. With rising costs of living, increasing debt, and unpredictable economic conditions, people are now seeking ways to diversify their income streams.\n\nThis is where side hustles come into play – part-time jobs or freelance work that supplements one's primary source of income. But what if we told you that there's a way to earn money without actively working for it? Enter passive income – the holy grail of financial freedom. In this article, we'll delve into the world of side hustles and passive income, exploring its benefits, types, and practical tips on how to get started.\n\n**The Benefits of Side Hustles**\n\nSide hustles offer a flexible way to earn extra money outside of your primary job. They can be as simple as freelancing, dog-walking, or selling products online. The beauty of side hustles lies in their ability to provide a safety net during uncertain times. With a side hustle, you're not solely dependent on your main income source.\n\nFor instance, Sarah, a marketing professional, started a small business selling handmade candles on Etsy. She worked on it part-time, initially dedicating just two hours each week. Within six months, her business generated an additional $5,000 in revenue – enough to cover her car loan and emergency fund. This side hustle not only brought in extra income but also gave Sarah a sense of accomplishment.\n\n**The Power of Passive Income**\n\nPassive income takes side hustles to the next level by creating a steady stream of money with minimal effort required. Imagine earning $1,000 per month without lifting a finger – that's the promise of passive income. While it may seem too good to be true, there are several legitimate ways to achieve this.\n\nInvesting in dividend-paying stocks is one such method. By investing in established companies like Coca-Cola or Johnson & Johnson, you can earn dividends quarterly. For example, if you invest $10,000 in a stock that pays 4% annual dividends, you'll receive approximately $400 each year without any additional effort.\n\n**Types of Passive Income**\n\nSeveral types of passive income exist, catering to diverse interests and skills. Here are some popular options:\n\n1. **Real Estate Investing**: Invest in rental properties or real estate investment trusts (REITs) to earn rental income.\n2. **Peer-to-Peer Lending**: Platforms like Lending Club and Prosper allow you to lend money to individuals or small businesses, earning interest on your investment.\n3. **Creating Digital Products**: Sell ebooks, courses, or software products once created, generating passive income through sales.\n4. **Affiliate Marketing**: Promote products or services from established companies and earn a commission for each sale made through your unique referral link.\n\n**Getting Started with Side Hustles and Passive Income**\n\nIf you're new to side hustles and passive income, here are some practical tips to get started:\n\n1. **Identify Your Skills**: Leverage your existing skills to create a side hustle or generate passive income.\n2. **Start Small**: Begin with a minimal commitment of time and resources, scaling up as needed.\n3. **Research Opportunities**: Explore various side hustles and passive income streams, selecting those that align with your interests and skills.\n4. **Be Patient**: Building a successful side hustle or generating significant passive income takes time – be prepared to put in the effort.\n\nIn conclusion, side hustles and passive income offer a refreshing escape from the financial stress of modern life. By diversifying your income streams and investing in assets that generate passive income, you can achieve greater financial security and freedom. Whether it's freelancing, creating digital products, or investing in dividend-paying stocks, there's never been a better time to explore these opportunities.\n\nSo, what are you waiting for? Take the first step today by identifying your skills and exploring side hustles and passive income streams that suit your interests. With dedication and patience, you can unlock the secrets of generating extra income without actively working for it – the ultimate key to financial freedom.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the article, what percentage of annual dividends would Sarah receive from her $10,000 investment in a stock that pays 4% annual dividends?",
+      "options": {
+        "A": "2%",
+        "B": "3%",
+        "C": "4%",
+        "D": "5%"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"the holy grail of financial freedom\" mean in this context?",
+      "options": {
+        "A": "A difficult challenge that requires a lot of effort",
+        "B": "An ideal or perfect solution to achieving financial security",
+        "C": "A type of investment that is too risky for beginners",
+        "D": "A way to earn money quickly without any hard work"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How much additional revenue did Sarah's business generate within six months?",
+      "options": {
+        "A": "$3,000",
+        "B": "$5,000",
+        "C": "$10,000",
+        "D": "$20,000"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards achieving financial freedom through side hustles and passive income?",
+      "options": {
+        "A": "The author believes that making money is a difficult task that requires a lot of effort.",
+        "B": "The author thinks that generating passive income is too good to be true, but it's worth trying.",
+        "C": "The author sees side hustles and passive income as a refreshing escape from financial stress.",
+        "D": "The author expects people to become rich quickly by investing in stocks."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Sarah's initial part-time commitment to her side hustle refer to?",
+      "options": {
+        "A": "Her primary job as a marketing professional",
+        "B": "The time she spent creating handmade candles each week",
+        "C": "The amount of money she needed to cover her car loan and emergency fund",
+        "D": "The number of months it took for her business to generate an additional $5,000 in revenue"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this article?",
+      "options": {
+        "A": "To compare the benefits of freelancing versus traditional employment",
+        "B": "To explore ways of making money without actively working for it",
+        "C": "To discuss the impact of rising costs of living on people's financial stability",
+        "D": "To provide a step-by-step guide to starting a business"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

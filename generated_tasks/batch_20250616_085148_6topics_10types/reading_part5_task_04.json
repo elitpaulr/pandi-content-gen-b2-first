@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_04",
+  "title": "Travel Greener: The Ultimate Guide to Eco-Friendly Adventure Travel",
+  "topic": "technology",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "As I sit here in my small village nestled in the mountains, surrounded by lush green forests and crystal-clear streams, I am reminded of why I became passionate about sustainable travel and eco-tourism in the first place. My experiences as a traveler have taken me to some of the most incredible destinations around the world, but it's the people and places that have made a genuine effort to preserve their environment and culture that have left the greatest impression on my heart.\n\nI remember my first visit to Costa Rica, where I stayed in an eco-lodge surrounded by towering trees and winding vines. The lodge was powered entirely by solar energy, and the owners took great care to minimize waste and promote sustainable practices among their guests. It wasn't just the stunning natural beauty of the place that made it special – it was the sense of community and connection with the local environment that I felt.\n\nFast-forward a few years, and I find myself in New Zealand, hiking through the rugged mountains and pristine fjords of Fiordland National Park. My guide was an expert on the park's unique ecosystem, pointing out hidden waterfalls and explaining the intricate relationships between the plants and animals that call this place home. It was humbling to realize just how much we humans have impacted this delicate balance – and how important it is for us to tread lightly in these incredible environments.\n\nOf course, sustainable travel and eco-tourism aren't just about visiting beautiful places – they're also about supporting local communities and promoting cultural exchange. In Thailand, I stayed with a family who ran a small guesthouse in a rural village. They welcomed me into their home with open arms, sharing meals and stories around the dinner table. It was an eye-opening experience to see firsthand how tourism can have a positive impact on local economies – but also how it can be done responsibly.\n\nSo what does sustainable travel look like? For starters, it means choosing accommodations that prioritize environmental sustainability, such as eco-lodges or hotels with solar power and composting toilets. It means supporting tour operators who employ local guides and promote cultural exchange. And it means being mindful of our own impact – reducing plastic use, conserving water, and respecting the local environment.\n\nBut sustainable travel is not just about making individual choices – it's also about pushing for systemic change. That's why I'm excited to see more and more tour operators and travel companies prioritizing sustainability in their business practices. Some are implementing carbon offsetting programs, while others are working with local communities to develop eco-friendly infrastructure.\n\nOf course, there's still a long way to go – and it won't be easy. As the world becomes increasingly interconnected, we face growing pressures on our environment and cultures. But I believe that sustainable travel and eco-tourism have the power to make a real difference.\n\nFor me, traveling sustainably is about more than just reducing my carbon footprint or supporting local economies – it's about connecting with people and places in a way that feels authentic and meaningful. And when we travel responsibly, we not only preserve the beauty of our planet for future generations – but also enrich our own lives with new experiences, perspectives, and friendships.\n\nAs I look out at this breathtaking view from my mountain village, I know that there's still so much to explore – and learn. But I'm grateful to be part of a growing community of travelers who care deeply about the impact we have on our world. Together, let's keep exploring – sustainably.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated the writer to become passionate about sustainable travel and eco-tourism?",
+      "options": {
+        "A": "She was inspired by her parents' environmental activism",
+        "B": "Her experiences as a traveler highlighted the importance of preserving the environment and culture of destinations she visited",
+        "C": "She wanted to reduce her carbon footprint and support local economies",
+        "D": "She was attracted to the luxury and exclusivity of high-end eco-tourism"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the author mean by \"treading lightly\" in these incredible environments?",
+      "options": {
+        "A": "Making lots of noise to alert animals of your presence",
+        "B": "Taking care not to damage the environment or disrupt local ecosystems",
+        "C": "Using expensive equipment to protect the environment",
+        "D": "Ignoring the impact of human activities on the natural world"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Where did the writer stay during their first visit to Costa Rica?",
+      "options": {
+        "A": "A hostel with no environmental credentials",
+        "B": "An eco-lodge powered entirely by solar energy",
+        "C": "A hotel with a swimming pool and spa",
+        "D": "A traditional wooden lodge with no electricity"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards people who travel irresponsibly?",
+      "options": {
+        "A": "They are disappointed but not surprised",
+        "B": "They are enthusiastic and encouraging",
+        "C": "They are critical and disapproving",
+        "D": "They are indifferent and unconcerned"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"it\" refer to in the sentence: \"It wasn't just the stunning natural beauty of the place that made it special – it was the sense of community and connection with the local environment that I felt.\"",
+      "options": {
+        "A": "The eco-lodge",
+        "B": "The sense of community and connection with the local environment",
+        "C": "The stunning natural beauty of the place",
+        "D": "My first visit to Costa Rica"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of the author's text about sustainable travel and eco-tourism?",
+      "options": {
+        "A": "To criticize the negative impacts of mass tourism on local environments",
+        "B": "To encourage travelers to make individual choices that promote environmental sustainability",
+        "C": "To describe various destinations around the world that prioritize eco-friendly practices",
+        "D": "To argue that sustainable travel is the only way to truly experience different cultures"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "travel_adventure"
+}

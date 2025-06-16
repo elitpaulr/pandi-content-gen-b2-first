@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_04",
+  "title": "Money Savvy or Money Stressed? Young Adults Need Financial Literacy Now!",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "Financial Literacy for Young Adults: A Key to Independence\n\nAs a young adult, navigating the world of finance can be overwhelming. With student loans, credit cards, and rental payments piling up, it's easy to feel like you're drowning in debt. But financial literacy is not just about managing your finances – it's about gaining independence and taking control of your future.\n\nAccording to a recent survey by the National Foundation for Credit Counseling (NFCC), 64% of young adults (ages 18-24) say they don't feel confident when making financial decisions. This lack of confidence can lead to poor financial choices, such as overspending or accumulating high-interest debt. But with the right knowledge and skills, young adults can break free from financial stress and achieve long-term stability.\n\nSo, what does it mean to be financially literate? Financial literacy encompasses a range of skills, including budgeting, saving, investing, and managing credit. It's not just about knowing how to balance your checkbook or use a debit card – it's about understanding the underlying principles of personal finance and making informed decisions.\n\nOne key aspect of financial literacy is budgeting. A budget is a plan for how you will allocate your income towards various expenses and savings goals. It's essential to create a realistic budget that takes into account your income, expenses, debts, and long-term objectives. For example, let's say you're earning $40,000 per year and want to save 10% of your income for retirement. You'll need to calculate how much you can afford to spend each month on discretionary items like dining out or entertainment.\n\nAnother crucial aspect of financial literacy is saving. Saving is not just about setting aside a portion of your income – it's about building wealth over time. Even small amounts saved regularly can add up significantly over the years. For instance, if you save $100 per month at 5% interest, you'll have approximately $13,600 after five years.\n\nInvesting is also an essential component of financial literacy. Investing involves putting your money into assets that have a higher potential for growth, such as stocks or real estate. However, investing can be intimidating, especially for beginners. It's essential to understand the basics of investing and diversify your portfolio to minimize risk.\n\nManaging credit is another critical aspect of financial literacy. Credit scores are used by lenders to assess the likelihood of you repaying a loan on time. A good credit score can save you money on interest rates and help you qualify for better loan terms. To maintain a healthy credit score, make sure to pay bills on time, keep credit utilization below 30%, and avoid applying for too many credit cards.\n\nSo, how can young adults develop financial literacy? There are several resources available online, including courses from reputable organizations like the NFCC or the Financial Industry Regulatory Authority (FINRA). Additionally, many employers offer financial education programs or workshops to help employees manage their finances. It's also essential to seek guidance from a financial advisor who can provide personalized advice.\n\nIn conclusion, financial literacy is not just about crunching numbers – it's about gaining independence and taking control of your future. By developing the skills and knowledge needed to navigate the world of finance, young adults can break free from financial stress and achieve long-term stability. Whether you're a recent college graduate or simply looking to improve your financial situation, remember that financial literacy is within reach. With the right resources and guidance, you can create a brighter financial future for yourself.\n\nBy understanding budgeting, saving, investing, and credit management, young adults can take control of their finances and achieve long-term stability. Don't wait until it's too late – start building your financial knowledge today and look forward to a secure tomorrow.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to a young adult who lacks confidence when making financial decisions, according to the NFCC survey?",
+      "options": {
+        "A": "They will make better financial choices and avoid accumulating high-interest debt.",
+        "B": "They will be more likely to invest their money wisely and build wealth over time.",
+        "C": "They will struggle with managing their finances and may accumulate high-interest debt.",
+        "D": "They will be able to afford expensive luxuries without worrying about the cost."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for an investment to have a 'higher potential for growth', according to the text?",
+      "options": {
+        "A": "It is likely to lose value over time",
+        "B": "It has a lower risk of losing money",
+        "C": "It may increase in value more quickly than other investments",
+        "D": "It requires a large initial amount of money"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the NFCC survey, what percentage of young adults (ages 18-24) don't feel confident when making financial decisions?",
+      "options": {
+        "A": "21%",
+        "B": "50%",
+        "C": "64%",
+        "D": "80%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the lack of confidence in making financial decisions among young adults?",
+      "options": {
+        "A": "The author thinks that this lack of confidence is a sign of independence.",
+        "B": "The author believes that it is a major obstacle to achieving long-term stability.",
+        "C": "The author considers it a minor issue that can be easily overcome with experience.",
+        "D": "The author views it as a necessary step in the learning process."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the author mean by \"crunching numbers\" in the final paragraph?",
+      "options": {
+        "A": "Making financial decisions based on emotions",
+        "B": "Understanding the underlying principles of personal finance",
+        "C": "Gaining independence and taking control of one's future",
+        "D": "Simply adding up income and expenses without context"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this text about financial literacy for young adults?",
+      "options": {
+        "A": "To inform readers about different types of investments",
+        "B": "To explain how to manage credit scores and avoid debt",
+        "C": "To encourage young adults to develop financial literacy as a key to independence and long-term stability",
+        "D": "To persuade readers to use only debit cards instead of credit cards"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_135",
+  "title": "Surviving on Sunshine: Budget Hacks for Digital Nomad Life",
+  "topic": "technology",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "As the world becomes increasingly connected, more and more people are embracing the lifestyle of a digital nomad – working remotely from anywhere in the world. This freedom to roam can be exhilarating, but it also comes with its own set of financial challenges. Budgeting for a digital nomad requires careful planning, discipline, and a solid understanding of personal finance.\n\nFor many digital nomads, the traditional 9-to-5 office routine is a thing of the past. They work from cafes, co-working spaces, or even beachside resorts, juggling their jobs with travel and exploration. But without a fixed income or expenses, managing finances can be tricky. A lack of stability in income means that digital nomads must be mindful of their spending habits to avoid overspending and accumulating debt.\n\nSo, where do you start when it comes to budgeting for a digital nomad? The first step is to track your expenses. This involves monitoring every single transaction – from coffee purchases to accommodation costs – to get a clear picture of your financial situation. You can use apps like Mint or Personal Capital to make this process easier and more efficient.\n\nNext, prioritize your spending. As a digital nomad, you'll likely have varying levels of income depending on the location and type of work you're doing. Make sure to allocate funds for essential expenses such as housing, food, and healthcare. You should also set aside money for savings, taxes, and emergencies – just in case.\n\nOne of the biggest challenges faced by digital nomads is navigating unfamiliar currencies and exchange rates. This can lead to unnecessary fees and losses when converting between currencies. To avoid this, consider using a credit card or debit card that doesn't charge foreign transaction fees.\n\nAnother key aspect of budgeting for a digital nomad is managing taxes. Depending on your location and type of work, you may be subject to different tax laws and regulations. It's essential to research the tax requirements in each country you visit and plan accordingly. This might involve consulting with an accountant or using online resources like TaxSlayer.\n\nDigital nomads often find themselves working remotely in countries with vastly different cost-of-living indexes. For example, a meal that costs $5 in Thailand can set you back upwards of $15 in the United States. To make the most of your money, research the local prices and adjust your budget accordingly. Websites like Numbeo or Expatistan provide useful information on cost-of-living indexes for various cities around the world.\n\nIn addition to tracking expenses and prioritizing spending, digital nomads should also consider investing in travel insurance. This can protect you against unexpected medical or travel-related expenses – a must-have for anyone working remotely abroad.\n\nFinally, it's essential to stay organized and keep track of your finances on-the-go. Consider using cloud-based accounting software like QuickBooks or Xero to manage your accounts from anywhere in the world. You should also set up automatic transfers for savings and investments to avoid procrastination.\n\nBudgeting for a digital nomad requires discipline, flexibility, and a willingness to adapt to changing circumstances. By tracking expenses, prioritizing spending, navigating unfamiliar currencies, managing taxes, researching local prices, investing in travel insurance, and staying organized, you can maintain financial stability even on the move. Whether you're working remotely from Bali or Barcelona, with the right budgeting strategies, you'll be able to enjoy the freedom and adventure that comes with being a digital nomad.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if a digital nomad doesn't research local prices and adjust their budget accordingly?",
+      "options": {
+        "A": "They will have more money to spend on travel and exploration.",
+        "B": "Their income from work will increase due to higher-paying clients in some countries.",
+        "C": "They will accumulate unnecessary fees and losses when converting between currencies.",
+        "D": "Their taxes will be lower because they will be working remotely in countries with lower tax rates."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"unfamiliar currencies\" mean in this context?",
+      "options": {
+        "A": "Different types of payment methods used by digital nomads",
+        "B": "Currencies from countries where digital nomads work or travel to",
+        "C": "Exchanging one currency for another, often resulting in fees and losses",
+        "D": "Using a credit card or debit card to make international transactions"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one of the apps mentioned in the text as being useful for tracking expenses?",
+      "options": {
+        "A": "Google Maps",
+        "B": "Personal Capital",
+        "C": "Expedia",
+        "D": "Airbnb"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is one of the biggest challenges faced by digital nomads when it comes to managing their finances?",
+      "options": {
+        "A": "They struggle to find reliable internet connections.",
+        "B": "They have difficulty navigating unfamiliar currencies and exchange rates.",
+        "C": "They often work for very long hours without taking breaks.",
+        "D": "They have a fixed income that allows them to plan their expenses carefully."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"a meal that costs $5 in Thailand\" refer to?",
+      "options": {
+        "A": "A typical cost of eating out in Thailand",
+        "B": "The author's own personal experience with food prices in Thailand",
+        "C": "A specific example used by the author to illustrate a point about cost-of-living indexes",
+        "D": "The average price of accommodation in Thailand"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about budgeting for digital nomads?",
+      "options": {
+        "A": "The text discusses the benefits of working remotely and how it can improve one's quality of life.",
+        "B": "Budgeting for digital nomads requires careful planning, discipline, and a solid understanding of personal finance.",
+        "C": "The text provides tips on how to make money as a digital nomad through freelancing or online business.",
+        "D": "Digital nomads should focus on saving money by avoiding unnecessary expenses and reducing their living costs."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

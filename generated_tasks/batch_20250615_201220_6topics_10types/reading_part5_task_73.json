@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_73",
+  "title": "How to Turn Your Hobbies into Cash Machines Overnight",
+  "topic": "general",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "The Double Life of Side Hustlers: How Passive Income is Changing the Game\n\nIn today's fast-paced world, having a steady job is no longer enough for many people. The desire to earn extra money and have financial freedom has led to the rise of side hustles – part-time businesses or freelance work that can be done outside of regular hours. But what if we told you there's a way to make money while you sleep? Welcome to the world of passive income.\n\nPassive income is exactly what it sounds like: earning money without actively working for it. It's the dream of many entrepreneurs, investors, and individuals looking to supplement their income or achieve financial independence. But how does one create a stream of passive income? The answer lies in side hustles that can be leveraged into long-term investments.\n\nOne popular way to generate passive income is through online platforms such as Amazon Kindle Direct Publishing (KDP) and Etsy. These platforms allow creators to sell digital products, including ebooks, audiobooks, and handmade goods. By writing a bestselling novel or creating a unique piece of jewelry, you can earn royalties on every sale without lifting a finger.\n\nAnother strategy is investing in dividend-paying stocks or real estate investment trusts (REITs). Dividend payments are a portion of the company's profits distributed to shareholders, providing a regular stream of income. REITs allow individuals to invest in real estate without directly managing properties, generating rental income through property management companies.\n\nFor those with technical skills, creating and selling online courses or software can be a lucrative side hustle. Platforms like Udemy, Teachable, and Skillshare make it easy to host and sell courses on various topics, from cooking to coding. Once created, these courses can generate passive income as students enroll and complete them.\n\nSome entrepreneurs are taking the concept of passive income to new heights by leveraging their skills in affiliate marketing. By promoting products or services of other companies and earning a commission on sales, affiliates can earn significant amounts without holding any inventory or managing customer relationships.\n\nBut what about those who don't have a specific skillset or expertise? Fear not! Creating a mobile app or a subscription-based service can be an excellent way to generate passive income. Apps like Headspace and Calm offer meditation and relaxation services for a monthly fee, while platforms like Dropbox and Spotify provide cloud storage and music streaming services.\n\nThe key to turning side hustles into passive income is to focus on creating value that can be scaled up over time. This may involve investing in marketing or building an audience through social media. As the initial effort pays off, the returns can become substantial.\n\nIn conclusion, passive income is no longer a pipe dream but a reality for many individuals and businesses. By leveraging side hustles into long-term investments, entrepreneurs can create a secondary stream of revenue that supplements their primary income. Whether you're an author, investor, or tech whiz, there's a path to achieving financial freedom through passive income.\n\nAs the world continues to evolve, so do the opportunities for generating passive income. By staying adaptable and open-minded, anyone can join the ranks of successful side hustlers who are creating wealth while they sleep. So go ahead, take that first step towards building your dream business – it may just change your life forever!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does the word 'leveraged' mean in the context of turning side hustles into passive income?",
+      "options": {
+        "A": "To reduce the amount of money needed to achieve a goal",
+        "B": "To use a side hustle as a way to invest in something that can generate more income",
+        "C": "To earn extra money by working longer hours",
+        "D": "To increase the number of products or services offered"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 2,
+      "question_text": "Which online platform allows creators to sell handmade goods and earn royalties on every sale?",
+      "options": {
+        "A": "Google Drive",
+        "B": "Etsy",
+        "C": "Amazon Kindle Direct Publishing (KDP)",
+        "D": "Udemy"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the author's attitude towards achieving financial freedom through passive income?",
+      "options": {
+        "A": "The author presents it as a difficult and rare achievement.",
+        "B": "The author believes that anyone can achieve financial freedom with hard work and dedication.",
+        "C": "The author views it as a common goal, but one that requires significant effort and investment.",
+        "D": "The author thinks it's a realistic and achievable goal for many individuals and businesses."
+      },
+      "correct_answer": "D",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does \"it\" refer to in the sentence \"By writing a bestselling novel or creating a unique piece of jewelry, you can earn royalties on every sale without lifting a finger\"?",
+      "options": {
+        "A": "Writing a bestselling novel",
+        "B": "Creating a unique piece of jewelry",
+        "C": "Earning royalties on every sale",
+        "D": "Lifting a finger"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this article about side hustles and passive income?",
+      "options": {
+        "A": "The author discusses various ways to make money quickly through online platforms.",
+        "B": "The text explains how passive income can be generated through investing in dividend-paying stocks or real estate investment trusts (REITs).",
+        "C": "Passive income is no longer a pipe dream, but a reality for many individuals and businesses who are leveraging side hustles into long-term investments.",
+        "D": "The article focuses on the benefits of having a steady job over starting a part-time business."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_82",
+  "title": "How to Make Money While You Sleep: Unlocking Passive Income Secrets",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "In today's fast-paced world, financial security is a top priority for many of us. Gone are the days when we relied solely on our primary jobs to make ends meet. With the rise of the gig economy and digital age, side hustles have become an essential part of modern life. But what exactly is a side hustle, and how can you turn it into a passive income stream?\n\nA side hustle is essentially any activity that generates additional income outside your main job. It could be freelancing, selling products online, dog walking, or even renting out a spare room on Airbnb. The key is to find something that complements your existing skills and schedule, allowing you to earn extra money without sacrificing too much time.\n\nFor many people, the goal of a side hustle is not only to supplement their income but also to create a passive income stream. This means generating revenue with minimal effort required, often through investments or digital products. Think of it as earning money while you sleep – a dream come true for anyone seeking financial freedom!\n\nSo, how can you turn your side hustle into a passive income machine? Here are some practical tips:\n\n**1. Identify Your Skills and Strengths**\n\nStart by identifying what you're good at and what you enjoy doing. This will help you find a side hustle that not only pays well but also brings you satisfaction.\n\nFor example, if you're an expert in social media marketing, consider creating online courses teaching others how to use platforms like Facebook and Instagram for business. You can sell these courses on platforms like Udemy or Skillshare, generating passive income from royalties.\n\n**2. Create Digital Products**\n\nDigital products are a great way to generate passive income, as they require minimal maintenance once created. Consider writing an ebook, designing a printable art collection, or developing a mobile app that solves a common problem.\n\nFor instance, if you have expertise in health and wellness, create an ebook on healthy meal planning or yoga routines. You can sell it on platforms like Amazon Kindle Direct Publishing or Apple Books, earning money from each sale without lifting a finger.\n\n**3. Invest in Dividend-Paying Stocks**\n\nInvesting in dividend-paying stocks is another way to generate passive income. These stocks pay out a portion of the company's profits as dividends to shareholders. While they may not make you rich overnight, they can provide a steady stream of income over time.\n\nFor example, if you invest $10,000 in a blue-chip stock like Johnson & Johnson (JNJ), you'll earn around 2% dividend yield annually, generating $200 in passive income each year.\n\n**4. Rent Out a Spare Room or Property**\n\nRenting out a spare room on Airbnb or renting out your entire property on VRBO can generate significant passive income. With minimal effort required, you can earn thousands of dollars per month by providing a comfortable stay for travelers and tourists.\n\nFor instance, if you rent out a single room in your home for $30 per night, earning 200 nights per year (assuming 50 weeks of bookings), you'll generate around $6,000 in passive income annually.\n\nIn conclusion, side hustles are no longer just a way to make extra money – they can be a path to financial freedom. By identifying your skills and strengths, creating digital products, investing in dividend-paying stocks, or renting out a spare room or property, you can turn your side hustle into a lucrative passive income stream.\n\nRemember, building wealth takes time and effort, but with the right mindset and strategy, you can achieve your financial goals and live the life you've always dreamed of. So, what are you waiting for? Start exploring your side hustle options today and watch your passive income soar!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to be a characteristic of digital products that generate passive income?",
+      "options": {
+        "A": "They require regular maintenance to keep them up-to-date.",
+        "B": "They are often created using skills that can also be used for primary jobs.",
+        "C": "They can be sold multiple times without incurring additional costs.",
+        "D": "They are only suitable for people with expertise in technology."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"generate revenue with minimal effort required\" according to the text?",
+      "options": {
+        "A": "To work long hours on a project",
+        "B": "To make money while you sleep or with little time spent",
+        "C": "To invest large sums of money upfront",
+        "D": "To sell products online as quickly as possible"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is an example of a digital product that can be sold on platforms like Amazon Kindle Direct Publishing or Apple Books?",
+      "options": {
+        "A": "A mobile app that solves a common problem",
+        "B": "A printable art collection",
+        "C": "A physical book about healthy meal planning and yoga routines",
+        "D": "A course teaching social media marketing skills"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards achieving financial freedom through side hustles?",
+      "options": {
+        "A": "The author believes it's a difficult and time-consuming process.",
+        "B": "The author thinks that financial freedom can be achieved quickly with minimal effort.",
+        "C": "The author views side hustles as a necessary evil, but not a desirable path to financial independence.",
+        "D": "The author is enthusiastic about the potential for side hustles to generate passive income and achieve financial freedom."
+      },
+      "correct_answer": "D",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about side hustles and passive income?",
+      "options": {
+        "A": "Side hustles are only suitable for people with a lot of free time.",
+        "B": "Turning a side hustle into a passive income stream requires minimal effort and can provide financial freedom.",
+        "C": "Passive income streams are a guaranteed way to become rich quickly.",
+        "D": "A side hustle is only a temporary solution for making ends meet."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

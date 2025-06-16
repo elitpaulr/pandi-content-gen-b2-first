@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_62",
+  "title": "Make Money While You Sleep: The Ultimate Side Hustle Guide",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Side Hustle Revolution**\n\nIn today's economy, having multiple sources of income is not just a nice-to-have, but a necessity. The traditional 9-to-5 job is no longer enough to make ends meet, let alone save for the future. This is where side hustles come in – flexible, lucrative, and often passive ways to earn extra money outside of your main gig.\n\n**What are Side Hustles?**\n\nA side hustle is any activity that earns you money beyond your primary job. It can be a part-time business, freelancing, selling products online, or even renting out a spare room on Airbnb. The key is to find something that complements your skills and schedule, allowing you to earn extra income without sacrificing too much time.\n\n**Why Side Hustles Matter**\n\nAccording to a survey by Bankrate, 44% of millennials have started a side hustle in the past year, with 60% citing financial goals as their main motivation. But it's not just about making extra money – having multiple streams of income also provides:\n\n*   **Financial security**: By diversifying your income sources, you reduce your reliance on a single job and create a safety net for unexpected expenses.\n*   **Creativity and fulfillment**: Side hustles often allow you to pursue passions or interests outside of your main career, leading to increased job satisfaction and happiness.\n*   **Networking opportunities**: Collaborating with others through side hustles can lead to valuable connections, new business ideas, and even full-time job offers.\n\n**Types of Passive Income**\n\nWhile not all side hustles are passive, some offer more freedom than others. Here are a few examples:\n\n1.  **Dividend-paying stocks**: Invest in established companies that distribute a portion of their profits to shareholders.\n2.  **Peer-to-peer lending**: Lend money to individuals or businesses through platforms like Lending Club or Prosper, earning interest on your investment.\n3.  **Renting out properties**: Invest in real estate and collect passive income from rental yields.\n4.  **Creating and selling online courses**: Share your expertise and earn passive income from course sales.\n\n**Expert Insights**\n\n*   \"The key to successful side hustling is finding something that aligns with your strengths and interests,\" says entrepreneur and author, Tim Ferriss. \"Once you find the right fit, it's amazing how much extra income you can generate.\"\n*   \"Passive income is a game-changer for achieving financial freedom,\" adds Robert Kiyosaki, bestselling author of 'Rich Dad Poor Dad'. \"By creating multiple streams of income, you'll be able to live the life you want, rather than just surviving from paycheck to paycheck.\"\n\n**Getting Started**\n\nReady to join the side hustle revolution? Here are a few steps to get started:\n\n1.  **Identify your strengths**: Reflect on what you're good at and enjoy doing.\n2.  **Research opportunities**: Look into platforms like Upwork, Fiverr, or Freelancer for freelance work, or explore e-commerce websites like Amazon or eBay.\n3.  **Test and iterate**: Start small, test different ideas, and refine your approach based on results.\n\nIn conclusion, side hustles offer a flexible way to earn extra money beyond your main job. By diversifying your income streams and exploring passive income opportunities, you'll be well on your way to achieving financial security and freedom. So why wait? Join the side hustle revolution today!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to someone's financial situation if they rely solely on a single job for their income?",
+      "options": {
+        "A": "They will have more money to save and invest.",
+        "B": "They will be more financially secure and less stressed about money.",
+        "C": "They may struggle to make ends meet during economic downturns or unexpected expenses.",
+        "D": "They will be able to afford luxuries and expensive hobbies."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does 'diversify' mean in this context?",
+      "options": {
+        "A": "To reduce something to a single source",
+        "B": "To spread or increase something, making it less dependent on one thing",
+        "C": "To focus all your energy on one particular area",
+        "D": "To ignore the needs of others and prioritize only your own interests"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a survey by Bankrate, what percentage of millennials have started a side hustle in the past year?",
+      "options": {
+        "A": "24%",
+        "B": "44%",
+        "C": "60%",
+        "D": "75%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards people relying solely on their 9-to-5 job for income?",
+      "options": {
+        "A": "The author believes that it's acceptable to rely only on a single job and doesn't see any problems with it.",
+        "B": "The author thinks that having multiple sources of income is not necessary, but rather a luxury.",
+        "C": "The author considers the traditional 9-to-5 job as insufficient for making ends meet and achieving financial security.",
+        "D": "The author suggests that people should only focus on their main career and not bother with side hustles."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What do \"your skills\" refer to in this sentence: \"The key is to find something that complements your skills and schedule, allowing you to earn extra income without sacrificing too much time\"?",
+      "options": {
+        "A": "Your primary job",
+        "B": "Your personal interests",
+        "C": "Your strengths and qualifications",
+        "D": "Your education level"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about side hustles and passive income?",
+      "options": {
+        "A": "The traditional 9-to-5 job is enough to make ends meet, but having a side hustle can provide financial security.",
+        "B": "Having multiple sources of income is not just a nice-to-have, but a necessity in today's economy.",
+        "C": "Side hustles are only for people who want to quit their main job and live off their savings.",
+        "D": "Passive income is the primary goal of starting a side hustle."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

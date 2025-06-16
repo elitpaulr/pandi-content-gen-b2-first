@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_37",
+  "title": "The Truth About Your Favorite Brands: Are They Sustainable or Not?",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she wandered through the crowded streets of the city, Luna couldn't help but feel overwhelmed by the sheer number of choices staring back at her. Every store seemed to offer an endless array of products, each one screaming for her attention with its bright colors and catchy slogans. But Luna was on a mission - to find a way to shop that aligned with her values.\n\nShe had always been drawn to the idea of sustainable living, but it wasn't until she'd stumbled upon a documentary about the environmental impact of fast fashion that she realized just how much of an impact her own shopping habits were having. The statistics were staggering: the average American generates 82 pounds of textile waste per year, with the majority of that coming from clothing.\n\nDetermined to make a change, Luna began by researching different brands and their commitment to sustainability. She scoured websites and social media for information on everything from sourcing practices to end-of-life recycling policies. But as she delved deeper into her research, she realized that it wasn't just about the products themselves - it was also about the people behind them.\n\nLuna met with a local boutique owner who shared her passion for sustainable fashion. \"It's not just about making clothes,\" the owner explained. \"It's about creating a system that values both human and environmental well-being.\" Luna was struck by the way this small business prioritized transparency, partnering with suppliers to ensure fair labor practices and environmentally friendly materials.\n\nAs she continued on her journey, Luna encountered more and more individuals who were redefining what it meant to be a consumer. There was Emma, the young artist who repurposed old textiles into stunning works of art; Jack, the entrepreneur who had launched a line of refillable beauty products that reduced waste by 90%; and Maria, the activist who organized community clean-ups and advocated for extended producer responsibility.\n\nLuna's conversations with these individuals left her feeling inspired and motivated. But she also began to realize just how complex the issue was - and how deeply ingrained many of our shopping habits had become. As she navigated the crowded streets, Luna found herself constantly torn between her desire to make a difference and the overwhelming pressure to keep up with the latest trends.\n\nOne day, while browsing through a thrift store, Luna stumbled upon an old book on minimalism. The author's words struck a chord deep within her: \"The less you own, the more you have.\" It was as if she had finally found a phrase that captured the essence of what she was searching for - not just a way to shop sustainably, but a way to live more mindfully.\n\nAs Luna delved deeper into the world of minimalism, she began to see her shopping habits in a new light. She realized that the true value of a product wasn't in its price tag or brand name, but in its ability to bring joy and purpose to her life. And it was this shift in perspective that ultimately led Luna to find what she had been searching for all along - not just a way to shop more sustainably, but a way to live with intention and integrity.\n\nOver the next few weeks, Luna began to make changes to her daily routine. She started by simplifying her wardrobe, paring down her collection of clothes to only the items that brought her joy. She then turned her attention to other areas of her life, streamlining her digital habits and adopting a more mindful approach to consumption.\n\nAs she looked around at the world around her, Luna felt a sense of hope and possibility. For the first time in years, she saw the city's crowded streets as not just a source of stress, but an opportunity for connection and growth. And it was this newfound perspective that would ultimately guide her on her journey towards sustainable shopping - and towards a more compassionate, equitable way of living.\n\nIn the end, Luna came to understand that sustainable shopping wasn't just about making better choices at the store - it was about creating a system that prioritized human and environmental well-being. And as she looked out at the world around her, she knew that this journey was only just beginning.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Luna's shopping habits before her journey towards sustainable living?",
+      "options": {
+        "A": "She had always prioritized buying cheap and trendy clothing.",
+        "B": "She had already made significant changes to reduce her environmental impact.",
+        "C": "She had been unaware of the environmental consequences of fast fashion until she watched a documentary.",
+        "D": "She had a strict budget for shopping and avoided impulse purchases."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"ingrained\" mean in this context?",
+      "options": {
+        "A": "A changeable or adaptable habit",
+        "B": "A habit deeply rooted and difficult to change",
+        "C": "A common or widespread practice",
+        "D": "A luxury or privilege of the wealthy"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How much textile waste does the average American generate per year?",
+      "options": {
+        "A": "50 pounds",
+        "B": "82 pounds",
+        "C": "100 pounds",
+        "D": "120 pounds"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Luna's attitude towards the idea of sustainable shopping before she starts researching different brands?",
+      "options": {
+        "A": "She thinks it's a waste of time and money",
+        "B": "She feels overwhelmed by the complexity of the issue but wants to make a change",
+        "C": "She believes it's just about making individual choices, not about changing the system",
+        "D": "She thinks it's only for wealthy people who can afford eco-friendly products"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who did Luna meet with to discuss sustainable fashion?",
+      "options": {
+        "A": "Emma, the young artist",
+        "B": "Jack, the entrepreneur",
+        "C": "A local boutique owner",
+        "D": "Maria, the activist"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of Luna's story?",
+      "options": {
+        "A": "She discovers a new brand that offers sustainable fashion options.",
+        "B": "She realizes the importance of minimalism and its impact on her life.",
+        "C": "She learns to prioritize human and environmental well-being through her shopping habits.",
+        "D": "She decides to give up shopping altogether."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

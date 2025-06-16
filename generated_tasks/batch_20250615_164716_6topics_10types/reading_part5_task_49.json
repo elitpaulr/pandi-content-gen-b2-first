@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_49",
+  "title": "Shopping with a Clear Conscience: The Rise of Sustainable Consumerism",
+  "topic": "technology",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "The Rise of Sustainable Shopping and Ethical Consumption\n\nIn recent years, there has been a significant shift in consumer behavior towards embracing sustainable shopping and ethical consumption practices. Gone are the days when buying the latest fashion trends or gadgets was the ultimate status symbol. Today, consumers are increasingly prioritizing products that not only meet their needs but also align with their values.\n\nThis movement towards sustainability is driven by several factors, including growing concerns about climate change, environmental degradation, and social injustice. As consumers become more aware of the impact of their purchasing decisions on the planet and its inhabitants, they are seeking out brands and products that share their values.\n\nOne of the key drivers of sustainable shopping is the rise of second-hand shopping. With the growth of online marketplaces such as ThredUp, Depop, and eBay, consumers can now easily find pre-owned items at a fraction of the cost of new ones. This not only reduces waste but also promotes a culture of reuse and recycling.\n\nAnother trend gaining momentum is the adoption of circular business models. Companies like Patagonia, Reformation, and Everlane are redefining the traditional linear production-consumption model by designing products for recyclability, upcycling, and reuse. These brands recognize that the true value of a product lies not in its initial sale but in its long-term performance and lifecycle.\n\nEthical consumption is also becoming increasingly important to consumers. With the rise of social media, companies are being held accountable for their labor practices, supply chain transparency, and environmental impact. Consumers are demanding more from brands, pushing them to adopt fair trade practices, reduce waste, and use environmentally friendly materials.\n\nOne notable example of a brand that has successfully transitioned towards sustainability is H&M's Conscious Collection. Launched in 2011, the collection features garments made from sustainable materials such as organic cotton, recycled polyester, and Tencel. The success of this line has not only reduced waste but also inspired other brands to follow suit.\n\nHowever, the journey towards sustainable shopping and ethical consumption is not without its challenges. Many consumers struggle to make informed choices due to a lack of transparency and labeling. Some companies are exploiting greenwashing tactics, using misleading labels or marketing campaigns to create a false impression of sustainability.\n\nTo address these issues, there is a growing need for education and awareness-raising initiatives. Governments, NGOs, and brands must work together to develop clear guidelines and standards for sustainable shopping and ethical consumption. This includes providing consumers with accurate information about product materials, production processes, and supply chains.\n\nAs consumers become more empowered to make informed choices, they are driving demand for change in the market. Companies that fail to adapt risk losing customers and reputation. On the other hand, those that prioritize sustainability and ethics will reap rewards in terms of customer loyalty, brand reputation, and long-term profitability.\n\nIn conclusion, sustainable shopping and ethical consumption are no longer niche concerns but mainstream trends. As consumers continue to demand more from brands, companies must respond by adopting circular business models, reducing waste, and promoting transparency. By working together towards a more sustainable future, we can create a better world for both people and the planet.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to companies that fail to adopt sustainable practices?",
+      "options": {
+        "A": "They will lose customers but maintain their reputation",
+        "B": "They will be forced to reduce prices to remain competitive",
+        "C": "They will experience a decline in sales and risk losing market share",
+        "D": "They will become more profitable due to increased demand for green products"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word \"greenwashing\" mean in the context of sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "Using misleading labels or marketing campaigns to create a false impression of high quality",
+        "B": "Exploiting consumers by selling products at very low prices",
+        "C": "Using environmentally friendly materials in production processes",
+        "D": "Misleading customers about the sustainability of a product"
+      },
+      "correct_answer": "D",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the name of the online marketplace mentioned as one of the platforms where consumers can easily find pre-owned items?",
+      "options": {
+        "A": "ThredUp",
+        "B": "Depop",
+        "C": "eBay",
+        "D": "Instagram"
+      },
+      "correct_answer": "A",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about companies that prioritize sustainability and ethics?",
+      "options": {
+        "A": "They are likely to fail financially",
+        "B": "They will reap rewards in terms of customer loyalty and brand reputation",
+        "C": "They are not necessary for a sustainable future",
+        "D": "They are only interested in making profits"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the latest fashion trends or gadgets\" refer to in the text?",
+      "options": {
+        "A": "The rising popularity of second-hand shopping",
+        "B": "The shift in consumer behavior towards sustainable shopping",
+        "C": "Products that are no longer considered fashionable or desirable",
+        "D": "Companies that prioritize sustainability and ethics"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "The benefits of sustainable shopping and ethical consumption are mainly limited to environmental concerns.",
+        "B": "Sustainable shopping and ethical consumption have become mainstream trends driven by consumer demand for change.",
+        "C": "Companies that prioritize sustainability and ethics will lose customers and reputation in the long run.",
+        "D": "Greenwashing tactics are the main obstacle to adopting sustainable shopping practices."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

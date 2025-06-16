@@ -74,5 +74,58 @@
     "max_tokens": 2000,
     "model_full_name": "llama3.1:8b"
   },
-  "topic_category": "general"
+  "topic_category": "general",
+  "word_count": 570,
+  "qa_annotations": {
+    "overall_task": {
+      "status": "approved",
+      "reviewer": "Paul",
+      "notes": "",
+      "timestamp": "2025-06-16T13:11:17.001043"
+    },
+    "title": {
+      "status": "approved",
+      "reviewer": "Paul",
+      "notes": "",
+      "timestamp": "2025-06-16T13:11:17.001043"
+    },
+    "text": {
+      "status": "approved",
+      "reviewer": "Paul",
+      "notes": "",
+      "timestamp": "2025-06-16T13:11:17.001043"
+    },
+    "questions": {
+      "question_1": {
+        "status": "approved",
+        "reviewer": "Paul",
+        "notes": "",
+        "timestamp": "2025-06-16T13:11:17.001043"
+      },
+      "question_2": {
+        "status": "approved",
+        "reviewer": "Paul",
+        "notes": "",
+        "timestamp": "2025-06-16T13:11:17.001043"
+      },
+      "question_3": {
+        "status": "approved",
+        "reviewer": "Paul",
+        "notes": "",
+        "timestamp": "2025-06-16T13:11:17.001043"
+      },
+      "question_4": {
+        "status": "approved",
+        "reviewer": "Paul",
+        "notes": "",
+        "timestamp": "2025-06-16T13:11:17.001043"
+      },
+      "question_5": {
+        "status": "approved",
+        "reviewer": "Paul",
+        "notes": "",
+        "timestamp": "2025-06-16T13:11:17.001043"
+      }
+    }
+  }
 }

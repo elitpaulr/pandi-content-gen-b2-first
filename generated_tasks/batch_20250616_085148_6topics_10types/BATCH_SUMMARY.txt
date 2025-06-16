@@ -1,0 +1,227 @@
+BATCH GENERATION SUMMARY
+========================
+
+Generated: 2025-06-16 10:43:02
+Batch Folder: batch_20250616_085148_6topics_10types
+Model: llama3.1:8b
+
+GENERATION PARAMETERS:
+---------------------
+Topics: 6
+Text Types: 10
+Tasks per Topic: 1
+Custom Instructions: None
+
+TOPICS PROCESSED:
+----------------
+• sustainable travel and eco-tourism
+• urban gardening and community spaces
+• renewable energy solutions for homes
+• plastic-free lifestyle challenges
+• climate change adaptation strategies
+• sustainable fashion and consumption
+
+TEXT TYPES:
+----------
+• magazine_article
+• newspaper_article
+• novel_extract
+• blog_post
+• science_article
+• cultural_review
+• professional_feature
+• lifestyle_feature
+• travel_writing
+• educational_feature
+
+RESULTS:
+--------
+Total Tasks Generated: 58
+Success Rate: 58/60 (96.7%)
+
+GENERATED TASKS:
+---------------
+ 1. reading_part5_task_01 - Travel with a Conscience: The Green Guide to Sustainable Adventures
+    Topic: technology | Type: magazine_article | Words: 490
+ 2. reading_part5_task_02 - Travel Kindly: How Your Holidays Can Save the Planet
+    Topic: technology | Type: newspaper_article | Words: 619
+ 3. reading_part5_task_03 - Embracing the Green Globe: A Journey to Sustainable Travel
+    Topic: technology | Type: novel_extract | Words: 662
+ 4. reading_part5_task_04 - Travel Greener: The Ultimate Guide to Eco-Friendly Adventure Travel
+    Topic: technology | Type: blog_post | Words: 600
+ 5. reading_part5_task_05 - The Green Passport Revolution: How Travelers Are Saving the Planet
+    Topic: technology | Type: science_article | Words: 530
+ 6. reading_part5_task_06 - Green Getaways: The Rise of Eco-Tourism and Sustainable Travel
+    Topic: technology | Type: cultural_review | Words: 603
+ 7. reading_part5_task_07 - Revolutionize Your Travels: The Rise of Sustainable Eco-Tourism
+    Topic: technology | Type: professional_feature | Words: 585
+ 8. reading_part5_task_08 - Embracing Adventure Without Footprints: The Rise of Eco-Tourism
+    Topic: technology | Type: lifestyle_feature | Words: 586
+ 9. reading_part5_task_09 - Embracing the Green Path: Sustainable Travel Adventures Revealed
+    Topic: technology | Type: travel_writing | Words: 598
+10. reading_part5_task_10 - Travel Without Wrecking the Planet: Eco-Friendly Adventures Abroad
+    Topic: technology | Type: educational_feature | Words: 586
+11. reading_part5_task_11 - Greening the City, One Plot at a Time
+    Topic: general | Type: magazine_article | Words: 632
+12. reading_part5_task_12 - Green Oases in the City: How Community Gardens Bring Us Together
+    Topic: general | Type: newspaper_article | Words: 626
+13. reading_part5_task_13 - Green Thumbs Unite! How Urban Gardens Bring Neighborhoods Together
+    Topic: general | Type: novel_extract | Words: 687
+14. reading_part5_task_14 - Growing Together: How Urban Gardens Bring Communities Closer
+    Topic: general | Type: blog_post | Words: 579
+15. reading_part5_task_15 - Growing Together: How Urban Gardens Are Bringing Neighborhoods Closer
+    Topic: general | Type: science_article | Words: 637
+16. reading_part5_task_16 - Growing Together: How Urban Gardens Bring Communities to Life
+    Topic: general | Type: cultural_review | Words: 590
+17. reading_part5_task_17 - Greening the City from the Ground Up: Urban Gardening Success Stories
+    Topic: general | Type: professional_feature | Words: 699
+18. reading_part5_task_18 - Growing Together: How Urban Gardens Bring Communities to Life
+    Topic: general | Type: lifestyle_feature | Words: 596
+19. reading_part5_task_19 - Discovering the Secret Gardens of City Streets: Community Spaces Abloom
+    Topic: general | Type: travel_writing | Words: 566
+20. reading_part5_task_20 - Growing Together: Urban Gardens That Bring Communities Closer
+    Topic: general | Type: educational_feature | Words: 440
+21. reading_part5_task_21 - Power Your Home, Naturally: Renewable Energy Solutions for a Greener Future
+    Topic: general | Type: magazine_article | Words: 545
+22. reading_part5_task_22 - Powering Your Home with Sunshine: Affordable Renewable Options Revealed
+    Topic: general | Type: newspaper_article | Words: 641
+23. reading_part5_task_23 - Green Homes Made Easy: Affordable Renewable Energy Solutions
+    Topic: general | Type: novel_extract | Words: 577
+24. reading_part5_task_24 - Powering Your Home with Sunshine: Renewable Energy Made Easy
+    Topic: general | Type: blog_post | Words: 642
+25. reading_part5_task_25 - Power Your Home with Sunshine: Easy Renewable Energy Ideas at Home
+    Topic: general | Type: science_article | Words: 607
+26. reading_part5_task_26 - Sun, Wind, and Savings: The Future of Home Energy is Here!
+    Topic: general | Type: cultural_review | Words: 703
+27. reading_part5_task_27 - Power Your Home with Nature: Innovative Renewable Energy Solutions
+    Topic: general | Type: professional_feature | Words: 623
+28. reading_part5_task_28 - Going Green at Home: Simple Ways to Save the Planet
+    Topic: general | Type: lifestyle_feature | Words: 613
+29. reading_part5_task_29 - Sustainable Havens: Discovering Eco-Friendly Homes Around the World
+    Topic: general | Type: travel_writing | Words: 646
+30. reading_part5_task_30 - Power Your Home Naturally: Top 10 Eco-Friendly Energy Solutions
+    Topic: general | Type: educational_feature | Words: 636
+31. reading_part5_task_31 - Ditching Disposable: Can You Live Without Plastic for 30 Days?
+    Topic: general | Type: magazine_article | Words: 554
+32. reading_part5_task_32 - Ditching Plastic: The Ultimate Test of Willpower and Sustainability
+    Topic: general | Type: newspaper_article | Words: 593
+33. reading_part5_task_33 - Ditching Plastic: The Ultimate Challenge to Your Daily Habits Revealed
+    Topic: general | Type: novel_extract | Words: 734
+34. reading_part5_task_34 - Ditching Single-Use Plastics? The Ultimate 30-Day Challenge Awaits You!
+    Topic: general | Type: blog_post | Words: 685
+35. reading_part5_task_35 - Breaking Free from Plastic: Can You Survive Without It?
+    Topic: general | Type: science_article | Words: 642
+36. reading_part5_task_36 - Beyond Single-Use: Can You Survive Without Plastic?
+    Topic: general | Type: cultural_review | Words: 627
+37. reading_part5_task_37 - Ditching Plastic: Can You Survive the No-Waste Challenge?
+    Topic: general | Type: professional_feature | Words: 627
+38. reading_part5_task_38 - Ditch the Bottle: How to Live Plastic-Free in 30 Days
+    Topic: general | Type: lifestyle_feature | Words: 531
+39. reading_part5_task_39 - From Beaches to Backpacks: How I Survived on a Plastic-Free Adventure
+    Topic: general | Type: travel_writing | Words: 581
+40. reading_part5_task_40 - Can You Go One Month Without Plastic? The Ultimate Challenge
+    Topic: general | Type: educational_feature | Words: 565
+41. reading_part5_task_41 - Preparing for a Warmer World: 10 Adaptive Strategies You Need to Know
+    Topic: environment | Type: magazine_article | Words: 593
+42. reading_part5_task_43 - Thriving on a Warmer Planet: Smart Strategies to Save Our Future
+    Topic: environment | Type: novel_extract | Words: 532
+43. reading_part5_task_44 - 6 Essential Steps to Survive and Thrive in a Warming World
+    Topic: environment | Type: blog_post | Words: 608
+44. reading_part5_task_45 - Surviving the Heat: Effective Climate Change Adaptation Strategies Revealed
+    Topic: environment | Type: science_article | Words: 563
+45. reading_part5_task_46 - How Cities Are Fighting Back Against Rising Temperatures and Seas
+    Topic: environment | Type: cultural_review | Words: 543
+46. reading_part5_task_47 - Thriving in a Changing Climate: Effective Adaptation Strategies Revealed
+    Topic: environment | Type: professional_feature | Words: 580
+47. reading_part5_task_48 - Thriving in a Warmer World: Simple Habits for a Sustainable Lifestyle
+    Topic: environment | Type: lifestyle_feature | Words: 583
+48. reading_part5_task_49 - Walking on Rising Tides: Climate Solutions from Around the World
+    Topic: environment | Type: travel_writing | Words: 599
+49. reading_part5_task_50 - Preparing Your Community for a Warmer Future: Effective Adaptation Strategies
+    Topic: environment | Type: educational_feature | Words: 566
+50. reading_part5_task_52 - Ditch Fast Fashion: How to Wear Your Values on Your Sleeve
+    Topic: technology | Type: newspaper_article | Words: 628
+51. reading_part5_task_53 - The Shocking Truth About Your Favorite Brands: Sustainable Fashion Revealed
+    Topic: technology | Type: novel_extract | Words: 572
+52. reading_part5_task_54 - From Fast to Last: The Sustainable Fashion Revolution Starts Here!
+    Topic: technology | Type: blog_post | Words: 630
+53. reading_part5_task_55 - The Shocking Truth About Your Wardrobe: How Fashion Hurts the Planet
+    Topic: technology | Type: science_article | Words: 605
+54. reading_part5_task_56 - The Dark Side of Fashion: Is Sustainable Style Just a Marketing Myth?
+    Topic: technology | Type: cultural_review | Words: 498
+55. reading_part5_task_57 - Rethinking Fashion: How Sustainable Choices Can Transform Your Career and Lifestyle
+    Topic: technology | Type: professional_feature | Words: 553
+56. reading_part5_task_58 - Revolutionize Your Wardrobe Without Breaking the Bank or the Planet
+    Topic: technology | Type: lifestyle_feature | Words: 646
+57. reading_part5_task_59 - Unraveling Threads of Change in Far-Flung Fashion Capitals
+    Topic: technology | Type: travel_writing | Words: 583
+58. reading_part5_task_60 - Unravel the Truth: Sustainable Fashion That's Good for You and Planet
+    Topic: technology | Type: educational_feature | Words: 641
+
+TASK CATEGORIES:
+---------------
+• Environment Sustainability: 9 tasks
+• General: 30 tasks
+• Technology Modern: 9 tasks
+• Travel Adventure: 10 tasks
+
+FILES IN BATCH:
+--------------
+• reading_part5_task_01.json (7,396 bytes)
+• reading_part5_task_02.json (8,747 bytes)
+• reading_part5_task_03.json (7,518 bytes)
+• reading_part5_task_04.json (7,501 bytes)
+• reading_part5_task_05.json (6,779 bytes)
+• reading_part5_task_06.json (8,112 bytes)
+• reading_part5_task_07.json (7,798 bytes)
+• reading_part5_task_08.json (7,058 bytes)
+• reading_part5_task_09.json (7,012 bytes)
+• reading_part5_task_10.json (8,003 bytes)
+• reading_part5_task_11.json (7,968 bytes)
+• reading_part5_task_12.json (8,023 bytes)
+• reading_part5_task_13.json (7,440 bytes)
+• reading_part5_task_14.json (7,345 bytes)
+• reading_part5_task_15.json (7,630 bytes)
+• reading_part5_task_16.json (7,122 bytes)
+• reading_part5_task_17.json (8,484 bytes)
+• reading_part5_task_18.json (7,719 bytes)
+• reading_part5_task_19.json (7,284 bytes)
+• reading_part5_task_20.json (6,869 bytes)
+• reading_part5_task_21.json (7,067 bytes)
+• reading_part5_task_22.json (7,370 bytes)
+• reading_part5_task_23.json (7,200 bytes)
+• reading_part5_task_24.json (7,512 bytes)
+• reading_part5_task_25.json (7,401 bytes)
+• reading_part5_task_26.json (8,617 bytes)
+• reading_part5_task_27.json (7,861 bytes)
+• reading_part5_task_28.json (7,351 bytes)
+• reading_part5_task_29.json (7,659 bytes)
+• reading_part5_task_30.json (7,997 bytes)
+• reading_part5_task_31.json (6,453 bytes)
+• reading_part5_task_32.json (7,484 bytes)
+• reading_part5_task_33.json (7,725 bytes)
+• reading_part5_task_34.json (7,379 bytes)
+• reading_part5_task_35.json (7,178 bytes)
+• reading_part5_task_36.json (7,776 bytes)
+• reading_part5_task_37.json (7,908 bytes)
+• reading_part5_task_38.json (7,534 bytes)
+• reading_part5_task_39.json (6,885 bytes)
+• reading_part5_task_40.json (6,997 bytes)
+• reading_part5_task_41.json (7,209 bytes)
+• reading_part5_task_43.json (6,492 bytes)
+• reading_part5_task_44.json (7,520 bytes)
+• reading_part5_task_45.json (8,068 bytes)
+• reading_part5_task_46.json (8,532 bytes)
+• reading_part5_task_47.json (7,709 bytes)
+• reading_part5_task_48.json (7,725 bytes)
+• reading_part5_task_49.json (7,440 bytes)
+• reading_part5_task_50.json (8,180 bytes)
+• reading_part5_task_52.json (7,115 bytes)
+• reading_part5_task_53.json (7,100 bytes)
+• reading_part5_task_54.json (7,643 bytes)
+• reading_part5_task_55.json (7,764 bytes)
+• reading_part5_task_56.json (7,056 bytes)
+• reading_part5_task_57.json (7,018 bytes)
+• reading_part5_task_58.json (7,809 bytes)
+• reading_part5_task_59.json (7,300 bytes)
+• reading_part5_task_60.json (7,184 bytes)

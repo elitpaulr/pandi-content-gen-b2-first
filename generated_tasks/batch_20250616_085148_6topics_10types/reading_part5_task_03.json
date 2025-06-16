@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_03",
+  "title": "Embracing the Green Globe: A Journey to Sustainable Travel",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Costa Rica, the warm tropical air enveloped me like a hug from an old friend. I had been planning this trip for months, and finally, I was here to immerse myself in the country's lush rainforests, pristine beaches, and vibrant culture. But what I didn't realize was that my travel plans would also take me on a journey of self-discovery.\n\n\"Laissez les bons temps rouler!\" shouted our guide, Carlos, as we set off on our adventure through the jungle. \"Let the good times roll!\" he translated with a grin. We were on our way to explore the Arenal Volcano, an active volcano that had been dormant for over 40 years.\n\nAs we trekked through the dense foliage, I couldn't help but feel a sense of awe at the sheer diversity of plant and animal life surrounding us. The air was thick with the scent of blooming flowers, and the sounds of exotic birdsong filled my ears. But what struck me most was the way our footsteps echoed off the trees – we were walking on trails that had been carved out by local communities, who worked tirelessly to preserve this precious ecosystem.\n\n\"This is eco-tourism at its best,\" Carlos explained as we paused to take in the breathtaking view of the volcano's summit. \"We're not just here to marvel at nature; we're also supporting the local economy and promoting sustainable practices.\"\n\nAs we continued our journey, I began to grasp the concept of sustainable travel – it was about more than just visiting beautiful places; it was about being a responsible visitor, too. We stayed in an eco-lodge that used solar power and rainwater harvesting systems, and even helped with some community projects, like building birdhouses for the local avian population.\n\nBut what really struck me was the way sustainable travel had transformed our group's dynamic. We were no longer just strangers on a plane; we'd become a community of travelers who shared a common goal: to minimize our impact on this incredible environment.\n\n\"We can make a difference, even with small actions,\" said Maria, a fellow traveler from Spain. \"Like choosing accommodations that use locally sourced materials or selecting tour operators that follow environmentally friendly practices.\"\n\nAs the sun began to set over the volcano's rim, we gathered around a roaring campfire, swapping stories of our adventures and sharing laughter. It was then that I realized sustainable travel wasn't just about preserving nature – it was also about connecting with people from different cultures and backgrounds.\n\n\"Travel has this incredible power to break down barriers,\" said Carlos as he passed me a cup of steaming hot coffee. \"And eco-tourism is the perfect way to experience it.\"\n\nThe next morning, we set off early for our final destination: the stunning Playa Nosara on the Pacific coast. As I gazed out at the turquoise waters and powdery sand, I felt a deep sense of gratitude for this journey – not just for the breathtaking scenery but also for the people I'd met along the way.\n\n\"Sustainable travel isn't just about saving the planet,\" said Maria as we watched the sun rise over the ocean. \"It's about changing ourselves, too.\"\n\nAs I reflect on that trip to Costa Rica, I realize that sustainable travel has left an indelible mark on my heart. It's a journey of self-discovery, one that reminds us that our actions – no matter how small they may seem – can make a profound difference in the world around us.\n\nAnd so, as I pack up my bags and head back home, I know that I'll carry this newfound appreciation for sustainable travel with me always. Whether it's choosing eco-friendly accommodations or participating in community projects, every step I take will be guided by a deeper understanding of the impact we can have on our planet – and on ourselves.\n\nAs Carlos would say, \"Laissez les bons temps rouler!\" Let the good times roll!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Maria's attitude towards sustainable travel from her statement to the group?",
+      "options": {
+        "A": "She is skeptical about the effectiveness of eco-friendly practices.",
+        "B": "She believes that small actions have a significant impact on the environment.",
+        "C": "She thinks that tourists should not get involved in community projects.",
+        "D": "She is not interested in learning about local cultures and traditions."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"immerse\" oneself in a place or culture?",
+      "options": {
+        "A": "To separate oneself from others",
+        "B": "To surround oneself with new experiences and sensations",
+        "C": "To ignore the local customs and traditions",
+        "D": "To travel quickly through a country without stopping"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the name of the volcano that the group visited?",
+      "options": {
+        "A": "Arenal Volcano",
+        "B": "Costa Rica Volcano",
+        "C": "Pacific Ocean Volcano",
+        "D": "Jungle Volcano"
+      },
+      "correct_answer": "A",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author's tone suggest about her experience of sustainable travel in Costa Rica?",
+      "options": {
+        "A": "She found it to be a boring and unfulfilling experience.",
+        "B": "It was a journey of self-discovery that changed her perspective on life.",
+        "C": "She didn't enjoy the local culture and preferred her own company.",
+        "D": "The author thought eco-tourism was just about seeing beautiful places."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who was carrying out their own sustainable practices to preserve the ecosystem by carving trails for tourists?",
+      "options": {
+        "A": "The local communities",
+        "B": "Our group of travelers",
+        "C": "The tour operators",
+        "D": "Carlos and Maria personally"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about the author's experience with sustainable travel?",
+      "options": {
+        "A": "The author describes the beautiful natural scenery of Costa Rica and its vibrant culture.",
+        "B": "Sustainable travel is not just about preserving nature, but also about connecting with people from different cultures and backgrounds.",
+        "C": "The author criticizes the negative impact of tourism on the environment and local communities.",
+        "D": "The author learns that sustainable travel can transform one's personal life and relationships."
+      },
+      "correct_answer": "D",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "travel_adventure"
+}

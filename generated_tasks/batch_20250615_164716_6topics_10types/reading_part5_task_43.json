@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_43",
+  "title": "The Hidden Cost of Your Favorite Products: Uncovering Sustainable Truths",
+  "topic": "technology",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "The Impact of Sustainable Shopping on Our Planet\n\nAs consumers, we make choices every day that have a significant impact on the environment, society, and our economy. One of these choices is how we shop for everyday goods. Sustainable shopping and ethical consumption are becoming increasingly important as people become more aware of the consequences of their purchasing decisions.\n\nThe environmental impact of traditional shopping practices is staggering. Fast fashion, for example, generates over 12% of global greenhouse gas emissions, mainly due to transportation and manufacturing processes. The production of cheap clothing encourages a \"take, make, dispose\" approach, resulting in massive waste and pollution. In contrast, sustainable shopping promotes a \"buy less, choose wisely\" approach.\n\nOne way to adopt sustainable shopping practices is by choosing products made from sustainable materials. For instance, bamboo toothbrushes are biodegradable and require less energy to produce than traditional plastic brushes. Clothing brands like Patagonia and Reformation use environmentally-friendly materials such as recycled polyester and organic cotton. These choices may cost a bit more upfront, but they reduce waste and minimize harm to the planet.\n\nAnother crucial aspect of sustainable shopping is buying second-hand items. Thrift stores and online marketplaces offer an array of gently used goods at affordable prices. This reduces the demand for new products, which often have a significant carbon footprint due to transportation and production. Websites like ThredUp and Poshmark allow consumers to purchase pre-owned clothing and accessories while promoting sustainable consumption.\n\nIn addition to shopping habits, companies must also be held accountable for their environmental and social impact. Ethical consumerism encourages consumers to research brands and products before making a purchase. This involves examining the company's policies on labor rights, sustainability, and transparency. Brands like Toms and People Tree prioritize fair trade practices and community development.\n\nHowever, not all sustainable shopping options are created equal. Greenwashing – when companies make false or misleading claims about their environmental credentials – is a growing concern. Consumers must be aware of this practice to avoid supporting brands that prioritize profits over people and the planet. A simple way to spot greenwashing is by checking for third-party certifications like Fair Trade or Oeko-Tex.\n\nThe benefits of sustainable shopping extend beyond the environment. By choosing products made from sustainable materials, consumers support fair labor practices and contribute to community development. For instance, purchasing coffee beans from certified sustainable farms ensures that farmers receive a fair price for their produce. This not only improves their livelihoods but also supports conservation efforts in rural communities.\n\nAs consumers become more aware of the impact of their shopping habits, companies are responding with innovative solutions. Online platforms like Loop and Returnity offer customers the option to purchase products on loan, reducing waste and promoting reuse. Some brands even design products for recyclability or upcycling.\n\nIn conclusion, sustainable shopping and ethical consumption require a shift in consumer behavior and corporate practices. By choosing products made from sustainable materials, buying second-hand items, and supporting companies with strong environmental and social policies, consumers can significantly reduce their impact on the planet. As the demand for sustainable goods continues to grow, businesses must adapt by prioritizing transparency, accountability, and innovation.\n\nIn this era of consumerism, it's time to redefine what we mean by \"value.\" Instead of focusing solely on price and convenience, let's prioritize sustainability, fairness, and social responsibility. By making informed choices about our shopping habits, we can contribute to a more equitable and environmentally conscious world – one purchase at a time.\n\nThe impact of sustainable shopping is multifaceted, far-reaching, and essential for the well-being of our planet. As consumers become increasingly aware of their purchasing power, companies will be forced to adapt and innovate. The future of consumerism depends on it.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's view on companies that prioritize profits over people and the planet?",
+      "options": {
+        "A": "They are a necessary part of sustainable shopping",
+        "B": "They should be supported by consumers as they contribute to economic growth",
+        "C": "They engage in greenwashing practices, making false claims about their environmental credentials",
+        "D": "They are not responsible for consumer choices"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"greenwashing\" refer to in the context of sustainable shopping?",
+      "options": {
+        "A": "When a company uses environmentally friendly packaging to make its products appear more eco-friendly.",
+        "B": "When companies make false or misleading claims about their environmental credentials.",
+        "C": "When consumers purchase second-hand items instead of new ones.",
+        "D": "When brands prioritize fair trade practices and community development."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of global greenhouse gas emissions is generated by fast fashion?",
+      "options": {
+        "A": "6%",
+        "B": "12%",
+        "C": "18%",
+        "D": "20%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author imply about the importance of transparency in companies' practices?",
+      "options": {
+        "A": "The author suggests that transparency is not crucial for sustainable shopping.",
+        "B": "Transparency is essential for consumers to make informed choices, but some companies may still engage in greenwashing.",
+        "C": "Companies are already transparent and honest about their environmental credentials.",
+        "D": "Transparency is only necessary when buying second-hand items."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"these choices may cost a bit more upfront\" refer to in the text?",
+      "options": {
+        "A": "Buying second-hand items",
+        "B": "Choosing products made from sustainable materials",
+        "C": "Shopping online through platforms like Loop and Returnity",
+        "D": "Exchanging traditional shopping practices for sustainable ones"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of this text about sustainable shopping?",
+      "options": {
+        "A": "To inform readers about the negative impact of fast fashion on the environment",
+        "B": "To encourage consumers to make more environmentally friendly purchasing decisions and support companies with strong environmental policies",
+        "C": "To discuss the role of companies in promoting sustainability and social responsibility",
+        "D": "To present a comprehensive guide to reducing waste and pollution through sustainable shopping practices"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

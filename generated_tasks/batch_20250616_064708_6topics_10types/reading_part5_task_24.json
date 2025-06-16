@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_24",
+  "title": "Which Team Player Are You? Sports for Solo Stars or Squad Goals?",
+  "topic": "general",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember the thrill of being part of a high school basketball team. The rush of adrenaline as we took to the court, the cheers of our fans, and the sense of camaraderie that came with working together towards a common goal. It was an experience I'll always treasure.\n\nAs I've grown older, I've had the opportunity to try out various individual activities – rock climbing, solo hiking, and even painting classes. While these experiences have been rewarding in their own right, I often find myself missing the dynamic of team sports.\n\nThere's something special about being part of a team that can't be replicated with individual pursuits. When you're working towards a common objective, you're not just relying on your own skills; you're also counting on your teammates to pick up the slack when needed. This interdependence fosters a sense of trust and reliance that's hard to find elsewhere.\n\nOf course, team sports aren't all sunshine and rainbows. There are the inevitable conflicts that arise from differing personalities and opinions. But these conflicts can be just as valuable as the triumphs – they teach us how to navigate disagreements, compromise, and work towards a solution that benefits everyone.\n\nOn the other hand, individual activities offer a different set of rewards. When you're pursuing a solo activity, you have complete control over your experience. You can push yourself as hard or as little as you like, take breaks whenever you want, and focus solely on your own progress. This autonomy is incredibly liberating – it allows you to explore new interests and skills without being bound by the needs of others.\n\nMoreover, individual activities often require a different kind of mental toughness. When you're working out alone or tackling a challenging project, you don't have teammates to lean on when things get tough. You must draw upon your own reserves of motivation and perseverance to keep pushing forward.\n\nBut what about social benefits? Don't team sports offer opportunities for socialization that individual activities can't match?\n\nWhile it's true that team sports provide an obvious outlet for social interaction, I'd argue that individual pursuits can be just as social – albeit in different ways. When you're participating in a group fitness class or joining a club focused on your shared interest, you're connecting with like-minded individuals who share your passions.\n\nThese connections can lead to meaningful relationships and friendships that extend far beyond the confines of the activity itself. And let's not forget the sense of community that often comes with team sports – being part of a larger organization or league that shares a common goal.\n\nSo which is better: team sports or individual activities?\n\nUltimately, it depends on your personality and what you're looking for in an experience. If you thrive on collaboration, enjoy the dynamic of working together towards a shared objective, and can handle the occasional conflict – then team sports might be the way to go.\n\nOn the other hand, if you value autonomy, enjoy exploring new interests without being tied down by others, and are comfortable relying solely on your own motivation – individual activities could be the better fit.\n\nAs for me? I'll always cherish my experiences with team sports. But I also appreciate the unique rewards of individual pursuits – and who knows? Maybe someday I'll find a balance between both.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is implied about the writer's experience of being part of a group fitness class or joining a club focused on their shared interest?",
+      "options": {
+        "A": "The connections they made were superficial and didn't lead to meaningful relationships.",
+        "B": "They found that these experiences allowed them to connect with like-minded individuals who share their passions, leading to meaningful relationships and friendships.",
+        "C": "They never enjoyed participating in group activities as much as individual sports.",
+        "D": "These activities only provided an opportunity for social interaction during the activity itself."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"interdependence\" mean in this context?",
+      "options": {
+        "A": "Relying solely on your own skills",
+        "B": "Counting on others to help you achieve a goal",
+        "C": "Working alone without any support from others",
+        "D": "Focusing solely on your own progress"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of activity allows you to push yourself as hard or as little as you like, take breaks whenever you want, and focus solely on your own progress?",
+      "options": {
+        "A": "Team sports",
+        "B": "Group fitness classes",
+        "C": "Solo hiking",
+        "D": "Rock climbing"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards conflicts that arise in team sports?",
+      "options": {
+        "A": "They are unnecessary and should be avoided at all costs.",
+        "B": "They are valuable experiences that teach us important life skills.",
+        "C": "They are a major drawback of team sports and should not be tolerated.",
+        "D": "They are a sign of poor leadership on the part of the coach or captain."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the pronoun 'it' refer to in the sentence \"There's something special about being part of a team that can't be replicated with individual pursuits\"?",
+      "options": {
+        "A": "The rush of adrenaline experienced when playing basketball",
+        "B": "The dynamic of team sports",
+        "C": "The experience of working together towards a common goal",
+        "D": "The sense of trust and reliance that comes from interdependence"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text?",
+      "options": {
+        "A": "Team sports are the only way to achieve true camaraderie and social benefits.",
+        "B": "Both team sports and individual activities have their own unique rewards, but team sports offer a more enjoyable experience for most people.",
+        "C": "Individual pursuits provide too much autonomy and freedom, making them less effective at building strong relationships with others.",
+        "D": "Team sports are inherently more valuable than individual activities because they require working together towards a common goal."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

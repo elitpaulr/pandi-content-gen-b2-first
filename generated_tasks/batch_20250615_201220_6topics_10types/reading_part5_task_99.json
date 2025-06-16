@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_99",
+  "title": "Unlocking Crypto: A Beginner's Guide to Making Your Money Grow",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As I sat across from my friend, Rachel, sipping our lattes at the quaint coffee shop in downtown Manhattan, she couldn't help but ask me the question that had been on her mind for weeks.\n\n\"Alex, what's all this fuss about cryptocurrency? Is it some sort of get-rich-quick scheme?\" She raised an eyebrow, intrigued by the mystery surrounding these digital currencies.\n\nI took a sip of my coffee, collecting my thoughts before diving into the world of cryptocurrency. \"Not quite, Rachel,\" I began, \"but I'll try to break it down in simple terms.\"\n\nI leaned forward, eager to share my knowledge with her. \"Cryptocurrency is a decentralized form of currency that uses cryptography for secure financial transactions. It's like digital cash, but instead of being issued by governments or banks, it's created and maintained by a network of computers around the world.\"\n\nRachel's eyes widened as she scribbled some notes on her napkin. \"Decentralized? Like, no central authority?\"\n\nI nodded. \"Exactly! And because it's decentralized, transactions are recorded on a public ledger called a blockchain, which ensures transparency and security.\"\n\nShe looked puzzled, so I continued to explain the basics. \"Imagine a digital bookkeeping system where every transaction is time-stamped and linked to the previous one. It's like a digital chain of blocks, hence the name blockchain.\"\n\nRachel's eyes lit up as understanding began to dawn on her. \"I see! So, it's like a secure digital bank account?\"\n\n\"Kind of,\" I said with a smile. \"But instead of holding physical cash or coins, you're storing and transacting with digital units called 'coins' or 'tokens.'\"\n\nAs we delved deeper into the world of cryptocurrency, Rachel asked about the various types of cryptocurrencies. \"What's the difference between Bitcoin, Ethereum, and Litecoin?\" she inquired.\n\nI chuckled at her eagerness to learn. \"Well, each one has its unique features and use cases. Think of them like different currencies with their own strengths and weaknesses.\"\n\n\"Bitcoin,\" I began, \"is the original cryptocurrency and still one of the most widely used. It's considered a store-of-value currency, similar to gold. Ethereum, on the other hand, is more versatile, as it supports smart contracts – essentially self-executing contracts with specific rules. And Litecoin, while similar to Bitcoin, has faster transaction times.\"\n\nRachel nodded enthusiastically, her mind racing with questions and possibilities. \"What about mining?\" she asked suddenly.\n\nI grinned, anticipating this question. \"Ah, yes! Mining is the process of solving complex mathematical equations to validate transactions and create new coins. It's like a digital treasure hunt, where computers compete to solve the puzzle first.\"\n\nAs our conversation drew to a close, Rachel leaned back in her chair, looking thoughtful. \"Wow, Alex, I never knew it was that complicated... yet fascinating?\"\n\nI laughed, feeling proud of myself for demystifying cryptocurrency for my friend. \"That's exactly what I'm saying – it may seem complex at first, but once you grasp the basics, it opens up a whole new world of possibilities.\"\n\nAs we finished our lattes and parted ways, Rachel turned to me with a smile. \"Thanks, Alex. You've sparked something in me. Time to explore this cryptocurrency thing further!\"\n\nI beamed with satisfaction, knowing that I'd shared my passion with someone who was eager to learn. Who knows? Maybe one day we'll both be part of the cryptocurrency revolution.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Rachel's initial attitude towards cryptocurrency?",
+      "options": {
+        "A": "She had been following the latest developments in the field for months",
+        "B": "She was skeptical and hesitant to learn more",
+        "C": "She was already invested in various cryptocurrencies",
+        "D": "She thought it was a fad that would soon disappear"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"decentralized\" mean in this context?",
+      "options": {
+        "A": "A system controlled by a single authority",
+        "B": "A digital bookkeeping system where every transaction is recorded on a public ledger",
+        "C": "A system that operates independently without central control or oversight",
+        "D": "A way of sending and receiving money online"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is used for secure financial transactions in a decentralized form of currency like cryptocurrency?",
+      "options": {
+        "A": "A network of computers around the world",
+        "B": "Cryptography and a public ledger called a blockchain",
+        "C": "Governments or banks issuing physical cash",
+        "D": "Smart contracts and self-executing rules"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Alex's attitude towards explaining cryptocurrency to his friend Rachel?",
+      "options": {
+        "A": "He is frustrated by her lack of understanding and impatient to finish the conversation",
+        "B": "He is enthusiastic about sharing his knowledge and excited to demystify the subject for her",
+        "C": "He is skeptical about the importance of cryptocurrency and only agrees to explain it out of obligation",
+        "D": "He is hesitant to discuss the topic due to its complexity and potential risks"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Rachel scribble some notes on in the coffee shop?",
+      "options": {
+        "A": "Her phone",
+        "B": "The napkin",
+        "C": "A piece of paper from her wallet",
+        "D": "The menu board"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of Alex's conversation with his friend Rachel about cryptocurrency?",
+      "options": {
+        "A": "Cryptocurrency is a way for people to become rich quickly.",
+        "B": "Cryptocurrency is a complex and secure form of digital currency that uses cryptography.",
+        "C": "Alex's friend Rachel is trying to teach him about cryptocurrency.",
+        "D": "The benefits of using cryptocurrency are only available to experts."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

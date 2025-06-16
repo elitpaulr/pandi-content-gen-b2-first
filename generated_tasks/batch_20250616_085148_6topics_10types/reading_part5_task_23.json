@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_23",
+  "title": "Green Homes Made Easy: Affordable Renewable Energy Solutions",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "The sun was setting over the small town of Willow Creek, casting a warm orange glow over the rows of houses. Emma had always been passionate about sustainability, and as she stood in her backyard, gazing out at the array of solar panels on her roof, she felt a sense of pride and accomplishment.\n\n\"Hey, Emma!\" her neighbor, Jack, called out from across the fence. \"I've been meaning to ask you about those solar panels. How's it working out?\"\n\nEmma smiled, wiping the sweat from her forehead as she made her way over to Jack. \"It's been great so far! We're saving a ton of money on our electricity bill, and I feel like we're doing our part for the environment.\"\n\nJack nodded enthusiastically. \"I'm thinking about getting some panels myself. Do you have any advice?\"\n\nEmma laughed. \"Well, first of all, make sure to get a reputable installer who knows what they're doing. We got ours from a company that specializes in solar energy, and it's been a game-changer.\"\n\nAs they chatted, Emma gestured to the solar panels on her roof. \"We've also installed some rainwater harvesting tanks, which collect all the water that runs off our roof during rainy days. It's amazing how much we can save on our water bill!\"\n\nJack's eyes widened in interest. \"That sounds like a great idea! I never thought about collecting my own rainwater.\"\n\nEmma grinned. \"It's not just about saving money – it's also about reducing your carbon footprint. And with the right equipment, you can even use that collected water to irrigate your garden or wash your car!\"\n\nAs they continued to talk, Emma mentioned another one of her favorite renewable energy solutions: geothermal heating and cooling systems.\n\n\"You see, Jack,\" she explained, \"these systems use the natural temperature of the earth to regulate your home's temperature. It's incredibly efficient – we're talking up to 70% efficiency, compared to traditional HVAC systems!\"\n\nJack whistled in amazement. \"That sounds like science fiction! But seriously, how does it work?\"\n\nEmma smiled patiently. \"Well, the system pumps water through underground pipes, which absorbs or releases heat depending on the temperature of the earth. It's a closed-loop system, so you don't have to worry about groundwater contamination.\"\n\nAs they walked back to their respective homes, Jack turned to Emma with a look of determination. \"Thanks for the info, Emma! I think I'm going to start looking into solar panels and geothermal systems ASAP.\"\n\nEmma beamed with pride. \"That's terrific, Jack! You won't regret it – renewable energy is the future, and we're all in this together!\"\n\nOver the next few weeks, Jack worked tirelessly to get his home up to speed with the latest renewable energy solutions. He installed solar panels on his roof, set up a rainwater harvesting system, and even hired an expert to install a geothermal heating and cooling system.\n\nAs he watched the electricity bill dwindle to almost zero, Jack couldn't help but feel a sense of satisfaction and accomplishment. It wasn't just about saving money – it was about doing what was right for his family and the planet.\n\n\"Thanks, Emma,\" he said with a grin as he waved goodbye to her across the fence one sunny afternoon. \"You've inspired me to join the renewable energy revolution!\"\n\nAs Emma smiled and waved back, she knew that she had made a difference in her community – one small step towards a more sustainable future at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Jack's attitude towards environmental issues before talking to Emma?",
+      "options": {
+        "A": "He was already actively involved in reducing his carbon footprint.",
+        "B": "He had no interest in sustainability and was skeptical of renewable energy solutions.",
+        "C": "He was curious but not motivated to take action until he spoke with Emma.",
+        "D": "He was a passionate advocate for solar power and geothermal systems."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for a system or process to be \"efficient\" in this context?",
+      "options": {
+        "A": "It means it costs less money",
+        "B": "It means it uses minimal resources and produces little waste",
+        "C": "It means it can achieve its intended purpose with minimal energy or effort",
+        "D": "It means it is very slow to produce results"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Emma, what percentage efficiency can geothermal heating and cooling systems achieve compared to traditional HVAC systems?",
+      "options": {
+        "A": "40%",
+        "B": "50%",
+        "C": "70%",
+        "D": "80%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Emma's attitude towards renewable energy solutions?",
+      "options": {
+        "A": "She thinks they are too expensive for ordinary people.",
+        "B": "She strongly believes that they are essential for reducing our carbon footprint and saving money.",
+        "C": "She doesn't think they are necessary because traditional energy sources are sufficient.",
+        "D": "She prefers to rely on her neighbors' experiences rather than trying new technologies herself."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"these systems\" refer to in this text?",
+      "options": {
+        "A": "The rainwater harvesting tanks",
+        "B": "The solar panels on Emma's roof",
+        "C": "The geothermal heating and cooling systems Jack is about to install",
+        "D": "The traditional HVAC systems"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about Emma's experience with renewable energy solutions for homes?",
+      "options": {
+        "A": "The text describes the benefits and drawbacks of using geothermal heating and cooling systems.",
+        "B": "The main character, Emma, inspires her neighbor Jack to switch to renewable energy by sharing her own experiences and advice.",
+        "C": "The story focuses on the installation and maintenance process of solar panels in a small town.",
+        "D": "The text compares the cost-effectiveness of different types of renewable energy solutions."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

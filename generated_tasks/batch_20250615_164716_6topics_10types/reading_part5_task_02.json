@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_02",
+  "title": "Mastering Money: The Ultimate Guide to Financial Freedom for Young Adults",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**Taking Control of Your Finances: Why Financial Literacy Matters for Young Adults**\n\nAs a young adult, you're likely to be making big decisions about your life, from choosing a career path to planning your future. But amidst all the excitement and uncertainty, have you stopped to think about one of the most important aspects of your independence: managing your money?\n\nFinancial literacy is not just about understanding numbers and budgeting; it's about taking control of your financial future, making informed decisions, and avoiding costly mistakes. Yet, many young adults struggle with basic financial concepts, leading to debt, stress, and missed opportunities.\n\n**The Reality Check**\n\nA recent survey found that 60% of millennials (born between 1981 and 1996) have no savings, while 40% are living paycheck to paycheck. These statistics are alarming, but they also highlight the importance of financial education for young adults.\n\n\"We're seeing a generation of young people who are financially illiterate,\" says Michelle Singletary, a personal finance expert and author. \"They don't understand how to create a budget, manage debt, or invest in their future.\"\n\n**The Skills You Need**\n\nSo, what skills do you need to master to become financially literate? Here are some key areas to focus on:\n\n1. **Budgeting**: Creating a realistic budget that accounts for all your expenses, income, and savings goals.\n2. **Saving**: Setting aside money for short-term and long-term goals, such as emergencies, education, or retirement.\n3. **Debt management**: Understanding the different types of debt (e.g., credit cards, student loans), how to pay them off, and strategies for avoiding new debt.\n4. **Investing**: Knowing the basics of investing in stocks, bonds, or other assets, and understanding risk vs. reward.\n5. **Financial planning**: Creating a long-term plan that aligns with your goals, values, and priorities.\n\n**Practical Tips**\n\nSo, how can you start building your financial literacy? Here are some practical tips:\n\n1. **Track your expenses**: Use an app or spreadsheet to record every transaction for a month to get a clear picture of where your money is going.\n2. **Create a budget**: Based on your income and expenses, allocate funds to savings, debt repayment, and discretionary spending.\n3. **Automate your savings**: Set up automatic transfers from your checking account to your savings or investment accounts.\n4. **Seek guidance**: Consult with a financial advisor or planner to get personalized advice and support.\n5. **Stay informed**: Continuously educate yourself on personal finance topics through books, online courses, or workshops.\n\n**Breaking the Cycle**\n\nFinancial literacy is not just about individual success; it's also about breaking cycles of debt and poverty that can affect entire families and communities. By taking control of your finances, you're not only improving your own life but also contributing to a more financially stable society.\n\nAs Singletary emphasizes, \"Financial education is key to breaking the cycle of poverty and creating a brighter future for ourselves and our children.\"\n\n**Conclusion**\n\nFinancial literacy may seem daunting, but it's a skill that can be learned with practice, patience, and persistence. By mastering basic financial concepts and adopting healthy habits, you'll set yourself up for long-term success, reduce stress, and increase your confidence.\n\nSo, take the first step today: start building your financial literacy, and watch your future unfold with clarity and purpose.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if young adults continue to struggle with basic financial concepts?",
+      "options": {
+        "A": "They will become more financially independent.",
+        "B": "They will be more likely to accumulate debt and experience stress related to their finances.",
+        "C": "They will have fewer opportunities for education and career advancement.",
+        "D": "They will start saving money and investing in the stock market."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"take control of your financial future\" in this text?",
+      "options": {
+        "A": "To focus on short-term savings goals",
+        "B": "To make informed decisions about money management and avoid costly mistakes",
+        "C": "To rely solely on government assistance for financial support",
+        "D": "To ignore financial planning altogether"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Michelle Singletary, what percentage of millennials have no savings?",
+      "options": {
+        "A": "30%",
+        "B": "40%",
+        "C": "60%",
+        "D": "70%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards young adults' financial decisions?",
+      "options": {
+        "A": "The author thinks that young adults are naturally responsible with money.",
+        "B": "The author believes that young adults need to take control of their finances to avoid debt and stress.",
+        "C": "The author assumes that young adults already have a good understanding of personal finance.",
+        "D": "The author is optimistic about the current state of financial literacy among young adults."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Michelle Singletary refer to when she says \"They don't understand how to create a budget, manage debt, or invest in their future\"?",
+      "options": {
+        "A": "Creating a long-term financial plan",
+        "B": "The skills needed to become financially literate",
+        "C": "A generation of young people who are financially illiterate",
+        "D": "Mastering the art of personal finance"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main reason why financial literacy is important for young adults?",
+      "options": {
+        "A": "To help them make better career choices",
+        "B": "To enable them to take control of their financial future and avoid costly mistakes",
+        "C": "To improve their social status",
+        "D": "To increase their academic qualifications"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

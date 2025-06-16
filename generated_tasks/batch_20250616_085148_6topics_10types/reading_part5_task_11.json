@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_11",
+  "title": "Greening the City, One Plot at a Time",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**Growing Together**\n\nIn the heart of cities, where skyscrapers tower above and concrete streets stretch far and wide, there's a quiet revolution taking place. Urban gardens and community spaces are sprouting up like mushrooms, bringing people together in a shared love for nature and greenery.\n\nThese hidden gems, tucked away in rooftops, alleys, and abandoned lots, offer more than just a spot to grow some veggies or flowers. They're hubs of community building, social connection, and environmental stewardship. In an age where city living can feel isolating, these urban oases provide a much-needed sense of belonging.\n\nTake the High Line in New York City, for example. Once an abandoned elevated rail line, it's been transformed into a 1.45-mile-long park, complete with gardens, art installations, and stunning views of the Hudson River. This innovative project has become a beloved destination for locals and tourists alike, showcasing the potential of urban green spaces to revitalize neighborhoods.\n\nSimilarly, in Los Angeles, the LA River Revitalization Project aims to transform 51 miles of concrete riverbed into a lush, verdant corridor. While still in development, this initiative promises to bring new life to an often-overlooked area, creating opportunities for recreation, education, and community engagement.\n\nSo what drives this urban gardening movement? According to Emily Reardon, founder of the non-profit organization GreenThumb in New York City, \"People are looking for ways to connect with nature, even if they live in a high-rise apartment. They want to grow their own food, learn about sustainable living, and be part of a community that shares these values.\"\n\nThis desire for connection is evident in the popularity of urban gardens and community spaces. In Chicago, the City Harvest program has established over 100 community gardens since its inception in 2001. These gardens not only provide fresh produce to underserved neighborhoods but also serve as gathering spots for residents to socialize and share knowledge.\n\nUrban gardening also offers a range of benefits beyond social connection. By incorporating green spaces into city planning, municipalities can reduce the urban heat island effect, improve air quality, and even mitigate the effects of climate change. In fact, studies have shown that every 1% increase in green cover in cities corresponds to a 0.5°C decrease in temperature (Source: University of California, Berkeley).\n\nAs the world grapples with environmental challenges, urban gardening and community spaces are becoming increasingly important. By promoting sustainable practices, education, and community engagement, these initiatives can help build more resilient, equitable cities.\n\nSo how can you get involved? Start by searching for local community gardens or green spaces in your neighborhood. Many organizations offer volunteer opportunities, workshops, and classes on topics like permaculture, composting, and urban beekeeping.\n\nFor those with a little more space to spare, consider starting your own backyard garden. Whether it's a small herb bed or a full-fledged vegetable plot, every effort counts. And if you're feeling adventurous, join a community garden project or rooftop garden initiative – the possibilities are endless!\n\nAs Emily Reardon so aptly puts it, \"Urban gardening is not just about growing plants; it's about growing people and building stronger communities.\" In this age of urbanization, where the line between city and nature can feel increasingly blurred, these green spaces offer a beacon of hope. By embracing our shared love for nature and community, we can create vibrant, thriving cities that benefit all inhabitants – humans and wildlife alike.\n\nThe growth of urban gardens and community spaces is a testament to human resilience and creativity in the face of adversity. As we look to the future, let's nurture these initiatives, supporting their continued growth and expansion. For in the words of renowned landscape architect, Ian McHarg, \"The city is not just a place – it's a living organism that must be designed with sensitivity to the natural world.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the impact of urban gardening on air quality?",
+      "options": {
+        "A": "Urban gardens and community spaces have been proven to increase air pollution levels.",
+        "B": "By incorporating green spaces into city planning, municipalities can reduce air pollution by 50%.",
+        "C": "Studies have shown that every 1% increase in green cover in cities corresponds to a significant decrease in temperature, but no direct link has been found between urban gardening and improved air quality.",
+        "D": "Urban gardens and community spaces are effective in reducing particulate matter and nitrogen dioxide levels in cities."
+      },
+      "correct_answer": "D",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase 'oases' mean in this context?",
+      "options": {
+        "A": "Areas of a city that are very crowded and noisy",
+        "B": "Places where people can relax and enjoy nature, surrounded by greenery",
+        "C": "Buildings that house community centers or public facilities",
+        "D": "Types of plants commonly found in urban gardens"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Emily Reardon, what percentage decrease in temperature can be achieved by increasing green cover in cities by 1%?",
+      "options": {
+        "A": "0.2°C",
+        "B": "0.5°C",
+        "C": "0.8°C",
+        "D": "1.0°C"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What attitude can we infer from Emily Reardon's statement about urban gardening?",
+      "options": {
+        "A": "It's a hobby for the wealthy and privileged.",
+        "B": "Urban gardening is not just about growing plants; it's about growing people and building stronger communities.",
+        "C": "City living is isolating, and green spaces are pointless in this context.",
+        "D": "People should only focus on growing their own food, without caring about community or social connection."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Emily Reardon refer to when she says \"People are looking for ways to connect with nature, even if they live in a high-rise apartment\"?",
+      "options": {
+        "A": "The High Line",
+        "B": "Urban gardens and community spaces",
+        "C": "High-rise apartments",
+        "D": "Rooftop gardens and green spaces"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of urban gardens and community spaces according to Emily Reardon?",
+      "options": {
+        "A": "To provide a spot for recreation and leisure",
+        "B": "To grow food and promote sustainable living, while fostering social connection and community engagement",
+        "C": "To reduce the urban heat island effect and mitigate climate change",
+        "D": "To create opportunities for education and economic development"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

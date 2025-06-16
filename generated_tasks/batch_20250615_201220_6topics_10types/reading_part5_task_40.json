@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_40",
+  "title": "The Sustainable Shopper's Secret Guide to Saving the Planet",
+  "topic": "technology",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "I still remember the day I realized how my daily shopping habits were impacting the planet. I was browsing through a popular online fashion retailer when I stumbled upon an article that exposed the dark truth behind fast fashion. The more I read, the more I felt a pang of guilt for contributing to this unsustainable industry.\n\nAs I delved deeper into the world of sustainable shopping and ethical consumption, I began to make changes in my daily life. It wasn't easy, but with every small step, I started to feel more confident about making conscious choices.\n\nOne of the first things I did was to reassess my values when it comes to shopping. What did I truly value: trendy clothes, cheap prices, or quality products that aligned with my personal principles? For me, the answer was clear – quality and sustainability won out.\n\nI started by swapping fast fashion for second-hand shops and thrift stores. Not only do these stores offer a treasure trove of unique finds at affordable prices, but they also reduce waste and support local communities. I fell in love with the thrill of the hunt, searching for hidden gems that would add character to my wardrobe without harming the environment.\n\nAnother key area I focused on was food shopping. Gone were the days of buying pre-packaged snacks and processed meals. Instead, I began exploring local farmers' markets and choosing seasonal produce from nearby farms. Not only did this support small businesses and promote sustainable agriculture, but it also gave me access to fresher, more nutritious ingredients.\n\nBut what about everyday essentials like toiletries and cleaning products? These items often fly under the radar when it comes to sustainability, but they can have a significant impact on our health and the environment. I started researching eco-friendly brands that use natural ingredients and minimal packaging. Some of my favorites include soap bars instead of liquid soap, refillable containers for household cleaners, and beeswax wraps instead of plastic wrap.\n\nAs I continued to learn more about sustainable shopping and ethical consumption, I encountered some challenges along the way. One major hurdle was the perceived cost – many eco-friendly products come with a higher price tag than their conventional counterparts. However, when you consider the long-term benefits of reducing waste and supporting environmentally responsible companies, it's clear that investing in sustainability is worth it.\n\nI've also faced criticism from friends who see sustainable shopping as too time-consuming or restrictive. But for me, this way of living has been liberating – I no longer feel pressured to keep up with the latest trends or compromise my values for the sake of convenience.\n\nOf course, there's still room for improvement in my own life. I'm working on reducing single-use plastics, exploring sustainable fabrics for future purchases, and supporting companies that prioritize transparency and accountability.\n\nLooking back on this journey, I realize that sustainable shopping and ethical consumption are not just about making individual choices – they're about creating a ripple effect of positive change. Every purchase we make has the power to influence suppliers, manufacturers, and entire industries. By voting with our wallets for brands that share our values, we can drive demand for more responsible practices.\n\nIt's a journey I'll continue to navigate with curiosity, patience, and an open mind. As I've learned from this experience, every small step counts – and together, we can create a world where sustainability and ethics are the new norm.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated the writer to make changes in their shopping habits?",
+      "options": {
+        "A": "They wanted to save money by buying cheaper products",
+        "B": "They felt guilty about contributing to an unsustainable industry",
+        "C": "They were trying to keep up with their friends' fashion trends",
+        "D": "They had no interest in changing their shopping habits"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does 'treasure trove' mean in this context?",
+      "options": {
+        "A": "A place with very little to offer",
+        "B": "A store that sells only second-hand clothes",
+        "C": "A collection of unique and valuable things, especially things that are difficult to find",
+        "D": "An expensive way to buy new clothes"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What did the writer start doing instead of buying pre-packaged snacks and processed meals?",
+      "options": {
+        "A": "Buying more expensive food online",
+        "B": "Choosing seasonal produce from nearby farms",
+        "C": "Cooking every meal from scratch at home",
+        "D": "Eating out at restaurants more often"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "The author of this text considers sustainable shopping to be restrictive.",
+      "options": {
+        "A": "True, she thinks it's worth the effort despite some challenges",
+        "B": "False, she believes that making conscious choices is liberating",
+        "C": "True, she feels pressured to keep up with the latest trends every time she shops",
+        "D": "False, she sees it as too time-consuming"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the author's main idea of sustainable shopping and ethical consumption?",
+      "options": {
+        "A": "It's only for those who have a lot of money to spend on eco-friendly products.",
+        "B": "Sustainable shopping and ethical consumption can be challenging, but are worth it in the long run.",
+        "C": "The only way to live sustainably is to give up all modern conveniences.",
+        "D": "Buying cheap, trendy clothes and processed food is the best way to live a happy life."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

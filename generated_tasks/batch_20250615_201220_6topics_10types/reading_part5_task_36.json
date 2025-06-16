@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_36",
+  "title": "Going Green: Can Your Shopping Habits Really Change the World?",
+  "topic": "technology",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**The Green Revolution: How Sustainable Shopping is Changing the Way We Buy**\n\nAs consumers become increasingly aware of the impact their purchasing habits have on the environment and society, a growing movement towards sustainable shopping and ethical consumption is gaining momentum. Gone are the days of mindless consumerism; today's shoppers are seeking out brands and products that not only meet their needs but also align with their values.\n\nAt its core, sustainable shopping is about making conscious choices that reduce waste, conserve resources, and promote fair labor practices. From the food we eat to the clothes we wear, every purchase has a ripple effect on the planet and its inhabitants. By adopting sustainable shopping habits, individuals can play a significant role in mitigating climate change, protecting biodiversity, and promoting social justice.\n\nOne of the most significant drivers of unsustainable consumption is fast fashion. The rapid production and disposal of cheap, trendy clothing have turned the fashion industry into one of the largest polluters on the planet. The average American generates 82 pounds of textile waste per year, with much of it ending up in landfills or incinerators. In response, many consumers are turning to second-hand shopping, swapping clothes with friends, and investing in high-quality, sustainable garments made from organic materials.\n\nBut sustainable shopping goes far beyond fashion. The food industry is another major culprit when it comes to waste and environmental degradation. The production, transportation, and packaging of meat, dairy, and processed foods contribute significantly to greenhouse gas emissions, deforestation, and water pollution. In contrast, plant-based diets have been shown to reduce an individual's carbon footprint by up to 50%. As a result, many consumers are opting for locally sourced, organic produce, reducing their reliance on industrial agriculture.\n\nBeyond food and fashion, sustainable shopping involves making choices about the products we buy and the companies we support. Look for brands that prioritize fair labor practices, use environmentally friendly materials, and implement circular business models that reduce waste and promote recycling. Some companies are even incorporating social and environmental impact into their financial reporting, providing transparency and accountability to consumers.\n\nFor those on a budget, sustainable shopping doesn't have to mean breaking the bank. Many thrift stores, charity shops, and online marketplaces offer affordable options for second-hand goods. Additionally, buying in bulk, avoiding single-use plastics, and choosing products with minimal packaging can also reduce waste and save money.\n\nAs consumers become more informed about sustainable shopping, businesses are taking notice. More companies are incorporating eco-friendly practices into their operations, from using renewable energy to reducing water consumption. Some retailers are even offering \"sustainable\" labels or certifications, which can be a useful guide for shoppers looking to make environmentally friendly choices.\n\nHowever, not all claims of sustainability are created equal. Some companies may use greenwashing tactics to mislead consumers about the environmental benefits of their products. To avoid falling prey to these tactics, look for third-party certifications like the Fair Trade label or the Bluesign standard, which provide independent verification of a product's sustainability credentials.\n\nAs we move forward in this era of sustainable shopping and ethical consumption, it's clear that individual actions can add up to make a significant impact. By making conscious choices about what we buy and how we consume, we can create demand for more sustainable products and practices, driving innovation and change throughout the supply chain. As consumers, we have the power to vote with our wallets and shape the future of business and industry.\n\nIn conclusion, sustainable shopping is not just a trend or a fad – it's a necessity for creating a healthier, more equitable world. By embracing sustainable consumption habits and supporting companies that prioritize people and the planet, we can build a brighter future for generations to come.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen as consumers become increasingly aware of the impact their purchasing habits have on the environment and society?",
+      "options": {
+        "A": "More people will ignore environmental issues when making purchasing decisions.",
+        "B": "The demand for sustainable products and practices will increase, driving innovation throughout the supply chain.",
+        "C": "Companies will focus solely on reducing production costs rather than prioritizing sustainability.",
+        "D": "Consumers will stop buying food and clothing altogether to reduce waste."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"greenwashing\" refer to in the context of sustainable shopping?",
+      "options": {
+        "A": "The practice of using environmentally friendly packaging to reduce waste",
+        "B": "A marketing tactic used by companies to mislead consumers about the environmental benefits of their products",
+        "C": "A type of certification that ensures a product meets certain sustainability standards",
+        "D": "A way of reducing carbon emissions through energy-efficient practices"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the average amount of textile waste generated per year by the average American?",
+      "options": {
+        "A": "40 pounds",
+        "B": "60 pounds",
+        "C": "82 pounds",
+        "D": "120 pounds"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards fast fashion?",
+      "options": {
+        "A": "It is a necessary part of modern society.",
+        "B": "It has contributed significantly to environmental degradation and social injustice.",
+        "C": "It is a harmless industry that brings people joy.",
+        "D": "It is a major driver of unsustainable consumption."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the ripple effect on the planet and its inhabitants\" refer to?",
+      "options": {
+        "A": "The negative impact of unsustainable shopping on local communities",
+        "B": "The consequences of every purchase on the environment and society",
+        "C": "The benefits of second-hand shopping for individuals and businesses",
+        "D": "The importance of fair labor practices in sustainable consumption"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable shopping?",
+      "options": {
+        "A": "The benefits of second-hand shopping and thrift stores",
+        "B": "Sustainable shopping is just a trend and not a necessity",
+        "C": "By making conscious choices, individuals can play a significant role in mitigating climate change and promoting social justice",
+        "D": "Companies are using greenwashing tactics to deceive consumers about their products"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

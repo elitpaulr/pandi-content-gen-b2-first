@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_75",
+  "title": "The Secret to Financial Freedom: How Side Hustles Become Passive Income Machines",
+  "topic": "general",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "The concept of side hustles has become increasingly popular in recent years, as more people seek to supplement their primary income with additional sources of earnings. However, the idea of generating passive income has taken on a life of its own, with many individuals seeking ways to earn money without actively working for it.\n\nBut what exactly is passive income? Simply put, it's income that requires little to no active involvement or effort once it's set up. This can include investments, real estate, and even creative endeavors such as writing or art. The idea behind passive income is to create a system that generates revenue without requiring constant attention or maintenance.\n\nOne of the most common forms of passive income is investing in stocks or bonds. By putting money into these types of investments, individuals can earn dividends or interest on their initial investment. This can be done through a brokerage account, and many online platforms make it easy to get started.\n\nHowever, investing requires some level of risk tolerance and financial knowledge. For those who don't feel comfortable navigating the world of finance, there are other options available. Creating an online course or selling digital products is another way to generate passive income. This can include things like ebooks, video tutorials, or even software programs.\n\nAnother popular option for generating passive income is real estate investing. By purchasing a rental property or investing in a real estate investment trust (REIT), individuals can earn money through rental income or dividends. However, this type of investment typically requires a significant upfront cost and some level of expertise.\n\nSome people also make money by creating and selling an online business. This can include websites, blogs, or even mobile apps. By building a successful online business, individuals can sell it to others for a profit. This is often referred to as flipping a website or app.\n\nIn addition to these more traditional forms of passive income, there are also many creative ways to earn money without actively working for it. For example, some people make money by creating and selling stock photos or music. Others generate revenue through affiliate marketing, where they promote other people's products in exchange for a commission.\n\nDespite the allure of passive income, it's essential to remember that most forms of passive income require some level of initial effort and investment. Creating an online course or writing a book, for example, requires a significant amount of time and energy upfront. However, once completed, these types of projects can generate revenue without requiring constant attention.\n\nTo maximize the potential for passive income, it's crucial to be strategic about how you spend your time and resources. This means choosing projects that align with your skills and interests, as well as investing in education or training to improve your abilities.\n\nIn conclusion, side hustles and passive income are not just concepts – they're real ways to earn money without sacrificing too much of your time. By exploring various options and finding the right fit for your skills and resources, anyone can generate passive income and achieve financial freedom.\n\nSome experts argue that passive income is a key component of achieving financial independence. It's true that having multiple sources of income can provide peace of mind and security in case something unexpected happens. However, it's also essential to remember that no one form of income is foolproof.\n\nTo mitigate risk, diversifying your income streams is crucial. This means exploring various forms of passive income, such as investing, real estate, or creating digital products. By spreading your eggs across multiple baskets, you can reduce the likelihood of financial loss and create a more stable financial foundation.\n\nUltimately, the key to successful side hustles and passive income lies in finding the right balance between effort and return on investment. With patience, persistence, and a willingness to learn and adapt, anyone can generate passive income and achieve their financial goals.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what is one way to mitigate risk when generating passive income?",
+      "options": {
+        "A": "By investing all your money in one type of asset",
+        "B": "By diversifying your income streams",
+        "C": "By working on multiple side hustles at once",
+        "D": "By only using traditional forms of investment"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for an income source to be \"passive\"?",
+      "options": {
+        "A": "An income that requires a lot of time and effort to maintain",
+        "B": "An income that generates revenue without requiring constant attention or maintenance",
+        "C": "An income that is only available to those with high levels of financial knowledge",
+        "D": "An income that can be earned by working long hours"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one of the most common forms of passive income?",
+      "options": {
+        "A": "Creating an online course or selling digital products",
+        "B": "Investing in real estate or buying a rental property",
+        "C": "Earning dividends or interest on investments in stocks or bonds",
+        "D": "Flipping a website or app for a profit"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards generating passive income?",
+      "options": {
+        "A": "It's a get-rich-quick scheme that requires no effort.",
+        "B": "It's a viable way to earn extra money without sacrificing too much of your time.",
+        "C": "It's only suitable for wealthy individuals with significant financial knowledge.",
+        "D": "It's a guaranteed way to achieve financial freedom."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main purpose of this text about side hustles and passive income?",
+      "options": {
+        "A": "To discuss various ways to earn money online",
+        "B": "To explain the benefits of having multiple sources of income",
+        "C": "To provide a comprehensive guide to achieving financial independence through passive income",
+        "D": "To introduce readers to different types of investments and their potential for generating passive income"
+      },
+      "correct_answer": "D",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

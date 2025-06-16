@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_26",
+  "title": "Team Spirit vs Solo Struggle: Which Wins Out in Modern Culture?",
+  "topic": "general",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "In today's fast-paced world, people are constantly seeking ways to stay active, socialize, and challenge themselves. Two popular options for achieving these goals are team sports and individual activities. While both have their merits, they cater to different personalities and offer distinct benefits.\n\nTeam sports, such as soccer, basketball, and volleyball, involve working together towards a common goal. These sports foster camaraderie, encouraging participants to rely on one another's strengths and weaknesses. For instance, in a soccer match, the team's success relies heavily on coordination between the goalkeeper, defenders, midfielders, and forwards. This interdependence breeds a sense of responsibility and accountability among teammates.\n\nParticipating in team sports also has physical benefits. Team players often engage in more intense exercises, such as sprints and agility drills, to improve their performance. Moreover, they tend to push themselves harder during games and practices, which can lead to improved cardiovascular health, increased strength, and enhanced flexibility.\n\nOn the other hand, individual activities like running, cycling, or swimming focus on personal achievement rather than teamwork. While these pursuits offer numerous benefits, including weight loss and stress relief, they often lack the social aspect of team sports. Running enthusiasts may join group runs or participate in marathons with friends, but the primary emphasis remains on individual performance.\n\nSome individuals might prefer solo activities due to their introverted nature or busy schedules. For example, a working professional may choose to commute by bike instead of driving a car, allowing them to squeeze in some exercise during their daily routine. This self-sufficiency and independence can be appealing to those who value alone time.\n\nHowever, team sports offer an essential social aspect that individual activities often lack. During matches or practices, teammates bond over shared experiences and create lasting friendships. Research suggests that participating in group fitness classes, like spinning or Pilates, leads to increased social connections and a sense of belonging. This communal atmosphere can be particularly beneficial for people who struggle with feelings of isolation or loneliness.\n\nMoreover, team sports often promote healthy competition and sportsmanship. Players learn to win graciously and lose with dignity, essential life skills that extend beyond the playing field. For example, athletes may develop resilience when facing setbacks or defeats, which can translate to their personal and professional lives.\n\nIn contrast, individual activities might not provide the same level of competitive drive. While some runners or cyclists may strive for personal records, they often lack the external pressure and accountability that comes with team competition. This absence of external motivation can lead to complacency and reduced progress towards fitness goals.\n\nUltimately, whether one chooses team sports or individual activities depends on their unique preferences and circumstances. Both options offer numerous benefits, from physical health improvements to social connections. A balanced approach might be the most effective way forward – incorporating both team sports and solo pursuits into an overall fitness routine can provide a well-rounded experience.\n\nIn conclusion, while team sports and individual activities have distinct advantages, they cater to different personality types and needs. By understanding our own preferences and goals, we can choose the best fit for us and make informed decisions about how to stay active, socialize, and challenge ourselves. Whether on the soccer field or solo at the gym, it's essential to find an activity that brings us joy and fulfillment.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to individuals who participate in team sports regularly?",
+      "options": {
+        "A": "They tend to become lonelier due to the emphasis on individual achievement.",
+        "B": "They develop healthier eating habits, as they are more motivated to cook nutritious meals.",
+        "C": "They build stronger social connections and a sense of belonging with their teammates.",
+        "D": "They become less resilient when facing setbacks or defeats."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "The text describes team sports as fostering a sense of _______ among teammates.",
+      "options": {
+        "A": "self-sufficiency",
+        "B": "camaraderie",
+        "C": "competition",
+        "D": "isolation"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is a potential benefit of participating in team sports?",
+      "options": {
+        "A": "Improved flexibility only",
+        "B": "Increased physical health due to intense exercises",
+        "C": "Enhanced social connections through group fitness classes",
+        "D": "Reduced stress levels through individual activities"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards team sports compared to individual activities?",
+      "options": {
+        "A": "The author believes team sports are more beneficial for people's social lives.",
+        "B": "The author thinks individual activities are generally superior to team sports.",
+        "C": "The author suggests that both options have their merits and cater to different personalities.",
+        "D": "The author criticizes individual activities for lacking the sense of community provided by team sports."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the team's success relies heavily on coordination between the goalkeeper, defenders, midfielders, and forwards\" refer to?",
+      "options": {
+        "A": "The benefits of participating in individual activities",
+        "B": "The characteristics of a successful soccer player",
+        "C": "The factors that contribute to the team's overall performance in a soccer match",
+        "D": "The importance of physical training for team players"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text?",
+      "options": {
+        "A": "Team sports are better than individual activities for achieving physical health improvements.",
+        "B": "Both team sports and individual activities have their own advantages, but cater to different personalities and needs.",
+        "C": "Participating in team sports can lead to improved social connections and a sense of belonging.",
+        "D": "Individual activities are more convenient than team sports for people with busy schedules."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

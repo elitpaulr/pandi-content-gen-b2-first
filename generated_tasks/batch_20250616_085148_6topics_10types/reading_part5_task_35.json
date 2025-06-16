@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_35",
+  "title": "Breaking Free from Plastic: Can You Survive Without It?",
+  "topic": "general",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "The Plastic-Free Lifestyle Challenge: Can We Really Make a Difference?\n\nIn recent years, the world has been waking up to the devastating impact of single-use plastics on our environment. From plastic bags and straws to water bottles and microbeads, it's estimated that over 8 million tons of plastic waste enter our oceans every year. The consequences are dire: marine life is suffocating under a tide of plastic debris, and humans are consuming toxic chemicals through the food chain.\n\nAs awareness about the issue grows, more and more people are taking up the challenge to live a plastic-free lifestyle. But how realistic is this goal? Can we really eliminate all plastics from our daily lives, or is it just another fad that will fade away like last season's fashion trend?\n\nThe first hurdle to overcome is understanding what exactly constitutes \"plastic.\" The term encompasses a broad range of materials, including polyethylene, polypropylene, and polyvinyl chloride (PVC). These plastics are used in everything from packaging and containers to clothing and medical devices. To live plastic-free, we need to identify and avoid these products wherever possible.\n\nOne of the most significant challenges is food packaging. Many everyday items like bread bags, cheese wrappers, and frozen meals come wrapped in layers of plastic or foil. It's estimated that the average American generates over 200 pounds of plastic waste per year from just grocery shopping alone. To combat this, many people are turning to bulk shopping, buying loose produce, and opting for glass containers instead of plastic wrap.\n\nAnother area where plastics dominate is personal care products. Shampoos, conditioners, soaps, and lotions often come in packaging made from polyethylene or PVC, which can release toxic chemicals into the air and water. To go plastic-free here, we need to switch to bar soap, shampoo bars, and refillable containers for our favorite products.\n\nBut it's not just about what we buy; it's also about how we consume. The rise of fast food and take-out has led to a massive increase in single-use plastics like cups, lids, and straws. To cut down on this waste, many people are opting for reusable coffee cups, water bottles, and straw alternatives made from metal or bamboo.\n\nOf course, living plastic-free is not just about individual actions; it also requires systemic change. Governments, corporations, and policymakers need to step up their game in reducing plastic waste and promoting sustainable practices. This includes introducing deposit-refund schemes for plastic bottles, banning single-use plastics altogether, and investing in infrastructure that promotes recycling and composting.\n\nSo, can we really make a difference by living a plastic-free lifestyle? The answer is yes – but it requires commitment, creativity, and community support. By working together, sharing ideas, and advocating for change, we can create a wave of momentum that inspires others to join the movement.\n\nSome inspiring examples already exist: the city of Vancouver has banned single-use plastics, while the town of Kamikatsu in Japan aims to be 99% waste-free by 2025. Online communities like Zero Waste Home and Plastic-Free July are also offering valuable resources and support for those embarking on this journey.\n\nIn conclusion, living a plastic-free lifestyle is not just a challenge – it's a necessity. As we strive to reduce our environmental footprint, we must confront the reality of single-use plastics and make conscious choices about what we buy, use, and discard. It won't be easy, but with collective effort and determination, we can create a world where plastic waste is a relic of the past.\n\nBy adopting simple habits like carrying reusable bags, water bottles, and coffee cups, choosing products in glass or cardboard packaging, and advocating for policy change, we can all contribute to reducing plastic waste. It's time to join the movement and make our voices heard – together, we can create a plastic-free world that's healthier, more sustainable, and full of life.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is one of the most significant challenges faced by people trying to live a plastic-free lifestyle?",
+      "options": {
+        "A": "Reducing food waste",
+        "B": "Eliminating all plastics from personal care products",
+        "C": "Avoiding food packaging made from layers of plastic or foil",
+        "D": "Cutting down on single-use plastics like cups, lids, and straws"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the term \"encompasses\" mean in this sentence from the text?",
+      "options": {
+        "A": "To exclude or leave out",
+        "B": "To include or cover a range of things",
+        "C": "To reduce or decrease something",
+        "D": "To increase or multiply something"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is estimated to enter our oceans every year?",
+      "options": {
+        "A": "2 million tons of plastic waste",
+        "B": "8 million tons of plastic waste",
+        "C": "10 million tons of plastic waste",
+        "D": "5 million tons of plastic waste"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards living a plastic-free lifestyle?",
+      "options": {
+        "A": "It's a naive idea with little impact on the environment.",
+        "B": "It's a necessary step towards creating a healthier and more sustainable world.",
+        "C": "It's only possible for wealthy individuals who can afford eco-friendly products.",
+        "D": "It's not worth the effort, as plastic waste is an inevitable part of modern life."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about living a plastic-free lifestyle?",
+      "options": {
+        "A": "The author argues that individual actions are not enough to solve the problem of plastic waste.",
+        "B": "The text describes the challenges and benefits of adopting a plastic-free lifestyle, encouraging readers to make a difference.",
+        "C": "The Plastic-Free Lifestyle Challenge is just another fad that will fade away like last season's fashion trend.",
+        "D": "Governments and corporations should take all responsibility for reducing plastic waste."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

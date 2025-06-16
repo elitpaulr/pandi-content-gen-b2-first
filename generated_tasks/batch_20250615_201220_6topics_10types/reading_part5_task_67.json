@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_67",
+  "title": "10 Surprising Ways to Make Money While You Sleep Tonight",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her coffee, Emily gazed out at the bustling streets of Manhattan, her mind whirling with thoughts of financial freedom. She had always dreamed of quitting her 9-to-5 job to pursue her passion for photography, but the thought of living off a meager salary was daunting.\n\nHer friend, Rachel, noticed her gaze and smiled knowingly. \"You're thinking about side hustles again, aren't you?\" Emily nodded sheepishly, feeling like she'd been caught in the act.\n\nRachel leaned in, her voice taking on a conspiratorial tone. \"Let's talk about something that'll change your life: passive income.\" Emily raised an eyebrow, intrigued by the promise of financial liberation without sacrificing her sanity.\n\nPassive income, Rachel explained, was money earned without actively working for it. Think of it as a rent check from a property you own, or royalties from a book you wrote. The idea seemed too good to be true, but Emily was willing to listen.\n\nRachel began to rattle off examples: affiliate marketing, where she promoted products and earned a commission; dividend-paying stocks, which generated income without requiring her direct involvement; and even creating an online course, where she could sell it once and earn money forever. The possibilities seemed endless.\n\nBut how did one get started? Emily asked, feeling like a beginner in the world of finance. Rachel smiled, reassuring her that getting started was easier than ever. With a smartphone and an internet connection, anyone could create content, market products, or invest in stocks.\n\nRachel pulled out her phone to show Emily the various apps and platforms available for creating passive income streams. There were online marketplaces like Etsy, where artists could sell handmade goods; podcast hosting sites like Anchor, which allowed creators to monetize their audio content; and even a website called Upwork, where freelancers could offer their services.\n\nAs they scrolled through the options, Emily felt her mind expanding with possibilities. She began to see that passive income wasn't just for tech-savvy entrepreneurs or stay-at-home parents; it was within reach of anyone willing to put in the effort.\n\nBut what about the time commitment? Emily asked, still feeling hesitant. Rachel reassured her that creating a side hustle required an initial investment of time, but once set up, it could generate income with minimal upkeep.\n\n\"Think of it like planting a seed,\" Rachel said, using a gardening metaphor to illustrate the concept. \"You plant the seed, water and nurture it, and eventually, it grows into a tree that produces fruit without needing your direct attention.\"\n\nEmily's eyes widened as she grasped the idea. She realized that side hustles weren't just about earning extra money; they were about building wealth, achieving financial freedom, and living life on her own terms.\n\nAs they parted ways, Emily felt invigorated by the prospect of creating her own passive income streams. She knew it wouldn't be easy – setting up a side hustle required effort and dedication – but she was willing to take the leap.\n\nWith renewed determination, Emily began researching online courses and platforms that could help her create a photography business with a passive income potential. It wasn't going to happen overnight, but she was ready for the challenge.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated Rachel to want to share the idea of passive income with Emily?",
+      "options": {
+        "A": "She thought it would be a good way to make more money from her own photography business",
+        "B": "She believed that passive income could provide financial freedom and liberation without sacrificing one's sanity",
+        "C": "She wanted to help Emily quit her 9-to-5 job immediately",
+        "D": "She was looking for a new opportunity to invest in stocks"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Rachel mean by \"conspiratorial tone\" when she leans in to talk about passive income?",
+      "options": {
+        "A": "She is being very serious and formal.",
+        "B": "She is speaking in a way that implies they are sharing a secret.",
+        "C": "She is being sarcastic and ironic.",
+        "D": "She is trying to be as loud as possible."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is an example of a type of passive income that Rachel mentioned?",
+      "options": {
+        "A": "Creating a YouTube channel",
+        "B": "Dividend-paying stocks",
+        "C": "Selling handmade goods on a website called eBay",
+        "D": "Investing in real estate"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Rachel's attitude towards creating side hustles and passive income streams?",
+      "options": {
+        "A": "She thinks it's too complicated and only suitable for tech-savvy entrepreneurs.",
+        "B": "She believes anyone can create a side hustle with minimal effort and achieve financial freedom.",
+        "C": "She is skeptical about the idea of passive income and thinks it's just a myth.",
+        "D": "She thinks it's only for people who have experience in finance or business."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Rachel use as an analogy to explain how a side hustle can generate passive income without requiring direct attention?",
+      "options": {
+        "A": "A car driving on autopilot",
+        "B": "Planting a seed that grows into a tree producing fruit",
+        "C": "Building a house from scratch",
+        "D": "Writing a book that sells itself"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the conversation between Emily and Rachel about side hustles?",
+      "options": {
+        "A": "The importance of quitting a 9-to-5 job to pursue one's passion.",
+        "B": "How to set up and maintain a successful photography business.",
+        "C": "The benefits and possibilities of creating passive income streams.",
+        "D": "The difficulties and challenges of achieving financial freedom."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

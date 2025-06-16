@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_165",
+  "title": "Remote Work Revolution: How Working from Home Affects Global Economies",
+  "topic": "business_and_work",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "The Rise of Remote Work: How It's Revolutionizing the Economy\n\nFor decades, the traditional office setup has been the norm for many industries. Employees would commute to their offices, spend long hours sitting at their desks, and then head back home. However, with the advent of technology and advancements in communication tools, remote work has become increasingly popular. And it's not just employees who are reaping the benefits – businesses and the economy as a whole are also feeling the positive effects.\n\nOne of the most significant economic impacts of remote work is the reduction in overhead costs for companies. With fewer people commuting to offices, there's less wear and tear on buildings, reduced electricity consumption, and lower utility bills. According to a study by Global Workplace Analytics, employers can save up to $11,000 per year per employee by allowing them to work from home just two days a week. This not only benefits the company but also contributes to a more sustainable environment.\n\nAnother advantage of remote work is its potential for increased productivity. Without the distractions and interruptions that often come with working in an office setting, employees can focus better on their tasks and achieve more in less time. A survey by Gallup found that employees who spend 60% to 80% of their workweek working remotely have the highest levels of engagement – a key indicator of productivity.\n\nRemote work also expands a company's talent pool, allowing them to hire from anywhere in the world rather than being limited to a specific geographic area. This is particularly beneficial for small businesses and startups that may not have the resources to attract top talent locally. According to a report by Upwork, 63% of companies believe that remote work has improved their ability to find skilled workers.\n\nHowever, one concern about remote work is its potential impact on local economies. If employees are no longer commuting to offices, they may also be spending less money in their local communities – which could lead to job losses and economic downturns. But research suggests this effect is largely overstated. A study by the Brookings Institution found that for every dollar earned by a remote worker, about 70 cents stays within the local community.\n\nAnother significant benefit of remote work is its potential to combat urbanization and address issues related to traffic congestion, air pollution, and housing affordability. By allowing people to live further away from city centers and reducing their need for lengthy commutes, remote work can help mitigate these problems. A report by the World Economic Forum estimates that if just 10% of employees in a major city worked remotely one day a week, it could reduce traffic congestion by up to 20%.\n\nWhile there are still challenges associated with implementing remote work policies – such as ensuring employee engagement and maintaining communication channels – the benefits for businesses and the economy far outweigh these concerns. As technology continues to advance and more people adopt flexible work arrangements, we can expect to see even greater economic benefits in the years to come.\n\nIn conclusion, remote work is revolutionizing the way companies operate and contributing significantly to the economy. With its numerous advantages, including reduced overhead costs, increased productivity, expanded talent pool, and positive impact on local economies – it's clear that this trend will continue to grow and shape the future of work.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What percentage of companies believe that remote work has improved their ability to find skilled workers?",
+      "options": {
+        "A": "40%",
+        "B": "63%",
+        "C": "80%",
+        "D": "90%"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"overstated\" mean in the context of the potential negative economic effect of remote work?",
+      "options": {
+        "A": "Exaggerated or made too big",
+        "B": "True or accurate",
+        "C": "Supported by evidence and facts",
+        "D": "Completely ignored or denied"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to a study by Global Workplace Analytics, what is the estimated annual savings for companies per employee who works from home two days a week?",
+      "options": {
+        "A": "$5,000",
+        "B": "$11,000",
+        "C": "$20,000",
+        "D": "$30,000"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is one potential concern about remote work?",
+      "options": {
+        "A": "It will lead to a significant increase in job losses in local communities",
+        "B": "It may have a negative impact on urbanization and traffic congestion",
+        "C": "It could result in a decrease in productivity among employees",
+        "D": "It might reduce the ability of companies to find skilled workers"
+      },
+      "correct_answer": "A",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"their desks\" refer to in the text?",
+      "options": {
+        "A": "The employees' homes",
+        "B": "The traditional office setup",
+        "C": "The company buildings",
+        "D": "The offices where they used to work before remote work became popular"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of the text about remote work?",
+      "options": {
+        "A": "To discuss the challenges associated with implementing remote work policies.",
+        "B": "To explain how remote work can help combat urbanization and related issues.",
+        "C": "To highlight the economic benefits of remote work for businesses and the economy.",
+        "D": "To argue against the adoption of remote work in the modern workplace."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

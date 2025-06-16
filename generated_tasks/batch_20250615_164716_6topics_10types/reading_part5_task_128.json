@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_128",
+  "title": "Nomad Budgeting Hacks: Survive on $1000 in Paradise",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she sipped her coffee on the sun-drenched balcony of her Bangkok hostel, Maya stared at her laptop screen with a mix of frustration and anxiety. She had been working as a freelance writer for three years now, but the constant uncertainty about her finances was starting to get to her. One month, she'd earn enough to splurge on a fancy dinner in Chiang Mai; the next, she'd struggle to make ends meet.\n\n\"Hey, girl! What's got you so worried?\" asked Maya's friend and fellow digital nomad, Rachel, as she plopped down beside her on the balcony.\n\n\"I don't know how I'm going to afford my rent for next month,\" Maya admitted, pushing a strand of hair behind her ear. \"My clients are being super slow with payments, and I just can't seem to save enough.\"\n\nRachel nodded sympathetically. \"I feel you. It's tough when your income is unpredictable, right? But have you thought about creating a budget that actually works for you?\"\n\nMaya raised an eyebrow. \"Uh, no. I've been trying to wing it, but it doesn't seem to be working out too well.\"\n\nRachel grinned mischievously. \"Well, let's change that! First of all, we need to track your expenses. Not just the big stuff like rent and groceries, but every single coffee you buy or ride-hailing service you use. There are some awesome apps out there that can help with that – Mint, Personal Capital, the works.\"\n\nMaya nodded, intrigued. \"Okay, got it. But how do I actually make a budget work?\"\n\nRachel leaned in, her eyes sparkling with enthusiasm. \"That's the best part! You see, most people think budgeting is all about cutting expenses and depriving themselves of fun. But what if we flipped that on its head? What if we focused on saving first, and then splurging afterwards?\"\n\nMaya's eyes widened as a lightbulb moment struck her. \"You mean like, set aside 50% for savings, 30% for necessary expenses, and 20% for fun stuff?\"\n\nRachel beamed with pride. \"Exactly! And don't worry if it feels too restrictive at first – you can always adjust the percentages later on. The key is to prioritize your needs over your wants.\"\n\nAs they brainstormed ideas and poured over spreadsheets together, Maya began to feel a sense of clarity wash over her. She realized that she'd been living in constant fear of running out of money, instead of trusting herself to create a budget that worked for her.\n\n\"Thanks, Rach,\" Maya said, as they high-fived on the balcony. \"I think I'm finally starting to get this whole digital nomad thing down.\"\n\nRachel grinned back at her. \"Anytime, girl! Now go forth and conquer those finances!\"\n\nOver the next few weeks, Maya diligently tracked her expenses using Mint, and began to prioritize her savings. She started by setting aside 50% of each client payment for necessary expenses – rent, groceries, and transportation costs. Next, she allocated 30% towards savings, which she'd transfer directly into a high-yield bank account.\n\nFinally, with 20% left over for fun stuff, Maya began to splurge on the things that brought her joy – trying new restaurants in Bangkok, taking weekend trips to nearby islands, and even treating herself to a fancy spa day every now and then.\n\nAs she looked back on her first few months of budgeting as a digital nomad, Maya realized that it wasn't about depriving herself of fun; it was about creating a sustainable lifestyle that allowed her to pursue her passions without stressing about money. And with Rachel's guidance, she knew she'd be able to tackle any financial challenge that came her way.\n\nWith renewed confidence and a clearer understanding of her finances, Maya closed out her laptop screen and gazed out at the Bangkok skyline, ready to take on whatever adventures lay ahead.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was the main reason why Maya's budgeting approach had been unsuccessful until she met Rachel?",
+      "options": {
+        "A": "She didn't track her income",
+        "B": "She didn't allocate enough money for savings and necessary expenses",
+        "C": "She focused on cutting expenses rather than saving first",
+        "D": "She didn't use any budgeting apps to help her"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Rachel mean by \"flip[ping] that on its head\" when talking about budgeting?",
+      "options": {
+        "A": "To make it more complicated",
+        "B": "To focus on saving first and then splurging afterwards",
+        "C": "To cut expenses and deprive oneself of fun",
+        "D": "To only track big expenses like rent and groceries"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How much did Maya allocate for savings each month?",
+      "options": {
+        "A": "25%",
+        "B": "30%",
+        "C": "40%",
+        "D": "50%"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Rachel's approach to budgeting according to the conversation with Maya?",
+      "options": {
+        "A": "It's all about cutting expenses and depriving yourself of fun.",
+        "B": "It involves setting aside 50% for savings, 30% for necessary expenses, and 20% for fun stuff.",
+        "C": "You have to be extremely strict with your spending to avoid financial problems.",
+        "D": "Budgeting is only relevant when you're living in a fixed location."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What percentage of her income does Maya allocate towards savings?",
+      "options": {
+        "A": "40%",
+        "B": "50%",
+        "C": "60%",
+        "D": "70%"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about Maya's experience as a digital nomad?",
+      "options": {
+        "A": "Maya struggles with anxiety due to her unpredictable income as a freelance writer.",
+        "B": "Rachel helps Maya create a budget that prioritizes savings over expenses and allows for fun activities.",
+        "C": "Maya decides to quit her job as a freelancer to pursue a more stable career path.",
+        "D": "The text discusses the benefits of using certain apps, such as Mint, for tracking expenses."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

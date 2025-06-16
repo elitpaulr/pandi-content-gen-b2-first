@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_125",
+  "title": "Money on the Move: Mastering Budgets as a Digital Nomad",
+  "topic": "technology",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**LIVING THE DREAM ON A SHOESTRING: BUDGETING TIPS FOR DIGITAL NOMADS**\n\nAs the world becomes increasingly connected, more people are ditching traditional 9-to-5 jobs to live a life of freedom and adventure as digital nomads. With the rise of remote work, it's now possible to earn a living from anywhere with an internet connection. However, this lifestyle also comes with its own set of financial challenges.\n\nDigital nomads often have to manage their finances carefully, juggling expenses in different countries and currencies while maintaining a decent standard of living. But with some smart budgeting strategies, you can live the dream without breaking the bank.\n\n**Track Your Expenses**\n\nThe first step to managing your finances as a digital nomad is to track every single expense. This might seem tedious, but it's essential to understand where your money is going. Use a spreadsheet or an app like Mint or Personal Capital to log all your transactions, no matter how small. Categorize your expenses into needs (housing, food, transportation) and wants (dining out, entertainment).\n\nFor example, Rachel, a freelance writer who has been traveling the world for three years, uses an app to track her expenses. \"I used to spend way too much on unnecessary things,\" she says. \"Now I know exactly how much I'm spending on coffee every day.\" By cutting back on small expenses, Rachel was able to save enough money to upgrade her accommodation in Bali.\n\n**Prioritize Needs Over Wants**\n\nAs a digital nomad, you might be tempted to splurge on luxurious accommodations or fine dining experiences. But remember, your basic needs come first. Prioritize housing, food, and transportation over discretionary spending. Consider sharing an apartment with fellow travelers or staying in budget-friendly hostels to save on accommodation costs.\n\nFor instance, Alex, a software developer who has been traveling for two years, prioritizes his expenses by allocating 60% of his income towards needs and 40% towards wants. \"It's not about depriving myself of experiences,\" he says. \"It's about being realistic about what I can afford.\"\n\n**Plan Ahead**\n\nDigital nomads often have to adapt to new environments quickly. But with some advance planning, you can avoid costly mistakes. Research your destination thoroughly before arriving, including the cost of living, transportation options, and visa requirements.\n\nFor example, Jamie, a digital marketing specialist who has been traveling for five years, always researches his destinations carefully. \"I knew that housing costs in Tokyo would be high, so I planned accordingly,\" he says. \"Now I have a comfortable apartment in a great location.\"\n\n**Take Advantage of Tax Benefits**\n\nAs a digital nomad, you might be eligible for tax benefits or deductions on your foreign earnings. Consult with a tax professional to understand your options and take advantage of them.\n\nFor instance, Emily, a graphic designer who has been working remotely for three years, took advantage of the US Foreign Earned Income Exclusion (FEIE) tax benefit. \"It saved me thousands of dollars in taxes,\" she says.\n\n**Conclusion**\n\nBudgeting as a digital nomad requires discipline, flexibility, and planning. By tracking your expenses, prioritizing needs over wants, planning ahead, and taking advantage of tax benefits, you can live the dream without breaking the bank. Remember, it's not about depriving yourself of experiences but being realistic about what you can afford.\n\nAs Rachel puts it, \"The key to budgeting as a digital nomad is being mindful of your spending habits. With some smart planning and discipline, you can enjoy the freedom and adventure that comes with this lifestyle.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does Rachel mean by saying she used to spend \"way too much on unnecessary things\"?",
+      "options": {
+        "A": "She was referring to her excessive spending on housing.",
+        "B": "She was talking about her tendency to overspend on small daily expenses, like coffee.",
+        "C": "She had a habit of splurging on luxury items during her travels.",
+        "D": "She was complaining about the high cost of living in Bali."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase 'juggling expenses' mean in the context of budgeting for digital nomads?",
+      "options": {
+        "A": "To prioritize needs over wants",
+        "B": "To manage finances carefully while working remotely",
+        "C": "To switch between different currencies and payment methods frequently",
+        "D": "To balance multiple financial responsibilities at once"
+      },
+      "correct_answer": "D",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of his income does Alex, a software developer, allocate towards needs?",
+      "options": {
+        "A": "40%",
+        "B": "50%",
+        "C": "60%",
+        "D": "80%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards budgeting for digital nomads?",
+      "options": {
+        "A": "It's a restrictive and frustrating experience",
+        "B": "It requires discipline and flexibility to achieve financial freedom",
+        "C": "It's only necessary for those who want to live in luxury",
+        "D": "It's impossible to manage finances as a digital nomad"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who does Rachel use an app to track her expenses?",
+      "options": {
+        "A": "Her business partner",
+        "B": "A fellow traveler she met on the road",
+        "C": "Herself as a freelance writer",
+        "D": "An accountant who helps her manage her finances"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea or purpose of the text about budgeting for digital nomads?",
+      "options": {
+        "A": "The article provides tips on how to make money as a digital nomad.",
+        "B": "The text explains the benefits and drawbacks of living as a digital nomad.",
+        "C": "The author offers practical advice on managing finances while traveling abroad.",
+        "D": "The main idea is to convince readers that they should give up their current lifestyle and become digital nomads."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

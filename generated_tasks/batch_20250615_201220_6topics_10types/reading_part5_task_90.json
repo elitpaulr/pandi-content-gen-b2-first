@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_90",
+  "title": "10 Side Hustles That Can Generate Passive Income Overnight",
+  "topic": "general",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "**The Power of Side Hustles and Passive Income**\n\nIn today's fast-paced economy, having multiple streams of income has become a necessity for many individuals. Gone are the days when one job could provide all the financial stability we need. With rising living costs, debt, and an uncertain future, it's no wonder that people are turning to side hustles and passive income as a way to supplement their main income.\n\n**What is a Side Hustle?**\n\nA side hustle is essentially a part-time business or freelance work that you do outside of your primary job. It can be anything from selling handmade crafts online, driving for Uber or Lyft, dog walking, or even teaching English as a second language. The idea behind a side hustle is to use your free time and skills to earn extra money, which can then be used to pay off debt, save for the future, or simply enjoy some extra disposable income.\n\n**Benefits of Side Hustles**\n\nSo why are side hustles so popular? Here are just a few benefits:\n\n*   **Flexibility**: With a side hustle, you have complete control over your schedule and can choose when and how much you want to work.\n*   **Diversified Income**: Having multiple streams of income reduces your financial risk and provides peace of mind in case of job loss or economic downturns.\n*   **Skill Development**: Side hustles require you to develop new skills, which can be transferable to other areas of life and increase earning potential.\n\n**What is Passive Income?**\n\nPassive income, on the other hand, refers to earnings that require little to no active effort to maintain. It's like renting out a property: once it's set up, you don't have to do much to earn money from it. Common examples of passive income include:\n\n*   **Investing in Dividend-Paying Stocks**: Companies pay dividends to shareholders as a way of distributing profits.\n*   **Renting Out a Spare Room on Airbnb**: Rent out your spare room or entire home to travelers and tourists.\n*   **Creating and Selling Online Courses**: Once created, online courses can be sold multiple times with little maintenance required.\n\n**Combining Side Hustles and Passive Income**\n\nThe ultimate goal is to create a balance between side hustles and passive income. Here are some tips for achieving this:\n\n1.  **Start Small**: Begin with a side hustle that you enjoy and can dedicate a few hours each week.\n2.  **Invest Wisely**: Use your side hustle earnings to invest in assets that generate passive income, such as stocks or real estate.\n3.  **Diversify**: Spread your investments across different asset classes to minimize risk.\n\n**Conclusion**\n\nSide hustles and passive income are not just for entrepreneurs or those with a lot of capital. Anyone can start building multiple streams of income and securing their financial future. By combining the flexibility of side hustles with the potential of passive income, you'll be well on your way to achieving financial stability and peace of mind.\n\nRemember, building wealth takes time and effort, but with persistence and patience, anyone can achieve success.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if someone has only one stream of income in today's fast-paced economy?",
+      "options": {
+        "A": "They will have more financial stability than those who have multiple streams of income.",
+        "B": "They will be at a higher risk of facing job loss or economic downturns.",
+        "C": "Their living costs and debt will decrease significantly.",
+        "D": "They will be able to save for the future without any effort."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"essentially\" mean in the context of defining a side hustle?",
+      "options": {
+        "A": "It means that the definition is not precise.",
+        "B": "It means that it is the most common type of part-time business or freelance work.",
+        "C": "It means that there are many other types of part-time businesses or freelance work besides this one.",
+        "D": "It means that something else, but related to a side hustle."
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what is an example of a side hustle that requires developing new skills?",
+      "options": {
+        "A": "Renting out a spare room on Airbnb",
+        "B": "Selling handmade crafts online",
+        "C": "Teaching English as a second language",
+        "D": "Investing in dividend-paying stocks"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards achieving financial stability through side hustles and passive income?",
+      "options": {
+        "A": "The author believes that achieving financial stability is only possible for a select few.",
+        "B": "The author suggests that combining side hustles with passive income can be a realistic goal for anyone, regardless of their background or financial situation.",
+        "C": "The author thinks that side hustles are only suitable for young people and not for those who are older or have more responsibilities.",
+        "D": "The author recommends against investing in assets that generate passive income."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"your free time\" refer to in this text?",
+      "options": {
+        "A": "The primary job",
+        "B": "Earnings from a side hustle",
+        "C": "Time spent on personal activities",
+        "D": "Schedules for other people's jobs"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of the text about side hustles and passive income?",
+      "options": {
+        "A": "To provide a guide for starting and running successful businesses",
+        "B": "To encourage readers to take control of their financial stability by building multiple streams of income",
+        "C": "To explain the benefits of investing in stocks and real estate",
+        "D": "To persuade readers to quit their primary jobs and focus on side hustles"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

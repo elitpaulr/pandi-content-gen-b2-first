@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_131",
+  "title": "Surviving on Sunshine: A Digital Nomad's Guide to Budgeting Abroad",
+  "topic": "technology",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "As a digital nomad, I've learned that managing your finances is just as important as choosing the perfect coffee shop or coworking space. When you're constantly on the move, it's easy to get caught up in the excitement of exploring new places and lose track of your spending. But trust me, having a solid budget in place can be a lifesaver – literally.\n\nI remember when I first started my digital nomad journey, I thought that being location-independent meant I could just wing it when it came to finances. \"How hard could it be?\" I'd think, as I splurged on a fancy meal or blew my entire monthly budget on an overpriced Airbnb in Chiang Mai. But after a few months of living like this, I was in trouble. My savings were dwindling, and I was starting to feel anxious about the future.\n\nThat's when I realized that having a budget wasn't just about saving money – it was about freedom. With a clear plan in place, I could focus on my work, travel whenever I wanted, and enjoy the experiences that come with this lifestyle without worrying about blowing through my funds.\n\nSo how do you create a budget as a digital nomad? Here are some tips that have worked for me:\n\nFirst, track your expenses. This is where most people go wrong – they don't keep tabs on what they're spending, and before they know it, they're broke. I use an app like Mint or Personal Capital to monitor my spending in real-time. It's not the most glamorous task, but it helps me stay accountable.\n\nNext, set clear financial goals. What do you want to achieve? Are you saving up for a big trip or a down payment on a house? Having specific objectives in mind will help you make smart decisions about where your money is going.\n\nThird, prioritize needs over wants. As a digital nomad, it's tempting to splurge on fancy coffee shops or try every new restaurant in town. But let's be real – those things are not essential to living abroad. What you need is a place to stay that won't break the bank (I recommend Airbnb for its affordable options), reliable internet, and healthy food.\n\nSpeaking of which, eating out can be expensive. While it's tempting to try new restaurants every night, I've found that cooking my own meals saves me at least $10-15 per day. Plus, it's a great way to meet other travelers and locals who share your love for good food!\n\nLastly, don't forget about taxes! As a digital nomad, you'll need to navigate the world of international taxation – a.k.a., a major headache. Research your options carefully (I recommend consulting with a tax professional) and set aside funds accordingly.\n\nOf course, budgeting as a digital nomad requires some flexibility. Plans change, expenses pop up unexpectedly, and sometimes you just have to wing it. But having a solid foundation in place will give you the confidence to navigate those uncertain moments with ease.\n\nFor me, that's meant setting aside 30% of my income for savings, investing in health insurance (a must for anyone living abroad), and being mindful of exchange rates when converting currencies. It's not always easy, but it's worth it – every time I see my savings grow, I feel a sense of security and peace that comes with knowing I've got this.\n\nBudgeting as a digital nomad is about more than just saving money; it's about creating the freedom to live life on your own terms. So go ahead, treat yourself to that fancy coffee – but also set aside some cash for the unexpected expenses that are bound to come your way. Trust me, your future self will thank you!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the author's main reason for prioritizing budgeting as a digital nomad?",
+      "options": {
+        "A": "To have more money to spend on luxurious experiences",
+        "B": "To enjoy greater financial security and freedom",
+        "C": "To simplify their life by avoiding complex financial decisions",
+        "D": "To impress other travelers with their financial planning skills"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for someone's \"savings to be dwindling\"?",
+      "options": {
+        "A": "Their savings account is growing rapidly",
+        "B": "They have a lot of money saved up",
+        "C": "They are running out of money and cannot afford expenses",
+        "D": "They are investing their money in the stock market"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of her income does the writer set aside for savings?",
+      "options": {
+        "A": "20%",
+        "B": "30%",
+        "C": "40%",
+        "D": "50%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards budgeting as a digital nomad?",
+      "options": {
+        "A": "It's restrictive and limits their freedom.",
+        "B": "It's essential for achieving financial security and peace of mind.",
+        "C": "It's only necessary for saving money, but not for enjoying life.",
+        "D": "It's too complicated and time-consuming."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who does the writer recommend consulting with regarding international taxation as a digital nomad?",
+      "options": {
+        "A": "A financial advisor",
+        "B": "A tax professional",
+        "C": "A travel agent",
+        "D": "An accountant"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of having a budget as a digital nomad?",
+      "options": {
+        "A": "To enjoy the freedom of traveling without worrying about money",
+        "B": "To save money on expensive Airbnb rentals and food",
+        "C": "To navigate international taxation and set aside funds accordingly",
+        "D": "To achieve financial stability and security while living abroad"
+      },
+      "correct_answer": "A",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_28",
+  "title": "Going Green at Home: Simple Ways to Save the Planet",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "As we continue to navigate the complexities of climate change, many of us are looking for ways to reduce our carbon footprint and live more sustainably in our own homes. One of the most effective ways to do this is by harnessing renewable energy solutions. Not only can they help lower your energy bills, but they also contribute to a cleaner, healthier environment.\n\nFor those who have never considered going green, it's worth noting that even small steps towards sustainability can make a big difference. For instance, installing solar panels on your roof or investing in a wind turbine can significantly reduce your reliance on non-renewable energy sources. And with the cost of renewable energy technologies dropping dramatically over the past decade, now is an ideal time to start exploring these options.\n\nOne of the most popular forms of renewable energy for homes is solar power. Solar panels convert sunlight into electricity, providing a clean and efficient source of power. Not only can they help reduce your carbon emissions, but they also come with numerous financial benefits. For example, many governments offer tax credits or rebates to homeowners who install solar panels, while some utility companies even offer net metering programs that allow you to sell excess energy back to the grid.\n\nBut solar isn't the only option for renewable energy at home. Geothermal systems, which harness heat from beneath the earth's surface, can provide both heating and cooling for your home. These systems are particularly effective in areas with mild climates, where they can save homeowners up to 70% on their energy bills. And if you live in a region with high wind speeds, investing in a small wind turbine could be an excellent way to generate electricity.\n\nOf course, one of the biggest concerns when it comes to renewable energy is cost. While it's true that installing solar panels or a geothermal system can be expensive upfront, many homeowners find that the long-term savings far outweigh the initial investment. And with the help of government incentives and tax credits, you may even be able to recoup some of these costs quickly.\n\nAnother benefit of renewable energy solutions is their potential to increase your home's value. In fact, studies have shown that homes equipped with solar panels or other eco-friendly features tend to sell faster and for more money than those without them. This makes investing in renewable energy not just a moral imperative, but also a smart financial decision.\n\nSo what can you do today to start harnessing the power of renewable energy? First, take an energy audit of your home to identify areas where you can improve efficiency. Next, research local incentives and tax credits that may be available for homeowners who invest in renewable energy solutions. Finally, consult with a professional to determine which types of renewable energy are best suited to your specific needs and budget.\n\nIn conclusion, renewable energy solutions offer a cleaner, more sustainable way to power our homes. Whether you're looking to reduce your carbon footprint or simply save some money on your energy bills, there's never been a better time to explore these options. With the help of solar panels, geothermal systems, wind turbines, and other innovative technologies, we can create healthier, more environmentally-friendly communities – one home at a time.\n\nAs the world continues to transition towards a more sustainable future, making conscious choices about our energy consumption is crucial. By embracing renewable energy solutions in our own homes, we not only contribute to the greater good but also set an example for others to follow. So why wait? Start exploring your options today and take the first step towards a greener tomorrow.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about homeowners who invest in renewable energy solutions?",
+      "options": {
+        "A": "They will not see any financial benefits from their investment.",
+        "B": "They are likely to sell their homes faster than those without solar panels or eco-friendly features.",
+        "C": "They will only benefit if they live in areas with high wind speeds.",
+        "D": "They will have to pay more for their energy bills upfront."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"net metering\" mean in this text?",
+      "options": {
+        "A": "A system where excess energy is sold back to the utility company",
+        "B": "A type of renewable energy source that generates heat from beneath the earth's surface",
+        "C": "A government incentive for homeowners who install solar panels",
+        "D": "A process by which a home's value increases with each passing year"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of energy bills can homeowners save by installing geothermal systems, especially in areas with mild climates?",
+      "options": {
+        "A": "20%",
+        "B": "50%",
+        "C": "70%",
+        "D": "90%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards investing in renewable energy solutions?",
+      "options": {
+        "A": "The author thinks it's too expensive and not worth the effort.",
+        "B": "The author believes that even small steps towards sustainability can make a big difference.",
+        "C": "The author recommends waiting for more research to be done before making any decisions.",
+        "D": "The author advises against using solar panels because they are unreliable."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What do \"these systems\" refer to in the text?",
+      "options": {
+        "A": "Solar panels",
+        "B": "Geothermal systems",
+        "C": "Wind turbines",
+        "D": "Energy audits"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about renewable energy solutions for homes?",
+      "options": {
+        "A": "Renewable energy solutions are too expensive for most homeowners to consider.",
+        "B": "Investing in renewable energy can help reduce your carbon footprint and lower your energy bills, making it a smart financial decision.",
+        "C": "The only type of renewable energy suitable for homes is solar power.",
+        "D": "Government incentives are not available for homeowners who want to invest in renewable energy."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

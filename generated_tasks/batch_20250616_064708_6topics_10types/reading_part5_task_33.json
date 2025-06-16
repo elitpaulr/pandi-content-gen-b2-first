@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_33",
+  "title": "Move Your Body, Heal Your Mind: The Surprising Power of Exercise",
+  "topic": "health_and_fitness",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "Lena laced up her running shoes, feeling a mix of anxiety and determination as she stood in front of the old Victorian house. It had been three months since her grandmother passed away, and the grief still lingered like a fog on a cold morning.\n\nHer friend Emily stood beside her, adjusting her own running belt. \"Hey, you okay?\" Emily asked, noticing Lena's furrowed brow.\n\n\"Yeah,\" Lena replied with a forced smile. \"Just thinking about Grandma.\"\n\nEmily nodded sympathetically. \"I know how hard this is for you. But we're going to get through it together.\"\n\nThe two women set off at a brisk pace, their footsteps echoing down the deserted streets of the neighborhood. As they ran, the tension in Lena's shoulders began to ease, her breathing slowing as she focused on the rhythmic pounding of her feet.\n\nIt was a habit Emily had helped her develop – exercise as therapy. At first, Lena had been skeptical, but after months of regular runs and yoga sessions, she'd noticed a tangible shift in her mood. The anxiety attacks that used to leave her gasping for air were fewer and farther between, replaced by a sense of calm that lingered even on the toughest days.\n\n\"Exercise releases endorphins,\" Emily explained when Lena had first asked how it worked its magic. \"Those are natural painkillers, mood-boosters – they make you feel good.\"\n\nBut as Lena delved deeper into the world of exercise and mental health, she began to understand that there was more at play than just a few happy chemicals floating around in her brain.\n\n\"Exercise is a stress response,\" said Dr. Patel, a sports psychologist who'd been working with Emily's running club for years. \"When we're under pressure – whether it's from work or personal stuff like grief – our bodies respond by releasing cortisol, that stress hormone. But exercise has an opposite effect: it reduces cortisol levels and increases serotonin.\"\n\nSerotonin was the key, Lena realized. It was what helped regulate mood, appetite, and sleep patterns. Exercise wasn't just a way to blow off steam; it was a tool for rewiring her brain, for creating new pathways that led away from anxiety and toward calm.\n\nAs she ran with Emily, Lena felt a sense of clarity wash over her. She thought about the weeks ahead – the upcoming anniversary of Grandma's passing, the looming deadlines at work – but instead of feeling overwhelmed, she found herself approaching them with a newfound sense of purpose.\n\nThe run ended too soon, as it always did. But Lena knew that this wasn't just about the physical benefits; it was about mental resilience, too. Exercise had given her a new perspective on life, one where challenges were no longer insurmountable obstacles but opportunities for growth and strength.\n\n\"Thanks, Em,\" Lena said as they slowed to a walk, sweat-drenched and grinning at each other. \"I don't know what I'd do without you.\"\n\nEmily smiled back, clapping Lena on the shoulder. \"You'll never have to find out.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What was Lena's grandmother's passing like for her?",
+      "options": {
+        "A": "It had a sudden and traumatic impact on her mental health",
+        "B": "It caused her significant emotional pain that lingered long after the event",
+        "C": "She didn't feel any emotional connection to her grandmother",
+        "D": "It was something she wasn't affected by at all"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Dr Patel mean by saying that exercise is a \"stress response\"?",
+      "options": {
+        "A": "That exercise causes stress and anxiety",
+        "B": "That exercise reduces cortisol levels and increases serotonin, helping to alleviate stress",
+        "C": "That exercise only affects people who are under pressure from work or personal issues",
+        "D": "That exercise has no effect on the body's reaction to stress"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Dr. Patel, what is the effect of exercise on cortisol levels?",
+      "options": {
+        "A": "It increases them",
+        "B": "It reduces them and increases serotonin",
+        "C": "It has no effect on cortisol levels",
+        "D": "It only decreases serotonin levels"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's opinion about exercise as a solution for mental health issues?",
+      "options": {
+        "A": "It's just a temporary relief from symptoms",
+        "B": "It has no effect on anxiety and depression",
+        "C": "It helps regulate mood and can be used as a tool for rewiring one's brain",
+        "D": "It's only beneficial for physical health, not mental well-being"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Dr. Patel say is released by our bodies when we're under pressure?",
+      "options": {
+        "A": "Endorphins",
+        "B": "Cortisol and serotonin",
+        "C": "Adrenaline and dopamine",
+        "D": "Testosterone and insulin"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main benefit that exercise has provided for Lena in this text?",
+      "options": {
+        "A": "It has helped her cope with physical symptoms of grief",
+        "B": "It has given her a new perspective on life and increased her mental resilience",
+        "C": "It has improved her physical health and reduced her risk of illness",
+        "D": "It has only had an impact on her sleep patterns"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "health_wellness"
+}

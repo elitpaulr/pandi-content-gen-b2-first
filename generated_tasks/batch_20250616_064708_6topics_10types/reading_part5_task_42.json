@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_42",
+  "title": "Eat to Win: Unlock Your Full Potential as an Amateur Athlete",
+  "topic": "health_and_fitness",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**Fuel Your Body for Optimal Performance**\n\nAs an amateur athlete, you're likely no stranger to the demands of training and competition. But have you ever stopped to think about what you put into your body? Proper sports nutrition is just as important as a well-designed training program when it comes to achieving optimal performance.\n\nWhile professional athletes often have access to top-notch trainers and dietitians, amateur athletes can benefit from simple changes to their daily routine. \"Amateur athletes are more likely to be eating on the go or relying on convenience foods,\" says nutritionist Emily Chen. \"But by making a few tweaks, they can optimize their performance and reduce the risk of injury.\"\n\nSo where do you start? The key is to fuel your body with the right balance of carbohydrates, protein, and healthy fats. Complex carbohydrates such as brown rice, quinoa, and whole grain bread provide sustained energy for long workouts, while lean proteins like chicken, fish, and tofu help build and repair muscle tissue.\n\nHealthy fats are also essential, particularly for endurance athletes who need to conserve energy over long periods of time. Nuts, seeds, and avocados are all rich in healthy fats that can help keep you fueled.\n\nBut it's not just about what you eat – when you eat is also crucial. Aim to fuel up within 30 minutes after a workout with a balanced snack or meal that includes protein, complex carbohydrates, and healthy fats. This helps your body recover from the physical stress of exercise and rebuild muscle tissue.\n\nHydration is another critical component of sports nutrition. \"Dehydration can quickly lead to fatigue, dizziness, and even heat stroke,\" warns Chen. Aim to drink at least eight glasses of water per day, and consider adding electrolyte-rich beverages like coconut water or sports drinks during long workouts.\n\nBut what about supplements? While some athletes swear by energy bars, protein shakes, and other performance-enhancing products, the scientific evidence is often lacking. \"Most supplements are not backed by credible research,\" says Chen. \"In fact, many can even be detrimental to your health if taken in excess.\"\n\nInstead of relying on supplements, focus on whole foods and a balanced diet. Aim to include a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats in your daily meals. A simple rule of thumb is to eat the colors of the rainbow – aim for at least five servings per day.\n\nFor example, try incorporating these sports-friendly foods into your diet:\n\n* Bananas (complex carbohydrates)\n* Almonds (healthy fats)\n* Greek yogurt (protein)\n* Sweet potatoes (complex carbohydrates)\n* Salmon (lean protein)\n\nRemember, everyone's nutritional needs are different. Pay attention to how your body responds to certain foods and adjust accordingly. If you're unsure about your specific needs or have concerns about nutrition, consult with a registered dietitian or healthcare professional.\n\nIn conclusion, sports nutrition is not just for professionals – amateur athletes can benefit from simple changes to their daily routine. By fueling your body with the right balance of carbohydrates, protein, and healthy fats, staying hydrated, and focusing on whole foods rather than supplements, you'll be well on your way to optimal performance.\n\n**Tips for Amateur Athletes:**\n\n* Eat a balanced meal or snack within 30 minutes after exercise\n* Hydrate regularly throughout the day\n* Focus on whole foods rather than supplements\n* Incorporate complex carbohydrates, lean protein, and healthy fats into your diet\n* Consult with a registered dietitian or healthcare professional if you have concerns about nutrition\n\nBy making these simple changes, amateur athletes can take their performance to the next level. Whether you're training for a marathon, hitting the gym regularly, or simply looking to improve your overall health, proper sports nutrition is key.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if an amateur athlete relies on convenience foods instead of making healthy changes to their daily routine?",
+      "options": {
+        "A": "They will experience significant improvement in performance",
+        "B": "They may be at risk of injury and fatigue due to poor nutrition",
+        "C": "Their training program will become more effective",
+        "D": "They will not notice any difference in their overall health"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Emily Chen mean by \"fuel up within 30 minutes after a workout\"?",
+      "options": {
+        "A": "To reduce muscle tension and prevent injury",
+        "B": "To consume food that will provide sustained energy for long workouts",
+        "C": "To avoid eating foods high in sugar and salt",
+        "D": "To drink at least eight glasses of water per day"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the recommended time frame to fuel up after a workout?",
+      "options": {
+        "A": "Within 1 hour",
+        "B": "Within 30 minutes",
+        "C": "Within 2 hours",
+        "D": "Within 5 hours"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards supplements for athletic performance?",
+      "options": {
+        "A": "Supplements are essential for achieving optimal performance and should be taken in large quantities.",
+        "B": "The scientific evidence supporting the use of supplements is generally weak, but they can still be helpful.",
+        "C": "Supplements are a convenient way to improve performance and can be used as an addition to a balanced diet.",
+        "D": "Supplements are not recommended as they can be detrimental to health if taken excessively."
+      },
+      "correct_answer": "D",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who does nutritionist Emily Chen say are more likely to be eating on the go or relying on convenience foods?",
+      "options": {
+        "A": "Professional athletes",
+        "B": "Amateur athletes",
+        "C": "Registered dietitians",
+        "D": "Healthcare professionals"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about sports nutrition for amateur athletes?",
+      "options": {
+        "A": "The article discusses various supplements and energy-boosting products that can enhance performance.",
+        "B": "Proper sports nutrition is just as important as a well-designed training program for achieving optimal performance.",
+        "C": "Amateur athletes should focus on reducing their body weight through diet in order to improve performance.",
+        "D": "Eating convenience foods and relying on professional trainers are the keys to success for amateur athletes."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

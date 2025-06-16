@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_70",
+  "title": "5 Simple Side Hustles That Can Turn Your Dreams into Passive Income",
+  "topic": "general",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "As I sit here typing away on my laptop, I'm reminded of how far I've come in terms of financial freedom. It's not because I landed my dream job or got a hefty raise (although those things are nice too). No, it's because of the side hustles and passive income streams I've created over time.\n\nFor years, I was stuck in a 9-to-5 grind, feeling like I was just barely scraping by. But one day, something clicked inside me – I realized that there had to be more to life than working for someone else's paycheck. So, I started exploring ways to earn extra income outside of my full-time job.\n\nI began with the obvious ones: freelancing, dog walking, and selling items online through platforms like eBay or Craigslist. These side hustles were a great way to get my feet wet and see what worked for me. But as time went on, I started looking into more passive income streams – things that would generate money without requiring my direct involvement.\n\nThat's when the magic happened. I discovered the world of dividend-paying stocks, real estate investment trusts (REITs), and peer-to-peer lending. These investments allowed me to earn money while I slept, worked out, or even vacationed in Europe! It was a game-changer.\n\nLet me give you an example of how this works. Suppose I invest $10,000 into a dividend-paying stock that yields 4%. That means every year, I'll receive around $400 in dividend payments, simply for holding onto the stock. Now, imagine having multiple investments like this – it adds up quickly!\n\nAnother passive income stream I've dabbled in is creating and selling online courses. I've always been passionate about cooking, so I decided to create a course teaching people how to make simple, delicious meals on a budget. Once created, the course can be sold over and over again with little to no effort required from me.\n\nI've also explored affiliate marketing – promoting products or services I believe in and earning a commission on sales. This requires some upfront work to set up, but once it's running smoothly, it generates passive income.\n\nNow, I know what you're thinking: \"Isn't this all just get-rich-quick schemes?\" Not necessarily. Side hustles and passive income streams require effort upfront, yes – but the key is finding ones that align with your interests and skills. This way, the work doesn't feel like drudgery, and the potential for returns is higher.\n\nOne crucial thing to remember: it's essential to approach these ventures with a business mindset, not just a hobby. That means setting clear goals, tracking expenses, and adjusting strategies as needed.\n\nFor those looking to start their own side hustle or passive income journey, I recommend taking small steps first. Try freelancing on the side while still working full-time, for instance. Or invest in a single stock or REIT to test the waters.\n\nAs for me? I'm continuing to explore new opportunities and diversify my income streams. I've recently started dabbling in creating and selling print-on-demand products through platforms like Redbubble and Teespring – another way to generate passive income.\n\nIf you're feeling stuck in your financial situation or just want to shake things up, consider exploring side hustles and passive income streams. It's not a one-size-fits-all solution, but with some creativity and persistence, it can be the key to unlocking true financial freedom.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated the writer to start creating side hustles and passive income streams?",
+      "options": {
+        "A": "They wanted to earn more money to buy a bigger house.",
+        "B": "They were tired of feeling stuck in their 9-to-5 job and wanted to explore alternative ways to earn extra income.",
+        "C": "They wanted to impress their friends with their new business ventures.",
+        "D": "They needed help paying off debt."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"drudgery\" mean in this text?",
+      "options": {
+        "A": "A boring or uninteresting activity that you have to do",
+        "B": "A challenging but rewarding task that brings a sense of accomplishment",
+        "C": "An activity that generates a lot of money with little effort required",
+        "D": "A feeling of excitement and enthusiasm for work"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the approximate annual dividend payment from a $10,000 investment in a dividend-paying stock that yields 4%?",
+      "options": {
+        "A": "$200",
+        "B": "$300",
+        "C": "$400",
+        "D": "$600"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the author, what is the main difference between getting rich quickly and having long-term financial success through side hustles and passive income streams?",
+      "options": {
+        "A": "Getting rich quickly requires no effort or expertise.",
+        "B": "Side hustles and passive income streams require upfront work but can lead to higher returns if done correctly.",
+        "C": "It's impossible to get rich slowly, it only happens overnight.",
+        "D": "Long-term financial success is only achieved through inheritance."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"it adds up quickly\" refer to in the text?",
+      "options": {
+        "A": "The effort required to create a passive income stream",
+        "B": "The potential returns on investments",
+        "C": "The number of side hustles I've created over time",
+        "D": "The amount of money earned from freelancing and selling items online"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about side hustles and passive income?",
+      "options": {
+        "A": "The author describes various get-rich-quick schemes that are easy to implement.",
+        "B": "Creating a stable financial future requires hard work and dedication, but can be achieved through side hustles and passive income streams.",
+        "C": "The author's success is solely due to his full-time job and a single large raise.",
+        "D": "Side hustles and passive income streams are only suitable for people with specific skills or interests."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

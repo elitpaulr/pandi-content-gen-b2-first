@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_71",
+  "title": "Escape the 9-to-5 Grind: Unlocking Your Passive Income Potential",
+  "topic": "general",
+  "text_type": "blog_post",
+  "difficulty": "B2",
+  "text": "As I sit here typing away on my laptop, I'm reminded of the countless hours I used to spend working a traditional 9-to-5 job. The monotony of it all was suffocating me, and I felt like I was just going through the motions without any sense of fulfillment or purpose.\n\nIt wasn't until I stumbled upon the world of side hustles that my life took a drastic turn for the better. For those who may be unfamiliar with the term, side hustles refer to any additional income-generating activities undertaken outside of one's primary job. It could be freelancing, selling products online, or even offering services as a tutor or pet sitter.\n\nAt first, I was skeptical about diving into the world of side hustles. I mean, who has time for another job on top of their existing one? But the more I learned about it, the more I realized that it wasn't just about making extra money; it was about creating a sense of freedom and flexibility in my life.\n\nI started by taking online surveys through various websites and apps. It wasn't going to make me rich anytime soon, but it was an easy way to earn some extra cash on the side. Next, I began selling items I no longer needed or used on platforms like eBay and Craigslist. The thrill of making a sale and watching my bank account grow was addictive!\n\nBut what really caught my attention was the concept of passive income. This is where you create something once, but continue to earn money from it without much effort required. Think about it – writing an ebook, creating a YouTube video, or designing a course that teaches people valuable skills.\n\nI invested in a popular online course teaching photography techniques and began selling it on Udemy. At first, the returns were slow, but as word spread and more students enrolled, my earnings started to snowball. It was exhilarating to see money pouring in without having to put in any additional work!\n\nOf course, with great power comes great responsibility. I soon realized that creating a successful side hustle required discipline, patience, and creativity. It wasn't just about slapping something together and expecting it to make money; it took time, effort, and continuous improvement.\n\nOne of the most significant benefits of side hustles is the flexibility they offer. No longer was I tied to a desk from 9-to-5; I could work at any hour, from anywhere in the world. This opened up a whole new world of possibilities for me – traveling, spending time with loved ones, or simply having more free time to pursue my passions.\n\nAs I look back on my journey, I'm amazed at how far I've come. Side hustles have not only provided me with a safety net during tough times but also given me the freedom to pursue my dreams without being tied down by a single income source.\n\nIf you're considering joining the side hustle revolution, here's what I want to share:\n\n* Start small and experiment with different ideas until you find something that works for you.\n* Don't be afraid to take calculated risks – it's often the best way to learn and grow.\n* Be patient and persistent; success rarely happens overnight.\n* Continuously educate yourself on new strategies and tools to stay ahead of the game.\n\nAs I continue on my side hustle journey, I'm excited to see what the future holds. Will I create a bestselling ebook or become a viral YouTube sensation? Maybe not – but that's the beauty of it all. The possibilities are endless, and with each new challenge comes an opportunity to learn, grow, and thrive.\n\nSo if you're feeling stuck in your current job or just want to explore new ways to earn money on the side, I encourage you to give side hustles a try. Trust me – you won't regret it!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated the writer to start exploring side hustles?",
+      "options": {
+        "A": "The desire for financial security during tough times",
+        "B": "The need for creative expression and personal fulfillment",
+        "C": "The opportunity to earn extra money and gain freedom and flexibility",
+        "D": "The pressure from friends and family to increase income"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "According to the text, what was the author's first way of earning extra cash through online activities?",
+      "options": {
+        "A": "Selling items they no longer needed or used on platforms like eBay and Craigslist",
+        "B": "Taking online surveys through various websites and apps",
+        "C": "Creating a YouTube video",
+        "D": "Writing an ebook"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the author's attitude towards traditional 9-to-5 jobs?",
+      "options": {
+        "A": "They are necessary for achieving success and fulfillment.",
+        "B": "They are suffocating and lead to a sense of purposelessness.",
+        "C": "They provide enough income, but can be boring.",
+        "D": "They are a good way to meet new people."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does \"it\" refer to in this sentence from the text?",
+      "options": {
+        "A": "The world of photography",
+        "B": "Creating something once but continuing to earn money from it without much effort required",
+        "C": "The flexibility they offer",
+        "D": "My existing job as a 9-to-5 worker"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the text about the author's experience with side hustles?",
+      "options": {
+        "A": "The author warns readers against starting a side hustle due to the potential risks involved.",
+        "B": "The author describes their journey of discovering the benefits and flexibility of having multiple income streams.",
+        "C": "The author provides a step-by-step guide on how to create a successful online business from scratch.",
+        "D": "The author argues that traditional 9-to-5 jobs are more fulfilling than side hustles."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

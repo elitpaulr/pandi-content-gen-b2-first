@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_08",
+  "title": "Mastering Money: Smart Financial Choices for Young Adults",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "**The Financial Awakening**\n\nAs she sat across from her new roommate, Emily couldn't help but feel a mix of emotions. On one hand, she was excited to start this new chapter in her life – a small studio apartment in the city with a like-minded friend. On the other hand, she felt a wave of anxiety wash over her as they began discussing their finances.\n\n\"I don't know how I'm going to pay my share of the rent,\" Emily said, fidgeting with her hands. \"I've got some student loans and credit card debt from college... I feel like I'll never get out of this hole.\"\n\nHer roommate, Rachel, smiled sympathetically. \"You're not alone, Em. We all struggle with money in our twenties. But here's the thing: financial literacy is a skill that can be learned. And it starts with understanding your own spending habits.\"\n\nRachel pulled out her laptop and began typing away. \"Let's take a look at some budgeting apps,\" she said. \"There are tons of free resources online that can help you track your expenses, set financial goals, and even invest in the stock market.\"\n\nEmily's eyes widened as Rachel showed her screenshots of various apps – Mint, You Need a Budget (YNAB), Personal Capital. She had heard of some of these before but never really understood how to use them.\n\n\"What's YNAB?\" Emily asked, curiosity getting the better of her.\n\n\"Ah, it's my personal favorite,\" Rachel said with a grin. \"It helps you assign jobs to every dollar you earn – like paying rent, utilities, groceries... It's super straightforward and user-friendly.\"\n\nAs they spent the next hour browsing through these apps, Emily began to feel a sense of empowerment wash over her. She realized that she wasn't alone in this struggle; millions of young adults around the world were fighting similar battles.\n\nBut it wasn't just about using technology to manage your finances – it was also about understanding the fundamentals of money management. Rachel took out a notebook and began scribbling down key concepts: compound interest, inflation, credit scores...\n\n\"Okay, so let me explain this,\" Rachel said, holding up her pen. \"Compound interest is when you earn interest on both your principal amount and any accrued interest over time. It might sound complicated, but trust me – it's a game-changer.\"\n\nEmily listened intently as Rachel broke down complex financial concepts into simple, easy-to-understand language. She scribbled down notes furiously in her own journal, feeling like she was finally getting a handle on this financial thing.\n\nAs they wrapped up their study session, Emily felt a sense of gratitude towards Rachel. \"Thanks for helping me out,\" she said sincerely. \"I feel way more confident about managing my finances now.\"\n\nRachel smiled warmly and clapped Emily on the back. \"That's what friends are for! And trust me – you'll get even better at this as you go along. The key is to stay informed, set realistic goals, and be patient with yourself.\"\n\nAs they parted ways that evening, Emily felt a newfound sense of purpose. She knew she still had a long way to go in terms of financial literacy, but she was excited for the journey ahead – armed with knowledge, determination, and a supportive friend by her side.\n\nOver the next few weeks, Emily dove headfirst into the world of personal finance. She downloaded YNAB on her phone and began tracking every single transaction, no matter how small. She started reading articles on investing and saving, even attending webinars to learn more about topics like cryptocurrency and tax planning.\n\nAnd as she worked through each step of this journey, Emily felt a growing sense of control over her finances. It wasn't always easy – there were setbacks and stumbles along the way – but with every small victory, she gained confidence in her ability to manage her money.\n\nAs Emily drifted off to sleep that night, surrounded by stacks of financial books and scribbled notes on budgeting strategies, she smiled quietly to herself. She knew it wouldn't be easy, but she was ready for this challenge – armed with the knowledge, determination, and support of friends like Rachel who had become her personal mentors in the world of financial literacy.\n\nThis newfound sense of purpose carried Emily through the days ahead – a reminder that every small step forward, no matter how insignificant it may seem, is a victory worth celebrating.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Rachel's approach to teaching Emily about financial literacy?",
+      "options": {
+        "A": "She focuses primarily on using technology to manage finances",
+        "B": "She emphasizes the importance of understanding basic financial concepts before using budgeting apps",
+        "C": "She believes that Emily should try to pay off her debts as quickly as possible, even if it means sacrificing other goals",
+        "D": "She thinks that discussing personal finance is a topic best left for professionals"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Rachel mean by \"assign jobs to every dollar you earn\" when explaining YNAB?",
+      "options": {
+        "A": "To allocate specific amounts of money for savings and investments",
+        "B": "To categorize expenses into different areas, such as rent and groceries",
+        "C": "To divide income into smaller portions for easier budgeting",
+        "D": "To prioritize essential expenses over discretionary spending"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What was the name of the favourite budgeting app used by Rachel?",
+      "options": {
+        "A": "Mint",
+        "B": "You Need a Budget (YNAB)",
+        "C": "Personal Capital",
+        "D": "Quicken"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the idea that young adults need to learn about personal finance?",
+      "options": {
+        "A": "The author thinks that learning about personal finance is a waste of time for young adults.",
+        "B": "The author believes that financial literacy is a skill that can be learned and should be encouraged in young adults.",
+        "C": "The author suggests that young adults are too old to learn about money management.",
+        "D": "The author implies that only wealthy people need to worry about their finances."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Rachel pull out to help her explain budgeting apps to Emily?",
+      "options": {
+        "A": "A calculator",
+        "B": "Her laptop",
+        "C": "A printout of financial articles",
+        "D": "A budgeting book"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about Emily and her journey to financial literacy?",
+      "options": {
+        "A": "The importance of using budgeting apps to manage finances",
+        "B": "How Emily overcame her struggles with debt and credit cards through her own efforts",
+        "C": "The value of having a supportive friend who teaches you how to manage your money effectively",
+        "D": "Financial literacy is a skill that can be learned, and it starts with understanding one's spending habits"
+      },
+      "correct_answer": "D",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

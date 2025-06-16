@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_09",
+  "title": "Mastering Money, Maximizing Life: Essential Financial Skills for Young Adults",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she poured herself a cup of coffee, Maya gazed out at the city skyline, her mind preoccupied with the looming deadlines and expenses that seemed to suffocate her every waking moment. She was barely scraping by on her part-time job as a barista, living paycheck to paycheck in a tiny studio apartment. Her friends were all making six figures, buying their first homes, or gallivanting around Europe – while she was stuck paying off student loans and struggling to afford avocado toast.\n\nMaya's friend, Rachel, sat down beside her on the couch, noticing her frazzled expression. \"Hey, what's going on?\" Rachel asked, sipping on a glass of iced tea. Maya explained her financial woes, feeling like she was drowning in debt. Rachel nodded sympathetically and offered some words of wisdom: \"Maya, you need to learn how to manage your money.\"\n\nMaya shrugged, laughing awkwardly. \"Yeah, I guess that's what my parents are always telling me.\" But Rachel pressed on, pulling out her laptop and opening a spreadsheet. \"Trust me, it's not rocket science. Financial literacy is key to taking control of your life.\" She began explaining the 50/30/20 rule: Allocate 50% of your income towards necessary expenses (rent, utilities, groceries), 30% towards discretionary spending (entertainment, hobbies), and 20% towards saving and debt repayment.\n\nMaya's eyes widened as she grasped the simplicity of this concept. \"I've been doing it all wrong,\" she admitted, feeling a spark of hope ignite within her. Rachel smiled, handing Maya a printout of the budget template. \"It's not just about cutting back on avocado toast (although, let's be real, that's not going to hurt). It's about understanding where your money is actually going.\"\n\nOver the next few weeks, Maya worked tirelessly to create a budget and track her expenses. She downloaded apps like Mint and Personal Capital, which allowed her to monitor her spending habits in real-time. She even started cooking at home more often and canceled her gym membership (which she barely used anyway). As her finances began to stabilize, Maya felt an unmistakable sense of empowerment.\n\nBut financial literacy wasn't just about budgeting; it was also about investing wisely. Rachel introduced Maya to the concept of compound interest, explaining how a small, consistent investment could grow exponentially over time. \"Think of it like planting a seed in the ground,\" Rachel said. \"If you water and nurture it regularly, eventually it'll sprout into something incredible.\"\n\nMaya's eyes lit up as she grasped this idea. She began to research low-cost index funds and ETFs, which allowed her to diversify her portfolio without breaking the bank. Within months, Maya had amassed a respectable nest egg – enough to cover unexpected expenses and make progress on paying off her student loans.\n\nAs they parted ways that evening, Rachel handed Maya a book titled \"The Total Money Makeover\" by Dave Ramsey. \"This will be your bible,\" she promised. Maya smiled, feeling grateful for her friend's guidance. For the first time in years, she felt hopeful about her financial future – and it was all thanks to learning the basics of financial literacy.\n\nMaya closed the book that night, a newfound sense of determination burning within her. She knew that taking control of her finances would take time, effort, and patience – but with the right tools and mindset, anything seemed possible.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What did Rachel give to Maya at the end of their conversation?",
+      "options": {
+        "A": "A copy of \"The Total Money Makeover\" book",
+        "B": "A budget template for Maya's phone",
+        "C": "A link to download financial apps like Mint and Personal Capital",
+        "D": "A spreadsheet showing Maya's current income and expenses"
+      },
+      "correct_answer": "A",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"gallivanting\" mean in this context?",
+      "options": {
+        "A": "To work long hours at a low-paying job",
+        "B": "To travel or move around, often without a specific purpose or destination",
+        "C": "To cut back on unnecessary expenses",
+        "D": "To pay off debt quickly by reducing income"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of Maya's income was recommended for saving and debt repayment according to Rachel?",
+      "options": {
+        "A": "25%",
+        "B": "30%",
+        "C": "40%",
+        "D": "50%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is Maya's attitude towards financial literacy at the beginning of the story?",
+      "options": {
+        "A": "She thinks it's too complicated for her to understand.",
+        "B": "She's excited about learning how to manage her money.",
+        "C": "She feels overwhelmed and frustrated with her current financial situation.",
+        "D": "She believes she already knows everything there is to know about personal finance."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the story about Maya's financial situation?",
+      "options": {
+        "A": "Rachel helps Maya pay off her student loans through a successful business venture.",
+        "B": "Maya learns to prioritize her spending habits and creates a budget with the help of Rachel.",
+        "C": "Maya becomes discouraged by her financial struggles and loses motivation to improve her situation.",
+        "D": "Maya's friends all contribute financially to help her get back on her feet."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

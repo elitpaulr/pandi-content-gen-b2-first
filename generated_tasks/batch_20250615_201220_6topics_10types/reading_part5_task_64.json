@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_64",
+  "title": "From Rags to Riches: Unlocking Your Hidden Earning Potential",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "The Side Hustle Revolution: How Extra Income is Changing Lives\n\nIn today's economy, having a steady job is not enough for many people. With the cost of living increasing rapidly, individuals are seeking ways to supplement their income and achieve financial stability. Enter the world of side hustles and passive income – a growing trend that's transforming lives one dollar at a time.\n\nFor those unfamiliar with the term, a side hustle refers to any additional income-generating activity outside of one's main job. It could be freelancing, selling products online, driving for a ride-sharing service, or even renting out a spare room on Airbnb. The possibilities are endless, and the benefits are numerous. Not only can a side hustle provide an extra source of income, but it also offers a sense of fulfillment and personal growth.\n\nPassive income, on the other hand, is money earned without actively working for it. This can include investments such as stocks, real estate, or peer-to-peer lending. While it may seem like a myth perpetuated by get-rich-quick schemes, passive income is a reality for many people who have taken the time to educate themselves and make informed decisions.\n\nAccording to a recent survey, over 44% of millennials are now engaged in some form of side hustle. This generation, born with the internet at their fingertips, has grown up with an entrepreneurial spirit and a desire for financial freedom. Whether it's through selling handmade goods on Etsy or offering pet-sitting services through Rover, side hustles have become a staple of modern life.\n\nBut what drives people to pursue side hustles and passive income? For many, it's the need to pay off debt, build an emergency fund, or save for retirement. Others are simply looking for a way to escape the monotony of their 9-to-5 job and pursue something more meaningful.\n\nTake Emily, a 32-year-old marketing specialist who started selling jewelry online through Etsy. With her passion for design and love of creativity, Emily saw an opportunity to turn her hobby into a side hustle. She began by investing in basic materials and learning the ins and outs of e-commerce. Within months, she was earning thousands of dollars in passive income each month.\n\n\"I was amazed at how easy it was to get started,\" Emily said in an interview. \"I didn't need any special training or equipment – just a willingness to learn and take risks.\"\n\nOf course, not all side hustles are as lucrative as Emily's jewelry business. Some require more time and effort, while others may involve significant upfront costs. However, with the right mindset and resources, anyone can start generating extra income.\n\nThe key is to identify one's strengths and passions, and then find a way to monetize them. Whether it's writing, designing, or coding, there are countless opportunities to turn skills into cash. And for those who prefer more hands-off approaches, investing in dividend-paying stocks or real estate investment trusts (REITs) can provide a steady stream of passive income.\n\nIn conclusion, the side hustle revolution is not just about making extra money – it's about taking control of one's financial future and pursuing happiness on one's own terms. By embracing the world of side hustles and passive income, individuals can break free from the constraints of traditional employment and live life on their own terms.\n\nAs Emily so aptly put it, \"The best part is that anyone can do it – regardless of age, background, or profession. It's a chance to rediscover oneself and find purpose in the process.\"\n\nSo why not take the leap and join the side hustle revolution? With a little creativity and determination, you too can start earning extra income and changing your life for the better.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the main reason Emily started her jewelry business on Etsy?",
+      "options": {
+        "A": "She wanted to pay off debt",
+        "B": "She was looking for a way to escape the monotony of her 9-to-5 job and pursue something more meaningful",
+        "C": "She saw an opportunity to turn her hobby into a side hustle and earn extra income",
+        "D": "She needed to save for retirement"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"monetize\" mean in this context?",
+      "options": {
+        "A": "To turn an activity into a source of pleasure",
+        "B": "To convert one's skills or talents into something that earns money",
+        "C": "To increase the amount of time spent on a hobby",
+        "D": "To reduce the cost of living expenses"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the estimated percentage of millennials currently engaged in some form of side hustle?",
+      "options": {
+        "A": "25%",
+        "B": "35%",
+        "C": "44%",
+        "D": "55%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards people who pursue side hustles?",
+      "options": {
+        "A": "The author thinks they are irresponsible for trying to earn more money.",
+        "B": "The author believes that pursuing a side hustle shows a lack of commitment to one's main job.",
+        "C": "The author views it as a positive step towards financial freedom and personal growth.",
+        "D": "The author considers it a waste of time and energy."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"at their fingertips\" refer to in the text?",
+      "options": {
+        "A": "The internet",
+        "B": "Emily's jewelry business on Etsy",
+        "C": "The side hustle revolution",
+        "D": "Traditional employment"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the article about the \"Side Hustle Revolution\"?",
+      "options": {
+        "A": "The increasing cost of living forces people to get second jobs.",
+        "B": "Side hustles and passive income can bring financial stability and happiness.",
+        "C": "Most side hustles require specialized training or equipment.",
+        "D": "The 9-to-5 job is becoming obsolete due to automation."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

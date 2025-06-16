@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_50",
+  "title": "The Rise of Responsible Retail: Can Sustainable Shopping Save the Planet?",
+  "topic": "technology",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "The Rise of Sustainable Shopping: How Ethical Consumption is Revolutionizing the Retail Industry\n\nIn recent years, consumers have become increasingly aware of the impact their purchasing decisions have on the environment and society as a whole. As a result, sustainable shopping has emerged as a major trend in the retail industry, with companies and individuals alike prioritizing ethical consumption over traditional buying habits.\n\nAt its core, sustainable shopping is about making conscious choices that minimize harm to people and the planet. This can involve everything from reducing plastic waste to supporting fair labor practices. For consumers, it's no longer just about getting a good deal or acquiring the latest must-have product; it's about aligning their purchasing decisions with their values.\n\nOne of the key drivers of sustainable shopping is the growing awareness of the environmental impact of fast fashion. The fashion industry is one of the largest polluters in the world, with millions of tons of waste generated each year. In response, consumers are increasingly turning to second-hand clothing and investing in high-quality, long-lasting items that reduce the need for frequent replacements.\n\nAnother area where sustainable shopping is gaining traction is in food production. With concerns around climate change and animal welfare on the rise, consumers are seeking out locally sourced, organic produce and reducing their reliance on industrially produced meat and dairy products. This trend is not only better for the environment but also supports local economies and promotes more humane treatment of animals.\n\nSo, what does sustainable shopping look like in practice? For some, it means opting for reusable bags and containers to reduce plastic waste, while others prioritize buying from companies that have transparent supply chains and adhere to strict environmental standards. Others still may choose to shop second-hand or invest in products made from sustainable materials.\n\nCompanies are also taking note of the shift towards sustainable shopping, with many incorporating eco-friendly practices into their operations. From implementing recycling programs to using renewable energy sources, businesses are recognizing the importance of reducing their environmental footprint and appealing to customers who share these values.\n\nOf course, not everyone is on board with the sustainable shopping trend just yet. Some argue that it's too expensive or impractical, while others may feel overwhelmed by the sheer number of choices available. However, as more consumers prioritize sustainability, companies are beginning to take notice and adapt their offerings accordingly.\n\nIn fact, a recent study found that 60% of millennials would switch brands if they knew a competitor was committed to environmental sustainability. This is a significant shift in consumer behavior, one that companies ignore at their own peril. As the market continues to evolve, it's clear that sustainable shopping will only continue to grow in popularity.\n\nSo, what can consumers do to make a positive impact? For starters, they can start by making small changes to their daily routines, such as carrying reusable water bottles and coffee cups or choosing products with minimal packaging. They can also seek out companies that prioritize sustainability and support them through their purchasing decisions.\n\nUltimately, sustainable shopping is not just about making individual choices; it's about creating a broader cultural shift towards values of social responsibility and environmental stewardship. As consumers, we have the power to drive this change, and as companies, we must adapt to meet the evolving needs and expectations of our customers.\n\nAs the retail industry continues to evolve, one thing is clear: sustainable shopping is here to stay. Whether you're a consumer looking to make a positive impact or a company seeking to appeal to environmentally conscious customers, embracing sustainable shopping practices is essential for success in today's market. By prioritizing ethics and environmental sustainability, we can create a more just and equitable world – one purchase at a time.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about companies that prioritize sustainability?",
+      "options": {
+        "A": "They are likely to lose customers who value traditional buying habits",
+        "B": "They are more likely to appeal to environmentally conscious consumers",
+        "C": "They will need to increase their prices to cover the costs of sustainable practices",
+        "D": "They will struggle to adapt to changes in consumer behavior"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"industrially produced\" most likely mean in this context?",
+      "options": {
+        "A": "Made by small, independent farmers",
+        "B": "Produced using new, innovative technologies",
+        "C": "Manufactured on a large scale for mass consumption",
+        "D": "Grown and harvested without the use of chemicals or pesticides"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of millennials would switch brands if they knew a competitor was committed to environmental sustainability?",
+      "options": {
+        "A": "40%",
+        "B": "50%",
+        "C": "60%",
+        "D": "70%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author seem to think about consumers who are slow to adopt sustainable shopping practices?",
+      "options": {
+        "A": "They are ignorant of the benefits of sustainable shopping",
+        "B": "They are being selfish by prioritizing their own needs over the environment's",
+        "C": "They are simply overwhelmed by the complexity of making eco-friendly choices",
+        "D": "They are not yet aware of the importance of sustainability in consumer behavior"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"this\" refer to in the sentence \"This can involve everything from reducing plastic waste to supporting fair labor practices\"?",
+      "options": {
+        "A": "The fashion industry",
+        "B": "Sustainable shopping practices",
+        "C": "Individual purchasing decisions",
+        "D": "Environmental concerns and social responsibility"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about the retail industry?",
+      "options": {
+        "A": "The fashion industry is having a negative impact on the environment.",
+        "B": "Sustainable shopping is becoming increasingly popular as consumers prioritize ethics and environmental sustainability over traditional buying habits.",
+        "C": "Companies are struggling to adapt to changing consumer behavior around sustainable shopping.",
+        "D": "The only way to achieve sustainable shopping is by making drastic changes to one's daily routine."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

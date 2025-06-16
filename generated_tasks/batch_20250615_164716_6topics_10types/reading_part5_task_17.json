@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_17",
+  "title": "Breaking the Bank: How Young Adults Can Master Money Management",
+  "topic": "general",
+  "text_type": "cultural_review",
+  "difficulty": "B2",
+  "text": "Financial literacy has become an essential skillset for young adults to navigate today's economy. As they transition from adolescence to adulthood, they face numerous challenges that test their ability to manage money effectively. The lack of financial education in schools and the prevalence of debt among young people have led to a growing concern about the financial well-being of this demographic.\n\nA recent survey conducted by the Bank of America revealed that nearly 60% of millennials (born between 1981 and 1996) do not feel confident in their ability to manage finances. This lack of confidence is not surprising, given the limited financial education they received in school. Most schools focus on core subjects like mathematics, science, and language arts, leaving little room for courses that emphasize personal finance.\n\nThe consequences of this financial illiteracy are far-reaching. Young adults struggle with debt, savings, and investing, making it difficult for them to achieve long-term goals such as buying a home or starting a family. A study by the National Endowment for Financial Education found that 40% of young adults have student loan debt, while 25% carry credit card balances.\n\nThe root cause of this financial illiteracy lies in the way we approach personal finance. For too long, we've relied on parents and grandparents to teach their children about money management, assuming that this knowledge will be passed down through generations. However, with changing family structures and increased mobility, many young adults are not receiving the guidance they need.\n\nFurthermore, the increasing complexity of financial products has made it challenging for even the most financially savvy individuals to navigate. The proliferation of high-interest credit cards, payday loans, and other predatory lending practices has created a culture of debt that is difficult to escape. Young adults are bombarded with advertisements promising quick fixes and easy money, further exacerbating their financial woes.\n\nFortunately, there are efforts underway to improve financial literacy among young adults. Organizations such as the National Foundation for Credit Counseling (NFCC) and the Financial Industry Regulatory Authority (FINRA) offer educational resources and workshops to help individuals develop healthy financial habits.\n\nIn addition, some schools have begun to incorporate personal finance courses into their curriculum. The Jump$tart Coalition, a non-profit organization dedicated to promoting financial literacy, has developed a model for teaching personal finance that emphasizes hands-on learning and real-world applications.\n\nWhile these efforts are promising, more needs to be done to ensure that young adults receive the financial education they need to succeed. Schools must prioritize financial literacy by incorporating comprehensive courses into their curriculum. Parents and caregivers should also take an active role in teaching their children about money management and responsible spending habits.\n\nUltimately, financial literacy is not just a skillset; it's a cultural imperative. By empowering young adults with the knowledge and confidence they need to manage their finances effectively, we can create a more stable and prosperous future for all. As we move forward, let us recognize the importance of financial education and work together to ensure that every young adult has the tools they need to succeed in today's economy.\n\nIn conclusion, the lack of financial literacy among young adults is a pressing concern that requires immediate attention. By acknowledging the root causes of this issue and working towards solutions, we can create a more financially savvy generation that is equipped to navigate the challenges of adulthood with confidence and success.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does the author imply about the impact of relying solely on parents and grandparents to teach personal finance?",
+      "options": {
+        "A": "It has led to a decrease in financial literacy among young adults.",
+        "B": "It is an effective way to pass down knowledge from one generation to the next, but requires more effort.",
+        "C": "The changing family structures and increased mobility have reduced the opportunity for this type of learning to take place.",
+        "D": "It has resulted in an increase in student loan debt."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"proliferate\" mean in the context of the text?",
+      "options": {
+        "A": "To reduce or decrease something",
+        "B": "To increase or spread widely something, especially something unwanted or unhealthy",
+        "C": "To ignore or neglect a particular problem or issue",
+        "D": "To solve or resolve a complex situation"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of millennials do not feel confident in their ability to manage finances according to a recent survey conducted by the Bank of America?",
+      "options": {
+        "A": "30%",
+        "B": "40%",
+        "C": "50%",
+        "D": "60%"
+      },
+      "correct_answer": "D",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about the way personal finance is currently being taught?",
+      "options": {
+        "A": "The author believes it's sufficient for parents to teach their children about money management.",
+        "B": "The author thinks that schools are doing a good job of incorporating personal finance into their curriculum.",
+        "C": "The author argues that financial literacy is not just an individual skill, but also a cultural imperative.",
+        "D": "The author suggests that personal finance courses should only be taught in high school."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "According to the survey conducted by the Bank of America, what percentage of millennials do not feel confident in their ability to manage finances?",
+      "options": {
+        "A": "20%",
+        "B": "Nearly 60%",
+        "C": "80%",
+        "D": "90%"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about financial literacy for young adults?",
+      "options": {
+        "A": "The current education system is sufficient to teach young people how to manage their finances effectively.",
+        "B": "Financial literacy is not a priority for young adults, who would rather focus on other aspects of life.",
+        "C": "Young adults lack essential skills in managing money and debt due to inadequate financial education.",
+        "D": "Financial literacy is only relevant for those who are already financially successful."
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

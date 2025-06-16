@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_48",
+  "title": "Fuel Your Fitness: Unlock the Secret to Better Performance Now!",
+  "topic": "health_and_fitness",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "As an amateur athlete, you're probably no stranger to sacrificing your social life for a grueling training session or pushing yourself to the limit on the field. But while dedication is key to success in any sport, it's not just about how much you sweat – what you put into your body matters just as much.\n\nProper sports nutrition can make all the difference between a decent performance and an exceptional one. By fueling your body with the right foods at the right times, you'll be able to train harder, recover faster, and maintain peak physical condition throughout the season. So, what exactly does that mean for you?\n\nFirst things first: it's time to ditch the myth that athletes need a lot of protein to build muscle mass. While protein is essential for repairing damaged tissues and promoting growth, most adult humans already get enough from their daily diets – unless they're trying to bulk up for bodybuilding competitions, that is.\n\nWhat you do need more of, however, are complex carbohydrates like whole grains, fruits, and vegetables. These provide the energy your muscles need to function optimally during exercise, as well as essential vitamins and minerals that help prevent fatigue, injury, and illness.\n\nA balanced sports diet should include a mix of protein-rich foods (think lean meats, fish, beans, and eggs), complex carbs (brown rice, quinoa, sweet potatoes), and healthy fats like nuts, seeds, avocado, and olive oil. Don't forget to hydrate adequately before, during, and after exercise – water or sports drinks can help top up electrolytes lost through sweat.\n\nTiming is everything when it comes to nutrition, too. Aim to eat a light meal or snack about an hour before training, focusing on easily digestible carbs like bananas or energy bars. This will provide your muscles with the fuel they need to perform at their best without causing stomach discomfort during exercise.\n\nPost-workout, you'll want to refuel with a mix of protein and complex carbs within 30-60 minutes – think a smoothie made with Greek yogurt, frozen berries, spinach, and almond milk. This helps promote muscle repair and growth, as well as replenish energy stores for the next session.\n\nMeal planning can seem overwhelming at first, but it's actually quite simple once you get into a routine. Try setting aside 10-15 minutes each week to plan out your meals for the upcoming days or weeks – this will help ensure you're getting the nutrients you need without having to think about it during crunch time (literally).\n\nSome popular sports nutrition myths debunked:\n\n* Myth: Athletes should avoid carbohydrates before training because they cause energy crashes.\nReality: Complex carbs provide sustained energy, while simple ones like white bread or sugary snacks can cause an initial spike followed by a crash.\n\n* Myth: Athletes need to eat massive amounts of protein to build muscle mass.\nReality: While some protein is necessary for muscle growth and repair, excessive intake can put unnecessary strain on the kidneys.\n\n* Myth: Sports drinks are only for high-level athletes or those competing in long-distance events.\nReality: Even amateur athletes can benefit from replenishing electrolytes lost through sweat – especially during hot weather or intense training sessions.\n\nIn conclusion, sports nutrition is not rocket science. By focusing on whole foods, staying hydrated, and timing your meals correctly, you'll be able to perform at your best and recover quickly between sessions. And remember: it's not just about the food itself – it's also about listening to your body and making adjustments as needed.\n\nFor amateur athletes, sports nutrition is often seen as a secondary concern compared to training itself. But by prioritizing proper fueling and recovery strategies, you'll be able to push yourself harder, recover faster, and ultimately achieve your goals. So go ahead – give it a try!",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what is the main reason why simple carbohydrates like white bread or sugary snacks can cause an energy crash after training?",
+      "options": {
+        "A": "They provide too much protein for the body to process",
+        "B": "They are not easily digestible and take longer to break down",
+        "C": "They cause an initial spike in energy followed by a crash",
+        "D": "They do not contain essential vitamins and minerals"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"sweat\" mean in the context of training sessions?",
+      "options": {
+        "A": "To eat a light meal before exercising",
+        "B": "To lose energy or become tired",
+        "C": "To produce salt through physical activity",
+        "D": "To perform at one's best"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of carbohydrates should amateur athletes consume more of for optimal performance during exercise?",
+      "options": {
+        "A": "Simple carbohydrates such as white bread or sugary snacks",
+        "B": "Complex carbohydrates like whole grains, fruits, and vegetables",
+        "C": "Starchy carbohydrates like potatoes or pasta",
+        "D": "Refined carbohydrates like cakes or pastries"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's opinion on the importance of carbohydrates for amateur athletes?",
+      "options": {
+        "A": "They are unnecessary for energy and can only cause harm",
+        "B": "They provide sustained energy and should be consumed regularly",
+        "C": "They are only useful for high-level athletes or those competing in long-distance events",
+        "D": "They have no impact on athletic performance and can be ignored"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"easily digestible carbs like bananas or energy bars\" refer to?",
+      "options": {
+        "A": "The food athletes should avoid eating before training",
+        "B": "A light meal or snack that should be eaten about an hour before training",
+        "C": "The type of carbohydrates that provide sustained energy during exercise",
+        "D": "The nutrients that help prevent fatigue, injury, and illness"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sports nutrition for amateur athletes?",
+      "options": {
+        "A": "Amateur athletes only need to worry about protein intake to build muscle mass.",
+        "B": "A balanced diet that includes complex carbohydrates, lean proteins, and healthy fats is essential for optimal performance.",
+        "C": "Proper hydration is the most important aspect of sports nutrition for amateur athletes.",
+        "D": "Sports nutrition is too complicated for amateur athletes to bother with."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_14",
+  "title": "Unlocking Your Financial Future: Why Smart Money Habits Matter Now",
+  "topic": "general",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "Financial literacy is not just about managing your money; it's about taking control of your life. For young adults, navigating the world of personal finance can be daunting, but with a solid understanding of basic financial concepts, you'll be better equipped to make informed decisions about your money.\n\nThe importance of financial literacy cannot be overstated. In today's economy, where credit card debt and student loans are becoming increasingly common, it's essential to have a grasp on how to manage your finances effectively. Financial literacy is not just about avoiding debt; it's also about building wealth over time. By making smart financial decisions, you'll be able to achieve long-term goals like buying a home, starting a family, or retiring comfortably.\n\nSo, where do you start? Begin by understanding the basics of personal finance. Learn about budgeting, saving, and investing. A budget is not just about cutting back on expenses; it's also about allocating your money towards important financial goals. Start by tracking your income and expenses to get a clear picture of where your money is going. Then, categorize your expenses into needs (rent, utilities, food) and wants (entertainment, hobbies). Use the 50/30/20 rule as a guideline: 50% of your income should go towards needs, 30% towards discretionary spending, and 20% towards saving and debt repayment.\n\nSaving is an essential aspect of financial literacy. Start by setting up an emergency fund to cover three to six months' worth of living expenses. This will help you avoid going into debt when unexpected expenses arise. Next, explore tax-advantaged savings options like 401(k)s or IRAs for retirement savings. Don't be discouraged if it seems overwhelming – start small and gradually increase your contributions over time.\n\nInvesting is another critical component of financial literacy. Investing can seem intimidating, but it's not as complicated as it sounds. Consider starting with a broad-based index fund or ETF that tracks the market as a whole. This will provide you with diversification and potentially lower fees compared to actively managed funds. Remember, investing is a long-term game; avoid making rash decisions based on short-term market fluctuations.\n\nCredit scores are another crucial aspect of financial literacy. Your credit score plays a significant role in determining your eligibility for loans and credit cards, as well as the interest rates you'll pay. Keep an eye on your credit report to ensure it's accurate and up-to-date. Pay bills on time, keep credit utilization below 30%, and avoid applying for too many credit products at once.\n\nFinancial literacy also involves understanding insurance options. Health, disability, and life insurance can provide peace of mind and financial protection in case of unexpected events. Research different types of insurance to determine what's right for you.\n\nFinally, don't be afraid to seek guidance from professionals. Financial advisors or planners can help you create a personalized plan tailored to your needs and goals. Many community colleges and online resources also offer free or low-cost financial education workshops.\n\nIn conclusion, financial literacy is not just about managing money; it's about taking control of your life. By understanding basic financial concepts, setting clear goals, and seeking guidance when needed, you'll be well on your way to achieving long-term financial stability. Remember, financial literacy is a lifelong journey – stay informed, stay vigilant, and make smart decisions with your money.\n\nIt's never too early or too late to start building financial knowledge. As the old adage goes, \"money can't buy happiness,\" but having control over your finances can certainly improve your quality of life. So, take the first step today by starting a conversation with yourself about your financial goals and aspirations. With time, patience, and dedication, you'll become more confident in making informed decisions about your money.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what is considered an ideal percentage of income that should be allocated towards saving and debt repayment?",
+      "options": {
+        "A": "40%",
+        "B": "50/30/20 rule (where 20% goes towards needs)",
+        "C": "10%",
+        "D": "60%"
+      },
+      "correct_answer": "D",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"allocate\" money towards important financial goals?",
+      "options": {
+        "A": "To throw away money on unnecessary things",
+        "B": "To put aside a small amount of money for emergencies",
+        "C": "To divide and assign funds for specific purposes",
+        "D": "To save as much money as possible in a short time"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of income should go towards saving and debt repayment according to the 50/30/20 rule?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards seeking professional help for personal finances?",
+      "options": {
+        "A": "The author believes that young adults should rely solely on online resources and community colleges.",
+        "B": "The author thinks it's a sign of weakness to ask for help from financial advisors or planners.",
+        "C": "The author recommends seeking guidance from professionals as an important step in achieving long-term financial stability.",
+        "D": "The author advises against paying for the services of financial advisors."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"needs\" refer to in the context of personal finance?",
+      "options": {
+        "A": "Your income",
+        "B": "Expenses that are essential for living",
+        "C": "Credit card debt and student loans",
+        "D": "Long-term financial goals"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of this text about financial literacy?",
+      "options": {
+        "A": "To inform readers about the benefits of investing in stocks",
+        "B": "To encourage young adults to take control of their finances and make smart decisions",
+        "C": "To provide a detailed guide on how to manage credit card debt and student loans",
+        "D": "To explain the different types of insurance options available"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

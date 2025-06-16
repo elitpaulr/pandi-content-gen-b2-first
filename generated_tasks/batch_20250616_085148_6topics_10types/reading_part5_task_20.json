@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_20",
+  "title": "Growing Together: Urban Gardens That Bring Communities Closer",
+  "topic": "general",
+  "text_type": "educational_feature",
+  "difficulty": "B2",
+  "text": "**Growing Together: The Power of Urban Gardening and Community Spaces**\n\nIn today's fast-paced urban world, where concrete jungle meets concrete skyscrapers, it's easy to forget the importance of nature and community. However, a growing movement is reviving the connection between people and their environment through urban gardening and community spaces. These green oases are not only transforming cityscapes but also fostering social cohesion, promoting sustainability, and improving mental health.\n\n**The Benefits of Urban Gardening**\n\nUrban gardening, also known as rooftop gardening or vertical farming, involves growing plants in urban environments using innovative techniques and technologies. This approach has numerous benefits for both individuals and the community:\n\n1.  **Food Security**: By cultivating fruits, vegetables, and herbs in urban areas, residents can access fresh produce year-round, reducing reliance on industrial agriculture and ensuring a more sustainable food system.\n2.  **Air Quality Improvement**: Plants absorb pollutants and toxins from the air, contributing to improved air quality and a healthier environment.\n3.  **Mental Health Benefits**: Gardening has been shown to reduce stress levels, boost mood, and promote overall well-being.\n\n**Community Spaces: More than Just Parks**\n\nWhile parks are essential for urban recreation, community spaces take this concept further by integrating gardening, education, and social interaction. These shared green areas bring people together, promoting a sense of belonging and community pride:\n\n1.  **Neighborhood Revitalization**: Community gardens can revitalize neglected or abandoned lots, transforming them into vibrant hubs of activity.\n2.  **Skill-Sharing**: Urban gardeners often share knowledge, expertise, and resources, creating a network of support and mutual learning.\n3.  **Social Connection**: Community spaces provide opportunities for residents to meet, interact, and build relationships with their neighbors.\n\n**Innovative Examples**\n\nCities worldwide are pioneering urban gardening and community space initiatives:\n\n1.  **The High Line (New York City)**: An elevated park built on an old rail line, showcasing innovative green infrastructure and community engagement.\n2.  **Singapore's Urban Farming**: This city-state is leveraging vertical farming to provide fresh produce while reducing its carbon footprint.\n3.  **Copenhagen's Community Gardens**: Denmark's capital city has established numerous community gardens, promoting social cohesion and sustainability.\n\n**Getting Involved**\n\nAs the popularity of urban gardening and community spaces continues to grow, there are many ways to get involved:\n\n1.  **Join a Local Garden**: Research nearby community gardens or start your own initiative with like-minded individuals.\n2.  **Volunteer**: Offer your time and skills to help maintain existing gardens or participate in new projects.\n3.  **Advocate for Change**: Share the benefits of urban gardening and community spaces with local policymakers, encouraging support for green infrastructure initiatives.\n\nBy embracing urban gardening and community spaces, we can revitalize our cities, strengthen social bonds, and create more sustainable futures for all.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to be a consequence of implementing community gardens in neglected or abandoned lots?",
+      "options": {
+        "A": "The value of nearby properties will decrease",
+        "B": "Residents will have access to fresh produce year-round",
+        "C": "Local crime rates will increase",
+        "D": "Community members will feel more connected and proud of their neighborhood"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"green oases\" mean in this text?",
+      "options": {
+        "A": "Areas of a city with high levels of pollution",
+        "B": "Small plots of land where people grow plants to escape the urban environment",
+        "C": "Buildings made entirely out of green materials",
+        "D": "Parks and gardens that provide a peaceful retreat from the concrete jungle"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is another term for urban gardening mentioned in the text?",
+      "options": {
+        "A": "Community farming",
+        "B": "Rooftop gardening or vertical farming",
+        "C": "Urban agriculture",
+        "D": "Green infrastructure"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the importance of nature and community in urban areas?",
+      "options": {
+        "A": "They believe it's a waste of time to care about nature and community.",
+        "B": "They think these things are essential for people's well-being, but often forgotten in modern cities.",
+        "C": "They see no connection between urban gardening and social cohesion.",
+        "D": "They argue that urban gardening is only beneficial for the environment."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who or what is referred to by the pronoun \"them\" in the sentence \"However, a growing movement is reviving the connection between people and their environment through urban gardening and community spaces.\"?",
+      "options": {
+        "A": "People",
+        "B": "The environment",
+        "C": "Urban gardeners",
+        "D": "Community spaces"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about urban gardening and community spaces?",
+      "options": {
+        "A": "Urban gardening is a new way to decorate city buildings.",
+        "B": "By growing plants in urban environments, individuals and communities can improve their well-being and create more sustainable futures.",
+        "C": "The only benefit of urban gardening is improving air quality.",
+        "D": "Community spaces are just for playing sports."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

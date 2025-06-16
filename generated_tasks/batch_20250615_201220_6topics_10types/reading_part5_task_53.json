@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_53",
+  "title": "Make Your Money Matter: The Ultimate Guide to Sustainable Shopping",
+  "topic": "technology",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "Sustainable Shopping: The Ethical Revolution in Our Wallets\n\nAs consumers, we've been conditioned to believe that the cheapest option is always the best one. We scour for discounts, stock up on sales, and never say no to a good bargain. But what's the real cost of our buying habits? The devastating impact on the environment, the exploitation of workers in sweatshops, and the perpetuation of fast fashion are just a few consequences of our thoughtless consumption.\n\nThe truth is, sustainable shopping is not just about saving the planet; it's also about taking care of ourselves. When we prioritize the well-being of others and the Earth, we create a ripple effect that benefits us all. So, how do we make the switch to sustainable shopping? It starts with awareness and education.\n\nOne of the most significant changes you can make is to adopt a mindful approach to consumption. Before buying something, ask yourself these three questions: Do I really need it? Will it be used frequently or sit in storage forever? And what are the values behind this purchase – is it made by fair labor practices, with sustainable materials, and minimal waste?\n\nShopping second-hand is another excellent way to reduce your environmental footprint. Thrift stores, vintage shops, and online marketplaces like eBay and ThredUp offer a treasure trove of gently used items at affordable prices. Not only do you save money, but you're also giving new life to discarded products.\n\nFast fashion has been one of the biggest contributors to waste and pollution in recent years. The average American generates 82 pounds of textile waste per year! But there's hope on the horizon. Brands like Patagonia, Reformation, and Everlane are revolutionizing the industry with their commitment to sustainability. They use eco-friendly materials, reduce waste, and prioritize fair labor practices.\n\nAnother essential aspect of sustainable shopping is supporting local businesses. When you shop locally, you're investing in your community's growth and development. Plus, small businesses often have more flexible return policies, which means less waste and fewer returns.\n\nSo, what can you do today to start your sustainable shopping journey? Here are some practical tips:\n\n*   Start with a closet clean-out: Purge your closet of items that no longer serve you, and consider donating or selling them.\n*   Invest in quality over quantity: Prioritize timeless pieces made from sustainable materials rather than trendy fast fashion.\n*   Seek out eco-friendly brands: Research companies that share your values and prioritize sustainability.\n*   Get creative with repurposing: Think outside the box when it comes to using old items – turn an old t-shirt into a reusable bag or make a planter out of a vintage jar.\n\nSustainable shopping is not just about making individual changes; it's also about creating systemic shifts in how we produce and consume goods. By supporting companies that prioritize people and the planet, we're pushing the needle towards a more equitable future.\n\nThe good news is that this revolution has already begun. Consumers are speaking out, demanding change from corporations, and voting with their wallets. As you join the movement, remember that every small action counts – and collectively, we can create a world where sustainability is not just a buzzword but a way of life.\n\nIn conclusion, sustainable shopping is an ongoing journey that requires awareness, education, and a willingness to make changes in our daily lives. By adopting mindful consumption practices, supporting local businesses, and prioritizing eco-friendly brands, we can reduce waste, promote fair labor practices, and create a more just world for all.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if consumers continue their current buying habits?",
+      "options": {
+        "A": "The environment will suffer even more, but people's lives will remain unchanged.",
+        "B": "Corporations will start to adopt sustainable practices without government intervention.",
+        "C": "Consumers will start to prioritize quality over quantity and demand more eco-friendly products.",
+        "D": "The economy will experience a significant downturn due to reduced consumer spending."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean by \"perpetuation of fast fashion\"?",
+      "options": {
+        "A": "The quick production and sale of fashionable clothing",
+        "B": "The exploitation of workers in sweatshops due to fast fashion",
+        "C": "The slow adoption of sustainable materials in the fashion industry",
+        "D": "The recycling of old clothes to reduce waste"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, how many pounds of textile waste does the average American generate per year?",
+      "options": {
+        "A": "70 pounds",
+        "B": "82 pounds",
+        "C": "90 pounds",
+        "D": "100 pounds"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards fast fashion?",
+      "options": {
+        "A": "It's a necessary evil that drives economic growth",
+        "B": "It's a destructive industry that perpetuates waste and pollution",
+        "C": "It's a harmless trend that brings people together through shared style",
+        "D": "It's a revolutionary force that pushes boundaries in sustainable design"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"one of the most significant changes you can make is to adopt a mindful approach to consumption\" refer to?",
+      "options": {
+        "A": "Buying second-hand items from thrift stores",
+        "B": "Asking three questions before making a purchase",
+        "C": "Shopping locally and supporting local businesses",
+        "D": "Investing in quality over quantity"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about sustainable shopping?",
+      "options": {
+        "A": "The cheapest option is always the best choice.",
+        "B": "Sustainable shopping is not just about saving the planet, but also about taking care of ourselves.",
+        "C": "The only way to reduce waste and pollution is by avoiding shopping altogether.",
+        "D": "Fast fashion is a necessary evil in today's consumer culture."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

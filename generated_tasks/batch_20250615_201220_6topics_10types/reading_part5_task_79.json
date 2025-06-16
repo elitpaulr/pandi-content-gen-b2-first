@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_79",
+  "title": "Maximize Your Earnings: Unlock the Power of Side Hustles and Passive Income",
+  "topic": "general",
+  "text_type": "professional_feature",
+  "difficulty": "B2",
+  "text": "The Rise of Side Hustles and Passive Income: A Game-Changer for Modern Professionals\n\nIn today's fast-paced work environment, the traditional 9-to-5 routine is no longer sufficient for many professionals. With the increasing demand for flexibility and work-life balance, side hustles and passive income have become a crucial part of modern careers. According to a recent survey, over 44% of millennials are now engaged in some form of side hustle, with 77% of them doing so to supplement their primary income.\n\nBut what exactly is a side hustle? Simply put, it's any additional business or venture that generates revenue outside of one's main job. This can range from freelancing and consulting to creating and selling products online or renting out properties on Airbnb. The beauty of side hustles lies in their flexibility – they can be scaled up or down depending on an individual's schedule and interests.\n\nPassive income, on the other hand, is the holy grail of financial freedom. It refers to earnings that require little to no active effort once the initial setup has been completed. Examples include investing in dividend-paying stocks, creating and selling online courses, or licensing intellectual property such as music or art. The key benefit of passive income is its ability to generate wealth without requiring constant attention.\n\nSo why are side hustles and passive income becoming increasingly popular? One major reason is the growing desire for financial independence. With the rising cost of living and stagnant wages, many professionals are seeking ways to supplement their primary income and achieve a better work-life balance. By diversifying their revenue streams, individuals can reduce their reliance on a single source of income and gain greater control over their financial futures.\n\nAnother reason is the rise of the gig economy. With more people working remotely or freelancing, traditional employment models are no longer sufficient to meet their needs. Side hustles and passive income offer a way for professionals to monetize their skills and expertise in new and creative ways.\n\nBut side hustles and passive income also come with their own set of challenges. For one, they require discipline and dedication – setting up a successful side hustle or generating significant passive income often takes months or even years of hard work. Additionally, there are risks involved, such as market fluctuations or changes in consumer demand.\n\nDespite these challenges, the rewards of side hustles and passive income can be substantial. For instance, one study found that individuals who engaged in side hustles saw a 30% increase in their overall earnings. Another survey revealed that nearly 60% of respondents reported feeling more financially secure due to their involvement in passive income-generating activities.\n\nTo get started with side hustles and passive income, professionals can take several steps. First, they should identify their strengths and passions – what skills or expertise do they have that could be monetized? Next, research existing markets and trends to determine where opportunities lie. Finally, create a plan of action and start building momentum.\n\nIn conclusion, the rise of side hustles and passive income is a game-changer for modern professionals. By embracing these concepts, individuals can gain greater financial freedom, flexibility, and control over their careers. Whether it's freelancing, investing in stocks, or creating an online course, there are countless ways to monetize one's skills and expertise. As the job market continues to evolve, side hustles and passive income will only become more essential for achieving success and security in today's fast-paced work environment.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what percentage of millennials are engaged in some form of side hustle?",
+      "options": {
+        "A": "20%",
+        "B": "44%",
+        "C": "60%",
+        "D": "77%"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is meant by \"the holy grail of financial freedom\" in this text?",
+      "options": {
+        "A": "A single source of income that provides stability and security",
+        "B": "Earnings that require little to no active effort once the initial setup has been completed",
+        "C": "The perfect balance between work and leisure time",
+        "D": "A type of business or venture that generates revenue outside of one's main job"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the author's attitude towards the challenges of setting up a successful side hustle or generating significant passive income?",
+      "options": {
+        "A": "The author believes that these challenges are minor and can be easily overcome.",
+        "B": "The author thinks that these challenges are major obstacles that may discourage people from pursuing side hustles and passive income.",
+        "C": "The author argues that the discipline and dedication required to set up a successful side hustle or generate significant passive income is worth the effort.",
+        "D": "The author suggests that these challenges can be avoided by simply working harder."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does \"one's main job\" refer to in this text?",
+      "options": {
+        "A": "A person's primary source of income",
+        "B": "A side hustle or additional business venture",
+        "C": "Freelancing or consulting work",
+        "D": "Renting out properties on Airbnb"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main purpose of this article about side hustles and passive income?",
+      "options": {
+        "A": "To persuade readers to abandon their traditional 9-to-5 jobs",
+        "B": "To explain how side hustles and passive income can help professionals achieve financial freedom and flexibility",
+        "C": "To present a critique of the gig economy and its impact on society",
+        "D": "To provide a step-by-step guide for creating successful online businesses"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}
