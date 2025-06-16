@@ -162,7 +162,7 @@ def get_qa_status_color(status):
 
 def main():
     st.title("🤖 Ollama-Powered B2 First Task Generator")
-    st.markdown("Generate authentic Cambridge B2 First Reading Part 5 tasks using local Ollama LLM")
+    st.markdown("Generate learning material based on Cambridge B2 First Reading Part 5 tasks using local Ollama LLM")
     
     # Check Ollama status
     with st.spinner("Checking Ollama connection..."):
@@ -559,11 +559,24 @@ def main():
                             with st.expander(f"Question {question['question_number']}", expanded=True):
                                 st.markdown(f"**{question['question_text']}**")
                                 
-                                for option, text in question['options'].items():
-                                    if option == question['correct_answer']:
-                                        st.markdown(f"✅ **{option}**: {text}")
-                                    else:
-                                        st.markdown(f"   **{option}**: {text}")
+                                # Handle both dict and list formats for options
+                                options = question.get('options', {})
+                                if isinstance(options, dict):
+                                    for option, text in options.items():
+                                        if option == question['correct_answer']:
+                                            st.markdown(f"✅ **{option}**: {text}")
+                                        else:
+                                            st.markdown(f"   **{option}**: {text}")
+                                elif isinstance(options, list):
+                                    # Handle list format (fallback)
+                                    option_keys = ['A', 'B', 'C', 'D']
+                                    for j, text in enumerate(options):
+                                        if j < len(option_keys):
+                                            option = option_keys[j]
+                                            if option == question['correct_answer']:
+                                                st.markdown(f"✅ **{option}**: {text}")
+                                            else:
+                                                st.markdown(f"   **{option}**: {text}")
                                 
                                 st.caption(f"Type: {question.get('question_type', 'unknown')}")
                                 if 'explanation' in question:
