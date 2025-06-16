@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_01",
+  "title": "The Thrill of Touching the Sky: Why Climbing is a Life-Changing Adventure",
+  "topic": "general",
+  "text_type": "lifestyle_feature",
+  "difficulty": "B2",
+  "text": "Climbing: The Ultimate Challenge for Body and Mind\n\nAs I stood at the base of the towering rock face, my heart racing with anticipation, I couldn't help but feel a sense of awe at the sheer scale of the challenge before me. Climbing has always been my passion, and I've spent countless hours honing my skills on indoor walls and outdoor routes. But there's something about tackling a new route that never gets old – the thrill of uncertainty, the rush of adrenaline as you push yourself to new heights.\n\nFor many people, climbing is more than just a hobby or an extreme sport; it's a way of life. Whether you're scaling vertical rock faces, navigating indoor bouldering walls, or even ice climbing in the frozen wilderness, the sense of accomplishment and satisfaction that comes with overcoming a difficult climb is unparalleled.\n\nBut what draws people to climbing in the first place? For some, it's the physical challenge – the need to push their bodies to new limits and test their strength, endurance, and agility. Others are drawn to the mental game, where strategy and focus are just as important as raw athleticism. And then there are those who simply love the sense of adventure that comes with exploring new environments and testing themselves against the elements.\n\nWhatever your motivation, climbing has something for everyone. Whether you're a seasoned pro or a complete beginner, there's a type of climbing out there that suits your skills and interests. Indoor climbing gyms have become increasingly popular in recent years, offering a safe and controlled environment for beginners to learn the ropes (literally!). These facilities often feature state-of-the-art equipment, expert instructors, and a supportive community of climbers.\n\nFor those who prefer the great outdoors, options range from leisurely strolls along gentle trails to intense, adrenaline-fueled climbs up sheer rock faces. Popular destinations like Yosemite National Park in California or Chamonix in the French Alps offer breathtaking scenery, challenging routes, and access to world-class climbing facilities.\n\nOf course, as with any sport or activity, safety is paramount when it comes to climbing. This means investing in proper equipment, learning basic safety protocols, and always climbing with a partner or guide whenever possible. Even seasoned climbers can benefit from guidance and support – after all, it's always better to err on the side of caution!\n\nAs I began my ascent up the rock face, I couldn't help but feel a sense of gratitude for this incredible sport. Climbing has taught me discipline, perseverance, and self-reliance – skills that extend far beyond the walls of a climbing gym or the trails of a national park.\n\nFor those interested in giving climbing a try, here are a few tips to get you started:\n\n* Find an indoor climbing gym near you and sign up for a beginner's course. These usually include instruction on basic safety procedures, equipment usage, and climbing techniques.\n* Start with shorter routes or easier climbs to build your confidence and skills.\n* Invest in proper gear, including a harness, ropes, carabiners, and climbing shoes.\n* Always climb with a partner or guide – it's safer, more fun, and allows you to learn from others.\n* Don't be afraid to try new things and take calculated risks. Climbing is all about pushing your limits and facing challenges head-on!\n\nAs I reached the summit of my climb, feeling an overwhelming sense of pride and accomplishment, I knew that this was just the beginning. With its unique combination of physical challenge, mental focus, and outdoor adventure, climbing has become a lifelong passion for me – one that I hope to share with others for years to come.\n\nWhether you're a seasoned climber or a complete newbie, there's no denying the allure of this incredible sport. So why not lace up your shoes, grab your harness, and get ready to take on the ultimate challenge for body and mind?",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to be true about climbers who are drawn to climbing as a mental game?",
+      "options": {
+        "A": "They are generally less physically fit than those who are motivated by the physical challenge of climbing.",
+        "B": "They enjoy activities such as reading, puzzles, or strategy games in their free time.",
+        "C": "They tend to be more competitive and try to climb faster than others on the same route.",
+        "D": "They often have a background in sports that require mental focus, such as tennis or basketball."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for climbing to be a 'way of life'?",
+      "options": {
+        "A": "It's an expensive hobby that requires a lot of equipment.",
+        "B": "It's more than just a pastime or sport; it's a lifestyle choice that involves physical and mental challenges.",
+        "C": "It's only suitable for young people who are physically fit.",
+        "D": "It's a solo activity that doesn't require any social interaction."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the minimum number of people recommended to climb with in order to ensure safety?",
+      "options": {
+        "A": "2",
+        "B": "3 or more",
+        "C": "1",
+        "D": "A partner or guide is not necessary, climbing alone is safe"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about the sense of accomplishment climbers feel when overcoming a difficult climb?",
+      "options": {
+        "A": "They find it completely unimportant",
+        "B": "It's a fleeting feeling that wears off quickly",
+        "C": "It's unparalleled and one of the greatest rewards of climbing",
+        "D": "It's only relevant to experienced climbers"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the walls of a climbing gym or the trails of a national park\" refer to?",
+      "options": {
+        "A": "The physical limits of human endurance",
+        "B": "The skills that climbing teaches, such as discipline and perseverance",
+        "C": "The locations where climbers train and climb",
+        "D": "The types of climbing routes available for different skill levels"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about climbing?",
+      "options": {
+        "A": "Climbing is a sport that only requires physical strength and endurance.",
+        "B": "Climbing is a challenging activity that develops discipline, perseverance, and self-reliance.",
+        "C": "The best way to learn climbing is by watching YouTube tutorials online.",
+        "D": "Climbing is not suitable for beginners because it's too difficult."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -48,65 +48,28 @@ except ImportError:
                 st.error(f"  - {item.name}")
         st.stop()
 
-# Load configuration data from JSON files
-def load_json_config(file_path: Path, fallback_data: dict = None):
-    """Load JSON configuration with fallback to default data"""
-    try:
-        if file_path.exists():
-            with open(file_path, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        else:
-            st.warning(f"⚠️ Configuration file not found: {file_path.name}")
-            return fallback_data if fallback_data else {}
-    except Exception as e:
-        st.error(f"❌ Error loading {file_path.name}: {e}")
-        return fallback_data if fallback_data else {}
+# Import services
+try:
+    from services.config_service import ConfigService
+    from services.task_service import TaskService
+    from services.ui_components import UIComponents
+except ImportError:
+    # Fallback import path
+    import sys
+    sys.path.append(str(Path(__file__).parent))
+    from services.config_service import ConfigService
+    from services.task_service import TaskService
+    from services.ui_components import UIComponents
 
-# Define config file paths
-config_dir = project_root / "config"
-b2_text_types_path = config_dir / "b2_text_types.json"
-topic_categories_path = config_dir / "topic_categories.json"
-topic_sets_path = config_dir / "topic_sets.json"
+# Initialize services
+config_service = ConfigService(project_root)
+task_service = TaskService(project_root / "generated_tasks")
+ui_components = UIComponents(task_service, config_service)
 
-# Fallback data in case JSON files don't exist
-FALLBACK_B2_TEXT_TYPES = {
-    "📰 Magazine Article": {
-        "key": "magazine_article",
-        "description": "Informative articles from lifestyle, science, or general interest magazines",
-        "examples": ["Health and wellness trends", "Technology reviews", "Travel destinations"]
-    },
-    "✍️ Personal Blog Post": {
-        "key": "blog_post",
-        "description": "First-person accounts of experiences and reflections",
-        "examples": ["Travel experiences", "Career changes", "Personal challenges"]
-    }
-}
-
-FALLBACK_TOPIC_CATEGORIES = {
-    "🌍 Environment & Sustainability": [
-        "sustainable travel and eco-tourism",
-        "urban gardening and community spaces",
-        "renewable energy solutions for homes"
-    ],
-    "💼 Work & Business": [
-        "remote work productivity strategies",
-        "career change in your thirties",
-        "workplace diversity and inclusion"
-    ]
-}
-
-FALLBACK_TOPIC_SETS = {
-    "🌍 Environment & Sustainability": [
-        "sustainable travel and eco-tourism",
-        "urban gardening and community spaces",
-        "renewable energy solutions for homes"
-    ]
-}
-
-# Load the configuration data from JSON files
-B2_TEXT_TYPES = load_json_config(b2_text_types_path, FALLBACK_B2_TEXT_TYPES)
-TOPIC_CATEGORIES = load_json_config(topic_categories_path, FALLBACK_TOPIC_CATEGORIES)
-TOPIC_SETS = load_json_config(topic_sets_path, FALLBACK_TOPIC_SETS)
+# Get configurations (replaces the old global variables)
+B2_TEXT_TYPES = config_service.get_b2_text_types()
+TOPIC_CATEGORIES = config_service.get_topic_categories()
+TOPIC_SETS = config_service.get_topic_sets()
 
 
 
@@ -125,48 +88,11 @@ def check_ollama_connection():
     except Exception as e:
         return False, []
 
-def clean_task_for_json(task):
-    """Clean task data for JSON serialization by removing non-serializable fields and converting paths to strings"""
-    def clean_value(value):
-        """Recursively clean a value for JSON serialization"""
-        if hasattr(value, '__fspath__'):  # Check if it's a path-like object
-            return str(value)
-        elif isinstance(value, dict):
-            return {k: clean_value(v) for k, v in value.items()}
-        elif isinstance(value, list):
-            return [clean_value(item) for item in value]
-        else:
-            return value
-    
-    task_data_clean = {}
-    for k, v in task.items():
-        if k not in ['file_path', 'filename']:
-            task_data_clean[k] = clean_value(v)
-    return task_data_clean
-
-def get_task_qa_status(task):
-    """Get the overall QA status of a task based on the overall_task annotation."""
-    qa_annotations = task.get('qa_annotations', {})
-    overall_task_annotation = qa_annotations.get('overall_task', {})
-    return overall_task_annotation.get('status', 'pending')
-
-def get_qa_status_emoji(status):
-    """Get emoji for QA status."""
-    status_emojis = {
-        'approved': '✅',
-        'rejected': '❌', 
-        'pending': '⏳'
-    }
-    return status_emojis.get(status, '⏳')
-
-def get_qa_status_color(status):
-    """Get color for QA status display."""
-    status_colors = {
-        'approved': 'green',
-        'rejected': 'red',
-        'pending': 'orange'
-    }
-    return status_colors.get(status, 'gray')
+# Utility functions moved to services:
+# - task_service.clean_task_for_json()
+# - task_service.get_task_qa_status()
+# - task_service.get_qa_status_emoji()
+# - task_service.get_qa_status_color()
 
 def main():
     st.title("🤖 Ollama-Powered B2 First Task Generator")
@@ -178,13 +104,45 @@ def main():
     
     if not is_connected:
         st.error("❌ **Ollama is not running or not accessible**")
-        st.markdown("""
-        **To get started:**
-        1. Install Ollama: https://ollama.ai/
-        2. Start Ollama: `ollama serve`
-        3. Pull a model: `ollama pull llama3.1:8b`
-        4. Refresh this page
-        """)
+        
+        with st.expander("📖 Setup Instructions"):
+            try:
+                getting_started_path = Path("docs/getting_started.md")
+                if getting_started_path.exists():
+                    with open(getting_started_path, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                        # Extract just the prerequisites section
+                        lines = content.split('\n')
+                        prereq_start = None
+                        prereq_end = None
+                        for i, line in enumerate(lines):
+                            if '## Prerequisites' in line:
+                                prereq_start = i
+                            elif prereq_start and line.startswith('## ') and '## Prerequisites' not in line:
+                                prereq_end = i
+                                break
+                        
+                        if prereq_start:
+                            prereq_section = '\n'.join(lines[prereq_start:prereq_end] if prereq_end else lines[prereq_start:])
+                            st.markdown(prereq_section)
+                        else:
+                            st.markdown("See the Getting Started guide in the Docs tab for complete setup instructions.")
+                else:
+                    st.markdown("""
+                    **To get started:**
+                    1. Install Ollama: https://ollama.ai/
+                    2. Start Ollama: `ollama serve`
+                    3. Pull a model: `ollama pull llama3.1:8b`
+                    4. Refresh this page
+                    """)
+            except Exception:
+                st.markdown("""
+                **To get started:**
+                1. Install Ollama: https://ollama.ai/
+                2. Start Ollama: `ollama serve`
+                3. Pull a model: `ollama pull llama3.1:8b`
+                4. Refresh this page
+                """)
         return
     
     st.success("✅ **Ollama is connected and ready!**")
@@ -238,7 +196,7 @@ def main():
             )
             
             # Text Type Selection
-            text_type_options = list(B2_TEXT_TYPES.keys())
+            text_type_options = config_service.get_text_type_options()
             selected_text_type = st.selectbox(
                 "Text Type",
                 text_type_options,
@@ -246,10 +204,11 @@ def main():
                 help="Choose the style and format of the reading text"
             )
             
-            # Show text type description
-            text_type_key = B2_TEXT_TYPES[selected_text_type]["key"]
-            text_type_desc = B2_TEXT_TYPES[selected_text_type]["description"]
-            text_type_examples = B2_TEXT_TYPES[selected_text_type]["examples"]
+            # Show text type description using config service
+            text_type_info = config_service.get_text_type_info(selected_text_type)
+            text_type_key = text_type_info.get("key", "unknown")
+            text_type_desc = text_type_info.get("description", "No description available")
+            text_type_examples = text_type_info.get("examples", [])
             
             with st.expander("ℹ️ About this text type"):
                 st.markdown(f"**{selected_text_type}**")
@@ -272,12 +231,12 @@ def main():
             # Category selector for topics
             selected_category = st.selectbox(
                 "Choose Topic Category",
-                list(TOPIC_CATEGORIES.keys()),
+                list(config_service.get_topic_categories().keys()),
                 key="topic_category_selector"
             )
             
             # Display topics from selected category
-            category_topics = TOPIC_CATEGORIES[selected_category]
+            category_topics = config_service.get_category_topics(selected_category)
             
             st.markdown(f"**{selected_category} Topics:**")
             for i, topic_suggestion in enumerate(category_topics):
@@ -287,7 +246,7 @@ def main():
             
             # Quick random topic button
             if st.button("🎲 Random Topic", key="random_topic_btn"):
-                all_topics = [topic for topics in TOPIC_CATEGORIES.values() for topic in topics]
+                all_topics = [topic for topics in config_service.get_topic_categories().values() for topic in topics]
                 random_topic = random.choice(all_topics)
                 st.session_state.topic_input = random_topic
                 st.rerun()
@@ -542,16 +501,25 @@ def main():
                     
                     # Provide troubleshooting suggestions
                     with st.expander("🔧 Troubleshooting"):
-                        st.markdown("""
-                        **Common issues and solutions:**
-                        
-                        1. **Server disconnected:** Restart Ollama service
-                        2. **JSON parsing errors:** Try a different topic or text type
-                        3. **Validation failures:** The LLM output doesn't meet B2 requirements
-                        4. **Connection timeouts:** Check your internet connection
-                        
-                        **If problems persist:** Try using a different model or simplifying the topic.
-                        """)
+                        try:
+                            troubleshooting_path = Path("docs/troubleshooting.md")
+                            if troubleshooting_path.exists():
+                                with open(troubleshooting_path, 'r', encoding='utf-8') as f:
+                                    troubleshooting_content = f.read()
+                                st.markdown(troubleshooting_content)
+                            else:
+                                st.markdown("""
+                                **Common issues and solutions:**
+                                
+                                1. **Server disconnected:** Restart Ollama service
+                                2. **JSON parsing errors:** Try a different topic or text type
+                                3. **Validation failures:** The LLM output doesn't meet B2 requirements
+                                4. **Connection timeouts:** Check your internet connection
+                                
+                                **If problems persist:** Try using a different model or simplifying the topic.
+                                """)
+                        except Exception as e:
+                            st.error(f"Error loading troubleshooting guide: {e}")
                         
                         if st.button("🔄 Retry Generation"):
                             st.rerun()
@@ -561,20 +529,30 @@ def main():
         
         # Feature coming soon notice
         st.warning("🚧 **Feature Coming Soon**")
-        st.markdown("""
-        **Task Improvement functionality is currently under development.**
         
-        This feature will allow you to:
-        - 🎯 **Enhance existing tasks** with AI-powered improvements
-        - 📝 **Refine question quality** and distractor effectiveness  
-        - 🔍 **Adjust difficulty levels** to better match B2 standards
-        - ✨ **Improve text engagement** and readability
-        - 🎨 **Customize focus areas** for targeted improvements
-        
-        **Current Status:** In development - not yet available for use
-        
-        **Expected Release:** Future version update
-        """)
+        try:
+            improvement_guide_path = Path("docs/task_improvement_guide.md")
+            if improvement_guide_path.exists():
+                with open(improvement_guide_path, 'r', encoding='utf-8') as f:
+                    improvement_content = f.read()
+                st.markdown(improvement_content)
+            else:
+                st.markdown("""
+                **Task Improvement functionality is currently under development.**
+                
+                This feature will allow you to:
+                - 🎯 **Enhance existing tasks** with AI-powered improvements
+                - 📝 **Refine question quality** and distractor effectiveness  
+                - 🔍 **Adjust difficulty levels** to better match B2 standards
+                - ✨ **Improve text engagement** and readability
+                - 🎨 **Customize focus areas** for targeted improvements
+                
+                **Current Status:** In development - not yet available for use
+                
+                **Expected Release:** Future version update
+                """)
+        except Exception as e:
+            st.error(f"Error loading task improvement guide: {e}")
         
         # Disabled preview of the interface
         st.subheader("🔮 Preview of Upcoming Features")
@@ -672,7 +650,7 @@ def main():
         # Predefined topic sets (loaded from config)
         st.subheader("📚 Topics")
         
-        selected_set = st.selectbox("Choose Topic Set", list(TOPIC_SETS.keys()))
+        selected_set = st.selectbox("Choose Topic Set", list(config_service.get_topic_sets().keys()))
         
         # Custom topic set management
         st.markdown("---")
@@ -737,7 +715,7 @@ def main():
                 st.rerun()
             
             if st.button("🎲 Random Mix", key="random_mix"):
-                all_topics = [topic for topics in topic_sets.values() for topic in topics]
+                all_topics = [topic for topics in config_service.get_topic_sets().values() for topic in topics]
                 random_topics = random.sample(all_topics, min(6, len(all_topics)))
                 st.session_state.custom_topics_input = "\n".join(random_topics)
                 st.rerun()
@@ -762,7 +740,7 @@ def main():
             topics_to_use = [topic.strip() for topic in custom_topics.split('\n') if topic.strip()]
             topic_source = "Custom Topics"
         else:
-            topics_to_use = TOPIC_SETS[selected_set]
+            topics_to_use = config_service.get_topic_set(selected_set)
             topic_source = selected_set
         
         # Topic Preview and Statistics
@@ -878,6 +856,13 @@ def main():
                     custom_instructions=batch_custom_instructions.strip() if batch_custom_instructions.strip() else None
                 )
                 
+                # Calculate failed tasks based on expected vs actual count
+                failed_count = total_tasks - len(completed_tasks)
+                failed_tasks = []
+                
+                # If there were failures, we could populate failed_tasks here
+                # For now, we'll just track the count since the generator doesn't return failure details
+                
                 # Simulate progress updates for UI feedback
                 for i in range(total_tasks):
                     progress = (i + 1) / total_tasks
@@ -907,7 +892,7 @@ def main():
                 
                 # Update final metrics
                 success_count = len(completed_tasks)
-                failed_count = total_tasks - success_count
+                # failed_count already calculated above
                 ollama_count = success_count  # All successful tasks use Ollama
                 fallback_count = 0
                 
@@ -1158,7 +1143,7 @@ def main():
                     # Extract status from filter option (remove emoji)
                     status_map = {"⏳ Pending": "pending", "✅ Approved": "approved", "❌ Rejected": "rejected"}
                     target_status = status_map.get(qa_status_filter, "pending")
-                    filtered_tasks = [t for t in filtered_tasks if get_task_qa_status(t) == target_status]
+                    filtered_tasks = [t for t in filtered_tasks if task_service.get_task_qa_status(t) == target_status]
                 
                 if search_term:
                     search_lower = search_term.lower()
@@ -1185,7 +1170,7 @@ def main():
                 elif sort_option == "QA Status":
                     # Sort by QA status: approved, pending, rejected
                     status_order = {"approved": 0, "pending": 1, "rejected": 2}
-                    filtered_tasks.sort(key=lambda x: status_order.get(get_task_qa_status(x), 1))
+                    filtered_tasks.sort(key=lambda x: status_order.get(task_service.get_task_qa_status(x), 1))
                 
                 # Display results summary with QA status
                 col1, col2, col3, col4, col5, col6 = st.columns(6)
@@ -1195,13 +1180,13 @@ def main():
                     st.metric("🔍 Filtered Results", len(filtered_tasks))
                 with col3:
                     # QA Status counts for filtered tasks
-                    approved_count = sum(1 for task in filtered_tasks if get_task_qa_status(task) == 'approved')
+                    approved_count = sum(1 for task in filtered_tasks if task_service.get_task_qa_status(task) == 'approved')
                     st.metric("✅ Approved", approved_count)
                 with col4:
-                    pending_count = sum(1 for task in filtered_tasks if get_task_qa_status(task) == 'pending')
+                    pending_count = sum(1 for task in filtered_tasks if task_service.get_task_qa_status(task) == 'pending')
                     st.metric("⏳ Pending", pending_count)
                 with col5:
-                    rejected_count = sum(1 for task in filtered_tasks if get_task_qa_status(task) == 'rejected')
+                    rejected_count = sum(1 for task in filtered_tasks if task_service.get_task_qa_status(task) == 'rejected')
                     st.metric("❌ Rejected", rejected_count)
                 with col6:
                     if st.button("📥 Download Filtered", key="download_filtered_individual"):
@@ -1236,8 +1221,8 @@ def main():
                         title = title[:42] + "..."
                     
                     # Add QA status to display
-                    qa_status = get_task_qa_status(task)
-                    qa_emoji = get_qa_status_emoji(qa_status)
+                    qa_status = task_service.get_task_qa_status(task)
+                    qa_emoji = task_service.get_qa_status_emoji(qa_status)
                     
                     option = f"{qa_emoji} {task.get('task_id', f'Task {i+1}')} - {title}"
                     task_options.append(option)
@@ -1260,7 +1245,7 @@ def main():
                     
                     with col2:
                         # Download individual task (exclude non-serializable fields)
-                        task_data_for_download = clean_task_for_json(selected_task)
+                        task_data_for_download = task_service.clean_task_for_json(selected_task)
                         task_json = json.dumps(task_data_for_download, indent=2)
                         st.download_button(
                             label="💾 Download JSON",
@@ -1276,8 +1261,8 @@ def main():
                     
                     with col4:
                         # Task info with QA status
-                        qa_status = get_task_qa_status(selected_task)
-                        qa_emoji = get_qa_status_emoji(qa_status)
+                        qa_status = task_service.get_task_qa_status(selected_task)
+                        qa_emoji = task_service.get_qa_status_emoji(qa_status)
                         st.caption(f"📝 {selected_task.get('word_count', 0)} words | 🎯 {selected_task.get('text_type', 'Unknown')} | {qa_emoji} {qa_status.title()}")
                     
                     # Confirmation for deletion
@@ -1441,7 +1426,7 @@ def main():
                         try:
                             with open(task_file, 'r') as f:
                                 task = json.load(f)
-                                qa_status = get_task_qa_status(task)
+                                qa_status = task_service.get_task_qa_status(task)
                                 batch_qa_summary[qa_status] += 1
                         except:
                             batch_qa_summary["pending"] += 1  # Default to pending if can't read
@@ -1520,8 +1505,8 @@ def main():
                                         title = title[:32] + "..."
                                     
                                     # Add QA status to display
-                                    qa_status = get_task_qa_status(task)
-                                    qa_emoji = get_qa_status_emoji(qa_status)
+                                    qa_status = task_service.get_task_qa_status(task)
+                                    qa_emoji = task_service.get_qa_status_emoji(qa_status)
                                     
                                     task_options.append(f"{qa_emoji} {task.get('task_id', 'Unknown')} - {title}")
                                 
@@ -1918,7 +1903,7 @@ Return the improved task in the same JSON format."""
         
         # Create tabs for different documentation sections
         doc_tab1, doc_tab2, doc_tab3, doc_tab4, doc_tab5 = st.tabs([
-            "🏠 Executive Summary",
+            "🏠 Getting Started",
             "🔍 QA Reviewer Manual", 
             "📋 Topic Selection Guide", 
             "🎯 B2 Standards", 
@@ -1926,23 +1911,23 @@ Return the improved task in the same JSON format."""
         ])
         
         with doc_tab1:
-            st.subheader("🏠 Executive Summary")
-            st.markdown("*Complete overview of the B2 First Content Generation Tool capabilities*")
+            st.subheader("🏠 Getting Started")
+            st.markdown("*Complete guide for new users of the B2 First Content Generation Tool*")
             
             try:
-                exec_summary_path = Path("docs/executive_summary.md")
-                if exec_summary_path.exists():
-                    with open(exec_summary_path, 'r', encoding='utf-8') as f:
-                        exec_summary_content = f.read()
-                    st.markdown(exec_summary_content)
-                    st.success(f"✅ Executive Summary loaded successfully")
+                getting_started_path = Path("docs/getting_started.md")
+                if getting_started_path.exists():
+                    with open(getting_started_path, 'r', encoding='utf-8') as f:
+                        getting_started_content = f.read()
+                    st.markdown(getting_started_content)
+                    st.success(f"✅ Getting Started Guide loaded successfully")
                 else:
-                    st.error("📄 Executive Summary not found")
-                    st.info(f"🔍 Looking for: {exec_summary_path.resolve()}")
+                    st.error("📄 Getting Started Guide not found")
+                    st.info(f"🔍 Looking for: {getting_started_path.resolve()}")
                     
             except Exception as e:
-                st.error(f"❌ Error loading executive summary: {str(e)}")
-                st.info("Please check that the docs/executive_summary.md file exists and is readable.")
+                st.error(f"❌ Error loading getting started guide: {str(e)}")
+                st.info("Please check that the docs/getting_started.md file exists and is readable.")
         
         with doc_tab2:
             st.subheader("🔍 QA Reviewer Manual")
@@ -1984,119 +1969,50 @@ Return the improved task in the same JSON format."""
         
         with doc_tab4:
             st.subheader("🎯 B2 First Standards")
-            st.markdown("""
-            ### Cambridge B2 First Reading Part 5 Requirements
             
-            **Text Specifications:**
-            - **Length**: 400-800 words (flexible range for quality content)
-            - **Level**: Intermediate to Upper-Intermediate (B2)
-            - **Topics**: Age-appropriate, culturally neutral, contemporary relevance
-            
-            **Question Requirements:**
-            - **Number**: 5-6 questions per task
-            - **Types**: Inference, vocabulary, detail, attitude, reference, main idea
-            - **Format**: Multiple choice with 4 options (A, B, C, D)
-            - **Answer Key**: One correct answer per question
-            
-            ### Quality Indicators
-            
-            **Good Quality Markers:**
-            - Natural, engaging writing style
-            - Appropriate vocabulary range for B2
-            - Clear paragraph structure
-            - Questions test different skills
-            - Realistic, plausible distractors
-            - Specific reference to text content
-            
-            **Quality Issues to Avoid:**
-            - Artificial or stilted language
-            - Vocabulary too simple or too complex
-            - Unclear or ambiguous questions
-            - Multiple possible correct answers
-            - Generic questions not tied to text
-            - Poor grammar or spelling errors
-            """)
+            try:
+                b2_standards_path = Path("docs/b2_standards.md")
+                if b2_standards_path.exists():
+                    with open(b2_standards_path, 'r', encoding='utf-8') as f:
+                        b2_standards_content = f.read()
+                    st.markdown(b2_standards_content)
+                    st.success("✅ B2 Standards loaded successfully")
+                else:
+                    st.error("📄 B2 Standards not found")
+                    st.info(f"🔍 Looking for: {b2_standards_path.resolve()}")
+                    
+            except Exception as e:
+                st.error(f"❌ Error loading B2 standards: {str(e)}")
+                st.info("Please check that the docs/b2_standards.md file exists and is readable.")
         
         with doc_tab5:
             st.subheader("🔧 Technical Specifications")
-            st.markdown("""
-            ### System Architecture
             
-            **Core Components:**
-            - **LLM Integration**: Ollama with local models (Llama 3.1, Mistral)
-            - **Content Generation**: Step-by-step task creation with validation
-            - **JSON Processing**: Robust parsing with error recovery
-            - **File Management**: Auto-save, batch processing, organized storage
-            - **QA System**: Comprehensive review and annotation workflow
-            
-            **Text Types Available:**
-            - Magazine Article, Blog Post, News Report, Professional Feature
-            - Educational Feature, Cultural Review, Travel Writing, Lifestyle Feature
-            - Opinion Piece, Novel Extract
-            
-            ### QA System Features
-            
-            **Review Capabilities:**
-            - Multi-level annotation (Overall, Title, Text, Questions)
-            - Status tracking (Pending, Approved, Rejected)
-            - Reviewer identification and timestamping
-            - Filtering and sorting by QA status
-            - Batch review support
-            
-            **Data Management:**
-            - JSON-based annotation storage
-            - Real-time status updates
-            - Export and download functionality
-            - Cross-session persistence
-            
-            ### Best Practices
-            
-            **Content Creation Guidelines:**
-            - Choose contemporary, relevant subjects
-            - Ensure cultural neutrality and age appropriateness
-            - Balance familiar and challenging concepts
-            
-            **Quality Control:**
-            - Use QA Review mode for systematic evaluation
-            - Filter by status to prioritize pending tasks
-            - Provide specific, constructive feedback
-            - Track approval rates and common issues
-            """)
+            try:
+                tech_specs_path = Path("docs/technical_specs.md")
+                if tech_specs_path.exists():
+                    with open(tech_specs_path, 'r', encoding='utf-8') as f:
+                        tech_specs_content = f.read()
+                    st.markdown(tech_specs_content)
+                    st.success("✅ Technical Specifications loaded successfully")
+                else:
+                    st.error("📄 Technical Specifications not found")
+                    st.info(f"🔍 Looking for: {tech_specs_path.resolve()}")
+                    
+            except Exception as e:
+                st.error(f"❌ Error loading technical specifications: {str(e)}")
+                st.info("Please check that the docs/technical_specs.md file exists and is readable.")
 
 def display_task_learner_view(task):
     """Display a task in a nicely formatted learner view"""
-    # Task header
-    st.markdown(f"# 📖 {task.get('title', 'Untitled Task')}")
+    # Display task header with metadata
+    ui_components.display_task_header(task, show_qa_status=False)
     
-    # Task metadata
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        st.metric("📝 Word Count", len(task.get('text', '').split()))
-    with col2:
-        st.metric("❓ Questions", len(task.get('questions', [])))
-    with col3:
-        text_type = task.get('text_type', 'unknown').replace('_', ' ').title()
-        st.metric("📄 Text Type", text_type)
-    with col4:
-        st.metric("🤖 Generator", task.get('generated_by', 'unknown').title())
-    
-    # Additional metadata
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        if task.get('topic'):
-            st.markdown(f"**🎯 Topic:** {task.get('topic')}")
-    with col2:
-        if task.get('topic_category'):
-            category = task.get('topic_category', '').replace('_', ' ').title()
-            st.markdown(f"**📂 Category:** {category}")
-    with col3:
-        st.markdown(f"**🆔 Task ID:** {task.get('task_id', 'N/A')}")
-    
-    # Custom instructions if available
+    # Show custom instructions if available
     if task.get('custom_instructions'):
         st.markdown(f"**📝 Custom Instructions:** {task.get('custom_instructions')}")
     
-    # Generation parameters
+    # Show generation parameters if available
     gen_params = task.get('generation_params', {})
     if gen_params:
         with st.expander("🤖 Generation Parameters"):
@@ -2114,164 +2030,14 @@ def display_task_learner_view(task):
     
     st.divider()
     
-    # Calculate dynamic height based on text length
-    text_content = task.get('text', 'No text available')
-    word_count = len(text_content.split())
-    # Estimate height: ~25 words per line, ~25px per line, plus padding
-    estimated_text_height = max(400, min(1200, (word_count // 25) * 25 + 100))
-    
-    # Add CSS for side-by-side layout with dynamic height
-    st.markdown(f"""
-    <style>
-    .reading-text-container {{
-        min-height: {estimated_text_height}px;
-        max-height: none;
-        overflow-y: visible;
-        padding: 20px;
-        background-color: #f8f9fa;
-        border-radius: 10px;
-        border: 1px solid #e9ecef;
-        line-height: 1.6;
-        font-size: 16px;
-    }}
-    .reading-text-container p {{
-        margin-bottom: 1.2em;
-        text-align: justify;
-    }}
-    .questions-container {{
-        min-height: {estimated_text_height}px;
-        max-height: none;
-        overflow-y: visible;
-        padding: 20px;
-        background-color: #ffffff;
-        border-radius: 10px;
-        border: 1px solid #e9ecef;
-    }}
-    .question-item {{
-        margin-bottom: 25px;
-        padding: 15px;
-        background-color: #f8f9fa;
-        border-radius: 8px;
-        border-left: 4px solid #007bff;
-    }}
-    .question-header {{
-        font-size: 18px;
-        font-weight: bold;
-        color: #007bff;
-        margin-bottom: 10px;
-    }}
-    .question-text {{
-        font-size: 16px;
-        font-weight: 600;
-        margin-bottom: 15px;
-        color: #333;
-    }}
-    .option-item {{
-        margin: 8px 0;
-        padding: 8px 12px;
-        border-radius: 5px;
-        font-size: 15px;
-    }}
-    .option-correct {{
-        background-color: #d4edda;
-        border: 1px solid #c3e6cb;
-        color: #155724;
-        font-weight: 600;
-    }}
-    .option-incorrect {{
-        background-color: #ffffff;
-        border: 1px solid #dee2e6;
-        color: #495057;
-    }}
-    .question-meta {{
-        margin-top: 15px;
-        padding-top: 10px;
-        border-top: 1px solid #dee2e6;
-        font-size: 14px;
-        color: #6c757d;
-    }}
-    </style>
-    """, unsafe_allow_html=True)
-    
     # Create two columns for text and questions
     col1, col2 = st.columns([1, 1])
     
     with col1:
-        st.markdown("## 📄 Reading Text")
-        
-        # Format the text nicely (text_content already retrieved above)
-        formatted_text = text_content.strip()
-        paragraphs = formatted_text.split('\n\n')
-        
-        # Create expandable text container that shows full content
-        text_html = '<div class="reading-text-container">'
-        for paragraph in paragraphs:
-            if paragraph.strip():
-                text_html += f'<p>{paragraph.strip()}</p>'
-        text_html += '</div>'
-        
-        st.markdown(text_html, unsafe_allow_html=True)
+        ui_components.display_reading_text(task, container_type="container")
     
     with col2:
-        st.markdown("## ❓ Questions")
-        questions = task.get('questions', [])
-        
-        if questions:
-            # Create scrollable questions container
-            questions_html = '<div class="questions-container">'
-            
-            for i, question in enumerate(questions, 1):
-                try:
-                    questions_html += f'<div class="question-item">'
-                    questions_html += f'<div class="question-header">Question {i}</div>'
-                    
-                    # Question text
-                    question_text = question.get('question_text', 'No question text')
-                    questions_html += f'<div class="question-text">{question_text}</div>'
-                    
-                    # Options
-                    options = question.get('options', {})
-                    correct_answer = question.get('correct_answer', '')
-                    
-                    if options:
-                        # Handle both dict and list formats for options
-                        if isinstance(options, dict):
-                            for option_key, option_text in options.items():
-                                if option_key == correct_answer:
-                                    questions_html += f'<div class="option-item option-correct">✅ <strong>{option_key}.</strong> {option_text}</div>'
-                                else:
-                                    questions_html += f'<div class="option-item option-incorrect"><strong>{option_key}.</strong> {option_text}</div>'
-                        elif isinstance(options, list):
-                            # Handle list format (fallback)
-                            option_keys = ['A', 'B', 'C', 'D']
-                            for j, option_text in enumerate(options):
-                                if j < len(option_keys):
-                                    option_key = option_keys[j]
-                                    if option_key == correct_answer:
-                                        questions_html += f'<div class="option-item option-correct">✅ <strong>{option_key}.</strong> {option_text}</div>'
-                                    else:
-                                        questions_html += f'<div class="option-item option-incorrect"><strong>{option_key}.</strong> {option_text}</div>'
-                    
-                    # Question metadata
-                    q_type = question.get('question_type', 'unknown')
-                    questions_html += f'<div class="question-meta">'
-                    questions_html += f'<strong>Type:</strong> {q_type.replace("_", " ").title()} | '
-                    questions_html += f'<strong>Correct Answer:</strong> {correct_answer}'
-                    
-                    # Explanation if available
-                    if question.get('explanation'):
-                        questions_html += f'<br><strong>💡 Explanation:</strong> {question.get("explanation")}'
-                    
-                    questions_html += f'</div>'
-                    questions_html += f'</div>'
-                    
-                except Exception as e:
-                    questions_html += f'<div class="question-item"><div style="color: red;">Error displaying question {i}: {str(e)}</div></div>'
-            
-            questions_html += '</div>'
-            st.markdown(questions_html, unsafe_allow_html=True)
-        else:
-            st.warning("No questions found for this task.")
+        ui_components.display_questions(task, show_answers=True, interactive=False)
     
     # Action buttons
     st.divider()
@@ -2279,7 +2045,7 @@ def display_task_learner_view(task):
     
     with col1:
         # Filter out non-serializable fields for download
-        task_data_clean = clean_task_for_json(task)
+        task_data_clean = task_service.clean_task_for_json(task)
         
         st.download_button(
             label="📥 Download JSON",
@@ -2296,36 +2062,25 @@ def display_task_learner_view(task):
     with col3:
         if st.button("📊 View JSON", key=f"json_view_{task.get('task_id', 'unknown')}"):
             # Filter out non-serializable fields for JSON display
-            task_data_clean = clean_task_for_json(task)
+            task_data_clean = task_service.clean_task_for_json(task)
             st.json(task_data_clean)
 
 def display_task_summary_view(task):
     """Display a task in summary card format"""
     text_type_display = task.get('text_type', 'unknown').replace('_', ' ').title()
     
-    # Get generation parameters if available
-    gen_params = task.get('generation_params', {})
-    model_name = gen_params.get('model_full_name', task.get('model', 'unknown'))
-    
     with st.expander(f"📖 {task.get('title', 'Untitled')} ({text_type_display})"):
-        # Basic metrics row
-        col1, col2, col3, col4 = st.columns(4)
+        # Display task summary card with preview
+        ui_components.display_task_summary_card(task, show_preview=True)
         
-        with col1:
-            st.metric("Word Count", len(task.get('text', '').split()))
-        with col2:
-            st.metric("Questions", len(task.get('questions', [])))
-        with col3:
-            st.metric("Text Type", text_type_display)
-        with col4:
-            st.metric("Generator", task.get('generated_by', 'unknown'))
-        
-        # Generation parameters row
+        # Show generation parameters if available
+        gen_params = task.get('generation_params', {})
         if gen_params:
             st.markdown("**🤖 Generation Parameters:**")
             col1, col2, col3 = st.columns(3)
             
             with col1:
+                model_name = gen_params.get('model_full_name', task.get('model', 'unknown'))
                 st.metric("Model", model_name)
             with col2:
                 temperature = gen_params.get('temperature', 'N/A')
@@ -2336,26 +2091,15 @@ def display_task_summary_view(task):
             with col3:
                 st.metric("Max Tokens", str(gen_params.get('max_tokens', 'N/A')))
         
-        # Additional metadata
-        if task.get('topic_category'):
-            st.markdown(f"**📂 Category:** {task.get('topic_category', 'unknown').replace('_', ' ').title()}")
-        
-        if task.get('topic'):
-            st.markdown(f"**🎯 Topic:** {task.get('topic', 'N/A')}")
-        
-        # Custom instructions if available
+        # Show custom instructions if available
         if task.get('custom_instructions'):
             st.markdown(f"**📝 Custom Instructions:** {task.get('custom_instructions')}")
-        
-        # Text preview
-        text_preview = task.get('text', '')[:200] + "..." if len(task.get('text', '')) > 200 else task.get('text', '')
-        st.markdown(f"**📄 Text Preview:** {text_preview}")
         
         # Individual task actions
         col1, col2 = st.columns(2)
         with col1:
             # Filter out non-serializable fields for download
-            task_data_clean = clean_task_for_json(task)
+            task_data_clean = task_service.clean_task_for_json(task)
             st.download_button(
                 label="📥 Download JSON",
                 data=json.dumps(task_data_clean, indent=2),
@@ -2366,15 +2110,13 @@ def display_task_summary_view(task):
         with col2:
             if st.button(f"📖 View Full Task", key=f"view_summary_{task.get('task_id', 'unknown')}"):
                 # Filter out non-serializable fields for JSON display
-                task_data_clean = clean_task_for_json(task)
+                task_data_clean = task_service.clean_task_for_json(task)
                 st.json(task_data_clean)
 
 def display_task_json_view(task):
     """Display a task in JSON format"""
-    text_type_display = task.get('text_type', 'unknown').replace('_', ' ').title()
-    
     # Filter out non-serializable fields for display and download
-    task_data_clean = clean_task_for_json(task)
+    task_data_clean = task_service.clean_task_for_json(task)
     
     with st.expander(f"🔧 {task.get('title', 'Untitled')} - JSON Data"):
         st.json(task_data_clean)
@@ -2389,38 +2131,14 @@ def display_task_json_view(task):
 
 def display_task_learner_view_simple(task, context="batch"):
     """Display a task in a simplified learner view without expanders (for batch view)"""
-    # Task header
-    st.markdown(f"# 📖 {task.get('title', 'Untitled Task')}")
+    # Display task header with metadata
+    ui_components.display_task_header(task, show_qa_status=False)
     
-    # Task metadata
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        st.metric("📝 Word Count", len(task.get('text', '').split()))
-    with col2:
-        st.metric("❓ Questions", len(task.get('questions', [])))
-    with col3:
-        text_type = task.get('text_type', 'unknown').replace('_', ' ').title()
-        st.metric("📄 Text Type", text_type)
-    with col4:
-        st.metric("🤖 Generator", task.get('generated_by', 'unknown').title())
-    
-    # Additional metadata
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        if task.get('topic'):
-            st.markdown(f"**🎯 Topic:** {task.get('topic')}")
-    with col2:
-        if task.get('topic_category'):
-            category = task.get('topic_category', '').replace('_', ' ').title()
-            st.markdown(f"**📂 Category:** {category}")
-    with col3:
-        st.markdown(f"**🆔 Task ID:** {task.get('task_id', 'N/A')}")
-    
-    # Custom instructions if available
+    # Show custom instructions if available
     if task.get('custom_instructions'):
         st.markdown(f"**📝 Custom Instructions:** {task.get('custom_instructions')}")
     
-    # Generation parameters (without expander)
+    # Show generation parameters (without expander for simplified view)
     gen_params = task.get('generation_params', {})
     if gen_params:
         st.markdown("**🤖 Generation Parameters:**")
@@ -2438,164 +2156,14 @@ def display_task_learner_view_simple(task, context="batch"):
     
     st.divider()
     
-    # Calculate dynamic height based on text length
-    text_content = task.get('text', 'No text available')
-    word_count = len(text_content.split())
-    # Estimate height: ~25 words per line, ~25px per line, plus padding
-    estimated_text_height = max(400, min(1200, (word_count // 25) * 25 + 100))
-    
-    # Add CSS for side-by-side layout with dynamic height
-    st.markdown(f"""
-    <style>
-    .reading-text-container {{
-        min-height: {estimated_text_height}px;
-        max-height: none;
-        overflow-y: visible;
-        padding: 20px;
-        background-color: #f8f9fa;
-        border-radius: 10px;
-        border: 1px solid #e9ecef;
-        line-height: 1.6;
-        font-size: 16px;
-    }}
-    .reading-text-container p {{
-        margin-bottom: 1.2em;
-        text-align: justify;
-    }}
-    .questions-container {{
-        min-height: {estimated_text_height}px;
-        max-height: none;
-        overflow-y: visible;
-        padding: 20px;
-        background-color: #ffffff;
-        border-radius: 10px;
-        border: 1px solid #e9ecef;
-    }}
-    .question-item {{
-        margin-bottom: 25px;
-        padding: 15px;
-        background-color: #f8f9fa;
-        border-radius: 8px;
-        border-left: 4px solid #007bff;
-    }}
-    .question-header {{
-        font-size: 18px;
-        font-weight: bold;
-        color: #007bff;
-        margin-bottom: 10px;
-    }}
-    .question-text {{
-        font-size: 16px;
-        font-weight: 600;
-        margin-bottom: 15px;
-        color: #333;
-    }}
-    .option-item {{
-        margin: 8px 0;
-        padding: 8px 12px;
-        border-radius: 5px;
-        font-size: 15px;
-    }}
-    .option-correct {{
-        background-color: #d4edda;
-        border: 1px solid #c3e6cb;
-        color: #155724;
-        font-weight: 600;
-    }}
-    .option-incorrect {{
-        background-color: #ffffff;
-        border: 1px solid #dee2e6;
-        color: #495057;
-    }}
-    .question-meta {{
-        margin-top: 15px;
-        padding-top: 10px;
-        border-top: 1px solid #dee2e6;
-        font-size: 14px;
-        color: #6c757d;
-    }}
-    </style>
-    """, unsafe_allow_html=True)
-    
     # Create two columns for text and questions
     col1, col2 = st.columns([1, 1])
     
     with col1:
-        st.markdown("## 📄 Reading Text")
-        
-        # Format the text nicely
-        formatted_text = text_content.strip()
-        paragraphs = formatted_text.split('\n\n')
-        
-        # Create text container that shows full content
-        text_html = '<div class="reading-text-container">'
-        for paragraph in paragraphs:
-            if paragraph.strip():
-                text_html += f'<p>{paragraph.strip()}</p>'
-        text_html += '</div>'
-        
-        st.markdown(text_html, unsafe_allow_html=True)
+        ui_components.display_reading_text(task, container_type="container")
     
     with col2:
-        st.markdown("## ❓ Questions")
-        questions = task.get('questions', [])
-        
-        if questions:
-            # Create questions container
-            questions_html = '<div class="questions-container">'
-            
-            for i, question in enumerate(questions, 1):
-                try:
-                    questions_html += f'<div class="question-item">'
-                    questions_html += f'<div class="question-header">Question {i}</div>'
-                    
-                    # Question text
-                    question_text = question.get('question_text', 'No question text')
-                    questions_html += f'<div class="question-text">{question_text}</div>'
-                    
-                    # Options
-                    options = question.get('options', {})
-                    correct_answer = question.get('correct_answer', '')
-                    
-                    if options:
-                        # Handle both dict and list formats for options
-                        if isinstance(options, dict):
-                            for option_key, option_text in options.items():
-                                if option_key == correct_answer:
-                                    questions_html += f'<div class="option-item option-correct">✅ <strong>{option_key}.</strong> {option_text}</div>'
-                                else:
-                                    questions_html += f'<div class="option-item option-incorrect"><strong>{option_key}.</strong> {option_text}</div>'
-                        elif isinstance(options, list):
-                            # Handle list format (fallback)
-                            option_keys = ['A', 'B', 'C', 'D']
-                            for j, option_text in enumerate(options):
-                                if j < len(option_keys):
-                                    option_key = option_keys[j]
-                                    if option_key == correct_answer:
-                                        questions_html += f'<div class="option-item option-correct">✅ <strong>{option_key}.</strong> {option_text}</div>'
-                                    else:
-                                        questions_html += f'<div class="option-item option-incorrect"><strong>{option_key}.</strong> {option_text}</div>'
-                    
-                    # Question metadata
-                    q_type = question.get('question_type', 'unknown')
-                    questions_html += f'<div class="question-meta">'
-                    questions_html += f'<strong>Type:</strong> {q_type.replace("_", " ").title()} | '
-                    questions_html += f'<strong>Correct Answer:</strong> {correct_answer}'
-                    
-                    # Explanation if available
-                    if question.get('explanation'):
-                        questions_html += f'<br><strong>💡 Explanation:</strong> {question.get("explanation")}'
-                    
-                    questions_html += f'</div>'
-                    questions_html += f'</div>'
-                    
-                except Exception as e:
-                    questions_html += f'<div class="question-item"><div style="color: red;">Error displaying question {i}: {str(e)}</div></div>'
-            
-            questions_html += '</div>'
-            st.markdown(questions_html, unsafe_allow_html=True)
-        else:
-            st.warning("No questions found for this task.")
+        ui_components.display_questions(task, show_answers=True, interactive=False)
     
     # Action buttons
     st.divider()
@@ -2603,7 +2171,7 @@ def display_task_learner_view_simple(task, context="batch"):
     
     with col1:
         # Filter out non-serializable fields for download
-        task_data_clean = clean_task_for_json(task)
+        task_data_clean = task_service.clean_task_for_json(task)
         st.download_button(
             label="📥 Download JSON",
             data=json.dumps(task_data_clean, indent=2),
@@ -2619,7 +2187,7 @@ def display_task_learner_view_simple(task, context="batch"):
     with col3:
         if st.button("📊 View JSON", key=f"json_view_{context}_{task.get('task_id', 'unknown')}"):
             # Filter out non-serializable fields for JSON display
-            task_data_clean = clean_task_for_json(task)
+            task_data_clean = task_service.clean_task_for_json(task)
             st.json(task_data_clean)
 
 # Add this new function after the existing display functions, around line 2600
@@ -2878,7 +2446,7 @@ def display_task_qa_view(task, task_file_path=None):
                     task_file_path = Path(task_file_path)
                 
                 # Remove non-serializable fields before saving
-                task_to_save = clean_task_for_json(task)
+                task_to_save = task_service.clean_task_for_json(task)
                 
                 with open(task_file_path, 'w', encoding='utf-8') as f:
                     json.dump(task_to_save, f, indent=2, ensure_ascii=False)

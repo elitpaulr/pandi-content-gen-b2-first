@@ -1,0 +1,79 @@
+{
+  "task_id": "reading_part5_task_01",
+  "title": "Life as a Digital Nomad: When Wi-Fi is Not Enough",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Chiang Mai, Thailand, I was filled with excitement and anticipation. I had just left behind the monotony of a traditional office job to embark on a life of freedom and adventure as a digital nomad. My laptop and I were going to explore the world, work from exotic locations, and live life on our own terms.\n\nBut little did I know that the reality would be far more challenging than I had anticipated. The first few weeks were a whirlwind of excitement as I settled into my new routine. I marveled at the bustling streets of Chiang Mai, haggled with vendors in the night markets, and savored the spicy flavors of Thai cuisine.\n\nHowever, as the days turned into weeks, the novelty began to wear off. The constant need to find reliable Wi-Fi, power outlets, and comfortable working spaces became a grueling task. I spent hours scouring the city for co-working spaces that didn't cost an arm and a leg, only to discover that they were often overcrowded or had subpar internet speeds.\n\nI also struggled with the isolation of constantly being on my own. As a digital nomad, you're often surrounded by fellow travelers and expats, but we all seem to be stuck in our own bubbles, rarely making genuine connections with locals. I found myself yearning for meaningful conversations and deep connections, but they seemed few and far between.\n\nAnother challenge was navigating the complex web of visa requirements, taxes, and health insurance. It's easy to get caught up in the excitement of exploring new places, but the administrative tasks can be overwhelming. I spent hours researching and applying for visas, only to discover that the process was more complicated than I had anticipated.\n\nAnd then there were the inevitable setbacks – from lost luggage to unexpected medical expenses. One particularly grueling day saw me stuck in a torrential downpour, struggling to find shelter as my laptop succumbed to the elements. I was forced to abandon it and watch as it got soaked through, a painful reminder of the risks and uncertainties that come with this lifestyle.\n\nDespite these challenges, I refused to give up. I knew that I had made the right decision in leaving behind the security of a traditional job to pursue my passion for travel and writing. And so, I persisted, adapting to each new situation and learning from my mistakes.\n\nOne of the greatest rewards was the chance to immerse myself in local cultures and experience the world from different perspectives. In Chiang Mai, I spent hours exploring the ancient temples and markets, marveling at the vibrant colors and patterns that adorned every surface. In Tokyo, I discovered a hidden gem of a neighborhood, where tiny alleyways led to secret gardens and quirky cafes.\n\nIn these moments, I was reminded why I had chosen this lifestyle in the first place – for the freedom to explore, create, and grow as a person. Yes, it's not always easy being a digital nomad, but the rewards far outweigh the challenges. And so, I'll continue on this journey, embracing the ups and downs with an open heart and mind.\n\nAs I sit here now, typing away in a cozy café in Bali, I'm filled with a sense of gratitude for this life I've chosen. It's not always easy being a digital nomad, but it's a journey worth taking – one that has taught me to be resilient, adaptable, and open-minded. And as I look out at the sun-kissed beaches and lush green mountains surrounding me, I know that I'm exactly where I'm meant to be.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's attitude towards their traditional office job?",
+      "options": {
+        "A": "They were satisfied with the stability it provided",
+        "B": "They had grown tired of its routine and wanted a change",
+        "C": "They felt underpaid for their work",
+        "D": "They missed the social interaction with colleagues"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word 'novelty' mean in this context?",
+      "options": {
+        "A": "A person or thing that is new and interesting",
+        "B": "A lack of excitement and interest in something",
+        "C": "The state of being stuck in a routine",
+        "D": "The feeling of being overwhelmed by challenges"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many weeks did it take for the novelty of being a digital nomad in Chiang Mai to wear off?",
+      "options": {
+        "A": "1 week",
+        "B": "2-3 weeks",
+        "C": "4-6 weeks",
+        "D": "More than 6 weeks"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards the challenges of being a digital nomad?",
+      "options": {
+        "A": "They are minor setbacks that should be avoided",
+        "B": "They are an essential part of the lifestyle and worth the effort",
+        "C": "They make it impossible for them to enjoy their travels",
+        "D": "They are a complete surprise and not anticipated by anyone"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about the author's experience as a digital nomad?",
+      "options": {
+        "A": "The author describes the challenges they faced while traveling and working abroad.",
+        "B": "The author compares the benefits of a traditional office job to that of being a digital nomad.",
+        "C": "The author reflects on the importance of finding reliable Wi-Fi and comfortable working spaces for digital nomads.",
+        "D": "The author decides that being a digital nomad is not worth the challenges it presents."
+      },
+      "correct_answer": "A",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern",
+  "custom_instructions": "digital nomad lifestyle challenges"
+}

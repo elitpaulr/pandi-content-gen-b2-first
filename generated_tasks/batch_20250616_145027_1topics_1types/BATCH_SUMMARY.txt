@@ -1,0 +1,35 @@
+BATCH GENERATION SUMMARY
+========================
+
+Generated: 2025-06-16 14:52:40
+Batch Folder: batch_20250616_145027_1topics_1types
+Model: llama3.1:8b
+
+GENERATION PARAMETERS:
+---------------------
+Topics: 1
+Text Types: 1
+Tasks per Topic: 1
+Custom Instructions: None
+
+TOPICS PROCESSED:
+----------------
+• digital wellbeing
+
+TEXT TYPES:
+----------
+• lifestyle_feature
+
+RESULTS:
+--------
+Total Tasks Generated: 0
+Success Rate: 0/1 (0.0%)
+
+GENERATED TASKS:
+---------------
+
+TASK CATEGORIES:
+---------------
+
+FILES IN BATCH:
+--------------

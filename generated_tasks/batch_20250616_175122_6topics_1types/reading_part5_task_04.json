@@ -1,0 +1,91 @@
+{
+  "task_id": "reading_part5_task_04",
+  "title": "Beyond Beaches and Bungalows: Embracing Eco-Friendly Travel Abroad",
+  "topic": "technology",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Chiang Mai, Thailand, I felt a mix of excitement and trepidation. As a digital nomad, I'd been on the road for months, working remotely from cafes and co-working spaces. But this trip was different – I was here to explore sustainable tourism practices and see firsthand how they were transforming communities.\n\nMy first stop was the Chiang Mai Night Bazaar, a bustling marketplace filled with local vendors selling everything from handmade crafts to street food. As I wandered through the stalls, I noticed something that struck me as unusual: many of the vendors were using reusable bags and containers, and some even had recycling programs in place. It wasn't just a coincidence – Chiang Mai has been at the forefront of sustainable tourism for years.\n\nI met up with Nong, a local entrepreneur who'd founded a tour company specializing in eco-friendly experiences. We hopped on motorbikes and sped off to explore the countryside, visiting rural villages where farmers were using permaculture techniques to grow their crops. The contrast between this idyllic scene and the city's bustling streets was stark – it was clear that sustainable tourism practices were making a tangible impact.\n\nAs we returned to Chiang Mai, Nong told me about the challenges of implementing sustainability in a rapidly growing tourist industry. \"It's not just about being eco-friendly,\" she said. \"It's also about supporting local communities and promoting cultural exchange.\" I realized that as digital nomads, we often focus on our own needs – finding reliable Wi-Fi, affordable accommodations – without considering the broader social and environmental implications of our travels.\n\nAs I continued my journey through Southeast Asia, I encountered more examples of sustainable tourism in action. In Cambodia's Angkor Wat temples, I saw how local tour guides were using storytelling to raise awareness about the importance of preserving ancient ruins. In Indonesia's Baliem Valley, I met with indigenous tribes who were working to protect their ancestral lands from deforestation and mining.\n\nBut I also encountered challenges unique to digital nomads like myself. For one, our constant need for connectivity can lead to a culture of disposability – we upgrade our devices every few months, generating a staggering amount of electronic waste. In Bali's Canggu neighborhood, I saw how some co-working spaces were tackling this issue by implementing recycling programs and promoting the use of reusable water bottles.\n\nAs I settled into my own workspace for the day, sipping coffee from a refillable container, I felt a sense of pride knowing that even small actions could contribute to a larger movement. Sustainable tourism practices weren't just about reducing carbon footprints or saving endangered species – they were also about fostering meaningful connections between travelers and local communities.\n\nAs the sun began to set over Chiang Mai's bustling streets, I reflected on what I'd learned during my time in Thailand. It wasn't always easy – sometimes it felt like a digital nomad lifestyle was inherently at odds with sustainable tourism practices. But as I packed up my laptop and headed out to explore the city's night markets once more, I knew that I had a responsibility to do better.\n\nWith every step, I felt a growing sense of connection to this vibrant culture – one where ancient traditions and modern innovation blended together in perfect harmony. And as I continued on my journey, I knew that no matter where my travels took me next, the lessons of sustainable tourism would stay with me forever.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if digital nomads like the author continue their current lifestyle without changing their habits?",
+      "options": {
+        "A": "Sustainable tourism practices will become even more widespread and effective.",
+        "B": "The environment and local communities will suffer as a result of increased electronic waste and disposable culture.",
+        "C": "Digital nomads will have no impact on sustainable tourism practices because they are just individual travelers.",
+        "D": "Local tour guides will lose their jobs due to the rise of digital nomadism."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Nong mean by \"It's not just about being eco-friendly\" when explaining the challenges of implementing sustainability in a rapidly growing tourist industry?",
+      "options": {
+        "A": "It's only about reducing waste and pollution.",
+        "B": "Sustainability is also about supporting local communities and promoting cultural exchange.",
+        "C": "Eco-friendliness is more important than economic development.",
+        "D": "Environmental protection should come before social responsibility."
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What was the main reason why Nong believed it was not enough to just be \"eco-friendly\" in sustainable tourism practices?",
+      "options": {
+        "A": "To reduce carbon emissions",
+        "B": "To support local communities and promote cultural exchange",
+        "C": "To preserve ancient ruins",
+        "D": "To protect ancestral lands from deforestation and mining"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards their own impact as a digital nomad on the environment and local communities?",
+      "options": {
+        "A": "The author believes that digital nomads are inherently selfish and destructive to the environment.",
+        "B": "The author feels guilty about their own role in contributing to environmental problems, but sees opportunities for positive change.",
+        "C": "The author thinks that sustainable tourism practices are only relevant to developing countries, not to developed ones like Thailand.",
+        "D": "The author believes that they have no responsibility to consider the impact of their travels on local communities."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who was Nong?",
+      "options": {
+        "A": "A local tour guide at Angkor Wat temples",
+        "B": "A founder of a co-working space in Bali's Canggu neighborhood",
+        "C": "A local entrepreneur who'd founded a tour company specializing in eco-friendly experiences",
+        "D": "A vendor at the Chiang Mai Night Bazaar"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the author's travel experiences in Southeast Asia?",
+      "options": {
+        "A": "The author focuses on the negative aspects of digital nomadism and its impact on local communities.",
+        "B": "The author explores sustainable tourism practices and their benefits for both travelers and local communities.",
+        "C": "The author critiques the tourist industry for exploiting local cultures and environments.",
+        "D": "The author discovers that travel has no significant impact on local communities."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "travel_adventure",
+  "custom_instructions": "digital nomad lifestyle challenges"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_06",
+  "title": "Surviving the Digital Age: Essential Skills for Modern Students",
+  "topic": "technology",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "Digital Literacy: The New Essential Skill for Modern Students\n\nIn today's world, technology is an integral part of our lives. From smartphones to laptops, computers are no longer just a tool for learning but have become an essential part of daily life. However, with the rapid growth in digital technologies, there has been an increasing need for students to develop the skills necessary to navigate and utilize these tools effectively.\n\nDigital literacy is not just about knowing how to use a computer or access the internet; it's about being able to critically evaluate information, communicate effectively online, and protect oneself from cyber threats. As technology continues to advance at breakneck speed, digital literacy has become an essential skill for modern students to possess.\n\nA study conducted by the Pew Research Center found that 57% of teens aged 13-17 believe that learning how to code is a valuable skill, while another 44% think that online safety and etiquette are crucial. However, despite these findings, many schools struggle to provide adequate digital literacy training to their students.\n\nOne major challenge in providing digital literacy education is the lack of resources and funding. Many schools do not have access to up-to-date technology or experienced teachers who can provide hands-on training. Moreover, with the constant evolution of technology, it's a daunting task for educators to keep pace with the latest developments.\n\nDespite these challenges, some forward-thinking schools are making strides in digital literacy education. For instance, the New York City-based School of One, uses digital tools to personalize learning and make it more engaging for students. The school has seen significant improvements in student performance and engagement since introducing digital literacy training.\n\nBut what exactly does digital literacy entail? It involves a range of skills including critical thinking, problem-solving, creativity, and collaboration. In today's information age, being able to critically evaluate online sources is crucial. Students need to be able to distinguish between credible and unreliable sources, identify biases, and avoid clickbait headlines.\n\nMoreover, digital literacy also encompasses online safety and etiquette. This includes understanding how to protect oneself from cyberbullying, data breaches, and phishing scams. In a recent survey conducted by the UK-based charity, Ditch the Label, 60% of teens reported experiencing online harassment at some point in their lives. Clearly, this is an area where digital literacy training can have a significant impact.\n\nSo what can be done to improve digital literacy education? Firstly, schools need to prioritize digital literacy training and allocate sufficient resources for it. This includes investing in up-to-date technology and hiring experienced teachers who can provide hands-on training. Moreover, educators need to recognize the importance of digital literacy and integrate it into existing curricula.\n\nSecondly, parents and guardians must also play a role in promoting digital literacy at home. By setting clear rules and guidelines for online behavior, they can help their children develop good habits from an early age. Furthermore, involving students in decision-making processes around digital literacy education can foster a sense of ownership and motivation.\n\nIn conclusion, digital literacy is no longer a luxury but a necessity for modern students. As technology continues to advance at breakneck speed, it's essential that we equip our students with the skills necessary to navigate this rapidly changing landscape. By prioritizing digital literacy training in schools, providing resources and support, and promoting good online habits at home, we can empower future generations to thrive in a digitally-driven world.\n\nDigital literacy is not just about being proficient in using technology; it's about developing the critical thinking, problem-solving, and creativity skills necessary for success. As educators, policymakers, and parents, we must recognize its importance and make concerted efforts to prioritize digital literacy education. Only then can we ensure that our students are equipped with the essential tools they need to succeed in this rapidly changing world.\n\nIn a recent survey conducted by the non-profit organization, Common Sense Media, 75% of teens reported using social media as a source of entertainment. This highlights the importance of teaching digital literacy skills that promote responsible online behavior and minimize the risks associated with excessive screen time.\n\nMoreover, digital literacy can also have significant economic benefits for individuals and society as a whole. According to a report by the World Economic Forum, by 2022, more than a third of the desired skills for most jobs will be comprised of skills that are not yet considered crucial today. Digital literacy is at the forefront of this transformation.\n\nIn conclusion, digital literacy education is no longer an optional extra but a must-have for modern students. By prioritizing it in schools and promoting good online habits at home, we can ensure that our children are equipped with the essential tools they need to succeed in this rapidly changing world.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is one of the main challenges that educators face when trying to keep pace with the latest developments in technology?",
+      "options": {
+        "A": "They have too many resources and funding available",
+        "B": "They struggle to find time to stay updated on new technologies",
+        "C": "Many schools lack access to up-to-date technology or experienced teachers who can provide hands-on training",
+        "D": "Educators are resistant to change and prefer traditional teaching methods"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"breakneck speed\" mean in this context?",
+      "options": {
+        "A": "A very slow rate",
+        "B": "An extremely fast and rapid pace",
+        "C": "A moderate level of progress",
+        "D": "A steady, gradual development"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What percentage of teens aged 13-17 believe that learning how to code is a valuable skill?",
+      "options": {
+        "A": "40%",
+        "B": "44%",
+        "C": "57%",
+        "D": "75%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is one of the major challenges facing educators in providing digital literacy education?",
+      "options": {
+        "A": "Lack of student interest",
+        "B": "Constant evolution of technology",
+        "C": "Limited access to up-to-date technology and experienced teachers",
+        "D": "High cost of implementing digital literacy programs"
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"digital literacy\" entail, according to the text?",
+      "options": {
+        "A": "The ability to use a computer or access the internet",
+        "B": "A range of skills including critical thinking, problem-solving, creativity, and collaboration",
+        "C": "Understanding how to protect oneself from cyberbullying and data breaches only",
+        "D": "Being proficient in programming languages such as Java and Python"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about digital literacy for modern students?",
+      "options": {
+        "A": "Digital literacy education should be optional and only provided to students who show a keen interest.",
+        "B": "Digital literacy has become an essential skill for modern students to possess, enabling them to navigate and utilize technology effectively.",
+        "C": "The lack of resources and funding is the main reason why schools struggle to provide adequate digital literacy training.",
+        "D": "Digital literacy education should focus solely on teaching coding skills."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

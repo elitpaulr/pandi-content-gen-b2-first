@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_05",
+  "title": "Life-Changing Adventures: Why Studying Abroad Is a Must-Do Experience",
+  "topic": "education",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "As students across the country prepare for their final exams and graduation ceremonies, many are also pondering an exciting prospect: studying abroad. Whether it's to immerse oneself in a new language, explore different cultures, or gain valuable work experience, studying abroad can be a life-changing experience that has a lasting impact on one's personal and professional development.\n\nAccording to the Institute of International Education (IIE), over 900,000 students from around the world studied in the United States during the 2018-2019 academic year. This number is expected to continue growing as more students become aware of the numerous benefits that come with studying abroad.\n\nOne such benefit is the opportunity to learn a new language. When asked about her experience studying in Spain, Emily Wilson, a junior at the University of Michigan, exclaimed, \"I was able to improve my Spanish skills exponentially and even picked up some Catalan along the way!\" This newfound proficiency has given her a competitive edge in the job market and opened up opportunities for future travel.\n\nIn addition to language skills, studying abroad provides students with valuable cultural insights. Rachel Lee, a senior at New York University, spent a semester interning at a non-profit organization in Tokyo, Japan. She recalled, \"Living in Tokyo was an incredible experience. I learned about the importance of community and respect for tradition, which has influenced my perspective on life.\"\n\nNot only do students gain cultural awareness, but they also develop essential skills that are highly sought after by employers. According to a survey conducted by the Association of American Colleges and Universities (AAC&U), students who study abroad tend to have higher GPAs, graduate rates, and job placement rates compared to their peers.\n\nOf course, studying abroad is not without its challenges. Language barriers, cultural differences, and homesickness can make it difficult for some students to adjust to a new environment. But with the right mindset and support, these obstacles can be overcome.\n\nTo ensure a smooth transition, many universities offer pre-departure orientations and resources specifically designed to help students prepare for their time abroad. For example, the University of California, Berkeley offers a comprehensive study abroad program that includes language preparation, cultural immersion, and academic advising.\n\nAnother crucial aspect of studying abroad is financial planning. Many students rely on scholarships, grants, or student loans to fund their studies. However, with careful budgeting and research, it's possible to make studying abroad more affordable.\n\nOne innovative approach to financing study abroad programs is through crowdfunding. Platforms like GoFundMe and Kickstarter allow students to raise money from friends, family, and even strangers who share similar interests.\n\nWhile the benefits of studying abroad are numerous, there are also concerns about student safety and academic integrity. To address these issues, many universities have implemented robust measures to ensure that their international programs meet strict standards for quality and security.\n\nIn conclusion, studying abroad can be a life-changing experience that has far-reaching consequences on one's personal and professional development. Whether it's to learn a new language, explore different cultures, or gain valuable work experience, students who take the leap will likely return home with newfound confidence, skills, and perspectives that set them apart in an increasingly globalized world.\n\nAs Emily Wilson so aptly put it, \"Studying abroad was one of the best decisions I ever made. It not only broadened my horizons but also gave me a sense of purpose and direction.\" With careful planning, research, and support, students can have a similarly transformative experience that will stay with them for years to come.\n\nAs we look to the future, it's clear that studying abroad is no longer just an option, but a necessity in today's interconnected world. By embracing this opportunity, students can become more adaptable, open-minded, and equipped to succeed in an ever-changing global landscape.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen to students who study abroad according to the survey conducted by the Association of American Colleges and Universities (AAC&U)?",
+      "options": {
+        "A": "Their GPAs are lower compared to their peers",
+        "B": "They have higher job placement rates",
+        "C": "They graduate from university at a slower rate",
+        "D": "They don't gain any new skills"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"exponential\" mean in the context of Emily Wilson's experience studying in Spain?",
+      "options": {
+        "A": "Extremely fast",
+        "B": "Gradual and slow",
+        "C": "Average and typical",
+        "D": "Not relevant to this situation"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many students from around the world studied in the United States during the 2018-2019 academic year?",
+      "options": {
+        "A": "Over 300,000",
+        "B": "Over 500,000",
+        "C": "Over 900,000",
+        "D": "More than 1 million"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does the author think about students who study abroad?",
+      "options": {
+        "A": "They are often too adventurous for their own good.",
+        "B": "They gain valuable life experiences that benefit them in many ways.",
+        "C": "They waste their time and money on an unnecessary experience.",
+        "D": "They don't learn anything new or useful."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"one's personal and professional development\" refer to in the text?",
+      "options": {
+        "A": "Students' academic performance",
+        "B": "The skills and knowledge gained while studying abroad",
+        "C": "Students' language proficiency",
+        "D": "Graduation ceremonies and final exams"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about studying abroad?",
+      "options": {
+        "A": "Studying abroad can be a difficult experience for many students.",
+        "B": "Studying abroad provides numerous benefits that have a lasting impact on one's personal and professional development.",
+        "C": "The cost of studying abroad is often prohibitively expensive for most students.",
+        "D": "Studying abroad is not necessary in today's world."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "reading_part5_task_04",
+  "title": "Think Outside the Box to Crack Life's Toughest Puzzles",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "Creative Thinking in Problem-Solving: The Key to Success\n\nIn today's fast-paced world, problems are an inevitable part of life. Whether it's a personal or professional challenge, we all face obstacles that require innovative solutions. While some may rely on traditional methods to overcome hurdles, others have discovered the power of creative thinking in problem-solving.\n\nCreative thinking is more than just generating new ideas; it's a mindset that allows individuals to approach problems from unique angles and find novel solutions. By embracing this way of thinking, people can break free from conventional constraints and unlock their full potential.\n\nOne notable example of creative thinking in action is the story of Nikola Tesla, a pioneer in electrical engineering who revolutionized the industry with his inventions. When faced with the challenge of transmitting electricity over long distances, Tesla refused to accept conventional wisdom that it was impossible. Instead, he employed his creative thinking skills to design an alternating current (AC) system that eventually replaced direct current (DC) as the standard for electric power distribution.\n\nTesla's success is a testament to the value of creative thinking in problem-solving. By questioning established norms and exploring unconventional solutions, individuals can make groundbreaking discoveries that transform industries and improve lives.\n\nSo, what sets creative thinkers apart from others? Research suggests that these individuals possess certain cognitive traits that enable them to approach problems with a fresh perspective. One key characteristic is divergent thinking, the ability to generate multiple ideas in response to a single question or prompt. Creative thinkers are also adept at identifying patterns and connections between seemingly unrelated concepts.\n\nAnother essential skill for creative problem-solvers is open-mindedness. This involves being receptive to new information and willing to challenge one's own assumptions. By maintaining an open mind, individuals can avoid getting stuck in rigid thought patterns and instead remain adaptable and responsive to changing circumstances.\n\nTo cultivate creative thinking skills, experts recommend practicing a range of techniques. One effective method is brainstorming, where individuals generate as many ideas as possible without worrying about their feasibility or practicality. Another approach is called SCAMPER, an acronym that stands for Substitute, Combine, Adapt, Modify, Put to Another Use, Eliminate, and Rearrange.\n\nIn addition to these techniques, creative thinkers often engage in activities that stimulate their imagination. This can include reading fiction, exploring new places, or participating in hobbies that foster creativity. By making time for self-expression and exploration, individuals can maintain a healthy dose of curiosity and stay open to novel ideas.\n\nWhile creative thinking has many benefits, it's essential to acknowledge its limitations. Not every problem requires an innovative solution; sometimes the most effective approach is a tried-and-true method. Moreover, creative thinkers should be aware of their own biases and avoid getting caught up in overly idealistic or unrealistic expectations.\n\nIn conclusion, creative thinking is a vital skill for tackling complex problems in today's world. By embracing this mindset and developing the necessary cognitive traits, individuals can unlock innovative solutions that transform industries and improve lives. Whether it's harnessing the power of imagination, practicing divergent thinking, or engaging in activities that stimulate creativity, anyone can cultivate their creative problem-solving skills.\n\nAs Tesla's story demonstrates, even the most seemingly insurmountable challenges can be overcome with a dash of creative thinking. So, the next time you encounter a problem, remember to approach it with an open mind and a willingness to explore unconventional solutions. Who knows? You might just come up with something that changes the world.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen if individuals rely too heavily on traditional methods when tackling problems?",
+      "options": {
+        "A": "They will make groundbreaking discoveries that transform industries and improve lives.",
+        "B": "They may become stuck in rigid thought patterns and struggle to adapt to changing circumstances.",
+        "C": "They will be more efficient and productive, but less creative.",
+        "D": "They will lose their competitive edge and fall behind in the fast-paced business world."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"conventional wisdom\" mean in this context?",
+      "options": {
+        "A": "The usual way of thinking",
+        "B": "A completely new idea or concept",
+        "C": "An outdated and old-fashioned approach",
+        "D": "A set of rules that are always correct"
+      },
+      "correct_answer": "A",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the name of the technique mentioned as one of the methods to cultivate creative thinking skills, which involves generating as many ideas as possible without worrying about their feasibility or practicality?",
+      "options": {
+        "A": "SCAMPER",
+        "B": "Brainstorming",
+        "C": "Mind Mapping",
+        "D": "Free Writing"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what sets creative thinkers apart from others?",
+      "options": {
+        "A": "Their ability to work well under pressure",
+        "B": "Their possession of certain cognitive traits such as divergent thinking and open-mindedness",
+        "C": "Their willingness to accept conventional wisdom without questioning it",
+        "D": "Their lack of interest in exploring new ideas"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of this text about creative thinking in problem-solving?",
+      "options": {
+        "A": "Traditional methods are often more effective than creative thinking in solving problems.",
+        "B": "Creative thinking is essential for tackling complex problems and finding innovative solutions.",
+        "C": "The key to success lies in combining traditional and creative approaches to problem-solving.",
+        "D": "Creative thinking is only relevant in personal, not professional challenges."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "culture_arts"
+}
