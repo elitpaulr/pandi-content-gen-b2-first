@@ -168,17 +168,9 @@ def main():
     
     # Auto-save option
     st.sidebar.subheader("💾 Save Settings")
-    auto_save = st.sidebar.checkbox(
-        "Auto-save generated tasks",
-        value=st.session_state.get('auto_save_enabled', False),
-        help="Automatically save tasks to the generated_tasks folder after generation"
-    )
-    st.session_state['auto_save_enabled'] = auto_save
-    
-    if auto_save:
-        st.sidebar.success("✅ Auto-save enabled")
-    else:
-        st.sidebar.info("💡 Manual save required")
+
+    st.session_state['auto_save_enabled'] = True
+    st.sidebar.success("✅ Auto-save enabled")
     
     # Main interface tabs
     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["🎯 Generate Tasks", "🔧 Improve Tasks", "📊 Batch Generation", "📚 Task Library", "⚙️ Admin Panel", "📖 Docs"])

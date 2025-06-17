@@ -1,0 +1,91 @@
+{
+  "task_id": "reading_part5_task_05",
+  "title": "Life-Changing Adventures Abroad: Students Share Their Amazing Journeys",
+  "topic": "education",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "**Exploring the World: The Extraordinary Study Abroad Experiences**\n\nAs the world becomes increasingly interconnected, studying abroad has become an essential part of a young person's educational journey. For many students, venturing out of their comfort zones to immerse themselves in different cultures and languages is a life-changing experience that broadens their horizons and prepares them for the complexities of the modern world.\n\nFor Emily Chen, a junior majoring in international business at New York University, studying abroad in Tokyo was an extraordinary opportunity to explore a country that fascinated her since childhood. \"I had always been interested in Japanese culture, and I wanted to experience it firsthand,\" she says. Chen spent nine months living in Tokyo, attending classes at Meiji University and interning at a local company. She credits the experience with helping her develop a deeper understanding of business practices in Asia and improving her language skills.\n\nChen's experiences are not unique. Every year, thousands of American students embark on study abroad programs, immersing themselves in cultures as diverse as Brazil, China, and France. According to the Institute of International Education, the number of U.S. students studying abroad has increased by 5% over the past five years, with a total of 332,000 students participating in study abroad programs during the 2018-19 academic year.\n\nOne of the primary benefits of studying abroad is the opportunity to develop language skills. For many students, learning a new language is a significant challenge, but one that also brings great rewards. According to a survey by the American Council on Education, students who studied abroad reported an average gain of 30% in their language proficiency.\n\nIn addition to language skills, studying abroad provides students with valuable cultural insights and a deeper understanding of global issues. Students are exposed to different social norms, customs, and values, which helps them develop empathy and tolerance for other cultures. \"Studying abroad helped me understand the complexities of globalization,\" says Michael Patel, a senior majoring in economics at Harvard University, who spent six months studying in London. \"It was an extraordinary experience that broadened my perspective on the world.\"\n\nOf course, studying abroad is not without its challenges. Many students face difficulties adjusting to new customs, languages, and academic systems. Culture shock can be intense, and some students may struggle to adapt to their new surroundings.\n\nDespite these challenges, many students report that studying abroad has had a profound impact on their personal growth and development. \"It was the most challenging experience of my life,\" says Sarah Lee, a junior majoring in psychology at Stanford University, who spent nine months studying in Barcelona. \"But it also taught me to be more independent, confident, and self-reliant.\"\n\nAs the world becomes increasingly interconnected, studying abroad is no longer just an option – it's an essential part of a well-rounded education. For students like Emily Chen, Michael Patel, and Sarah Lee, studying abroad has been an extraordinary experience that has opened doors to new opportunities, broadened their perspectives, and prepared them for success in the global economy.\n\nIn conclusion, studying abroad is not just about earning credits or gaining language skills – it's about exploring the world, developing cultural competence, and preparing oneself for a rapidly changing world. As the Institute of International Education notes, \"study abroad is an essential component of a well-rounded education.\" With its extraordinary benefits and transformative experiences, studying abroad has become a defining aspect of modern education.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about students who participate in study abroad programs?",
+      "options": {
+        "A": "They tend to have lower academic grades than their peers who do not study abroad.",
+        "B": "They are more likely to develop language skills and cultural competence.",
+        "C": "They usually stay in their host country for less than three months.",
+        "D": "They often struggle with adjusting to new customs, languages, and academic systems."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to 'broaden one's horizons'?",
+      "options": {
+        "A": "To narrow down one's interests",
+        "B": "To gain new knowledge and understanding by experiencing different cultures",
+        "C": "To develop language skills only",
+        "D": "To increase one's comfort zone"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many U.S. students participated in study abroad programs during the 2018-19 academic year?",
+      "options": {
+        "A": "250,000",
+        "B": "312,000",
+        "C": "332,000",
+        "D": "400,000"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards students who face culture shock while studying abroad?",
+      "options": {
+        "A": "The author believes that students who experience culture shock are not capable of adapting to new surroundings.",
+        "B": "The author considers culture shock as a minor setback in the overall benefits of studying abroad.",
+        "C": "The author views culture shock as an opportunity for personal growth and development, but acknowledges it can be intense.",
+        "D": "The author suggests that culture shock is a reason why students should avoid studying abroad."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who does Michael Patel say studied abroad helped him understand the complexities of globalization?",
+      "options": {
+        "A": "His university professors",
+        "B": "The students who attended the study abroad program with him",
+        "C": "Himself, when he spent six months studying in London",
+        "D": "People from other cultures and countries"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about study abroad experiences?",
+      "options": {
+        "A": "Studying abroad is only suitable for students who are fluent in multiple languages.",
+        "B": "Studying abroad can be a challenging but life-changing experience that prepares students for success in the global economy.",
+        "C": "The number of American students studying abroad has decreased significantly over the past five years.",
+        "D": "Studying abroad is not an essential part of modern education."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general",
+  "custom_instructions": "use the word extraordinary"
+}

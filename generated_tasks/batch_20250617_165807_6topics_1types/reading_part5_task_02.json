@@ -1,0 +1,91 @@
+{
+  "task_id": "reading_part5_task_02",
+  "title": "Classrooms in Crisis: Can Online Learning Save the Day?",
+  "topic": "education",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "The Rise of Online Education: Is it Replacing Traditional Classrooms?\n\nIn recent years, online education has gained immense popularity worldwide. From students to working professionals, people from all walks of life are embracing the flexibility and convenience that online learning offers. But is this shift towards digital classrooms a sign that traditional schools are becoming obsolete? Let's dive into the world of online education and explore its benefits and limitations.\n\nOn one hand, online education has opened up new avenues for students who cannot attend traditional classes due to geographical or socio-economic constraints. Platforms like Coursera, Udemy, and edX have made it possible for learners to access high-quality courses from renowned institutions without having to physically be there. This accessibility has enabled people to pursue their passions and interests at their own pace.\n\nMoreover, online education allows for greater flexibility in terms of scheduling. Students can learn at any time, from anywhere, as long as they have a stable internet connection. This is particularly beneficial for working professionals who want to upgrade their skills without having to take a break from their careers.\n\nHowever, there are also those who argue that traditional classrooms offer something unique – the human touch. Face-to-face interactions with teachers and peers can be incredibly valuable in terms of building relationships, developing soft skills, and fostering a sense of community. Online education often lacks these essential social aspects, which can lead to feelings of isolation and disconnection.\n\nBut what about the quality of online education? Can it truly replace traditional classrooms? The answer lies somewhere in between. While online courses may not offer the same level of interaction as traditional classes, many have taken extraordinary steps to replicate this experience through cutting-edge technology and innovative pedagogies. For instance, some institutions are using virtual reality (VR) and augmented reality (AR) tools to create immersive learning environments that simulate real-world scenarios.\n\nDespite these advancements, there is still a long way to go before online education can fully replace traditional classrooms. Many students rely on the structure and accountability provided by physical schools to stay motivated and focused. Online education requires discipline and self-motivation, which not everyone possesses in abundance.\n\nAnother concern is the issue of cheating and academic integrity. With online exams and assignments, it's easier for students to cheat or plagiarize work without getting caught. This raises important questions about the validity and reliability of online assessments.\n\nSo, what does the future hold? Will traditional classrooms become a thing of the past as more and more people opt for online education? Not necessarily. Both models have their strengths and weaknesses, and it's likely that they will coexist for years to come.\n\nWhat we can expect is a shift towards hybrid learning models that combine the best of both worlds. Online platforms can offer flexible scheduling and accessibility, while traditional classrooms provide face-to-face interactions and social support. This blended approach will enable students to reap the benefits of both online and offline education.\n\nIn conclusion, online education has revolutionized the way we learn, offering unprecedented flexibility and convenience. However, it's not a replacement for traditional classrooms just yet. Both models have their strengths and weaknesses, and it's up to individual learners to decide what works best for them. Whether you're a student or a working professional, there's no denying that online education has opened up extraordinary opportunities for growth and development.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the author's opinion on the replacement of traditional classrooms by online education?",
+      "options": {
+        "A": "The author believes that online education will eventually replace traditional classrooms entirely.",
+        "B": "The author thinks that both models have their strengths and weaknesses, but traditional classrooms offer something unique.",
+        "C": "The author is neutral and does not express a clear opinion on the matter.",
+        "D": "The author argues that online education is a complete failure and should be abandoned."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"hybrid learning models\" mean in this context?",
+      "options": {
+        "A": "The use of technology to create virtual reality environments",
+        "B": "A combination of traditional classrooms with online education",
+        "C": "Online courses that are available 24 hours a day, 7 days a week",
+        "D": "A new type of educational platform that replaces traditional schools"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, which of the following platforms offers high-quality courses from renowned institutions?",
+      "options": {
+        "A": "LinkedIn Learning",
+        "B": "Coursera, Udemy, and edX",
+        "C": "Google Classroom",
+        "D": "Khan Academy"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, how does the author feel about traditional classrooms?",
+      "options": {
+        "A": "They are becoming outdated and unnecessary",
+        "B": "They have unique benefits that can never be replicated by online education",
+        "C": "They are only suitable for young children and not for working professionals",
+        "D": "They will eventually become obsolete as more people opt for online education"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"the human touch\" refer to in this text?",
+      "options": {
+        "A": "A virtual reality experience",
+        "B": "The benefits of flexible scheduling in online courses",
+        "C": "The value of face-to-face interactions with teachers and peers",
+        "D": "The use of cutting-edge technology in online education"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the author's main argument about the relationship between online education and traditional classrooms?",
+      "options": {
+        "A": "Online education will eventually replace traditional classrooms as the preferred learning method.",
+        "B": "Both online education and traditional classrooms have their strengths and weaknesses, but online education offers more benefits.",
+        "C": "Traditional classrooms are becoming obsolete due to the rise of online education.",
+        "D": "There is no need for a combination of online and offline education."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general",
+  "custom_instructions": "use the word extraordinary"
+}

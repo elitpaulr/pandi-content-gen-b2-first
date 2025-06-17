@@ -1,0 +1,91 @@
+{
+  "task_id": "reading_part5_task_04",
+  "title": "Think Outside the Box to Solve Life's Big Problems",
+  "topic": "general",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "Creative Thinking: The Extraordinary Key to Problem-Solving Success\n\nIn today's fast-paced world, problems are an inevitable part of our lives. Whether it's a complex business challenge or a personal issue that needs attention, we often rely on conventional methods and solutions to tackle them. However, these tried-and-tested approaches can only take us so far. It is when we think outside the box, embracing creative thinking, that we unlock extraordinary results.\n\nCreative thinking in problem-solving is not just about being innovative; it's a mindset shift that requires us to approach challenges from different angles and consider multiple perspectives. This involves questioning assumptions, exploring new ideas, and taking calculated risks to arrive at novel solutions. In essence, creative thinking empowers individuals to break free from the constraints of conventional wisdom and explore uncharted territories.\n\nOne of the key advantages of creative thinking is its ability to foster resilience in the face of adversity. When faced with obstacles or setbacks, our initial reaction might be to revert to tried-and-tested methods. However, this approach can often lead to stagnation and a reluctance to adapt. On the other hand, individuals who practice creative thinking learn to navigate uncertainty by embracing ambiguity and exploring new avenues for problem-solving.\n\nA fascinating example of creative thinking in action is the story of Thomas Edison, the inventor of the light bulb. When asked about his numerous failures before successfully developing the light bulb, he famously quipped: \"I have not failed. I've just found 10,000 ways that won't work.\" Edison's approach to problem-solving was marked by an unwavering commitment to experimentation and a willingness to think outside the box.\n\nIn today's business world, companies are increasingly recognizing the value of creative thinking in driving innovation and growth. From design thinking to lateral thinking, various approaches have emerged as effective tools for fostering creativity within organizations. For instance, Google has implemented \"20% time\" – an initiative that allows employees to dedicate 20% of their work hours to side projects unrelated to their core responsibilities.\n\nThe benefits of creative thinking extend far beyond the realm of business. In education, incorporating creative problem-solving approaches can lead to improved student outcomes and increased motivation. By encouraging students to explore novel solutions and question established norms, educators can help them develop essential skills for navigating an ever-changing world.\n\nHowever, developing creative thinking requires a deliberate effort. It demands an openness to new ideas, experiences, and perspectives – something that is often challenging in our increasingly polarized society. Moreover, the pressure to meet deadlines and deliver results can sometimes stifle creativity, leading individuals to rely on tried-and-tested methods rather than taking calculated risks.\n\nTo unlock the extraordinary potential of creative thinking, it's essential to create an environment conducive to innovation. This involves encouraging experimentation, embracing failure as a learning opportunity, and providing resources for professional development. Moreover, leaders must model creative behavior themselves, demonstrating that innovative problem-solving is valued and rewarded within their organizations.\n\nIn conclusion, creative thinking is the extraordinary key to unlocking problem-solving success. By adopting this mindset, individuals can break free from conventional constraints, foster resilience in the face of adversity, and drive innovation in various contexts. Whether it's a business leader or an educator, embracing creative thinking requires a deliberate effort – but the rewards are well worth the investment.\n\nAs we navigate the complexities of our rapidly changing world, developing creative thinking will become increasingly essential for success. By cultivating this extraordinary ability to think outside the box and explore novel solutions, we can unlock new possibilities, drive growth, and create a brighter future for ourselves and generations to come.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what is one way that Google encourages employees to develop their creative thinking skills?",
+      "options": {
+        "A": "By assigning them to work on complex projects with tight deadlines",
+        "B": "By giving them 20% of their work hours to dedicate to side projects unrelated to their core responsibilities",
+        "C": "By requiring them to attend regular brainstorming sessions with other teams",
+        "D": "By offering incentives for employees who come up with innovative solutions to company problems"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean to \"think outside the box\" in the context of problem-solving?",
+      "options": {
+        "A": "To rely on conventional methods and solutions",
+        "B": "To approach challenges from different angles and consider multiple perspectives",
+        "C": "To be innovative but also cautious and risk-averse",
+        "D": "To focus solely on technical skills rather than creativity"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Thomas Edison's approach to problem-solving, what did he call his numerous failures before successfully developing the light bulb?",
+      "options": {
+        "A": "I have succeeded 10,000 times.",
+        "B": "I've just found 10,000 ways that won't work.",
+        "C": "I was not trying hard enough.",
+        "D": "I didn't know what I was doing."
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to the text, what is the author's attitude towards people who rely on \"tried-and-tested methods\" when faced with challenges?",
+      "options": {
+        "A": "The author thinks they are innovative and forward-thinking.",
+        "B": "The author believes they are limited by conventional wisdom and need to think outside the box.",
+        "C": "The author admires their ability to adapt quickly in uncertain situations.",
+        "D": "The author considers them too cautious and unwilling to take risks."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does the phrase \"think outside the box\" refer to in the text?",
+      "options": {
+        "A": "A conventional approach to problem-solving",
+        "B": "A way of questioning assumptions and exploring new ideas",
+        "C": "A method of taking calculated risks to arrive at novel solutions",
+        "D": "A business strategy that involves delegating tasks to employees"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about creative thinking?",
+      "options": {
+        "A": "The importance of following conventional methods and approaches in problem-solving",
+        "B": "Creative thinking is essential for success in today's fast-paced world, but it requires a deliberate effort to develop",
+        "C": "Problem-solving should only be approached from a business perspective",
+        "D": "Innovation and creativity are not necessary skills for individuals"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "culture_arts",
+  "custom_instructions": "use the word extraordinary"
+}

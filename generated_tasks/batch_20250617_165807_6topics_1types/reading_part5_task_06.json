@@ -1,0 +1,79 @@
+{
+  "task_id": "reading_part5_task_06",
+  "title": "Staying Ahead of the Curve: Digital Skills for Tomorrow's Leaders",
+  "topic": "technology",
+  "text_type": "newspaper_article",
+  "difficulty": "B2",
+  "text": "Digital Literacy for Modern Students: A Necessity in Today's Fast-Paced World\n\nIn today's digital age, being computer-literate is no longer a nicety but an essential skill. With technology advancing at an incredible pace, it's becoming increasingly important for students to be digitally literate from a young age. Digital literacy encompasses not only basic computer skills but also the ability to critically evaluate online information and use digital tools effectively.\n\nAccording to a recent study by the Pew Research Center, nearly 70% of teenagers in the United States have access to the internet at home, and over 90% own a smartphone. With this level of exposure, it's surprising that many students still struggle with basic tasks like creating and editing documents, spreadsheets, or presentations.\n\nThis lack of digital literacy can have serious consequences for modern students. In today's job market, employers expect graduates to be proficient in a range of digital skills, from coding and data analysis to social media management and content creation. Without these skills, graduates risk being left behind in the competitive job market.\n\nMoreover, digital literacy is not just about technical skills; it also involves critical thinking and problem-solving. In an era where misinformation and disinformation are rampant online, students need to be able to critically evaluate sources and identify reliable information. This requires a level of media literacy that goes beyond simply being familiar with social media platforms.\n\nFortunately, there are many resources available to help modern students develop their digital literacy skills. Online courses and tutorials like Coursera, edX, and Udemy offer a range of modules on topics from coding and data science to digital marketing and e-learning design. These resources are often free or low-cost, making them accessible to students with limited budgets.\n\nSchools and educational institutions are also taking steps to incorporate digital literacy into their curricula. Many have introduced computer programming classes, online safety courses, and media literacy modules as part of their standard curriculum. Some schools even offer extracurricular programs that focus specifically on developing digital skills, such as coding clubs or robotics teams.\n\nParents can also play a significant role in helping their children develop digital literacy skills. By modeling good digital behavior themselves – for example, by using strong passwords and being mindful of online safety – parents can help their children develop healthy habits from an early age. Encouraging students to engage in extracurricular activities that involve technology, such as coding or robotics clubs, can also provide valuable hands-on experience.\n\nIn conclusion, digital literacy is no longer a nicety but an essential skill for modern students. With the increasing reliance on technology in all aspects of life, it's extraordinary how many students still lack basic digital skills. By providing access to online resources, incorporating digital literacy into curricula, and modeling good digital behavior, we can help our children develop the skills they need to succeed in today's fast-paced world.\n\nAs educators and parents, it's essential that we take a proactive approach to teaching digital literacy from an early age. This involves not only providing access to technology but also teaching students how to use it effectively and critically evaluate online information. By doing so, we can equip our children with the skills they need to succeed in an increasingly complex and rapidly changing world.\n\nIn today's digital landscape, being digitally literate is no longer a choice – it's a necessity. By working together, educators, parents, and students can create a future where everyone has access to the knowledge, skills, and opportunities that technology offers.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is implied about modern students who struggle with digital literacy?",
+      "options": {
+        "A": "They lack technical skills such as coding and data analysis",
+        "B": "They are not familiar with social media platforms but can critically evaluate online information",
+        "C": "They have limited access to technology at home or school, which hinders their progress",
+        "D": "They are generally proficient in a range of digital skills but need improvement in critical thinking"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"nicety\" mean in this text?",
+      "options": {
+        "A": "A basic requirement for modern students",
+        "B": "Something that is enjoyable but not essential",
+        "C": "An important skill that is becoming increasingly necessary",
+        "D": "A technical term used to describe digital literacy"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the text, what is the author's attitude towards students who lack basic digital skills?",
+      "options": {
+        "A": "The author believes that these students are simply not interested in learning digital skills.",
+        "B": "The author thinks that it's extraordinary how many students still lack basic digital skills despite growing up with technology.",
+        "C": "The author argues that students who lack digital skills are lazy and unmotivated.",
+        "D": "The author claims that students who lack digital skills are stupid."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does \"this\" refer to in the following sentence?",
+      "options": {
+        "A": "The study by the Pew Research Center",
+        "B": "The level of exposure to the internet and smartphones",
+        "C": "Basic computer skills",
+        "D": "Digital literacy"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main idea of the text about digital literacy for modern students?",
+      "options": {
+        "A": "Digital literacy is not necessary for today's students because they have limited access to the internet.",
+        "B": "Educators, parents, and students must work together to ensure that modern students develop essential digital skills.",
+        "C": "The text argues that digital literacy has no impact on a student's ability to succeed in their future careers.",
+        "D": "Digital literacy is only important for students who want to pursue careers in computer science or technology."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern",
+  "custom_instructions": "use the word extraordinary"
+}
