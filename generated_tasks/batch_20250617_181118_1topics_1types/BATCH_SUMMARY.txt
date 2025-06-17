@@ -1,0 +1,39 @@
+BATCH GENERATION SUMMARY
+========================
+
+Generated: 2025-06-17 18:13:00
+Batch Folder: batch_20250617_181118_1topics_1types
+Model: llama3.1:8b
+
+GENERATION PARAMETERS:
+---------------------
+Topics: 1
+Text Types: 1
+Tasks per Topic: 1
+Custom Instructions: None
+
+TOPICS PROCESSED:
+----------------
+• local theatre
+
+TEXT TYPES:
+----------
+• cultural_review
+
+RESULTS:
+--------
+Total Tasks Generated: 1
+Success Rate: 1/1 (100.0%)
+
+GENERATED TASKS:
+---------------
+ 1. reading_part5_task_01 - Behind the Curtain: Unveiling the Magic of Our City's Hidden Gems
+    Topic: general | Type: cultural_review | Words: 635
+
+TASK CATEGORIES:
+---------------
+• General: 1 tasks
+
+FILES IN BATCH:
+--------------
+• reading_part5_task_01.json (7,320 bytes)
