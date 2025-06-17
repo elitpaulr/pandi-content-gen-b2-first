@@ -180,68 +180,42 @@ def main():
         
         col1, col2 = st.columns([2, 1])
         
-        with col1:
-            topic = st.text_input(
-                "Task Topic",
-                placeholder="e.g., sustainable travel and eco-tourism",
-                help="Enter a specific topic for the Reading Part 5 task"
-            )
-            
-            # Text Type Selection
-            text_type_options = config_service.get_text_type_options()
-            selected_text_type = st.selectbox(
-                "Text Type",
-                text_type_options,
-                index=0,
-                help="Choose the style and format of the reading text"
-            )
-            
-            # Show text type description using config service
-            text_type_info = config_service.get_text_type_info(selected_text_type)
-            text_type_key = text_type_info.get("key", "unknown")
-            text_type_desc = text_type_info.get("description", "No description available")
-            text_type_examples = text_type_info.get("examples", [])
-            
-            with st.expander("ℹ️ About this text type"):
-                st.markdown(f"**{selected_text_type}**")
-                st.write(text_type_desc)
-                st.markdown("**Examples:**")
-                for example in text_type_examples:
-                    st.markdown(f"• {example}")
-            
-            custom_instructions = st.text_area(
-                "Custom Instructions (Optional)",
-                placeholder="Any specific requirements or focus areas...",
-                height=100
-            )
         
-        with col2:
-            st.markdown("**Suggested Topics:**")
-            
-            # Comprehensive B2 First Topic Categories (loaded from config)
-            
-            # Category selector for topics
-            selected_category = st.selectbox(
-                "Choose Topic Category",
-                list(config_service.get_topic_categories().keys()),
-                key="topic_category_selector"
-            )
-            
-            # Display topics from selected category
-            category_topics = config_service.get_category_topics(selected_category)
-            
-            st.markdown(f"**{selected_category} Topics:**")
-            for i, topic_suggestion in enumerate(category_topics):
-                if st.button(f"📝 {topic_suggestion}", key=f"suggest_{selected_category}_{i}"):
-                    st.session_state.topic_input = topic_suggestion
-                    st.rerun()
-            
-            # Quick random topic button
-            if st.button("🎲 Random Topic", key="random_topic_btn"):
-                all_topics = [topic for topics in config_service.get_topic_categories().values() for topic in topics]
-                random_topic = random.choice(all_topics)
-                st.session_state.topic_input = random_topic
-                st.rerun()
+        topic = st.text_input(
+            "Task Topic",
+            placeholder="e.g., sustainable travel and eco-tourism",
+            help="Enter a specific topic for the Reading Part 5 task"
+        )
+        
+        # Text Type Selection
+        text_type_options = config_service.get_text_type_options()
+        selected_text_type = st.selectbox(
+            "Text Type",
+            text_type_options,
+            index=0,
+            help="Choose the style and format of the reading text"
+        )
+        
+        # Show text type description using config service
+        text_type_info = config_service.get_text_type_info(selected_text_type)
+        text_type_key = text_type_info.get("key", "unknown")
+        text_type_desc = text_type_info.get("description", "No description available")
+        text_type_examples = text_type_info.get("examples", [])
+        
+        with st.expander("ℹ️ About this text type"):
+            st.markdown(f"**{selected_text_type}**")
+            st.write(text_type_desc)
+            st.markdown("**Examples:**")
+            for example in text_type_examples:
+                st.markdown(f"• {example}")
+        
+        custom_instructions = st.text_area(
+            "Custom Instructions (Optional)",
+            placeholder="Any specific requirements or focus areas...",
+            height=100
+        )
+        
+        
 
 
         # Persistent Save Section - appears when there's a generated task
