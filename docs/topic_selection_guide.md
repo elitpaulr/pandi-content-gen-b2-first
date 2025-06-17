@@ -1,10 +1,14 @@
 # B2 First Topic Selection Guide
 
+> **Note:** The canonical source for all B2 First recommended topics and categories is now `knowledge_base/b2_first_recommended_topics.json`. All topic/category data in this guide is derived from or should be cross-checked with that file.
+
 ## Overview
 
 This guide provides comprehensive information about topic selection for Cambridge B2 First Reading Part 5 tasks. Understanding proper topic selection is crucial for creating authentic, engaging, and appropriately challenging content for intermediate-upper intermediate learners.
 
 ## Topic Categories
+
+> See `knowledge_base/b2_first_recommended_topics.json` for the full, up-to-date list of categories, topics, and usage guidelines.
 
 ### 🏃‍♂️ Sport & Fitness
 **Focus**: Physical activities, health, wellness, athletic performance

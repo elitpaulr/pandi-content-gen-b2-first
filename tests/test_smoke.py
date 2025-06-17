@@ -177,7 +177,9 @@ class TestBasicFunctionality:
             assert isinstance(text_types, dict), "Text types should be a dictionary"
             assert len(topic_sets) > 0, "Should have some topic sets"
             assert len(text_types) > 0, "Should have some text types"
-            
+            # Check that at least one expected category from the knowledge base is present
+            expected_category = "Sport & Fitness"
+            assert expected_category in topic_sets, f"Expected category '{expected_category}' not found in topic sets"
         except Exception as e:
             pytest.fail(f"ConfigService basic functionality failed: {e}")
     

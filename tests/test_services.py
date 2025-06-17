@@ -58,6 +58,9 @@ class TestConfigService:
             for topic in topics:
                 assert isinstance(topic, str), "Each topic should be a string"
                 assert len(topic.strip()) > 0, "Topic should not be empty"
+        # Check that at least one expected category from the knowledge base is present
+        expected_category = "Sport & Fitness"
+        assert expected_category in topic_sets, f"Expected category '{expected_category}' not found in topic sets"
     
     @pytest.mark.unit
     def test_get_text_types(self, config_service):

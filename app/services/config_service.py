@@ -35,17 +35,19 @@ class ConfigService:
             self._get_fallback_b2_text_types()
         )
         
-        # Load topic categories
-        self.topic_categories = self._load_json_config(
-            'topic_categories.json',
-            self._get_fallback_topic_categories()
-        )
-        
-        # Load topic sets
-        self.topic_sets = self._load_json_config(
-            'topic_sets.json',
-            self._get_fallback_topic_sets()
-        )
+        # Load unified topics knowledge base
+        kb_path = self.project_root / "knowledge_base" / "b2_first_recommended_topics.json"
+        try:
+            with open(kb_path, 'r', encoding='utf-8') as f:
+                kb_data = json.load(f)["b2_first_recommended_topics"]
+        except Exception as e:
+            st.error(f"❌ Error loading knowledge base: {e}")
+            kb_data = {}
+        self.topic_knowledge_base = kb_data
+        self.topic_categories = kb_data.get("categories", {})
+        self.usage_guidelines = kb_data.get("usage_guidelines", {})
+        # Build topic sets (category name -> topic list)
+        self.topic_sets = {cat_info["name"]: cat_info["topics"] for cat_info in self.topic_categories.values()} if self.topic_categories else {}
     
     def _load_json_config(self, filename: str, fallback_data: Dict[str, Any] = None) -> Dict[str, Any]:
         """
@@ -90,30 +92,13 @@ class ConfigService:
             }
         }
     
-    def _get_fallback_topic_categories(self) -> Dict[str, Any]:
-        """Fallback data for topic categories"""
-        return {
-            "🌍 Environment & Sustainability": [
-                "sustainable travel and eco-tourism",
-                "urban gardening and community spaces",
-                "renewable energy solutions for homes"
-            ],
-            "💼 Work & Business": [
-                "remote work productivity strategies",
-                "career change in your thirties",
-                "workplace diversity and inclusion"
-            ]
-        }
+    def get_topic_knowledge_base(self) -> Dict[str, Any]:
+        """Get the full topic knowledge base (all metadata, categories, guidelines)"""
+        return self.topic_knowledge_base
     
-    def _get_fallback_topic_sets(self) -> Dict[str, Any]:
-        """Fallback data for topic sets"""
-        return {
-            "🌍 Environment & Sustainability": [
-                "sustainable travel and eco-tourism",
-                "urban gardening and community spaces",
-                "renewable energy solutions for homes"
-            ]
-        }
+    def get_usage_guidelines(self) -> Dict[str, Any]:
+        """Get topic usage guidelines"""
+        return self.usage_guidelines
     
     # Public getter methods
     def get_b2_text_types(self) -> Dict[str, Any]:
