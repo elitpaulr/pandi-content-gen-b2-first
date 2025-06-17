@@ -48,6 +48,18 @@ class ConfigService:
         self.usage_guidelines = kb_data.get("usage_guidelines", {})
         # Build topic sets (category name -> topic list)
         self.topic_sets = {cat_info["name"]: cat_info["topics"] for cat_info in self.topic_categories.values()} if self.topic_categories else {}
+
+        # Load system prompts
+        prompts_path = self.config_dir / "system_prompts.json"
+        try:
+            if prompts_path.exists():
+                with open(prompts_path, 'r', encoding='utf-8') as f:
+                    self.system_prompts = json.load(f)
+            else:
+                self.system_prompts = {}
+        except Exception as e:
+            st.error(f"❌ Error loading system prompts: {e}")
+            self.system_prompts = {}
     
     def _load_json_config(self, filename: str, fallback_data: Dict[str, Any] = None) -> Dict[str, Any]:
         """
@@ -129,6 +141,21 @@ class ConfigService:
         """Get topics for a specific topic set"""
         return self.topic_sets.get(set_name, [])
     
+    def get_system_prompt(self, prompt_key: str) -> str:
+        """Get a system prompt by key (e.g., 'title_prompt')"""
+        return self.system_prompts.get(prompt_key, "")
+
+    def set_system_prompt(self, prompt_key: str, value: str):
+        """Set and save a system prompt by key"""
+        self.system_prompts[prompt_key] = value
+        prompts_path = self.config_dir / "system_prompts.json"
+        try:
+            with open(prompts_path, 'w', encoding='utf-8') as f:
+                json.dump(self.system_prompts, f, indent=2)
+            st.success(f"✅ Prompt '{prompt_key}' updated and saved.")
+        except Exception as e:
+            st.error(f"❌ Failed to save prompt '{prompt_key}': {e}")
+
     def reload_configurations(self):
         """Reload all configurations (useful for admin panel)"""
         self._load_configurations()

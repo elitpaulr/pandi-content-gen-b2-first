@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_01",
+  "title": "Scaling New Heights: The Thrill of Rock Climbing Adventure",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Thrill of Climbing: Why this Sport is Captivating Hearts**\n\nClimbing has long been considered an extreme sport, but its popularity has been growing at an alarming rate in recent years. With the rise of indoor climbing gyms and outdoor destinations becoming more accessible, it's no wonder that climbers of all ages are lacing up their shoes and hitting the walls.\n\nBut what is it about climbing that draws people in? For many, it's the physical challenge – the mental and physical push to conquer a difficult route or summit a towering peak. For others, it's the sense of community – the camaraderie found among fellow climbers as they share tips and techniques, and support one another through tough ascents.\n\n**A Sport for All Ages**\n\nOne of the most surprising things about climbing is its accessibility. Whether you're 8 years old or 80, there's a type of climbing that's right for you. Indoor climbing gyms offer top-rope climbing, lead climbing, and bouldering – each with its own unique challenges and benefits.\n\n\"Indoor climbing gyms have made it possible for people to climb year-round, regardless of the weather,\" says Emily, an avid climber who has been involved in the sport for over a decade. \"They offer a great way to stay active, challenge yourself physically, and meet new people.\"\n\nBut outdoor climbing is where many climbers find their true passion. From the granite peaks of Yosemite to the towering walls of El Capitan, there's no shortage of breathtaking destinations to explore.\n\n**Physical Benefits**\n\nClimbing offers an incredible array of physical benefits – from increased strength and endurance to improved flexibility and coordination. Regular climbing can also help improve mental focus and concentration, as well as boost self-confidence and self-esteem.\n\n\"Climbing is a full-body workout,\" says Dr. John, a sports medicine specialist who has worked with climbers for years. \"It requires strength, power, and endurance – all of which are essential for overall physical fitness.\"\n\n**Mental Benefits**\n\nBut climbing's benefits don't stop at the physical level. The mental challenges posed by climbing can be just as transformative.\n\n\"Climbing teaches you to focus on the present moment,\" says Sarah, a seasoned climber who has been on numerous expeditions around the world. \"It forces you to stay calm under pressure and trust your instincts – skills that translate perfectly into everyday life.\"\n\n**Tips for Beginners**\n\nSo what does it take to get started in climbing? Here are a few tips from experienced climbers:\n\n* Start with indoor climbing gyms, which offer beginner-friendly routes and expert instruction.\n* Invest in proper equipment – including a harness, ropes, and carabiners.\n* Find a climbing buddy or join a local climbing club for support and motivation.\n\n**Conclusion**\n\nClimbing is more than just an extreme sport – it's a way of life. With its physical challenges, mental rewards, and sense of community, it's no wonder that climbers of all ages are lacing up their shoes and hitting the walls.\n\nWhether you're a seasoned climber or just starting out, there's never been a better time to give climbing a try. So why not lace up your shoes, grab your gear, and join the thousands of people around the world who are already hooked on this addictive – yet incredibly rewarding – sport?",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is a likely reason for the growth in popularity of climbing as an extreme sport?",
+      "options": {
+        "A": "Many climbers have switched from other sports due to injuries",
+        "B": "Climbing gyms and outdoor destinations are becoming more accessible",
+        "C": "The physical benefits of climbing are only available to those over 18 years old",
+        "D": "The mental challenges posed by climbing are not as appealing to younger generations"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does it mean for an activity to be \"extreme\" in a context like climbing?",
+      "options": {
+        "A": "It means that the activity is not very physically demanding",
+        "B": "It means that the activity involves great physical difficulty and risk-taking",
+        "C": "It means that the activity is only suitable for experienced people",
+        "D": "It means that the activity is very expensive and requires specialized equipment"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is one of the physical benefits that regular climbing can help improve?",
+      "options": {
+        "A": "Increased flexibility only",
+        "B": "Improved mental focus and concentration",
+        "C": "Boosted self-confidence and self-esteem",
+        "D": "Better eyesight and hearing"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's opinion about the accessibility of climbing for people of different ages?",
+      "options": {
+        "A": "Climbing is only suitable for young adults and children.",
+        "B": "Indoor climbing gyms have made it possible for people to climb regardless of their age or fitness level.",
+        "C": "Climbing is too physically demanding for older adults and should be avoided by those over 60.",
+        "D": "Climbing is primarily an outdoor activity that requires a lot of physical strength and endurance."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Emily's statement refer to as making it possible for people to climb year-round?",
+      "options": {
+        "A": "The rise of outdoor climbing destinations",
+        "B": "Indoor climbing gyms being built in remote areas",
+        "C": "The development of specialized climbing equipment",
+        "D": "The fact that indoor climbing gyms are open regardless of the weather"
+      },
+      "correct_answer": "D",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about climbing?",
+      "options": {
+        "A": "Climbing is a highly competitive and exclusive sport.",
+        "B": "Climbing offers physical and mental benefits, as well as a sense of community.",
+        "C": "The popularity of climbing has decreased in recent years due to its difficulty.",
+        "D": "Climbing is only suitable for people who are physically fit."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

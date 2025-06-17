@@ -1,0 +1,91 @@
+{
+  "task_id": "reading_part5_task_27",
+  "title": "Reaching New Heights: The Thrilling World of Olympic Speed Climbing",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Thrill of Speed Climbing: A New Chapter in Olympic History**\n\nAs the world of sports continues to evolve, one discipline has taken center stage at the Olympics: speed climbing. For the first time ever, this high-intensity activity made its debut at the 2020 Tokyo Games, captivating audiences with its raw power and precision. We spoke with experts and athletes to delve into the world of speed climbing and what makes it so thrilling.\n\n**A Brief History**\n\nSpeed climbing, also known as lead climbing or bouldering, has been a staple in rock climbing competitions for decades. However, it wasn't until the 2018 IFSC (International Federation of Sport Climbing) World Championships that the sport took a significant step towards Olympic recognition. The Tokyo Games marked the culmination of years of hard work and dedication from climbers, organizers, and governing bodies.\n\n**The Unfair Advantage**\n\nOne of the most striking aspects of speed climbing is its emphasis on explosive power. Unlike traditional climbing disciplines, where technique and strategy reign supreme, speed climbing demands a different set of skills altogether. Climbers must possess incredible strength, speed, and agility to conquer routes that would be daunting even for seasoned climbers.\n\n\"It's not just about being strong; it's about being fast,\" explains Tomoa Narasaki, Japan's top climber who won the men's gold medal in Tokyo. \"You need to have a combination of power, technique, and mental toughness to succeed in speed climbing.\" Narasaki's words echo the sentiments of many athletes, who feel that this unique blend of physicality and mental resilience sets speed climbing apart from other Olympic sports.\n\n**The Science Behind Speed**\n\nTo better understand the intricacies of speed climbing, let's take a look at some fascinating statistics. According to data collected during the Tokyo Games, climbers reached speeds of up to 35 km/h (22 mph) while ascending walls as high as 17 meters (56 feet). This remarkable acceleration is made possible by the human body's ability to generate force and power through its muscular system.\n\n\"Speed climbing pushes the limits of what we thought was possible in terms of human physiology,\" says Dr. Neil McGregor, a renowned sports scientist who has studied elite climbers. \"The unfair advantage that speed climbers have over other athletes lies not just in their physical abilities but also in their mental toughness and strategic thinking.\"\n\n**A New Era for Olympic Sports**\n\nAs the world of sports continues to evolve, it's clear that speed climbing is here to stay. This dynamic discipline has captured the hearts of fans worldwide with its electrifying atmosphere and awe-inspiring performances. While some may argue that speed climbing gives an unfair advantage to certain athletes, most agree that this new chapter in Olympic history marks a thrilling turning point for the sport.\n\n\"The inclusion of speed climbing at the Olympics is a testament to the incredible progress we've made as a community,\" says IFSC President Marco Scolaris. \"We're not just talking about a new discipline – we're creating a new era for sports, one that celebrates human potential and pushes boundaries.\"\n\nAs we look towards future Olympic Games, it's clear that speed climbing will be an integral part of the competition. With its electrifying atmosphere, mind-bending physicality, and inspiring athletes, this high-octane sport is sure to leave fans on the edge of their seats for years to come.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the main difference between traditional climbing disciplines and speed climbing?",
+      "options": {
+        "A": "Speed climbing requires more technique than traditional climbing.",
+        "B": "Climbers need to possess incredible strength, speed, and agility in speed climbing.",
+        "C": "Speed climbing is a low-intensity activity that focuses on endurance rather than power.",
+        "D": "Traditional climbing disciplines prioritize strategy over physical ability."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word \"unfair\" mean in the context of speed climbing?",
+      "options": {
+        "A": "Giving an advantage to those with more experience",
+        "B": "Demanding a different set of skills and abilities than other sports",
+        "C": "Providing an unfair advantage to certain athletes due to their physical or mental abilities",
+        "D": "Being too easy for athletes to complete"
+      },
+      "correct_answer": "C",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What was the highest speed reached by climbers during the Tokyo Games according to data collected?",
+      "options": {
+        "A": "25 km/h (15.5 mph)",
+        "B": "30 km/h (18.6 mph)",
+        "C": "35 km/h (22 mph)",
+        "D": "40 km/h (24.8 mph)"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "According to Dr. Neil McGregor, what gives speed climbers an unfair advantage over other athletes?",
+      "options": {
+        "A": "Their physical abilities alone",
+        "B": "The combination of physicality and mental resilience",
+        "C": "Their access to advanced training facilities",
+        "D": "Their experience competing in traditional climbing disciplines"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"this\" refer to in the following sentence?",
+      "options": {
+        "A": "Speed climbing",
+        "B": "The Olympics",
+        "C": "Other Olympic sports",
+        "D": "Climbers' skills and abilities"
+      },
+      "correct_answer": "A",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What was the main reason for the inclusion of speed climbing at the 2020 Tokyo Olympics?",
+      "options": {
+        "A": "To promote traditional climbing disciplines",
+        "B": "To introduce a new and exciting sport that showcases human potential",
+        "C": "To reduce competition among established Olympic sports",
+        "D": "To make room for more individual events in the Olympic program"
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general",
+  "custom_instructions": "use the word unfair three times"
+}

@@ -1433,49 +1433,46 @@ def main():
         
         with admin_tab1:
             st.subheader("🤖 AI System Prompts")
-            # Remove main generation system prompt UI and logic
-            # Only keep the improvement prompt UI if still needed
-            st.markdown("### Task Improvement Prompt")
-            current_improvement_prompt = """You are an expert Cambridge B2 First exam content creator.
-Improve the given Reading Part 5 task by making the questions more specific and contextual.
+            st.markdown("Edit the system prompts used for each step of task generation. Changes are saved to config/system_prompts.json.")
 
-Focus on:
-1. Making questions refer to specific parts of the text
-2. Creating realistic, plausible distractors
-3. Ensuring questions test different skills
-4. Making sure only one answer is clearly correct
+            # Load current prompts from config_service
+            current_title_prompt = config_service.get_system_prompt('title_prompt')
+            current_text_prompt = config_service.get_system_prompt('text_prompt')
+            current_question_prompt = config_service.get_system_prompt('question_prompt')
+            current_improvement_prompt = config_service.get_system_prompt('improvement_prompt')
 
-You can use natural formatting in your improvements including quotes, line breaks, etc.
-The JSON parser will handle the formatting correctly.
-
-Return the improved task in the same JSON format."""
-            prompt_file = Path(__file__).parent.parent / "config" / "system_prompts.json"
-            prompt_file.parent.mkdir(exist_ok=True)
-            if prompt_file.exists():
-                try:
-                    with open(prompt_file, 'r') as f:
-                        saved_prompts = json.load(f)
-                    current_improvement_prompt = saved_prompts.get('improvement_prompt', current_improvement_prompt)
-                except:
-                    pass
-            edited_improvement_prompt = st.text_area(
-                "System Prompt for Task Improvement:",
-                value=current_improvement_prompt,
-                height=200,
-                help="This prompt controls how the AI improves existing tasks"
+            edited_title_prompt = st.text_area(
+                "Title Generation Prompt:",
+                value=current_title_prompt,
+                height=180,
+                help="Prompt for generating the task title."
             )
-            if st.button("💾 Save AI Prompts", type="primary"):
-                prompts_to_save = {
-                    'improvement_prompt': edited_improvement_prompt,
-                    'last_updated': str(datetime.now())
-                }
-                try:
-                    with open(prompt_file, 'w') as f:
-                        json.dump(prompts_to_save, f, indent=2)
-                    st.success("✅ AI prompts saved successfully!")
-                    st.info("🔄 Restart the application to apply changes")
-                except Exception as e:
-                    st.error(f"❌ Failed to save prompts: {e}")
+            edited_text_prompt = st.text_area(
+                "Text Content Generation Prompt:",
+                value=current_text_prompt,
+                height=220,
+                help="Prompt for generating the main reading text."
+            )
+            edited_question_prompt = st.text_area(
+                "Question Generation Prompt:",
+                value=current_question_prompt,
+                height=260,
+                help="Prompt for generating each multiple choice question."
+            )
+            edited_improvement_prompt = st.text_area(
+                "Question Improvement Prompt:",
+                value=current_improvement_prompt,
+                height=220,
+                help="Prompt for improving questions."
+            )
+
+            if st.button("💾 Save All Prompts", type="primary"):
+                config_service.set_system_prompt('title_prompt', edited_title_prompt)
+                config_service.set_system_prompt('text_prompt', edited_text_prompt)
+                config_service.set_system_prompt('question_prompt', edited_question_prompt)
+                config_service.set_system_prompt('improvement_prompt', edited_improvement_prompt)
+                st.success("✅ All prompts saved successfully!")
+                st.info("🔄 Restart the application to apply changes to running LLM clients.")
         
         with admin_tab2:
             st.subheader("📝 Text Type Instructions")

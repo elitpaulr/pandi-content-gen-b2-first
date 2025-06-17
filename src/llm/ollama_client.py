@@ -20,9 +20,13 @@ class OllamaConfig:
 class OllamaClient:
     """Client for interacting with local Ollama LLM using step-by-step generation"""
     
-    def __init__(self, config: Optional[OllamaConfig] = None):
+    def __init__(self, config: Optional[OllamaConfig] = None, config_service: Optional[Any] = None):
         self.config = config or OllamaConfig()
         self.client = ollama.Client(host=self.config.host)
+        self.config_service = config_service
+        
+    def set_config_service(self, config_service):
+        self.config_service = config_service
         
     def check_connection(self) -> bool:
         """Check if Ollama is running and accessible"""
@@ -167,8 +171,10 @@ class OllamaClient:
     
     def _generate_title(self, topic: str, text_type: str) -> str:
         """Generate an engaging title for the reading task"""
-        
-        system_prompt = f"""You are an expert content creator. Generate an engaging, clickable title for a {text_type} about {topic}.
+        if self.config_service:
+            system_prompt = self.config_service.get_system_prompt('title_prompt').format(text_type=text_type, topic=topic)
+        else:
+            system_prompt = f"""You are an expert content creator. Generate an engaging, clickable title for a {text_type} about {topic}.
         
         The title should be:
         - Engaging and attention-grabbing
@@ -178,19 +184,13 @@ class OllamaClient:
         - Natural and authentic
         
         Respond with ONLY the title, no quotes, no explanations, no extra text."""
-        
         user_prompt = f"Create an engaging title for a {text_type} about: {topic}"
-        
         title = self.generate_text(user_prompt, system_prompt).strip()
-        # Clean up any quotes or extra formatting
         title = title.strip('"').strip("'").strip()
-        
         return title
     
     def _generate_text_content(self, topic: str, text_type: str, custom_instructions: Optional[str] = None) -> str:
         """Generate the main reading text content"""
-        
-        # Text type specific instructions
         text_type_instructions = {
             "magazine_article": "Write as an engaging magazine article with a clear structure, subheadings if appropriate, and an informative yet accessible tone. Include expert quotes or statistics where relevant.",
             "newspaper_article": "Write as a newspaper feature article with journalistic style, factual reporting, and balanced perspective.",
@@ -203,10 +203,11 @@ class OllamaClient:
             "travel_writing": "Write as travel writing with vivid descriptions of places and cultural observations.",
             "educational_feature": "Write as an educational feature about learning, study techniques, or educational trends."
         }
-        
         style_instruction = text_type_instructions.get(text_type, text_type_instructions["magazine_article"])
-        
-        system_prompt = f"""You are an expert content writer. Write a {text_type} about {topic} that is exactly 550-750 words long.
+        if self.config_service:
+            system_prompt = self.config_service.get_system_prompt('text_prompt').format(text_type=text_type, topic=topic, style_instruction=style_instruction)
+        else:
+            system_prompt = f"""You are an expert content writer. Write a {text_type} about {topic} that is exactly 550-750 words long.
         
         Style requirements: {style_instruction}
         
@@ -220,14 +221,10 @@ class OllamaClient:
         - Use simple formatting that won't break JSON parsing
         
         Respond with ONLY the text content, no titles, no explanations."""
-        
         user_prompt = f"Write a {text_type} about: {topic}\n\nMake it engaging, informative, and exactly 550-750 words."
-        
         if custom_instructions and custom_instructions.strip():
             user_prompt += f"\n\nAdditional requirements: {custom_instructions}"
-        
         text_content = self.generate_text(user_prompt, system_prompt).strip()
-        
         return text_content
     
     def _generate_questions(self, text_content: str, topic: str) -> List[Dict[str, Any]]:
@@ -250,7 +247,6 @@ class OllamaClient:
     
     def _generate_single_question(self, text_content: str, question_number: int, question_type: str, topic: str) -> Dict[str, Any]:
         """Generate a single multiple choice question"""
-        
         type_instructions = {
             "inference": "Create a question that requires the reader to infer or deduce information that is implied but not directly stated in the text.",
             "vocabulary": "Create a question about the meaning of a specific word or phrase from the text in context.",
@@ -259,43 +255,19 @@ class OllamaClient:
             "reference": "Create a question about what a pronoun or phrase refers to in the text.",
             "main_idea": "Create a question about the overall main idea or purpose of the text."
         }
-        
-        system_prompt = f"""You are an expert Cambridge B2 First exam question writer. 
-
-Create ONE multiple choice question based on the provided text.
-
-Question type: {question_type}
-Instructions: {type_instructions[question_type]}
-
-Requirements:
-- Question must be specific to the provided text
-- Create exactly 4 options: A, B, C, D
-- Only ONE option should be clearly correct
-- Other options should be plausible but incorrect
-- Use B2 level English
-- Make the question clear and unambiguous
-
-Format your response EXACTLY like this:
-QUESTION: [Your question here]
-A: [Option A]
-B: [Option B] 
-C: [Option C]
-D: [Option D]
-CORRECT: [A, B, C, or D]
-
-Respond with ONLY this format, no explanations."""
-        
-        user_prompt = f"""Based on this text about {topic}, create a {question_type} question:
-
-{text_content}
-
-Create the question in the exact format specified."""
-        
+        if self.config_service:
+            system_prompt = self.config_service.get_system_prompt('question_prompt').format(
+                question_type=question_type, type_instructions=type_instructions[question_type]
+            )
+        else:
+            system_prompt = (
+                f"""You are an expert Cambridge B2 First exam question writer. \n\nCreate ONE multiple choice question based on the provided text.\n\nQuestion type: {question_type}\nInstructions: {type_instructions[question_type]}\n\nRequirements:\n- Question must be specific to the provided text\n- Create exactly 4 options: A, B, C, D\n- Only ONE option should be clearly correct\n- Other options should be plausible but incorrect\n- Use B2 level English\n- Make the question clear and unambiguous\n\nFormat your response EXACTLY like this:\nQUESTION: [Your question here]\nA: [Option A]\nB: [Option B]\nC: [Option C]\nD: [Option D]\nCORRECT: [A, B, C, or D]\n\nRespond with ONLY this format, no explanations."""
+            )
+        user_prompt = (
+            f"""Based on this text about {topic}, create a {question_type} question:\n\n{text_content}\n\nCreate the question in the exact format specified."""
+        )
         response = self.generate_text(user_prompt, system_prompt).strip()
-        
-        # Parse the response
         question_data = self._parse_question_response(response, question_number, question_type)
-        
         return question_data
     
     def _parse_question_response(self, response: str, question_number: int, question_type: str) -> Dict[str, Any]:
@@ -409,49 +381,17 @@ Create the question in the exact format specified."""
     
     def _improve_single_question(self, text_content: str, original_question: Dict[str, Any], question_number: int, question_type: str) -> Dict[str, Any]:
         """Improve a single question"""
-        
-        system_prompt = f"""You are an expert Cambridge B2 First exam question writer. 
-
-Improve the given multiple choice question to make it more specific and contextual to the text.
-
-Requirements:
-- Make the question more specific to the provided text
-- Create exactly 4 options: A, B, C, D
-- Only ONE option should be clearly correct
-- Other options should be plausible but incorrect
-- Use B2 level English
-- Make the question clear and unambiguous
-
-Format your response EXACTLY like this:
-QUESTION: [Your improved question here]
-A: [Option A]
-B: [Option B] 
-C: [Option C]
-D: [Option D]
-CORRECT: [A, B, C, or D]
-
-Respond with ONLY this format, no explanations."""
-        
-        user_prompt = f"""Based on this text, improve this {question_type} question:
-
-TEXT:
-{text_content}
-
-ORIGINAL QUESTION:
-{original_question.get('question_text', '')}
-A: {original_question.get('options', {}).get('A', '')}
-B: {original_question.get('options', {}).get('B', '')}
-C: {original_question.get('options', {}).get('C', '')}
-D: {original_question.get('options', {}).get('D', '')}
-Correct: {original_question.get('correct_answer', '')}
-
-Improve this question to be more specific to the text content."""
-        
+        if self.config_service:
+            system_prompt = self.config_service.get_system_prompt('improvement_prompt')
+        else:
+            system_prompt = (
+                f"""You are an expert Cambridge B2 First exam question writer. \n\nImprove the given multiple choice question to make it more specific and contextual to the text.\n\nRequirements:\n- Make the question more specific to the provided text\n- Create exactly 4 options: A, B, C, D\n- Only ONE option should be clearly correct\n- Other options should be plausible but incorrect\n- Use B2 level English\n- Make the question clear and unambiguous\n\nFormat your response EXACTLY like this:\nQUESTION: [Your improved question here]\nA: [Option A]\nB: [Option B]\nC: [Option C]\nD: [Option D]\nCORRECT: [A, B, C, or D]\n\nRespond with ONLY this format, no explanations."""
+            )
+        user_prompt = (
+            f"""Based on this text, improve this {question_type} question:\n\nTEXT:\n{text_content}\n\nORIGINAL QUESTION:\n{original_question.get('question_text', '')}\nA: {original_question.get('options', {}).get('A', '')}\nB: {original_question.get('options', {}).get('B', '')}\nC: {original_question.get('options', {}).get('C', '')}\nD: {original_question.get('options', {}).get('D', '')}\nCorrect: {original_question.get('correct_answer', '')}\n\nImprove this question to be more specific to the text content."""
+        )
         response = self.generate_text(user_prompt, system_prompt).strip()
-        
-        # Parse the response
         question_data = self._parse_question_response(response, question_number, question_type)
-        
         return question_data
 
 # Example usage and testing
