@@ -494,95 +494,9 @@ def main():
         st.header("🔧 Improve Existing Tasks")
         
         # Feature coming soon notice
-        st.warning("🚧 **Feature Coming Soon**")
+        st.warning("🚧 **Feature Coming One Day (maybe)**")
         
-        try:
-            improvement_guide_path = Path("docs/task_improvement_guide.md")
-            if improvement_guide_path.exists():
-                with open(improvement_guide_path, 'r', encoding='utf-8') as f:
-                    improvement_content = f.read()
-                st.markdown(improvement_content)
-            else:
-                st.markdown("""
-                **Task Improvement functionality is currently under development.**
-                
-                This feature will allow you to:
-                - 🎯 **Enhance existing tasks** with AI-powered improvements
-                - 📝 **Refine question quality** and distractor effectiveness  
-                - 🔍 **Adjust difficulty levels** to better match B2 standards
-                - ✨ **Improve text engagement** and readability
-                - 🎨 **Customize focus areas** for targeted improvements
-                
-                **Current Status:** In development - not yet available for use
-                
-                **Expected Release:** Future version update
-                """)
-        except Exception as e:
-            st.error(f"Error loading task improvement guide: {e}")
         
-        # Disabled preview of the interface
-        st.subheader("🔮 Preview of Upcoming Features")
-        
-        with st.expander("👀 See what's coming..."):
-            st.markdown("**Task Selection Interface:**")
-            st.selectbox(
-                "Select Task to Improve",
-                ["Feature not yet available"],
-                disabled=True,
-                help="This will show all your generated tasks when the feature is ready"
-            )
-            
-            st.markdown("**Improvement Focus Areas:**")
-            st.multiselect(
-                "Choose improvement areas",
-                ["Question specificity", "Distractor quality", "Text engagement", "Vocabulary level", "Question variety"],
-                disabled=True,
-                help="Select specific aspects to improve in your tasks"
-            )
-            
-            st.markdown("**AI-Powered Enhancement:**")
-            st.button("🔧 Improve Task", disabled=True, help="This will use AI to enhance your selected task")
-            
-            st.info("💡 **Tip:** Use the QA Review system in the Task Library to evaluate and annotate your current tasks while we develop this improvement feature!")
-        
-        # Alternative suggestions
-        st.markdown("---")
-        st.subheader("🎯 What You Can Do Now")
-        
-        col1, col2 = st.columns(2)
-        
-        with col1:
-            st.markdown("""
-            **📚 Use Task Library QA Review:**
-            - Review and annotate existing tasks
-            - Track quality with approval/rejection status
-            - Add detailed feedback notes
-            - Filter tasks by QA status
-            """)
-            
-        with col2:
-            st.markdown("""
-            **🎯 Generate New Tasks:**
-            - Create tasks with custom instructions
-            - Use different text types for variety
-            - Generate batch collections efficiently
-            - Apply lessons learned from QA reviews
-            """)
-        
-        # Quick navigation buttons
-        col1, col2, col3 = st.columns(3)
-        
-        with col1:
-            if st.button("📚 Go to Task Library", key="nav_to_library"):
-                st.info("👆 Click the 'Task Library' tab above to access QA Review features")
-                
-        with col2:
-            if st.button("🎯 Generate New Task", key="nav_to_generate"):
-                st.info("👆 Click the 'Generate Tasks' tab above to create new content")
-                
-        with col3:
-            if st.button("📊 Batch Generation", key="nav_to_batch"):
-                st.info("👆 Click the 'Batch Generation' tab above for bulk task creation")
     
     with tab3:
         st.header("Batch Generation")
