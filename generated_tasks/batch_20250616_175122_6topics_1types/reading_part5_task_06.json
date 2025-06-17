@@ -1,0 +1,91 @@
+{
+  "task_id": "reading_part5_task_06",
+  "title": "Discover Yourself Abroad: The Transformative Power of Adventure Travel",
+  "topic": "travel_and_culture",
+  "text_type": "travel_writing",
+  "difficulty": "B2",
+  "text": "As I stepped off the plane in Chiang Mai, Thailand, the humid air enveloped me like a warm hug. I had been planning this trip for months, and finally, I was here to embark on an adventure that would push my limits and challenge my comfort zone. I was about to immerse myself in the digital nomad lifestyle, trading in the monotony of daily routine for a life of freedom and exploration.\n\nThe concept of adventure travel for personal growth has become increasingly popular in recent years. More and more people are seeking out experiences that will not only broaden their horizons but also transform them on a deeper level. Whether it's trekking through the Himalayas, diving with sharks in the Great Barrier Reef, or simply living abroad for an extended period of time, adventure travel offers a unique opportunity to step outside our comfort zones and confront our fears.\n\nFor me, this journey was about more than just sightseeing; it was about self-discovery. I had been feeling stuck in my life back home – same old routine, same old worries – and I was desperate for a change of scenery. As a digital nomad, I would be working remotely while traveling, which presented its own set of challenges. The first hurdle was adapting to the constant motion and uncertainty. Would I find reliable internet? Would I be able to get work done in noisy cafes or crowded co-working spaces?\n\nMy first few days were spent navigating the bustling streets of Chiang Mai, trying to figure out how to stay productive while surrounded by so many distractions. But as I settled into my new routine, something remarkable happened. The initial anxiety and stress began to lift, replaced by a sense of excitement and possibility. I was no longer just working; I was living.\n\nOne of the most significant benefits of adventure travel is the opportunity to disconnect from our devices and reconnect with nature and ourselves. In Chiang Mai, I found myself drawn to the tranquil surroundings of Doi Suthep-Pui National Park, where I spent hours hiking through lush forests and taking in the breathtaking views of the city below. The stillness and quiet were a balm to my frazzled nerves, reminding me that even in the midst of chaos, there is always beauty to be found.\n\nOf course, no discussion of adventure travel would be complete without mentioning the people we meet along the way. As a digital nomad, I was constantly surrounded by fellow travelers and expats from all walks of life. We shared stories, advice, and laughter over coffee in trendy cafes or during impromptu dance parties on the beach. These encounters not only enriched my experience but also broadened my perspective on the world.\n\nAs I reflect on my time in Chiang Mai, I realize that the greatest challenge was not adapting to a new environment but rather confronting my own limitations and fears. The uncertainty of the digital nomad lifestyle forced me to be more resourceful, adaptable, and resilient than I ever thought possible. And yet, it was precisely this discomfort that allowed me to grow as an individual.\n\nAdventure travel for personal growth is not just about checking off bucket list destinations; it's about embarking on a journey of self-discovery and transformation. It requires us to step outside our comfort zones, confront our fears, and trust in the unknown. And when we do, we are rewarded with experiences that will stay with us long after we return home – memories of stunning landscapes, warm connections with strangers-turned-friends, and most importantly, a deeper understanding of ourselves.\n\nAs I prepare to leave Chiang Mai behind, I know that the lessons I've learned here will stay with me forever. The digital nomad lifestyle may present its own set of challenges, but it has also given me the freedom to explore, to grow, and to discover new facets of myself. And for that, I am eternally grateful.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What motivated the writer to embark on an adventure travel experience?",
+      "options": {
+        "A": "To escape their daily routine and responsibilities",
+        "B": "To gain a deeper understanding of themselves and overcome personal limitations",
+        "C": "To explore new destinations and try extreme sports",
+        "D": "To meet new people and make friends along the way"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the phrase \"broaden their horizons\" most likely mean in this context?",
+      "options": {
+        "A": "To experience a change of scenery",
+        "B": "To become more knowledgeable or aware of the world",
+        "C": "To start a new career",
+        "D": "To learn a new language"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Where did the writer spend hours hiking through lush forests?",
+      "options": {
+        "A": "The streets of Chiang Mai",
+        "B": "Doi Suthep-Pui National Park",
+        "C": "The Great Barrier Reef",
+        "D": "The Himalayas"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the challenges she faced as a digital nomad in Chiang Mai?",
+      "options": {
+        "A": "The author was frustrated by the uncertainty and unpredictability of her new lifestyle.",
+        "B": "The author saw the challenges as opportunities for growth and self-discovery.",
+        "C": "The author felt overwhelmed by the need to constantly adapt to new situations.",
+        "D": "The author regretted leaving her old life behind."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does \"it\" refer to in the sentence: \"The uncertainty of the digital nomad lifestyle forced me to be more resourceful, adaptable, and resilient than I ever thought possible. And yet, it was precisely this discomfort that allowed me to grow as an individual\"?",
+      "options": {
+        "A": "The digital nomad lifestyle",
+        "B": "My initial anxiety and stress",
+        "C": "The discomfort of being in a new environment",
+        "D": "My personal growth and self-discovery"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text?",
+      "options": {
+        "A": "The author's travel experience in Chiang Mai was all about sightseeing.",
+        "B": "Adventure travel offers a unique opportunity to step outside our comfort zones and confront our fears for personal growth.",
+        "C": "The digital nomad lifestyle is only suitable for experienced travelers.",
+        "D": "The author had no intention of growing or changing as a person during their trip."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "travel_adventure",
+  "custom_instructions": "digital nomad lifestyle challenges"
+}
