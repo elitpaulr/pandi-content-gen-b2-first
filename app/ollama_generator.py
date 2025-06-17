@@ -1545,79 +1545,9 @@ def main():
         
         with admin_tab1:
             st.subheader("🤖 AI System Prompts")
-            
-            # Main generation system prompt
-            st.markdown("### Main Task Generation Prompt")
-            
-            # Get current system prompt from the code
-            current_system_prompt = """You are an expert Cambridge B2 First exam content creator. 
-Generate authentic Reading Part 5 tasks that match the official exam format exactly.
-
-CRITICAL: You must respond with ONLY valid JSON. No explanations, no markdown, no extra text.
-
-Reading Part 5 Requirements:
-- Text length: 550-750 words (engaging, authentic content)
-- 6 multiple choice questions (31-36)
-- Each question has 4 options (A, B, C, D)
-- Question types: inference, vocabulary in context, attitude/opinion, detail, reference, main idea
-- Text should be engaging and at B2 level
-- Questions must be specific and contextual, not generic
-
-TEXT TYPE INSTRUCTION: {text_style_instruction}
-
-You can use natural formatting in your text including:
-- Paragraphs with line breaks
-- Quotation marks for dialogue or emphasis
-- Natural punctuation and formatting
-
-The JSON parser will handle the formatting correctly.
-
-RESPOND WITH ONLY THIS JSON FORMAT:
-{
-    "task_id": "reading_part5_task_01",
-    "title": "Engaging Task Title",
-    "topic": "topic_category",
-    "text_type": "{text_type}",
-    "difficulty": "B2",
-    "text": "Your engaging text here following the {text_type} style...",
-    "questions": [
-        {
-            "question_number": 1,
-            "question_text": "What does the author suggest about...?",
-            "options": {
-                "A": "First realistic option",
-                "B": "Second realistic option", 
-                "C": "Third realistic option",
-                "D": "Fourth realistic option"
-            },
-            "correct_answer": "A",
-            "question_type": "inference"
-        }
-    ]
-}"""
-            
-            # Load saved prompt if exists
-            prompt_file = Path(__file__).parent.parent / "config" / "system_prompts.json"
-            prompt_file.parent.mkdir(exist_ok=True)
-            
-            if prompt_file.exists():
-                try:
-                    with open(prompt_file, 'r') as f:
-                        saved_prompts = json.load(f)
-                    current_system_prompt = saved_prompts.get('main_generation_prompt', current_system_prompt)
-                except:
-                    pass
-            
-            edited_system_prompt = st.text_area(
-                "System Prompt for Task Generation:",
-                value=current_system_prompt,
-                height=400,
-                help="This prompt controls how the AI generates reading tasks"
-            )
-            
-            # Task improvement prompt
+            # Remove main generation system prompt UI and logic
+            # Only keep the improvement prompt UI if still needed
             st.markdown("### Task Improvement Prompt")
-            
             current_improvement_prompt = """You are an expert Cambridge B2 First exam content creator.
 Improve the given Reading Part 5 task by making the questions more specific and contextual.
 
@@ -1631,8 +1561,8 @@ You can use natural formatting in your improvements including quotes, line break
 The JSON parser will handle the formatting correctly.
 
 Return the improved task in the same JSON format."""
-            
-            # Load saved improvement prompt if exists
+            prompt_file = Path(__file__).parent.parent / "config" / "system_prompts.json"
+            prompt_file.parent.mkdir(exist_ok=True)
             if prompt_file.exists():
                 try:
                     with open(prompt_file, 'r') as f:
@@ -1640,22 +1570,17 @@ Return the improved task in the same JSON format."""
                     current_improvement_prompt = saved_prompts.get('improvement_prompt', current_improvement_prompt)
                 except:
                     pass
-            
             edited_improvement_prompt = st.text_area(
                 "System Prompt for Task Improvement:",
                 value=current_improvement_prompt,
                 height=200,
                 help="This prompt controls how the AI improves existing tasks"
             )
-            
-            # Save prompts button
             if st.button("💾 Save AI Prompts", type="primary"):
                 prompts_to_save = {
-                    'main_generation_prompt': edited_system_prompt,
                     'improvement_prompt': edited_improvement_prompt,
                     'last_updated': str(datetime.now())
                 }
-                
                 try:
                     with open(prompt_file, 'w') as f:
                         json.dump(prompts_to_save, f, indent=2)
