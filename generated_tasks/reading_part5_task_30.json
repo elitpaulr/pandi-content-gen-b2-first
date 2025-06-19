@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_30",
+  "title": "Climbing to Glory: The Unstoppable Dreams of Olympic Aspirants",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she stood at the base of the towering rock face, her eyes fixed on the faint outline of the Olympic rings etched into the granite above, Rachel felt an electric thrill course through her veins. It was a sensation she'd grown accustomed to over the years, but one that never failed to leave her breathless.\n\n\"I'm telling you, Rach,\" her partner, Alex, said, tugging on his climbing harness as he prepared for their ascent, \"we're gonna crush it this season.\"\n\nRachel flashed him a wry smile. \"Easy for you to say. You've been training in secret with that new coach from Boulder.\"\n\nAlex's grin was sheepish, but only for an instant before he launched into a rundown of their game plan for the upcoming Olympics. Rachel listened intently, her mind racing with calculations and simulations as she mentally re-walked the route they'd be tackling.\n\nTheir conversation was interrupted by the sound of rustling fabric, followed by the arrival of their mentor, Jake. A grizzled climber with a reputation for pushing athletes to their limits, he'd been instrumental in guiding both Rachel and Alex towards Olympic qualification.\n\n\"Alright, kids,\" Jake said, his eyes scanning the pair as they prepared to take on the climb. \"Today's not just about sending routes – it's about testing your limits. You're here to fine-tune every detail, anticipate every possibility.\"\n\nRachel nodded, feeling a familiar surge of adrenaline mixed with trepidation as she gazed up at the towering rock face. This was what they'd been working towards: the chance to compete on the world stage, to represent their country and push themselves to unprecedented heights.\n\nThe air grew thick with tension as Alex led off, his movements fluid and precise as he traversed the initial section of the route. Rachel followed closely behind, her eyes fixed intently on each handhold and foothold, mentally mapping out every possible line of ascent.\n\nAs they climbed higher, the wind picked up, whipping their hair into a frenzy and making it increasingly difficult to see. But Rachel and Alex had trained for this – they knew how to adapt, how to trust in one another as they navigated the most treacherous sections of the route.\n\nTheir rhythm was almost imperceptible, each move perfectly synchronized as they worked together to overcome obstacles and push forward. It was a dance, really – a delicate balance of strength, strategy, and intuition that only came from years of training and practice.\n\nRachel felt herself entering the zone, her focus narrowing to a pinpoint as she concentrated on every detail of their ascent. She knew this route inside out, had practiced it countless times in the gym and on smaller walls around the world.\n\nAnd yet, there was still something intangible that set Olympic climbing apart – a unique blend of physical prowess, mental toughness, and sheer determination that only came from pushing oneself to the very limits of human endurance.\n\nAs they neared the crux of the route – the most difficult section, where even the smallest mistake could prove disastrous – Rachel felt her heart racing in time with Alex's. They exchanged a brief glance before launching into a series of intricate moves, each one perfectly choreographed as they battled their way up the rock face.\n\nIt was moments like these that reminded Rachel why she did what she did – for the thrill of competition, yes, but also for the sense of camaraderie and shared purpose that came from striving towards a common goal alongside her fellow climbers. And when finally they reached the top, arms raised in triumph as they gazed out over the breathtaking panorama below, Rachel knew that this was what it meant to be an Olympic climber – not just a competitor, but a part of something greater than oneself.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Alex's training for the Olympics?",
+      "options": {
+        "A": "He has been working out with Rachel on her own schedule",
+        "B": "He has been secretly training with a new coach from Boulder, giving him an edge over his competitors",
+        "C": "He is not as experienced or skilled as Rachel and therefore relies heavily on Jake's guidance",
+        "D": "He has never climbed before and is only participating in the Olympics for fun"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does 'crush it' mean in the context of the text?",
+      "options": {
+        "A": "To make a difficult climb seem easy",
+        "B": "To surpass one's own previous performance or a rival's achievement",
+        "C": "To take risks and push oneself to the limit",
+        "D": "To show signs of exhaustion and give up"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How many climbers were preparing for their ascent?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "correct_answer": "A",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What does Rachel feel when she looks at the Olympic rings on the rock face?",
+      "options": {
+        "A": "A sense of disappointment and frustration",
+        "B": "An electric thrill that never fails to leave her breathless",
+        "C": "A feeling of superiority over her partner, Alex",
+        "D": "Indifference and lack of motivation"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who is instrumental in guiding Rachel and Alex towards Olympic qualification?",
+      "options": {
+        "A": "Their coach from Boulder",
+        "B": "Jake, their mentor",
+        "C": "Alex's sister",
+        "D": "Rachel's father"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main purpose of the text?",
+      "options": {
+        "A": "To describe the physical challenges of competitive climbing",
+        "B": "To explain how Rachel and Alex qualified for the Olympics",
+        "C": "To show what it means to be an Olympic climber",
+        "D": "To discuss the different training methods used by the climbers"
+      },
+      "correct_answer": "C",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

@@ -228,25 +228,34 @@ class OllamaClient:
         return text_content
     
     def _generate_questions(self, text_content: str, topic: str) -> List[Dict[str, Any]]:
-        """Generate 6 multiple choice questions based on the text content"""
-        
+        """Generate 6 multiple choice questions based on the text content, enforcing chronological order by sectioning the text by paragraph."""
         questions = []
         question_types = ["inference", "vocabulary", "detail", "attitude", "reference", "main_idea"]
-        
-        for i, question_type in enumerate(question_types, 1):
+        # Split text into paragraphs (by double newline)
+        paragraphs = [p.strip() for p in text_content.split('\n\n') if p.strip()]
+        n = len(paragraphs)
+        if n < 3:
+            # fallback: treat as one section if not enough paragraphs
+            early = middle = later = text_content
+        else:
+            early = "\n\n".join(paragraphs[:n//3])
+            middle = "\n\n".join(paragraphs[n//3:2*n//3])
+            later = "\n\n".join(paragraphs[2*n//3:])
+        # Map each question to a section
+        section_texts = [early, middle, middle, middle, later, later]
+        section_labels = ["early", "middle", "middle", "middle", "later", "later"]
+        for i, (question_type, section_text, section_label) in enumerate(zip(question_types, section_texts, section_labels), 1):
             try:
-                question = self._generate_single_question(text_content, i, question_type, topic)
+                question = self._generate_single_question(section_text, i, question_type, topic, section_label)
                 questions.append(question)
                 logger.debug(f"✅ Generated question {i} ({question_type})")
             except Exception as e:
                 logger.warning(f"⚠️ Failed to generate question {i} ({question_type}): {e}")
-                # Continue with other questions
                 continue
-        
         return questions
     
-    def _generate_single_question(self, text_content: str, question_number: int, question_type: str, topic: str) -> Dict[str, Any]:
-        """Generate a single multiple choice question"""
+    def _generate_single_question(self, section_text: str, question_number: int, question_type: str, topic: str, section: str) -> Dict[str, Any]:
+        """Generate a single multiple choice question based on a section of the text"""
         type_instructions = {
             "inference": "Create a question that requires the reader to infer or deduce information that is implied but not directly stated in the text.",
             "vocabulary": "Create a question about the meaning of a specific word or phrase from the text in context.",
@@ -257,14 +266,16 @@ class OllamaClient:
         }
         if self.config_service:
             system_prompt = self.config_service.get_system_prompt('question_prompt').format(
-                question_type=question_type, type_instructions=type_instructions[question_type]
+                question_type=question_type,
+                type_instructions=type_instructions[question_type],
+                section=section
             )
         else:
             system_prompt = (
-                f"""You are an expert Cambridge B2 First exam question writer. \n\nCreate ONE multiple choice question based on the provided text.\n\nQuestion type: {question_type}\nInstructions: {type_instructions[question_type]}\n\nRequirements:\n- Question must be specific to the provided text\n- Create exactly 4 options: A, B, C, D\n- Only ONE option should be clearly correct\n- Other options should be plausible but incorrect\n- Use B2 level English\n- Make the question clear and unambiguous\n\nFormat your response EXACTLY like this:\nQUESTION: [Your question here]\nA: [Option A]\nB: [Option B]\nC: [Option C]\nD: [Option D]\nCORRECT: [A, B, C, or D]\n\nRespond with ONLY this format, no explanations."""
+                f"""You are an expert Cambridge B2 First exam question writer. \n\nCreate ONE multiple choice question based on the provided text.\n\nQuestion type: {question_type}\nInstructions: {type_instructions[question_type]}\n\nRequirements:\n- Question must be specific to the provided text\n- Create exactly 4 options: A, B, C, D\n- Only ONE option should be clearly correct\n- Other options should be plausible but incorrect\n- Use B2 level English\n- Make the question clear and unambiguous\n- This question should reference the {section} of the text (early, middle, or later)\n\nFormat your response EXACTLY like this:\nQUESTION: [Your question here]\nA: [Option A]\nB: [Option B]\nC: [Option C]\nD: [Option D]\nCORRECT: [A, B, C, or D]\n\nRespond with ONLY this format, no explanations."""
             )
         user_prompt = (
-            f"""Based on this text about {topic}, create a {question_type} question:\n\n{text_content}\n\nCreate the question in the exact format specified."""
+            f"""Based on this excerpt from the {section} of a text about {topic}, create a {question_type} question:\n\n{section_text}\n\nCreate the question in the exact format specified. Base your question ONLY on the provided excerpt."""
         )
         response = self.generate_text(user_prompt, system_prompt).strip()
         question_data = self._parse_question_response(response, question_number, question_type)

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_28",
+  "title": "Trad Climbers vs Sport Climbers: Which Style Reigns Supreme?",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Great Divide: Trad Climbing vs Sport Climbing**\n\nFor decades, climbers have been divided over the merits of traditional (trad) climbing versus sport climbing. While both styles share a common goal – to conquer the mountain or climb the route – they differ in their approach and philosophy. The debate has sparked heated discussions among climbers, with some arguing that one style is superior to the other.\n\nAt its core, trad climbing involves placing protection as you climb, relying on your own judgment to determine the best placements for potential falls. This style requires a deep understanding of geology, route-finding skills, and physical endurance. Trad climbers prize self-sufficiency and independence, often venturing into remote areas with minimal support.\n\nIn contrast, sport climbing involves pre-drilled holes for quickdraws and bolts, making it easier to navigate the route. Sport climbers prioritize efficiency and safety, often tackling routes that would be impossible without modern equipment. While some see sport climbing as a more relaxed, recreational pursuit, others view it as inferior to trad climbing.\n\n\"I think there's this misconception that sport climbing is somehow 'easier' or less challenging than traditional climbing,\" says Lynn Hill, a renowned climber and advocate for women in climbing. \"But the reality is that sport climbing requires just as much skill, strength, and strategy – maybe even more so, given the reliance on equipment.\"\n\nDespite these differences, both styles have their own unique rewards. Trad climbers often experience a deeper connection with nature, as they venture into remote areas to tackle unclimbed routes or pioneer new lines. Sport climbers, on the other hand, can enjoy the thrill of pushing themselves on easier terrain, testing their limits and building confidence.\n\nHowever, the debate between trad and sport climbing has become increasingly polarized in recent years. Some traditionalists view sport climbing as a threat to the very essence of climbing – the struggle against nature, the reliance on human ingenuity and physical prowess. Others see sport climbing as a welcome innovation, allowing more people to access climbing and enjoy its benefits.\n\n\"I think we need to recognize that both styles have their place,\" says John Long, a legendary climber and author. \"Trad climbing is an art form – it's about understanding the rock, reading the terrain, and making connections between seemingly impossible moves. Sport climbing is about efficiency, strategy, and pushing yourself to new heights.\"\n\nAs the climbing world continues to evolve, it seems unlikely that one style will supplant the other entirely. Instead, climbers are embracing a hybrid approach, combining elements of both trad and sport climbing to create a more inclusive, diverse community.\n\nIn fact, many gyms and climbing centers now offer both traditional and sport climbing routes, catering to different tastes and abilities. This shift towards inclusivity has been driven in part by the rise of indoor climbing – allowing people to climb year-round, regardless of weather conditions or location.\n\nUltimately, the conflict between trad and sport climbing reflects deeper tensions within the climbing community. It's a clash between old-school purists who value tradition and self-reliance, versus newer climbers who prioritize accessibility and innovation. As we move forward, it will be interesting to see how these two styles continue to coexist – and perhaps even intersect – in new and exciting ways.\n\n**The Numbers**\n\n* 60% of climbers prefer sport climbing, while 40% prefer traditional climbing (Source: International Federation of Sport Climbing)\n* The majority of climbers under the age of 30 identify as sport climbers (Source: American Alpine Club)\n* Trad climbing accounts for only 10% of all climbing routes worldwide (Source: UIAA)\n\n**The Takeaway**\n\nWhile the debate between trad and sport climbing may seem divisive, it ultimately reflects a deeper passion for climbing itself. Whether you prefer the rugged independence of traditional climbing or the efficiency of sport climbing, there's no denying that both styles have their own unique rewards – and challenges. As we move forward in this ever-evolving world of climbing, perhaps the most important thing is to remember that there's room for everyone at the top – trad or sport, it doesn't matter which style you choose.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about the views of younger climbers regarding traditional climbing?",
+      "options": {
+        "A": "They are more likely to prioritize tradition and self-reliance.",
+        "B": "Many under 30 identify as trad climbers, but they also value accessibility and innovation.",
+        "C": "The majority of young climbers see sport climbing as a threat to the essence of climbing.",
+        "D": "Younger climbers are generally less interested in climbing due to its perceived difficulty."
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does the word \"polarized\" mean in this context?",
+      "options": {
+        "A": "To make a difficult decision",
+        "B": "To become more divided and opposed to each other",
+        "C": "To increase the number of climbers participating in both styles",
+        "D": "To improve the safety equipment used in sport climbing"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to the article, what percentage of climbers prefer traditional (trad) climbing?",
+      "options": {
+        "A": "50%",
+        "B": "40%",
+        "C": "60%",
+        "D": "80%"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's attitude towards the idea that sport climbing is easier than traditional climbing?",
+      "options": {
+        "A": "The author believes that sport climbing is a more relaxed and recreational pursuit.",
+        "B": "The author argues that sport climbing requires less skill, strength, and strategy than traditional climbing.",
+        "C": "The author thinks there's a misconception that sport climbing is somehow \"easier\" or less challenging than traditional climbing.",
+        "D": "The author views sport climbing as inferior to traditional climbing."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Lynn Hill mean by \"maybe even more so\" in the following sentence?",
+      "options": {
+        "A": "She means that she relies more on her own physical ability.",
+        "B": "She thinks sport climbers use their equipment more effectively than trad climbers.",
+        "C": "She suggests that sport climbing requires greater technical expertise due to its reliance on equipment.",
+        "D": "She believes that traditional climbing is safer overall."
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about the conflict between traditional and sport climbing?",
+      "options": {
+        "A": "The debate between trad and sport climbing will lead to one style becoming extinct.",
+        "B": "Both traditional and sport climbing have their own unique rewards and challenges, and a hybrid approach is emerging in the climbing community.",
+        "C": "Traditional climbing is superior to sport climbing due to its emphasis on self-sufficiency and physical endurance.",
+        "D": "The conflict between trad and sport climbing reflects a battle for dominance within the climbing world."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

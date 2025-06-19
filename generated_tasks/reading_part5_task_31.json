@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_31",
+  "title": "Reaching New Heights: The Unstoppable Dreams of Olympic Climbers",
+  "topic": "general",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "As she stood at the base of the towering rock face, Emily gazed up at the sheer wall with a mix of awe and trepidation. She had spent years honing her craft, training tirelessly to become one of the world's top climbers. Now, as an Olympic hopeful, every rope placement, every handhold, and every breath counted.\n\n\"Focus, Em!\" her coach, Rachel, called out from behind her. \"You've got this!\"\n\nEmily took a deep breath, visualizing herself scaling the wall with ease. She pictured the route, memorized it, and imagined the feeling of triumph as she reached the top. But doubts crept in – what if she messed up? What if she fell?\n\nRachel's words echoed in her mind: \"It's not just about the physical strength; it's mental toughness too.\" Emily knew Rachel was right. Climbing at this level demanded more than just brawn – it required a clear head and unshakeable confidence.\n\nAs she began to ascend, Emily felt her heart rate increase. Her hands gripped the holds with sweat-drenched palms, and her feet searched for secure footing on the uneven rock face. The wall seemed to loom over her, its darkness an intimidating abyss.\n\nBack in the States, Emily's training partner, Matt, was going through a similar struggle. They'd been friends since college, bonding over their shared passion for climbing. Matt had always idolized Emily, admiring her fearless attitude and relentless drive.\n\n\"What's holding you back, Em?\" he asked during one of their Skype calls, as they reviewed footage of her latest competition.\n\nEmily hesitated before answering, unsure how much to reveal. \"It's just...the pressure to perform,\" she admitted finally. \"The Olympics are on the horizon, and I feel like all eyes are on me.\"\n\nMatt nodded sympathetically. \"You're not alone in this feeling, Em. We all go through it. Just remember why you started climbing in the first place – for the love of the sport.\"\n\nEmily smiled wryly, recalling her early days as a climber. She'd been captivated by the sense of freedom and adventure that came with exploring new routes and pushing herself to new heights.\n\nBut now, as an Olympic hopeful, those feelings were tempered by the weight of expectation. Emily knew she had to silence her doubts and trust her training. Every climb, every fall, every victory was a lesson learned – and one step closer to realizing her dream.\n\nRachel's voice cut through the mental chatter in her head. \"Emily, what are you doing? You're not even moving!\"\n\nEmily snapped back into focus, her gaze darting upward as she searched for handholds. With renewed determination, she began to ascend once more, her fingers finding holds and her feet digging into crevices. The wall was still daunting, but with each passing moment, Emily's confidence grew.\n\nShe'd been a climber since childhood, always drawn to the raw power of nature. Now, as an Olympic athlete, she understood that the real challenge wasn't just about conquering the rock face – it was about facing her own fears and doubts head-on.\n\nAs she neared the top, Emily felt a surge of exhilaration course through her veins. She'd made it past the hardest part; now all she had to do was focus on crossing the finish line. The roar of the crowd in her mind grew louder – she was almost there.\n\nAnd when she finally reached the summit, Emily's tears of joy mingled with sweat and exhaustion. In this moment, nothing else mattered except for the rush of triumph that coursed through her veins like liquid gold.\n\nThe climb may have been a test of physical strength, but it was also a mental battle – one that required unwavering resolve and trust in oneself. Emily's dream of becoming an Olympic climber had taken shape on this very wall, forged from sweat, tears, and the unyielding desire to push beyond her limits.\n\nAs she stood tall at the summit, Emily knew she'd overcome far more than just a challenging route – she'd faced her own fears and doubts, emerging stronger and wiser. The Olympics may be a distant goal, but with each passing day, Emily felt herself drawing closer to realizing that dream.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "According to the text, what was the main reason for Emily's hesitation during her training?",
+      "options": {
+        "A": "She was worried about falling and injuring herself",
+        "B": "She was under pressure from her coach to perform well",
+        "C": "She was struggling with self-doubt and fear of failure",
+        "D": "She was uncertain about her decision to compete in the Olympics"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"unyielding\" primarily mean in this context?",
+      "options": {
+        "A": "Reluctant to change or compromise",
+        "B": "Resolutely determined and firm in one's convictions",
+        "C": "Willingly flexible and adaptable",
+        "D": "Easily influenced by others' opinions"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the name of Emily's training partner who she talks to on Skype?",
+      "options": {
+        "A": "Matt",
+        "B": "Rachel",
+        "C": "Jack",
+        "D": "Alex"
+      },
+      "correct_answer": "A",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Emily's attitude towards facing her doubts and fears as an Olympic hopeful?",
+      "options": {
+        "A": "She is eager to confront them head-on",
+        "B": "She feels overwhelmed by their weight and pressure",
+        "C": "She believes they will never disappear, but she can learn to live with them",
+        "D": "She thinks she has overcome them for good"
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Who had always idolized Emily for her fearless attitude and relentless drive?",
+      "options": {
+        "A": "Rachel, her coach",
+        "B": "Matt, her training partner",
+        "C": "The crowd of spectators at the Olympics",
+        "D": "Emily's parents from childhood"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of the text about Emily's Olympic climbing aspirations?",
+      "options": {
+        "A": "Emily's struggles as an Olympic hopeful climber are primarily due to a lack of physical strength.",
+        "B": "The text describes the mental and emotional challenges that Emily faces as she strives to become an Olympic climber.",
+        "C": "Emily's dream of becoming an Olympic climber is hindered by her fear of failure and lack of experience.",
+        "D": "Climbing at the Olympic level requires only physical endurance, not mental toughness."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

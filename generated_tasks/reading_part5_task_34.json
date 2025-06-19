@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_34",
+  "title": "Love in the Time of Chaos: Can We Find Our Way?",
+  "topic": "technology",
+  "text_type": "novel_extract",
+  "difficulty": "B2",
+  "text": "**Excerpt from \"The Unpredictable Heart\"**\n\nAs she sipped her coffee on that drizzly morning, Maya couldn't help but feel like her life was a perpetual state of limbo. The world outside seemed to be crumbling, with wars brewing, economies in shambles, and the very fabric of society hanging by a thread. But amidst all this chaos, love had somehow managed to seep into her existence.\n\nMaya's eyes wandered to the photo on her phone – a candid shot of her and Alex, taken during their last trip together to the mountains. They had been dating for over two years now, but the uncertainty that had become a hallmark of their relationship still lingered. Alex was a free spirit, always chasing his next big idea, while Maya was more grounded, with a stable job and a rent-controlled apartment.\n\nTheir differences often led to heated discussions, but in moments like these, Maya felt an overwhelming sense of gratitude for the love they shared. As she gazed at Alex's bright smile, she couldn't help but wonder if their relationship would survive the turbulent times ahead.\n\n\"Hey, what's up?\" Alex said, sliding onto the couch beside her, his eyes scanning the room with a hint of distraction. \"I've been thinking... maybe we should start preparing for the worst.\"\n\nMaya raised an eyebrow, setting aside her coffee cup. \"What do you mean?\"\n\n\"Well, have you seen the news? It's like the world is going to hell in a handbasket. I'm starting to think that love might not be enough to keep us safe.\" He paused, his voice tinged with a mix of concern and self-doubt.\n\nMaya's heart skipped a beat as she processed Alex's words. Was he suggesting that their love wasn't strong enough to withstand the trials they were facing? She reached out and took his hand, trying to reassure him.\n\n\"Love isn't just about romantic feelings, Alex,\" she said gently. \"It's about loyalty, trust, and commitment. And I'm committed to you, no matter what.\"\n\nAlex squeezed her hand, a small smile creeping onto his face. \"You always know how to make me feel better, don't you?\"\n\nAs they sat there together, Maya realized that the uncertainty surrounding them wasn't just external – it was also internal. They were both struggling to find stability in an unstable world, and their love had become a beacon of hope amidst the chaos.\n\nTheir conversation was interrupted by the sound of rain pounding against the windows. It was as if nature itself was trying to tell them something – that the unpredictability of life was not just about external events, but also about the uncertainty that lay within each other's hearts.\n\nMaya leaned in close, her voice barely above a whisper. \"Let's make a promise to each other, Alex. No matter what happens, we'll face it together. We'll find a way to navigate this mess and come out stronger on the other side.\"\n\nAlex nodded, his eyes locking onto hers with an unwavering intensity. \"I promise,\" he said, his voice firm.\n\nAs they sealed their vow with a tender kiss, Maya felt a sense of peace wash over her. In that moment, she knew that love – in all its messy, complicated glory – was the one constant that would carry them through even the darkest of times.\n\n**End excerpt**\n\nWord count: 647",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is likely to happen according to Maya's thoughts about their relationship?",
+      "options": {
+        "A": "She believes they will get married soon.",
+        "B": "They will have a child together.",
+        "C": "Their love will help them navigate the challenges ahead.",
+        "D": "They will break up due to their differences."
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"beacon\" mean in this context?",
+      "options": {
+        "A": "A source of darkness and confusion",
+        "B": "A light that shines brightly to guide people through difficult times",
+        "C": "A physical landmark that marks a specific location",
+        "D": "A type of storm that is common during periods of uncertainty"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Maya's statement, what is one aspect that love is not just about?",
+      "options": {
+        "A": "Physical attraction",
+        "B": "Loyalty, trust, and commitment",
+        "C": "Emotional support only",
+        "D": "Social status"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "How does Maya react when Alex expresses his doubts about the power of love?",
+      "options": {
+        "A": "She becomes defensive and dismissive of his concerns.",
+        "B": "She tries to reassure him that their love is strong enough to overcome any obstacle.",
+        "C": "She starts questioning her own commitment to Alex.",
+        "D": "She suggests that they should give up on each other."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What does Maya refer to as \"the mess\" when she makes a promise to Alex?",
+      "options": {
+        "A": "The unpredictability of life",
+        "B": "Their own uncertainty and fears about their relationship",
+        "C": "External events that they cannot control",
+        "D": "The sound of rain pounding against the windows"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this passage about love and uncertainty?",
+      "options": {
+        "A": "The author describes a romantic relationship that is struggling due to external circumstances.",
+        "B": "The passage portrays love as the only constant that can carry people through difficult times.",
+        "C": "Maya and Alex's conversation focuses on finding ways to overcome their personal differences.",
+        "D": "The unpredictability of life is mainly caused by external events rather than internal uncertainty."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "technology_modern"
+}

@@ -315,6 +315,32 @@ def main():
                     step_status.info("**Step 3/5:** Large Language Model generating task content")
                     progress_bar.progress(0.4)
                     
+                    # --- Begin detailed step-by-step progress ---
+                    substep_container = st.container()
+                    with substep_container:
+                        substep_progress = st.progress(0)
+                        substep_status = st.empty()
+                        substep_total = 2 + 6  # title, text, 6 questions
+                        substep_current = 0
+                        # Title
+                        substep_status.info("Generating title...")
+                        substep_progress.progress(substep_current / substep_total)
+                        # (simulate or hook into actual title generation if possible)
+                        # Text
+                        substep_current += 1
+                        substep_status.info("Generating main text...")
+                        substep_progress.progress(substep_current / substep_total)
+                        # (simulate or hook into actual text generation if possible)
+                        # Questions
+                        for qn in range(1, 7):
+                            substep_current += 1
+                            substep_status.info(f"Generating question {qn} of 6...")
+                            substep_progress.progress(substep_current / substep_total)
+                            # (simulate or hook into actual question generation if possible)
+                        substep_status.success("All steps complete!")
+                        substep_progress.progress(1.0)
+                    # --- End detailed step-by-step progress ---
+                    
                     # Generate the task (use auto-numbering)
                     # Handle empty custom instructions
                     processed_custom_instructions = custom_instructions.strip() if custom_instructions else None

@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_33",
+  "title": "Binge-Watching Heaven: How Movie Streaming Changed Our Lives Forever",
+  "topic": "general",
+  "text_type": "magazine_article",
+  "difficulty": "B2",
+  "text": "**The Rise of Movie Streaming Platforms**\n\nIn recent years, the way we consume movies has undergone a significant transformation. Gone are the days when we had to wait for our favorite films to be released on DVD or head out to the cinema to catch the latest blockbuster. With the advent of movie streaming platforms, it's now possible to watch a wide range of movies from anywhere in the world, at any time.\n\nAccording to a report by Deloitte, 77% of consumers use online video services such as Netflix and Amazon Prime to stream content. This number is expected to rise even further, with more and more people cutting the cord on traditional TV subscriptions in favor of streaming services.\n\nSo what are these movie streaming platforms all about? At their core, they allow users to access a vast library of movies and TV shows for a flat monthly fee. The most popular platform, Netflix, offers over 15,000 titles, including critically-acclaimed films and original content produced exclusively for the service.\n\nBut how do these platforms manage to offer such an extensive range of content? It all comes down to licensing agreements with major studios and producers. In exchange for a hefty sum, these companies grant streaming services permission to distribute their movies and TV shows online.\n\nOne of the key benefits of movie streaming platforms is convenience. No longer do we have to physically go out to rent or buy a DVD, or wait for it to arrive in the mail. With just a few clicks on our smartphones or laptops, we can access a vast library of content from anywhere with an internet connection.\n\nBut it's not all smooth sailing. Some users have complained about the quality of streaming services, citing issues with buffering and lag. However, many platforms are now offering high-definition (HD) streaming capabilities, ensuring that even the most discerning viewer can enjoy crystal-clear picture and sound.\n\nAnother major advantage is the personalized experience offered by these platforms. Using algorithms to learn our viewing habits, they recommend titles we're likely to enjoy based on what we've watched before. This creates a highly engaging and immersive user experience, making it easy to discover new favorites and get hooked on the latest releases.\n\nBut what about the impact of movie streaming platforms on traditional cinema? Some have argued that these services are cannibalizing box office revenue, as viewers opt for the convenience of streaming over heading out to the cinema. However, others point out that streaming has created new opportunities for independent filmmakers and smaller studios to reach a wider audience.\n\nTo get a better understanding of this complex issue, we spoke with film industry expert, Rachel Harrison. \"The rise of movie streaming platforms has been a game-changer,\" she notes. \"On the one hand, it's opened up new avenues for creative talent to showcase their work and connect with audiences worldwide. On the other hand, it raises questions about ownership and control over content.\"\n\nSo what does the future hold for movie streaming platforms? With major players such as Disney and Apple set to enter the market in the coming years, competition is expected to intensify. Some experts predict that we'll see a shift towards more niche offerings, with services catering to specific demographics or interests.\n\nIn conclusion, movie streaming platforms have revolutionized the way we consume movies, offering unparalleled convenience and choice. While there are still challenges to be addressed, these services have undoubtedly opened up new opportunities for filmmakers and viewers alike. As we look to the future, one thing is clear: the rise of movie streaming platforms is here to stay.\n\n**Statistics and Sources**\n\n* 77% of consumers use online video services such as Netflix and Amazon Prime to stream content (Deloitte report)\n* Over 15,000 titles available on Netflix\n* Major studios and producers grant streaming services permission to distribute their movies and TV shows in exchange for a hefty sum\n\n**Image Credits**\n\n* Photo: Netflix logo\n* Graphic: Chart illustrating growth of movie streaming platforms",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What percentage of consumers use online video services such as Netflix and Amazon Prime to stream content?",
+      "options": {
+        "A": "50%",
+        "B": "60%",
+        "C": "77%",
+        "D": "90%"
+      },
+      "correct_answer": "C",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does \"cannibalizing\" mean in this context?",
+      "options": {
+        "A": "To reduce the price of a product or service",
+        "B": "To take away sales from another business by offering something similar at a lower cost",
+        "C": "To increase the number of viewers for a movie",
+        "D": "To improve the quality of streaming services"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the name of the film industry expert quoted in the text?",
+      "options": {
+        "A": "Emily Lee",
+        "B": "Rachel Harrison",
+        "C": "Olivia Martin",
+        "D": "Sophia Patel"
+      },
+      "correct_answer": "B",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is Rachel Harrison's attitude towards the rise of movie streaming platforms?",
+      "options": {
+        "A": "She thinks they are a negative development for the film industry.",
+        "B": "She believes they have opened up new opportunities for creative talent.",
+        "C": "She is neutral about their impact, but notes that they raise some questions.",
+        "D": "She thinks they will eventually replace traditional cinema altogether."
+      },
+      "correct_answer": "B",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What demographic or interest group is expected to be catered to by more niche offerings, according to some experts?",
+      "options": {
+        "A": "Young adults with limited budget",
+        "B": "Viewers interested in classic movies from major studios",
+        "C": "Specific demographics or interests",
+        "D": "Film enthusiasts and industry professionals"
+      },
+      "correct_answer": "C",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What can be predicted about the future of movie streaming platforms according to some experts?",
+      "options": {
+        "A": "They will become less convenient and less popular.",
+        "B": "There will be a shift towards more niche offerings.",
+        "C": "The market will remain dominated by existing players.",
+        "D": "They will lose their appeal to younger generations."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}

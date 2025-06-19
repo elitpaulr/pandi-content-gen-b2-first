@@ -1,0 +1,90 @@
+{
+  "task_id": "reading_part5_task_29",
+  "title": "How Olympic Climbers Fuel Their Bodies for Maximum Performance",
+  "topic": "health_and_fitness",
+  "text_type": "science_article",
+  "difficulty": "B2",
+  "text": "As we watch Olympic climbers scale vertical walls with ease, it's hard not to wonder what fuels their incredible physical prowess. While it's true that dedication, training, and natural ability all play a role in their success, nutrition is also an essential component of an elite climber's arsenal.\n\nClimbing is a sport that requires explosive strength, endurance, and power – qualities that can only be achieved by consuming the right foods at the right time. In fact, research has shown that even minor fluctuations in nutrient intake can impact performance on the wall. So what does an Olympic climber eat to optimize their chances of standing atop the podium?\n\nCarbohydrates: The Energy Source\n\nFor climbers, carbohydrates are the primary source of energy for high-intensity activities like climbing. These complex sugars break down into glucose during digestion and provide a readily available fuel for muscles to use. Whole grains, fruits, and vegetables are all rich in carbs, making them staple foods for elite climbers.\n\nHowever, not all carbs are created equal. Elite climber Alex Honnold swears by a diet high in slow-burning carbohydrates – think sweet potatoes, brown rice, and whole wheat bread – which provide sustained energy over longer periods of time. \"I've found that if I eat too many sugary snacks before climbing,\" he explains, \"I get a quick boost but then crash hard.\"\n\nProtein: The Building Block\n\nWhile carbs supply the immediate energy needs of climbers, protein is essential for building and repairing muscle tissue damaged during intense activity. As climbers push their bodies to new heights (literally), they require adequate protein intake to recover and adapt.\n\nAccording to sports dietitian Dr. Stacy Sims, \"Climbers need a balanced mix of 15-20% protein in their diet to support muscle repair and growth.\" Examples of high-protein foods include lean meats like chicken and fish, eggs, dairy products, and plant-based options such as beans and lentils.\n\nHydration: The Essential Component\n\nProper hydration is just as crucial for climbers as nutrition. Even mild dehydration can lead to decreased strength, speed, and coordination – all of which are critical for success on the wall.\n\nTo stay hydrated, elite climbers focus on drinking plenty of water throughout the day, with additional electrolyte-rich beverages like coconut water or sports drinks before and after intense climbing sessions. \"I make sure to drink at least 3 liters of water per day,\" says Olympic climber Janja Garnbret. \"It's not just about staying hydrated – it's also about maintaining a healthy gut microbiome.\"\n\nFat: The Often-Overlooked Macronutrient\n\nWhile carbs and protein get most of the attention, fat is an essential component of a balanced diet for climbers. Good fats like omega-3s found in fatty fish, nuts, and seeds support heart health and reduce inflammation.\n\nDr. Sims notes that \"a small amount of healthy fat at each meal can help slow down carbohydrate digestion and provide sustained energy.\" For example, adding a handful of almonds to oatmeal or avocado slices to sandwiches can make a big difference in fueling long climbs.\n\nTiming is Everything\n\nIn addition to the types of foods climbers eat, timing is also critical. A well-planned meal schedule ensures that muscles are fueled with the right nutrients at the right time. Elite climbers often eat complex carbohydrates and protein-rich meals 2-3 hours before climbing, with lighter snacks or energy gels during breaks.\n\nFor example, Olympic climber Nathaniel Coleman swears by a pre-climb breakfast of scrambled eggs, whole wheat toast, and banana – all foods that provide sustained energy without causing digestive issues. \"I find that if I eat too much sugar or caffeine before climbing,\" he explains, \"I get jitters and my muscles feel weak.\"\n\nIn conclusion, the diet of an Olympic climber is a carefully crafted balance of complex carbohydrates, lean protein sources, healthy fats, and adequate hydration. By focusing on whole foods and timing their meals correctly, elite climbers can optimize their performance on the wall and take home the gold. As Alex Honnold puts it, \"The right food at the right time is like having a secret superpower – it lets you climb higher, farther, and faster than anyone else.\"",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What can be inferred about Alex Honnold's climbing performance when he eats too many sugary snacks before climbing?",
+      "options": {
+        "A": "He experiences improved endurance and power",
+        "B": "He gets a quick boost but then crashes hard",
+        "C": "His muscles feel stronger, but his mind is foggy",
+        "D": "He feels no difference in his performance"
+      },
+      "correct_answer": "B",
+      "question_type": "inference"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does Dr. Sims mean by saying that climbers need to slow down carbohydrate digestion?",
+      "options": {
+        "A": "To increase their energy levels quickly",
+        "B": "To provide sustained energy over longer periods of time",
+        "C": "To reduce inflammation and support heart health",
+        "D": "To maintain a healthy gut microbiome"
+      },
+      "correct_answer": "B",
+      "question_type": "vocabulary"
+    },
+    {
+      "question_number": 3,
+      "question_text": "According to Dr. Stacy Sims, what percentage of protein do climbers need in their diet to support muscle repair and growth?",
+      "options": {
+        "A": "10-15%",
+        "B": "12-18%",
+        "C": "15-20%",
+        "D": "25-30%"
+      },
+      "correct_answer": "C",
+      "question_type": "detail"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the author's opinion about sugary snacks for Olympic climbers?",
+      "options": {
+        "A": "Sugary snacks are essential for providing quick energy boosts before climbing.",
+        "B": "The author believes that sugary snacks can be beneficial if consumed at the right time.",
+        "C": "Sugary snacks can lead to a crash in performance and are generally not recommended.",
+        "D": "The author is neutral about the role of sugary snacks in an Olympic climber's diet."
+      },
+      "correct_answer": "C",
+      "question_type": "attitude"
+    },
+    {
+      "question_number": 5,
+      "question_text": "According to Dr. Stacy Sims, what percentage of protein should climbers aim for in their diet?",
+      "options": {
+        "A": "5-10%",
+        "B": "15-20%",
+        "C": "25-30%",
+        "D": "35-40%"
+      },
+      "correct_answer": "B",
+      "question_type": "reference"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main idea of this text about Olympic climbers' diet?",
+      "options": {
+        "A": "Elite climbers' diets are based on following popular fad diets.",
+        "B": "The right foods at the right time give elite climbers a secret superpower to climb higher and faster.",
+        "C": "Climbers can achieve success without paying attention to their nutrition.",
+        "D": "A balanced diet is not necessary for Olympic athletes, as long as they train hard."
+      },
+      "correct_answer": "B",
+      "question_type": "main_idea"
+    }
+  ],
+  "generated_by": "ollama",
+  "model": "llama3.1:8b",
+  "generation_params": {
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "model_full_name": "llama3.1:8b"
+  },
+  "topic_category": "general"
+}
