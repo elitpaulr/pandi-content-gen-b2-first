@@ -124,9 +124,10 @@ class UIComponents:
                 
                 if interactive:
                     # Interactive mode for students
+                    option_keys = [''] + list(options.keys())
                     selected = st.radio(
                         f"Select your answer for Question {i}:",
-                        options=[''] + list(options.keys()),
+                        option_keys,
                         format_func=lambda x: f"{x}: {options.get(x, 'Select an option')}" if x else "Select an option",
                         key=f"q_{i}"
                     )
@@ -138,7 +139,7 @@ class UIComponents:
                         if show_answers and opt_key == correct_answer:
                             st.success(f"✅ **{opt_key}**: {opt_text}")
                         else:
-                            st.write(f"**{opt_key}**: {opt_text}")
+                            st.markdown(f"**{opt_key}**: {opt_text}")
                 
                 if show_answers and correct_answer:
                     st.info(f"**Correct Answer:** {correct_answer}")

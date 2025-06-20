@@ -1833,6 +1833,10 @@ def main():
 
 def display_task_learner_view(task):
     """Display a task in a nicely formatted learner view"""
+    # Initialize session state for showing answers
+    if 'show_answers' not in st.session_state:
+        st.session_state.show_answers = False
+
     # Display task header with metadata
     ui_components.display_task_header(task, show_qa_status=False)
     
@@ -1865,11 +1869,11 @@ def display_task_learner_view(task):
         ui_components.display_reading_text(task, container_type="container")
     
     with col2:
-        ui_components.display_questions(task, show_answers=True, interactive=False)
+        ui_components.display_questions(task, show_answers=st.session_state.show_answers, interactive=False)
     
     # Action buttons
     st.divider()
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
     
     with col1:
         # Filter out non-serializable fields for download
@@ -1892,6 +1896,11 @@ def display_task_learner_view(task):
             # Filter out non-serializable fields for JSON display
             task_data_clean = task_service.clean_task_for_json(task)
             st.json(task_data_clean)
+    
+    with col4:
+        if st.button("👁️ Reveal Answers", key=f"reveal_{task.get('task_id', 'unknown')}"):
+            st.session_state.show_answers = not st.session_state.show_answers
+            st.rerun()
 
 def display_task_summary_view(task):
     """Display a task in summary card format"""
@@ -1959,6 +1968,10 @@ def display_task_json_view(task):
 
 def display_task_learner_view_simple(task, context="batch"):
     """Display a task in a simplified learner view without expanders (for batch view)"""
+    # Initialize session state for showing answers
+    if f"show_answers_{context}" not in st.session_state:
+        st.session_state[f"show_answers_{context}"] = False
+
     # Display task header with metadata
     ui_components.display_task_header(task, show_qa_status=False)
     
@@ -1991,11 +2004,11 @@ def display_task_learner_view_simple(task, context="batch"):
         ui_components.display_reading_text(task, container_type="container")
     
     with col2:
-        ui_components.display_questions(task, show_answers=True, interactive=False)
+        ui_components.display_questions(task, show_answers=st.session_state[f"show_answers_{context}"], interactive=False)
     
     # Action buttons
     st.divider()
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
     
     with col1:
         # Filter out non-serializable fields for download
@@ -2014,6 +2027,73 @@ def display_task_learner_view_simple(task, context="batch"):
     
     with col3:
         if st.button("📊 View JSON", key=f"json_view_{context}_{task.get('task_id', 'unknown')}"):
+            # Filter out non-serializable fields for JSON display
+            task_data_clean = task_service.clean_task_for_json(task)
+            st.json(task_data_clean)
+    
+    with col4:
+        if st.button("👁️ Reveal Answers", key=f"reveal_{context}_{task.get('task_id', 'unknown')}"):
+            st.session_state[f"show_answers_{context}"] = not st.session_state[f"show_answers_{context}"]
+            st.rerun()
+
+def display_task_qa_view(task, task_file_path=None):
+    """Display a task in a QA review format"""
+    # Display task header with metadata
+    ui_components.display_task_header(task, show_qa_status=True)
+    
+    # Show custom instructions if available
+    if task.get('custom_instructions'):
+        st.markdown(f"**📝 Custom Instructions:** {task.get('custom_instructions')}")
+    
+    # Show generation parameters if available
+    gen_params = task.get('generation_params', {})
+    if gen_params:
+        with st.expander("🤖 Generation Parameters"):
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                st.metric("Model", gen_params.get('model_full_name', 'N/A'))
+            with col2:
+                temp = gen_params.get('temperature', 'N/A')
+                if isinstance(temp, (int, float)):
+                    st.metric("Temperature", f"{temp:.2f}")
+                else:
+                    st.metric("Temperature", str(temp))
+            with col3:
+                st.metric("Max Tokens", str(gen_params.get('max_tokens', 'N/A')))
+    
+    st.divider()
+    
+    # Create two columns for text and questions
+    col1, col2 = st.columns([1, 1])
+    
+    with col1:
+        ui_components.display_reading_text(task, container_type="container")
+    
+    with col2:
+        ui_components.display_questions(task, show_answers=True, interactive=True)
+    
+    # Action buttons
+    st.divider()
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        # Filter out non-serializable fields for download
+        task_data_clean = task_service.clean_task_for_json(task)
+        
+        st.download_button(
+            label="📥 Download JSON",
+            data=json.dumps(task_data_clean, indent=2),
+            file_name=f"{task.get('task_id', 'task')}.json",
+            mime="application/json",
+            key=f"download_qa_{task.get('task_id', 'unknown')}"
+        )
+    
+    with col2:
+        if st.button("📋 Copy Text Only", key=f"copy_text_qa_{task.get('task_id', 'unknown')}"):
+            st.code(task.get('text', ''), language=None)
+    
+    with col3:
+        if st.button("📊 View JSON", key=f"json_view_qa_{task.get('task_id', 'unknown')}"):
             # Filter out non-serializable fields for JSON display
             task_data_clean = task_service.clean_task_for_json(task)
             st.json(task_data_clean)

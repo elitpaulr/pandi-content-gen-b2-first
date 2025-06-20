@@ -346,3 +346,19 @@ Fix NoneType.format error in Streamlit app custom instructions
 5. Use appropriate logging levels
 
 Remember: Simplicity and reliability over complexity. When in doubt, choose the more straightforward approach. 
+
+
+## Collaboration Rules
+
+### Core Collaboration Principle
+**NEVER state that an action has been completed until it has been successfully executed with tools.**
+- Do not say "I have done X" until the tool execution confirms success
+- If a tool fails, acknowledge the failure and ask for guidance
+- Be explicit about what has been attempted vs. what has been completed
+- When stuck, provide clear options for moving forward rather than claiming completion
+
+### Communication Standards
+- Be honest about tool limitations and failures
+- Provide specific error messages when tools don't work as expected
+- Ask for user guidance when automated approaches fail
+- Document what was attempted and what the actual outcome was
