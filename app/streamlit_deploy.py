@@ -64,15 +64,16 @@ def main():
     🚧 **Demo Mode Active**
     
     This is a demonstration version of the B2 First Task Generator. 
-    LLM integration and task generation features are disabled for cloud deployment.
+    LLM integration, task generation, and QA review features are disabled for cloud deployment.
     
     **Available Features:**
     - ✅ Browse existing tasks and batches
     - ✅ View task library with filtering
-    - ✅ QA review interface
     - ✅ Task export and download
+    - ✅ Learner view with answer reveal
     - ❌ Task generation (requires local Ollama)
     - ❌ Batch generation (requires local Ollama)
+    - ❌ QA review interface (disabled for demo)
     """)
     
     # Sidebar configuration (disabled)
@@ -233,7 +234,7 @@ def main():
             with col2:
                 view_mode = st.selectbox(
                     "View Mode",
-                    ["🎓 Learner View", "📋 Summary", "🔧 Full Details", "🔍 QA Review"],
+                    ["🎓 Learner View", "📋 Summary", "🔧 Full Details"],
                     index=0,
                     key="main_view_mode"
                 )
@@ -287,24 +288,15 @@ def main():
                     )
                 
                 with col3:
-                    # QA Status filter
-                    qa_status_filter = st.selectbox(
-                        "Filter by QA Status",
-                        ["All Status", "⏳ Pending", "✅ Approved", "❌ Rejected"],
-                        index=0,
-                        key="individual_qa_status_filter"
-                    )
-                
-                with col4:
                     # Sort options
                     sort_option = st.selectbox(
                         "Sort by",
-                        ["Task ID ↑", "Task ID ↓", "Title A-Z", "Title Z-A", "Word Count ↑", "Word Count ↓", "Recent First", "QA Status"],
+                        ["Task ID ↑", "Task ID ↓", "Title A-Z", "Title Z-A", "Word Count ↑", "Word Count ↓", "Recent First"],
                         index=0,
                         key="individual_sort_option"
                     )
                 
-                with col5:
+                with col4:
                     # Search
                     search_term = st.text_input(
                         "Search",
@@ -320,11 +312,6 @@ def main():
                 
                 if text_type_filter != "All Types":
                     filtered_tasks = [task for task in filtered_tasks if task.get('text_type') == text_type_filter]
-                
-                if qa_status_filter != "All Status":
-                    status_map = {"⏳ Pending": "pending", "✅ Approved": "approved", "❌ Rejected": "rejected"}
-                    target_status = status_map.get(qa_status_filter, "pending")
-                    filtered_tasks = [task for task in filtered_tasks if task_service.get_task_qa_status(task) == target_status]
                 
                 if search_term:
                     search_lower = search_term.lower()
@@ -347,47 +334,22 @@ def main():
                     filtered_tasks.sort(key=lambda x: x.get('word_count', 0), reverse=True)
                 elif sort_option == "Recent First":
                     filtered_tasks.sort(key=lambda x: x.get('file_path', ''), reverse=True)
-                elif sort_option == "QA Status":
-                    filtered_tasks.sort(key=lambda x: task_service.get_task_qa_status(x))
                 
                 # Display filtered results
                 st.subheader(f"📋 Filtered Results ({len(filtered_tasks)} tasks)")
                 
                 # Quick metrics
-                col1, col2, col3, col4, col5, col6 = st.columns(6)
+                col1, col2, col3 = st.columns(3)
                 with col1:
                     st.metric("📄 Total", len(filtered_tasks))
                 with col2:
-                    approved_count = sum(1 for task in filtered_tasks if task_service.get_task_qa_status(task) == 'approved')
-                    st.metric("✅ Approved", approved_count)
-                with col3:
-                    pending_count = sum(1 for task in filtered_tasks if task_service.get_task_qa_status(task) == 'pending')
-                    st.metric("⏳ Pending", pending_count)
-                with col4:
-                    rejected_count = sum(1 for task in filtered_tasks if task_service.get_task_qa_status(task) == 'rejected')
-                    st.metric("❌ Rejected", rejected_count)
-                with col5:
                     if filtered_tasks:
                         avg_words = sum(task.get('word_count', 0) for task in filtered_tasks) / len(filtered_tasks)
                         st.metric("📊 Avg Words", f"{avg_words:.0f}")
-                with col6:
-                    if st.button("📥 Download Filtered", key="download_filtered_individual"):
-                        if filtered_tasks:
-                            import zipfile
-                            import io
-                            
-                            zip_buffer = io.BytesIO()
-                            with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zip_file:
-                                for task in filtered_tasks:
-                                    zip_file.write(task['file_path'], task['filename'])
-                            
-                            st.download_button(
-                                label="💾 Download ZIP",
-                                data=zip_buffer.getvalue(),
-                                file_name=f"b2_first_filtered_tasks_{len(filtered_tasks)}.zip",
-                                mime="application/zip",
-                                key="download_filtered_zip"
-                            )
+                with col3:
+                    if filtered_tasks:
+                        unique_topics = len(set(task.get('topic_category', 'Unknown') for task in filtered_tasks))
+                        st.metric("📚 Topics", unique_topics)
                 
                 if not filtered_tasks:
                     st.info("No tasks match the current filters.")
@@ -427,8 +389,6 @@ def main():
                         display_task_summary_view(selected_task)
                     elif view_mode == "🔧 Full Details":
                         display_task_json_view(selected_task)
-                    elif view_mode == "🔍 QA Review":
-                        display_task_qa_view(selected_task, selected_task.get('file_path'))
             
             # Batch Collections Section
             elif content_type == "📦 Batch Collections":
@@ -662,8 +622,6 @@ def main():
                                         display_task_summary_view(selected_batch_task)
                                     elif view_mode == "🔧 Full Details":
                                         display_task_json_view(selected_batch_task)
-                                    elif view_mode == "🔍 QA Review":
-                                        display_task_qa_view(selected_batch_task, selected_batch_task.get('file_path'))
                         else:
                             st.warning("No task files found in this batch.")
         else:
@@ -709,16 +667,19 @@ def main():
             
             This is a tool for generating Cambridge B2 First Reading Part 5 tasks using local LLM integration.
             
-            ### Features
-            - Generate authentic B2 First reading tasks
-            - Batch generation capabilities
-            - Task library with filtering and sorting
-            - QA review interface
-            - Export and download functionality
+            ### ✅ Available Features
+            - **Task Library**: Browse and view existing tasks
+            - **Batch Collections**: Access organized batch-generated content
+            - **Multiple View Modes**: Learner view, summary, and detailed views
+            - **Filtering & Search**: Find specific tasks by topic, text type, or keywords
+            - **Export Options**: Download individual tasks or entire batches
+            - **Answer Reveal**: Toggle answer visibility in learner view
             
-            ### Demo Mode
-            This version is running in demo mode with LLM features disabled.
-            To use full functionality, install locally with Ollama.
+            ### ❌ Disabled Features (Demo Mode)
+            - **Task Generation**: Requires local Ollama installation
+            - **Batch Generation**: Requires local Ollama installation
+            - **QA Review Interface**: Disabled for demo deployment
+            - **Task Improvement**: Requires LLM integration
             """)
 
 # Display functions (copied from main app)
@@ -917,68 +878,6 @@ def display_task_learner_view_simple(task, context="batch"):
         if st.button("👁️ Reveal Answers", key=f"reveal_{context}_{task.get('task_id', 'unknown')}"):
             st.session_state[f"show_answers_{context}"] = not st.session_state[f"show_answers_{context}"]
             st.rerun()
-
-def display_task_qa_view(task, task_file_path=None):
-    """Display a task in a QA review format"""
-    # Display task header with metadata
-    ui_components.display_task_header(task, show_qa_status=True)
-    
-    # Show custom instructions if available
-    if task.get('custom_instructions'):
-        st.markdown(f"**📝 Custom Instructions:** {task.get('custom_instructions')}")
-    
-    # Show generation parameters if available
-    gen_params = task.get('generation_params', {})
-    if gen_params:
-        with st.expander("🤖 Generation Parameters"):
-            col1, col2, col3 = st.columns(3)
-            with col1:
-                st.metric("Model", gen_params.get('model_full_name', 'N/A'))
-            with col2:
-                temp = gen_params.get('temperature', 'N/A')
-                if isinstance(temp, (int, float)):
-                    st.metric("Temperature", f"{temp:.2f}")
-                else:
-                    st.metric("Temperature", str(temp))
-            with col3:
-                st.metric("Max Tokens", str(gen_params.get('max_tokens', 'N/A')))
-    
-    st.divider()
-    
-    # Create two columns for text and questions
-    col1, col2 = st.columns([1, 1])
-    
-    with col1:
-        ui_components.display_reading_text(task, container_type="container")
-    
-    with col2:
-        ui_components.display_questions(task, show_answers=True, interactive=True)
-    
-    # Action buttons
-    st.divider()
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        # Filter out non-serializable fields for download
-        task_data_clean = task_service.clean_task_for_json(task)
-        
-        st.download_button(
-            label="📥 Download JSON",
-            data=json.dumps(task_data_clean, indent=2),
-            file_name=f"{task.get('task_id', 'task')}.json",
-            mime="application/json",
-            key=f"download_qa_{task.get('task_id', 'unknown')}"
-        )
-    
-    with col2:
-        if st.button("📋 Copy Text Only", key=f"copy_text_qa_{task.get('task_id', 'unknown')}"):
-            st.code(task.get('text', ''), language=None)
-    
-    with col3:
-        if st.button("📊 View JSON", key=f"json_view_qa_{task.get('task_id', 'unknown')}"):
-            # Filter out non-serializable fields for JSON display
-            task_data_clean = task_service.clean_task_for_json(task)
-            st.json(task_data_clean)
 
 if __name__ == "__main__":
     main()
